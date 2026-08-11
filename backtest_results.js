@@ -1,0 +1,208 @@
+window.backtestData = {
+  "strategy_name": "20-Day Range Breakout & Volume Expansion",
+  "tested_symbols_count": 25,
+  "overall_win_rate": 22.1,
+  "overall_avg_return_per_trade": -2.06,
+  "symbol_details": [
+    {
+      "symbol": "ACE.NS",
+      "total_trades": 9,
+      "win_rate": 44.4,
+      "avg_return": 1.8,
+      "total_wins": 4,
+      "total_losses": 5
+    },
+    {
+      "symbol": "ALANKIT.NS",
+      "total_trades": 2,
+      "win_rate": 0.0,
+      "avg_return": -3.17,
+      "total_wins": 0,
+      "total_losses": 2
+    },
+    {
+      "symbol": "ANANTRAJ.NS",
+      "total_trades": 6,
+      "win_rate": 0.0,
+      "avg_return": -7.0,
+      "total_wins": 0,
+      "total_losses": 6
+    },
+    {
+      "symbol": "ASIANTILES.NS",
+      "total_trades": 17,
+      "win_rate": 11.8,
+      "avg_return": -6.77,
+      "total_wins": 2,
+      "total_losses": 15
+    },
+    {
+      "symbol": "ATHERENERG.NS",
+      "total_trades": 18,
+      "win_rate": 44.4,
+      "avg_return": 4.86,
+      "total_wins": 8,
+      "total_losses": 10
+    },
+    {
+      "symbol": "AWL.NS",
+      "total_trades": 5,
+      "win_rate": 0.0,
+      "avg_return": -5.48,
+      "total_wins": 0,
+      "total_losses": 5
+    },
+    {
+      "symbol": "BAJAJHFL.NS",
+      "total_trades": 4,
+      "win_rate": 0.0,
+      "avg_return": -3.62,
+      "total_wins": 0,
+      "total_losses": 4
+    },
+    {
+      "symbol": "BAJAJHLDNG.NS",
+      "total_trades": 5,
+      "win_rate": 40.0,
+      "avg_return": -1.0,
+      "total_wins": 2,
+      "total_losses": 3
+    },
+    {
+      "symbol": "BAJFINANCE.NS",
+      "total_trades": 4,
+      "win_rate": 0.0,
+      "avg_return": -7.51,
+      "total_wins": 0,
+      "total_losses": 4
+    },
+    {
+      "symbol": "BBL.NS",
+      "total_trades": 12,
+      "win_rate": 8.3,
+      "avg_return": -5.54,
+      "total_wins": 1,
+      "total_losses": 11
+    },
+    {
+      "symbol": "BHARATCOAL.NS",
+      "total_trades": 7,
+      "win_rate": 0.0,
+      "avg_return": -6.06,
+      "total_wins": 0,
+      "total_losses": 7
+    },
+    {
+      "symbol": "BOROLTD.NS",
+      "total_trades": 2,
+      "win_rate": 50.0,
+      "avg_return": -0.32,
+      "total_wins": 1,
+      "total_losses": 1
+    },
+    {
+      "symbol": "BOROSCI.NS",
+      "total_trades": 11,
+      "win_rate": 36.4,
+      "avg_return": 0.81,
+      "total_wins": 4,
+      "total_losses": 7
+    },
+    {
+      "symbol": "CANBK.NS",
+      "total_trades": 15,
+      "win_rate": 53.3,
+      "avg_return": 4.28,
+      "total_wins": 8,
+      "total_losses": 7
+    },
+    {
+      "symbol": "CERA.NS",
+      "total_trades": 11,
+      "win_rate": 45.5,
+      "avg_return": 0.22,
+      "total_wins": 5,
+      "total_losses": 6
+    },
+    {
+      "symbol": "CHEMCON.NS",
+      "total_trades": 12,
+      "win_rate": 50.0,
+      "avg_return": 3.39,
+      "total_wins": 6,
+      "total_losses": 6
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "total_trades": 10,
+      "win_rate": 20.0,
+      "avg_return": -1.65,
+      "total_wins": 2,
+      "total_losses": 8
+    },
+    {
+      "symbol": "DCW.NS",
+      "total_trades": 9,
+      "win_rate": 0.0,
+      "avg_return": -6.7,
+      "total_wins": 0,
+      "total_losses": 9
+    },
+    {
+      "symbol": "DDEVPLSTIK.NS",
+      "total_trades": 3,
+      "win_rate": 66.7,
+      "avg_return": 4.43,
+      "total_wins": 2,
+      "total_losses": 1
+    },
+    {
+      "symbol": "DELHIVERY.NS",
+      "total_trades": 11,
+      "win_rate": 18.2,
+      "avg_return": -3.31,
+      "total_wins": 2,
+      "total_losses": 9
+    },
+    {
+      "symbol": "DELTACORP.NS",
+      "total_trades": 4,
+      "win_rate": 0.0,
+      "avg_return": -8.25,
+      "total_wins": 0,
+      "total_losses": 4
+    },
+    {
+      "symbol": "DEN.NS",
+      "total_trades": 4,
+      "win_rate": 0.0,
+      "avg_return": -6.18,
+      "total_wins": 0,
+      "total_losses": 4
+    },
+    {
+      "symbol": "DHANBANK.NS",
+      "total_trades": 12,
+      "win_rate": 41.7,
+      "avg_return": 6.19,
+      "total_wins": 5,
+      "total_losses": 7
+    },
+    {
+      "symbol": "E2E.NS",
+      "total_trades": 19,
+      "win_rate": 21.1,
+      "avg_return": 1.13,
+      "total_wins": 4,
+      "total_losses": 15
+    },
+    {
+      "symbol": "EDELWEISS.NS",
+      "total_trades": 14,
+      "win_rate": 0.0,
+      "avg_return": -6.13,
+      "total_wins": 0,
+      "total_losses": 14
+    }
+  ]
+};

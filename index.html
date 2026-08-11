@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Stock Market Intelligence & Screener | Daily 3 AM Analysis</title>
+  <meta name="description" content="Automated Indian stock analyzer for NSE/BSE. Fundamental, Technical, Shareholding, Corporate Actions, Breakout Signals, and Top 15 / Worst 5 recommendations.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-title">
+        <div class="brand-logo">IN</div>
+        <div>
+          <h1 class="brand-name">Indian Stock Screener & AI Analyst</h1>
+          <div class="brand-subtitle">NSE/BSE Fundamental & Technical Intelligence • Daily 3 AM Automation</div>
+        </div>
+      </div>
+
+      <div class="header-meta">
+        <div class="meta-pill">
+          <span class="status-dot"></span>
+          <span>Last Run: <strong id="last-updated">Loading...</strong></span>
+        </div>
+        <button class="btn-theme-toggle" onclick="toggleTheme()">
+          <span>🌙</span> Dark Mode
+        </button>
+        <button class="btn-refresh" onclick="location.reload()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg>
+          Refresh Data
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <main class="main-layout">
+
+    <!-- Interactive Key Metrics Bar (Quick Filter Shortcuts) -->
+    <section class="summary-grid">
+      <div class="stat-card clickable" onclick="quickFilterTab('tab-watchlist', 'ALL')" title="Click to view all scanned stocks">
+        <div class="stat-label">Total Stocks Scanned</div>
+        <div class="stat-value" id="stat-total-scanned">0</div>
+        <div class="stat-sub">NSE / BSE Equity Universe ➔</div>
+      </div>
+      <div class="stat-card clickable" onclick="quickFilterTab('tab-watchlist', 'BUY')" title="Click to view Long-Term Buy Signals">
+        <div class="stat-label">Long-Term Buy Signals</div>
+        <div class="stat-value positive" id="stat-strong-buys">0</div>
+        <div class="stat-sub">High Quality & ROE > 15% ➔</div>
+      </div>
+      <div class="stat-card clickable" onclick="quickFilterTab('tab-watchlist', 'BREAKOUT')" title="Click to view Swing Breakout Setups">
+        <div class="stat-label">Swing Breakout Setups</div>
+        <div class="stat-value positive" id="stat-breakouts">0</div>
+        <div class="stat-sub">10-60 Day Momentum Buy ➔</div>
+      </div>
+      <div class="stat-card clickable" onclick="quickFilterTab('tab-watchlist', 'EXIT')" title="Click to view High Debt & Red Flags">
+        <div class="stat-label">High Debt / Red Flags</div>
+        <div class="stat-value negative" id="stat-debt-warnings">0</div>
+        <div class="stat-sub">Debt-to-Equity & Pledge Alerts ➔</div>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" data-tab="tab-overview">🔥 Top 15 & Worst 5</button>
+      <button class="tab-btn" data-tab="tab-watchlist">📊 Spark Watchlist</button>
+      <button class="tab-btn" data-tab="tab-nifty250">📈 Nifty 250 Universe</button>
+      <button class="tab-btn" data-tab="tab-events">📰 Corporate Events & News</button>
+      <button class="tab-btn" data-tab="tab-backtest">⚡ Backtested Strategy</button>
+      <button class="tab-btn" data-tab="tab-manager">⚙️ Stock List Manager</button>
+    </nav>
+
+    <!-- Tab 1: Top 15 & Worst 5 -->
+    <div id="tab-overview" class="tab-content active">
+      <!-- Top 15 Section -->
+      <div class="section-title-group">
+        <h2 class="section-title" style="color: var(--accent-green)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+          Top 15 Performing Stocks (Combined Universe)
+        </h2>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Ranked across Spark Watchlist & Nifty 250 Universe</span>
+      </div>
+      <div id="top-15-grid" class="stock-cards-grid">
+        <!-- Dynamic Cards -->
+      </div>
+
+      <!-- Worst 5 Section -->
+      <div class="section-title-group">
+        <h2 class="section-title" style="color: var(--accent-rose)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>
+          Worst 5 Stocks (Red Flags / Caution / Exit)
+        </h2>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Flagged for Weak Financials, Technical Breakdown, or Debt/Pledge Risk</span>
+      </div>
+      <div id="worst-5-grid" class="stock-cards-grid">
+        <!-- Dynamic Cards -->
+      </div>
+    </div>
+
+    <!-- Tab 2: Spark Watchlist Stocks Table -->
+    <div id="tab-watchlist" class="tab-content">
+      <div class="table-controls">
+        <input type="text" id="stock-search" class="search-input" placeholder="Search by stock name (e.g. RELIANCE, TCS)...">
+        
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <select id="sector-filter" class="filter-select">
+            <option value="ALL">All Sectors</option>
+          </select>
+
+          <select id="signal-filter" class="filter-select">
+            <option value="ALL">All Signals</option>
+            <option value="BUY">Long Term Buy</option>
+            <option value="BREAKOUT">Swing Breakout</option>
+            <option value="EXIT">Exit / Caution</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Stock</th>
+              <th>Company Name</th>
+              <th>Sector</th>
+              <th>Price (₹)</th>
+              <th>Day Chg (%)</th>
+              <th>Score</th>
+              <th>Long Term</th>
+              <th>Swing (10-60D)</th>
+              <th>YoY Sales</th>
+              <th>ROE</th>
+              <th>Debt Status</th>
+            </tr>
+          </thead>
+          <tbody id="all-stocks-tbody">
+            <!-- Dynamic Table Rows -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 3: Nifty 250 Universe Table -->
+    <div id="tab-nifty250" class="tab-content">
+      <div class="table-controls">
+        <input type="text" id="nifty250-search" class="search-input" placeholder="Search Nifty 250 stock (e.g. DIXON, POLYCAB)...">
+        
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <select id="nifty250-sector-filter" class="filter-select">
+            <option value="ALL">All Sectors</option>
+          </select>
+
+          <select id="nifty250-signal-filter" class="filter-select">
+            <option value="ALL">All Signals</option>
+            <option value="BUY">Long Term Buy</option>
+            <option value="BREAKOUT">Swing Breakout</option>
+            <option value="EXIT">Exit / Caution</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Stock</th>
+              <th>Company Name</th>
+              <th>Sector</th>
+              <th>Price (₹)</th>
+              <th>Day Chg (%)</th>
+              <th>Score</th>
+              <th>Long Term</th>
+              <th>Swing (10-60D)</th>
+              <th>YoY Sales</th>
+              <th>ROE</th>
+              <th>Debt Status</th>
+            </tr>
+          </thead>
+          <tbody id="nifty250-tbody">
+            <!-- Dynamic Table Rows -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tab 4: Corporate Events & News Impact -->
+    <div id="tab-events" class="tab-content">
+      <div class="section-title-group">
+        <h2 class="section-title">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="14 3 14 8 19 8"></polyline></svg>
+          Corporate Events & News Impact Tracker
+        </h2>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Tracking Earnings, Ex-Dividends, News & Price Impact (Yesterday, Today, Tomorrow)</span>
+      </div>
+
+      <div class="table-controls" style="margin-bottom:16px;">
+        <select id="event-timeline-filter" class="filter-select" onchange="renderEventsTab()">
+          <option value="ALL">All Timelines (Yesterday / Today / Tomorrow)</option>
+          <option value="Today">Today's Events & News</option>
+          <option value="Yesterday">Yesterday's Events</option>
+          <option value="Tomorrow">Tomorrow & Upcoming</option>
+        </select>
+      </div>
+
+      <div id="events-timeline-container" class="stock-cards-grid">
+        <!-- Dynamic Corporate Events & Impact Cards -->
+      </div>
+    </div>
+
+    <!-- Tab 5: Backtested Strategy -->
+    <div id="tab-backtest" class="tab-content">
+      <div class="section-title-group">
+        <h2 class="section-title">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          20-Day Range Breakout Strategy Backtest
+        </h2>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Historical 1-Year Backtest Simulation for Swing Trades (10-60 Days)</span>
+      </div>
+      <div id="backtest-content">
+        <p style="color:var(--text-secondary);">Loading backtest data...</p>
+      </div>
+    </div>
+
+    <!-- Tab 6: Stock List Manager -->
+    <div id="tab-manager" class="tab-content">
+      <div class="section-title-group">
+        <h2 class="section-title">Manage Stock Watchlist & Google Sheet Sync</h2>
+      </div>
+
+      <div class="modal-box" style="margin-bottom:20px;">
+        <div class="modal-box-title">⚡ Connect Your Google Sheet</div>
+        <p style="color:var(--text-secondary); margin-bottom:12px;">
+          You can connect your live Google Sheet stock list directly! Ensure your Google Sheet is shared as <em>"Anyone with link can view"</em>.
+        </p>
+        <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap;">
+          <input type="text" id="gsheet-url-input" class="search-input" style="flex:1; min-width:300px;" placeholder="Paste Google Sheet URL (e.g. https://docs.google.com/spreadsheets/d/.../edit)">
+          <button class="btn-refresh" onclick="saveGoogleSheetConfig()">Save & Sync Google Sheet</button>
+        </div>
+        <div id="gsheet-status" style="margin-top:10px; font-size:0.85rem; color:var(--accent-green);"></div>
+      </div>
+
+      <div class="modal-box" style="margin-bottom:20px;">
+        <div class="modal-box-title">Direct File Edit (stocks.csv)</div>
+        <p style="color:var(--text-secondary); margin-bottom:12px;">
+          Alternatively, open <code>stocks.csv</code> in the project directory to edit symbols directly:
+        </p>
+        <p style="color:var(--text-secondary); background:rgba(0,0,0,0.3); padding:12px; border-radius:6px; font-family:monospace;">
+          symbol,name,sector,cap_type,tracking_notes<br>
+          RELIANCE.NS,Reliance Industries Ltd,Energy & Retail,Large Cap,Core Holding<br>
+          DIXON.NS,Dixon Technologies India,Electronics Manufacturing,Mid Cap,Spark Watchlist<br>
+          KEI.NS,KEI Industries Ltd,Cables & Wires,Mid Cap,Power Capex Leader
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Detail Modal -->
+  <div id="stock-modal" class="modal-overlay">
+    <div class="modal-container">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <h2 id="modal-stock-title" style="font-size: 1.4rem; color: var(--text-primary);">Stock Name</h2>
+      <div id="modal-stock-subtitle" style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px;">Sector Info</div>
+      <div id="modal-body">
+        <!-- Dynamic Modal Content -->
+      </div>
+    </div>
+  </div>
+
+  <script src="analysis_data.js"></script>
+  <script src="nifty250_data.js"></script>
+  <script src="backtest_results.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
