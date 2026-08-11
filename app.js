@@ -15,10 +15,14 @@ let nifty250Data = {
 let backtestData = null;
 
 document.addEventListener('DOMContentLoaded', () => {
-  initTabs();
-  initTheme();
-  loadData();
-  setupEventListeners();
+  try {
+    initTabs();
+    initTheme();
+    loadData();
+    setupEventListeners();
+  } catch (e) {
+    console.error("Initialization error:", e);
+  }
 });
 
 function initTheme() {
@@ -60,25 +64,27 @@ function initTabs() {
 }
 
 function quickFilterTab(tabId, filterSignal) {
-  // Activate Tab
-  document.querySelectorAll('.tab-btn').forEach(t => {
-    t.classList.toggle('active', t.getAttribute('data-tab') === tabId);
-  });
-  document.querySelectorAll('.tab-content').forEach(c => {
-    c.classList.toggle('active', c.id === tabId);
-  });
+  try {
+    document.querySelectorAll('.tab-btn').forEach(t => {
+      t.classList.toggle('active', t.getAttribute('data-tab') === tabId);
+    });
+    document.querySelectorAll('.tab-content').forEach(c => {
+      c.classList.toggle('active', c.id === tabId);
+    });
 
-  // Apply Filter Dropdown
-  const signalSelect = document.getElementById('signal-filter');
-  if (signalSelect) {
-    signalSelect.value = filterSignal;
-    signalSelect.dispatchEvent(new Event('change'));
+    const signalSelect = document.getElementById('signal-filter');
+    if (signalSelect) {
+      signalSelect.value = filterSignal;
+      signalSelect.dispatchEvent(new Event('change'));
+    }
+  } catch (e) {
+    console.error("quickFilterTab error:", e);
   }
 }
 
 function getCleanSymbol(sym) {
   if (!sym) return '';
-  return sym.replace('.NS', '').replace('.BO', '');
+  return String(sym).replace('.NS', '').replace('.BO', '');
 }
 
 function formatNum(val, decimals = 2) {
@@ -87,8 +93,8 @@ function formatNum(val, decimals = 2) {
 }
 
 function getCombinedStocks() {
-  const list1 = stockData.all_stocks || [];
-  const list2 = nifty250Data.all_stocks || [];
+  const list1 = (stockData && stockData.all_stocks) ? stockData.all_stocks : [];
+  const list2 = (nifty250Data && nifty250Data.all_stocks) ? nifty250Data.all_stocks : [];
   const map = new Map();
   list1.concat(list2).forEach(s => {
     if (s && s.symbol) {
@@ -96,12 +102,11 @@ function getCombinedStocks() {
     }
   });
   const all = Array.from(map.values());
-  all.sort((a, b) => b.composite_score - a.composite_score);
+  all.sort((a, b) => (b.composite_score || 0) - (a.composite_score || 0));
   return all;
 }
 
 async function loadData() {
-  // 1. Preloaded JS Fallbacks
   if (window.stockData && window.stockData.all_stocks && window.stockData.all_stocks.length > 0) {
     stockData = window.stockData;
   }
@@ -117,7 +122,6 @@ async function loadData() {
 
   renderAllViews();
 
-  // 2. Live HTTP Fetches
   try {
     const resp = await fetch('analysis_data.json?t=' + Date.now());
     if (resp.ok) {
@@ -150,29 +154,40 @@ async function loadData() {
 }
 
 function renderAllViews() {
-  renderSummary();
-  renderTop15();
-  renderWorst5();
-  renderAllStocksTable(stockData.all_stocks || [], 'all-stocks-tbody');
-  populateSectorFilter(stockData.all_stocks || [], 'sector-filter');
-  renderAllStocksTable(nifty250Data.all_stocks || [], 'nifty250-tbody');
-  populateSectorFilter(nifty250Data.all_stocks || [], 'nifty250-sector-filter');
-  renderEventsTab();
+  try { renderSummary(); } catch (e) { console.error("renderSummary error:", e); }
+  try { renderTop15(); } catch (e) { console.error("renderTop15 error:", e); }
+  try { renderWorst5(); } catch (e) { console.error("renderWorst5 error:", e); }
+  try { renderAllStocksTable(stockData.all_stocks || [], 'all-stocks-tbody'); } catch (e) { console.error("renderAllStocksTable spark error:", e); }
+  try { populateSectorFilter(stockData.all_stocks || [], 'sector-filter'); } catch (e) { console.error("populateSectorFilter spark error:", e); }
+  try { renderAllStocksTable(nifty250Data.all_stocks || [], 'nifty250-tbody'); } catch (e) { console.error("renderAllStocksTable nifty error:", e); }
+  try { populateSectorFilter(nifty250Data.all_stocks || [], 'nifty250-sector-filter'); } catch (e) { console.error("populateSectorFilter nifty error:", e); }
+  try { renderEventsTab(); } catch (e) { console.error("renderEventsTab error:", e); }
 }
 
 function renderSummary() {
   const combined = getCombinedStocks();
   const s = stockData.summary || {};
-  document.getElementById('last-updated').textContent = s.last_updated || 'Daily 3:00 AM Run Pending';
-  document.getElementById('stat-total-scanned').textContent = combined.length || 0;
-  document.getElementById('stat-strong-buys').textContent = combined.filter(s => ['STRONG BUY', 'ACCUMULATE'].includes(s.long_term_signal)).length;
-  document.getElementById('stat-breakouts').textContent = combined.filter(s => s.swing_signal === 'BREAKOUT BUY').length;
-  document.getElementById('stat-debt-warnings').textContent = combined.filter(s => (s.debt_status || '').includes('High Debt') || s.long_term_signal.includes('EXIT')).length;
+  const lastUpdatedEl = document.getElementById('last-updated');
+  if (lastUpdatedEl) lastUpdatedEl.textContent = s.last_updated || 'Daily 3:00 AM Run Pending';
+  
+  const scannedEl = document.getElementById('stat-total-scanned');
+  if (scannedEl) scannedEl.textContent = combined.length || 0;
+
+  const buysEl = document.getElementById('stat-strong-buys');
+  if (buysEl) buysEl.textContent = combined.filter(s => ['STRONG BUY', 'ACCUMULATE'].includes(s.long_term_signal || '')).length;
+
+  const breakoutsEl = document.getElementById('stat-breakouts');
+  if (breakoutsEl) breakoutsEl.textContent = combined.filter(s => (s.swing_signal || '') === 'BREAKOUT BUY').length;
+
+  const debtEl = document.getElementById('stat-debt-warnings');
+  if (debtEl) debtEl.textContent = combined.filter(s => (s.debt_status || '').includes('High Debt') || (s.long_term_signal || '').includes('EXIT')).length;
 }
 
 function createStockCardHTML(stock, isWorst=false) {
-  const changeClass = stock.day_change_pct >= 0 ? 'positive' : 'negative';
-  const changeSign = stock.day_change_pct >= 0 ? '+' : '';
+  if (!stock) return '';
+  const dayChg = stock.day_change_pct || 0;
+  const changeClass = dayChg >= 0 ? 'positive' : 'negative';
+  const changeSign = dayChg >= 0 ? '+' : '';
   const cardTypeClass = isWorst ? 'bearish' : 'bullish';
   const cleanSym = getCleanSymbol(stock.symbol);
 
@@ -181,11 +196,11 @@ function createStockCardHTML(stock, isWorst=false) {
       <div class="card-top">
         <div>
           <div class="card-symbol">${cleanSym}</div>
-          <div class="card-name">${stock.name}</div>
+          <div class="card-name">${stock.name || cleanSym}</div>
         </div>
         <div>
           <div class="card-price">₹${formatNum(stock.current_price, 2)}</div>
-          <div class="card-change ${changeClass}">${changeSign}${formatNum(stock.day_change_pct, 2)}%</div>
+          <div class="card-change ${changeClass}">${changeSign}${formatNum(dayChg, 2)}%</div>
         </div>
       </div>
 
@@ -200,7 +215,7 @@ function createStockCardHTML(stock, isWorst=false) {
         </div>
         <div class="metric-item">
           <span class="metric-lbl">ROE / Debt Status</span>
-          <span class="metric-val">${formatNum(stock.roe, 1)}% | ${stock.debt_status}</span>
+          <span class="metric-val">${formatNum(stock.roe, 1)}% | ${stock.debt_status || 'N/A'}</span>
         </div>
         <div class="metric-item">
           <span class="metric-lbl">Analyst Target</span>
@@ -209,10 +224,10 @@ function createStockCardHTML(stock, isWorst=false) {
       </div>
 
       <div class="signals-group">
-        <span class="badge ${getBadgeClass(stock.long_term_signal)}">LT: ${stock.long_term_signal}</span>
-        <span class="badge ${getBadgeClass(stock.swing_signal)}">Swing: ${stock.swing_signal}</span>
+        <span class="badge ${getBadgeClass(stock.long_term_signal)}">LT: ${stock.long_term_signal || 'HOLD'}</span>
+        <span class="badge ${getBadgeClass(stock.swing_signal)}">Swing: ${stock.swing_signal || 'NEUTRAL'}</span>
         ${stock.is_20d_high_breakout ? '<span class="badge badge-breakout">20D Breakout</span>' : ''}
-        ${stock.pledged_pct > 5 ? '<span class="badge badge-debt">Pledged: '+formatNum(stock.pledged_pct, 1)+'%</span>' : ''}
+        ${(stock.pledged_pct || 0) > 5 ? '<span class="badge badge-debt">Pledged: '+formatNum(stock.pledged_pct, 1)+'%</span>' : ''}
       </div>
     </div>
   `;
@@ -247,19 +262,19 @@ function renderAllStocksTable(stocks, tbodyId='all-stocks-tbody') {
   const tbody = document.getElementById(tbodyId);
   if (!tbody) return;
 
-  tbody.innerHTML = stocks.map((s, idx) => `
+  tbody.innerHTML = (stocks || []).map((s, idx) => `
     <tr onclick="openStockModal('${s.symbol}')">
       <td><strong>#${idx + 1} ${getCleanSymbol(s.symbol)}</strong></td>
-      <td>${s.name}</td>
-      <td><span class="badge badge-accumulate">${s.sector}</span></td>
+      <td>${s.name || getCleanSymbol(s.symbol)}</td>
+      <td><span class="badge badge-accumulate">${s.sector || 'General'}</span></td>
       <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
-      <td class="${s.day_change_pct >= 0 ? 'positive' : 'negative'}">${s.day_change_pct >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
+      <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
       <td><strong>${formatNum(s.composite_score, 1)}</strong></td>
-      <td><span class="badge ${getBadgeClass(s.long_term_signal)}">${s.long_term_signal}</span></td>
-      <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal}</span></td>
+      <td><span class="badge ${getBadgeClass(s.long_term_signal)}">${s.long_term_signal || 'HOLD'}</span></td>
+      <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal || 'NEUTRAL'}</span></td>
       <td>${formatNum(s.rev_growth_yoy, 1)}%</td>
       <td>${formatNum(s.roe, 1)}%</td>
-      <td>${s.debt_status}</td>
+      <td>${s.debt_status || 'Normal'}</td>
     </tr>
   `).join('');
 }
@@ -269,12 +284,12 @@ function renderEventsTab() {
   if (!container) return;
 
   const timelineFilter = document.getElementById('event-timeline-filter')?.value || 'ALL';
-  const selectedStocks = stockData.all_stocks || [];
+  const selectedStocks = (stockData && stockData.all_stocks) ? stockData.all_stocks : [];
   
   let allEvents = [];
   selectedStocks.forEach(s => {
     (s.events || []).forEach(e => {
-      allEvents.append ? allEvents.push({...e, stock: s}) : allEvents.push({...e, stock: s});
+      allEvents.push({...e, stock: s});
     });
   });
 
@@ -292,27 +307,27 @@ function renderEventsTab() {
       <div class="card-top">
         <div>
           <div class="card-symbol">${getCleanSymbol(e.stock.symbol)}</div>
-          <div class="card-name">${e.stock.name}</div>
+          <div class="card-name">${e.stock.name || getCleanSymbol(e.stock.symbol)}</div>
         </div>
         <div>
           <span class="badge ${e.date_tag === 'Today' ? 'badge-strong-buy' : 'badge-accumulate'}">${e.date_tag}</span>
         </div>
       </div>
 
-      <div class="modal-box-title" style="margin-top:6px; color:var(--text-primary); font-size:0.95rem;">${e.title}</div>
-      <p style="font-size:0.83rem; color:var(--text-secondary); margin:6px 0;">${e.summary}</p>
+      <div class="modal-box-title" style="margin-top:6px; color:var(--text-primary); font-size:0.95rem;">${e.title || 'Corporate Action'}</div>
+      <p style="font-size:0.83rem; color:var(--text-secondary); margin:6px 0;">${e.summary || ''}</p>
 
       <div class="card-metrics" style="margin-top:10px;">
         <div class="metric-item">
           <span class="metric-lbl">Event Type</span>
-          <span class="metric-val">${e.type}</span>
+          <span class="metric-val">${e.type || 'Announcement'}</span>
         </div>
         <div class="metric-item">
           <span class="metric-lbl">Expected Impact</span>
-          <span class="metric-val" style="color:var(--accent-cyan)">${e.impact}</span>
+          <span class="metric-val" style="color:var(--accent-cyan)">${e.impact || 'Neutral'}</span>
         </div>
       </div>
-      <p style="font-size:0.78rem; color:var(--text-muted); margin-top:4px;"><strong>Rationale:</strong> ${e.impact_reason}</p>
+      <p style="font-size:0.78rem; color:var(--text-secondary); margin-top:4px;"><strong>Rationale:</strong> ${e.impact_reason || 'Monitored for corporate development'}</p>
     </div>
   `).join('');
 }
@@ -320,7 +335,7 @@ function renderEventsTab() {
 function populateSectorFilter(stocks, selectId) {
   const select = document.getElementById(selectId);
   if (!select) return;
-  const sectors = [...new Set((stocks || []).map(s => s.sector))];
+  const sectors = [...new Set((stocks || []).map(s => s.sector).filter(Boolean))];
   select.innerHTML = '<option value="ALL">All Sectors</option>' + 
     sectors.map(sec => `<option value="${sec}">${sec}</option>`).join('');
 }
@@ -336,7 +351,7 @@ function setupEventListeners() {
     const signal = signalSelect?.value || 'ALL';
 
     const filtered = (stockData.all_stocks || []).filter(s => {
-      const matchQuery = getCleanSymbol(s.symbol).toLowerCase().includes(q) || s.name.toLowerCase().includes(q);
+      const matchQuery = getCleanSymbol(s.symbol).toLowerCase().includes(q) || (s.name || '').toLowerCase().includes(q);
       const matchSector = sector === 'ALL' || s.sector === sector;
       const matchSignal = signal === 'ALL' || (s.long_term_signal || '').includes(signal) || (s.swing_signal || '').includes(signal);
       return matchQuery && matchSector && matchSignal;
@@ -359,7 +374,7 @@ function setupEventListeners() {
     const signal = nSignalSelect?.value || 'ALL';
 
     const filtered = (nifty250Data.all_stocks || []).filter(s => {
-      const matchQuery = getCleanSymbol(s.symbol).toLowerCase().includes(q) || s.name.toLowerCase().includes(q);
+      const matchQuery = getCleanSymbol(s.symbol).toLowerCase().includes(q) || (s.name || '').toLowerCase().includes(q);
       const matchSector = sector === 'ALL' || s.sector === sector;
       const matchSignal = signal === 'ALL' || (s.long_term_signal || '').includes(signal) || (s.swing_signal || '').includes(signal);
       return matchQuery && matchSector && matchSignal;
@@ -379,8 +394,8 @@ function openStockModal(symbol) {
   if (!stock) return;
 
   const cleanSym = getCleanSymbol(stock.symbol);
-  document.getElementById('modal-stock-title').textContent = `${stock.name} (${cleanSym})`;
-  document.getElementById('modal-stock-subtitle').textContent = `${stock.sector} | ${stock.cap_type}`;
+  document.getElementById('modal-stock-title').textContent = `${stock.name || cleanSym} (${cleanSym})`;
+  document.getElementById('modal-stock-subtitle').textContent = `${stock.sector || 'General'} | ${stock.cap_type || 'Equity'}`;
   
   const content = document.getElementById('modal-body');
   content.innerHTML = `
@@ -399,7 +414,7 @@ function openStockModal(symbol) {
         <p><strong>YoY Sales Growth:</strong> ${formatNum(stock.rev_growth_yoy, 1)}%</p>
         <p><strong>YoY Profit Growth:</strong> ${formatNum(stock.earnings_growth_yoy, 1)}%</p>
         <p><strong>Return on Equity (ROE):</strong> ${formatNum(stock.roe, 1)}%</p>
-        <p><strong>Debt-to-Equity:</strong> ${formatNum(stock.debt_to_equity, 2)} (${stock.debt_status})</p>
+        <p><strong>Debt-to-Equity:</strong> ${formatNum(stock.debt_to_equity, 2)} (${stock.debt_status || 'Normal'})</p>
         <p><strong>P/E Ratio:</strong> ${formatNum(stock.pe_ratio, 2)}</p>
       </div>
 
@@ -416,7 +431,7 @@ function openStockModal(symbol) {
         <p><strong>Recommended Target 1:</strong> ₹${formatNum(stock.swing_target_1, 2)}</p>
         <p><strong>Target 2:</strong> ₹${formatNum(stock.swing_target_2, 2)}</p>
         <p><strong>Stop Loss:</strong> ₹${formatNum(stock.swing_stoploss, 2)}</p>
-        <p><strong>Intraday Setup:</strong> ${stock.intraday_signal}</p>
+        <p><strong>Intraday Setup:</strong> ${stock.intraday_signal || 'NEUTRAL'}</p>
       </div>
     </div>
 
@@ -472,7 +487,7 @@ function renderBacktestResults() {
     <div class="summary-grid">
       <div class="stat-card">
         <div class="stat-label">Tested Strategy</div>
-        <div class="stat-value" style="font-size:1.1rem; color:var(--accent-cyan);">${backtestData.strategy_name}</div>
+        <div class="stat-value" style="font-size:1.1rem; color:var(--accent-cyan);">${backtestData.strategy_name || '20D Breakout'}</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Overall Win Rate</div>
@@ -500,11 +515,11 @@ function renderBacktestResults() {
           ${(backtestData.symbol_details || []).map(b => `
             <tr>
               <td><strong>${getCleanSymbol(b.symbol)}</strong></td>
-              <td>${b.total_trades}</td>
-              <td class="positive">${b.total_wins}</td>
-              <td class="negative">${b.total_losses}</td>
+              <td>${b.total_trades || 0}</td>
+              <td class="positive">${b.total_wins || 0}</td>
+              <td class="negative">${b.total_losses || 0}</td>
               <td><strong>${formatNum(b.win_rate, 1)}%</strong></td>
-              <td class="${b.avg_return >= 0 ? 'positive':'negative'}">${b.avg_return >= 0 ? '+':''}${formatNum(b.avg_return, 2)}%</td>
+              <td class="${(b.avg_return || 0) >= 0 ? 'positive':'negative'}">${(b.avg_return || 0) >= 0 ? '+':''}${formatNum(b.avg_return, 2)}%</td>
             </tr>
           `).join('')}
         </tbody>
