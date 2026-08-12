@@ -80,38 +80,14 @@
         </div>
       </section>
 
-      <!-- Tab 1: Today's Action Watchlist & Breakout Performance Tracker -->
+      <!-- Tab 1: Today's Action Watchlist -->
       <div id="tab-today-action" class="tab-content active">
         <div class="section-title-group">
           <h2 class="section-title" style="color: var(--accent-cyan)">
-            🎯 Today's Action Watchlist & Breakout Strategy Tracker
+            🎯 Today's Action Watchlist (Fresh Breakouts Within 2% Distance)
           </h2>
-          <span style="font-size: 0.8rem; color: var(--text-secondary);">Highlights fresh completed breakouts and tracks strategy performance (Targets vs Stop Loss)</span>
+          <span style="font-size: 0.8rem; color: var(--text-secondary);">Filtered strictly for stocks where current price is within 2% of Breakout Level. Highlights completed breakouts.</span>
         </div>
-
-        <!-- Breakout Performance Stats Bar -->
-        <section class="breakout-stats-grid">
-          <div class="breakout-stat-box highlight-box">
-            <div class="stat-label" style="color:var(--accent-green)">🔥 Breakouts Triggered Today</div>
-            <div class="stat-value positive" id="bk-done-today">0</div>
-            <div class="stat-sub">Active Breakout Setups</div>
-          </div>
-          <div class="breakout-stat-box">
-            <div class="stat-label" style="color:var(--accent-cyan)">✅ Breakouts Worked (Targets Hit)</div>
-            <div class="stat-value positive" id="bk-targets-hit">0</div>
-            <div class="stat-sub">Target 1 / 2 Achieved</div>
-          </div>
-          <div class="breakout-stat-box">
-            <div class="stat-label" style="color:var(--accent-rose)">❌ Stoploss Hit</div>
-            <div class="stat-value negative" id="bk-stoploss-hit">0</div>
-            <div class="stat-sub">Risk Managed Exits</div>
-          </div>
-          <div class="breakout-stat-box">
-            <div class="stat-label">🎯 Strategy Win Rate</div>
-            <div class="stat-value" id="bk-win-rate">0.0%</div>
-            <div class="stat-sub">Overall Breakout Success Rate</div>
-          </div>
-        </section>
 
         <div class="table-wrapper">
           <table class="data-table">
@@ -158,7 +134,7 @@
         </div>
       </div>
 
-      <!-- Tab 3: Spark Watchlist Stocks Table (With Upcoming Event Date) -->
+      <!-- Tab 3: Spark Watchlist Stocks Table (With Announced Upcoming Event Date) -->
       <div id="tab-watchlist" class="tab-content">
         <div class="table-controls">
           <input type="text" id="stock-search" class="search-input" placeholder="Search by company name (e.g. Reliance, Tata Motors)...">
@@ -189,7 +165,7 @@
                 <th>Swing (10-60D)</th>
                 <th>YoY Sales</th>
                 <th>ROE</th>
-                <th>Upcoming Event / Date</th>
+                <th>Upcoming Event Date</th>
               </tr>
             </thead>
             <tbody id="all-stocks-tbody">
@@ -199,7 +175,7 @@
         </div>
       </div>
 
-      <!-- Tab 4: Nifty 250 Universe Table (With Upcoming Event Date) -->
+      <!-- Tab 4: Nifty 250 Universe Table (With Announced Upcoming Event Date) -->
       <div id="tab-nifty250" class="tab-content">
         <div class="table-controls">
           <input type="text" id="nifty250-search" class="search-input" placeholder="Search Nifty 250 company (e.g. Dixon, Polycab)...">
@@ -231,7 +207,7 @@
                 <th>Swing (10-60D)</th>
                 <th>YoY Sales</th>
                 <th>ROE</th>
-                <th>Upcoming Event / Date</th>
+                <th>Upcoming Event Date</th>
               </tr>
             </thead>
             <tbody id="nifty250-tbody">
@@ -247,7 +223,7 @@
           <h2 class="section-title">
             📰 Major Corporate Events Tracker (Yesterday, Today, Tomorrow)
           </h2>
-          <span style="font-size: 0.8rem; color: var(--text-secondary);">Strictly filtering Major Events: Results, Dividends, Splits, Bonus, AGM, Board Meetings & Big Order Wins</span>
+          <span style="font-size: 0.8rem; color: var(--text-secondary);">Filtering Announced Major Events: Results, Dividends, Splits, Bonus, AGM & Board Meetings</span>
         </div>
 
         <div class="table-controls" style="margin-bottom:12px;">

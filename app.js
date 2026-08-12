@@ -199,22 +199,6 @@ function renderTodayActionWatchlist() {
   if (!tbody) return;
 
   const combined = getCombinedStocks();
-  const s = stockData.summary || {};
-
-  const bkTodayEl = document.getElementById('bk-done-today');
-  const bkTargetsEl = document.getElementById('bk-targets-hit');
-  const bkStoplossEl = document.getElementById('bk-stoploss-hit');
-  const bkWinRateEl = document.getElementById('bk-win-rate');
-
-  const breakoutsDoneToday = combined.filter(stk => stk.is_breakout_done_today || stk.is_20d_high_breakout || stk.is_52w_high_breakout);
-  const targetsAchieved = s.targets_achieved_count || Math.round(combined.length * 0.68);
-  const stoplossHit = s.stoploss_hit_count || Math.round(combined.length * 0.16);
-  const winRate = s.breakout_win_rate_pct || 81.0;
-
-  if (bkTodayEl) bkTodayEl.textContent = breakoutsDoneToday.length;
-  if (bkTargetsEl) bkTargetsEl.textContent = targetsAchieved;
-  if (bkStoplossEl) bkStoplossEl.textContent = stoplossHit;
-  if (bkWinRateEl) bkWinRateEl.textContent = `${formatNum(winRate, 1)}%`;
 
   const filtered = combined.filter(stk => {
     const buyTrigger = stk.buy_trigger_level || (stk.current_price * 1.005);
@@ -262,14 +246,15 @@ function renderTodayActionRows(list, tbody) {
   }).join('');
 }
 
-// Spark Watchlist Table Rendering (With Upcoming Event Date)
+// Spark Watchlist Table Rendering (With Official Announced Event Dates)
 function renderSparkWatchlistTable(stocks, tbodyId='all-stocks-tbody') {
   const tbody = document.getElementById(tbodyId);
   if (!tbody) return;
 
   tbody.innerHTML = (stocks || []).map((s, idx) => {
     const cleanSym = getCleanSymbol(s.symbol);
-    const eventBadge = s.upcoming_event_str && s.upcoming_event_str !== 'No Event' 
+    const hasEvent = s.upcoming_event_str && s.upcoming_event_str !== 'None';
+    const eventBadge = hasEvent 
       ? `<span class="badge badge-strong-buy">${s.upcoming_event_str}</span>` 
       : `<span style="color:var(--text-muted)">None</span>`;
 
@@ -289,14 +274,15 @@ function renderSparkWatchlistTable(stocks, tbodyId='all-stocks-tbody') {
   }).join('');
 }
 
-// Nifty 250 Table Rendering (With Upcoming Event Date)
+// Nifty 250 Table Rendering (With Official Announced Event Dates)
 function renderNifty250Table(stocks, tbodyId='nifty250-tbody') {
   const tbody = document.getElementById(tbodyId);
   if (!tbody) return;
 
   tbody.innerHTML = (stocks || []).map((s, idx) => {
     const cleanSym = getCleanSymbol(s.symbol);
-    const eventBadge = s.upcoming_event_str && s.upcoming_event_str !== 'No Event' 
+    const hasEvent = s.upcoming_event_str && s.upcoming_event_str !== 'None';
+    const eventBadge = hasEvent 
       ? `<span class="badge badge-strong-buy">${s.upcoming_event_str}</span>` 
       : `<span style="color:var(--text-muted)">None</span>`;
 
@@ -392,7 +378,7 @@ function renderWorst5() {
   container.innerHTML = worst5.map(s => createStockCardHTML(s, true)).join('');
 }
 
-// Major Corporate Events Filter (AGM, Results, Dividend, Split, Bonus, Board Meeting, Big Orders)
+// Major Corporate Events Filter
 function renderEventsTab() {
   const container = document.getElementById('events-timeline-container');
   if (!container) return;
@@ -551,8 +537,8 @@ function openStockModal(symbol) {
     </div>
 
     <div class="modal-box" style="margin-top:16px;">
-      <div class="modal-box-title">Upcoming Corporate Event</div>
-      <p style="font-size:0.95rem; font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">${stock.upcoming_event_str || 'No Event Scheduled'}</p>
+      <div class="modal-box-title">Upcoming Corporate Event Date</div>
+      <p style="font-size:0.95rem; font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">${stock.upcoming_event_str || 'None'}</p>
       <div class="modal-box-title">Key Rationale & Catalysts</div>
       <ul style="padding-left:20px; color: var(--text-secondary);">
         ${(stock.rationale || []).map(r => `<li>${r}</li>`).join('')}

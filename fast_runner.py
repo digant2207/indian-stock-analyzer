@@ -81,45 +81,50 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
     yesterday = today - datetime.timedelta(days=1)
     tomorrow = today + datetime.timedelta(days=1)
 
+    # 1. Fetch Official Calendar Announced Upcoming Events (Earnings Date & Ex-Dividend Date)
     try:
-        ex_date_timestamp = ticker.info.get('exDividendDate')
-        if ex_date_timestamp:
-            ex_date = datetime.datetime.fromtimestamp(ex_date_timestamp).date()
-            if abs((ex_date - today).days) <= 14:
-                date_tag = "Today" if ex_date == today else ("Yesterday" if ex_date == yesterday else ("Tomorrow" if ex_date == tomorrow else ex_date.strftime("%d %b")))
+        cal = ticker.calendar or {}
+        
+        # Check Earnings Date
+        earnings_dates = cal.get('Earnings Date')
+        if earnings_dates:
+            if isinstance(earnings_dates, list) and len(earnings_dates) > 0:
+                e_date = earnings_dates[0]
+            elif isinstance(earnings_dates, datetime.date):
+                e_date = earnings_dates
+            else:
+                e_date = None
+
+            if e_date and isinstance(e_date, datetime.date) and e_date >= today:
+                date_tag = "Today" if e_date == today else ("Tomorrow" if e_date == tomorrow else e_date.strftime("%d %b"))
                 events_list.append({
-                    "date": ex_date.strftime("%Y-%m-%d"),
+                    "date": e_date.strftime("%Y-%m-%d"),
                     "date_tag": date_tag,
-                    "type": "Dividend Ex-Date",
-                    "title": f"Dividend Ex-Date ({ex_date.strftime('%d %b')})",
-                    "summary": f"Ex-dividend date for payout. Stock trades ex-dividend on this date.",
-                    "impact": "Bullish Income 💰" if dividend_yield >= 2.0 else "Neutral ⚖️",
-                    "impact_reason": f"Dividend yield ({dividend_yield:.2f}%) attracts income investors."
+                    "type": "Qtr Results",
+                    "title": f"Official Results Date ({e_date.strftime('%d %b %Y')})",
+                    "summary": f"Company scheduled quarterly earnings announcement on {e_date.strftime('%d %b %Y')}.",
+                    "impact": "High Volatility ⚡",
+                    "impact_reason": "Quarterly results announcement impacts stock trend."
                 })
+
+        # Check Ex-Dividend Date
+        ex_div_date = cal.get('Ex-Dividend Date')
+        if ex_div_date and isinstance(ex_div_date, datetime.date) and ex_div_date >= today:
+            date_tag = "Today" if ex_div_date == today else ("Tomorrow" if ex_div_date == tomorrow else ex_div_date.strftime("%d %b"))
+            events_list.append({
+                "date": ex_div_date.strftime("%Y-%m-%d"),
+                "date_tag": date_tag,
+                "type": "Dividend Action",
+                "title": f"Ex-Dividend Date ({ex_div_date.strftime('%d %b %Y')})",
+                "summary": f"Ex-dividend date for dividend payout.",
+                "impact": "Bullish Income 💰" if dividend_yield >= 1.5 else "Neutral ⚖️",
+                "impact_reason": f"Dividend payout ex-date."
+            })
+
     except Exception:
         pass
 
-    if rev_growth_yoy > 15 or earnings_growth_yoy > 20:
-        events_list.append({
-            "date": today.strftime("%Y-%m-%d"),
-            "date_tag": "Today",
-            "type": "Qtr Results",
-            "title": f"Qtr Results (+{earnings_growth_yoy:.1f}% YoY)",
-            "summary": f"Strong YoY revenue growth of {rev_growth_yoy:.1f}% and Net Profit growth of {earnings_growth_yoy:.1f}%.",
-            "impact": "Bullish Re-rating 🚀",
-            "impact_reason": "Beating earnings expectations provides strong fundamental catalyst."
-        })
-    elif earnings_growth_yoy < -10:
-        events_list.append({
-            "date": yesterday.strftime("%Y-%m-%d"),
-            "date_tag": "Yesterday",
-            "type": "Qtr Results",
-            "title": f"Results De-growth ({earnings_growth_yoy:.1f}%)",
-            "summary": f"Financial disclosures show profit declining by {abs(earnings_growth_yoy):.1f}%.",
-            "impact": "Bearish Caution ⚠️",
-            "impact_reason": "Margin pressure may trigger short-term profit booking."
-        })
-
+    # 2. Filter Yahoo Corporate Disclosures for Real Future Events (AGM, Board Meetings, Big Orders, Splits)
     try:
         news_items = ticker.news or []
         for n in news_items:
@@ -133,7 +138,8 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
             pub_time = n.get('providerPublishTime')
             if pub_time:
                 n_date = datetime.datetime.fromtimestamp(pub_time).date()
-                if abs((n_date - today).days) <= 7:
+                # Strictly only keep events announced for today, yesterday, or future
+                if n_date >= yesterday:
                     n_tag = "Today" if n_date == today else ("Yesterday" if n_date == yesterday else ("Tomorrow" if n_date == tomorrow else n_date.strftime("%d %b")))
                     
                     event_type = "Board Meeting"
@@ -147,7 +153,7 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
                         "date": n_date.strftime("%Y-%m-%d"),
                         "date_tag": n_tag,
                         "type": event_type,
-                        "title": f"{event_type} ({n_date.strftime('%d %b')})",
+                        "title": f"{title} ({n_date.strftime('%d %b')})",
                         "summary": f"Major corporate disclosure for {symbol.replace('.NS','').replace('.BO','')}.",
                         "impact": "High Impact ⚡",
                         "impact_reason": f"Major {event_type} event monitored for price movement."
@@ -396,8 +402,8 @@ def fetch_stock_data(stock_meta):
 
     events = fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earnings_growth_yoy, dividend_yield)
 
-    # Determine next upcoming event display string
-    upcoming_event_str = "No Event"
+    # Determine genuine announced upcoming event string
+    upcoming_event_str = "None"
     if events:
         first_evt = events[0]
         upcoming_event_str = f"{first_evt.get('type','Event')} ({first_evt.get('date_tag','Upcoming')})"
@@ -502,12 +508,6 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, max_wor
     worst_5 = analyzed[-5:] if len(analyzed) >= 5 else analyzed[-len(analyzed):]
     worst_5 = sorted(worst_5, key=lambda x: x['composite_score'])
 
-    breakouts_done_today_count = sum(1 for s in analyzed if s.get('is_breakout_done_today'))
-    targets_achieved_count = sum(1 for s in analyzed if s['rev_growth_yoy'] > 10 and s['roe'] > 15 and s['current_price'] > s['sma_50'])
-    stoploss_hit_count = sum(1 for s in analyzed if s['current_price'] < s['sma_50'] or s['rsi_14'] < 38)
-    total_trades = max(1, targets_achieved_count + stoploss_hit_count)
-    win_rate_pct = round((targets_achieved_count / total_trades) * 100.0, 1)
-
     summary_stats = {
         "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S IST"),
         "total_stocks_scanned": len(analyzed),
@@ -515,10 +515,7 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, max_wor
         "swing_breakouts_count": sum(1 for s in analyzed if s['swing_signal'] == 'BREAKOUT BUY'),
         "intraday_setups_count": sum(1 for s in analyzed if s['intraday_signal'] != 'NEUTRAL'),
         "high_debt_warnings": sum(1 for s in analyzed if 'High Debt' in s['debt_status']),
-        "breakouts_done_today": breakouts_done_today_count,
-        "targets_achieved_count": targets_achieved_count,
-        "stoploss_hit_count": stoploss_hit_count,
-        "breakout_win_rate_pct": win_rate_pct
+        "breakouts_done_today": sum(1 for s in analyzed if s.get('is_breakout_done_today'))
     }
     
     output_payload = {
