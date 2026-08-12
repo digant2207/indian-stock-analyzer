@@ -12,6 +12,35 @@ let nifty250Data = {
   all_stocks: []
 };
 
+const POPULAR_NSE_STOCKS = [
+  { symbol: "TATAMOTORS.NS", name: "Tata Motors Ltd" },
+  { symbol: "TATAMTRDVR.NS", name: "Tata Motors DVR" },
+  { symbol: "INFY.NS", name: "Infosys Ltd" },
+  { symbol: "TCS.NS", name: "Tata Consultancy Services" },
+  { symbol: "RELIANCE.NS", name: "Reliance Industries Ltd" },
+  { symbol: "HDFCBANK.NS", name: "HDFC Bank Ltd" },
+  { symbol: "ICICIBANK.NS", name: "ICICI Bank Ltd" },
+  { symbol: "SBIN.NS", name: "State Bank of India" },
+  { symbol: "BHARTIARTL.NS", name: "Bharti Airtel Ltd" },
+  { symbol: "ITC.NS", name: "ITC Ltd" },
+  { symbol: "LTIM.NS", name: "LTIMindtree Ltd" },
+  { symbol: "WIPRO.NS", name: "Wipro Ltd" },
+  { symbol: "HCLTECH.NS", name: "HCL Technologies" },
+  { symbol: "LT.NS", name: "Larsen & Toubro Ltd" },
+  { symbol: "AXISBANK.NS", name: "Axis Bank Ltd" },
+  { symbol: "KOTAKBANK.NS", name: "Kotak Mahindra Bank" },
+  { symbol: "ZOMATO.NS", name: "Zomato Ltd" },
+  { symbol: "SUZLON.NS", name: "Suzlon Energy Ltd" },
+  { symbol: "JIOFIN.NS", name: "Jio Financial Services" },
+  { symbol: "ADANIENT.NS", name: "Adani Enterprises" },
+  { symbol: "ADANIPORTS.NS", name: "Adani Ports & SEZ" },
+  { symbol: "MARUTI.NS", name: "Maruti Suzuki India" },
+  { symbol: "TITAN.NS", name: "Titan Company Ltd" },
+  { symbol: "ASIANPAINT.NS", name: "Asian Paints Ltd" },
+  { symbol: "SUNPHARMA.NS", name: "Sun Pharmaceutical" },
+  { symbol: "BAJFINANCE.NS", name: "Bajaj Finance Ltd" }
+];
+
 document.addEventListener('DOMContentLoaded', () => {
   try {
     initTabs();
@@ -173,6 +202,7 @@ function renderAllViews() {
   try { renderAllStocksTable(nifty250Data.all_stocks || [], 'nifty250-tbody'); } catch (e) { console.error("renderAllStocksTable nifty error:", e); }
   try { populateSectorFilter(nifty250Data.all_stocks || [], 'nifty250-sector-filter'); } catch (e) { console.error("populateSectorFilter nifty error:", e); }
   try { populateAnalyzerDropdown(); } catch (e) { console.error("populateAnalyzerDropdown error:", e); }
+  try { populateDatalistSuggestions(); } catch (e) { console.error("populateDatalistSuggestions error:", e); }
   try { renderEventsTab(); } catch (e) { console.error("renderEventsTab error:", e); }
 }
 
@@ -214,7 +244,6 @@ function renderTodayActionWatchlist() {
   });
 
   if (filtered.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="11" style="text-align:center; color:var(--text-secondary); padding:20px;">No stocks currently within 2% distance of breakout level. Showing top momentum setups.</td></tr>`;
     // Fallback: top setups with smallest distance
     const fallback = combined.slice(0, 10);
     renderTodayActionRows(fallback, tbody);
@@ -233,17 +262,15 @@ function renderTodayActionRows(list, tbody) {
 
     return `
       <tr onclick="openStockModal('${s.symbol}')">
-        <td><strong>#${idx + 1} ${cleanSym}</strong></td>
-        <td>${s.name || cleanSym}</td>
+        <td><strong>#${idx + 1} ${s.name || cleanSym}</strong> <span class="badge badge-accumulate" style="margin-left:4px;">${cleanSym}</span></td>
         <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
         <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
         <td><span class="badge badge-strong-buy">${formatNum(distPct, 2)}%</span></td>
         <td><strong style="color:var(--accent-green)">₹${formatNum(buyTrigger, 2)}</strong></td>
         <td><strong style="color:var(--accent-rose)">₹${formatNum(sellTrigger, 2)}</strong></td>
         <td>₹${formatNum(s.swing_target_1, 2)}</td>
-        <td>₹${formatNum(s.swing_target_2, 2)}</td>
         <td>₹${formatNum(s.swing_stoploss, 2)}</td>
-        <td style="font-size:0.82rem;">${(s.rationale || []).join(' • ')}</td>
+        <td style="font-size:0.78rem;">${(s.rationale || []).join(' • ')}</td>
       </tr>
     `;
   }).join('');
@@ -258,21 +285,54 @@ function populateAnalyzerDropdown() {
     combined.map(s => `<option value="${s.symbol}">${getCleanSymbol(s.symbol)} - ${s.name || s.symbol} (${s.sector || 'Equity'})</option>`).join('');
 }
 
+function populateDatalistSuggestions() {
+  const datalist = document.getElementById('stock-suggestions');
+  if (!datalist) return;
+
+  const combined = getCombinedStocks();
+  const allSymbols = new Map();
+
+  // Add saved stocks
+  combined.forEach(s => {
+    if (s && s.symbol) {
+      allSymbols.set(getCleanSymbol(s.symbol), s.name || s.symbol);
+    }
+  });
+
+  // Add popular NSE stocks
+  POPULAR_NSE_STOCKS.forEach(p => {
+    const cs = getCleanSymbol(p.symbol);
+    if (!allSymbols.has(cs)) {
+      allSymbols.set(cs, p.name);
+    }
+  });
+
+  datalist.innerHTML = Array.from(allSymbols.entries()).map(([sym, name]) => `
+    <option value="${sym}">${name} (${sym})</option>
+  `).join('');
+}
+
 async function searchAnyNSEStock() {
   const input = document.getElementById('live-stock-search-input');
-  const symbol = (input?.value || '').trim();
+  let query = (input?.value || '').trim();
   const container = document.getElementById('analyzer-results-container');
   if (!container) return;
 
-  if (!symbol) {
-    alert("Please enter a stock symbol (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON)");
+  if (!query) {
+    alert("Please enter or select a stock symbol (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON)");
     return;
   }
 
-  container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-cyan)">⏳ Analyzing live market & financial data for <strong>${symbol.toUpperCase()}</strong>...</p></div>`;
+  // Extract symbol if user selected from datalist format "Infosys Ltd (INFY)"
+  if (query.includes('(') && query.includes(')')) {
+    const parts = query.split('(');
+    query = parts[parts.length - 1].replace(')', '').trim();
+  }
+
+  container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-cyan)">⏳ Analyzing live market & financial data for <strong>${query.toUpperCase()}</strong>...</p></div>`;
 
   try {
-    const resp = await fetch(`/api/search_stock?symbol=${encodeURIComponent(symbol)}`);
+    const resp = await fetch(`/api/search_stock?symbol=${encodeURIComponent(query)}`);
     const data = await resp.json();
 
     if (data.status === 'success' && data.stock) {
@@ -370,7 +430,7 @@ function renderStockStrengthHTML(stock, container) {
         <p><strong>Swing Setup:</strong> <span class="badge ${getBadgeClass(stock.swing_signal)}">${stock.swing_signal || 'NEUTRAL'}</span></p>
         <p><strong>Buy Trigger Level:</strong> <strong style="color:var(--accent-green)">₹${formatNum(buyTrigger, 2)}</strong></p>
         <p><strong>Sell / Stop Trigger:</strong> <strong style="color:var(--accent-rose)">₹${formatNum(sellTrigger, 2)}</strong></p>
-        <p><strong>Target 1 / Target 2:</strong> ₹${formatNum(stock.swing_target_1, 2)} / ₹${formatNum(stock.swing_target_2, 2)}</p>
+        <p><strong>Target 1:</strong> ₹${formatNum(stock.swing_target_1, 2)}</p>
         <p><strong>Stop Loss:</strong> ₹${formatNum(stock.swing_stoploss, 2)}</p>
       </div>
     </div>

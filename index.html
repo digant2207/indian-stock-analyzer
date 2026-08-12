@@ -77,7 +77,7 @@
       <button class="tab-btn" data-tab="tab-manager">⚙️ Stock List Manager</button>
     </nav>
 
-    <!-- Tab 1: Today's Action Watchlist (Table View <= 2% Breakout Distance) -->
+    <!-- Tab 1: Today's Action Watchlist (Compact Table View <= 2% Distance) -->
     <div id="tab-today-action" class="tab-content active">
       <div class="section-title-group">
         <h2 class="section-title" style="color: var(--accent-cyan)">
@@ -90,15 +90,13 @@
         <table class="data-table">
           <thead>
             <tr>
-              <th>Stock</th>
               <th>Company Name</th>
               <th>Price (₹)</th>
               <th>Day Chg (%)</th>
-              <th>Distance to Breakout (%)</th>
-              <th>Buy Trigger Level (₹)</th>
+              <th>Distance (%)</th>
+              <th>Buy Trigger (₹)</th>
               <th>Sell / Stop Trigger (₹)</th>
               <th>Target 1 (₹)</th>
-              <th>Target 2 (₹)</th>
               <th>Stop Loss (₹)</th>
               <th>Action Rationale</th>
             </tr>
@@ -225,13 +223,14 @@
         <h2 class="section-title">
           🔍 Search ANY NSE / BSE Stock Strength & Weakness Screener
         </h2>
-        <span style="font-size: 0.85rem; color: var(--text-secondary);">Analyze any stock listed on NSE/BSE & add to Spark Stock List</span>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Type to see matching suggestions & analyze any stock listed on NSE/BSE</span>
       </div>
 
       <div class="table-controls" style="margin-bottom:20px; display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
-        <!-- Live Search Input for ANY NSE/BSE Ticker -->
+        <!-- Live Search Input with Datalist Autocomplete -->
         <div style="display:flex; gap:8px; flex:1; min-width:300px;">
-          <input type="text" id="live-stock-search-input" class="search-input" placeholder="Type ANY NSE/BSE Stock (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON)..." onkeypress="if(event.key==='Enter') searchAnyNSEStock()">
+          <input type="text" id="live-stock-search-input" class="search-input" list="stock-suggestions" placeholder="Type to match stock (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON, RELIANCE)..." onkeypress="if(event.key==='Enter') searchAnyNSEStock()">
+          <datalist id="stock-suggestions"></datalist>
           <button class="btn-refresh" onclick="searchAnyNSEStock()">🔍 Analyze Live</button>
         </div>
 
@@ -244,7 +243,7 @@
       </div>
 
       <div id="analyzer-results-container">
-        <div class="modal-box"><p style="color:var(--text-secondary)">Search any NSE/BSE stock above or select from the dropdown to view complete Fundamental & Technical Strengths vs Weaknesses.</p></div>
+        <div class="modal-box"><p style="color:var(--text-secondary)">Type any stock name or symbol above to see matching suggestions & view full Fundamental & Technical Strengths vs Weaknesses.</p></div>
       </div>
     </div>
 
