@@ -12,8 +12,6 @@ let nifty250Data = {
   all_stocks: []
 };
 
-let backtestData = null;
-
 document.addEventListener('DOMContentLoaded', () => {
   try {
     initTabs();
@@ -142,11 +140,6 @@ async function loadData() {
     nifty250Data = window.nifty250Data;
   }
 
-  if (window.backtestData) {
-    backtestData = window.backtestData;
-    renderBacktestResults();
-  }
-
   renderAllViews();
 
   try {
@@ -167,27 +160,19 @@ async function loadData() {
     console.log("Using preloaded Nifty 250 data.");
   }
 
-  try {
-    const btResp = await fetch('backtest_results.json?t=' + Date.now());
-    if (btResp.ok) {
-      backtestData = await btResp.json();
-      renderBacktestResults();
-    }
-  } catch (err) {
-    console.log("Using preloaded Backtest data.");
-  }
-
   renderAllViews();
 }
 
 function renderAllViews() {
   try { renderSummary(); } catch (e) { console.error("renderSummary error:", e); }
+  try { renderTodayActionWatchlist(); } catch (e) { console.error("renderTodayActionWatchlist error:", e); }
   try { renderTop15(); } catch (e) { console.error("renderTop15 error:", e); }
   try { renderWorst5(); } catch (e) { console.error("renderWorst5 error:", e); }
   try { renderAllStocksTable(stockData.all_stocks || [], 'all-stocks-tbody'); } catch (e) { console.error("renderAllStocksTable spark error:", e); }
   try { populateSectorFilter(stockData.all_stocks || [], 'sector-filter'); } catch (e) { console.error("populateSectorFilter spark error:", e); }
   try { renderAllStocksTable(nifty250Data.all_stocks || [], 'nifty250-tbody'); } catch (e) { console.error("renderAllStocksTable nifty error:", e); }
   try { populateSectorFilter(nifty250Data.all_stocks || [], 'nifty250-sector-filter'); } catch (e) { console.error("populateSectorFilter nifty error:", e); }
+  try { populateAnalyzerDropdown(); } catch (e) { console.error("populateAnalyzerDropdown error:", e); }
   try { renderEventsTab(); } catch (e) { console.error("renderEventsTab error:", e); }
 }
 
@@ -208,6 +193,151 @@ function renderSummary() {
 
   const debtEl = document.getElementById('stat-debt-warnings');
   if (debtEl) debtEl.textContent = combined.filter(s => (s.debt_status || '').includes('High Debt') || (s.long_term_signal || '').includes('EXIT')).length;
+}
+
+function renderTodayActionWatchlist() {
+  const container = document.getElementById('today-watchlist-grid');
+  if (!container) return;
+
+  const combined = getCombinedStocks();
+  // Filter Top 20 actionable breakout & momentum stocks
+  const actionList = combined
+    .filter(s => (s.is_20d_high_breakout || s.is_52w_high_breakout || s.swing_signal === 'BREAKOUT BUY' || s.vol_surge_ratio >= 1.3 || (s.rev_growth_yoy || 0) > 15))
+    .slice(0, 20);
+
+  if (actionList.length === 0) {
+    container.innerHTML = `<div class="modal-box" style="grid-column:1/-1;"><p style="color:var(--text-secondary)">No breakout action setups detected today.</p></div>`;
+    return;
+  }
+
+  container.innerHTML = actionList.map(s => {
+    const cleanSym = getCleanSymbol(s.symbol);
+    const dayChg = s.day_change_pct || 0;
+    const changeClass = dayChg >= 0 ? 'positive' : 'negative';
+
+    return `
+      <div class="stock-card bullish" onclick="openStockModal('${s.symbol}')">
+        <div class="card-top">
+          <div>
+            <div class="card-symbol">${cleanSym}</div>
+            <div class="card-name">${s.name || cleanSym}</div>
+          </div>
+          <div>
+            <div class="card-price">₹${formatNum(s.current_price, 2)}</div>
+            <div class="card-change ${changeClass}">${dayChg >= 0 ? '+' : ''}${formatNum(dayChg, 2)}%</div>
+          </div>
+        </div>
+
+        <div class="signals-group" style="margin:10px 0 6px 0;">
+          <span class="badge badge-strong-buy">${s.swing_signal || 'BREAKOUT BUY'}</span>
+          ${s.is_20d_high_breakout ? '<span class="badge badge-breakout">20D Breakout</span>' : ''}
+          ${s.vol_surge_ratio >= 1.5 ? '<span class="badge badge-accumulate">Vol Surge '+formatNum(s.vol_surge_ratio, 1)+'x</span>' : ''}
+        </div>
+
+        <!-- Breakout Levels Box -->
+        <div class="modal-box" style="padding:10px; margin:8px 0; border:1px solid var(--border-color); border-radius:6px; background:var(--card-bg);">
+          <div style="font-size:0.8rem; font-weight:700; color:var(--accent-green); margin-bottom:4px;">🎯 Key Trading Levels</div>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px; font-size:0.8rem;">
+            <div><strong>Buy Trigger:</strong> ₹${formatNum(s.buy_trigger_level || (s.current_price * 1.005), 2)}</div>
+            <div><strong>Sell Trigger:</strong> ₹${formatNum(s.sell_trigger_level || (s.current_price * 0.995), 2)}</div>
+            <div><strong>Target 1:</strong> ₹${formatNum(s.swing_target_1, 2)}</div>
+            <div><strong>Target 2:</strong> ₹${formatNum(s.swing_target_2, 2)}</div>
+            <div><strong>Stop Loss:</strong> ₹${formatNum(s.swing_stoploss, 2)}</div>
+            <div><strong>Score:</strong> ${formatNum(s.composite_score, 1)} / 100</div>
+          </div>
+        </div>
+
+        <div style="font-size:0.78rem; color:var(--text-secondary); margin-top:6px;">
+          <strong>Action Catalyst:</strong> ${(s.rationale || []).join(' • ')}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function populateAnalyzerDropdown() {
+  const select = document.getElementById('analyzer-stock-select');
+  if (!select) return;
+
+  const combined = getCombinedStocks();
+  select.innerHTML = '<option value="">Select Stock to Analyze (e.g. RELIANCE, DIXON, OFSS)...</option>' +
+    combined.map(s => `<option value="${s.symbol}">${getCleanSymbol(s.symbol)} - ${s.name || s.symbol} (${s.sector || 'Equity'})</option>`).join('');
+}
+
+function renderStockStrengthAnalysis(symbol) {
+  const container = document.getElementById('analyzer-results-container');
+  if (!container) return;
+
+  if (!symbol) {
+    container.innerHTML = `<div class="modal-box"><p style="color:var(--text-secondary)">Please select a stock from the dropdown above to view full Fundamental & Technical Strength vs Weakness breakdown.</p></div>`;
+    return;
+  }
+
+  const combined = getCombinedStocks();
+  const stock = combined.find(s => s.symbol === symbol);
+  if (!stock) {
+    container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-rose)">Stock data not found.</p></div>`;
+    return;
+  }
+
+  const cleanSym = getCleanSymbol(stock.symbol);
+  const dayChg = stock.day_change_pct || 0;
+
+  container.innerHTML = `
+    <!-- Top Header -->
+    <div class="modal-box" style="margin-bottom:16px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+        <div>
+          <h3 style="font-size:1.3rem; margin-bottom:4px;">${stock.name || cleanSym} (${cleanSym})</h3>
+          <span style="font-size:0.85rem; color:var(--text-secondary);">${stock.sector || 'General'} | ${stock.cap_type || 'Equity'}</span>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:1.3rem; font-weight:700;">₹${formatNum(stock.current_price, 2)}</div>
+          <div class="${dayChg >= 0 ? 'positive' : 'negative'}">${dayChg >= 0 ? '+' : ''}${formatNum(dayChg, 2)}%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Strengths vs Weaknesses Grid -->
+    <div class="modal-grid" style="margin-bottom:16px;">
+      <!-- Strengths (Pros) -->
+      <div class="modal-box" style="border-top:3px solid var(--accent-green);">
+        <div class="modal-box-title" style="color:var(--accent-green);">🟢 Core Strengths & Catalysts</div>
+        <ul style="padding-left:18px; color:var(--text-primary); font-size:0.88rem; line-height:1.6;">
+          ${(stock.strengths || []).map(str => `<li><strong>${str}</strong></li>`).join('')}
+        </ul>
+      </div>
+
+      <!-- Weaknesses & Risks (Cons) -->
+      <div class="modal-box" style="border-top:3px solid var(--accent-rose);">
+        <div class="modal-box-title" style="color:var(--accent-rose);">🔴 Core Weaknesses & Risks</div>
+        <ul style="padding-left:18px; color:var(--text-primary); font-size:0.88rem; line-height:1.6;">
+          ${(stock.weaknesses || []).map(wk => `<li><strong>${wk}</strong></li>`).join('')}
+        </ul>
+      </div>
+    </div>
+
+    <!-- Technical & Trading Action Levels -->
+    <div class="modal-grid" style="margin-bottom:16px;">
+      <div class="modal-box">
+        <div class="modal-box-title">📊 Fundamental Snapshot</div>
+        <p><strong>YoY Revenue Growth:</strong> ${formatNum(stock.rev_growth_yoy, 1)}%</p>
+        <p><strong>YoY Net Profit Growth:</strong> ${formatNum(stock.earnings_growth_yoy, 1)}%</p>
+        <p><strong>Return on Equity (ROE):</strong> ${formatNum(stock.roe, 1)}%</p>
+        <p><strong>Debt to Equity:</strong> ${formatNum(stock.debt_to_equity, 2)} (${stock.debt_status || 'Normal'})</p>
+        <p><strong>P/E Ratio:</strong> ${formatNum(stock.pe_ratio, 2)}</p>
+      </div>
+
+      <div class="modal-box">
+        <div class="modal-box-title">📈 Technical & Action Plan</div>
+        <p><strong>Long-Term Signal:</strong> <span class="badge ${getBadgeClass(stock.long_term_signal)}">${stock.long_term_signal || 'HOLD'}</span></p>
+        <p><strong>Swing Setup:</strong> <span class="badge ${getBadgeClass(stock.swing_signal)}">${stock.swing_signal || 'NEUTRAL'}</span></p>
+        <p><strong>Buy Trigger Level:</strong> ₹${formatNum(stock.buy_trigger_level || (stock.current_price * 1.005), 2)}</p>
+        <p><strong>Target 1 / Target 2:</strong> ₹${formatNum(stock.swing_target_1, 2)} / ₹${formatNum(stock.swing_target_2, 2)}</p>
+        <p><strong>Stop Loss:</strong> ₹${formatNum(stock.swing_stoploss, 2)}</p>
+      </div>
+    </div>
+  `;
 }
 
 function createStockCardHTML(stock, isWorst=false) {
@@ -430,6 +560,7 @@ function openStockModal(symbol) {
       <div class="modal-box">
         <div class="modal-box-title">Price & Technicals</div>
         <p><strong>Current Price:</strong> ₹${formatNum(stock.current_price, 2)}</p>
+        <p><strong>Buy Trigger Level:</strong> ₹${formatNum(stock.buy_trigger_level || (stock.current_price * 1.005), 2)}</p>
         <p><strong>52W High / Low:</strong> ₹${formatNum(stock['52w_high'], 2)} / ₹${formatNum(stock['52w_low'], 2)}</p>
         <p><strong>20 / 50 / 200 EMA:</strong> ₹${formatNum(stock.sma_20, 2)} / ₹${formatNum(stock.sma_50, 2)} / ₹${formatNum(stock.sma_200, 2)}</p>
         <p><strong>RSI (14):</strong> ${formatNum(stock.rsi_14, 1)}</p>
@@ -504,53 +635,4 @@ async function saveGoogleSheetConfig() {
   } catch (err) {
     if (statusDiv) statusDiv.textContent = 'Saved URL to local config. Run analyzer.py to sync!';
   }
-}
-
-function renderBacktestResults() {
-  const container = document.getElementById('backtest-content');
-  if (!container || !backtestData) return;
-
-  container.innerHTML = `
-    <div class="summary-grid">
-      <div class="stat-card">
-        <div class="stat-label">Tested Strategy</div>
-        <div class="stat-value" style="font-size:1.1rem; color:var(--accent-cyan);">${backtestData.strategy_name || '20D Breakout'}</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Overall Win Rate</div>
-        <div class="stat-value positive">${formatNum(backtestData.overall_win_rate, 1)}%</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-label">Avg Return / Trade</div>
-        <div class="stat-value positive">+${formatNum(backtestData.overall_avg_return_per_trade, 2)}%</div>
-      </div>
-    </div>
-
-    <div class="table-wrapper" style="margin-top:20px;">
-      <table class="data-table">
-        <thead>
-          <tr>
-            <th>Stock</th>
-            <th>Total Trades</th>
-            <th>Wins</th>
-            <th>Losses</th>
-            <th>Win Rate</th>
-            <th>Avg Return / Trade</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${(backtestData.symbol_details || []).map(b => `
-            <tr>
-              <td><strong>${getCleanSymbol(b.symbol)}</strong></td>
-              <td>${b.total_trades || 0}</td>
-              <td class="positive">${b.total_wins || 0}</td>
-              <td class="negative">${b.total_losses || 0}</td>
-              <td><strong>${formatNum(b.win_rate, 1)}%</strong></td>
-              <td class="${(b.avg_return || 0) >= 0 ? 'positive':'negative'}">${(b.avg_return || 0) >= 0 ? '+':''}${formatNum(b.avg_return, 2)}%</td>
-            </tr>
-          `).join('')}
-        </tbody>
-      </table>
-    </div>
-  `;
 }

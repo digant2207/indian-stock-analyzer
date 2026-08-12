@@ -195,6 +195,10 @@ def fetch_stock_data(stock_meta):
     is_52w_high_breakout = current_price >= high_52w * 0.985
     is_52w_low_breakdown = current_price <= low_52w * 1.015
 
+    # Breakout Levels Calculation
+    buy_trigger_level = round(max(high_20d_prev * 1.002, current_price * 1.005), 2)
+    sell_trigger_level = round(min(low_20d_prev * 0.998, current_price * 0.995), 2)
+
     info = {}
     try:
         info = ticker.info or {}
@@ -244,6 +248,34 @@ def fetch_stock_data(stock_meta):
 
     q_sales_growth = rev_growth_yoy
     q_pat_growth = earnings_growth_yoy
+
+    # Strength vs Weakness Lists
+    strengths = []
+    weaknesses = []
+
+    if rev_growth_yoy >= 15: strengths.append(f"Strong YoY Sales Growth (+{rev_growth_yoy:.1f}%)")
+    elif rev_growth_yoy < 0: weaknesses.append(f"Revenue Contracting YoY ({rev_growth_yoy:.1f}%)")
+
+    if earnings_growth_yoy >= 15: strengths.append(f"Robust YoY Profit Expansion (+{earnings_growth_yoy:.1f}%)")
+    elif earnings_growth_yoy < 0: weaknesses.append(f"Earnings De-growth YoY ({earnings_growth_yoy:.1f}%)")
+
+    if roe >= 18: strengths.append(f"High Return on Equity ({roe:.1f}% ROE)")
+    elif roe < 8: weaknesses.append(f"Weak Return on Capital ({roe:.1f}% ROE)")
+
+    if debt_to_equity == 0.0: strengths.append("Zero Debt Balance Sheet")
+    elif debt_to_equity <= 0.5: strengths.append(f"Healthy Low Debt (D/E {debt_to_equity:.2f})")
+    elif debt_score_penalty >= 10: weaknesses.append(f"High Debt Burden (D/E {debt_to_equity:.2f})")
+
+    if current_price > sma_200: strengths.append("Trading Above 200-Day EMA Long-term Uptrend")
+    else: weaknesses.append("Trading Below 200-Day EMA Trendline")
+
+    if is_20d_high_breakout or is_52w_high_breakout: strengths.append(f"Breakout Momentum with {vol_surge_ratio:.1f}x Volume Surge")
+    if pledged_pct > 5: weaknesses.append(f"Promoter Share Pledge Risk ({pledged_pct:.1f}%)")
+    if rsi > 72: weaknesses.append(f"RSI Overbought Warning ({rsi:.1f})")
+    elif rsi < 35: weaknesses.append(f"RSI Weak Momentum ({rsi:.1f})")
+
+    if len(strengths) == 0: strengths.append("Stable Price Consolidation")
+    if len(weaknesses) == 0: weaknesses.append("No Major Red Flags Detected")
 
     f_score = 0
     if rev_growth_yoy >= 15: f_score += 10
@@ -389,6 +421,10 @@ def fetch_stock_data(stock_meta):
         "is_20d_low_breakdown": is_20d_low_breakdown,
         "is_52w_high_breakout": is_52w_high_breakout,
         "is_52w_low_breakdown": is_52w_low_breakdown,
+        "buy_trigger_level": buy_trigger_level,
+        "sell_trigger_level": sell_trigger_level,
+        "strengths": strengths,
+        "weaknesses": weaknesses,
         "composite_score": composite_score,
         "long_term_signal": long_term_signal,
         "swing_signal": swing_signal,

@@ -68,20 +68,32 @@
 
     <!-- Navigation Tabs -->
     <nav class="tabs-nav">
-      <button class="tab-btn active" data-tab="tab-overview">🔥 Top 15 & Worst 5</button>
+      <button class="tab-btn active" data-tab="tab-today-action">🎯 Today's Action Watchlist (Top 20)</button>
+      <button class="tab-btn" data-tab="tab-overview">🔥 Top 15 & Worst 5</button>
       <button class="tab-btn" data-tab="tab-watchlist">📊 Spark Watchlist</button>
       <button class="tab-btn" data-tab="tab-nifty250">📈 Nifty 250 Universe</button>
+      <button class="tab-btn" data-tab="tab-analyzer">🔍 Stock Strength & Weakness</button>
       <button class="tab-btn" data-tab="tab-events">📰 Corporate Events & News</button>
-      <button class="tab-btn" data-tab="tab-backtest">⚡ Backtested Strategy</button>
       <button class="tab-btn" data-tab="tab-manager">⚙️ Stock List Manager</button>
     </nav>
 
-    <!-- Tab 1: Top 15 & Worst 5 -->
-    <div id="tab-overview" class="tab-content active">
-      <!-- Top 15 Section -->
+    <!-- Tab 1: Today's Action Watchlist (Top 20) -->
+    <div id="tab-today-action" class="tab-content active">
+      <div class="section-title-group">
+        <h2 class="section-title" style="color: var(--accent-cyan)">
+          🎯 Top 20 Today's Momentum & Breakout Watchlist
+        </h2>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Top 20 High-Conviction Breakout & News Catalyst Setups across Spark Watchlist & Nifty 50</span>
+      </div>
+      <div id="today-watchlist-grid" class="stock-cards-grid">
+        <!-- Dynamic Cards -->
+      </div>
+    </div>
+
+    <!-- Tab 2: Top 15 & Worst 5 -->
+    <div id="tab-overview" class="tab-content">
       <div class="section-title-group">
         <h2 class="section-title" style="color: var(--accent-green)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
           Top 15 Performing Stocks (Combined Universe)
         </h2>
         <span style="font-size: 0.85rem; color: var(--text-secondary);">Ranked across Spark Watchlist & Nifty 250 Universe</span>
@@ -90,10 +102,8 @@
         <!-- Dynamic Cards -->
       </div>
 
-      <!-- Worst 5 Section -->
       <div class="section-title-group">
         <h2 class="section-title" style="color: var(--accent-rose)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>
           Worst 5 Stocks (Red Flags / Caution / Exit)
         </h2>
         <span style="font-size: 0.85rem; color: var(--text-secondary);">Flagged for Weak Financials, Technical Breakdown, or Debt/Pledge Risk</span>
@@ -103,7 +113,7 @@
       </div>
     </div>
 
-    <!-- Tab 2: Spark Watchlist Stocks Table -->
+    <!-- Tab 3: Spark Watchlist Stocks Table -->
     <div id="tab-watchlist" class="tab-content">
       <div class="table-controls">
         <input type="text" id="stock-search" class="search-input" placeholder="Search by stock name (e.g. RELIANCE, TCS)...">
@@ -146,7 +156,7 @@
       </div>
     </div>
 
-    <!-- Tab 3: Nifty 250 Universe Table -->
+    <!-- Tab 4: Nifty 250 Universe Table -->
     <div id="tab-nifty250" class="tab-content">
       <div class="table-controls">
         <input type="text" id="nifty250-search" class="search-input" placeholder="Search Nifty 250 stock (e.g. DIXON, POLYCAB)...">
@@ -189,11 +199,31 @@
       </div>
     </div>
 
-    <!-- Tab 4: Corporate Events & News Impact -->
+    <!-- Tab 5: Stock Strength & Weakness Analyzer -->
+    <div id="tab-analyzer" class="tab-content">
+      <div class="section-title-group">
+        <h2 class="section-title">
+          🔍 Stock Fundamental & Technical Strength Screener
+        </h2>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Deep-Dive Strength vs Weakness Comparison Matrix for Any Stock</span>
+      </div>
+
+      <div class="table-controls" style="margin-bottom:20px;">
+        <select id="analyzer-stock-select" class="filter-select" style="min-width:320px; font-weight:600; padding:10px;" onchange="renderStockStrengthAnalysis(this.value)">
+          <option value="">Select Stock to Analyze (e.g. RELIANCE, DIXON, OFSS)...</option>
+        </select>
+      </div>
+
+      <div id="analyzer-results-container">
+        <!-- Dynamic Strength vs Weakness Dashboard -->
+        <div class="modal-box"><p style="color:var(--text-secondary)">Please select a stock from the dropdown above to view full Fundamental & Technical Strength vs Weakness breakdown.</p></div>
+      </div>
+    </div>
+
+    <!-- Tab 6: Corporate Events & News Impact -->
     <div id="tab-events" class="tab-content">
       <div class="section-title-group">
         <h2 class="section-title">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="14 3 14 8 19 8"></polyline></svg>
           Corporate Events & News Impact Tracker
         </h2>
         <span style="font-size: 0.85rem; color: var(--text-secondary);">Tracking Earnings, Ex-Dividends, News & Price Impact (Yesterday, Today, Tomorrow)</span>
@@ -213,21 +243,7 @@
       </div>
     </div>
 
-    <!-- Tab 5: Backtested Strategy -->
-    <div id="tab-backtest" class="tab-content">
-      <div class="section-title-group">
-        <h2 class="section-title">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-          20-Day Range Breakout Strategy Backtest
-        </h2>
-        <span style="font-size: 0.85rem; color: var(--text-secondary);">Historical 1-Year Backtest Simulation for Swing Trades (10-60 Days)</span>
-      </div>
-      <div id="backtest-content">
-        <p style="color:var(--text-secondary);">Loading backtest data...</p>
-      </div>
-    </div>
-
-    <!-- Tab 6: Stock List Manager -->
+    <!-- Tab 7: Stock List Manager -->
     <div id="tab-manager" class="tab-content">
       <div class="section-title-group">
         <h2 class="section-title">Manage Stock Watchlist & Google Sheet Sync</h2>
@@ -275,7 +291,6 @@
 
   <script src="analysis_data.js"></script>
   <script src="nifty250_data.js"></script>
-  <script src="backtest_results.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

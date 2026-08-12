@@ -1,8 +1,8 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 25,
-  "overall_win_rate": 21.9,
-  "overall_avg_return_per_trade": -2.1,
+  "overall_win_rate": 23.4,
+  "overall_avg_return_per_trade": -1.97,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -102,11 +102,11 @@ window.backtestData = {
     },
     {
       "symbol": "BOROSCI.NS",
-      "total_trades": 11,
-      "win_rate": 36.4,
-      "avg_return": 0.81,
+      "total_trades": 10,
+      "win_rate": 40.0,
+      "avg_return": 1.47,
       "total_wins": 4,
-      "total_losses": 7
+      "total_losses": 6
     },
     {
       "symbol": "CANBK.NS",
@@ -151,10 +151,10 @@ window.backtestData = {
     {
       "symbol": "DDEVPLSTIK.NS",
       "total_trades": 3,
-      "win_rate": 66.7,
-      "avg_return": 4.43,
-      "total_wins": 2,
-      "total_losses": 1
+      "win_rate": 100.0,
+      "avg_return": 6.89,
+      "total_wins": 3,
+      "total_losses": 0
     },
     {
       "symbol": "DELHIVERY.NS",
