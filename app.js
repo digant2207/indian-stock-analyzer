@@ -244,7 +244,6 @@ function renderTodayActionWatchlist() {
   });
 
   if (filtered.length === 0) {
-    // Fallback: top setups with smallest distance
     const fallback = combined.slice(0, 10);
     renderTodayActionRows(fallback, tbody);
     return;
@@ -292,14 +291,12 @@ function populateDatalistSuggestions() {
   const combined = getCombinedStocks();
   const allSymbols = new Map();
 
-  // Add saved stocks
   combined.forEach(s => {
     if (s && s.symbol) {
       allSymbols.set(getCleanSymbol(s.symbol), s.name || s.symbol);
     }
   });
 
-  // Add popular NSE stocks
   POPULAR_NSE_STOCKS.forEach(p => {
     const cs = getCleanSymbol(p.symbol);
     if (!allSymbols.has(cs)) {
@@ -323,13 +320,12 @@ async function searchAnyNSEStock() {
     return;
   }
 
-  // Extract symbol if user selected from datalist format "Infosys Ltd (INFY)"
   if (query.includes('(') && query.includes(')')) {
     const parts = query.split('(');
     query = parts[parts.length - 1].replace(')', '').trim();
   }
 
-  container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-cyan)">⏳ Analyzing live market & financial data for <strong>${query.toUpperCase()}</strong>...</p></div>`;
+  container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-cyan)">⏳ Resolving & Analyzing live market data for <strong>${query.toUpperCase()}</strong>...</p></div>`;
 
   try {
     const resp = await fetch(`/api/search_stock?symbol=${encodeURIComponent(query)}`);
@@ -452,6 +448,8 @@ async function addStockToSparkList(symbol, name, sector) {
       statusDiv.style.color = data.status === 'success' ? 'var(--accent-green)' : 'var(--accent-cyan)';
       statusDiv.textContent = data.message || 'Stock added to list!';
     }
+    // Refresh local dataset
+    setTimeout(() => { loadData(); }, 1500);
   } catch (err) {
     if (statusDiv) {
       statusDiv.style.color = 'var(--accent-green)';

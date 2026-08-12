@@ -6,6 +6,7 @@ import time
 import datetime
 import threading
 import subprocess
+import requests
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse
 
@@ -49,6 +50,47 @@ def daily_3am_scheduler_thread():
         print(f"Next automated 3 AM run scheduled at: {target.strftime('%Y-%m-%d %H:%M:%S')} (in {round(seconds_to_wait/3600, 2)} hours)")
         time.sleep(seconds_to_wait)
         run_analysis_tasks()
+
+def resolve_yahoo_symbol(query):
+    query = query.strip()
+    if not query:
+        return None
+
+    # Try direct .NS / .BO
+    upper_q = query.upper().replace(" ", "")
+    candidates = []
+    if upper_q.endswith(".NS") or upper_q.endswith(".BO"):
+        candidates.append(upper_q)
+    else:
+        candidates.append(upper_q + ".NS")
+        candidates.append(upper_q + ".BO")
+
+    # Try searching Yahoo Finance Search API
+    try:
+        url = f"https://query1.finance.yahoo.com/1/finance/search?q={requests.utils.quote(query)}&quotesCount=10&newsCount=0"
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        resp = requests.get(url, headers=headers, timeout=5)
+        if resp.status_code == 200:
+            data = resp.json()
+            quotes = data.get('quotes', [])
+            for q in quotes:
+                sym = q.get('symbol', '')
+                if sym.endswith('.NS') or sym.endswith('.BO'):
+                    candidates.insert(0, sym)
+                    break
+    except Exception as e:
+        print(f"Yahoo Search API warning: {e}")
+
+    import fast_runner
+    for sym in candidates:
+        try:
+            res = fast_runner.fetch_stock_data({"symbol": sym, "name": query.upper(), "sector": "NSE/BSE Search"})
+            if res:
+                return res
+        except Exception:
+            continue
+
+    return None
 
 class CustomRequestHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
@@ -96,14 +138,11 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             return
 
         try:
-            import fast_runner
-            clean_sym = fast_runner.clean_symbol(symbol)
-            stock_data = fast_runner.fetch_stock_data({"symbol": clean_sym, "name": symbol.upper(), "sector": "NSE/BSE Search"})
-            
+            stock_data = resolve_yahoo_symbol(symbol)
             if stock_data:
                 res = json.dumps({"status": "success", "stock": stock_data}).encode('utf-8')
             else:
-                res = json.dumps({"status": "error", "message": f"Could not fetch data for symbol: {symbol}"}).encode('utf-8')
+                res = json.dumps({"status": "error", "message": f"Could not find valid NSE/BSE stock data for '{symbol}'. Try typing ticker (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON)."}).encode('utf-8')
         except Exception as e:
             res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
 
@@ -145,9 +184,8 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
                         writer = csv.writer(f)
                         writer.writerow([clean_sym, name, sector, 'Equity', 'Added by User from Strength Screener'])
                     
-                    # Run fast runner background update
                     threading.Thread(target=run_analysis_tasks, daemon=True).start()
-                    res = json.dumps({"status": "success", "message": f"✅ {clean_sym.replace('.NS','')} added to your Spark Stock List!"}).encode('utf-8')
+                    res = json.dumps({"status": "success", "message": f"✅ {clean_sym.replace('.NS','')} added to Spark Stock List & daily 3 AM scan!"}).encode('utf-8')
                 else:
                     res = json.dumps({"status": "info", "message": f"{clean_sym.replace('.NS','')} is already in your Spark Stock List!"}).encode('utf-8')
 
