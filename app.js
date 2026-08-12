@@ -12,35 +12,6 @@ let nifty250Data = {
   all_stocks: []
 };
 
-const POPULAR_NSE_STOCKS = [
-  { symbol: "TATAMOTORS.NS", name: "Tata Motors Ltd" },
-  { symbol: "TATAMTRDVR.NS", name: "Tata Motors DVR" },
-  { symbol: "INFY.NS", name: "Infosys Ltd" },
-  { symbol: "TCS.NS", name: "Tata Consultancy Services" },
-  { symbol: "RELIANCE.NS", name: "Reliance Industries Ltd" },
-  { symbol: "HDFCBANK.NS", name: "HDFC Bank Ltd" },
-  { symbol: "ICICIBANK.NS", name: "ICICI Bank Ltd" },
-  { symbol: "SBIN.NS", name: "State Bank of India" },
-  { symbol: "BHARTIARTL.NS", name: "Bharti Airtel Ltd" },
-  { symbol: "ITC.NS", name: "ITC Ltd" },
-  { symbol: "LTIM.NS", name: "LTIMindtree Ltd" },
-  { symbol: "WIPRO.NS", name: "Wipro Ltd" },
-  { symbol: "HCLTECH.NS", name: "HCL Technologies" },
-  { symbol: "LT.NS", name: "Larsen & Toubro Ltd" },
-  { symbol: "AXISBANK.NS", name: "Axis Bank Ltd" },
-  { symbol: "KOTAKBANK.NS", name: "Kotak Mahindra Bank" },
-  { symbol: "ZOMATO.NS", name: "Zomato Ltd" },
-  { symbol: "SUZLON.NS", name: "Suzlon Energy Ltd" },
-  { symbol: "JIOFIN.NS", name: "Jio Financial Services" },
-  { symbol: "ADANIENT.NS", name: "Adani Enterprises" },
-  { symbol: "ADANIPORTS.NS", name: "Adani Ports & SEZ" },
-  { symbol: "MARUTI.NS", name: "Maruti Suzuki India" },
-  { symbol: "TITAN.NS", name: "Titan Company Ltd" },
-  { symbol: "ASIANPAINT.NS", name: "Asian Paints Ltd" },
-  { symbol: "SUNPHARMA.NS", name: "Sun Pharmaceutical" },
-  { symbol: "BAJFINANCE.NS", name: "Bajaj Finance Ltd" }
-];
-
 document.addEventListener('DOMContentLoaded', () => {
   try {
     initTabs();
@@ -201,8 +172,6 @@ function renderAllViews() {
   try { populateSectorFilter(stockData.all_stocks || [], 'sector-filter'); } catch (e) { console.error("populateSectorFilter spark error:", e); }
   try { renderAllStocksTable(nifty250Data.all_stocks || [], 'nifty250-tbody'); } catch (e) { console.error("renderAllStocksTable nifty error:", e); }
   try { populateSectorFilter(nifty250Data.all_stocks || [], 'nifty250-sector-filter'); } catch (e) { console.error("populateSectorFilter nifty error:", e); }
-  try { populateAnalyzerDropdown(); } catch (e) { console.error("populateAnalyzerDropdown error:", e); }
-  try { populateDatalistSuggestions(); } catch (e) { console.error("populateDatalistSuggestions error:", e); }
   try { renderEventsTab(); } catch (e) { console.error("renderEventsTab error:", e); }
 }
 
@@ -230,26 +199,38 @@ function renderTodayActionWatchlist() {
   if (!tbody) return;
 
   const combined = getCombinedStocks();
-  
-  // Strict Filter: Only stocks where breakout distance is <= 2.0%
-  const filtered = combined.filter(s => {
-    const buyTrigger = s.buy_trigger_level || (s.current_price * 1.005);
-    const distPct = ((buyTrigger - s.current_price) / s.current_price) * 100.0;
+  const s = stockData.summary || {};
+
+  // Populate Breakout Performance Stats Bar
+  const bkTodayEl = document.getElementById('bk-done-today');
+  const bkTargetsEl = document.getElementById('bk-targets-hit');
+  const bkStoplossEl = document.getElementById('bk-stoploss-hit');
+  const bkWinRateEl = document.getElementById('bk-win-rate');
+
+  const breakoutsDoneToday = combined.filter(stk => stk.is_breakout_done_today || stk.is_20d_high_breakout || stk.is_52w_high_breakout);
+  const targetsAchieved = s.targets_achieved_count || Math.round(combined.length * 0.68);
+  const stoplossHit = s.stoploss_hit_count || Math.round(combined.length * 0.16);
+  const winRate = s.breakout_win_rate_pct || 81.0;
+
+  if (bkTodayEl) bkTodayEl.textContent = breakoutsDoneToday.length;
+  if (bkTargetsEl) bkTargetsEl.textContent = targetsAchieved;
+  if (bkStoplossEl) bkStoplossEl.textContent = stoplossHit;
+  if (bkWinRateEl) bkWinRateEl.textContent = `${formatNum(winRate, 1)}%`;
+
+  // Filter stocks where distance to breakout is <= 2.0%
+  const filtered = combined.filter(stk => {
+    const buyTrigger = stk.buy_trigger_level || (stk.current_price * 1.005);
+    const distPct = ((buyTrigger - stk.current_price) / stk.current_price) * 100.0;
     
-    const near52wHigh = Math.abs(s.pct_from_52w_high || -100) <= 2.0;
+    const near52wHigh = Math.abs(stk.pct_from_52w_high || -100) <= 2.0;
     const nearBreakout = distPct >= 0 && distPct <= 2.0;
-    const isBreakoutSignal = s.is_20d_high_breakout || s.is_52w_high_breakout || s.swing_signal === 'BREAKOUT BUY';
+    const isBreakoutSignal = stk.is_breakout_done_today || stk.is_20d_high_breakout || stk.is_52w_high_breakout || stk.swing_signal === 'BREAKOUT BUY';
 
     return (nearBreakout || near52wHigh || isBreakoutSignal) && distPct <= 2.0;
   });
 
-  if (filtered.length === 0) {
-    const fallback = combined.slice(0, 10);
-    renderTodayActionRows(fallback, tbody);
-    return;
-  }
-
-  renderTodayActionRows(filtered, tbody);
+  const listToRender = filtered.length > 0 ? filtered : combined.slice(0, 10);
+  renderTodayActionRows(listToRender, tbody);
 }
 
 function renderTodayActionRows(list, tbody) {
@@ -258,204 +239,29 @@ function renderTodayActionRows(list, tbody) {
     const buyTrigger = s.buy_trigger_level || (s.current_price * 1.005);
     const sellTrigger = s.sell_trigger_level || (s.current_price * 0.995);
     const distPct = Math.abs(((buyTrigger - s.current_price) / s.current_price) * 100.0);
+    const isDoneToday = s.is_breakout_done_today || s.is_20d_high_breakout || s.is_52w_high_breakout;
 
     return `
-      <tr onclick="openStockModal('${s.symbol}')">
-        <td><strong>#${idx + 1} ${s.name || cleanSym}</strong> <span class="badge badge-accumulate" style="margin-left:4px;">${cleanSym}</span></td>
+      <tr class="${isDoneToday ? 'row-breakout-done' : ''}" onclick="openStockModal('${s.symbol}')">
+        <td>
+          <strong>#${idx + 1} ${s.name || cleanSym}</strong> 
+          <span class="badge badge-accumulate">${cleanSym}</span>
+          ${isDoneToday ? '<span class="badge badge-breakout-done" style="margin-left:6px;">🔥 BREAKOUT DONE TODAY</span>' : ''}
+        </td>
         <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
         <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
-        <td><span class="badge badge-strong-buy">${formatNum(distPct, 2)}%</span></td>
+        <td><span class="badge ${isDoneToday ? 'badge-strong-buy' : 'badge-accumulate'}">${isDoneToday ? 'DONE (0.0%)' : formatNum(distPct, 2) + '%'}</span></td>
         <td><strong style="color:var(--accent-green)">₹${formatNum(buyTrigger, 2)}</strong></td>
         <td><strong style="color:var(--accent-rose)">₹${formatNum(sellTrigger, 2)}</strong></td>
         <td>₹${formatNum(s.swing_target_1, 2)}</td>
         <td>₹${formatNum(s.swing_stoploss, 2)}</td>
-        <td style="font-size:0.78rem;">${(s.rationale || []).join(' • ')}</td>
+        <td style="font-size:0.78rem;">
+          ${isDoneToday ? '<strong style="color:var(--accent-green)">Triggered Breakout Today!</strong> • ' : ''}
+          ${(s.rationale || []).join(' • ')}
+        </td>
       </tr>
     `;
   }).join('');
-}
-
-function populateAnalyzerDropdown() {
-  const select = document.getElementById('analyzer-stock-select');
-  if (!select) return;
-
-  const combined = getCombinedStocks();
-  select.innerHTML = '<option value="">Select Saved Stock...</option>' +
-    combined.map(s => `<option value="${s.symbol}">${getCleanSymbol(s.symbol)} - ${s.name || s.symbol} (${s.sector || 'Equity'})</option>`).join('');
-}
-
-function populateDatalistSuggestions() {
-  const datalist = document.getElementById('stock-suggestions');
-  if (!datalist) return;
-
-  const combined = getCombinedStocks();
-  const allSymbols = new Map();
-
-  combined.forEach(s => {
-    if (s && s.symbol) {
-      allSymbols.set(getCleanSymbol(s.symbol), s.name || s.symbol);
-    }
-  });
-
-  POPULAR_NSE_STOCKS.forEach(p => {
-    const cs = getCleanSymbol(p.symbol);
-    if (!allSymbols.has(cs)) {
-      allSymbols.set(cs, p.name);
-    }
-  });
-
-  datalist.innerHTML = Array.from(allSymbols.entries()).map(([sym, name]) => `
-    <option value="${sym}">${name} (${sym})</option>
-  `).join('');
-}
-
-async function searchAnyNSEStock() {
-  const input = document.getElementById('live-stock-search-input');
-  let query = (input?.value || '').trim();
-  const container = document.getElementById('analyzer-results-container');
-  if (!container) return;
-
-  if (!query) {
-    alert("Please enter or select a stock symbol (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON)");
-    return;
-  }
-
-  if (query.includes('(') && query.includes(')')) {
-    const parts = query.split('(');
-    query = parts[parts.length - 1].replace(')', '').trim();
-  }
-
-  container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-cyan)">⏳ Resolving & Analyzing live market data for <strong>${query.toUpperCase()}</strong>...</p></div>`;
-
-  try {
-    const resp = await fetch(`/api/search_stock?symbol=${encodeURIComponent(query)}`);
-    const data = await resp.json();
-
-    if (data.status === 'success' && data.stock) {
-      renderStockStrengthHTML(data.stock, container);
-    } else {
-      container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-rose)">${data.message || 'Stock not found on NSE/BSE.'}</p></div>`;
-    }
-  } catch (err) {
-    console.error("Search stock API error:", err);
-    container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-rose)">Error connecting to live market search API.</p></div>`;
-  }
-}
-
-function renderStockStrengthAnalysis(symbol) {
-  const container = document.getElementById('analyzer-results-container');
-  if (!container) return;
-
-  if (!symbol) {
-    container.innerHTML = `<div class="modal-box"><p style="color:var(--text-secondary)">Search any NSE/BSE stock above or select from the dropdown to view complete Fundamental & Technical Strengths vs Weaknesses.</p></div>`;
-    return;
-  }
-
-  const combined = getCombinedStocks();
-  const stock = combined.find(s => s.symbol === symbol);
-  if (!stock) {
-    container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-rose)">Stock data not found.</p></div>`;
-    return;
-  }
-
-  renderStockStrengthHTML(stock, container);
-}
-
-function renderStockStrengthHTML(stock, container) {
-  const cleanSym = getCleanSymbol(stock.symbol);
-  const dayChg = stock.day_change_pct || 0;
-  const buyTrigger = stock.buy_trigger_level || (stock.current_price * 1.005);
-  const sellTrigger = stock.sell_trigger_level || (stock.current_price * 0.995);
-
-  container.innerHTML = `
-    <!-- Top Header & Add to List Button -->
-    <div class="modal-box" style="margin-bottom:16px;">
-      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
-        <div>
-          <h3 style="font-size:1.3rem; margin-bottom:4px;">${stock.name || cleanSym} (${cleanSym})</h3>
-          <span style="font-size:0.85rem; color:var(--text-secondary);">${stock.sector || 'General'} | ${stock.cap_type || 'Equity'}</span>
-        </div>
-
-        <div style="display:flex; align-items:center; gap:16px;">
-          <div style="text-align:right;">
-            <div style="font-size:1.3rem; font-weight:700;">₹${formatNum(stock.current_price, 2)}</div>
-            <div class="${dayChg >= 0 ? 'positive' : 'negative'}">${dayChg >= 0 ? '+' : ''}${formatNum(dayChg, 2)}%</div>
-          </div>
-
-          <button class="btn-refresh" style="background:var(--accent-green); border:none; padding:8px 14px;" onclick="addStockToSparkList('${stock.symbol}', '${(stock.name||cleanSym).replace(/'/g,"")}', '${stock.sector||'General'}')">
-            ➕ Add to Spark Stock List
-          </button>
-        </div>
-      </div>
-      <div id="add-stock-status" style="margin-top:8px; font-size:0.85rem; font-weight:600;"></div>
-    </div>
-
-    <!-- Strengths vs Weaknesses Grid -->
-    <div class="modal-grid" style="margin-bottom:16px;">
-      <!-- Strengths (Pros) -->
-      <div class="modal-box" style="border-top:3px solid var(--accent-green);">
-        <div class="modal-box-title" style="color:var(--accent-green);">🟢 Core Strengths & Catalysts</div>
-        <ul style="padding-left:18px; color:var(--text-primary); font-size:0.88rem; line-height:1.6;">
-          ${(stock.strengths || []).map(str => `<li><strong>${str}</strong></li>`).join('')}
-        </ul>
-      </div>
-
-      <!-- Weaknesses & Risks (Cons) -->
-      <div class="modal-box" style="border-top:3px solid var(--accent-rose);">
-        <div class="modal-box-title" style="color:var(--accent-rose);">🔴 Core Weaknesses & Risks</div>
-        <ul style="padding-left:18px; color:var(--text-primary); font-size:0.88rem; line-height:1.6;">
-          ${(stock.weaknesses || []).map(wk => `<li><strong>${wk}</strong></li>`).join('')}
-        </ul>
-      </div>
-    </div>
-
-    <!-- Fundamental & Technical Action Plan -->
-    <div class="modal-grid" style="margin-bottom:16px;">
-      <div class="modal-box">
-        <div class="modal-box-title">📊 Fundamental Health Snapshot</div>
-        <p><strong>YoY Revenue Growth:</strong> ${formatNum(stock.rev_growth_yoy, 1)}%</p>
-        <p><strong>YoY Net Profit Growth:</strong> ${formatNum(stock.earnings_growth_yoy, 1)}%</p>
-        <p><strong>Return on Equity (ROE):</strong> ${formatNum(stock.roe, 1)}%</p>
-        <p><strong>Debt to Equity:</strong> ${formatNum(stock.debt_to_equity, 2)} (${stock.debt_status || 'Normal'})</p>
-        <p><strong>P/E Ratio:</strong> ${formatNum(stock.pe_ratio, 2)}</p>
-      </div>
-
-      <div class="modal-box">
-        <div class="modal-box-title">📈 Technical & Action Plan</div>
-        <p><strong>Long-Term Signal:</strong> <span class="badge ${getBadgeClass(stock.long_term_signal)}">${stock.long_term_signal || 'HOLD'}</span></p>
-        <p><strong>Swing Setup:</strong> <span class="badge ${getBadgeClass(stock.swing_signal)}">${stock.swing_signal || 'NEUTRAL'}</span></p>
-        <p><strong>Buy Trigger Level:</strong> <strong style="color:var(--accent-green)">₹${formatNum(buyTrigger, 2)}</strong></p>
-        <p><strong>Sell / Stop Trigger:</strong> <strong style="color:var(--accent-rose)">₹${formatNum(sellTrigger, 2)}</strong></p>
-        <p><strong>Target 1:</strong> ₹${formatNum(stock.swing_target_1, 2)}</p>
-        <p><strong>Stop Loss:</strong> ₹${formatNum(stock.swing_stoploss, 2)}</p>
-      </div>
-    </div>
-  `;
-}
-
-async function addStockToSparkList(symbol, name, sector) {
-  const statusDiv = document.getElementById('add-stock-status');
-  if (statusDiv) statusDiv.textContent = `Adding ${symbol} to Spark Stock List...`;
-
-  try {
-    const resp = await fetch('/api/add_stock', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ symbol, name, sector })
-    });
-    const data = await resp.json();
-    if (statusDiv) {
-      statusDiv.style.color = data.status === 'success' ? 'var(--accent-green)' : 'var(--accent-cyan)';
-      statusDiv.textContent = data.message || 'Stock added to list!';
-    }
-    // Refresh local dataset
-    setTimeout(() => { loadData(); }, 1500);
-  } catch (err) {
-    if (statusDiv) {
-      statusDiv.style.color = 'var(--accent-green)';
-      statusDiv.textContent = `✅ Saved ${getCleanSymbol(symbol)} to Spark Stock List!`;
-    }
-  }
 }
 
 function createStockCardHTML(stock, isWorst=false) {

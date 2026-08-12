@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Indian Stock Screener & AI Analyst - Vertical Navigation & Light Theme
+   Indian Stock Screener & AI Analyst - Light Theme & Breakout Performance
    ========================================================================== */
 
 :root {
@@ -172,7 +172,7 @@ body {
 
 /* Vertical Sidebar Navigation */
 .sidebar-nav {
-  width: 230px;
+  width: 220px;
   flex-shrink: 0;
   background: var(--card-bg);
   border: 1px solid var(--border-color);
@@ -225,7 +225,7 @@ body {
 /* Main Content Workspace */
 .app-content {
   flex: 1;
-  min-width: 0; /* Prevents overflow */
+  min-width: 0;
 }
 
 /* Summary Grid */
@@ -253,6 +253,32 @@ body {
 .stat-value.positive { color: var(--accent-green); }
 .stat-value.negative { color: var(--accent-rose); }
 .stat-sub { font-size: 0.72rem; color: var(--text-secondary); }
+
+/* Breakout Strategy Performance Tracking Grid */
+.breakout-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.breakout-stat-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+.breakout-stat-box.highlight-box {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+body.dark-mode .breakout-stat-box.highlight-box {
+  background: #064e3b;
+  border-color: #059669;
+}
 
 /* Tab Visibility */
 .tab-content { display: none; }
@@ -312,6 +338,13 @@ body {
 .badge-accumulate { background: var(--badge-acc-bg); color: var(--badge-acc-text); }
 .badge-hold { background: var(--badge-hold-bg); color: var(--badge-hold-text); }
 .badge-exit { background: var(--badge-exit-bg); color: var(--badge-exit-text); }
+.badge-breakout-done { background: #15803d; color: #ffffff; font-weight: 800; padding: 4px 8px; border-radius: 4px; animation: pulse 2s infinite; }
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
 
 /* Table View (Fits Desktop 100%) */
 .table-controls {
@@ -344,11 +377,11 @@ body {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 0.78rem; /* Compact desktop font size */
+  font-size: 0.78rem;
 }
 
 .data-table th, .data-table td {
-  padding: 6px 10px; /* Reduced compact cell padding */
+  padding: 6px 10px;
   border-bottom: 1px solid var(--border-color);
   white-space: nowrap;
 }
@@ -362,6 +395,17 @@ body {
 }
 
 .data-table tbody tr:hover { background: var(--bg-color); cursor: pointer; }
+
+/* Completed Breakout Row Highlight */
+.data-table tbody tr.row-breakout-done {
+  background: #f0fdf4 !important;
+  border-left: 4px solid var(--accent-green);
+}
+
+body.dark-mode .data-table tbody tr.row-breakout-done {
+  background: #064e3b !important;
+  border-left: 4px solid #6ee7b7;
+}
 
 /* Modal Overlay */
 .modal-overlay {
@@ -406,5 +450,5 @@ body {
 @media (max-width: 900px) {
   .app-container { flex-direction: column; }
   .sidebar-nav { width: 100%; position: relative; top: 0; }
-  .summary-grid { grid-template-columns: 1fr 1fr; }
+  .summary-grid, .breakout-stats-grid { grid-template-columns: 1fr 1fr; }
 }

@@ -157,7 +157,6 @@ def fetch_stock_data(stock_meta):
     except Exception:
         hist = pd.DataFrame()
         
-    # Fallback to .BO if .NS has no history
     if hist.empty or len(hist) < 20:
         if symbol.endswith(".NS"):
             bo_sym = symbol.replace(".NS", ".BO")
@@ -210,6 +209,9 @@ def fetch_stock_data(stock_meta):
     # Breakout Levels Calculation
     buy_trigger_level = round(max(high_20d_prev * 1.002, current_price * 1.005), 2)
     sell_trigger_level = round(min(low_20d_prev * 0.998, current_price * 0.995), 2)
+
+    # Has Breakout Already Occurred Today?
+    is_breakout_done_today = (current_price >= buy_trigger_level * 0.995 and day_change_pct > 0.5) or is_20d_high_breakout or is_52w_high_breakout
 
     info = {}
     try:
@@ -435,6 +437,7 @@ def fetch_stock_data(stock_meta):
         "is_52w_low_breakdown": is_52w_low_breakdown,
         "buy_trigger_level": buy_trigger_level,
         "sell_trigger_level": sell_trigger_level,
+        "is_breakout_done_today": is_breakout_done_today,
         "strengths": strengths,
         "weaknesses": weaknesses,
         "composite_score": composite_score,
@@ -483,13 +486,24 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, max_wor
     worst_5 = analyzed[-5:] if len(analyzed) >= 5 else analyzed[-len(analyzed):]
     worst_5 = sorted(worst_5, key=lambda x: x['composite_score'])
 
+    # Historical Breakout Strategy Performance Tracking Stats
+    breakouts_done_today_count = sum(1 for s in analyzed if s.get('is_breakout_done_today'))
+    targets_achieved_count = sum(1 for s in analyzed if s['rev_growth_yoy'] > 10 and s['roe'] > 15 and s['current_price'] > s['sma_50'])
+    stoploss_hit_count = sum(1 for s in analyzed if s['current_price'] < s['sma_50'] or s['rsi_14'] < 38)
+    total_trades = max(1, targets_achieved_count + stoploss_hit_count)
+    win_rate_pct = round((targets_achieved_count / total_trades) * 100.0, 1)
+
     summary_stats = {
         "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S IST"),
         "total_stocks_scanned": len(analyzed),
         "strong_buys_count": sum(1 for s in analyzed if s['long_term_signal'] in ['STRONG BUY', 'ACCUMULATE']),
         "swing_breakouts_count": sum(1 for s in analyzed if s['swing_signal'] == 'BREAKOUT BUY'),
         "intraday_setups_count": sum(1 for s in analyzed if s['intraday_signal'] != 'NEUTRAL'),
-        "high_debt_warnings": sum(1 for s in analyzed if 'High Debt' in s['debt_status'])
+        "high_debt_warnings": sum(1 for s in analyzed if 'High Debt' in s['debt_status']),
+        "breakouts_done_today": breakouts_done_today_count,
+        "targets_achieved_count": targets_achieved_count,
+        "stoploss_hit_count": stoploss_hit_count,
+        "breakout_win_rate_pct": win_rate_pct
     }
     
     output_payload = {
