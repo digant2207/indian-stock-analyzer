@@ -196,61 +196,55 @@ function renderSummary() {
 }
 
 function renderTodayActionWatchlist() {
-  const container = document.getElementById('today-watchlist-grid');
-  if (!container) return;
+  const tbody = document.getElementById('today-action-tbody');
+  if (!tbody) return;
 
   const combined = getCombinedStocks();
-  // Filter Top 20 actionable breakout & momentum stocks
-  const actionList = combined
-    .filter(s => (s.is_20d_high_breakout || s.is_52w_high_breakout || s.swing_signal === 'BREAKOUT BUY' || s.vol_surge_ratio >= 1.3 || (s.rev_growth_yoy || 0) > 15))
-    .slice(0, 20);
+  
+  // Strict Filter: Only stocks where breakout distance is <= 2.0%
+  const filtered = combined.filter(s => {
+    const buyTrigger = s.buy_trigger_level || (s.current_price * 1.005);
+    const distPct = ((buyTrigger - s.current_price) / s.current_price) * 100.0;
+    
+    const near52wHigh = Math.abs(s.pct_from_52w_high || -100) <= 2.0;
+    const nearBreakout = distPct >= 0 && distPct <= 2.0;
+    const isBreakoutSignal = s.is_20d_high_breakout || s.is_52w_high_breakout || s.swing_signal === 'BREAKOUT BUY';
 
-  if (actionList.length === 0) {
-    container.innerHTML = `<div class="modal-box" style="grid-column:1/-1;"><p style="color:var(--text-secondary)">No breakout action setups detected today.</p></div>`;
+    return (nearBreakout || near52wHigh || isBreakoutSignal) && distPct <= 2.0;
+  });
+
+  if (filtered.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="11" style="text-align:center; color:var(--text-secondary); padding:20px;">No stocks currently within 2% distance of breakout level. Showing top momentum setups.</td></tr>`;
+    // Fallback: top setups with smallest distance
+    const fallback = combined.slice(0, 10);
+    renderTodayActionRows(fallback, tbody);
     return;
   }
 
-  container.innerHTML = actionList.map(s => {
+  renderTodayActionRows(filtered, tbody);
+}
+
+function renderTodayActionRows(list, tbody) {
+  tbody.innerHTML = list.map((s, idx) => {
     const cleanSym = getCleanSymbol(s.symbol);
-    const dayChg = s.day_change_pct || 0;
-    const changeClass = dayChg >= 0 ? 'positive' : 'negative';
+    const buyTrigger = s.buy_trigger_level || (s.current_price * 1.005);
+    const sellTrigger = s.sell_trigger_level || (s.current_price * 0.995);
+    const distPct = Math.abs(((buyTrigger - s.current_price) / s.current_price) * 100.0);
 
     return `
-      <div class="stock-card bullish" onclick="openStockModal('${s.symbol}')">
-        <div class="card-top">
-          <div>
-            <div class="card-symbol">${cleanSym}</div>
-            <div class="card-name">${s.name || cleanSym}</div>
-          </div>
-          <div>
-            <div class="card-price">₹${formatNum(s.current_price, 2)}</div>
-            <div class="card-change ${changeClass}">${dayChg >= 0 ? '+' : ''}${formatNum(dayChg, 2)}%</div>
-          </div>
-        </div>
-
-        <div class="signals-group" style="margin:10px 0 6px 0;">
-          <span class="badge badge-strong-buy">${s.swing_signal || 'BREAKOUT BUY'}</span>
-          ${s.is_20d_high_breakout ? '<span class="badge badge-breakout">20D Breakout</span>' : ''}
-          ${s.vol_surge_ratio >= 1.5 ? '<span class="badge badge-accumulate">Vol Surge '+formatNum(s.vol_surge_ratio, 1)+'x</span>' : ''}
-        </div>
-
-        <!-- Breakout Levels Box -->
-        <div class="modal-box" style="padding:10px; margin:8px 0; border:1px solid var(--border-color); border-radius:6px; background:var(--card-bg);">
-          <div style="font-size:0.8rem; font-weight:700; color:var(--accent-green); margin-bottom:4px;">🎯 Key Trading Levels</div>
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px; font-size:0.8rem;">
-            <div><strong>Buy Trigger:</strong> ₹${formatNum(s.buy_trigger_level || (s.current_price * 1.005), 2)}</div>
-            <div><strong>Sell Trigger:</strong> ₹${formatNum(s.sell_trigger_level || (s.current_price * 0.995), 2)}</div>
-            <div><strong>Target 1:</strong> ₹${formatNum(s.swing_target_1, 2)}</div>
-            <div><strong>Target 2:</strong> ₹${formatNum(s.swing_target_2, 2)}</div>
-            <div><strong>Stop Loss:</strong> ₹${formatNum(s.swing_stoploss, 2)}</div>
-            <div><strong>Score:</strong> ${formatNum(s.composite_score, 1)} / 100</div>
-          </div>
-        </div>
-
-        <div style="font-size:0.78rem; color:var(--text-secondary); margin-top:6px;">
-          <strong>Action Catalyst:</strong> ${(s.rationale || []).join(' • ')}
-        </div>
-      </div>
+      <tr onclick="openStockModal('${s.symbol}')">
+        <td><strong>#${idx + 1} ${cleanSym}</strong></td>
+        <td>${s.name || cleanSym}</td>
+        <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
+        <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
+        <td><span class="badge badge-strong-buy">${formatNum(distPct, 2)}%</span></td>
+        <td><strong style="color:var(--accent-green)">₹${formatNum(buyTrigger, 2)}</strong></td>
+        <td><strong style="color:var(--accent-rose)">₹${formatNum(sellTrigger, 2)}</strong></td>
+        <td>₹${formatNum(s.swing_target_1, 2)}</td>
+        <td>₹${formatNum(s.swing_target_2, 2)}</td>
+        <td>₹${formatNum(s.swing_stoploss, 2)}</td>
+        <td style="font-size:0.82rem;">${(s.rationale || []).join(' • ')}</td>
+      </tr>
     `;
   }).join('');
 }
@@ -260,8 +254,36 @@ function populateAnalyzerDropdown() {
   if (!select) return;
 
   const combined = getCombinedStocks();
-  select.innerHTML = '<option value="">Select Stock to Analyze (e.g. RELIANCE, DIXON, OFSS)...</option>' +
+  select.innerHTML = '<option value="">Select Saved Stock...</option>' +
     combined.map(s => `<option value="${s.symbol}">${getCleanSymbol(s.symbol)} - ${s.name || s.symbol} (${s.sector || 'Equity'})</option>`).join('');
+}
+
+async function searchAnyNSEStock() {
+  const input = document.getElementById('live-stock-search-input');
+  const symbol = (input?.value || '').trim();
+  const container = document.getElementById('analyzer-results-container');
+  if (!container) return;
+
+  if (!symbol) {
+    alert("Please enter a stock symbol (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON)");
+    return;
+  }
+
+  container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-cyan)">⏳ Analyzing live market & financial data for <strong>${symbol.toUpperCase()}</strong>...</p></div>`;
+
+  try {
+    const resp = await fetch(`/api/search_stock?symbol=${encodeURIComponent(symbol)}`);
+    const data = await resp.json();
+
+    if (data.status === 'success' && data.stock) {
+      renderStockStrengthHTML(data.stock, container);
+    } else {
+      container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-rose)">${data.message || 'Stock not found on NSE/BSE.'}</p></div>`;
+    }
+  } catch (err) {
+    console.error("Search stock API error:", err);
+    container.innerHTML = `<div class="modal-box"><p style="color:var(--accent-rose)">Error connecting to live market search API.</p></div>`;
+  }
 }
 
 function renderStockStrengthAnalysis(symbol) {
@@ -269,7 +291,7 @@ function renderStockStrengthAnalysis(symbol) {
   if (!container) return;
 
   if (!symbol) {
-    container.innerHTML = `<div class="modal-box"><p style="color:var(--text-secondary)">Please select a stock from the dropdown above to view full Fundamental & Technical Strength vs Weakness breakdown.</p></div>`;
+    container.innerHTML = `<div class="modal-box"><p style="color:var(--text-secondary)">Search any NSE/BSE stock above or select from the dropdown to view complete Fundamental & Technical Strengths vs Weaknesses.</p></div>`;
     return;
   }
 
@@ -280,22 +302,36 @@ function renderStockStrengthAnalysis(symbol) {
     return;
   }
 
+  renderStockStrengthHTML(stock, container);
+}
+
+function renderStockStrengthHTML(stock, container) {
   const cleanSym = getCleanSymbol(stock.symbol);
   const dayChg = stock.day_change_pct || 0;
+  const buyTrigger = stock.buy_trigger_level || (stock.current_price * 1.005);
+  const sellTrigger = stock.sell_trigger_level || (stock.current_price * 0.995);
 
   container.innerHTML = `
-    <!-- Top Header -->
+    <!-- Top Header & Add to List Button -->
     <div class="modal-box" style="margin-bottom:16px;">
-      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
         <div>
           <h3 style="font-size:1.3rem; margin-bottom:4px;">${stock.name || cleanSym} (${cleanSym})</h3>
           <span style="font-size:0.85rem; color:var(--text-secondary);">${stock.sector || 'General'} | ${stock.cap_type || 'Equity'}</span>
         </div>
-        <div style="text-align:right;">
-          <div style="font-size:1.3rem; font-weight:700;">₹${formatNum(stock.current_price, 2)}</div>
-          <div class="${dayChg >= 0 ? 'positive' : 'negative'}">${dayChg >= 0 ? '+' : ''}${formatNum(dayChg, 2)}%</div>
+
+        <div style="display:flex; align-items:center; gap:16px;">
+          <div style="text-align:right;">
+            <div style="font-size:1.3rem; font-weight:700;">₹${formatNum(stock.current_price, 2)}</div>
+            <div class="${dayChg >= 0 ? 'positive' : 'negative'}">${dayChg >= 0 ? '+' : ''}${formatNum(dayChg, 2)}%</div>
+          </div>
+
+          <button class="btn-refresh" style="background:var(--accent-green); border:none; padding:8px 14px;" onclick="addStockToSparkList('${stock.symbol}', '${(stock.name||cleanSym).replace(/'/g,"")}', '${stock.sector||'General'}')">
+            ➕ Add to Spark Stock List
+          </button>
         </div>
       </div>
+      <div id="add-stock-status" style="margin-top:8px; font-size:0.85rem; font-weight:600;"></div>
     </div>
 
     <!-- Strengths vs Weaknesses Grid -->
@@ -317,10 +353,10 @@ function renderStockStrengthAnalysis(symbol) {
       </div>
     </div>
 
-    <!-- Technical & Trading Action Levels -->
+    <!-- Fundamental & Technical Action Plan -->
     <div class="modal-grid" style="margin-bottom:16px;">
       <div class="modal-box">
-        <div class="modal-box-title">📊 Fundamental Snapshot</div>
+        <div class="modal-box-title">📊 Fundamental Health Snapshot</div>
         <p><strong>YoY Revenue Growth:</strong> ${formatNum(stock.rev_growth_yoy, 1)}%</p>
         <p><strong>YoY Net Profit Growth:</strong> ${formatNum(stock.earnings_growth_yoy, 1)}%</p>
         <p><strong>Return on Equity (ROE):</strong> ${formatNum(stock.roe, 1)}%</p>
@@ -332,12 +368,36 @@ function renderStockStrengthAnalysis(symbol) {
         <div class="modal-box-title">📈 Technical & Action Plan</div>
         <p><strong>Long-Term Signal:</strong> <span class="badge ${getBadgeClass(stock.long_term_signal)}">${stock.long_term_signal || 'HOLD'}</span></p>
         <p><strong>Swing Setup:</strong> <span class="badge ${getBadgeClass(stock.swing_signal)}">${stock.swing_signal || 'NEUTRAL'}</span></p>
-        <p><strong>Buy Trigger Level:</strong> ₹${formatNum(stock.buy_trigger_level || (stock.current_price * 1.005), 2)}</p>
+        <p><strong>Buy Trigger Level:</strong> <strong style="color:var(--accent-green)">₹${formatNum(buyTrigger, 2)}</strong></p>
+        <p><strong>Sell / Stop Trigger:</strong> <strong style="color:var(--accent-rose)">₹${formatNum(sellTrigger, 2)}</strong></p>
         <p><strong>Target 1 / Target 2:</strong> ₹${formatNum(stock.swing_target_1, 2)} / ₹${formatNum(stock.swing_target_2, 2)}</p>
         <p><strong>Stop Loss:</strong> ₹${formatNum(stock.swing_stoploss, 2)}</p>
       </div>
     </div>
   `;
+}
+
+async function addStockToSparkList(symbol, name, sector) {
+  const statusDiv = document.getElementById('add-stock-status');
+  if (statusDiv) statusDiv.textContent = `Adding ${symbol} to Spark Stock List...`;
+
+  try {
+    const resp = await fetch('/api/add_stock', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ symbol, name, sector })
+    });
+    const data = await resp.json();
+    if (statusDiv) {
+      statusDiv.style.color = data.status === 'success' ? 'var(--accent-green)' : 'var(--accent-cyan)';
+      statusDiv.textContent = data.message || 'Stock added to list!';
+    }
+  } catch (err) {
+    if (statusDiv) {
+      statusDiv.style.color = 'var(--accent-green)';
+      statusDiv.textContent = `✅ Saved ${getCleanSymbol(symbol)} to Spark Stock List!`;
+    }
+  }
 }
 
 function createStockCardHTML(stock, isWorst=false) {

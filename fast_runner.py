@@ -128,7 +128,7 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
                     "date_tag": n_tag,
                     "type": "Corporate News",
                     "title": title,
-                    "summary": f"Recent corporate announcement for {symbol.replace('.NS','')}.",
+                    "summary": f"Recent corporate announcement for {symbol.replace('.NS','').replace('.BO','')}.",
                     "impact": "Neutral / Watch ⚖️",
                     "impact_reason": "Monitored for corporate development."
                 })
@@ -157,6 +157,18 @@ def fetch_stock_data(stock_meta):
     except Exception:
         hist = pd.DataFrame()
         
+    # Fallback to .BO if .NS has no history
+    if hist.empty or len(hist) < 20:
+        if symbol.endswith(".NS"):
+            bo_sym = symbol.replace(".NS", ".BO")
+            ticker = yf.Ticker(bo_sym)
+            try:
+                hist = ticker.history(period="1y", interval="1d")
+                if not hist.empty and len(hist) >= 20:
+                    symbol = bo_sym
+            except Exception:
+                pass
+
     if hist.empty or len(hist) < 20:
         return None
 

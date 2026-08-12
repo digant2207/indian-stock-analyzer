@@ -68,7 +68,7 @@
 
     <!-- Navigation Tabs -->
     <nav class="tabs-nav">
-      <button class="tab-btn active" data-tab="tab-today-action">🎯 Today's Action Watchlist (Top 20)</button>
+      <button class="tab-btn active" data-tab="tab-today-action">🎯 Today's Breakouts (<= 2% Distance)</button>
       <button class="tab-btn" data-tab="tab-overview">🔥 Top 15 & Worst 5</button>
       <button class="tab-btn" data-tab="tab-watchlist">📊 Spark Watchlist</button>
       <button class="tab-btn" data-tab="tab-nifty250">📈 Nifty 250 Universe</button>
@@ -77,16 +77,36 @@
       <button class="tab-btn" data-tab="tab-manager">⚙️ Stock List Manager</button>
     </nav>
 
-    <!-- Tab 1: Today's Action Watchlist (Top 20) -->
+    <!-- Tab 1: Today's Action Watchlist (Table View <= 2% Breakout Distance) -->
     <div id="tab-today-action" class="tab-content active">
       <div class="section-title-group">
         <h2 class="section-title" style="color: var(--accent-cyan)">
-          🎯 Top 20 Today's Momentum & Breakout Watchlist
+          🎯 Today's Action Watchlist (Fresh Breakouts Within 2% Distance)
         </h2>
-        <span style="font-size: 0.85rem; color: var(--text-secondary);">Top 20 High-Conviction Breakout & News Catalyst Setups across Spark Watchlist & Nifty 50</span>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Filtered strictly for stocks where current price is within 2% of Breakout Level</span>
       </div>
-      <div id="today-watchlist-grid" class="stock-cards-grid">
-        <!-- Dynamic Cards -->
+
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Stock</th>
+              <th>Company Name</th>
+              <th>Price (₹)</th>
+              <th>Day Chg (%)</th>
+              <th>Distance to Breakout (%)</th>
+              <th>Buy Trigger Level (₹)</th>
+              <th>Sell / Stop Trigger (₹)</th>
+              <th>Target 1 (₹)</th>
+              <th>Target 2 (₹)</th>
+              <th>Stop Loss (₹)</th>
+              <th>Action Rationale</th>
+            </tr>
+          </thead>
+          <tbody id="today-action-tbody">
+            <!-- Dynamic Table Rows -->
+          </tbody>
+        </table>
       </div>
     </div>
 
@@ -203,20 +223,28 @@
     <div id="tab-analyzer" class="tab-content">
       <div class="section-title-group">
         <h2 class="section-title">
-          🔍 Stock Fundamental & Technical Strength Screener
+          🔍 Search ANY NSE / BSE Stock Strength & Weakness Screener
         </h2>
-        <span style="font-size: 0.85rem; color: var(--text-secondary);">Deep-Dive Strength vs Weakness Comparison Matrix for Any Stock</span>
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Analyze any stock listed on NSE/BSE & add to Spark Stock List</span>
       </div>
 
-      <div class="table-controls" style="margin-bottom:20px;">
-        <select id="analyzer-stock-select" class="filter-select" style="min-width:320px; font-weight:600; padding:10px;" onchange="renderStockStrengthAnalysis(this.value)">
-          <option value="">Select Stock to Analyze (e.g. RELIANCE, DIXON, OFSS)...</option>
+      <div class="table-controls" style="margin-bottom:20px; display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <!-- Live Search Input for ANY NSE/BSE Ticker -->
+        <div style="display:flex; gap:8px; flex:1; min-width:300px;">
+          <input type="text" id="live-stock-search-input" class="search-input" placeholder="Type ANY NSE/BSE Stock (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON)..." onkeypress="if(event.key==='Enter') searchAnyNSEStock()">
+          <button class="btn-refresh" onclick="searchAnyNSEStock()">🔍 Analyze Live</button>
+        </div>
+
+        <div style="font-size:0.85rem; color:var(--text-secondary);">or pick saved:</div>
+
+        <!-- Dropdown for pre-scanned stocks -->
+        <select id="analyzer-stock-select" class="filter-select" style="min-width:260px; font-weight:600; padding:10px;" onchange="renderStockStrengthAnalysis(this.value)">
+          <option value="">Select Saved Stock...</option>
         </select>
       </div>
 
       <div id="analyzer-results-container">
-        <!-- Dynamic Strength vs Weakness Dashboard -->
-        <div class="modal-box"><p style="color:var(--text-secondary)">Please select a stock from the dropdown above to view full Fundamental & Technical Strength vs Weakness breakdown.</p></div>
+        <div class="modal-box"><p style="color:var(--text-secondary)">Search any NSE/BSE stock above or select from the dropdown to view complete Fundamental & Technical Strengths vs Weaknesses.</p></div>
       </div>
     </div>
 
