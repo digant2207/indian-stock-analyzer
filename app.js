@@ -63,6 +63,33 @@ function initTabs() {
   });
 }
 
+async function triggerLiveRefresh() {
+  const btn = document.getElementById('btn-refresh-data');
+  const btnText = document.getElementById('refresh-btn-text');
+  
+  if (btnText) btnText.textContent = '⏳ Syncing Google Sheet & Market Data...';
+  if (btn) btn.disabled = true;
+
+  try {
+    const resp = await fetch('/api/refresh', { method: 'POST' });
+    if (resp.ok) {
+      if (btnText) btnText.textContent = '✅ Updated Live!';
+      await loadData();
+    } else {
+      if (btnText) btnText.textContent = 'Reloading Page...';
+      location.reload();
+    }
+  } catch (err) {
+    console.log("Static file mode fallback: reloading page.");
+    location.reload();
+  } finally {
+    setTimeout(() => {
+      if (btnText) btnText.textContent = 'Refresh Data';
+      if (btn) btn.disabled = false;
+    }, 3000);
+  }
+}
+
 function quickFilterTab(tabId, filterSignal) {
   try {
     document.querySelectorAll('.tab-btn').forEach(t => {

@@ -1,11 +1,8 @@
 @echo off
-echo =========================================================
-echo    Running Indian Stock Market Screener & Backtest
-echo =========================================================
+echo =========================================================================
+echo    Starting Indian Stock Screener Live Server & 3 AM Scheduler
+echo =========================================================================
 
-.venv\Scripts\python.exe analyzer.py
-.venv\Scripts\python.exe backtester.py
+.venv\Scripts\python.exe server.py
 
-echo.
-echo Analysis complete! Open index.html in your browser or run a local HTTP server.
 pause
