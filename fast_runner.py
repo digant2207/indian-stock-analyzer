@@ -81,7 +81,7 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
     yesterday = today - datetime.timedelta(days=1)
     tomorrow = today + datetime.timedelta(days=1)
 
-    # 1. Fetch Official Calendar Announced Upcoming Events (Earnings Date & Ex-Dividend Date)
+    # 1. Fetch Official Calendar Announced Events (Earnings Date & Ex-Dividend Date)
     try:
         cal = ticker.calendar or {}
         
@@ -101,8 +101,8 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
                     "date": e_date.strftime("%Y-%m-%d"),
                     "date_tag": date_tag,
                     "type": "Qtr Results",
-                    "title": f"Official Results Date ({e_date.strftime('%d %b %Y')})",
-                    "summary": f"Company scheduled quarterly earnings announcement on {e_date.strftime('%d %b %Y')}.",
+                    "title": f"Official Qtr Results Announced ({e_date.strftime('%d %b %Y')})",
+                    "summary": f"Company officially announced quarterly results date on {e_date.strftime('%d %b %Y')}.",
                     "impact": "High Volatility ⚡",
                     "impact_reason": "Quarterly results announcement impacts stock trend."
                 })
@@ -115,8 +115,8 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
                 "date": ex_div_date.strftime("%Y-%m-%d"),
                 "date_tag": date_tag,
                 "type": "Dividend Action",
-                "title": f"Ex-Dividend Date ({ex_div_date.strftime('%d %b %Y')})",
-                "summary": f"Ex-dividend date for dividend payout.",
+                "title": f"Official Dividend Ex-Date ({ex_div_date.strftime('%d %b %Y')})",
+                "summary": f"Company announced dividend payout ex-date.",
                 "impact": "Bullish Income 💰" if dividend_yield >= 1.5 else "Neutral ⚖️",
                 "impact_reason": f"Dividend payout ex-date."
             })
@@ -124,7 +124,7 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
     except Exception:
         pass
 
-    # 2. Filter Yahoo Corporate Disclosures for Real Future Events (AGM, Board Meetings, Big Orders, Splits)
+    # 2. Filter Yahoo Corporate News Disclosures ONLY for Verified Major Announcements
     try:
         news_items = ticker.news or []
         for n in news_items:
@@ -138,7 +138,6 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
             pub_time = n.get('providerPublishTime')
             if pub_time:
                 n_date = datetime.datetime.fromtimestamp(pub_time).date()
-                # Strictly only keep events announced for today, yesterday, or future
                 if n_date >= yesterday:
                     n_tag = "Today" if n_date == today else ("Yesterday" if n_date == yesterday else ("Tomorrow" if n_date == tomorrow else n_date.strftime("%d %b")))
                     
@@ -154,9 +153,9 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
                         "date_tag": n_tag,
                         "type": event_type,
                         "title": f"{title} ({n_date.strftime('%d %b')})",
-                        "summary": f"Major corporate disclosure for {symbol.replace('.NS','').replace('.BO','')}.",
+                        "summary": f"Official corporate disclosure for {symbol.replace('.NS','').replace('.BO','')}.",
                         "impact": "High Impact ⚡",
-                        "impact_reason": f"Major {event_type} event monitored for price movement."
+                        "impact_reason": f"Major {event_type} announcement."
                     })
     except Exception:
         pass
@@ -192,6 +191,8 @@ def fetch_stock_data(stock_meta):
     volumes = hist['Volume'].values
     
     current_price = round(clean_val(close_prices[-1]), 2)
+    today_high = round(clean_val(high_prices[-1]), 2)
+    # Base Starting Price for Today's Breakout is Yesterday's Close
     prev_close = round(clean_val(close_prices[-2]), 2) if len(close_prices) > 1 else current_price
     day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
     
@@ -213,6 +214,7 @@ def fetch_stock_data(stock_meta):
     vol_20_avg = float(np.mean(volumes[-20:])) if len(volumes) >= 20 else float(np.mean(volumes))
     vol_surge_ratio = round(float(volumes[-1] / vol_20_avg), 2) if vol_20_avg > 0 else 1.0
     
+    # 20-Day High prior to today (Yesterday's 20-day high)
     high_20d_prev = float(np.max(high_prices[-21:-1])) if len(high_prices) > 20 else float(np.max(high_prices[:-1]))
     low_20d_prev = float(np.min(low_prices[-21:-1])) if len(low_prices) > 20 else float(np.min(low_prices[:-1]))
     
@@ -221,12 +223,15 @@ def fetch_stock_data(stock_meta):
     is_52w_high_breakout = current_price >= high_52w * 0.985
     is_52w_low_breakdown = current_price <= low_52w * 1.015
 
-    # Breakout Levels Calculation
-    buy_trigger_level = round(max(high_20d_prev * 1.002, current_price * 1.005), 2)
-    sell_trigger_level = round(min(low_20d_prev * 0.998, current_price * 0.995), 2)
+    # Breakout Levels Calculated from Yesterday's Close as Starting Base
+    buy_trigger_level = round(max(high_20d_prev * 1.002, prev_close * 1.005), 2)
+    sell_trigger_level = round(min(low_20d_prev * 0.998, prev_close * 0.995), 2)
 
-    # Has Breakout Already Occurred Today?
-    is_breakout_done_today = (current_price >= buy_trigger_level * 0.995 and day_change_pct > 0.5) or is_20d_high_breakout or is_52w_high_breakout
+    # Breakout distance % calculated strictly from Yesterday's Close
+    dist_from_prev_close = round(((buy_trigger_level - prev_close) / prev_close) * 100.0, 2)
+
+    # Has Breakout Already Occurred Today? (Price or High crossed trigger)
+    is_breakout_done_today = (current_price >= buy_trigger_level or today_high >= buy_trigger_level) and day_change_pct > 0.3
 
     info = {}
     try:
@@ -402,7 +407,7 @@ def fetch_stock_data(stock_meta):
 
     events = fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earnings_growth_yoy, dividend_yield)
 
-    # Determine genuine announced upcoming event string
+    # Determine genuine announced upcoming event string ONLY if corporate announcement exists
     upcoming_event_str = "None"
     if events:
         first_evt = events[0]
@@ -458,6 +463,7 @@ def fetch_stock_data(stock_meta):
         "is_52w_low_breakdown": is_52w_low_breakdown,
         "buy_trigger_level": buy_trigger_level,
         "sell_trigger_level": sell_trigger_level,
+        "dist_from_prev_close": dist_from_prev_close,
         "is_breakout_done_today": is_breakout_done_today,
         "upcoming_event_str": upcoming_event_str,
         "strengths": strengths,

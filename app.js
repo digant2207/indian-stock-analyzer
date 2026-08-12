@@ -200,15 +200,17 @@ function renderTodayActionWatchlist() {
 
   const combined = getCombinedStocks();
 
+  // Starting Base Price for Today's Breakout is Yesterday's Close (prev_close)
   const filtered = combined.filter(stk => {
-    const buyTrigger = stk.buy_trigger_level || (stk.current_price * 1.005);
-    const distPct = ((buyTrigger - stk.current_price) / stk.current_price) * 100.0;
+    const basePrice = stk.prev_close || stk.current_price;
+    const buyTrigger = stk.buy_trigger_level || (basePrice * 1.005);
+    const distPctFromPrevClose = ((buyTrigger - basePrice) / basePrice) * 100.0;
     
     const near52wHigh = Math.abs(stk.pct_from_52w_high || -100) <= 2.0;
-    const nearBreakout = distPct >= 0 && distPct <= 2.0;
+    const nearBreakout = distPctFromPrevClose >= 0 && distPctFromPrevClose <= 2.0;
     const isBreakoutSignal = stk.is_breakout_done_today || stk.is_20d_high_breakout || stk.is_52w_high_breakout || stk.swing_signal === 'BREAKOUT BUY';
 
-    return (nearBreakout || near52wHigh || isBreakoutSignal) && distPct <= 2.0;
+    return (nearBreakout || near52wHigh || isBreakoutSignal) && distPctFromPrevClose <= 2.0;
   });
 
   const listToRender = filtered.length > 0 ? filtered : combined.slice(0, 10);
@@ -218,9 +220,12 @@ function renderTodayActionWatchlist() {
 function renderTodayActionRows(list, tbody) {
   tbody.innerHTML = list.map((s, idx) => {
     const cleanSym = getCleanSymbol(s.symbol);
-    const buyTrigger = s.buy_trigger_level || (s.current_price * 1.005);
-    const sellTrigger = s.sell_trigger_level || (s.current_price * 0.995);
-    const distPct = Math.abs(((buyTrigger - s.current_price) / s.current_price) * 100.0);
+    const basePrice = s.prev_close || s.current_price;
+    const buyTrigger = s.buy_trigger_level || (basePrice * 1.005);
+    const sellTrigger = s.sell_trigger_level || (basePrice * 0.995);
+    
+    // Distance calculated strictly from Yesterday's Close
+    const distFromPrevClose = Math.abs(((buyTrigger - basePrice) / basePrice) * 100.0);
     const isDoneToday = s.is_breakout_done_today || s.is_20d_high_breakout || s.is_52w_high_breakout;
 
     return `
@@ -230,9 +235,9 @@ function renderTodayActionRows(list, tbody) {
           <span class="badge badge-accumulate">${cleanSym}</span>
           ${isDoneToday ? '<span class="badge badge-breakout-done" style="margin-left:6px;">🔥 BREAKOUT DONE TODAY</span>' : ''}
         </td>
-        <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
+        <td><strong>₹${formatNum(s.current_price, 2)}</strong> <span style="font-size:0.7rem; color:var(--text-muted);">(Prev: ₹${formatNum(basePrice, 2)})</span></td>
         <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
-        <td><span class="badge ${isDoneToday ? 'badge-strong-buy' : 'badge-accumulate'}">${isDoneToday ? 'DONE (0.0%)' : formatNum(distPct, 2) + '%'}</span></td>
+        <td><span class="badge ${isDoneToday ? 'badge-strong-buy' : 'badge-accumulate'}">${isDoneToday ? 'DONE (0.0%)' : formatNum(distFromPrevClose, 2) + '%'}</span></td>
         <td><strong style="color:var(--accent-green)">₹${formatNum(buyTrigger, 2)}</strong></td>
         <td><strong style="color:var(--accent-rose)">₹${formatNum(sellTrigger, 2)}</strong></td>
         <td>₹${formatNum(s.swing_target_1, 2)}</td>
@@ -246,7 +251,7 @@ function renderTodayActionRows(list, tbody) {
   }).join('');
 }
 
-// Spark Watchlist Table Rendering (With Official Announced Event Dates)
+// Spark Watchlist Table Rendering (Verified Official Event Disclosures Only)
 function renderSparkWatchlistTable(stocks, tbodyId='all-stocks-tbody') {
   const tbody = document.getElementById(tbodyId);
   if (!tbody) return;
@@ -274,7 +279,7 @@ function renderSparkWatchlistTable(stocks, tbodyId='all-stocks-tbody') {
   }).join('');
 }
 
-// Nifty 250 Table Rendering (With Official Announced Event Dates)
+// Nifty 250 Table Rendering (Verified Official Event Disclosures Only)
 function renderNifty250Table(stocks, tbodyId='nifty250-tbody') {
   const tbody = document.getElementById(tbodyId);
   if (!tbody) return;
@@ -398,7 +403,7 @@ function renderEventsTab() {
   }
 
   if (allEvents.length === 0) {
-    container.innerHTML = `<div class="modal-box" style="grid-column:1/-1;"><p style="color:var(--text-secondary)">No major corporate events found for timeline: <strong>${timelineFilter}</strong>.</p></div>`;
+    container.innerHTML = `<div class="modal-box" style="grid-column:1/-1;"><p style="color:var(--text-secondary)">No verified corporate event disclosures found for timeline: <strong>${timelineFilter}</strong>.</p></div>`;
     return;
   }
 
@@ -419,7 +424,7 @@ function renderEventsTab() {
 
       <div class="card-metrics" style="margin-top:10px;">
         <div class="metric-item">
-          <span class="metric-lbl">Major Event Category</span>
+          <span class="metric-lbl">Event Category</span>
           <span class="metric-val" style="color:var(--accent-green)">${e.type || 'Corporate Action'}</span>
         </div>
         <div class="metric-item">
@@ -503,6 +508,7 @@ function openStockModal(symbol) {
       <div class="modal-box">
         <div class="modal-box-title">Price & Technicals</div>
         <p><strong>Current Price:</strong> ₹${formatNum(stock.current_price, 2)}</p>
+        <p><strong>Previous Close (Starting Base):</strong> ₹${formatNum(stock.prev_close || stock.current_price, 2)}</p>
         <p><strong>Buy Trigger Level:</strong> ₹${formatNum(stock.buy_trigger_level || (stock.current_price * 1.005), 2)}</p>
         <p><strong>52W High / Low:</strong> ₹${formatNum(stock['52w_high'], 2)} / ₹${formatNum(stock['52w_low'], 2)}</p>
         <p><strong>20 / 50 / 200 EMA:</strong> ₹${formatNum(stock.sma_20, 2)} / ₹${formatNum(stock.sma_50, 2)} / ₹${formatNum(stock.sma_200, 2)}</p>
@@ -537,7 +543,7 @@ function openStockModal(symbol) {
     </div>
 
     <div class="modal-box" style="margin-top:16px;">
-      <div class="modal-box-title">Upcoming Corporate Event Date</div>
+      <div class="modal-box-title">Announced Corporate Event Date</div>
       <p style="font-size:0.95rem; font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">${stock.upcoming_event_str || 'None'}</p>
       <div class="modal-box-title">Key Rationale & Catalysts</div>
       <ul style="padding-left:20px; color: var(--text-secondary);">
