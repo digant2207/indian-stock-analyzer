@@ -15,6 +15,11 @@ HIGH_DEBT_SECTORS = [
     "Ports & Logistics", "Conglomerate", "Mining & Energy", "Power Finance", "Rail Finance"
 ]
 
+MAJOR_EVENT_KEYWORDS = [
+    "AGM", "EGM", "RESULT", "EARNINGS", "DIVIDEND", "SPLIT", "BONUS", 
+    "BUYBACK", "BOARD MEETING", "ORDER", "CONTRACT", "ACQUISITION", "MERGER", "EXPANSION"
+]
+
 def clean_symbol(sym):
     sym = sym.strip().upper()
     if not sym: return ""
@@ -76,6 +81,7 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
     yesterday = today - datetime.timedelta(days=1)
     tomorrow = today + datetime.timedelta(days=1)
 
+    # 1. Dividend Ex-Dates
     try:
         ex_date_timestamp = ticker.info.get('exDividendDate')
         if ex_date_timestamp:
@@ -85,66 +91,73 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
                 events_list.append({
                     "date": ex_date.strftime("%Y-%m-%d"),
                     "date_tag": date_tag,
-                    "type": "Dividend Ex-Date",
+                    "type": "Dividend Action",
                     "title": f"Ex-Dividend Event ({dividend_yield:.2f}% Yield)",
                     "summary": f"Ex-dividend date for dividend payout. Stock trades ex-dividend on this date.",
-                    "impact": "Bullish Income" if dividend_yield >= 2.0 else "Neutral ⚖️",
+                    "impact": "Bullish Income 💰" if dividend_yield >= 2.0 else "Neutral ⚖️",
                     "impact_reason": f"High dividend yield ({dividend_yield:.2f}%) attracts income investors."
                 })
     except Exception:
         pass
 
+    # 2. Quarterly Results & Financial Performance Announcements
     if rev_growth_yoy > 15 or earnings_growth_yoy > 20:
         events_list.append({
             "date": today.strftime("%Y-%m-%d"),
             "date_tag": "Today",
-            "type": "Quarterly Earnings Growth",
-            "title": f"Strong Earnings Growth Release (YoY Profit +{earnings_growth_yoy:.1f}%)",
-            "summary": f"Strong YoY revenue growth of {rev_growth_yoy:.1f}% and Net Profit growth of {earnings_growth_yoy:.1f}%.",
+            "type": "Quarterly Financial Results",
+            "title": f"Strong Qtr Results & Profit Growth (+{earnings_growth_yoy:.1f}% YoY)",
+            "summary": f"Strong YoY sales growth of {rev_growth_yoy:.1f}% and Net Profit expansion of {earnings_growth_yoy:.1f}%.",
             "impact": "Bullish Re-rating 🚀",
-            "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+            "impact_reason": "Beating earnings expectations provides strong fundamental catalyst."
         })
     elif earnings_growth_yoy < -10:
         events_list.append({
             "date": yesterday.strftime("%Y-%m-%d"),
             "date_tag": "Yesterday",
-            "type": "Earnings Caution",
-            "title": f"Earnings De-growth Reported (YoY Profit Drop {earnings_growth_yoy:.1f}%)",
-            "summary": f"Recent financial results show profit declining by {abs(earnings_growth_yoy):.1f}%.",
+            "type": "Quarterly Financial Results",
+            "title": f"Quarterly Results Caution (YoY Profit Drop {earnings_growth_yoy:.1f}%)",
+            "summary": f"Financial disclosures show profit declining by {abs(earnings_growth_yoy):.1f}%.",
             "impact": "Bearish Caution ⚠️",
             "impact_reason": "Margin pressure may trigger short-term profit booking."
         })
 
+    # 3. Filter Yahoo Corporate News for Major Events (AGM, Board Meetings, Big Orders, Splits, Dividends)
     try:
         news_items = ticker.news or []
-        for n in news_items[:2]:
+        for n in news_items:
             title = n.get('title', '')
+            upper_title = title.upper()
+
+            # Filter strictly for Major Event keywords
+            is_major = any(kw in upper_title for kw in MAJOR_EVENT_KEYWORDS)
+            if not is_major:
+                continue
+
             pub_time = n.get('providerPublishTime')
             if pub_time:
                 n_date = datetime.datetime.fromtimestamp(pub_time).date()
-                n_tag = "Today" if n_date == today else ("Yesterday" if n_date == yesterday else ("Tomorrow" if n_date == tomorrow else n_date.strftime("%d %b %Y")))
-                events_list.append({
-                    "date": n_date.strftime("%Y-%m-%d"),
-                    "date_tag": n_tag,
-                    "type": "Corporate News",
-                    "title": title,
-                    "summary": f"Recent corporate announcement for {symbol.replace('.NS','').replace('.BO','')}.",
-                    "impact": "Neutral / Watch ⚖️",
-                    "impact_reason": "Monitored for corporate development."
-                })
+                if abs((n_date - today).days) <= 2:
+                    n_tag = "Today" if n_date == today else ("Yesterday" if n_date == yesterday else "Tomorrow")
+                    
+                    event_type = "Board Meeting / Order Win"
+                    if "AGM" in upper_title or "EGM" in upper_title: event_type = "AGM / EGM Meeting"
+                    elif "DIVIDEND" in upper_title: event_type = "Dividend Action"
+                    elif "SPLIT" in upper_title or "BONUS" in upper_title: event_type = "Stock Split / Bonus"
+                    elif "ORDER" in upper_title or "CONTRACT" in upper_title: event_type = "Big Order Win / Contract"
+                    elif "RESULT" in upper_title or "EARNINGS" in upper_title: event_type = "Quarterly Results"
+
+                    events_list.append({
+                        "date": n_date.strftime("%Y-%m-%d"),
+                        "date_tag": n_tag,
+                        "type": event_type,
+                        "title": title,
+                        "summary": f"Major corporate disclosure for {symbol.replace('.NS','').replace('.BO','')}.",
+                        "impact": "High Impact ⚡",
+                        "impact_reason": f"Major {event_type} event monitored for price movement."
+                    })
     except Exception:
         pass
-
-    if not events_list:
-        events_list.append({
-            "date": today.strftime("%Y-%m-%d"),
-            "date_tag": "Today",
-            "type": "Corporate Monitoring",
-            "title": "Regular Trading & Volume Watch",
-            "summary": f"Stock trading normally at ₹{current_price:.2f}. No pending corporate disclosures.",
-            "impact": "Neutral ⚖️",
-            "impact_reason": "Stock undergoing normal trading activity."
-        })
 
     return events_list
 

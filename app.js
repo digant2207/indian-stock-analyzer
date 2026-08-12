@@ -168,9 +168,9 @@ function renderAllViews() {
   try { renderTodayActionWatchlist(); } catch (e) { console.error("renderTodayActionWatchlist error:", e); }
   try { renderTop15(); } catch (e) { console.error("renderTop15 error:", e); }
   try { renderWorst5(); } catch (e) { console.error("renderWorst5 error:", e); }
-  try { renderAllStocksTable(stockData.all_stocks || [], 'all-stocks-tbody'); } catch (e) { console.error("renderAllStocksTable spark error:", e); }
+  try { renderSparkWatchlistTable(stockData.all_stocks || [], 'all-stocks-tbody'); } catch (e) { console.error("renderSparkWatchlistTable error:", e); }
   try { populateSectorFilter(stockData.all_stocks || [], 'sector-filter'); } catch (e) { console.error("populateSectorFilter spark error:", e); }
-  try { renderAllStocksTable(nifty250Data.all_stocks || [], 'nifty250-tbody'); } catch (e) { console.error("renderAllStocksTable nifty error:", e); }
+  try { renderNifty250Table(nifty250Data.all_stocks || [], 'nifty250-tbody'); } catch (e) { console.error("renderNifty250Table error:", e); }
   try { populateSectorFilter(nifty250Data.all_stocks || [], 'nifty250-sector-filter'); } catch (e) { console.error("populateSectorFilter nifty error:", e); }
   try { renderEventsTab(); } catch (e) { console.error("renderEventsTab error:", e); }
 }
@@ -201,7 +201,6 @@ function renderTodayActionWatchlist() {
   const combined = getCombinedStocks();
   const s = stockData.summary || {};
 
-  // Populate Breakout Performance Stats Bar
   const bkTodayEl = document.getElementById('bk-done-today');
   const bkTargetsEl = document.getElementById('bk-targets-hit');
   const bkStoplossEl = document.getElementById('bk-stoploss-hit');
@@ -217,7 +216,6 @@ function renderTodayActionWatchlist() {
   if (bkStoplossEl) bkStoplossEl.textContent = stoplossHit;
   if (bkWinRateEl) bkWinRateEl.textContent = `${formatNum(winRate, 1)}%`;
 
-  // Filter stocks where distance to breakout is <= 2.0%
   const filtered = combined.filter(stk => {
     const buyTrigger = stk.buy_trigger_level || (stk.current_price * 1.005);
     const distPct = ((buyTrigger - stk.current_price) / stk.current_price) * 100.0;
@@ -259,6 +257,53 @@ function renderTodayActionRows(list, tbody) {
           ${isDoneToday ? '<strong style="color:var(--accent-green)">Triggered Breakout Today!</strong> • ' : ''}
           ${(s.rationale || []).join(' • ')}
         </td>
+      </tr>
+    `;
+  }).join('');
+}
+
+// Spark Watchlist Table Rendering (No Symbol Column, No Sector Column!)
+function renderSparkWatchlistTable(stocks, tbodyId='all-stocks-tbody') {
+  const tbody = document.getElementById(tbodyId);
+  if (!tbody) return;
+
+  tbody.innerHTML = (stocks || []).map((s, idx) => {
+    const cleanSym = getCleanSymbol(s.symbol);
+    return `
+      <tr onclick="openStockModal('${s.symbol}')">
+        <td><strong>#${idx + 1} ${s.name || cleanSym}</strong> <span class="badge badge-accumulate">${cleanSym}</span></td>
+        <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
+        <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
+        <td><strong>${formatNum(s.composite_score, 1)}</strong></td>
+        <td><span class="badge ${getBadgeClass(s.long_term_signal)}">${s.long_term_signal || 'HOLD'}</span></td>
+        <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal || 'NEUTRAL'}</span></td>
+        <td>${formatNum(s.rev_growth_yoy, 1)}%</td>
+        <td>${formatNum(s.roe, 1)}%</td>
+        <td>${s.debt_status || 'Normal'}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+// Nifty 250 Table Rendering (No Symbol Column!)
+function renderNifty250Table(stocks, tbodyId='nifty250-tbody') {
+  const tbody = document.getElementById(tbodyId);
+  if (!tbody) return;
+
+  tbody.innerHTML = (stocks || []).map((s, idx) => {
+    const cleanSym = getCleanSymbol(s.symbol);
+    return `
+      <tr onclick="openStockModal('${s.symbol}')">
+        <td><strong>#${idx + 1} ${s.name || cleanSym}</strong> <span class="badge badge-accumulate">${cleanSym}</span></td>
+        <td><span class="badge badge-hold">${s.sector || 'General'}</span></td>
+        <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
+        <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
+        <td><strong>${formatNum(s.composite_score, 1)}</strong></td>
+        <td><span class="badge ${getBadgeClass(s.long_term_signal)}">${s.long_term_signal || 'HOLD'}</span></td>
+        <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal || 'NEUTRAL'}</span></td>
+        <td>${formatNum(s.rev_growth_yoy, 1)}%</td>
+        <td>${formatNum(s.roe, 1)}%</td>
+        <td>${s.debt_status || 'Normal'}</td>
       </tr>
     `;
   }).join('');
@@ -339,33 +384,13 @@ function renderWorst5() {
   container.innerHTML = worst5.map(s => createStockCardHTML(s, true)).join('');
 }
 
-function renderAllStocksTable(stocks, tbodyId='all-stocks-tbody') {
-  const tbody = document.getElementById(tbodyId);
-  if (!tbody) return;
-
-  tbody.innerHTML = (stocks || []).map((s, idx) => `
-    <tr onclick="openStockModal('${s.symbol}')">
-      <td><strong>#${idx + 1} ${getCleanSymbol(s.symbol)}</strong></td>
-      <td>${s.name || getCleanSymbol(s.symbol)}</td>
-      <td><span class="badge badge-accumulate">${s.sector || 'General'}</span></td>
-      <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
-      <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
-      <td><strong>${formatNum(s.composite_score, 1)}</strong></td>
-      <td><span class="badge ${getBadgeClass(s.long_term_signal)}">${s.long_term_signal || 'HOLD'}</span></td>
-      <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal || 'NEUTRAL'}</span></td>
-      <td>${formatNum(s.rev_growth_yoy, 1)}%</td>
-      <td>${formatNum(s.roe, 1)}%</td>
-      <td>${s.debt_status || 'Normal'}</td>
-    </tr>
-  `).join('');
-}
-
+// Major Corporate Events Filter (AGM, Results, Dividend, Split, Bonus, Board Meeting, Big Orders)
 function renderEventsTab() {
   const container = document.getElementById('events-timeline-container');
   if (!container) return;
 
   const timelineFilter = document.getElementById('event-timeline-filter')?.value || 'ALL';
-  const selectedStocks = (stockData && stockData.all_stocks) ? stockData.all_stocks : [];
+  const selectedStocks = getCombinedStocks();
   
   let allEvents = [];
   selectedStocks.forEach(s => {
@@ -379,7 +404,7 @@ function renderEventsTab() {
   }
 
   if (allEvents.length === 0) {
-    container.innerHTML = `<div class="modal-box" style="grid-column:1/-1;"><p style="color:var(--text-secondary)">No corporate events found for timeline: <strong>${timelineFilter}</strong>.</p></div>`;
+    container.innerHTML = `<div class="modal-box" style="grid-column:1/-1;"><p style="color:var(--text-secondary)">No major corporate events found for timeline: <strong>${timelineFilter}</strong>.</p></div>`;
     return;
   }
 
@@ -395,20 +420,20 @@ function renderEventsTab() {
         </div>
       </div>
 
-      <div class="modal-box-title" style="margin-top:6px; color:var(--text-primary); font-size:0.95rem;">${e.title || 'Corporate Action'}</div>
+      <div class="modal-box-title" style="margin-top:6px; color:var(--text-primary); font-size:0.95rem;">${e.title || 'Major Corporate Event'}</div>
       <p style="font-size:0.83rem; color:var(--text-secondary); margin:6px 0;">${e.summary || ''}</p>
 
       <div class="card-metrics" style="margin-top:10px;">
         <div class="metric-item">
-          <span class="metric-lbl">Event Type</span>
-          <span class="metric-val">${e.type || 'Announcement'}</span>
+          <span class="metric-lbl">Major Event Category</span>
+          <span class="metric-val" style="color:var(--accent-green)">${e.type || 'Corporate Action'}</span>
         </div>
         <div class="metric-item">
-          <span class="metric-lbl">Expected Impact</span>
-          <span class="metric-val" style="color:var(--accent-cyan)">${e.impact || 'Neutral'}</span>
+          <span class="metric-lbl">Price Impact</span>
+          <span class="metric-val" style="color:var(--accent-cyan)">${e.impact || 'High Impact'}</span>
         </div>
       </div>
-      <p style="font-size:0.78rem; color:var(--text-secondary); margin-top:4px;"><strong>Rationale:</strong> ${e.impact_reason || 'Monitored for corporate development'}</p>
+      <p style="font-size:0.78rem; color:var(--text-secondary); margin-top:4px;"><strong>Rationale:</strong> ${e.impact_reason || 'Monitored for corporate catalyst'}</p>
     </div>
   `).join('');
 }
@@ -438,7 +463,7 @@ function setupEventListeners() {
       return matchQuery && matchSector && matchSignal;
     });
 
-    renderAllStocksTable(filtered, 'all-stocks-tbody');
+    renderSparkWatchlistTable(filtered, 'all-stocks-tbody');
   };
 
   searchInput?.addEventListener('input', filterSparkTable);
@@ -461,7 +486,7 @@ function setupEventListeners() {
       return matchQuery && matchSector && matchSignal;
     });
 
-    renderAllStocksTable(filtered, 'nifty250-tbody');
+    renderNifty250Table(filtered, 'nifty250-tbody');
   };
 
   nSearchInput?.addEventListener('input', filterNiftyTable);

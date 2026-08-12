@@ -49,7 +49,7 @@
       <button class="tab-btn" data-tab="tab-overview">🔥 Top 15 & Worst 5</button>
       <button class="tab-btn" data-tab="tab-watchlist">📊 Spark Watchlist</button>
       <button class="tab-btn" data-tab="tab-nifty250">📈 Nifty 250 Universe</button>
-      <button class="tab-btn" data-tab="tab-events">📰 Corporate Events</button>
+      <button class="tab-btn" data-tab="tab-events">📰 Major Corporate Events</button>
       <button class="tab-btn" data-tab="tab-manager">⚙️ Stock List Manager</button>
     </aside>
 
@@ -158,10 +158,10 @@
         </div>
       </div>
 
-      <!-- Tab 3: Spark Watchlist Stocks Table -->
+      <!-- Tab 3: Spark Watchlist Stocks Table (Compact: No Symbol, No Sector) -->
       <div id="tab-watchlist" class="tab-content">
         <div class="table-controls">
-          <input type="text" id="stock-search" class="search-input" placeholder="Search by stock name (e.g. RELIANCE, TCS)...">
+          <input type="text" id="stock-search" class="search-input" placeholder="Search by company name (e.g. Reliance, Tata Motors)...">
           
           <div style="display:flex; gap:8px; flex-wrap:wrap;">
             <select id="sector-filter" class="filter-select">
@@ -181,9 +181,7 @@
           <table class="data-table">
             <thead>
               <tr>
-                <th>Stock</th>
                 <th>Company Name</th>
-                <th>Sector</th>
                 <th>Price (₹)</th>
                 <th>Day Chg (%)</th>
                 <th>Score</th>
@@ -201,10 +199,10 @@
         </div>
       </div>
 
-      <!-- Tab 4: Nifty 250 Universe Table -->
+      <!-- Tab 4: Nifty 250 Universe Table (Compact: No Symbol Column) -->
       <div id="tab-nifty250" class="tab-content">
         <div class="table-controls">
-          <input type="text" id="nifty250-search" class="search-input" placeholder="Search Nifty 250 stock (e.g. DIXON, POLYCAB)...">
+          <input type="text" id="nifty250-search" class="search-input" placeholder="Search Nifty 250 company (e.g. Dixon, Polycab)...">
           
           <div style="display:flex; gap:8px; flex-wrap:wrap;">
             <select id="nifty250-sector-filter" class="filter-select">
@@ -224,7 +222,6 @@
           <table class="data-table">
             <thead>
               <tr>
-                <th>Stock</th>
                 <th>Company Name</th>
                 <th>Sector</th>
                 <th>Price (₹)</th>
@@ -244,19 +241,19 @@
         </div>
       </div>
 
-      <!-- Tab 5: Corporate Events & News Impact -->
+      <!-- Tab 5: Major Corporate Events & News Impact -->
       <div id="tab-events" class="tab-content">
         <div class="section-title-group">
           <h2 class="section-title">
-            Corporate Events & News Impact Tracker
+            📰 Major Corporate Events Tracker (Yesterday, Today, Tomorrow)
           </h2>
-          <span style="font-size: 0.8rem; color: var(--text-secondary);">Tracking Earnings, Ex-Dividends, News & Price Impact (Yesterday, Today, Tomorrow)</span>
+          <span style="font-size: 0.8rem; color: var(--text-secondary);">Strictly filtering Major Events: Results, Dividends, Splits, Bonus, AGM, Board Meetings & Big Order Wins</span>
         </div>
 
         <div class="table-controls" style="margin-bottom:12px;">
           <select id="event-timeline-filter" class="filter-select" onchange="renderEventsTab()">
             <option value="ALL">All Timelines (Yesterday / Today / Tomorrow)</option>
-            <option value="Today">Today's Events & News</option>
+            <option value="Today">Today's Major Events</option>
             <option value="Yesterday">Yesterday's Events</option>
             <option value="Tomorrow">Tomorrow & Upcoming</option>
           </select>
