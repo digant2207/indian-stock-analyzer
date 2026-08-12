@@ -192,14 +192,17 @@ def fetch_stock_data(stock_meta):
     
     current_price = round(clean_val(close_prices[-1]), 2)
     today_high = round(clean_val(high_prices[-1]), 2)
+    
     # Base Starting Price for Today's Breakout is Yesterday's Close
     prev_close = round(clean_val(close_prices[-2]), 2) if len(close_prices) > 1 else current_price
+    if prev_close == 0: prev_close = current_price
+
     day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
     
     high_52w = round(float(np.max(high_prices)), 2)
     low_52w = round(float(np.min(low_prices)), 2)
-    pct_from_52w_high = round(((current_price - high_52w) / high_52w) * 100.0, 2)
-    pct_from_52w_low = round(((current_price - low_52w) / low_52w) * 100.0, 2)
+    pct_from_52w_high = round(((current_price - high_52w) / high_52w) * 100.0, 2) if high_52w > 0 else 0.0
+    pct_from_52w_low = round(((current_price - low_52w) / low_52w) * 100.0, 2) if low_52w > 0 else 0.0
     
     sma_20 = round(float(np.mean(close_prices[-20:])), 2)
     sma_50 = round(float(np.mean(close_prices[-50:])), 2) if len(close_prices) >= 50 else sma_20
@@ -228,7 +231,7 @@ def fetch_stock_data(stock_meta):
     sell_trigger_level = round(min(low_20d_prev * 0.998, prev_close * 0.995), 2)
 
     # Breakout distance % calculated strictly from Yesterday's Close
-    dist_from_prev_close = round(((buy_trigger_level - prev_close) / prev_close) * 100.0, 2)
+    dist_from_prev_close = round(((buy_trigger_level - prev_close) / prev_close) * 100.0, 2) if prev_close > 0 else 0.0
 
     # Has Breakout Already Occurred Today? (Price or High crossed trigger)
     is_breakout_done_today = (current_price >= buy_trigger_level or today_high >= buy_trigger_level) and day_change_pct > 0.3
