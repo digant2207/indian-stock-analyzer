@@ -194,13 +194,14 @@ function renderSummary() {
   if (debtEl) debtEl.textContent = combined.filter(s => (s.debt_status || '').includes('High Debt') || (s.long_term_signal || '').includes('EXIT')).length;
 }
 
+// Today's Action Watchlist - Strictly Top 25 High-Potential Breakouts
 function renderTodayActionWatchlist() {
   const tbody = document.getElementById('today-action-tbody');
   if (!tbody) return;
 
   const combined = getCombinedStocks();
 
-  // Starting Base Price for Today's Breakout is Yesterday's Close (prev_close)
+  // Filter stocks where distance to breakout is <= 2.0% or breakout triggered today
   const filtered = combined.filter(stk => {
     const basePrice = stk.prev_close || stk.current_price;
     const buyTrigger = stk.buy_trigger_level || (basePrice * 1.005);
@@ -213,7 +214,13 @@ function renderTodayActionWatchlist() {
     return (nearBreakout || near52wHigh || isBreakoutSignal) && distPctFromPrevClose <= 2.0;
   });
 
-  const listToRender = filtered.length > 0 ? filtered : combined.slice(0, 10);
+  // Sort by highest quality composite score first
+  filtered.sort((a, b) => (b.composite_score || 0) - (a.composite_score || 0));
+
+  // Cap strictly at top 25 high-potential stocks
+  const top25Breakouts = filtered.slice(0, 25);
+  const listToRender = top25Breakouts.length > 0 ? top25Breakouts : combined.slice(0, 25);
+
   renderTodayActionRows(listToRender, tbody);
 }
 
@@ -224,7 +231,6 @@ function renderTodayActionRows(list, tbody) {
     const buyTrigger = s.buy_trigger_level || (basePrice * 1.005);
     const sellTrigger = s.sell_trigger_level || (basePrice * 0.995);
     
-    // Distance calculated strictly from Yesterday's Close
     const distFromPrevClose = Math.abs(((buyTrigger - basePrice) / basePrice) * 100.0);
     const isDoneToday = s.is_breakout_done_today || s.is_20d_high_breakout || s.is_52w_high_breakout;
 
