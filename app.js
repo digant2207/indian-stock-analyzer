@@ -262,13 +262,17 @@ function renderTodayActionRows(list, tbody) {
   }).join('');
 }
 
-// Spark Watchlist Table Rendering (No Symbol Column, No Sector Column!)
+// Spark Watchlist Table Rendering (With Upcoming Event Date)
 function renderSparkWatchlistTable(stocks, tbodyId='all-stocks-tbody') {
   const tbody = document.getElementById(tbodyId);
   if (!tbody) return;
 
   tbody.innerHTML = (stocks || []).map((s, idx) => {
     const cleanSym = getCleanSymbol(s.symbol);
+    const eventBadge = s.upcoming_event_str && s.upcoming_event_str !== 'No Event' 
+      ? `<span class="badge badge-strong-buy">${s.upcoming_event_str}</span>` 
+      : `<span style="color:var(--text-muted)">None</span>`;
+
     return `
       <tr onclick="openStockModal('${s.symbol}')">
         <td><strong>#${idx + 1} ${s.name || cleanSym}</strong> <span class="badge badge-accumulate">${cleanSym}</span></td>
@@ -279,19 +283,23 @@ function renderSparkWatchlistTable(stocks, tbodyId='all-stocks-tbody') {
         <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal || 'NEUTRAL'}</span></td>
         <td>${formatNum(s.rev_growth_yoy, 1)}%</td>
         <td>${formatNum(s.roe, 1)}%</td>
-        <td>${s.debt_status || 'Normal'}</td>
+        <td>${eventBadge}</td>
       </tr>
     `;
   }).join('');
 }
 
-// Nifty 250 Table Rendering (No Symbol Column!)
+// Nifty 250 Table Rendering (With Upcoming Event Date)
 function renderNifty250Table(stocks, tbodyId='nifty250-tbody') {
   const tbody = document.getElementById(tbodyId);
   if (!tbody) return;
 
   tbody.innerHTML = (stocks || []).map((s, idx) => {
     const cleanSym = getCleanSymbol(s.symbol);
+    const eventBadge = s.upcoming_event_str && s.upcoming_event_str !== 'No Event' 
+      ? `<span class="badge badge-strong-buy">${s.upcoming_event_str}</span>` 
+      : `<span style="color:var(--text-muted)">None</span>`;
+
     return `
       <tr onclick="openStockModal('${s.symbol}')">
         <td><strong>#${idx + 1} ${s.name || cleanSym}</strong> <span class="badge badge-accumulate">${cleanSym}</span></td>
@@ -303,7 +311,7 @@ function renderNifty250Table(stocks, tbodyId='nifty250-tbody') {
         <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal || 'NEUTRAL'}</span></td>
         <td>${formatNum(s.rev_growth_yoy, 1)}%</td>
         <td>${formatNum(s.roe, 1)}%</td>
-        <td>${s.debt_status || 'Normal'}</td>
+        <td>${eventBadge}</td>
       </tr>
     `;
   }).join('');
@@ -543,6 +551,8 @@ function openStockModal(symbol) {
     </div>
 
     <div class="modal-box" style="margin-top:16px;">
+      <div class="modal-box-title">Upcoming Corporate Event</div>
+      <p style="font-size:0.95rem; font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">${stock.upcoming_event_str || 'No Event Scheduled'}</p>
       <div class="modal-box-title">Key Rationale & Catalysts</div>
       <ul style="padding-left:20px; color: var(--text-secondary);">
         ${(stock.rationale || []).map(r => `<li>${r}</li>`).join('')}
