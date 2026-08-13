@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     loadData();
     setupEventListeners();
-    loadEmailConfigUI();
   } catch (e) {
     console.error("Initialization error:", e);
   }
@@ -192,7 +191,7 @@ function renderSummary() {
   const combined = getCombinedStocks();
   const s = stockData.summary || {};
   const lastUpdatedEl = document.getElementById('last-updated');
-  if (lastUpdatedEl) lastUpdatedEl.textContent = s.last_updated || 'Daily 3:00 AM Run Pending';
+  if (lastUpdatedEl) lastUpdatedEl.textContent = s.last_updated || 'Daily 7:30 AM Cloud Run Active';
   
   const scannedEl = document.getElementById('stat-total-scanned');
   if (scannedEl) scannedEl.textContent = combined.length || 0;
@@ -510,83 +509,6 @@ function setupEventListeners() {
   nSearchInput?.addEventListener('input', filterNiftyTable);
   nSectorSelect?.addEventListener('change', filterNiftyTable);
   nSignalSelect?.addEventListener('change', filterNiftyTable);
-}
-
-async function loadEmailConfigUI() {
-  try {
-    const resp = await fetch('/api/get_email_config');
-    if (resp.ok) {
-      const cfg = await resp.json();
-      const rec = document.getElementById('email-recipient-input');
-      const snd = document.getElementById('email-sender-input');
-      const pwd = document.getElementById('email-password-input');
-      if (rec && cfg.recipient_email) rec.value = cfg.recipient_email;
-      if (snd && cfg.sender_email) snd.value = cfg.sender_email;
-      if (pwd && cfg.app_password) pwd.value = cfg.app_password;
-    }
-  } catch (e) {
-    console.log("Could not load email config UI");
-  }
-}
-
-async function saveEmailConfig() {
-  const rec = document.getElementById('email-recipient-input')?.value.trim();
-  const snd = document.getElementById('email-sender-input')?.value.trim();
-  const pwd = document.getElementById('email-password-input')?.value.trim();
-  const statusDiv = document.getElementById('email-status');
-
-  if (!rec || !snd || !pwd) {
-    if (statusDiv) {
-      statusDiv.style.color = '#e11d48';
-      statusDiv.textContent = 'Please fill recipient email, sender Gmail, and App Password!';
-    }
-    return;
-  }
-
-  if (statusDiv) {
-    statusDiv.style.color = 'var(--accent-cyan)';
-    statusDiv.textContent = 'Saving Email Settings...';
-  }
-
-  try {
-    const resp = await fetch('/api/save_email_config', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ enabled: true, recipient_email: rec, sender_email: snd, app_password: pwd })
-    });
-    const res = await resp.json();
-    if (statusDiv) {
-      statusDiv.style.color = res.status === 'success' ? 'var(--accent-green)' : '#e11d48';
-      statusDiv.textContent = res.message || 'Saved!';
-    }
-  } catch (e) {
-    if (statusDiv) {
-      statusDiv.style.color = '#e11d48';
-      statusDiv.textContent = 'Failed to save email settings.';
-    }
-  }
-}
-
-async function testSendEmail() {
-  const statusDiv = document.getElementById('email-status');
-  if (statusDiv) {
-    statusDiv.style.color = 'var(--accent-cyan)';
-    statusDiv.textContent = '⏳ Sending Test Morning Email Digest...';
-  }
-
-  try {
-    const resp = await fetch('/api/test_email', { method: 'POST' });
-    const res = await resp.json();
-    if (statusDiv) {
-      statusDiv.style.color = res.status === 'success' ? 'var(--accent-green)' : '#e11d48';
-      statusDiv.textContent = res.message || 'Tested!';
-    }
-  } catch (e) {
-    if (statusDiv) {
-      statusDiv.style.color = '#e11d48';
-      statusDiv.textContent = 'Error sending test email. Check server connection.';
-    }
-  }
 }
 
 function openStockModal(symbol) {

@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "recipient_email": "digant73@gmail.com",
+  "sender_email": "digant73@gmail.com",
+  "app_password": "",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587
+}

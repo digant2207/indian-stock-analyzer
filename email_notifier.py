@@ -11,14 +11,17 @@ def load_email_config():
     if os.path.exists(CONFIG_FILE):
         try:
             with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                cfg = json.load(f)
+                if not cfg.get('recipient_email'):
+                    cfg['recipient_email'] = "digant73@gmail.com"
+                return cfg
         except Exception:
             pass
     return {
-        "enabled": False,
-        "sender_email": "",
-        "app_password": "",
-        "recipient_email": "",
+        "enabled": True,
+        "sender_email": "digant73@gmail.com",
+        "app_password": os.environ.get("GMAIL_APP_PASSWORD", ""),
+        "recipient_email": "digant73@gmail.com",
         "smtp_server": "smtp.gmail.com",
         "smtp_port": 587
     }
@@ -30,7 +33,6 @@ def save_email_config(cfg):
 def generate_email_html(analysis_data, nifty_data):
     all_stocks = (analysis_data.get('all_stocks') or []) + (nifty_data.get('all_stocks') or [])
     
-    # Deduplicate
     unique_map = {}
     for s in all_stocks:
         if s.get('symbol'):
@@ -40,11 +42,11 @@ def generate_email_html(analysis_data, nifty_data):
 
     today_str = datetime.datetime.now().strftime("%d %b %Y")
 
-    # Filter Today's Breakout Setups (Max 15)
+    # Filter Today's Top Breakout Setups (Max 25)
     breakout_stocks = [
         s for s in stocks_list 
         if s.get('is_breakout_done_today') or s.get('is_20d_high_breakout') or (s.get('swing_signal') == 'BREAKOUT BUY')
-    ][:15]
+    ][:25]
 
     # Filter Corporate Events
     events_list = []
@@ -80,7 +82,7 @@ def generate_email_html(analysis_data, nifty_data):
     # Render HTML Rows for Events
     event_rows = ""
     if events_list:
-        for e in events_list[:10]:
+        for e in events_list[:15]:
             event_rows += f"""
             <tr style="border-bottom:1px solid #e2e8f0;">
                 <td style="padding:10px;"><strong>{e.get('name', e.get('symbol'))}</strong></td>
@@ -112,7 +114,7 @@ def generate_email_html(analysis_data, nifty_data):
         <meta charset="utf-8">
         <style>
             body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8fafc; color: #1e293b; margin: 0; padding: 20px; }}
-            .container {{ max-width: 700px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }}
+            .container {{ max-width: 720px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }}
             .header {{ background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff; padding: 24px; text-align: center; }}
             .header h1 {{ margin: 0; font-size: 22px; color: #38bdf8; }}
             .header p {{ margin: 6px 0 0 0; font-size: 13px; color: #94a3b8; }}
@@ -121,22 +123,21 @@ def generate_email_html(analysis_data, nifty_data):
             table {{ width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 16px; }}
             th {{ background: #f1f5f9; color: #475569; text-align: left; padding: 10px; font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; }}
             .footer {{ background: #f8fafc; padding: 16px; text-align: center; font-size: 12px; color: #64748b; border-top: 1px solid #e2e8f0; }}
-            .btn {{ display: inline-block; background: #0284c7; color: white; text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: bold; font-size: 13px; margin-top: 10px; }}
         </style>
     </head>
     <body>
         <div class="container">
             <div class="header">
-                <h1>📈 Indian Stock Market Daily Intelligence</h1>
-                <p>Morning Digest & Catalyst Report • {today_str}</p>
+                <h1>📈 Indian Stock Market Daily Intelligence (7:30 AM)</h1>
+                <p>Morning Breakout & Corporate Catalyst Report • {today_str}</p>
             </div>
             <div class="content">
                 <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:12px 16px; margin-bottom:20px; font-size:13px; color:#166534;">
-                    <strong>Automated 3:00 AM Scan Summary:</strong> Scanned {len(stocks_list)} stocks across NSE/BSE. 
-                    Found {len(breakout_stocks)} high-momentum breakout setups & {len(events_list)} major corporate events.
+                    <strong>7:30 AM Automated Scan Summary:</strong> Scanned {len(stocks_list)} stocks across NSE/BSE. 
+                    Identified {len(breakout_stocks)} high-momentum breakout setups & {len(events_list)} major corporate events.
                 </div>
 
-                <div class="section-title">🎯 Today's Top Breakout Setups</div>
+                <div class="section-title">🎯 Today's Top Breakout Setups (Top 25)</div>
                 <table>
                     <thead>
                         <tr>
@@ -182,13 +183,9 @@ def generate_email_html(analysis_data, nifty_data):
                         {top5_rows}
                     </tbody>
                 </table>
-
-                <div style="text-align:center; margin-top:24px;">
-                    <a href="http://192.168.1.104:8080" class="btn">🚀 Open Full Screener Dashboard</a>
-                </div>
             </div>
             <div class="footer">
-                Automated Indian Stock Screener & AI Analyst • Powered by Daily 3 AM Automated Market Intelligence
+                Automated Indian Stock Screener & AI Analyst • Sent Daily at 7:30 AM IST
             </div>
         </div>
     </body>
@@ -198,9 +195,13 @@ def generate_email_html(analysis_data, nifty_data):
 
 def send_morning_digest(analysis_data, nifty_data):
     cfg = load_email_config()
-    if not cfg.get('enabled') or not cfg.get('recipient_email') or not cfg.get('sender_email') or not cfg.get('app_password'):
-        print("[Email Notifier] Email notifications disabled or credentials not configured.")
-        return False, "Email notifications disabled or missing credentials."
+    recipient = cfg.get('recipient_email') or "digant73@gmail.com"
+    sender = cfg.get('sender_email') or "digant73@gmail.com"
+    password = cfg.get('app_password') or os.environ.get("GMAIL_APP_PASSWORD", "")
+
+    if not password:
+        print("[Email Notifier] GMAIL_APP_PASSWORD missing. Skipping email send.")
+        return False, "GMAIL_APP_PASSWORD missing."
 
     try:
         html_content = generate_email_html(analysis_data, nifty_data)
@@ -209,20 +210,20 @@ def send_morning_digest(analysis_data, nifty_data):
 
         msg = MIMEMultipart("alternative")
         msg["Subject"] = subject
-        msg["From"] = f"Stock Analyst <{cfg['sender_email']}>"
-        msg["To"] = cfg["recipient_email"]
+        msg["From"] = f"Stock Analyst <{sender}>"
+        msg["To"] = recipient
 
         part = MIMEText(html_content, "html")
         msg.attach(part)
 
         server = smtplib.SMTP(cfg.get("smtp_server", "smtp.gmail.com"), cfg.get("smtp_port", 587))
         server.starttls()
-        server.login(cfg["sender_email"], cfg["app_password"])
-        server.sendmail(cfg["sender_email"], [cfg["recipient_email"]], msg.as_string())
+        server.login(sender, password)
+        server.sendmail(sender, [recipient], msg.as_string())
         server.quit()
 
-        print(f"[{datetime.datetime.now()}] ✅ Morning Email Digest successfully sent to {cfg['recipient_email']}!")
-        return True, f"Email digest sent to {cfg['recipient_email']}!"
+        print(f"[{datetime.datetime.now()}] ✅ Morning Email Digest successfully sent to {recipient}!")
+        return True, f"Email digest sent to {recipient}!"
     except Exception as e:
         err_msg = f"Failed to send email: {e}"
         print(f"[{datetime.datetime.now()}] ❌ {err_msg}")

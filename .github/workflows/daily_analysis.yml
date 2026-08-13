@@ -1,9 +1,9 @@
-name: Daily 3 AM Stock Screener & Analysis
+name: Daily 7:30 AM Stock Screener & Email Digest
 
 on:
   schedule:
-    # Runs at 21:30 UTC every day = 3:00 AM IST
-    - cron: '30 21 * * *'
+    # Runs at 02:00 UTC every day = 7:30 AM IST
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -27,7 +27,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install yfinance pandas numpy requests
 
-      - name: Run Fast Multi-Threaded Stock Analyzer
+      - name: Run Fast Stock Analyzer & Send Daily 7:30 AM Email
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
           python fast_runner.py
           python backtester.py
@@ -37,4 +39,4 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add analysis_data.json analysis_data.js nifty250_data.json nifty250_data.js backtest_results.json backtest_results.js stocks.csv
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update daily stock intelligence [3 AM IST]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update daily stock intelligence [7:30 AM IST]" && git push)
