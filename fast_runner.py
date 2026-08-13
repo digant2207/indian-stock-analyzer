@@ -20,6 +20,20 @@ MAJOR_EVENT_KEYWORDS = [
     "BUYBACK", "BOARD MEETING", "ORDER", "CONTRACT", "ACQUISITION", "MERGER", "EXPANSION"
 ]
 
+STATUS_FILE = os.path.join(os.path.dirname(__file__), "scan_status.json")
+
+def update_scan_status(is_running, pct=0, msg="Idle"):
+    try:
+        with open(STATUS_FILE, 'w', encoding='utf-8') as f:
+            json.dump({
+                "is_running": is_running,
+                "progress_pct": pct,
+                "status_message": msg,
+                "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            }, f, indent=2)
+    except Exception:
+        pass
+
 def clean_symbol(sym):
     sym = sym.strip().upper()
     if not sym: return ""
@@ -483,7 +497,7 @@ def fetch_stock_data(stock_meta):
         "events": events
     }
 
-def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, max_workers=12):
+def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, start_pct=0, end_pct=100, max_workers=12):
     if not os.path.exists(csv_path):
         return None
         
@@ -501,13 +515,18 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, max_wor
                     "tracking_notes": row.get('tracking_notes') or ''
                 })
 
-    print(f"Processing {len(stocks)} stocks from {csv_path} with {max_workers} threads...")
+    total_count = len(stocks)
+    print(f"Processing {total_count} stocks from {csv_path} with {max_workers} threads...")
     analyzed = []
+    completed_count = 0
     
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {executor.submit(fetch_stock_data, s): s for s in stocks}
         for future in as_completed(futures):
             res = future.result()
+            completed_count += 1
+            curr_pct = int(start_pct + ((completed_count / total_count) * (end_pct - start_pct)))
+            update_scan_status(True, curr_pct, f"Scanning {completed_count}/{total_count} stocks in {os.path.basename(csv_path)}...")
             if res:
                 analyzed.append(res)
 
@@ -544,5 +563,7 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, max_wor
     return output_payload
 
 if __name__ == "__main__":
-    process_csv_file_fast("stocks.csv", "analysis_data.json", "analysis_data.js", "stockData", max_workers=12)
-    process_csv_file_fast("nifty250.csv", "nifty250_data.json", "nifty250_data.js", "nifty250Data", max_workers=12)
+    update_scan_status(True, 5, "Initializing market scan...")
+    process_csv_file_fast("stocks.csv", "analysis_data.json", "analysis_data.js", "stockData", start_pct=5, end_pct=60, max_workers=12)
+    process_csv_file_fast("nifty250.csv", "nifty250_data.json", "nifty250_data.js", "nifty250Data", start_pct=60, end_pct=100, max_workers=12)
+    update_scan_status(False, 100, "Scan Complete! All stocks updated.")

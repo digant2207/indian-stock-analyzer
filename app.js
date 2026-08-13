@@ -66,26 +66,38 @@ async function triggerLiveRefresh() {
   const btn = document.getElementById('btn-refresh-data');
   const btnText = document.getElementById('refresh-btn-text');
   
-  if (btnText) btnText.textContent = '⏳ Syncing Google Sheet & Market Data...';
+  if (btnText) btnText.textContent = '⏳ Starting Market Scan...';
   if (btn) btn.disabled = true;
 
   try {
-    const resp = await fetch('/api/refresh', { method: 'POST' });
-    if (resp.ok) {
-      if (btnText) btnText.textContent = '✅ Updated Live!';
-      await loadData();
-    } else {
-      if (btnText) btnText.textContent = 'Reloading Page...';
-      location.reload();
-    }
+    await fetch('/api/refresh', { method: 'POST' });
+    
+    // Poll progress status until finished
+    const intervalId = setInterval(async () => {
+      try {
+        const sResp = await fetch('/api/scan_status?t=' + Date.now());
+        if (sResp.ok) {
+          const status = await sResp.json();
+          if (status.is_running) {
+            if (btnText) btnText.textContent = `⏳ Scanning (${status.progress_pct}%)...`;
+          } else {
+            clearInterval(intervalId);
+            if (btnText) btnText.textContent = '✅ Update Complete!';
+            await loadData();
+            setTimeout(() => {
+              if (btnText) btnText.textContent = 'Refresh Data';
+              if (btn) btn.disabled = false;
+            }, 2500);
+          }
+        }
+      } catch (pollErr) {
+        console.log("Polling status fallback...");
+      }
+    }, 2000);
+
   } catch (err) {
-    console.log("Static file mode fallback: reloading page.");
+    console.log("Fallback: reloading page.");
     location.reload();
-  } finally {
-    setTimeout(() => {
-      if (btnText) btnText.textContent = 'Refresh Data';
-      if (btn) btn.disabled = false;
-    }, 3000);
   }
 }
 

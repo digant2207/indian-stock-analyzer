@@ -114,6 +114,8 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
 
         if path == '/api/refresh' or path == '/api/run_analysis':
             self.handle_refresh()
+        elif path == '/api/scan_status':
+            self.handle_scan_status()
         elif path == '/api/search_stock':
             symbol = query.get('symbol', [''])[0].strip()
             self.handle_search_stock(symbol)
@@ -142,6 +144,22 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             self.handle_test_email()
         else:
             self.send_error(404, "Endpoint not found")
+
+    def handle_scan_status(self):
+        status_file = os.path.join(os.path.dirname(__file__), "scan_status.json")
+        status_payload = {"is_running": False, "progress_pct": 100, "status_message": "Idle"}
+        if os.path.exists(status_file):
+            try:
+                with open(status_file, 'r', encoding='utf-8') as f:
+                    status_payload = json.load(f)
+            except Exception:
+                pass
+        res = json.dumps(status_payload).encode('utf-8')
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(res)
 
     def handle_refresh(self):
         threading.Thread(target=run_analysis_tasks, daemon=True).start()

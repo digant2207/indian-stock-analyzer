@@ -70,7 +70,7 @@
  [],
  False,
  False,
- 1786539121,
+ 1786598816,
  [('run.exe',
    'C:\\Users\\DELL\\.gemini\\antigravity\\scratch\\indian-stock-analyzer\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],
