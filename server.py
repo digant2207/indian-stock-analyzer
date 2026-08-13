@@ -10,6 +10,8 @@ import requests
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse
 
+import email_notifier
+
 PORT = 8080
 LOCK = threading.Lock()
 
@@ -32,6 +34,20 @@ def run_analysis_tasks():
                 subprocess.run([py_exe, analyzer_script], check=True)
 
             print(f"[{datetime.datetime.now()}] Analysis completed successfully!")
+            
+            # Send Morning Email Digest if configured
+            try:
+                a_json = os.path.join(os.path.dirname(__file__), "analysis_data.json")
+                n_json = os.path.join(os.path.dirname(__file__), "nifty250_data.json")
+                if os.path.exists(a_json) and os.path.exists(n_json):
+                    with open(a_json, 'r', encoding='utf-8') as f:
+                        a_data = json.load(f)
+                    with open(n_json, 'r', encoding='utf-8') as f:
+                        n_data = json.load(f)
+                    email_notifier.send_morning_digest(a_data, n_data)
+            except Exception as em_err:
+                print(f"Email digest notice: {em_err}")
+
             return True, "Analysis updated successfully!"
         except Exception as e:
             err_msg = f"Analysis error: {e}"
@@ -56,7 +72,6 @@ def resolve_yahoo_symbol(query):
     if not query:
         return None
 
-    # Try direct .NS / .BO
     upper_q = query.upper().replace(" ", "")
     candidates = []
     if upper_q.endswith(".NS") or upper_q.endswith(".BO"):
@@ -65,7 +80,6 @@ def resolve_yahoo_symbol(query):
         candidates.append(upper_q + ".NS")
         candidates.append(upper_q + ".BO")
 
-    # Try searching Yahoo Finance Search API
     try:
         url = f"https://query1.finance.yahoo.com/1/finance/search?q={requests.utils.quote(query)}&quotesCount=10&newsCount=0"
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
@@ -103,6 +117,15 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
         elif path == '/api/search_stock':
             symbol = query.get('symbol', [''])[0].strip()
             self.handle_search_stock(symbol)
+        elif path == '/api/get_email_config':
+            cfg = email_notifier.load_email_config()
+            cfg['app_password'] = '********' if cfg.get('app_password') else ''
+            payload = json.dumps(cfg).encode('utf-8')
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(payload)
         else:
             super().do_GET()
 
@@ -113,20 +136,70 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             self.handle_save_gsheet()
         elif self.path == '/api/add_stock':
             self.handle_add_stock()
+        elif self.path == '/api/save_email_config':
+            self.handle_save_email_config()
+        elif self.path == '/api/test_email':
+            self.handle_test_email()
         else:
             self.send_error(404, "Endpoint not found")
 
     def handle_refresh(self):
-        success, msg = run_analysis_tasks()
-        status_code = 200 if success else 500
-        payload = json.dumps({"status": "success" if success else "error", "message": msg}).encode('utf-8')
-        
-        self.send_response(status_code)
+        threading.Thread(target=run_analysis_tasks, daemon=True).start()
+        payload = json.dumps({"status": "success", "message": "Re-analysis started in background!"}).encode('utf-8')
+        self.send_response(200)
         self.send_header("Content-Type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Content-Length", str(len(payload)))
         self.end_headers()
         self.wfile.write(payload)
+
+    def handle_save_email_config(self):
+        content_length = int(self.headers.get('Content-Length', 0))
+        post_data = self.rfile.read(content_length)
+        try:
+            body = json.loads(post_data.decode('utf-8'))
+            cfg = email_notifier.load_email_config()
+            
+            cfg['enabled'] = bool(body.get('enabled', True))
+            cfg['recipient_email'] = body.get('recipient_email', '').strip()
+            cfg['sender_email'] = body.get('sender_email', '').strip()
+            
+            pwd = body.get('app_password', '').strip()
+            if pwd and pwd != '********':
+                cfg['app_password'] = pwd
+                
+            email_notifier.save_email_config(cfg)
+            res = json.dumps({"status": "success", "message": "✅ Email settings saved!"}).encode('utf-8')
+        except Exception as e:
+            res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
+
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(res)
+
+    def handle_test_email(self):
+        try:
+            a_json = os.path.join(os.path.dirname(__file__), "analysis_data.json")
+            n_json = os.path.join(os.path.dirname(__file__), "nifty250_data.json")
+            
+            a_data, n_data = {}, {}
+            if os.path.exists(a_json):
+                with open(a_json, 'r', encoding='utf-8') as f: a_data = json.load(f)
+            if os.path.exists(n_json):
+                with open(n_json, 'r', encoding='utf-8') as f: n_data = json.load(f)
+                
+            success, msg = email_notifier.send_morning_digest(a_data, n_data)
+            res = json.dumps({"status": "success" if success else "error", "message": msg}).encode('utf-8')
+        except Exception as e:
+            res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
+
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(res)
 
     def handle_search_stock(self, symbol):
         if not symbol:
@@ -142,14 +215,13 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             if stock_data:
                 res = json.dumps({"status": "success", "stock": stock_data}).encode('utf-8')
             else:
-                res = json.dumps({"status": "error", "message": f"Could not find valid NSE/BSE stock data for '{symbol}'. Try typing ticker (e.g. INFY, TATAMOTORS, ZOMATO, SUZLON)."}).encode('utf-8')
+                res = json.dumps({"status": "error", "message": f"Could not find valid NSE/BSE stock data for '{symbol}'."}).encode('utf-8')
         except Exception as e:
             res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
 
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Content-Length", str(len(res)))
         self.end_headers()
         self.wfile.write(res)
 
@@ -195,7 +267,6 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Content-Length", str(len(res)))
         self.end_headers()
         self.wfile.write(res)
 
@@ -222,7 +293,6 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Content-Length", str(len(res)))
         self.end_headers()
         self.wfile.write(res)
 
@@ -236,10 +306,9 @@ def run_server():
     httpd = HTTPServer(server_address, CustomRequestHandler)
     print("=========================================================================")
     print(f"   Indian Stock Screener Server Active on Port {PORT}                  ")
-    print(f"   Local Access:   http://localhost:{PORT}                            ")
-    print(f"   Live Refresh:   http://localhost:{PORT}/api/refresh                ")
-    print(f"   Live Search:    http://localhost:{PORT}/api/search_stock           ")
-    print("   Daily 3 AM Scheduler: ACTIVE                                       ")
+    print(f"   Local PC Access:   http://localhost:{PORT}                         ")
+    print(f"   Mobile Wi-Fi Link: http://192.168.1.104:{PORT}                     ")
+    print("   Daily 3 AM Windows Scheduler: ACTIVE                               ")
     print("=========================================================================")
     try:
         httpd.serve_forever()
