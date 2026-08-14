@@ -128,12 +128,12 @@ def generate_email_html(analysis_data, nifty_data):
     <body>
         <div class="container">
             <div class="header">
-                <h1>📈 Indian Stock Market Daily Intelligence (7:30 AM)</h1>
+                <h1>📈 Indian Stock Market Daily Intelligence (3:00 AM IST)</h1>
                 <p>Morning Breakout & Corporate Catalyst Report • {today_str}</p>
             </div>
             <div class="content">
                 <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:12px 16px; margin-bottom:20px; font-size:13px; color:#166534;">
-                    <strong>7:30 AM Automated Scan Summary:</strong> Scanned {len(stocks_list)} stocks across NSE/BSE. 
+                    <strong>3:00 AM Automated Scan Summary:</strong> Scanned {len(stocks_list)} stocks across NSE/BSE. 
                     Identified {len(breakout_stocks)} high-momentum breakout setups & {len(events_list)} major corporate events.
                 </div>
 
@@ -185,7 +185,7 @@ def generate_email_html(analysis_data, nifty_data):
                 </table>
             </div>
             <div class="footer">
-                Automated Indian Stock Screener & AI Analyst • Sent Daily at 7:30 AM IST
+                Automated Indian Stock Screener & AI Analyst • Sent Daily at 3:00 AM IST
             </div>
         </div>
     </body>
@@ -206,7 +206,7 @@ def send_morning_digest(analysis_data, nifty_data):
     try:
         html_content = generate_email_html(analysis_data, nifty_data)
         today_str = datetime.datetime.now().strftime("%d %b %Y")
-        subject = f"📈 Stock Market Morning Digest ({today_str}) - Breakouts & Corporate Events"
+        subject = f"📈 Stock Market Daily Digest ({today_str}) - Breakouts & Corporate Events"
 
         msg = MIMEMultipart("alternative")
         msg["Subject"] = subject
