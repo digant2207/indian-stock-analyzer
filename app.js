@@ -74,7 +74,7 @@ async function triggerLiveRefresh() {
     // Poll progress status until finished
     const intervalId = setInterval(async () => {
       try {
-        const sResp = await fetch('/api/scan_status?t=' + Date.now());
+        const sResp = await fetch('/api/scan_status?t=' + Date.now(), { cache: 'no-store' });
         if (sResp.ok) {
           const status = await sResp.json();
           if (status.is_running) {
@@ -144,32 +144,23 @@ function getCombinedStocks() {
 }
 
 async function loadData() {
-  if (window.stockData && window.stockData.all_stocks && window.stockData.all_stocks.length > 0) {
-    stockData = window.stockData;
-  }
-
-  if (window.nifty250Data && window.nifty250Data.all_stocks && window.nifty250Data.all_stocks.length > 0) {
-    nifty250Data = window.nifty250Data;
-  }
-
-  renderAllViews();
-
+  // Always fetch fresh JSON bypass cache
   try {
-    const resp = await fetch('analysis_data.json?t=' + Date.now());
+    const resp = await fetch('analysis_data.json?nocache=' + Date.now(), { cache: 'no-store' });
     if (resp.ok) {
       stockData = await resp.json();
     }
   } catch (err) {
-    console.log("Using preloaded Spark stock data.");
+    if (window.stockData) stockData = window.stockData;
   }
 
   try {
-    const nResp = await fetch('nifty250_data.json?t=' + Date.now());
+    const nResp = await fetch('nifty250_data.json?nocache=' + Date.now(), { cache: 'no-store' });
     if (nResp.ok) {
       nifty250Data = await nResp.json();
     }
   } catch (err) {
-    console.log("Using preloaded Nifty 250 data.");
+    if (window.nifty250Data) nifty250Data = window.nifty250Data;
   }
 
   renderAllViews();
@@ -191,7 +182,7 @@ function renderSummary() {
   const combined = getCombinedStocks();
   const s = stockData.summary || {};
   const lastUpdatedEl = document.getElementById('last-updated');
-  if (lastUpdatedEl) lastUpdatedEl.textContent = s.last_updated || 'Daily 7:30 AM Cloud Run Active';
+  if (lastUpdatedEl) lastUpdatedEl.textContent = s.last_updated || 'Daily 3:00 AM Cloud Run Active';
   
   const scannedEl = document.getElementById('stat-total-scanned');
   if (scannedEl) scannedEl.textContent = combined.length || 0;
@@ -576,32 +567,4 @@ function openStockModal(symbol) {
 
 function closeModal() {
   document.getElementById('stock-modal').classList.remove('active');
-}
-
-async function saveGoogleSheetConfig() {
-  const urlInput = document.getElementById('gsheet-url-input');
-  const statusDiv = document.getElementById('gsheet-status');
-  const url = urlInput?.value.trim();
-  
-  if (!url) {
-    if (statusDiv) statusDiv.textContent = 'Please enter a valid Google Sheet URL.';
-    return;
-  }
-
-  if (statusDiv) statusDiv.textContent = 'Saving configuration & syncing Google Sheet...';
-  
-  try {
-    const resp = await fetch('/api/save_gsheet', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ google_sheet_url: url })
-    });
-    if (resp.ok) {
-      if (statusDiv) statusDiv.textContent = '✅ Google Sheet linked! Running analysis sync...';
-    } else {
-      if (statusDiv) statusDiv.textContent = 'Saved link locally. Run analyzer.py to refresh data from your Google Sheet!';
-    }
-  } catch (err) {
-    if (statusDiv) statusDiv.textContent = 'Saved URL to local config. Run analyzer.py to sync!';
-  }
 }
