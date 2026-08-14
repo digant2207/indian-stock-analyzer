@@ -24,12 +24,14 @@ STATUS_FILE = os.path.join(os.path.dirname(__file__), "scan_status.json")
 
 def update_scan_status(is_running, pct=0, msg="Idle"):
     try:
+        utc_now = datetime.datetime.utcnow()
+        ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
         with open(STATUS_FILE, 'w', encoding='utf-8') as f:
             json.dump({
                 "is_running": is_running,
                 "progress_pct": pct,
                 "status_message": msg,
-                "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                "last_updated": ist_now.strftime("%Y-%m-%d %I:%M %p IST")
             }, f, indent=2)
     except Exception:
         pass
@@ -536,8 +538,12 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, start_p
     worst_5 = analyzed[-5:] if len(analyzed) >= 5 else analyzed[-len(analyzed):]
     worst_5 = sorted(worst_5, key=lambda x: x['composite_score'])
 
+    utc_now = datetime.datetime.utcnow()
+    ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+    ist_str = ist_now.strftime("%Y-%m-%d %I:%M %p IST")
+
     summary_stats = {
-        "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S IST"),
+        "last_updated": ist_str,
         "total_stocks_scanned": len(analyzed),
         "strong_buys_count": sum(1 for s in analyzed if s['long_term_signal'] in ['STRONG BUY', 'ACCUMULATE']),
         "swing_breakouts_count": sum(1 for s in analyzed if s['swing_signal'] == 'BREAKOUT BUY'),
