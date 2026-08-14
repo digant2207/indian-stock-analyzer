@@ -564,6 +564,6 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, start_p
 
 if __name__ == "__main__":
     update_scan_status(True, 5, "Initializing market scan...")
-    process_csv_file_fast("stocks.csv", "analysis_data.json", "analysis_data.js", "stockData", start_pct=5, end_pct=60, max_workers=12)
-    process_csv_file_fast("nifty250.csv", "nifty250_data.json", "nifty250_data.js", "nifty250Data", start_pct=60, end_pct=100, max_workers=12)
+    process_csv_file_fast("stocks.csv", "analysis_data.json", "analysis_data.js", "stockData", start_pct=5, end_pct=60, max_workers=30)
+    process_csv_file_fast("nifty250.csv", "nifty250_data.json", "nifty250_data.js", "nifty250Data", start_pct=60, end_pct=100, max_workers=30)
     update_scan_status(False, 100, "Scan Complete! All stocks updated.")

@@ -1,6 +1,6 @@
 {
-  "is_running": false,
-  "progress_pct": 100,
-  "status_message": "Scan Complete! All stocks updated.",
-  "last_updated": "2026-08-14 11:13:14"
+  "is_running": true,
+  "progress_pct": 31,
+  "status_message": "Scanning 61/129 stocks in stocks.csv...",
+  "last_updated": "2026-08-14 11:26:49"
 }
