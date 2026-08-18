@@ -198,19 +198,21 @@ def fetch_stock_data(stock_meta):
             except Exception:
                 pass
 
-    if hist.empty or len(hist) < 20:
-        return None
-
     close_prices = hist['Close'].values
     high_prices = hist['High'].values
     low_prices = hist['Low'].values
     volumes = hist['Volume'].values
-    
-    current_price = round(clean_val(close_prices[-1]), 2)
+
+    valid_closes = [clean_val(c) for c in close_prices if c is not None and not math.isnan(c) and clean_val(c) > 0]
+    if not valid_closes or len(valid_closes) < 10:
+        return None
+
+    current_price = round(valid_closes[-1], 2)
     today_high = round(clean_val(high_prices[-1]), 2)
-    
+    if today_high == 0: today_high = current_price
+
     # Base Starting Price for Today's Breakout is Yesterday's Close
-    prev_close = round(clean_val(close_prices[-2]), 2) if len(close_prices) > 1 else current_price
+    prev_close = round(valid_closes[-2], 2) if len(valid_closes) > 1 else current_price
     if prev_close == 0: prev_close = current_price
 
     day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
