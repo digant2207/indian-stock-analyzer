@@ -144,26 +144,42 @@ function getCombinedStocks() {
 }
 
 async function loadData() {
-  // Always fetch fresh JSON bypass cache
-  try {
-    const resp = await fetch('analysis_data.json?nocache=' + Date.now(), { cache: 'no-store' });
-    if (resp.ok) {
-      stockData = await resp.json();
-    }
-  } catch (err) {
-    if (window.stockData) stockData = window.stockData;
+  if (window.stockData && window.stockData.all_stocks && window.stockData.all_stocks.length > 0) {
+    stockData = window.stockData;
   }
-
-  try {
-    const nResp = await fetch('nifty250_data.json?nocache=' + Date.now(), { cache: 'no-store' });
-    if (nResp.ok) {
-      nifty250Data = await nResp.json();
-    }
-  } catch (err) {
-    if (window.nifty250Data) nifty250Data = window.nifty250Data;
+  if (window.nifty250Data && window.nifty250Data.all_stocks && window.nifty250Data.all_stocks.length > 0) {
+    nifty250Data = window.nifty250Data;
   }
 
   renderAllViews();
+
+  if (window.location.protocol !== 'file:') {
+    try {
+      const resp = await fetch('analysis_data.json?nocache=' + Date.now(), { cache: 'no-store' });
+      if (resp.ok) {
+        const freshData = await resp.json();
+        if (freshData && freshData.all_stocks && freshData.all_stocks.length > 0) {
+          stockData = freshData;
+        }
+      }
+    } catch (err) {
+      console.log("Using preloaded stock data.");
+    }
+
+    try {
+      const nResp = await fetch('nifty250_data.json?nocache=' + Date.now(), { cache: 'no-store' });
+      if (nResp.ok) {
+        const freshNifty = await nResp.json();
+        if (freshNifty && freshNifty.all_stocks && freshNifty.all_stocks.length > 0) {
+          nifty250Data = freshNifty;
+        }
+      }
+    } catch (err) {
+      console.log("Using preloaded Nifty 250 data.");
+    }
+
+    renderAllViews();
+  }
 }
 
 function renderAllViews() {
