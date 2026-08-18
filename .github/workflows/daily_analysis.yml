@@ -31,10 +31,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Fast Stock Analyzer & Send Daily 3 AM Email
+      - name: Sync Live Google Sheet & Run Fast Stock Analyzer
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
+          python import_gsheet.py
           python fast_runner.py
           python backtester.py
 

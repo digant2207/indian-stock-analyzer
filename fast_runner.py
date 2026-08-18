@@ -570,7 +570,54 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, start_p
     print(f"Completed {csv_path}! Scanned {len(analyzed)} stocks. Saved to {output_json} & {output_js}")
     return output_payload
 
+GSHEET_URL = "https://docs.google.com/spreadsheets/d/1_rWhyap8gO-u8ehP1vDCiad-RwnFjGBCn2R5qiis4_A/export?format=csv"
+
+def sync_google_sheet():
+    print("Syncing live stock list from Spark Google Sheet...")
+    try:
+        resp = requests.get(GSHEET_URL, timeout=10)
+        if resp.status_code == 200:
+            resp.encoding = 'utf-8'
+            lines = resp.text.splitlines()
+            reader = csv.reader(lines)
+            rows = [row for row in reader if row]
+
+            extracted_stocks = []
+            seen_symbols = set()
+
+            for idx, row in enumerate(rows):
+                if idx == 0: continue
+                raw_symbol = row[0].strip().upper()
+                name = row[1].strip() if len(row) > 1 else raw_symbol
+                notes = row[6].strip() if len(row) > 6 else ""
+
+                if not raw_symbol or raw_symbol.startswith("SYMBOL"): continue
+
+                clean_sym = clean_symbol(raw_symbol)
+                if clean_sym not in seen_symbols:
+                    seen_symbols.add(clean_sym)
+                    extracted_stocks.append({
+                        "symbol": clean_sym,
+                        "name": name,
+                        "sector": "Spark Watchlist",
+                        "cap_type": "Equity",
+                        "tracking_notes": f"Spark Sheet: {notes}" if notes else "Spark Sheet"
+                    })
+
+            if extracted_stocks:
+                csv_path = os.path.join(os.path.dirname(__file__), "stocks.csv")
+                with open(csv_path, "w", encoding="utf-8", newline="") as f:
+                    writer = csv.DictWriter(f, fieldnames=["symbol", "name", "sector", "cap_type", "tracking_notes"])
+                    writer.writeheader()
+                    for s in extracted_stocks:
+                        writer.writerow(s)
+                print(f"✅ Successfully synced {len(extracted_stocks)} stocks live from Spark Google Sheet!")
+    except Exception as e:
+        print(f"Google Sheet live sync notice: {e}")
+
 if __name__ == "__main__":
+    update_scan_status(True, 2, "Syncing live stock list from Google Sheet...")
+    sync_google_sheet()
     update_scan_status(True, 5, "Initializing market scan...")
     process_csv_file_fast("stocks.csv", "analysis_data.json", "analysis_data.js", "stockData", start_pct=5, end_pct=60, max_workers=30)
     process_csv_file_fast("nifty250.csv", "nifty250_data.json", "nifty250_data.js", "nifty250Data", start_pct=60, end_pct=100, max_workers=30)
