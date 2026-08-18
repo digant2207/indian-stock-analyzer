@@ -489,6 +489,8 @@ def fetch_stock_data(stock_meta):
         "upcoming_event_str": upcoming_event_str,
         "strengths": strengths,
         "weaknesses": weaknesses,
+        "fundamental_score": round(float(f_score), 1),
+        "technical_score": round(float(t_score + b_score), 1),
         "composite_score": composite_score,
         "long_term_signal": long_term_signal,
         "swing_signal": swing_signal,

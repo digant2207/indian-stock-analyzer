@@ -288,12 +288,18 @@ function renderSparkWatchlistTable(stocks, tbodyId='all-stocks-tbody') {
       ? `<span class="badge badge-strong-buy">${s.upcoming_event_str}</span>` 
       : `<span style="color:var(--text-muted)">None</span>`;
 
+    const fundScore = formatNum(s.fundamental_score !== undefined ? s.fundamental_score : (s.composite_score * 0.35), 1);
+    const techScore = formatNum(s.technical_score !== undefined ? s.technical_score : (s.composite_score * 0.45), 1);
+    const overallScore = formatNum(s.composite_score, 1);
+
     return `
       <tr onclick="openStockModal('${s.symbol}')">
         <td><strong>#${idx + 1} ${s.name || cleanSym}</strong> <span class="badge badge-accumulate">${cleanSym}</span></td>
         <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
         <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
-        <td><strong>${formatNum(s.composite_score, 1)}</strong></td>
+        <td><span class="badge badge-accumulate">${fundScore} / 35</span></td>
+        <td><span class="badge badge-strong-buy">${techScore} / 50</span></td>
+        <td><strong style="color:var(--accent-green); font-size:0.95rem;">${overallScore} / 100</strong></td>
         <td><span class="badge ${getBadgeClass(s.long_term_signal)}">${s.long_term_signal || 'HOLD'}</span></td>
         <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal || 'NEUTRAL'}</span></td>
         <td>${formatNum(s.rev_growth_yoy, 1)}%</td>
@@ -316,13 +322,19 @@ function renderNifty250Table(stocks, tbodyId='nifty250-tbody') {
       ? `<span class="badge badge-strong-buy">${s.upcoming_event_str}</span>` 
       : `<span style="color:var(--text-muted)">None</span>`;
 
+    const fundScore = formatNum(s.fundamental_score !== undefined ? s.fundamental_score : (s.composite_score * 0.35), 1);
+    const techScore = formatNum(s.technical_score !== undefined ? s.technical_score : (s.composite_score * 0.45), 1);
+    const overallScore = formatNum(s.composite_score, 1);
+
     return `
       <tr onclick="openStockModal('${s.symbol}')">
         <td><strong>#${idx + 1} ${s.name || cleanSym}</strong> <span class="badge badge-accumulate">${cleanSym}</span></td>
         <td><span class="badge badge-hold">${s.sector || 'General'}</span></td>
         <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
         <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
-        <td><strong>${formatNum(s.composite_score, 1)}</strong></td>
+        <td><span class="badge badge-accumulate">${fundScore} / 35</span></td>
+        <td><span class="badge badge-strong-buy">${techScore} / 50</span></td>
+        <td><strong style="color:var(--accent-green); font-size:0.95rem;">${overallScore} / 100</strong></td>
         <td><span class="badge ${getBadgeClass(s.long_term_signal)}">${s.long_term_signal || 'HOLD'}</span></td>
         <td><span class="badge ${getBadgeClass(s.swing_signal)}">${s.swing_signal || 'NEUTRAL'}</span></td>
         <td>${formatNum(s.rev_growth_yoy, 1)}%</td>
@@ -341,6 +353,10 @@ function createStockCardHTML(stock, isWorst=false) {
   const cardTypeClass = isWorst ? 'bearish' : 'bullish';
   const cleanSym = getCleanSymbol(stock.symbol);
 
+  const fundScore = formatNum(stock.fundamental_score !== undefined ? stock.fundamental_score : (stock.composite_score * 0.35), 1);
+  const techScore = formatNum(stock.technical_score !== undefined ? stock.technical_score : (stock.composite_score * 0.45), 1);
+  const overallScore = formatNum(stock.composite_score, 1);
+
   return `
     <div class="stock-card ${cardTypeClass}" onclick="openStockModal('${stock.symbol}')">
       <div class="card-top">
@@ -356,8 +372,8 @@ function createStockCardHTML(stock, isWorst=false) {
 
       <div class="card-metrics">
         <div class="metric-item">
-          <span class="metric-lbl">Score</span>
-          <span class="metric-val" style="color:${isWorst ? '#e11d48':'#059669'}">${formatNum(stock.composite_score, 1)} / 100</span>
+          <span class="metric-lbl">Fund / Tech / Overall</span>
+          <span class="metric-val" style="color:${isWorst ? '#e11d48':'#059669'}; font-size:0.78rem;">F:${fundScore} | T:${techScore} | <strong>Total:${overallScore}</strong></span>
         </div>
         <div class="metric-item">
           <span class="metric-lbl">YoY Sales Growth</span>
@@ -527,8 +543,30 @@ function openStockModal(symbol) {
   document.getElementById('modal-stock-title').textContent = `${stock.name || cleanSym} (${cleanSym})`;
   document.getElementById('modal-stock-subtitle').textContent = `${stock.sector || 'General'} | ${stock.cap_type || 'Equity'}`;
   
+  const fundScore = formatNum(stock.fundamental_score !== undefined ? stock.fundamental_score : (stock.composite_score * 0.35), 1);
+  const techScore = formatNum(stock.technical_score !== undefined ? stock.technical_score : (stock.composite_score * 0.45), 1);
+  const overallScore = formatNum(stock.composite_score, 1);
+
   const content = document.getElementById('modal-body');
   content.innerHTML = `
+    <div class="modal-box" style="margin-bottom:14px; background:var(--bg-secondary);">
+      <div class="modal-box-title">📊 3 Criteria Score Breakdown</div>
+      <div style="display:flex; justify-content:space-between; gap:12px; margin-top:8px;">
+        <div style="flex:1; text-align:center; padding:8px; background:rgba(56,189,248,0.1); border-radius:8px;">
+          <div style="font-size:0.75rem; color:var(--text-secondary);">1. Fundamental Score</div>
+          <div style="font-size:1.1rem; font-weight:700; color:var(--accent-cyan);">${fundScore} / 35</div>
+        </div>
+        <div style="flex:1; text-align:center; padding:8px; background:rgba(168,85,247,0.1); border-radius:8px;">
+          <div style="font-size:0.75rem; color:var(--text-secondary);">2. Technical Score</div>
+          <div style="font-size:1.1rem; font-weight:700; color:#a855f7;">${techScore} / 50</div>
+        </div>
+        <div style="flex:1; text-align:center; padding:8px; background:rgba(34,197,94,0.1); border-radius:8px;">
+          <div style="font-size:0.75rem; color:var(--text-secondary);">3. Overall Score</div>
+          <div style="font-size:1.1rem; font-weight:700; color:var(--accent-green);">${overallScore} / 100</div>
+        </div>
+      </div>
+    </div>
+
     <div class="modal-grid">
       <div class="modal-box">
         <div class="modal-box-title">Price & Technicals</div>

@@ -98,11 +98,17 @@ def generate_email_html(analysis_data, nifty_data):
     top5_rows = ""
     for idx, s in enumerate(stocks_list[:5], 1):
         clean_sym = s.get('clean_symbol', s.get('symbol', '')).replace('.NS', '').replace('.BO', '')
+        fund_score = s.get('fundamental_score', round(s.get('composite_score', 0) * 0.35, 1))
+        tech_score = s.get('technical_score', round(s.get('composite_score', 0) * 0.45, 1))
+        overall_score = s.get('composite_score', 0)
+
         top5_rows += f"""
         <tr style="border-bottom:1px solid #e2e8f0;">
             <td style="padding:8px;"><strong>#{idx} {s.get('name', clean_sym)}</strong></td>
             <td style="padding:8px; font-weight:bold;">₹{s.get('current_price', 0):,.2f}</td>
-            <td style="padding:8px; color:#059669; font-weight:bold;">{s.get('composite_score', 0):.1f} / 100</td>
+            <td style="padding:8px; color:#0284c7; font-weight:bold;">{fund_score:.1f} / 35</td>
+            <td style="padding:8px; color:#a855f7; font-weight:bold;">{tech_score:.1f} / 50</td>
+            <td style="padding:8px; color:#059669; font-weight:bold;">{overall_score:.1f} / 100</td>
             <td style="padding:8px;">{s.get('long_term_signal', 'BUY')}</td>
         </tr>
         """
@@ -175,7 +181,9 @@ def generate_email_html(analysis_data, nifty_data):
                         <tr>
                             <th>Stock</th>
                             <th>Price</th>
-                            <th>Score</th>
+                            <th>Fund Score</th>
+                            <th>Tech Score</th>
+                            <th>Overall Score</th>
                             <th>Long Term Signal</th>
                         </tr>
                     </thead>
