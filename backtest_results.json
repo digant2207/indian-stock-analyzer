@@ -1,14 +1,14 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 25,
-  "overall_win_rate": 26.0,
+  "overall_win_rate": 24.9,
   "overall_avg_return_per_trade": NaN,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
       "total_trades": 9,
       "win_rate": 44.4,
-      "avg_return": 3.04,
+      "avg_return": 1.72,
       "total_wins": 4,
       "total_losses": 5
     },
@@ -46,11 +46,11 @@
     },
     {
       "symbol": "ATHERENERG.NS",
-      "total_trades": 18,
-      "win_rate": 44.4,
-      "avg_return": 4.86,
+      "total_trades": 19,
+      "win_rate": 42.1,
+      "avg_return": NaN,
       "total_wins": 8,
-      "total_losses": 10
+      "total_losses": 11
     },
     {
       "symbol": "AWL.NS",
@@ -63,16 +63,16 @@
     {
       "symbol": "BAJAJHFL.NS",
       "total_trades": 5,
-      "win_rate": 20.0,
-      "avg_return": -3.33,
-      "total_wins": 1,
-      "total_losses": 4
+      "win_rate": 0.0,
+      "avg_return": -4.07,
+      "total_wins": 0,
+      "total_losses": 5
     },
     {
       "symbol": "BAJAJHLDNG.NS",
       "total_trades": 5,
       "win_rate": 40.0,
-      "avg_return": -1.0,
+      "avg_return": -1.23,
       "total_wins": 2,
       "total_losses": 3
     },
@@ -120,7 +120,7 @@
       "symbol": "BOROLTD.NS",
       "total_trades": 3,
       "win_rate": 33.3,
-      "avg_return": -2.72,
+      "avg_return": -3.25,
       "total_wins": 1,
       "total_losses": 2
     },
@@ -134,10 +134,10 @@
     },
     {
       "symbol": "CANBK.NS",
-      "total_trades": 14,
-      "win_rate": 50.0,
-      "avg_return": 3.53,
-      "total_wins": 7,
+      "total_trades": 13,
+      "win_rate": 46.2,
+      "avg_return": 2.42,
+      "total_wins": 6,
       "total_losses": 7
     },
     {
@@ -192,17 +192,17 @@
       "symbol": "DDEVPLSTIK.NS",
       "total_trades": 4,
       "win_rate": 75.0,
-      "avg_return": 3.37,
+      "avg_return": 3.77,
       "total_wins": 3,
       "total_losses": 1
     },
     {
       "symbol": "DELHIVERY.NS",
-      "total_trades": 13,
-      "win_rate": 15.4,
-      "avg_return": -4.1,
+      "total_trades": 14,
+      "win_rate": 14.3,
+      "avg_return": -4.13,
       "total_wins": 2,
-      "total_losses": 11
+      "total_losses": 12
     }
   ]
 }
