@@ -76,7 +76,16 @@ def backtest_breakout_strategy(symbol, hold_days=30):
         print(f"Backtest error for {symbol}: {e}")
         return None
 
-def run_backtest_all(stocks_csv_path="stocks.csv", output_json_path="backtest_results.json", output_js_path="backtest_results.js"):
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def run_backtest_all(stocks_csv_path=None, output_json_path=None, output_js_path=None):
+    if stocks_csv_path is None:
+        stocks_csv_path = os.path.join(BASE_DIR, "stocks.csv")
+    if output_json_path is None:
+        output_json_path = os.path.join(BASE_DIR, "backtest_results.json")
+    if output_js_path is None:
+        output_js_path = os.path.join(BASE_DIR, "backtest_results.js")
+
     print("Running Backtest Strategy Engine...")
     if not os.path.exists(stocks_csv_path):
         return

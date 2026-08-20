@@ -61,42 +61,118 @@ function initTabs() {
   });
 }
 
+function showToast(message, type = 'info', duration = 4000) {
+  let toast = document.getElementById('app-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'app-toast';
+    toast.className = 'toast-notification';
+    document.body.appendChild(toast);
+  }
+  toast.className = `toast-notification ${type} show`;
+  toast.innerHTML = message;
+  
+  if (window._toastTimeout) clearTimeout(window._toastTimeout);
+  window._toastTimeout = setTimeout(() => {
+    toast.classList.remove('show');
+  }, duration);
+}
+
 async function triggerLiveRefresh() {
   const btn = document.getElementById('btn-refresh-data');
   const btnText = document.getElementById('refresh-btn-text');
   
-  if (btnText) btnText.textContent = '⏳ Starting Market Scan...';
   if (btn) btn.disabled = true;
+  if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Initializing Scan...';
+
+  const triggerTime = Date.now();
 
   try {
-    await fetch('/api/refresh', { method: 'POST' });
-    
-    // Poll progress status until finished
+    const refreshResp = await fetch('/api/refresh', { 
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    });
+
+    if (!refreshResp.ok) {
+      throw new Error(`HTTP ${refreshResp.status}`);
+    }
+
+    showToast('🚀 Live market scanner started in background...', 'info', 3500);
+
+    // Polling logic for Local Server
+    let pollAttempts = 0;
+    let seenRunning = false;
+
     const intervalId = setInterval(async () => {
+      pollAttempts++;
       try {
-        const sResp = await fetch('/api/scan_status?t=' + Date.now(), { cache: 'no-store' });
+        const sResp = await fetch('/api/scan_status?t=' + Date.now(), { 
+          cache: 'no-store',
+          headers: { 'Cache-Control': 'no-cache' }
+        });
+
         if (sResp.ok) {
           const status = await sResp.json();
+          
           if (status.is_running) {
-            if (btnText) btnText.textContent = `⏳ Scanning (${status.progress_pct}%)...`;
+            seenRunning = true;
+            if (btnText) {
+              btnText.innerHTML = `<span class="spin-icon">⏳</span> Scanning (${status.progress_pct || 0}%)...`;
+            }
           } else {
-            clearInterval(intervalId);
-            if (btnText) btnText.textContent = '✅ Update Complete!';
-            await loadData();
-            setTimeout(() => {
+            // Check if this finished scan is new (either we observed it running, or it reached 100% after trigger)
+            const isCompleted = (status.progress_pct === 100 && (seenRunning || pollAttempts >= 2));
+            
+            if (isCompleted) {
+              clearInterval(intervalId);
+              if (btnText) btnText.innerHTML = '✅ Update Complete!';
+              
+              showToast('✅ Market data & breakout levels updated successfully!', 'success', 4500);
+              await loadData();
+              
+              setTimeout(() => {
+                if (btnText) btnText.textContent = 'Refresh Data';
+                if (btn) btn.disabled = false;
+              }, 3000);
+            } else if (status.status_message && status.status_message.toLowerCase().includes('failed')) {
+              clearInterval(intervalId);
+              showToast(`⚠️ ${status.status_message}`, 'error', 5000);
               if (btnText) btnText.textContent = 'Refresh Data';
               if (btn) btn.disabled = false;
-            }, 2500);
+            }
           }
         }
       } catch (pollErr) {
-        console.log("Polling status fallback...");
+        console.warn("Scan status polling...", pollErr);
       }
-    }, 2000);
+
+      // Safety timeout: 4 minutes
+      if (pollAttempts > 200) {
+        clearInterval(intervalId);
+        if (btnText) btnText.textContent = 'Refresh Data';
+        if (btn) btn.disabled = false;
+        await loadData();
+      }
+    }, 1200);
 
   } catch (err) {
-    console.log("Fallback: reloading page.");
-    location.reload();
+    console.warn("Local API not reachable (running on Static Host / GitHub Pages):", err);
+    // On GitHub Pages or static host, re-fetch latest JSON with cache-busting
+    if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Fetching Latest Cloud Data...';
+    
+    try {
+      await loadData();
+      showToast('☁️ Refreshed with latest Cloud Scan data (Updated daily at 3:00 AM IST).<br><small>To run live real-time analysis anytime, launch <b>Start_Stock_Analyzer.bat</b> on your PC.</small>', 'info', 6000);
+      if (btnText) btnText.innerHTML = '✅ Cloud Data Synced!';
+    } catch (loadErr) {
+      showToast('⚠️ Could not sync data: ' + loadErr.message, 'error', 5000);
+      if (btnText) btnText.textContent = 'Refresh Data';
+    }
+
+    setTimeout(() => {
+      if (btnText) btnText.textContent = 'Refresh Data';
+      if (btn) btn.disabled = false;
+    }, 3500);
   }
 }
 
@@ -154,12 +230,17 @@ async function loadData() {
   renderAllViews();
 
   if (window.location.protocol !== 'file:') {
+    const timestamp = Date.now();
     try {
-      const resp = await fetch('analysis_data.json?nocache=' + Date.now(), { cache: 'no-store' });
+      const resp = await fetch('analysis_data.json?_t=' + timestamp, { 
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' }
+      });
       if (resp.ok) {
         const freshData = await resp.json();
         if (freshData && freshData.all_stocks && freshData.all_stocks.length > 0) {
           stockData = freshData;
+          window.stockData = freshData;
         }
       }
     } catch (err) {
@@ -167,11 +248,15 @@ async function loadData() {
     }
 
     try {
-      const nResp = await fetch('nifty250_data.json?nocache=' + Date.now(), { cache: 'no-store' });
+      const nResp = await fetch('nifty250_data.json?_t=' + timestamp, { 
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' }
+      });
       if (nResp.ok) {
         const freshNifty = await nResp.json();
         if (freshNifty && freshNifty.all_stocks && freshNifty.all_stocks.length > 0) {
           nifty250Data = freshNifty;
+          window.nifty250Data = freshNifty;
         }
       }
     } catch (err) {

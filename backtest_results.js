@@ -1,14 +1,14 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 25,
-  "overall_win_rate": 24.9,
-  "overall_avg_return_per_trade": NaN,
+  "overall_win_rate": 25.5,
+  "overall_avg_return_per_trade": -1.95,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
       "total_trades": 9,
       "win_rate": 44.4,
-      "avg_return": 1.72,
+      "avg_return": 1.8,
       "total_wins": 4,
       "total_losses": 5
     },
@@ -30,10 +30,10 @@ window.backtestData = {
     },
     {
       "symbol": "ANANTRAJ.NS",
-      "total_trades": 4,
-      "win_rate": 0.0,
-      "avg_return": -7.3,
-      "total_wins": 0,
+      "total_trades": 5,
+      "win_rate": 20.0,
+      "avg_return": -3.23,
+      "total_wins": 1,
       "total_losses": 4
     },
     {
@@ -46,11 +46,11 @@ window.backtestData = {
     },
     {
       "symbol": "ATHERENERG.NS",
-      "total_trades": 19,
-      "win_rate": 42.1,
-      "avg_return": NaN,
-      "total_wins": 8,
-      "total_losses": 11
+      "total_trades": 20,
+      "win_rate": 50.0,
+      "avg_return": 6.25,
+      "total_wins": 10,
+      "total_losses": 10
     },
     {
       "symbol": "AWL.NS",
@@ -72,7 +72,7 @@ window.backtestData = {
       "symbol": "BAJAJHLDNG.NS",
       "total_trades": 5,
       "win_rate": 40.0,
-      "avg_return": -1.23,
+      "avg_return": -1.0,
       "total_wins": 2,
       "total_losses": 3
     },
@@ -94,11 +94,11 @@ window.backtestData = {
     },
     {
       "symbol": "BBL.NS",
-      "total_trades": 11,
-      "win_rate": 9.1,
-      "avg_return": -5.48,
+      "total_trades": 10,
+      "win_rate": 10.0,
+      "avg_return": -5.52,
       "total_wins": 1,
-      "total_losses": 10
+      "total_losses": 9
     },
     {
       "symbol": "BHARATCOAL.NS",
@@ -111,33 +111,33 @@ window.backtestData = {
     {
       "symbol": "BLUEJET.NS",
       "total_trades": 8,
-      "win_rate": 50.0,
-      "avg_return": NaN,
-      "total_wins": 4,
-      "total_losses": 4
+      "win_rate": 62.5,
+      "avg_return": 2.62,
+      "total_wins": 5,
+      "total_losses": 3
     },
     {
       "symbol": "BOROLTD.NS",
       "total_trades": 3,
       "win_rate": 33.3,
-      "avg_return": -3.25,
+      "avg_return": -2.72,
       "total_wins": 1,
       "total_losses": 2
     },
     {
       "symbol": "BOROSCI.NS",
-      "total_trades": 11,
-      "win_rate": 36.4,
-      "avg_return": 0.81,
+      "total_trades": 10,
+      "win_rate": 40.0,
+      "avg_return": 1.51,
       "total_wins": 4,
-      "total_losses": 7
+      "total_losses": 6
     },
     {
       "symbol": "CANBK.NS",
-      "total_trades": 13,
-      "win_rate": 46.2,
-      "avg_return": 2.42,
-      "total_wins": 6,
+      "total_trades": 12,
+      "win_rate": 41.7,
+      "avg_return": 0.91,
+      "total_wins": 5,
       "total_losses": 7
     },
     {
@@ -191,10 +191,10 @@ window.backtestData = {
     {
       "symbol": "DDEVPLSTIK.NS",
       "total_trades": 4,
-      "win_rate": 75.0,
-      "avg_return": 3.77,
-      "total_wins": 3,
-      "total_losses": 1
+      "win_rate": 50.0,
+      "avg_return": 1.92,
+      "total_wins": 2,
+      "total_losses": 2
     },
     {
       "symbol": "DELHIVERY.NS",

@@ -452,3 +452,54 @@ body.dark-mode .data-table tbody tr.row-breakout-done {
   .sidebar-nav { width: 100%; position: relative; top: 0; }
   .summary-grid, .breakout-stats-grid { grid-template-columns: 1fr 1fr; }
 }
+
+/* Live Notification Toast */
+.toast-notification {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 2000;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+  max-width: 420px;
+}
+
+.toast-notification.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.toast-notification.success {
+  border-left: 4px solid var(--accent-green);
+}
+
+.toast-notification.info {
+  border-left: 4px solid var(--accent-cyan);
+}
+
+.toast-notification.error {
+  border-left: 4px solid var(--accent-rose);
+}
+
+.spin-icon {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}

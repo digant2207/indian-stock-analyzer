@@ -1,4 +1,6 @@
 import os
+import sys
+import time
 import json
 import csv
 import math
@@ -8,6 +10,12 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import requests
+
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 HIGH_DEBT_SECTORS = [
     "Private Bank", "Public Bank", "NBFC", "Financial Services", 
@@ -20,18 +28,23 @@ MAJOR_EVENT_KEYWORDS = [
     "BUYBACK", "BOARD MEETING", "ORDER", "CONTRACT", "ACQUISITION", "MERGER", "EXPANSION"
 ]
 
-STATUS_FILE = os.path.join(os.path.dirname(__file__), "scan_status.json")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATUS_FILE = os.path.join(BASE_DIR, "scan_status.json")
+
+def get_ist_now():
+    utc_now = datetime.datetime.now(datetime.timezone.utc)
+    return utc_now + datetime.timedelta(hours=5, minutes=30)
 
 def update_scan_status(is_running, pct=0, msg="Idle"):
     try:
-        utc_now = datetime.datetime.utcnow()
-        ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+        ist_now = get_ist_now()
         with open(STATUS_FILE, 'w', encoding='utf-8') as f:
             json.dump({
                 "is_running": is_running,
                 "progress_pct": pct,
                 "status_message": msg,
-                "last_updated": ist_now.strftime("%Y-%m-%d %I:%M %p IST")
+                "last_updated": ist_now.strftime("%Y-%m-%d %I:%M %p IST"),
+                "timestamp": int(time.time())
             }, f, indent=2)
     except Exception:
         pass
@@ -542,8 +555,7 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, start_p
     worst_5 = analyzed[-5:] if len(analyzed) >= 5 else analyzed[-len(analyzed):]
     worst_5 = sorted(worst_5, key=lambda x: x['composite_score'])
 
-    utc_now = datetime.datetime.utcnow()
-    ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+    ist_now = get_ist_now()
     ist_str = ist_now.strftime("%Y-%m-%d %I:%M %p IST")
 
     summary_stats = {
@@ -607,7 +619,7 @@ def sync_google_sheet():
                     })
 
             if extracted_stocks:
-                csv_path = os.path.join(os.path.dirname(__file__), "stocks.csv")
+                csv_path = os.path.join(BASE_DIR, "stocks.csv")
                 with open(csv_path, "w", encoding="utf-8", newline="") as f:
                     writer = csv.DictWriter(f, fieldnames=["symbol", "name", "sector", "cap_type", "tracking_notes"])
                     writer.writeheader()
@@ -618,9 +630,22 @@ def sync_google_sheet():
         print(f"Google Sheet live sync notice: {e}")
 
 if __name__ == "__main__":
-    update_scan_status(True, 2, "Syncing live stock list from Google Sheet...")
-    sync_google_sheet()
-    update_scan_status(True, 5, "Initializing market scan...")
-    process_csv_file_fast("stocks.csv", "analysis_data.json", "analysis_data.js", "stockData", start_pct=5, end_pct=60, max_workers=30)
-    process_csv_file_fast("nifty250.csv", "nifty250_data.json", "nifty250_data.js", "nifty250Data", start_pct=60, end_pct=100, max_workers=30)
-    update_scan_status(False, 100, "Scan Complete! All stocks updated.")
+    try:
+        stocks_csv = os.path.join(BASE_DIR, "stocks.csv")
+        nifty250_csv = os.path.join(BASE_DIR, "nifty250.csv")
+        analysis_json = os.path.join(BASE_DIR, "analysis_data.json")
+        analysis_js = os.path.join(BASE_DIR, "analysis_data.js")
+        nifty250_json = os.path.join(BASE_DIR, "nifty250_data.json")
+        nifty250_js = os.path.join(BASE_DIR, "nifty250_data.js")
+
+        update_scan_status(True, 2, "Syncing live stock list from Google Sheet...")
+        sync_google_sheet()
+        update_scan_status(True, 5, "Initializing market scan for Spark Watchlist...")
+        process_csv_file_fast(stocks_csv, analysis_json, analysis_js, "stockData", start_pct=5, end_pct=60, max_workers=30)
+        update_scan_status(True, 60, "Scanning Nifty 250 Universe...")
+        process_csv_file_fast(nifty250_csv, nifty250_json, nifty250_js, "nifty250Data", start_pct=60, end_pct=100, max_workers=30)
+        update_scan_status(False, 100, "Scan Complete! All stocks updated.")
+    except Exception as err:
+        print(f"Fast runner execution error: {err}")
+        update_scan_status(False, 0, f"Scan failed: {err}")
+        sys.exit(1)

@@ -15,8 +15,26 @@ import email_notifier
 PORT = 8080
 LOCK = threading.Lock()
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATUS_FILE = os.path.join(BASE_DIR, "scan_status.json")
+
+def update_scan_status(is_running, pct=0, msg="Idle"):
+    try:
+        utc_now = datetime.datetime.now(datetime.timezone.utc)
+        ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+        with open(STATUS_FILE, 'w', encoding='utf-8') as f:
+            json.dump({
+                "is_running": is_running,
+                "progress_pct": pct,
+                "status_message": msg,
+                "last_updated": ist_now.strftime("%Y-%m-%d %I:%M %p IST"),
+                "timestamp": int(time.time())
+            }, f, indent=2)
+    except Exception as e:
+        print(f"Error updating scan status: {e}")
+
 def get_python_exe():
-    venv_py = os.path.join(os.path.dirname(__file__), ".venv", "Scripts", "python.exe")
+    venv_py = os.path.join(BASE_DIR, ".venv", "Scripts", "python.exe")
     if os.path.exists(venv_py):
         return venv_py
     return sys.executable
@@ -24,21 +42,23 @@ def get_python_exe():
 def run_analysis_tasks():
     with LOCK:
         print(f"[{datetime.datetime.now()}] Triggering Live Stock Re-analysis & Google Sheet Sync...")
+        update_scan_status(True, 1, "Initializing live market scanner & syncing Google Sheet...")
         py_exe = get_python_exe()
         try:
-            runner_script = os.path.join(os.path.dirname(__file__), "fast_runner.py")
+            runner_script = os.path.join(BASE_DIR, "fast_runner.py")
             if os.path.exists(runner_script):
-                subprocess.run([py_exe, runner_script], check=True)
+                subprocess.run([py_exe, runner_script], check=True, cwd=BASE_DIR)
             else:
-                analyzer_script = os.path.join(os.path.dirname(__file__), "analyzer.py")
-                subprocess.run([py_exe, analyzer_script], check=True)
+                analyzer_script = os.path.join(BASE_DIR, "analyzer.py")
+                subprocess.run([py_exe, analyzer_script], check=True, cwd=BASE_DIR)
 
             print(f"[{datetime.datetime.now()}] Analysis completed successfully!")
+            update_scan_status(False, 100, "Scan Complete! All stocks updated.")
             
             # Send Morning Email Digest if configured
             try:
-                a_json = os.path.join(os.path.dirname(__file__), "analysis_data.json")
-                n_json = os.path.join(os.path.dirname(__file__), "nifty250_data.json")
+                a_json = os.path.join(BASE_DIR, "analysis_data.json")
+                n_json = os.path.join(BASE_DIR, "nifty250_data.json")
                 if os.path.exists(a_json) and os.path.exists(n_json):
                     with open(a_json, 'r', encoding='utf-8') as f:
                         a_data = json.load(f)
@@ -52,6 +72,7 @@ def run_analysis_tasks():
         except Exception as e:
             err_msg = f"Analysis error: {e}"
             print(f"[{datetime.datetime.now()}] {err_msg}")
+            update_scan_status(False, 0, f"Scan failed: {e}")
             return False, err_msg
 
 def daily_3am_scheduler_thread():
@@ -107,12 +128,21 @@ def resolve_yahoo_symbol(query):
     return None
 
 class CustomRequestHandler(SimpleHTTPRequestHandler):
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        self.end_headers()
+
     def do_GET(self):
         parsed_url = urlparse(self.path)
         path = parsed_url.path
         query = parse_qs(parsed_url.query)
 
-        if path == '/api/refresh' or path == '/api/run_analysis':
+        if path == '/api/health':
+            self.handle_health()
+        elif path == '/api/refresh' or path == '/api/run_analysis':
             self.handle_refresh()
         elif path == '/api/scan_status':
             self.handle_scan_status()
@@ -125,6 +155,7 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             payload = json.dumps(cfg).encode('utf-8')
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
+            self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
             self.send_header("Access-Control-Allow-Origin", "*")
             self.end_headers()
             self.wfile.write(payload)
@@ -145,27 +176,40 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
         else:
             self.send_error(404, "Endpoint not found")
 
+    def handle_health(self):
+        payload = json.dumps({"status": "ok", "mode": "local_server", "version": "2.0"}).encode('utf-8')
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Content-Length", str(len(payload)))
+        self.end_headers()
+        self.wfile.write(payload)
+
     def handle_scan_status(self):
-        status_file = os.path.join(os.path.dirname(__file__), "scan_status.json")
         status_payload = {"is_running": False, "progress_pct": 100, "status_message": "Idle"}
-        if os.path.exists(status_file):
+        if os.path.exists(STATUS_FILE):
             try:
-                with open(status_file, 'r', encoding='utf-8') as f:
+                with open(STATUS_FILE, 'r', encoding='utf-8') as f:
                     status_payload = json.load(f)
             except Exception:
                 pass
         res = json.dumps(status_payload).encode('utf-8')
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
+        self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
         self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Content-Length", str(len(res)))
         self.end_headers()
         self.wfile.write(res)
 
     def handle_refresh(self):
+        update_scan_status(True, 1, "Starting live market scanner in background...")
         threading.Thread(target=run_analysis_tasks, daemon=True).start()
         payload = json.dumps({"status": "success", "message": "Re-analysis started in background!"}).encode('utf-8')
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
+        self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Content-Length", str(len(payload)))
         self.end_headers()
