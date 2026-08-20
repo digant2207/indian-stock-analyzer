@@ -1,14 +1,14 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 25,
-  "overall_win_rate": 25.5,
-  "overall_avg_return_per_trade": -1.95,
+  "overall_win_rate": 26.5,
+  "overall_avg_return_per_trade": -1.92,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
       "total_trades": 9,
       "win_rate": 44.4,
-      "avg_return": 1.8,
+      "avg_return": 1.72,
       "total_wins": 4,
       "total_losses": 5
     },
@@ -32,7 +32,7 @@
       "symbol": "ANANTRAJ.NS",
       "total_trades": 5,
       "win_rate": 20.0,
-      "avg_return": -3.23,
+      "avg_return": -3.24,
       "total_wins": 1,
       "total_losses": 4
     },
@@ -48,7 +48,7 @@
       "symbol": "ATHERENERG.NS",
       "total_trades": 20,
       "win_rate": 50.0,
-      "avg_return": 6.25,
+      "avg_return": 6.26,
       "total_wins": 10,
       "total_losses": 10
     },
@@ -72,7 +72,7 @@
       "symbol": "BAJAJHLDNG.NS",
       "total_trades": 5,
       "win_rate": 40.0,
-      "avg_return": -1.0,
+      "avg_return": -1.23,
       "total_wins": 2,
       "total_losses": 3
     },
@@ -112,7 +112,7 @@
       "symbol": "BLUEJET.NS",
       "total_trades": 8,
       "win_rate": 62.5,
-      "avg_return": 2.62,
+      "avg_return": 2.39,
       "total_wins": 5,
       "total_losses": 3
     },
@@ -120,7 +120,7 @@
       "symbol": "BOROLTD.NS",
       "total_trades": 3,
       "win_rate": 33.3,
-      "avg_return": -2.72,
+      "avg_return": -3.25,
       "total_wins": 1,
       "total_losses": 2
     },
@@ -191,10 +191,10 @@
     {
       "symbol": "DDEVPLSTIK.NS",
       "total_trades": 4,
-      "win_rate": 50.0,
-      "avg_return": 1.92,
-      "total_wins": 2,
-      "total_losses": 2
+      "win_rate": 75.0,
+      "avg_return": 3.77,
+      "total_wins": 3,
+      "total_losses": 1
     },
     {
       "symbol": "DELHIVERY.NS",
