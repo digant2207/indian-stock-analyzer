@@ -447,6 +447,16 @@ body.dark-mode .data-table tbody tr.row-breakout-done {
 .modal-box { background: var(--bg-color); border: 1px solid var(--border-color); padding: 14px; border-radius: 8px; }
 .modal-box-title { font-weight: 700; font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 6px; text-transform: uppercase; }
 
+.form-group { margin-bottom: 14px; }
+.form-label { display: block; font-size: 0.82rem; font-weight: 600; color: var(--text-primary); margin-bottom: 6px; }
+.form-input { width: 100%; padding: 9px 12px; background: var(--bg-color); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); font-size: 0.85rem; box-sizing: border-box; }
+.form-input:focus { outline: none; border-color: var(--accent-cyan); }
+.form-help { font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px; line-height: 1.4; }
+.modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; flex-wrap: wrap; }
+.btn-primary { background: var(--accent-cyan); color: #fff; border: none; padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
+.btn-secondary { background: var(--bg-color); color: var(--text-primary); border: 1px solid var(--border-color); padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
+.btn-primary:hover, .btn-secondary:hover { opacity: 0.88; }
+
 @media (max-width: 900px) {
   .app-container { flex-direction: column; }
   .sidebar-nav { width: 100%; position: relative; top: 0; }

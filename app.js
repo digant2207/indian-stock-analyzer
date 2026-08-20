@@ -78,101 +78,278 @@ function showToast(message, type = 'info', duration = 4000) {
   }, duration);
 }
 
-async function triggerLiveRefresh() {
+const GITHUB_REPO = "digant2207/indian-stock-analyzer";
+const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/digant2207/indian-stock-analyzer/main/";
+
+function openCloudModal() {
+  const savedToken = localStorage.getItem('gh_token') || '';
+  const tokenInput = document.getElementById('github-pat-input');
+  if (tokenInput) tokenInput.value = savedToken;
+  
+  const modal = document.getElementById('cloud-scan-modal');
+  if (modal) modal.classList.add('active');
+  checkLatestGithubRunStatus();
+}
+
+function closeCloudModal() {
+  const modal = document.getElementById('cloud-scan-modal');
+  if (modal) modal.classList.remove('active');
+}
+
+async function checkLatestGithubRunStatus() {
+  const runInfoEl = document.getElementById('cloud-run-info');
+  if (!runInfoEl) return;
+  runInfoEl.innerHTML = '<span class="spin-icon">⏳</span> Checking GitHub Actions...';
+
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/daily_analysis.yml/runs?per_page=1`, {
+      cache: 'no-store'
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      const latest = data.workflow_runs && data.workflow_runs[0];
+      if (latest) {
+        const status = latest.status;
+        const conclusion = latest.conclusion;
+        const runTime = new Date(latest.updated_at || latest.created_at).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
+        
+        if (status === 'in_progress' || status === 'queued') {
+          runInfoEl.innerHTML = `<span style="color:var(--accent-cyan);">⏳ Running in Cloud (${status})... Started at ${runTime}</span>`;
+        } else if (conclusion === 'success') {
+          runInfoEl.innerHTML = `<span style="color:var(--accent-green);">✅ Completed Successfully at ${runTime}</span>`;
+        } else {
+          runInfoEl.innerHTML = `<span>Status: ${status} (${conclusion || 'pending'}) at ${runTime}</span>`;
+        }
+      } else {
+        runInfoEl.textContent = 'No past cloud runs found.';
+      }
+    } else {
+      runInfoEl.textContent = 'Public GitHub Actions status available.';
+    }
+  } catch (e) {
+    runInfoEl.textContent = 'Ready to sync or trigger cloud scan.';
+  }
+}
+
+async function syncLatestGithubData() {
+  closeCloudModal();
+  const btnText = document.getElementById('refresh-btn-text');
+  if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Syncing GitHub Data...';
+  
+  await loadData();
+  showToast('✅ Synced with latest data from GitHub repository!', 'success', 4000);
+  
+  setTimeout(() => {
+    if (btnText) btnText.textContent = 'Refresh Data';
+  }, 2000);
+}
+
+async function startGithubCloudScan() {
+  const tokenInput = document.getElementById('github-pat-input');
+  const token = tokenInput ? tokenInput.value.trim() : '';
+  
+  if (!token) {
+    showToast('⚠️ Please enter your GitHub Personal Access Token to trigger Cloud Scans.', 'error', 5000);
+    return;
+  }
+
+  localStorage.setItem('gh_token', token);
+  closeCloudModal();
+  await triggerGithubWorkflowDispatch(token);
+}
+
+async function triggerGithubWorkflowDispatch(token) {
   const btn = document.getElementById('btn-refresh-data');
   const btnText = document.getElementById('refresh-btn-text');
   
   if (btn) btn.disabled = true;
-  if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Initializing Scan...';
-
-  const triggerTime = Date.now();
+  if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Triggering Cloud Scan...';
 
   try {
-    const refreshResp = await fetch('/api/refresh', { 
+    const dispatchResp = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/daily_analysis.yml/dispatches`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' }
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ ref: 'main' })
     });
 
-    if (!refreshResp.ok) {
-      throw new Error(`HTTP ${refreshResp.status}`);
-    }
+    if (dispatchResp.status === 204 || dispatchResp.ok) {
+      showToast('🚀 GitHub Actions Cloud Scan triggered! Scanning 135+ stocks in cloud...', 'info', 6000);
+      if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Cloud Scan Running...';
 
-    showToast('🚀 Live market scanner started in background...', 'info', 3500);
+      const dispatchTime = Date.now();
+      let pollAttempts = 0;
+      let runFound = false;
 
-    // Polling logic for Local Server
-    let pollAttempts = 0;
-    let seenRunning = false;
+      const pollInterval = setInterval(async () => {
+        pollAttempts++;
+        try {
+          const runsResp = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/daily_analysis.yml/runs?per_page=1`, {
+            cache: 'no-store'
+          });
 
-    const intervalId = setInterval(async () => {
-      pollAttempts++;
-      try {
-        const sResp = await fetch('/api/scan_status?t=' + Date.now(), { 
-          cache: 'no-store',
-          headers: { 'Cache-Control': 'no-cache' }
-        });
-
-        if (sResp.ok) {
-          const status = await sResp.json();
-          
-          if (status.is_running) {
-            seenRunning = true;
-            if (btnText) {
-              btnText.innerHTML = `<span class="spin-icon">⏳</span> Scanning (${status.progress_pct || 0}%)...`;
-            }
-          } else {
-            // Check if this finished scan is new (either we observed it running, or it reached 100% after trigger)
-            const isCompleted = (status.progress_pct === 100 && (seenRunning || pollAttempts >= 2));
+          if (runsResp.ok) {
+            const rData = await runsResp.json();
+            const latest = rData.workflow_runs && rData.workflow_runs[0];
             
-            if (isCompleted) {
-              clearInterval(intervalId);
-              if (btnText) btnText.innerHTML = '✅ Update Complete!';
-              
-              showToast('✅ Market data & breakout levels updated successfully!', 'success', 4500);
-              await loadData();
-              
-              setTimeout(() => {
-                if (btnText) btnText.textContent = 'Refresh Data';
-                if (btn) btn.disabled = false;
-              }, 3000);
-            } else if (status.status_message && status.status_message.toLowerCase().includes('failed')) {
-              clearInterval(intervalId);
-              showToast(`⚠️ ${status.status_message}`, 'error', 5000);
-              if (btnText) btnText.textContent = 'Refresh Data';
-              if (btn) btn.disabled = false;
+            if (latest) {
+              const runCreated = new Date(latest.created_at).getTime();
+              // Verify run was created around or after our dispatch
+              if (runCreated >= dispatchTime - 30000) {
+                runFound = true;
+                if (latest.status === 'completed') {
+                  clearInterval(pollInterval);
+                  if (latest.conclusion === 'success') {
+                    if (btnText) btnText.innerHTML = '✅ Cloud Scan Complete!';
+                    showToast('✅ Real-Time GitHub Cloud Scan completed! Updating dashboard...', 'success', 5000);
+                    await loadData();
+                  } else {
+                    if (btnText) btnText.textContent = 'Refresh Data';
+                    showToast(`⚠️ Cloud scan finished with status: ${latest.conclusion}`, 'error', 6000);
+                  }
+                  if (btn) btn.disabled = false;
+                  setTimeout(() => {
+                    if (btnText) btnText.textContent = 'Refresh Data';
+                  }, 3500);
+                } else {
+                  if (btnText) btnText.innerHTML = `<span class="spin-icon">⏳</span> Cloud Scanning (${pollAttempts * 5}s)...`;
+                }
+              }
             }
           }
+        } catch (pollErr) {
+          console.warn("GitHub Actions polling:", pollErr);
         }
-      } catch (pollErr) {
-        console.warn("Scan status polling...", pollErr);
-      }
 
-      // Safety timeout: 4 minutes
-      if (pollAttempts > 200) {
-        clearInterval(intervalId);
-        if (btnText) btnText.textContent = 'Refresh Data';
-        if (btn) btn.disabled = false;
-        await loadData();
-      }
-    }, 1200);
+        // Safety timeout: 4 minutes
+        if (pollAttempts > 48) {
+          clearInterval(pollInterval);
+          if (btnText) btnText.textContent = 'Refresh Data';
+          if (btn) btn.disabled = false;
+          await loadData();
+        }
+      }, 5000);
 
-  } catch (err) {
-    console.warn("Local API not reachable (running on Static Host / GitHub Pages):", err);
-    // On GitHub Pages or static host, re-fetch latest JSON with cache-busting
-    if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Fetching Latest Cloud Data...';
-    
-    try {
-      await loadData();
-      showToast('☁️ Refreshed with latest Cloud Scan data (Updated daily at 3:00 AM IST).<br><small>To run live real-time analysis anytime, launch <b>Start_Stock_Analyzer.bat</b> on your PC.</small>', 'info', 6000);
-      if (btnText) btnText.innerHTML = '✅ Cloud Data Synced!';
-    } catch (loadErr) {
-      showToast('⚠️ Could not sync data: ' + loadErr.message, 'error', 5000);
-      if (btnText) btnText.textContent = 'Refresh Data';
-    }
-
-    setTimeout(() => {
+    } else if (dispatchResp.status === 401 || dispatchResp.status === 403) {
+      showToast('⚠️ GitHub Authentication Failed: Invalid Token or missing "repo / workflow" scope.', 'error', 6000);
+      openCloudModal();
       if (btnText) btnText.textContent = 'Refresh Data';
       if (btn) btn.disabled = false;
-    }, 3500);
+    } else {
+      const errText = await dispatchResp.text();
+      showToast(`⚠️ GitHub Cloud Scan error: ${dispatchResp.status} ${errText}`, 'error', 6000);
+      if (btnText) btnText.textContent = 'Refresh Data';
+      if (btn) btn.disabled = false;
+    }
+
+  } catch (err) {
+    showToast(`⚠️ Error triggering cloud scan: ${err.message}`, 'error', 5000);
+    if (btnText) btnText.textContent = 'Refresh Data';
+    if (btn) btn.disabled = false;
+  }
+}
+
+async function triggerLiveRefresh() {
+  const btn = document.getElementById('btn-refresh-data');
+  const btnText = document.getElementById('refresh-btn-text');
+  
+  const isLocalHost = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+
+  if (isLocalHost) {
+    // Local Python Server Mode
+    if (btn) btn.disabled = true;
+    if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Initializing Scan...';
+
+    try {
+      const refreshResp = await fetch('/api/refresh', { 
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' }
+      });
+
+      if (!refreshResp.ok) throw new Error(`HTTP ${refreshResp.status}`);
+
+      showToast('🚀 Live market scanner started in background...', 'info', 3500);
+
+      let pollAttempts = 0;
+      let seenRunning = false;
+
+      const intervalId = setInterval(async () => {
+        pollAttempts++;
+        try {
+          const sResp = await fetch('/api/scan_status?t=' + Date.now(), { 
+            cache: 'no-store',
+            headers: { 'Cache-Control': 'no-cache' }
+          });
+
+          if (sResp.ok) {
+            const status = await sResp.json();
+            
+            if (status.is_running) {
+              seenRunning = true;
+              if (btnText) {
+                btnText.innerHTML = `<span class="spin-icon">⏳</span> Scanning (${status.progress_pct || 0}%)...`;
+              }
+            } else {
+              const isCompleted = (status.progress_pct === 100 && (seenRunning || pollAttempts >= 2));
+              
+              if (isCompleted) {
+                clearInterval(intervalId);
+                if (btnText) btnText.innerHTML = '✅ Update Complete!';
+                showToast('✅ Market data & breakout levels updated successfully!', 'success', 4500);
+                await loadData();
+                
+                setTimeout(() => {
+                  if (btnText) btnText.textContent = 'Refresh Data';
+                  if (btn) btn.disabled = false;
+                }, 3000);
+              } else if (status.status_message && status.status_message.toLowerCase().includes('failed')) {
+                clearInterval(intervalId);
+                showToast(`⚠️ ${status.status_message}`, 'error', 5000);
+                if (btnText) btnText.textContent = 'Refresh Data';
+                if (btn) btn.disabled = false;
+              }
+            }
+          }
+        } catch (pollErr) {
+          console.warn("Scan status polling...", pollErr);
+        }
+
+        if (pollAttempts > 200) {
+          clearInterval(intervalId);
+          if (btnText) btnText.textContent = 'Refresh Data';
+          if (btn) btn.disabled = false;
+          await loadData();
+        }
+      }, 1200);
+
+    } catch (err) {
+      console.warn("Local server error, falling back to GitHub sync:", err);
+      await syncLatestGithubData();
+      if (btn) btn.disabled = false;
+    }
+
+  } else {
+    // GitHub Pages / Web Mode
+    const savedToken = localStorage.getItem('gh_token');
+    if (savedToken) {
+      // Trigger cloud scan directly using saved GitHub token
+      await triggerGithubWorkflowDispatch(savedToken);
+    } else {
+      // Fetch latest GitHub data immediately and offer token setup
+      if (btnText) btnText.innerHTML = '<span class="spin-icon">⏳</span> Syncing Real-Time GitHub Data...';
+      await loadData();
+      showToast('☁️ Synced with latest data from GitHub repository.<br><small>To trigger a live on-demand re-scan on GitHub Cloud, click <b>⚙️ Cloud Sync</b>.</small>', 'info', 6000);
+      if (btnText) btnText.innerHTML = '✅ Data Synced!';
+      
+      setTimeout(() => {
+        if (btnText) btnText.textContent = 'Refresh Data';
+      }, 3000);
+      
+      openCloudModal();
+    }
   }
 }
 
@@ -231,8 +408,14 @@ async function loadData() {
 
   if (window.location.protocol !== 'file:') {
     const timestamp = Date.now();
+    const isLocalHost = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+    
+    // On GitHub Pages or remote web, fetch directly from raw.githubusercontent.com for instant real-time data
+    const analysisUrl = isLocalHost ? `analysis_data.json?_t=${timestamp}` : `${GITHUB_RAW_BASE}analysis_data.json?_t=${timestamp}`;
+    const niftyUrl = isLocalHost ? `nifty250_data.json?_t=${timestamp}` : `${GITHUB_RAW_BASE}nifty250_data.json?_t=${timestamp}`;
+
     try {
-      const resp = await fetch('analysis_data.json?_t=' + timestamp, { 
+      const resp = await fetch(analysisUrl, { 
         cache: 'no-store',
         headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' }
       });
@@ -244,11 +427,11 @@ async function loadData() {
         }
       }
     } catch (err) {
-      console.log("Using preloaded stock data.");
+      console.log("Using preloaded stock data fallback.");
     }
 
     try {
-      const nResp = await fetch('nifty250_data.json?_t=' + timestamp, { 
+      const nResp = await fetch(niftyUrl, { 
         cache: 'no-store',
         headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' }
       });
@@ -260,7 +443,7 @@ async function loadData() {
         }
       }
     } catch (err) {
-      console.log("Using preloaded Nifty 250 data.");
+      console.log("Using preloaded Nifty 250 data fallback.");
     }
 
     renderAllViews();
