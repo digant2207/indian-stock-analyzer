@@ -644,6 +644,13 @@ if __name__ == "__main__":
         process_csv_file_fast(stocks_csv, analysis_json, analysis_js, "stockData", start_pct=5, end_pct=60, max_workers=30)
         update_scan_status(True, 60, "Scanning Nifty 250 Universe...")
         process_csv_file_fast(nifty250_csv, nifty250_json, nifty250_js, "nifty250Data", start_pct=60, end_pct=100, max_workers=30)
+        
+        utc_now = datetime.datetime.utcnow()
+        ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+        ist_str = ist_now.strftime("%Y-%m-%d %I:%M %p IST")
+        with open(os.path.join(BASE_DIR, "last_run.txt"), "w", encoding="utf-8") as f:
+            f.write(f"Last Market Scan: {ist_str}\n")
+        
         update_scan_status(False, 100, "Scan Complete! All stocks updated.")
     except Exception as err:
         print(f"Fast runner execution error: {err}")
