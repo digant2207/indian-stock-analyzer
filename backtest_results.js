@@ -1,8 +1,8 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 25,
-  "overall_win_rate": 26.0,
-  "overall_avg_return_per_trade": -1.97,
+  "overall_win_rate": 24.6,
+  "overall_avg_return_per_trade": NaN,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -31,10 +31,10 @@ window.backtestData = {
     {
       "symbol": "ANANTRAJ.NS",
       "total_trades": 7,
-      "win_rate": 42.9,
-      "avg_return": -1.19,
-      "total_wins": 3,
-      "total_losses": 4
+      "win_rate": 28.6,
+      "avg_return": NaN,
+      "total_wins": 2,
+      "total_losses": 5
     },
     {
       "symbol": "ASIANTILES.NS",
@@ -79,10 +79,10 @@ window.backtestData = {
     {
       "symbol": "BAJFINANCE.NS",
       "total_trades": 5,
-      "win_rate": 20.0,
-      "avg_return": -5.56,
-      "total_wins": 1,
-      "total_losses": 4
+      "win_rate": 0.0,
+      "avg_return": NaN,
+      "total_wins": 0,
+      "total_losses": 5
     },
     {
       "symbol": "BANCOINDIA.NS",
