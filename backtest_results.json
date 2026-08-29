@@ -1,7 +1,7 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 25,
-  "overall_win_rate": 24.6,
+  "overall_win_rate": 25.4,
   "overall_avg_return_per_trade": NaN,
   "symbol_details": [
     {
@@ -79,10 +79,10 @@
     {
       "symbol": "BAJFINANCE.NS",
       "total_trades": 5,
-      "win_rate": 0.0,
-      "avg_return": NaN,
-      "total_wins": 0,
-      "total_losses": 5
+      "win_rate": 20.0,
+      "avg_return": -5.56,
+      "total_wins": 1,
+      "total_losses": 4
     },
     {
       "symbol": "BANCOINDIA.NS",

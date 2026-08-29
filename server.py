@@ -75,16 +75,38 @@ def run_analysis_tasks():
             update_scan_status(False, 0, f"Scan failed: {e}")
             return False, err_msg
 
-def daily_3am_scheduler_thread():
-    print("Daily 3:00 AM Auto-Scheduler Thread Active.")
+def get_next_run_target(now):
+    weekday = now.weekday()
+    candidates = []
+    # 1. Daily 8:00 AM IST
+    t_8am = now.replace(hour=8, minute=0, second=0, microsecond=0)
+    if t_8am > now:
+        candidates.append((t_8am, "Daily 8:00 AM Morning Scan"))
+    else:
+        candidates.append((t_8am + datetime.timedelta(days=1), "Daily 8:00 AM Morning Scan"))
+
+    # 2. Weekdays Market Hours (Mon-Fri 9:15 AM to 3:30 PM IST)
+    if weekday <= 4:
+        for hour, minute in [
+            (9, 15), (9, 30), (10, 0), (10, 30), (11, 0), (11, 30),
+            (12, 0), (12, 30), (13, 0), (13, 30), (14, 0), (14, 30),
+            (15, 0), (15, 30)
+        ]:
+            t_slot = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
+            if t_slot > now:
+                candidates.append((t_slot, f"Live Market {hour:02d}:{minute:02d} Scan"))
+
+    candidates.sort(key=lambda x: x[0])
+    return candidates[0]
+
+def automated_market_scheduler_thread():
+    print("Automated 8:00 AM & 30-Min Market Hours Scheduler Thread Active.")
     while True:
         now = datetime.datetime.now()
-        target = now.replace(hour=3, minute=0, second=0, microsecond=0)
-        if now >= target:
-            target += datetime.timedelta(days=1)
-            
-        seconds_to_wait = (target - now).total_seconds()
-        print(f"Next automated 3 AM run scheduled at: {target.strftime('%Y-%m-%d %H:%M:%S')} (in {round(seconds_to_wait/3600, 2)} hours)")
+        next_time, next_reason = get_next_run_target(now)
+        seconds_to_wait = max(5, (next_time - now).total_seconds())
+        mins = round(seconds_to_wait / 60, 1)
+        print(f"Next automated run: {next_time.strftime('%Y-%m-%d %I:%M %p')} ({next_reason}) [in {mins} mins]")
         time.sleep(seconds_to_wait)
         run_analysis_tasks()
 
@@ -361,7 +383,7 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
 def run_server():
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     
-    t = threading.Thread(target=daily_3am_scheduler_thread, daemon=True)
+    t = threading.Thread(target=automated_market_scheduler_thread, daemon=True)
     t.start()
 
     server_address = ('', PORT)
@@ -370,7 +392,7 @@ def run_server():
     print(f"   Indian Stock Screener Server Active on Port {PORT}                  ")
     print(f"   Local PC Access:   http://localhost:{PORT}                         ")
     print(f"   Mobile Wi-Fi Link: http://192.168.1.104:{PORT}                     ")
-    print("   Daily 3 AM Windows Scheduler: ACTIVE                               ")
+    print("   Automated 8 AM & 30-Min Market Hours Scheduler: ACTIVE              ")
     print("=========================================================================")
     try:
         httpd.serve_forever()

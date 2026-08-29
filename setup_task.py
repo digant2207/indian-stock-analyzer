@@ -2,13 +2,15 @@ import os
 import subprocess
 
 py_exe = os.path.abspath(".venv/Scripts/python.exe")
+if not os.path.exists(py_exe):
+    py_exe = "python"
 project_dir = os.path.abspath(".")
 runner_py = os.path.join(project_dir, "fast_runner.py")
 
 ps_script = f'''
 $action = New-ScheduledTaskAction -Execute "{py_exe}" -Argument "{runner_py}" -WorkingDirectory "{project_dir}"
-$trigger = New-ScheduledTaskTrigger -Daily -At 3:00AM
-Register-ScheduledTask -TaskName "IndianStockAnalyzer_3AM_Task" -Action $action -Trigger $trigger -Description "Daily 3 AM Automated Stock Screener & Email Digest Scan" -Force
+$trigger = New-ScheduledTaskTrigger -Daily -At 8:00AM -RepetitionInterval (New-TimeSpan -Minutes 30) -RepetitionDuration (New-TimeSpan -Hours 8)
+Register-ScheduledTask -TaskName "IndianStockAnalyzer_AutoTask" -Action $action -Trigger $trigger -Description "Automated 8:00 AM & 30-Min Market Hours Stock Screener" -Force
 '''
 
 ps_file = os.path.join(project_dir, "register_task.ps1")

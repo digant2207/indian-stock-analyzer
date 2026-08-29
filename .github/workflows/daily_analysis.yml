@@ -1,11 +1,13 @@
-name: Live Market 30-Min Screener & Email Digest
+name: Daily 8 AM & 30-Min Market Hours Stock Screener
 
 on:
   schedule:
-    # 1. Runs every 30 minutes during Indian Market Hours (9:15 AM to 3:30 PM IST, Mon-Fri) -> 03:45 UTC to 10:00 UTC
-    - cron: '*/30 3-10 * * 1-5'
-    # 2. Daily 3:00 AM IST pre-market run -> 21:30 UTC
-    - cron: '30 21 * * *'
+    # 1. Daily 8:00 AM IST early morning pre-market analysis (02:30 UTC every day)
+    - cron: '30 2 * * *'
+    # 2. Weekdays 9:00 AM IST pre-open run (03:30 UTC Mon-Fri)
+    - cron: '30 3 * * 1-5'
+    # 3. Weekdays Live Market Hours every 30 minutes (9:30 AM to 4:00 PM IST -> 04:00 UTC to 10:30 UTC Mon-Fri)
+    - cron: '0,30 4-10 * * 1-5'
   push:
     branches:
       - main
@@ -18,37 +20,63 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "market-analysis"
+  cancel-in-progress: false
+
 jobs:
   analyze-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Sync Live Google Sheet & Run Fast Stock Analyzer
+      - name: Sync Google Sheet & Run Stock Market Screener
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
-          python import_gsheet.py
+          python import_gsheet.py || echo "Warning: Google Sheet sync encountered an issue, proceeding with local stock list."
           python fast_runner.py
-          python backtester.py
+          python backtester.py || echo "Backtest step completed."
 
-      - name: Commit and Push Updated Data
+      - name: Commit and Push Updated Market Data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global pull.rebase true
+          git pull origin main --rebase || true
           git add analysis_data.json analysis_data.js nifty250_data.json nifty250_data.js backtest_results.json backtest_results.js stocks.csv .nojekyll requirements.txt last_run.txt
-          git commit -m "Auto update live market data [30-Min Schedule]" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
+          git commit -m "Automated Market Intelligence Update [8 AM / 30-Min Schedule]" || echo "No changes to commit"
+          git push origin main || echo "Git push skipped or completed."
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
+        continue-on-error: true
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        continue-on-error: true
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true

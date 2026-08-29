@@ -645,12 +645,28 @@ if __name__ == "__main__":
         update_scan_status(True, 60, "Scanning Nifty 250 Universe...")
         process_csv_file_fast(nifty250_csv, nifty250_json, nifty250_js, "nifty250Data", start_pct=60, end_pct=100, max_workers=30)
         
-        utc_now = datetime.datetime.utcnow()
-        ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+        ist_now = get_ist_now()
         ist_str = ist_now.strftime("%Y-%m-%d %I:%M %p IST")
         with open(os.path.join(BASE_DIR, "last_run.txt"), "w", encoding="utf-8") as f:
             f.write(f"Last Market Scan: {ist_str}\n")
         
+        # Send Morning Email Digest if configured and during morning scan
+        try:
+            if os.environ.get("GMAIL_APP_PASSWORD") or os.path.exists(os.path.join(BASE_DIR, "email_config.json")):
+                import email_notifier
+                cfg = email_notifier.load_email_config()
+                if cfg.get("enabled", True):
+                    with open(analysis_json, 'r', encoding='utf-8') as f:
+                        a_data = json.load(f)
+                    with open(nifty250_json, 'r', encoding='utf-8') as f:
+                        n_data = json.load(f)
+                    ist_hour = ist_now.hour
+                    # Send for 8 AM morning scan or if explicitly enabled
+                    if ist_hour in [7, 8, 9] or os.environ.get("FORCE_EMAIL"):
+                        email_notifier.send_morning_digest(a_data, n_data)
+        except Exception as em_err:
+            print(f"Email notification notice: {em_err}")
+
         update_scan_status(False, 100, "Scan Complete! All stocks updated.")
     except Exception as err:
         print(f"Fast runner execution error: {err}")

@@ -18,10 +18,20 @@ document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     loadData();
     setupEventListeners();
+    initAutoLiveSync();
   } catch (e) {
     console.error("Initialization error:", e);
   }
 });
+
+function initAutoLiveSync() {
+  // Automatically check for fresh 30-minute cloud market updates every 3 minutes
+  setInterval(() => {
+    if (!document.hidden) {
+      loadData();
+    }
+  }, 180000);
+}
 
 function initTheme() {
   const savedTheme = localStorage.getItem('theme');
@@ -466,7 +476,7 @@ function renderSummary() {
   const combined = getCombinedStocks();
   const s = stockData.summary || {};
   const lastUpdatedEl = document.getElementById('last-updated');
-  if (lastUpdatedEl) lastUpdatedEl.textContent = s.last_updated || 'Daily 3:00 AM Cloud Run Active';
+  if (lastUpdatedEl) lastUpdatedEl.textContent = s.last_updated || 'Daily 8:00 AM & 30-Min Market Run Active';
   
   const scannedEl = document.getElementById('stat-total-scanned');
   if (scannedEl) scannedEl.textContent = combined.length || 0;
