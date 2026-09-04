@@ -8,7 +8,7 @@ window.backtestData = {
       "symbol": "ACE.NS",
       "total_trades": 11,
       "win_rate": 45.5,
-      "avg_return": 1.92,
+      "avg_return": 1.9,
       "total_wins": 5,
       "total_losses": 6
     },
