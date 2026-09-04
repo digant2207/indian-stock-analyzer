@@ -69,10 +69,17 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v6
 
+      - name: Prepare Clean GitHub Pages Site Directory
+        run: |
+          mkdir -p _site
+          cp index.html styles.css app.js manifest.json favicon.png apple-touch-icon.png icon-512.png _site/ 2>/dev/null || true
+          cp analysis_data.js analysis_data.json nifty250_data.js nifty250_data.json backtest_results.js backtest_results.json last_run.txt _site/ 2>/dev/null || true
+          touch _site/.nojekyll
+
       - name: Upload GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: '.'
+          path: '_site'
 
   deploy-pages:
     needs: analyze-and-update
