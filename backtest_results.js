@@ -32,7 +32,7 @@ window.backtestData = {
       "symbol": "ANANTRAJ.NS",
       "total_trades": 11,
       "win_rate": 45.5,
-      "avg_return": -1.1,
+      "avg_return": -1.04,
       "total_wins": 5,
       "total_losses": 6
     },
