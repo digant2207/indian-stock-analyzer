@@ -1,8 +1,8 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 25,
-  "overall_win_rate": 26.9,
-  "overall_avg_return_per_trade": -1.93,
+  "overall_win_rate": 27.0,
+  "overall_avg_return_per_trade": -1.89,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -30,27 +30,27 @@
     },
     {
       "symbol": "ANANTRAJ.NS",
-      "total_trades": 10,
-      "win_rate": 40.0,
-      "avg_return": -1.52,
-      "total_wins": 4,
+      "total_trades": 11,
+      "win_rate": 45.5,
+      "avg_return": -1.06,
+      "total_wins": 5,
       "total_losses": 6
     },
     {
       "symbol": "ASIANTILES.NS",
-      "total_trades": 17,
-      "win_rate": 11.8,
-      "avg_return": -6.77,
-      "total_wins": 2,
+      "total_trades": 16,
+      "win_rate": 6.2,
+      "avg_return": -7.27,
+      "total_wins": 1,
       "total_losses": 15
     },
     {
       "symbol": "ATHERENERG.NS",
-      "total_trades": 19,
-      "win_rate": 52.6,
-      "avg_return": 7.08,
+      "total_trades": 18,
+      "win_rate": 55.6,
+      "avg_return": 7.95,
       "total_wins": 10,
-      "total_losses": 9
+      "total_losses": 8
     },
     {
       "symbol": "AWL.NS",
