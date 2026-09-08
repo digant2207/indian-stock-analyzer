@@ -650,7 +650,7 @@ if __name__ == "__main__":
         with open(os.path.join(BASE_DIR, "last_run.txt"), "w", encoding="utf-8") as f:
             f.write(f"Last Market Scan: {ist_str}\n")
         
-        # Send Morning Email Digest if configured and during morning scan
+        # Send Morning Email Digest: Only once at 9:45 AM IST on weekdays
         try:
             if os.environ.get("GMAIL_APP_PASSWORD") or os.path.exists(os.path.join(BASE_DIR, "email_config.json")):
                 import email_notifier
@@ -660,10 +660,37 @@ if __name__ == "__main__":
                         a_data = json.load(f)
                     with open(nifty250_json, 'r', encoding='utf-8') as f:
                         n_data = json.load(f)
-                    ist_hour = ist_now.hour
-                    # Send for 8 AM morning scan or if explicitly enabled
-                    if ist_hour in [7, 8, 9] or os.environ.get("FORCE_EMAIL"):
-                        email_notifier.send_morning_digest(a_data, n_data)
+                    
+                    is_weekday = ist_now.weekday() < 5  # Mon (0) to Fri (4)
+                    # 9:45 AM window (allow 9:40 to 10:15 IST to accommodate GitHub Actions job scheduling)
+                    is_945_am_window = (ist_now.hour == 9 and ist_now.minute >= 40) or (ist_now.hour == 10 and ist_now.minute <= 15)
+                    
+                    email_log_file = os.path.join(BASE_DIR, "last_email_sent.txt")
+                    today_str = ist_now.strftime("%Y-%m-%d")
+                    already_sent_today = False
+                    if os.path.exists(email_log_file):
+                        try:
+                            with open(email_log_file, "r", encoding="utf-8") as elf:
+                                if elf.read().strip() == today_str:
+                                    already_sent_today = True
+                        except Exception:
+                            pass
+
+                    force_email = str(os.environ.get("FORCE_EMAIL", "")).lower() in ["true", "1", "yes"]
+
+                    if force_email or (is_weekday and is_945_am_window and not already_sent_today):
+                        print(f"[{ist_str}] Triggering 9:45 AM Weekday Email Digest...")
+                        success, msg = email_notifier.send_morning_digest(a_data, n_data)
+                        if success:
+                            with open(email_log_file, "w", encoding="utf-8") as elf:
+                                elf.write(today_str)
+                            print(f"[{ist_str}] ✅ 9:45 AM Email digest recorded for {today_str}.")
+                    elif not is_weekday:
+                        print(f"[{ist_str}] Email skipped: weekend.")
+                    elif already_sent_today:
+                        print(f"[{ist_str}] Email skipped: already sent today ({today_str}).")
+                    else:
+                        print(f"[{ist_str}] Email skipped: outside 9:45 AM window (Current IST: {ist_now.strftime('%I:%M %p')}).")
         except Exception as em_err:
             print(f"Email notification notice: {em_err}")
 

@@ -6,12 +6,20 @@ on:
     - cron: '30 2 * * *'
     # 2. Weekdays 9:00 AM IST pre-open run (03:30 UTC Mon-Fri)
     - cron: '30 3 * * 1-5'
-    # 3. Weekdays Live Market Hours every 30 minutes (9:30 AM to 4:00 PM IST -> 04:00 UTC to 10:30 UTC Mon-Fri)
+    # 3. Weekdays 9:45 AM IST opening range breakout & morning email scan (04:15 UTC Mon-Fri)
+    - cron: '15 4 * * 1-5'
+    # 4. Weekdays Live Market Hours every 30 minutes (9:30 AM to 4:00 PM IST -> 04:00 UTC to 10:30 UTC Mon-Fri)
     - cron: '0,30 4-10 * * 1-5'
   push:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      force_email:
+        description: 'Force send email digest regardless of time/day (true/false)'
+        required: false
+        type: boolean
+        default: false
   repository_dispatch:
     types: [market_scan]
 
@@ -49,6 +57,7 @@ jobs:
       - name: Sync Google Sheet & Run Stock Market Screener
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          FORCE_EMAIL: ${{ inputs.force_email || '' }}
         run: |
           python import_gsheet.py || echo "Warning: Google Sheet sync encountered an issue, proceeding with local stock list."
           python fast_runner.py
@@ -62,8 +71,9 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git config --global pull.rebase true
           git pull origin main --rebase || true
-          git add analysis_data.json analysis_data.js nifty250_data.json nifty250_data.js backtest_results.json backtest_results.js stocks.csv scan_status.json google_sheet_config.json .nojekyll requirements.txt last_run.txt
-          git commit -m "Automated Market Intelligence Update [8 AM / 30-Min Schedule] [skip ci]" || echo "No changes to commit"
+          touch last_email_sent.txt
+          git add analysis_data.json analysis_data.js nifty250_data.json nifty250_data.js backtest_results.json backtest_results.js stocks.csv scan_status.json google_sheet_config.json last_email_sent.txt .nojekyll requirements.txt last_run.txt
+          git commit -m "Automated Market Intelligence Update [9:45 AM / 30-Min Schedule] [skip ci]" || echo "No changes to commit"
           git push origin main || echo "Git push skipped or completed."
 
       - name: Setup GitHub Pages
