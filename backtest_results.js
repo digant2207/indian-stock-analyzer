@@ -1,8 +1,8 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 25,
-  "overall_win_rate": 27.0,
-  "overall_avg_return_per_trade": -1.89,
+  "overall_win_rate": 26.2,
+  "overall_avg_return_per_trade": -2.27,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -19,14 +19,6 @@ window.backtestData = {
       "avg_return": 4.22,
       "total_wins": 6,
       "total_losses": 6
-    },
-    {
-      "symbol": "ALANKIT.NS",
-      "total_trades": 2,
-      "win_rate": 0.0,
-      "avg_return": -3.17,
-      "total_wins": 0,
-      "total_losses": 2
     },
     {
       "symbol": "ANANTRAJ.NS",
@@ -157,14 +149,6 @@ window.backtestData = {
       "total_losses": 5
     },
     {
-      "symbol": "COALINDIA.NS",
-      "total_trades": 10,
-      "win_rate": 20.0,
-      "avg_return": -1.65,
-      "total_wins": 2,
-      "total_losses": 8
-    },
-    {
       "symbol": "COCHINSHIP.NS",
       "total_trades": 5,
       "win_rate": 0.0,
@@ -203,6 +187,22 @@ window.backtestData = {
       "avg_return": -4.21,
       "total_wins": 2,
       "total_losses": 13
+    },
+    {
+      "symbol": "DELTACORP.NS",
+      "total_trades": 5,
+      "win_rate": 0.0,
+      "avg_return": -8.09,
+      "total_wins": 0,
+      "total_losses": 5
+    },
+    {
+      "symbol": "DEN.NS",
+      "total_trades": 4,
+      "win_rate": 0.0,
+      "avg_return": -6.18,
+      "total_wins": 0,
+      "total_losses": 4
     }
   ]
 };
