@@ -1,6 +1,6 @@
 window.nifty250Data = {
   "summary": {
-    "last_updated": "2026-09-08 04:45 PM IST",
+    "last_updated": "2026-09-08 06:44 PM IST",
     "total_stocks_scanned": 58,
     "strong_buys_count": 10,
     "swing_breakouts_count": 0,
@@ -122,7 +122,7 @@ window.nifty250Data = {
       "macd_signal": 564.92,
       "macd_hist": 188.92,
       "vol_surge_ratio": 1.11,
-      "pe_ratio": 99.32,
+      "pe_ratio": 102.3,
       "forward_pe": 63.78,
       "peg_ratio": 0.0,
       "pb_ratio": 32.37,
@@ -233,7 +233,7 @@ window.nifty250Data = {
       "target_mean_price": 658.16,
       "analyst_upside_pct": 13.0,
       "recommendation_key": "Buy",
-      "dividend_yield": 34.0,
+      "dividend_yield": 35.0,
       "promoter_holding": 47.8,
       "institutional_holding": 44.6,
       "public_holding": 7.6,
@@ -270,7 +270,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 34.00%"
+        "Attractive Dividend Yield: 35.00%"
       ],
       "events": [
         {
@@ -306,7 +306,7 @@ window.nifty250Data = {
       "macd_signal": 192.0,
       "macd_hist": -39.14,
       "vol_surge_ratio": 0.48,
-      "pe_ratio": 30.69,
+      "pe_ratio": 30.13,
       "forward_pe": 25.98,
       "peg_ratio": 0.0,
       "pb_ratio": 14.81,
@@ -581,7 +581,7 @@ window.nifty250Data = {
       "macd_signal": 54.29,
       "macd_hist": -1.88,
       "vol_surge_ratio": 0.92,
-      "pe_ratio": 113.0,
+      "pe_ratio": 113.21,
       "forward_pe": 54.52,
       "peg_ratio": 0.0,
       "pb_ratio": 11.54,
@@ -600,8 +600,8 @@ window.nifty250Data = {
       "recommendation_key": "Buy",
       "dividend_yield": 0.0,
       "promoter_holding": 24.4,
-      "institutional_holding": 59.5,
-      "public_holding": 16.1,
+      "institutional_holding": 59.4,
+      "public_holding": 16.2,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": false,
       "is_20d_low_breakdown": false,
@@ -778,7 +778,7 @@ window.nifty250Data = {
       "target_mean_price": 1932.32,
       "analyst_upside_pct": -0.9,
       "recommendation_key": "Buy",
-      "dividend_yield": 81.0,
+      "dividend_yield": 83.0,
       "promoter_holding": 21.8,
       "institutional_holding": 59.0,
       "public_holding": 19.2,
@@ -816,7 +816,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 81.00%"
+        "Attractive Dividend Yield: 83.00%"
       ],
       "events": [
         {
@@ -852,7 +852,7 @@ window.nifty250Data = {
       "macd_signal": 59.66,
       "macd_hist": 7.05,
       "vol_surge_ratio": 0.15,
-      "pe_ratio": 31.8,
+      "pe_ratio": 31.9,
       "forward_pe": 15.29,
       "peg_ratio": 93.13,
       "pb_ratio": 2.11,
@@ -942,7 +942,7 @@ window.nifty250Data = {
       "macd_signal": 100.37,
       "macd_hist": -31.4,
       "vol_surge_ratio": 0.7,
-      "pe_ratio": 46.46,
+      "pe_ratio": 45.41,
       "forward_pe": 31.44,
       "peg_ratio": 3.35,
       "pb_ratio": 10.33,
@@ -1033,7 +1033,7 @@ window.nifty250Data = {
       "macd_signal": -81.95,
       "macd_hist": 19.45,
       "vol_surge_ratio": 0.59,
-      "pe_ratio": 49.27,
+      "pe_ratio": 49.49,
       "forward_pe": 37.87,
       "peg_ratio": 0.0,
       "pb_ratio": 17.48,
@@ -1384,7 +1384,7 @@ window.nifty250Data = {
       "target_mean_price": 60.0,
       "analyst_upside_pct": -26.8,
       "recommendation_key": "None",
-      "dividend_yield": 348.0,
+      "dividend_yield": 349.0,
       "promoter_holding": 82.9,
       "institutional_holding": 4.8,
       "public_holding": 12.3,
@@ -1420,7 +1420,7 @@ window.nifty250Data = {
         "YoY Revenue up 10.3%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 348.00%"
+        "Attractive Dividend Yield: 349.00%"
       ],
       "events": [
         {
@@ -1561,7 +1561,7 @@ window.nifty250Data = {
       "target_mean_price": 429.08,
       "analyst_upside_pct": 35.0,
       "recommendation_key": "Buy",
-      "dividend_yield": 195.0,
+      "dividend_yield": 196.0,
       "promoter_holding": 52.6,
       "institutional_holding": 24.1,
       "public_holding": 23.3,
@@ -1597,7 +1597,7 @@ window.nifty250Data = {
         "YoY Revenue up 25.2%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 195.00%"
+        "Attractive Dividend Yield: 196.00%"
       ],
       "events": [
         {
@@ -1901,7 +1901,7 @@ window.nifty250Data = {
       "macd_signal": 564.92,
       "macd_hist": 188.92,
       "vol_surge_ratio": 1.11,
-      "pe_ratio": 99.32,
+      "pe_ratio": 102.3,
       "forward_pe": 63.78,
       "peg_ratio": 0.0,
       "pb_ratio": 32.37,
@@ -2012,7 +2012,7 @@ window.nifty250Data = {
       "target_mean_price": 658.16,
       "analyst_upside_pct": 13.0,
       "recommendation_key": "Buy",
-      "dividend_yield": 34.0,
+      "dividend_yield": 35.0,
       "promoter_holding": 47.8,
       "institutional_holding": 44.6,
       "public_holding": 7.6,
@@ -2049,7 +2049,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 34.00%"
+        "Attractive Dividend Yield: 35.00%"
       ],
       "events": [
         {
@@ -2085,7 +2085,7 @@ window.nifty250Data = {
       "macd_signal": 192.0,
       "macd_hist": -39.14,
       "vol_surge_ratio": 0.48,
-      "pe_ratio": 30.69,
+      "pe_ratio": 30.13,
       "forward_pe": 25.98,
       "peg_ratio": 0.0,
       "pb_ratio": 14.81,
@@ -2360,7 +2360,7 @@ window.nifty250Data = {
       "macd_signal": 54.29,
       "macd_hist": -1.88,
       "vol_surge_ratio": 0.92,
-      "pe_ratio": 113.0,
+      "pe_ratio": 113.21,
       "forward_pe": 54.52,
       "peg_ratio": 0.0,
       "pb_ratio": 11.54,
@@ -2379,8 +2379,8 @@ window.nifty250Data = {
       "recommendation_key": "Buy",
       "dividend_yield": 0.0,
       "promoter_holding": 24.4,
-      "institutional_holding": 59.5,
-      "public_holding": 16.1,
+      "institutional_holding": 59.4,
+      "public_holding": 16.2,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": false,
       "is_20d_low_breakdown": false,
@@ -2557,7 +2557,7 @@ window.nifty250Data = {
       "target_mean_price": 1932.32,
       "analyst_upside_pct": -0.9,
       "recommendation_key": "Buy",
-      "dividend_yield": 81.0,
+      "dividend_yield": 83.0,
       "promoter_holding": 21.8,
       "institutional_holding": 59.0,
       "public_holding": 19.2,
@@ -2595,7 +2595,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 81.00%"
+        "Attractive Dividend Yield: 83.00%"
       ],
       "events": [
         {
@@ -2631,7 +2631,7 @@ window.nifty250Data = {
       "macd_signal": 59.66,
       "macd_hist": 7.05,
       "vol_surge_ratio": 0.15,
-      "pe_ratio": 31.8,
+      "pe_ratio": 31.9,
       "forward_pe": 15.29,
       "peg_ratio": 93.13,
       "pb_ratio": 2.11,
@@ -2721,7 +2721,7 @@ window.nifty250Data = {
       "macd_signal": 100.37,
       "macd_hist": -31.4,
       "vol_surge_ratio": 0.7,
-      "pe_ratio": 46.46,
+      "pe_ratio": 45.41,
       "forward_pe": 31.44,
       "peg_ratio": 3.35,
       "pb_ratio": 10.33,
@@ -2812,7 +2812,7 @@ window.nifty250Data = {
       "macd_signal": -81.95,
       "macd_hist": 19.45,
       "vol_surge_ratio": 0.59,
-      "pe_ratio": 49.27,
+      "pe_ratio": 49.49,
       "forward_pe": 37.87,
       "peg_ratio": 0.0,
       "pb_ratio": 17.48,
@@ -3352,7 +3352,7 @@ window.nifty250Data = {
       "target_mean_price": 3954.48,
       "analyst_upside_pct": 11.3,
       "recommendation_key": "Buy",
-      "dividend_yield": 104.0,
+      "dividend_yield": 100.0,
       "promoter_holding": 51.9,
       "institutional_holding": 32.5,
       "public_holding": 15.6,
@@ -3388,7 +3388,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 104.00%"
+        "Attractive Dividend Yield: 100.00%"
       ],
       "events": [
         {
@@ -3608,7 +3608,7 @@ window.nifty250Data = {
       "target_mean_price": 179.21,
       "analyst_upside_pct": -3.7,
       "recommendation_key": "Hold",
-      "dividend_yield": 119.0,
+      "dividend_yield": 125.0,
       "promoter_holding": 65.1,
       "institutional_holding": 17.6,
       "public_holding": 17.3,
@@ -3643,7 +3643,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 119.00%"
+        "Attractive Dividend Yield: 125.00%"
       ],
       "events": [
         {
@@ -3688,7 +3688,7 @@ window.nifty250Data = {
       "macd_signal": -5.7,
       "macd_hist": -120.95,
       "vol_surge_ratio": 1.98,
-      "pe_ratio": 46.45,
+      "pe_ratio": 44.98,
       "forward_pe": 32.02,
       "peg_ratio": 0.0,
       "pb_ratio": 6.74,
@@ -3870,7 +3870,7 @@ window.nifty250Data = {
       "macd_signal": 13.51,
       "macd_hist": -12.78,
       "vol_surge_ratio": 0.9,
-      "pe_ratio": 28.72,
+      "pe_ratio": 28.67,
       "forward_pe": 26.56,
       "peg_ratio": 0.0,
       "pb_ratio": 3.85,
@@ -4052,7 +4052,7 @@ window.nifty250Data = {
       "macd_signal": 0.82,
       "macd_hist": -0.01,
       "vol_surge_ratio": 0.83,
-      "pe_ratio": 33.53,
+      "pe_ratio": 33.4,
       "forward_pe": 12.81,
       "peg_ratio": 0.0,
       "pb_ratio": 1.57,
@@ -4487,7 +4487,7 @@ window.nifty250Data = {
       "macd_signal": -56.06,
       "macd_hist": -3.19,
       "vol_surge_ratio": 0.95,
-      "pe_ratio": 17.48,
+      "pe_ratio": 17.45,
       "forward_pe": 20.59,
       "peg_ratio": 0.0,
       "pb_ratio": 4.29,
@@ -4578,7 +4578,7 @@ window.nifty250Data = {
       "macd_signal": 3.13,
       "macd_hist": -0.77,
       "vol_surge_ratio": 0.58,
-      "pe_ratio": 6.82,
+      "pe_ratio": 6.78,
       "forward_pe": 6.84,
       "peg_ratio": 0.0,
       "pb_ratio": 1.0,
@@ -4682,7 +4682,7 @@ window.nifty250Data = {
       "target_mean_price": 498.08,
       "analyst_upside_pct": 21.0,
       "recommendation_key": "None",
-      "dividend_yield": 256.0,
+      "dividend_yield": 261.0,
       "promoter_holding": 49.7,
       "institutional_holding": 34.2,
       "public_holding": 16.1,
@@ -4719,7 +4719,7 @@ window.nifty250Data = {
         "YoY Profit up 2660.0%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 256.00%"
+        "Attractive Dividend Yield: 261.00%"
       ],
       "events": [
         {
@@ -4755,7 +4755,7 @@ window.nifty250Data = {
       "macd_signal": -0.97,
       "macd_hist": -10.49,
       "vol_surge_ratio": 0.45,
-      "pe_ratio": 24.07,
+      "pe_ratio": 23.35,
       "forward_pe": 15.95,
       "peg_ratio": 0.0,
       "pb_ratio": 2.93,
@@ -4910,6 +4910,96 @@ window.nifty250Data = {
       ]
     },
     {
+      "symbol": "TATACOMM.NS",
+      "clean_symbol": "TATACOMM",
+      "name": "Tata Communications",
+      "sector": "Telecom & Cloud",
+      "cap_type": "Mid Cap",
+      "tracking_notes": "Nifty 250 Enterprise Data",
+      "current_price": 1752.8,
+      "prev_close": 1756.1,
+      "day_change_pct": -0.19,
+      "52w_high": 2110.0,
+      "52w_low": 1310.58,
+      "pct_from_52w_high": -16.93,
+      "pct_from_52w_low": 33.74,
+      "sma_20": 1707.39,
+      "sma_50": 1776.18,
+      "sma_200": 1705.49,
+      "rsi_14": 53.7,
+      "macd_val": -11.01,
+      "macd_signal": -23.09,
+      "macd_hist": 12.08,
+      "vol_surge_ratio": 0.96,
+      "pe_ratio": 52.78,
+      "forward_pe": 22.37,
+      "peg_ratio": 0.0,
+      "pb_ratio": 14.49,
+      "roe": 0.0,
+      "profit_margins": 3.7,
+      "operating_margins": 7.5,
+      "debt_to_equity": 3.36,
+      "debt_status": "High Debt Warning",
+      "rev_growth_yoy": 10.5,
+      "earnings_growth_yoy": -29.4,
+      "q_sales_growth": 10.5,
+      "q_pat_growth": -29.4,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 2108.55,
+      "analyst_upside_pct": 20.3,
+      "recommendation_key": "Buy",
+      "dividend_yield": 101.0,
+      "promoter_holding": 60.5,
+      "institutional_holding": 24.9,
+      "public_holding": 14.6,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 1787.37,
+      "sell_trigger_level": 1636.92,
+      "dist_from_prev_close": 1.78,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "Qtr Results (14 Oct)",
+      "strengths": [
+        "Trading Above 200-Day EMA Long-term Uptrend"
+      ],
+      "weaknesses": [
+        "Earnings De-growth YoY (-29.4%)",
+        "Weak Return on Capital (0.0% ROE)",
+        "High Debt Burden (D/E 3.36)"
+      ],
+      "fundamental_score": 0.0,
+      "technical_score": 27.0,
+      "composite_score": 39,
+      "long_term_signal": "REDUCE",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 1665.43,
+      "swing_target_1": 1874.15,
+      "swing_target_2": 1956.67,
+      "rationale": [
+        "YoY Revenue up 10.5%",
+        "Above 200-day EMA long-term uptrend",
+        "Warning: High debt level"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 101.00%"
+      ],
+      "events": [
+        {
+          "date": "2026-10-14",
+          "date_tag": "14 Oct",
+          "type": "Qtr Results",
+          "title": "Official Qtr Results Announced (14 Oct 2026)",
+          "summary": "Company officially announced quarterly results date on 14 Oct 2026.",
+          "impact": "High Volatility \u26a1",
+          "impact_reason": "Quarterly results announcement impacts stock trend."
+        }
+      ]
+    },
+    {
       "symbol": "VOLTAS.NS",
       "clean_symbol": "VOLTAS",
       "name": "Voltas Ltd",
@@ -5001,96 +5091,6 @@ window.nifty250Data = {
       ]
     },
     {
-      "symbol": "TATACOMM.NS",
-      "clean_symbol": "TATACOMM",
-      "name": "Tata Communications",
-      "sector": "Telecom & Cloud",
-      "cap_type": "Mid Cap",
-      "tracking_notes": "Nifty 250 Enterprise Data",
-      "current_price": 1752.8,
-      "prev_close": 1756.1,
-      "day_change_pct": -0.19,
-      "52w_high": 2110.0,
-      "52w_low": 1310.58,
-      "pct_from_52w_high": -16.93,
-      "pct_from_52w_low": 33.74,
-      "sma_20": 1707.39,
-      "sma_50": 1776.18,
-      "sma_200": 1705.49,
-      "rsi_14": 53.7,
-      "macd_val": -11.01,
-      "macd_signal": -23.09,
-      "macd_hist": 12.08,
-      "vol_surge_ratio": 0.96,
-      "pe_ratio": 52.81,
-      "forward_pe": 22.37,
-      "peg_ratio": 0.0,
-      "pb_ratio": 14.49,
-      "roe": 0.0,
-      "profit_margins": 3.7,
-      "operating_margins": 7.5,
-      "debt_to_equity": 3.36,
-      "debt_status": "High Debt Warning",
-      "rev_growth_yoy": 10.5,
-      "earnings_growth_yoy": -29.4,
-      "q_sales_growth": 10.5,
-      "q_pat_growth": -29.4,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 2108.55,
-      "analyst_upside_pct": 20.3,
-      "recommendation_key": "Buy",
-      "dividend_yield": 100.0,
-      "promoter_holding": 60.5,
-      "institutional_holding": 24.9,
-      "public_holding": 14.6,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 1787.37,
-      "sell_trigger_level": 1636.92,
-      "dist_from_prev_close": 1.78,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "Qtr Results (14 Oct)",
-      "strengths": [
-        "Trading Above 200-Day EMA Long-term Uptrend"
-      ],
-      "weaknesses": [
-        "Earnings De-growth YoY (-29.4%)",
-        "Weak Return on Capital (0.0% ROE)",
-        "High Debt Burden (D/E 3.36)"
-      ],
-      "fundamental_score": 0.0,
-      "technical_score": 27.0,
-      "composite_score": 39,
-      "long_term_signal": "REDUCE",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1665.43,
-      "swing_target_1": 1874.15,
-      "swing_target_2": 1956.67,
-      "rationale": [
-        "YoY Revenue up 10.5%",
-        "Above 200-day EMA long-term uptrend",
-        "Warning: High debt level"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 100.00%"
-      ],
-      "events": [
-        {
-          "date": "2026-10-14",
-          "date_tag": "14 Oct",
-          "type": "Qtr Results",
-          "title": "Official Qtr Results Announced (14 Oct 2026)",
-          "summary": "Company officially announced quarterly results date on 14 Oct 2026.",
-          "impact": "High Volatility \u26a1",
-          "impact_reason": "Quarterly results announcement impacts stock trend."
-        }
-      ]
-    },
-    {
       "symbol": "ESCORTS.NS",
       "clean_symbol": "ESCORTS",
       "name": "Escorts Kubota Ltd",
@@ -5129,7 +5129,7 @@ window.nifty250Data = {
       "target_mean_price": 3330.29,
       "analyst_upside_pct": 10.5,
       "recommendation_key": "Hold",
-      "dividend_yield": 111.0,
+      "dividend_yield": 112.0,
       "promoter_holding": 76.1,
       "institutional_holding": 12.6,
       "public_holding": 11.3,
@@ -5165,7 +5165,7 @@ window.nifty250Data = {
         "YoY Revenue up 28.3%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 111.00%"
+        "Attractive Dividend Yield: 112.00%"
       ],
       "events": [
         {
@@ -5201,7 +5201,7 @@ window.nifty250Data = {
       "macd_signal": -18.46,
       "macd_hist": 0.55,
       "vol_surge_ratio": 0.98,
-      "pe_ratio": 66.78,
+      "pe_ratio": 66.73,
       "forward_pe": 42.52,
       "peg_ratio": 0.0,
       "pb_ratio": 8.99,
@@ -5483,7 +5483,7 @@ window.nifty250Data = {
       "target_mean_price": 3642.73,
       "analyst_upside_pct": 4.3,
       "recommendation_key": "None",
-      "dividend_yield": 211.0,
+      "dividend_yield": 214.0,
       "promoter_holding": 44.8,
       "institutional_holding": 15.0,
       "public_holding": 40.2,
@@ -5519,7 +5519,7 @@ window.nifty250Data = {
         "YoY Profit up 18.1%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 211.00%"
+        "Attractive Dividend Yield: 214.00%"
       ],
       "events": [
         {
@@ -5555,7 +5555,7 @@ window.nifty250Data = {
       "macd_signal": 53.47,
       "macd_hist": -50.44,
       "vol_surge_ratio": 0.59,
-      "pe_ratio": 70.17,
+      "pe_ratio": 70.54,
       "forward_pe": 40.16,
       "peg_ratio": 0.0,
       "pb_ratio": 5.21,
@@ -5632,7 +5632,7 @@ window.nifty250Data = {
       "macd_signal": -0.46,
       "macd_hist": -3.58,
       "vol_surge_ratio": 0.44,
-      "pe_ratio": 48.59,
+      "pe_ratio": 47.67,
       "forward_pe": 18.54,
       "peg_ratio": 0.0,
       "pb_ratio": 3.55,
@@ -5698,6 +5698,86 @@ window.nifty250Data = {
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
       ]
+    },
+    {
+      "symbol": "RVNL.NS",
+      "clean_symbol": "RVNL",
+      "name": "Rail Vikas Nigam Ltd",
+      "sector": "Rail Infra",
+      "cap_type": "Mid Cap",
+      "tracking_notes": "Nifty 250 Railway Capex",
+      "current_price": 207.5,
+      "prev_close": 212.49,
+      "day_change_pct": -2.35,
+      "52w_high": 398.2,
+      "52w_low": 203.83,
+      "pct_from_52w_high": -47.89,
+      "pct_from_52w_low": 1.8,
+      "sma_20": 219.38,
+      "sma_50": 224.7,
+      "sma_200": 276.99,
+      "rsi_14": 34.3,
+      "macd_val": -5.37,
+      "macd_signal": -4.29,
+      "macd_hist": -1.07,
+      "vol_surge_ratio": 0.71,
+      "pe_ratio": 48.14,
+      "forward_pe": 37.73,
+      "peg_ratio": 0.0,
+      "pb_ratio": 4.4,
+      "roe": 0.0,
+      "profit_margins": 4.3,
+      "operating_margins": 4.0,
+      "debt_to_equity": 0.49,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 10.6,
+      "earnings_growth_yoy": 16.9,
+      "q_sales_growth": 10.6,
+      "q_pat_growth": 16.9,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 165.0,
+      "analyst_upside_pct": -20.5,
+      "recommendation_key": "None",
+      "dividend_yield": 161.0,
+      "promoter_holding": 72.8,
+      "institutional_holding": 8.5,
+      "public_holding": 18.7,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 233.41,
+      "sell_trigger_level": 203.42,
+      "dist_from_prev_close": 9.85,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Robust YoY Profit Expansion (+16.9%)",
+        "Healthy Low Debt (D/E 0.49)"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline",
+        "RSI Weak Momentum (34.3)"
+      ],
+      "fundamental_score": 21.0,
+      "technical_score": 4.0,
+      "composite_score": 29,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "STOPLOSS / SELL",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 188.71,
+      "swing_target_1": 233.6,
+      "swing_target_2": 251.34,
+      "rationale": [
+        "YoY Revenue up 10.6%",
+        "YoY Profit up 16.9%"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 161.00%"
+      ],
+      "events": []
     },
     {
       "symbol": "BHARATFORG.NS",
@@ -5788,86 +5868,6 @@ window.nifty250Data = {
       ]
     },
     {
-      "symbol": "RVNL.NS",
-      "clean_symbol": "RVNL",
-      "name": "Rail Vikas Nigam Ltd",
-      "sector": "Rail Infra",
-      "cap_type": "Mid Cap",
-      "tracking_notes": "Nifty 250 Railway Capex",
-      "current_price": 207.5,
-      "prev_close": 212.49,
-      "day_change_pct": -2.35,
-      "52w_high": 398.2,
-      "52w_low": 203.83,
-      "pct_from_52w_high": -47.89,
-      "pct_from_52w_low": 1.8,
-      "sma_20": 219.38,
-      "sma_50": 224.7,
-      "sma_200": 276.99,
-      "rsi_14": 34.3,
-      "macd_val": -5.37,
-      "macd_signal": -4.29,
-      "macd_hist": -1.07,
-      "vol_surge_ratio": 0.71,
-      "pe_ratio": 48.14,
-      "forward_pe": 37.73,
-      "peg_ratio": 0.0,
-      "pb_ratio": 4.4,
-      "roe": 0.0,
-      "profit_margins": 4.3,
-      "operating_margins": 4.0,
-      "debt_to_equity": 0.49,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 10.6,
-      "earnings_growth_yoy": 16.9,
-      "q_sales_growth": 10.6,
-      "q_pat_growth": 16.9,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 165.0,
-      "analyst_upside_pct": -20.5,
-      "recommendation_key": "None",
-      "dividend_yield": 161.0,
-      "promoter_holding": 72.8,
-      "institutional_holding": 8.5,
-      "public_holding": 18.7,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 233.41,
-      "sell_trigger_level": 203.42,
-      "dist_from_prev_close": 9.85,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Robust YoY Profit Expansion (+16.9%)",
-        "Healthy Low Debt (D/E 0.49)"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline",
-        "RSI Weak Momentum (34.3)"
-      ],
-      "fundamental_score": 21.0,
-      "technical_score": 4.0,
-      "composite_score": 29,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 188.71,
-      "swing_target_1": 233.6,
-      "swing_target_2": 251.34,
-      "rationale": [
-        "YoY Revenue up 10.6%",
-        "YoY Profit up 16.9%"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 161.00%"
-      ],
-      "events": []
-    },
-    {
       "symbol": "GODREJPROP.NS",
       "clean_symbol": "GODREJPROP",
       "name": "Godrej Properties",
@@ -5906,7 +5906,7 @@ window.nifty250Data = {
       "target_mean_price": 2326.22,
       "analyst_upside_pct": 22.0,
       "recommendation_key": "Buy",
-      "dividend_yield": 50.0,
+      "dividend_yield": 52.0,
       "promoter_holding": 57.6,
       "institutional_holding": 23.8,
       "public_holding": 18.6,
@@ -5942,7 +5942,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 50.00%"
+        "Attractive Dividend Yield: 52.00%"
       ],
       "events": [
         {
@@ -5978,7 +5978,7 @@ window.nifty250Data = {
       "macd_signal": -62.67,
       "macd_hist": 1.03,
       "vol_surge_ratio": 0.31,
-      "pe_ratio": 31.59,
+      "pe_ratio": 31.19,
       "forward_pe": 22.55,
       "peg_ratio": 0.0,
       "pb_ratio": 3.24,
@@ -6067,7 +6067,7 @@ window.nifty250Data = {
       "macd_signal": -13.02,
       "macd_hist": 1.38,
       "vol_surge_ratio": 0.75,
-      "pe_ratio": 4.54,
+      "pe_ratio": 4.51,
       "forward_pe": 3.94,
       "peg_ratio": 0.0,
       "pb_ratio": 0.82,
@@ -6439,7 +6439,7 @@ window.nifty250Data = {
       "target_mean_price": 102.67,
       "analyst_upside_pct": 19.0,
       "recommendation_key": "None",
-      "dividend_yield": 218.0,
+      "dividend_yield": 233.0,
       "promoter_holding": 5.0,
       "institutional_holding": 26.9,
       "public_holding": 68.1,
@@ -6475,7 +6475,7 @@ window.nifty250Data = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 218.00%"
+        "Attractive Dividend Yield: 233.00%"
       ],
       "events": [
         {
@@ -6623,7 +6623,7 @@ window.nifty250Data = {
       "target_mean_price": 429.08,
       "analyst_upside_pct": 35.0,
       "recommendation_key": "Buy",
-      "dividend_yield": 195.0,
+      "dividend_yield": 196.0,
       "promoter_holding": 52.6,
       "institutional_holding": 24.1,
       "public_holding": 23.3,
@@ -6659,7 +6659,7 @@ window.nifty250Data = {
         "YoY Revenue up 25.2%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 195.00%"
+        "Attractive Dividend Yield: 196.00%"
       ],
       "events": [
         {
@@ -6801,7 +6801,7 @@ window.nifty250Data = {
       "target_mean_price": 60.0,
       "analyst_upside_pct": -26.8,
       "recommendation_key": "None",
-      "dividend_yield": 348.0,
+      "dividend_yield": 349.0,
       "promoter_holding": 82.9,
       "institutional_holding": 4.8,
       "public_holding": 12.3,
@@ -6837,7 +6837,7 @@ window.nifty250Data = {
         "YoY Revenue up 10.3%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 348.00%"
+        "Attractive Dividend Yield: 349.00%"
       ],
       "events": [
         {
