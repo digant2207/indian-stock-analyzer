@@ -1,9 +1,17 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
-  "tested_symbols_count": 25,
-  "overall_win_rate": 26.2,
-  "overall_avg_return_per_trade": -2.27,
+  "tested_symbols_count": 24,
+  "overall_win_rate": 27.7,
+  "overall_avg_return_per_trade": -1.91,
   "symbol_details": [
+    {
+      "symbol": "ACMESOLAR.NS",
+      "total_trades": 12,
+      "win_rate": 50.0,
+      "avg_return": 4.22,
+      "total_wins": 6,
+      "total_losses": 6
+    },
     {
       "symbol": "ACE.NS",
       "total_trades": 11,
@@ -13,11 +21,11 @@
       "total_losses": 6
     },
     {
-      "symbol": "ACMESOLAR.NS",
-      "total_trades": 12,
-      "win_rate": 50.0,
-      "avg_return": 4.22,
-      "total_wins": 6,
+      "symbol": "ATGL.NS",
+      "total_trades": 6,
+      "win_rate": 0.0,
+      "avg_return": -5.73,
+      "total_wins": 0,
       "total_losses": 6
     },
     {
@@ -53,12 +61,12 @@
       "total_losses": 5
     },
     {
-      "symbol": "BAJAJHFL.NS",
-      "total_trades": 5,
-      "win_rate": 0.0,
-      "avg_return": -4.07,
-      "total_wins": 0,
-      "total_losses": 5
+      "symbol": "BAJFINANCE.NS",
+      "total_trades": 4,
+      "win_rate": 25.0,
+      "avg_return": -5.66,
+      "total_wins": 1,
+      "total_losses": 3
     },
     {
       "symbol": "BAJAJHLDNG.NS",
@@ -69,12 +77,12 @@
       "total_losses": 3
     },
     {
-      "symbol": "BAJFINANCE.NS",
-      "total_trades": 4,
-      "win_rate": 25.0,
-      "avg_return": -5.66,
-      "total_wins": 1,
-      "total_losses": 3
+      "symbol": "BAJAJHFL.NS",
+      "total_trades": 5,
+      "win_rate": 0.0,
+      "avg_return": -4.07,
+      "total_wins": 0,
+      "total_losses": 5
     },
     {
       "symbol": "BANCOINDIA.NS",
@@ -157,11 +165,11 @@
       "total_losses": 5
     },
     {
-      "symbol": "DCAL.NS",
-      "total_trades": 8,
-      "win_rate": 12.5,
-      "avg_return": -5.07,
-      "total_wins": 1,
+      "symbol": "CAMS.NS",
+      "total_trades": 9,
+      "win_rate": 22.2,
+      "avg_return": -2.9,
+      "total_wins": 2,
       "total_losses": 7
     },
     {
@@ -187,22 +195,6 @@
       "avg_return": -4.21,
       "total_wins": 2,
       "total_losses": 13
-    },
-    {
-      "symbol": "DELTACORP.NS",
-      "total_trades": 5,
-      "win_rate": 0.0,
-      "avg_return": -8.09,
-      "total_wins": 0,
-      "total_losses": 5
-    },
-    {
-      "symbol": "DEN.NS",
-      "total_trades": 4,
-      "win_rate": 0.0,
-      "avg_return": -6.18,
-      "total_wins": 0,
-      "total_losses": 4
     }
   ]
 }
