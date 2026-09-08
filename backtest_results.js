@@ -38,11 +38,11 @@ window.backtestData = {
     },
     {
       "symbol": "ASIANTILES.NS",
-      "total_trades": 16,
-      "win_rate": 6.2,
-      "avg_return": -7.27,
+      "total_trades": 17,
+      "win_rate": 5.9,
+      "avg_return": -7.14,
       "total_wins": 1,
-      "total_losses": 15
+      "total_losses": 16
     },
     {
       "symbol": "ATHERENERG.NS",
