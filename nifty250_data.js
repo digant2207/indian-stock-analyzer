@@ -1,6 +1,6 @@
 window.nifty250Data = {
   "summary": {
-    "last_updated": "2026-09-09 04:45 PM IST",
+    "last_updated": "2026-09-09 06:49 PM IST",
     "total_stocks_scanned": 58,
     "strong_buys_count": 7,
     "swing_breakouts_count": 2,
@@ -235,7 +235,7 @@ window.nifty250Data = {
       "target_mean_price": 13050.0,
       "analyst_upside_pct": 12.2,
       "recommendation_key": "None",
-      "dividend_yield": 561.0,
+      "dividend_yield": 565.0,
       "promoter_holding": 72.5,
       "institutional_holding": 13.5,
       "public_holding": 14.0,
@@ -274,7 +274,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 561.00%"
+        "Attractive Dividend Yield: 565.00%"
       ],
       "events": [
         {
@@ -600,7 +600,7 @@ window.nifty250Data = {
       "target_mean_price": 1006.52,
       "analyst_upside_pct": -6.4,
       "recommendation_key": "Buy",
-      "dividend_yield": 289.0,
+      "dividend_yield": 295.0,
       "promoter_holding": 25.3,
       "institutional_holding": 46.2,
       "public_holding": 28.5,
@@ -637,7 +637,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 289.00%"
+        "Attractive Dividend Yield: 295.00%"
       ],
       "events": [
         {
@@ -856,7 +856,7 @@ window.nifty250Data = {
       "macd_signal": 76.51,
       "macd_hist": -16.25,
       "vol_surge_ratio": 4.43,
-      "pe_ratio": 37.55,
+      "pe_ratio": 37.85,
       "forward_pe": 25.82,
       "peg_ratio": 0.0,
       "pb_ratio": 6.5,
@@ -1118,7 +1118,7 @@ window.nifty250Data = {
       "macd_signal": 52.81,
       "macd_hist": -5.93,
       "vol_surge_ratio": 1.06,
-      "pe_ratio": 109.56,
+      "pe_ratio": 112.01,
       "forward_pe": 53.74,
       "peg_ratio": 0.0,
       "pb_ratio": 11.38,
@@ -1224,7 +1224,7 @@ window.nifty250Data = {
       "target_mean_price": 410.69,
       "analyst_upside_pct": 8.8,
       "recommendation_key": "Buy",
-      "dividend_yield": 109.0,
+      "dividend_yield": 108.0,
       "promoter_holding": 51.3,
       "institutional_holding": 21.9,
       "public_holding": 26.8,
@@ -1262,7 +1262,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 109.00%"
+        "Attractive Dividend Yield: 108.00%"
       ],
       "events": [
         {
@@ -2045,7 +2045,7 @@ window.nifty250Data = {
       "target_mean_price": 13050.0,
       "analyst_upside_pct": 12.2,
       "recommendation_key": "None",
-      "dividend_yield": 561.0,
+      "dividend_yield": 565.0,
       "promoter_holding": 72.5,
       "institutional_holding": 13.5,
       "public_holding": 14.0,
@@ -2084,7 +2084,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 561.00%"
+        "Attractive Dividend Yield: 565.00%"
       ],
       "events": [
         {
@@ -2410,7 +2410,7 @@ window.nifty250Data = {
       "target_mean_price": 1006.52,
       "analyst_upside_pct": -6.4,
       "recommendation_key": "Buy",
-      "dividend_yield": 289.0,
+      "dividend_yield": 295.0,
       "promoter_holding": 25.3,
       "institutional_holding": 46.2,
       "public_holding": 28.5,
@@ -2447,7 +2447,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 289.00%"
+        "Attractive Dividend Yield: 295.00%"
       ],
       "events": [
         {
@@ -2666,7 +2666,7 @@ window.nifty250Data = {
       "macd_signal": 76.51,
       "macd_hist": -16.25,
       "vol_surge_ratio": 4.43,
-      "pe_ratio": 37.55,
+      "pe_ratio": 37.85,
       "forward_pe": 25.82,
       "peg_ratio": 0.0,
       "pb_ratio": 6.5,
@@ -2928,7 +2928,7 @@ window.nifty250Data = {
       "macd_signal": 52.81,
       "macd_hist": -5.93,
       "vol_surge_ratio": 1.06,
-      "pe_ratio": 109.56,
+      "pe_ratio": 112.01,
       "forward_pe": 53.74,
       "peg_ratio": 0.0,
       "pb_ratio": 11.38,
@@ -3034,7 +3034,7 @@ window.nifty250Data = {
       "target_mean_price": 410.69,
       "analyst_upside_pct": 8.8,
       "recommendation_key": "Buy",
-      "dividend_yield": 109.0,
+      "dividend_yield": 108.0,
       "promoter_holding": 51.3,
       "institutional_holding": 21.9,
       "public_holding": 26.8,
@@ -3072,7 +3072,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 109.00%"
+        "Attractive Dividend Yield: 108.00%"
       ],
       "events": [
         {
@@ -3196,7 +3196,7 @@ window.nifty250Data = {
       "macd_signal": 15.51,
       "macd_hist": -5.92,
       "vol_surge_ratio": 0.33,
-      "pe_ratio": 70.01,
+      "pe_ratio": 71.51,
       "forward_pe": 47.39,
       "peg_ratio": 0.0,
       "pb_ratio": 8.31,
@@ -3701,97 +3701,6 @@ window.nifty250Data = {
       ]
     },
     {
-      "symbol": "DEEPAKNTR.NS",
-      "clean_symbol": "DEEPAKNTR",
-      "name": "Deepak Nitrite Ltd",
-      "sector": "Specialty Chemicals",
-      "cap_type": "Mid Cap",
-      "tracking_notes": "Nifty 250 Phenol & Nitrites",
-      "current_price": 1641.9,
-      "prev_close": 1647.8,
-      "day_change_pct": -0.36,
-      "52w_high": 1895.74,
-      "52w_low": 1274.18,
-      "pct_from_52w_high": -13.39,
-      "pct_from_52w_low": 28.86,
-      "sma_20": 1736.41,
-      "sma_50": 1695.91,
-      "sma_200": 1625.91,
-      "rsi_14": 37.2,
-      "macd_val": -6.22,
-      "macd_signal": 9.56,
-      "macd_hist": -15.78,
-      "vol_surge_ratio": 0.73,
-      "pe_ratio": 28.55,
-      "forward_pe": 26.46,
-      "peg_ratio": 0.0,
-      "pb_ratio": 3.84,
-      "roe": 0.0,
-      "profit_margins": 9.1,
-      "operating_margins": 18.5,
-      "debt_to_equity": 0.28,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 36.4,
-      "earnings_growth_yoy": 207.4,
-      "q_sales_growth": 36.4,
-      "q_pat_growth": 207.4,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 1892.5,
-      "analyst_upside_pct": 15.3,
-      "recommendation_key": "None",
-      "dividend_yield": 46.0,
-      "promoter_holding": 49.8,
-      "institutional_holding": 25.4,
-      "public_holding": 24.8,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 1823.64,
-      "sell_trigger_level": 1616.86,
-      "dist_from_prev_close": 10.67,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "Qtr Results (11 Nov)",
-      "strengths": [
-        "Strong YoY Sales Growth (+36.4%)",
-        "Robust YoY Profit Expansion (+207.4%)",
-        "Healthy Low Debt (D/E 0.28)",
-        "Trading Above 200-Day EMA Long-term Uptrend"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)"
-      ],
-      "fundamental_score": 25.0,
-      "technical_score": 10.0,
-      "composite_score": 47,
-      "long_term_signal": "HOLD",
-      "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1532.89,
-      "swing_target_1": 1793.3,
-      "swing_target_2": 1896.25,
-      "rationale": [
-        "YoY Revenue up 36.4%",
-        "YoY Profit up 207.4%",
-        "Above 200-day EMA long-term uptrend"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 46.00%"
-      ],
-      "events": [
-        {
-          "date": "2026-11-11",
-          "date_tag": "11 Nov",
-          "type": "Qtr Results",
-          "title": "Official Qtr Results Announced (11 Nov 2026)",
-          "summary": "Company officially announced quarterly results date on 11 Nov 2026.",
-          "impact": "High Volatility \u26a1",
-          "impact_reason": "Quarterly results announcement impacts stock trend."
-        }
-      ]
-    },
-    {
       "symbol": "OBEROIRLTY.NS",
       "clean_symbol": "OBEROIRLTY",
       "name": "Oberoi Realty Ltd",
@@ -3974,6 +3883,97 @@ window.nifty250Data = {
       ]
     },
     {
+      "symbol": "DEEPAKNTR.NS",
+      "clean_symbol": "DEEPAKNTR",
+      "name": "Deepak Nitrite Ltd",
+      "sector": "Specialty Chemicals",
+      "cap_type": "Mid Cap",
+      "tracking_notes": "Nifty 250 Phenol & Nitrites",
+      "current_price": 1641.9,
+      "prev_close": 1647.8,
+      "day_change_pct": -0.36,
+      "52w_high": 1895.74,
+      "52w_low": 1274.18,
+      "pct_from_52w_high": -13.39,
+      "pct_from_52w_low": 28.86,
+      "sma_20": 1736.41,
+      "sma_50": 1695.91,
+      "sma_200": 1625.91,
+      "rsi_14": 37.2,
+      "macd_val": -6.22,
+      "macd_signal": 9.56,
+      "macd_hist": -15.78,
+      "vol_surge_ratio": 0.73,
+      "pe_ratio": 28.55,
+      "forward_pe": 26.46,
+      "peg_ratio": 0.0,
+      "pb_ratio": 3.84,
+      "roe": 0.0,
+      "profit_margins": 9.1,
+      "operating_margins": 18.5,
+      "debt_to_equity": 0.28,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 36.4,
+      "earnings_growth_yoy": 207.4,
+      "q_sales_growth": 36.4,
+      "q_pat_growth": 207.4,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 1892.5,
+      "analyst_upside_pct": 15.3,
+      "recommendation_key": "None",
+      "dividend_yield": 46.0,
+      "promoter_holding": 49.8,
+      "institutional_holding": 25.4,
+      "public_holding": 24.8,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 1823.64,
+      "sell_trigger_level": 1616.86,
+      "dist_from_prev_close": 10.67,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "Qtr Results (11 Nov)",
+      "strengths": [
+        "Strong YoY Sales Growth (+36.4%)",
+        "Robust YoY Profit Expansion (+207.4%)",
+        "Healthy Low Debt (D/E 0.28)",
+        "Trading Above 200-Day EMA Long-term Uptrend"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)"
+      ],
+      "fundamental_score": 25.0,
+      "technical_score": 10.0,
+      "composite_score": 47,
+      "long_term_signal": "HOLD",
+      "swing_signal": "STOPLOSS / SELL",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 1532.89,
+      "swing_target_1": 1793.3,
+      "swing_target_2": 1896.25,
+      "rationale": [
+        "YoY Revenue up 36.4%",
+        "YoY Profit up 207.4%",
+        "Above 200-day EMA long-term uptrend"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 46.00%"
+      ],
+      "events": [
+        {
+          "date": "2026-11-11",
+          "date_tag": "11 Nov",
+          "type": "Qtr Results",
+          "title": "Official Qtr Results Announced (11 Nov 2026)",
+          "summary": "Company officially announced quarterly results date on 11 Nov 2026.",
+          "impact": "High Volatility \u26a1",
+          "impact_reason": "Quarterly results announcement impacts stock trend."
+        }
+      ]
+    },
+    {
       "symbol": "SUZLON.NS",
       "clean_symbol": "SUZLON",
       "name": "Suzlon Energy Ltd",
@@ -4082,7 +4082,7 @@ window.nifty250Data = {
       "macd_signal": 15.0,
       "macd_hist": -8.48,
       "vol_surge_ratio": 0.46,
-      "pe_ratio": 68.85,
+      "pe_ratio": 68.72,
       "forward_pe": 43.8,
       "peg_ratio": 0.0,
       "pb_ratio": 9.76,
@@ -4251,97 +4251,6 @@ window.nifty250Data = {
       ]
     },
     {
-      "symbol": "KEI.NS",
-      "clean_symbol": "KEI",
-      "name": "KEI Industries Ltd",
-      "sector": "Cables & Wires",
-      "cap_type": "Mid Cap",
-      "tracking_notes": "Nifty 250 Power Capex",
-      "current_price": 4669.5,
-      "prev_close": 4697.5,
-      "day_change_pct": -0.6,
-      "52w_high": 5899.0,
-      "52w_low": 3724.29,
-      "pct_from_52w_high": -20.84,
-      "pct_from_52w_low": 25.38,
-      "sma_20": 5413.5,
-      "sma_50": 5260.6,
-      "sma_200": 4804.93,
-      "rsi_14": 30.7,
-      "macd_val": -158.47,
-      "macd_signal": -36.25,
-      "macd_hist": -122.22,
-      "vol_surge_ratio": 1.38,
-      "pe_ratio": 44.78,
-      "forward_pe": 31.83,
-      "peg_ratio": 0.0,
-      "pb_ratio": 6.7,
-      "roe": 0.0,
-      "profit_margins": 8.1,
-      "operating_margins": 11.5,
-      "debt_to_equity": 0.04,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 23.0,
-      "earnings_growth_yoy": 40.0,
-      "q_sales_growth": 23.0,
-      "q_pat_growth": 40.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 5751.48,
-      "analyst_upside_pct": 23.2,
-      "recommendation_key": "Buy",
-      "dividend_yield": 10.0,
-      "promoter_holding": 36.0,
-      "institutional_holding": 43.9,
-      "public_holding": 20.1,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 5910.8,
-      "sell_trigger_level": 4656.67,
-      "dist_from_prev_close": 25.83,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "Qtr Results (14 Oct)",
-      "strengths": [
-        "Strong YoY Sales Growth (+23.0%)",
-        "Robust YoY Profit Expansion (+40.0%)",
-        "Healthy Low Debt (D/E 0.04)"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline",
-        "RSI Weak Momentum (30.7)"
-      ],
-      "fundamental_score": 25.0,
-      "technical_score": 7.0,
-      "composite_score": 44,
-      "long_term_signal": "REDUCE",
-      "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 3680.9,
-      "swing_target_1": 6042.56,
-      "swing_target_2": 6976.24,
-      "rationale": [
-        "YoY Revenue up 23.0%",
-        "YoY Profit up 40.0%"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 10.00%"
-      ],
-      "events": [
-        {
-          "date": "2026-10-14",
-          "date_tag": "14 Oct",
-          "type": "Qtr Results",
-          "title": "Official Qtr Results Announced (14 Oct 2026)",
-          "summary": "Company officially announced quarterly results date on 14 Oct 2026.",
-          "impact": "High Volatility \u26a1",
-          "impact_reason": "Quarterly results announcement impacts stock trend."
-        }
-      ]
-    },
-    {
       "symbol": "LUPIN.NS",
       "clean_symbol": "LUPIN",
       "name": "Lupin Ltd",
@@ -4427,6 +4336,97 @@ window.nifty250Data = {
           "type": "Qtr Results",
           "title": "Official Qtr Results Announced (05 Nov 2026)",
           "summary": "Company officially announced quarterly results date on 05 Nov 2026.",
+          "impact": "High Volatility \u26a1",
+          "impact_reason": "Quarterly results announcement impacts stock trend."
+        }
+      ]
+    },
+    {
+      "symbol": "KEI.NS",
+      "clean_symbol": "KEI",
+      "name": "KEI Industries Ltd",
+      "sector": "Cables & Wires",
+      "cap_type": "Mid Cap",
+      "tracking_notes": "Nifty 250 Power Capex",
+      "current_price": 4669.5,
+      "prev_close": 4697.5,
+      "day_change_pct": -0.6,
+      "52w_high": 5899.0,
+      "52w_low": 3724.29,
+      "pct_from_52w_high": -20.84,
+      "pct_from_52w_low": 25.38,
+      "sma_20": 5413.5,
+      "sma_50": 5260.6,
+      "sma_200": 4804.93,
+      "rsi_14": 30.7,
+      "macd_val": -158.47,
+      "macd_signal": -36.25,
+      "macd_hist": -122.22,
+      "vol_surge_ratio": 1.38,
+      "pe_ratio": 44.78,
+      "forward_pe": 31.83,
+      "peg_ratio": 0.0,
+      "pb_ratio": 6.7,
+      "roe": 0.0,
+      "profit_margins": 8.1,
+      "operating_margins": 11.5,
+      "debt_to_equity": 0.04,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 23.0,
+      "earnings_growth_yoy": 40.0,
+      "q_sales_growth": 23.0,
+      "q_pat_growth": 40.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 5751.48,
+      "analyst_upside_pct": 23.2,
+      "recommendation_key": "Buy",
+      "dividend_yield": 10.0,
+      "promoter_holding": 36.0,
+      "institutional_holding": 43.9,
+      "public_holding": 20.1,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 5910.8,
+      "sell_trigger_level": 4656.67,
+      "dist_from_prev_close": 25.83,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "Qtr Results (14 Oct)",
+      "strengths": [
+        "Strong YoY Sales Growth (+23.0%)",
+        "Robust YoY Profit Expansion (+40.0%)",
+        "Healthy Low Debt (D/E 0.04)"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline",
+        "RSI Weak Momentum (30.7)"
+      ],
+      "fundamental_score": 25.0,
+      "technical_score": 7.0,
+      "composite_score": 44,
+      "long_term_signal": "REDUCE",
+      "swing_signal": "STOPLOSS / SELL",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 3680.9,
+      "swing_target_1": 6042.56,
+      "swing_target_2": 6976.24,
+      "rationale": [
+        "YoY Revenue up 23.0%",
+        "YoY Profit up 40.0%"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 10.00%"
+      ],
+      "events": [
+        {
+          "date": "2026-10-14",
+          "date_tag": "14 Oct",
+          "type": "Qtr Results",
+          "title": "Official Qtr Results Announced (14 Oct 2026)",
+          "summary": "Company officially announced quarterly results date on 14 Oct 2026.",
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
@@ -4649,7 +4649,7 @@ window.nifty250Data = {
       "target_mean_price": 196.76,
       "analyst_upside_pct": 7.0,
       "recommendation_key": "Buy",
-      "dividend_yield": 269.0,
+      "dividend_yield": 273.0,
       "promoter_holding": 74.8,
       "institutional_holding": 14.9,
       "public_holding": 10.3,
@@ -4683,7 +4683,7 @@ window.nifty250Data = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 269.00%"
+        "Attractive Dividend Yield: 273.00%"
       ],
       "events": [
         {
@@ -4964,95 +4964,6 @@ window.nifty250Data = {
       ]
     },
     {
-      "symbol": "APOLLOTYRE.NS",
-      "clean_symbol": "APOLLOTYRE",
-      "name": "Apollo Tyres Ltd",
-      "sector": "Auto Tyres",
-      "cap_type": "Mid Cap",
-      "tracking_notes": "Nifty 250 Commercial Vehicle Tyres",
-      "current_price": 422.25,
-      "prev_close": 411.5,
-      "day_change_pct": 2.61,
-      "52w_high": 533.71,
-      "52w_low": 363.22,
-      "pct_from_52w_high": -20.88,
-      "pct_from_52w_low": 16.25,
-      "sma_20": 435.35,
-      "sma_50": 435.55,
-      "sma_200": 445.96,
-      "rsi_14": 41.7,
-      "macd_val": -3.25,
-      "macd_signal": -0.23,
-      "macd_hist": -3.02,
-      "vol_surge_ratio": 0.65,
-      "pe_ratio": 16.01,
-      "forward_pe": 12.59,
-      "peg_ratio": 0.0,
-      "pb_ratio": 1.6,
-      "roe": 0.0,
-      "profit_margins": 5.8,
-      "operating_margins": 6.5,
-      "debt_to_equity": 0.22,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 12.8,
-      "earnings_growth_yoy": 2660.0,
-      "q_sales_growth": 12.8,
-      "q_pat_growth": 2660.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 498.08,
-      "analyst_upside_pct": 18.0,
-      "recommendation_key": "None",
-      "dividend_yield": 267.0,
-      "promoter_holding": 49.7,
-      "institutional_holding": 34.2,
-      "public_holding": 16.1,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 468.33,
-      "sell_trigger_level": 409.23,
-      "dist_from_prev_close": 13.81,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "Qtr Results (12 Nov)",
-      "strengths": [
-        "Robust YoY Profit Expansion (+2660.0%)",
-        "Healthy Low Debt (D/E 0.22)"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 21.0,
-      "technical_score": 6.0,
-      "composite_score": 39,
-      "long_term_signal": "REDUCE",
-      "swing_signal": "NEUTRAL / WATCH",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 395.16,
-      "swing_target_1": 459.87,
-      "swing_target_2": 485.45,
-      "rationale": [
-        "YoY Revenue up 12.8%",
-        "YoY Profit up 2660.0%"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 267.00%"
-      ],
-      "events": [
-        {
-          "date": "2026-11-12",
-          "date_tag": "12 Nov",
-          "type": "Qtr Results",
-          "title": "Official Qtr Results Announced (12 Nov 2026)",
-          "summary": "Company officially announced quarterly results date on 12 Nov 2026.",
-          "impact": "High Volatility \u26a1",
-          "impact_reason": "Quarterly results announcement impacts stock trend."
-        }
-      ]
-    },
-    {
       "symbol": "VOLTAS.NS",
       "clean_symbol": "VOLTAS",
       "name": "Voltas Ltd",
@@ -5144,6 +5055,95 @@ window.nifty250Data = {
       ]
     },
     {
+      "symbol": "APOLLOTYRE.NS",
+      "clean_symbol": "APOLLOTYRE",
+      "name": "Apollo Tyres Ltd",
+      "sector": "Auto Tyres",
+      "cap_type": "Mid Cap",
+      "tracking_notes": "Nifty 250 Commercial Vehicle Tyres",
+      "current_price": 422.25,
+      "prev_close": 411.5,
+      "day_change_pct": 2.61,
+      "52w_high": 533.71,
+      "52w_low": 363.22,
+      "pct_from_52w_high": -20.88,
+      "pct_from_52w_low": 16.25,
+      "sma_20": 435.35,
+      "sma_50": 435.55,
+      "sma_200": 445.96,
+      "rsi_14": 41.7,
+      "macd_val": -3.25,
+      "macd_signal": -0.23,
+      "macd_hist": -3.02,
+      "vol_surge_ratio": 0.65,
+      "pe_ratio": 16.01,
+      "forward_pe": 12.59,
+      "peg_ratio": 0.0,
+      "pb_ratio": 1.6,
+      "roe": 0.0,
+      "profit_margins": 5.8,
+      "operating_margins": 6.5,
+      "debt_to_equity": 0.22,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 12.8,
+      "earnings_growth_yoy": 2660.0,
+      "q_sales_growth": 12.8,
+      "q_pat_growth": 2660.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 498.08,
+      "analyst_upside_pct": 18.0,
+      "recommendation_key": "None",
+      "dividend_yield": 267.0,
+      "promoter_holding": 49.7,
+      "institutional_holding": 34.2,
+      "public_holding": 16.1,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 468.33,
+      "sell_trigger_level": 409.23,
+      "dist_from_prev_close": 13.81,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "Qtr Results (12 Nov)",
+      "strengths": [
+        "Robust YoY Profit Expansion (+2660.0%)",
+        "Healthy Low Debt (D/E 0.22)"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 21.0,
+      "technical_score": 6.0,
+      "composite_score": 39,
+      "long_term_signal": "REDUCE",
+      "swing_signal": "NEUTRAL / WATCH",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 395.16,
+      "swing_target_1": 459.87,
+      "swing_target_2": 485.45,
+      "rationale": [
+        "YoY Revenue up 12.8%",
+        "YoY Profit up 2660.0%"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 267.00%"
+      ],
+      "events": [
+        {
+          "date": "2026-11-12",
+          "date_tag": "12 Nov",
+          "type": "Qtr Results",
+          "title": "Official Qtr Results Announced (12 Nov 2026)",
+          "summary": "Company officially announced quarterly results date on 12 Nov 2026.",
+          "impact": "High Volatility \u26a1",
+          "impact_reason": "Quarterly results announcement impacts stock trend."
+        }
+      ]
+    },
+    {
       "symbol": "CDSL.NS",
       "clean_symbol": "CDSL",
       "name": "Central Depository Services",
@@ -5165,7 +5165,7 @@ window.nifty250Data = {
       "macd_signal": 13.61,
       "macd_hist": -2.03,
       "vol_surge_ratio": 1.01,
-      "pe_ratio": 61.48,
+      "pe_ratio": 60.72,
       "forward_pe": 46.01,
       "peg_ratio": 0.0,
       "pb_ratio": 14.6,
@@ -5588,7 +5588,7 @@ window.nifty250Data = {
       "macd_signal": -1.42,
       "macd_hist": -3.86,
       "vol_surge_ratio": 1.0,
-      "pe_ratio": 47.37,
+      "pe_ratio": 46.92,
       "forward_pe": 18.27,
       "peg_ratio": 0.0,
       "pb_ratio": 3.5,
@@ -5952,7 +5952,7 @@ window.nifty250Data = {
       "target_mean_price": 2915.04,
       "analyst_upside_pct": 21.8,
       "recommendation_key": "Hold",
-      "dividend_yield": 62.0,
+      "dividend_yield": 63.0,
       "promoter_holding": 46.5,
       "institutional_holding": 42.4,
       "public_holding": 11.1,
@@ -5988,7 +5988,7 @@ window.nifty250Data = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 62.00%"
+        "Attractive Dividend Yield: 63.00%"
       ],
       "events": [
         {
@@ -6024,7 +6024,7 @@ window.nifty250Data = {
       "macd_signal": 16.3,
       "macd_hist": -20.3,
       "vol_surge_ratio": 0.79,
-      "pe_ratio": 36.04,
+      "pe_ratio": 36.3,
       "forward_pe": 30.36,
       "peg_ratio": 0.0,
       "pb_ratio": 9.96,
