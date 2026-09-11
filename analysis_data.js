@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "2026-09-11 04:15 PM IST",
+    "last_updated": "2026-09-11 04:30 PM IST",
     "total_stocks_scanned": 139,
     "strong_buys_count": 20,
     "swing_breakouts_count": 7,
@@ -552,7 +552,7 @@ window.stockData = {
       "target_mean_price": 536.1,
       "analyst_upside_pct": 9.5,
       "recommendation_key": "Buy",
-      "dividend_yield": 261.0,
+      "dividend_yield": 260.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.6,
       "public_holding": 9.7,
@@ -589,7 +589,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 261.00%"
+        "Attractive Dividend Yield: 260.00%"
       ],
       "events": [
         {
@@ -1064,7 +1064,7 @@ window.stockData = {
       "target_mean_price": 121.61,
       "analyst_upside_pct": 4.2,
       "recommendation_key": "Buy",
-      "dividend_yield": 259.0,
+      "dividend_yield": 257.0,
       "promoter_holding": 70.1,
       "institutional_holding": 19.3,
       "public_holding": 10.6,
@@ -1100,7 +1100,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 259.00%"
+        "Attractive Dividend Yield: 257.00%"
       ],
       "events": [
         {
@@ -2201,7 +2201,7 @@ window.stockData = {
       "target_mean_price": 536.1,
       "analyst_upside_pct": 9.5,
       "recommendation_key": "Buy",
-      "dividend_yield": 261.0,
+      "dividend_yield": 260.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.6,
       "public_holding": 9.7,
@@ -2238,7 +2238,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 261.00%"
+        "Attractive Dividend Yield: 260.00%"
       ],
       "events": [
         {
@@ -2713,7 +2713,7 @@ window.stockData = {
       "target_mean_price": 121.61,
       "analyst_upside_pct": 4.2,
       "recommendation_key": "Buy",
-      "dividend_yield": 259.0,
+      "dividend_yield": 257.0,
       "promoter_holding": 70.1,
       "institutional_holding": 19.3,
       "public_holding": 10.6,
@@ -2749,7 +2749,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 259.00%"
+        "Attractive Dividend Yield: 257.00%"
       ],
       "events": [
         {
@@ -3141,7 +3141,7 @@ window.stockData = {
       "target_mean_price": 943.75,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 220.0,
+      "dividend_yield": 211.0,
       "promoter_holding": 64.8,
       "institutional_holding": 12.7,
       "public_holding": 22.5,
@@ -3178,7 +3178,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 220.00%"
+        "Attractive Dividend Yield: 211.00%"
       ],
       "events": [
         {
@@ -3214,7 +3214,7 @@ window.stockData = {
       "macd_signal": 10.82,
       "macd_hist": -12.82,
       "vol_surge_ratio": 0.5,
-      "pe_ratio": 2.77,
+      "pe_ratio": 2.83,
       "forward_pe": 38.28,
       "peg_ratio": 0.0,
       "pb_ratio": 7.86,
@@ -3714,7 +3714,7 @@ window.stockData = {
       "macd_signal": 0.11,
       "macd_hist": 0.21,
       "vol_surge_ratio": 0.46,
-      "pe_ratio": 19.76,
+      "pe_ratio": 19.35,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 1.29,
@@ -3897,7 +3897,7 @@ window.stockData = {
       "target_mean_price": 294.7,
       "analyst_upside_pct": 26.8,
       "recommendation_key": "None",
-      "dividend_yield": 620.0,
+      "dividend_yield": 611.0,
       "promoter_holding": 69.2,
       "institutional_holding": 22.7,
       "public_holding": 8.1,
@@ -3934,7 +3934,7 @@ window.stockData = {
         "YoY Profit up 21.4%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 620.00%"
+        "Attractive Dividend Yield: 611.00%"
       ],
       "events": [
         {
@@ -4219,6 +4219,83 @@ window.stockData = {
       ]
     },
     {
+      "symbol": "ATHERENERG.NS",
+      "clean_symbol": "ATHERENERG",
+      "name": "Ather Energy Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9942.25",
+      "current_price": 1656.0,
+      "prev_close": 1658.3,
+      "day_change_pct": -0.14,
+      "52w_high": 1744.0,
+      "52w_low": 529.2,
+      "pct_from_52w_high": -5.05,
+      "pct_from_52w_low": 212.93,
+      "sma_20": 1561.17,
+      "sma_50": 1411.05,
+      "sma_200": 955.11,
+      "rsi_14": 64.1,
+      "macd_val": 67.26,
+      "macd_signal": 72.9,
+      "macd_hist": -5.64,
+      "vol_surge_ratio": 0.96,
+      "pe_ratio": 0.0,
+      "forward_pe": 400.37,
+      "peg_ratio": 0.0,
+      "pb_ratio": 24.63,
+      "roe": 0.0,
+      "profit_margins": -9.2,
+      "operating_margins": -5.9,
+      "debt_to_equity": 0.26,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 88.8,
+      "earnings_growth_yoy": 0.0,
+      "q_sales_growth": 88.8,
+      "q_pat_growth": 0.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 1662.6,
+      "analyst_upside_pct": 0.4,
+      "recommendation_key": "Strong Buy",
+      "dividend_yield": 0.0,
+      "promoter_holding": 50.6,
+      "institutional_holding": 26.4,
+      "public_holding": 23.0,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 1747.49,
+      "sell_trigger_level": 1418.86,
+      "dist_from_prev_close": 5.38,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+88.8%)",
+        "Healthy Low Debt (D/E 0.26)",
+        "Trading Above 200-Day EMA Long-term Uptrend"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)"
+      ],
+      "fundamental_score": 15.0,
+      "technical_score": 32.0,
+      "composite_score": 50,
+      "long_term_signal": "HOLD",
+      "swing_signal": "RANGE CONSOLIDATION",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 1434.74,
+      "swing_target_1": 1963.3,
+      "swing_target_2": 2172.27,
+      "rationale": [
+        "YoY Revenue up 88.8%",
+        "Above 200-day EMA long-term uptrend"
+      ],
+      "corporate_actions": [],
+      "events": []
+    },
+    {
       "symbol": "BAJAJHFL.NS",
       "clean_symbol": "BAJAJHFL",
       "name": "Bajaj Housing Finance Ltd",
@@ -4367,83 +4444,6 @@ window.stockData = {
       "swing_target_1": 284.24,
       "swing_target_2": 302.44,
       "rationale": [
-        "Above 200-day EMA long-term uptrend"
-      ],
-      "corporate_actions": [],
-      "events": []
-    },
-    {
-      "symbol": "ATHERENERG.NS",
-      "clean_symbol": "ATHERENERG",
-      "name": "Ather Energy Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9942.25",
-      "current_price": 1656.0,
-      "prev_close": 1658.3,
-      "day_change_pct": -0.14,
-      "52w_high": 1744.0,
-      "52w_low": 529.2,
-      "pct_from_52w_high": -5.05,
-      "pct_from_52w_low": 212.93,
-      "sma_20": 1561.17,
-      "sma_50": 1411.05,
-      "sma_200": 955.11,
-      "rsi_14": 64.1,
-      "macd_val": 67.26,
-      "macd_signal": 72.9,
-      "macd_hist": -5.64,
-      "vol_surge_ratio": 0.96,
-      "pe_ratio": 0.0,
-      "forward_pe": 400.37,
-      "peg_ratio": 0.0,
-      "pb_ratio": 24.63,
-      "roe": 0.0,
-      "profit_margins": -9.2,
-      "operating_margins": -5.9,
-      "debt_to_equity": 0.26,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 88.8,
-      "earnings_growth_yoy": 0.0,
-      "q_sales_growth": 88.8,
-      "q_pat_growth": 0.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 1662.6,
-      "analyst_upside_pct": 0.4,
-      "recommendation_key": "Strong Buy",
-      "dividend_yield": 0.0,
-      "promoter_holding": 50.6,
-      "institutional_holding": 26.4,
-      "public_holding": 23.0,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 1747.49,
-      "sell_trigger_level": 1418.86,
-      "dist_from_prev_close": 5.38,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+88.8%)",
-        "Healthy Low Debt (D/E 0.26)",
-        "Trading Above 200-Day EMA Long-term Uptrend"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)"
-      ],
-      "fundamental_score": 15.0,
-      "technical_score": 32.0,
-      "composite_score": 50,
-      "long_term_signal": "HOLD",
-      "swing_signal": "RANGE CONSOLIDATION",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1434.74,
-      "swing_target_1": 1963.3,
-      "swing_target_2": 2172.27,
-      "rationale": [
-        "YoY Revenue up 88.8%",
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
@@ -5802,7 +5802,7 @@ window.stockData = {
       "macd_signal": 26.12,
       "macd_hist": -50.2,
       "vol_surge_ratio": 1.07,
-      "pe_ratio": 14.11,
+      "pe_ratio": 13.99,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 1.69,
@@ -6058,7 +6058,7 @@ window.stockData = {
       "macd_signal": -1.14,
       "macd_hist": -0.06,
       "vol_surge_ratio": 1.24,
-      "pe_ratio": 19.78,
+      "pe_ratio": 19.27,
       "forward_pe": 20.85,
       "peg_ratio": 0.35,
       "pb_ratio": 6.2,
@@ -7097,7 +7097,7 @@ window.stockData = {
       "target_mean_price": 37.93,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 28.0,
+      "dividend_yield": 27.0,
       "promoter_holding": 41.9,
       "institutional_holding": 1.1,
       "public_holding": 57.0,
@@ -7133,7 +7133,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 28.00%"
+        "Attractive Dividend Yield: 27.00%"
       ],
       "events": [
         {
@@ -7404,7 +7404,7 @@ window.stockData = {
       "macd_signal": -5.71,
       "macd_hist": -3.9,
       "vol_surge_ratio": 0.57,
-      "pe_ratio": 36.71,
+      "pe_ratio": 37.72,
       "forward_pe": 22.29,
       "peg_ratio": 0.0,
       "pb_ratio": 2.52,
@@ -7653,7 +7653,7 @@ window.stockData = {
       "macd_signal": 46.54,
       "macd_hist": -6.75,
       "vol_surge_ratio": 0.51,
-      "pe_ratio": 69.71,
+      "pe_ratio": 69.61,
       "forward_pe": 40.7,
       "peg_ratio": 0.0,
       "pb_ratio": 11.2,
@@ -7704,83 +7704,6 @@ window.stockData = {
       "swing_target_2": 1125.82,
       "rationale": [
         "YoY Revenue up 24.0%",
-        "Above 200-day EMA long-term uptrend"
-      ],
-      "corporate_actions": [],
-      "events": []
-    },
-    {
-      "symbol": "SPARC.NS",
-      "clean_symbol": "SPARC",
-      "name": "Sun Pharma Advanced Research Co Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9168.45",
-      "current_price": 196.01,
-      "prev_close": 196.91,
-      "day_change_pct": -0.46,
-      "52w_high": 289.0,
-      "52w_low": 108.0,
-      "pct_from_52w_high": -32.18,
-      "pct_from_52w_low": 81.49,
-      "sma_20": 198.34,
-      "sma_50": 215.6,
-      "sma_200": 170.25,
-      "rsi_14": 42.6,
-      "macd_val": -2.96,
-      "macd_signal": -3.8,
-      "macd_hist": 0.84,
-      "vol_surge_ratio": 0.54,
-      "pe_ratio": 4.09,
-      "forward_pe": 3.54,
-      "peg_ratio": 0.0,
-      "pb_ratio": 4.75,
-      "roe": 0.0,
-      "profit_margins": 83.0,
-      "operating_margins": -90.7,
-      "debt_to_equity": 0.42,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 314.1,
-      "earnings_growth_yoy": 0.0,
-      "q_sales_growth": 314.1,
-      "q_pat_growth": 0.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 196.01,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 0.0,
-      "promoter_holding": 75.1,
-      "institutional_holding": 1.8,
-      "public_holding": 23.1,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 210.32,
-      "sell_trigger_level": 191.5,
-      "dist_from_prev_close": 6.81,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+314.1%)",
-        "Healthy Low Debt (D/E 0.42)",
-        "Trading Above 200-Day EMA Long-term Uptrend"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)"
-      ],
-      "fundamental_score": 15.0,
-      "technical_score": 16.0,
-      "composite_score": 38,
-      "long_term_signal": "REDUCE",
-      "swing_signal": "NEUTRAL / WATCH",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 185.06,
-      "swing_target_1": 211.21,
-      "swing_target_2": 221.55,
-      "rationale": [
-        "YoY Revenue up 314.1%",
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
@@ -7877,6 +7800,83 @@ window.stockData = {
       ]
     },
     {
+      "symbol": "SPARC.NS",
+      "clean_symbol": "SPARC",
+      "name": "Sun Pharma Advanced Research Co Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9168.45",
+      "current_price": 196.01,
+      "prev_close": 196.91,
+      "day_change_pct": -0.46,
+      "52w_high": 289.0,
+      "52w_low": 108.0,
+      "pct_from_52w_high": -32.18,
+      "pct_from_52w_low": 81.49,
+      "sma_20": 198.34,
+      "sma_50": 215.6,
+      "sma_200": 170.25,
+      "rsi_14": 42.6,
+      "macd_val": -2.96,
+      "macd_signal": -3.8,
+      "macd_hist": 0.84,
+      "vol_surge_ratio": 0.54,
+      "pe_ratio": 4.09,
+      "forward_pe": 3.54,
+      "peg_ratio": 0.0,
+      "pb_ratio": 4.75,
+      "roe": 0.0,
+      "profit_margins": 83.0,
+      "operating_margins": -90.7,
+      "debt_to_equity": 0.42,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 314.1,
+      "earnings_growth_yoy": 0.0,
+      "q_sales_growth": 314.1,
+      "q_pat_growth": 0.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 196.01,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 0.0,
+      "promoter_holding": 75.1,
+      "institutional_holding": 1.8,
+      "public_holding": 23.1,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 210.32,
+      "sell_trigger_level": 191.5,
+      "dist_from_prev_close": 6.81,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+314.1%)",
+        "Healthy Low Debt (D/E 0.42)",
+        "Trading Above 200-Day EMA Long-term Uptrend"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)"
+      ],
+      "fundamental_score": 15.0,
+      "technical_score": 16.0,
+      "composite_score": 38,
+      "long_term_signal": "REDUCE",
+      "swing_signal": "NEUTRAL / WATCH",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 185.06,
+      "swing_target_1": 211.21,
+      "swing_target_2": 221.55,
+      "rationale": [
+        "YoY Revenue up 314.1%",
+        "Above 200-day EMA long-term uptrend"
+      ],
+      "corporate_actions": [],
+      "events": []
+    },
+    {
       "symbol": "BANCOINDIA.NS",
       "clean_symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
@@ -7915,7 +7915,7 @@ window.stockData = {
       "target_mean_price": 615.0,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 252.0,
+      "dividend_yield": 255.0,
       "promoter_holding": 70.0,
       "institutional_holding": 1.3,
       "public_holding": 28.7,
@@ -7951,7 +7951,7 @@ window.stockData = {
         "YoY Profit up 11.7%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 252.00%"
+        "Attractive Dividend Yield: 255.00%"
       ],
       "events": [
         {
@@ -8162,7 +8162,7 @@ window.stockData = {
       "target_mean_price": 380.0,
       "analyst_upside_pct": 30.1,
       "recommendation_key": "None",
-      "dividend_yield": 33.0,
+      "dividend_yield": 34.0,
       "promoter_holding": 72.7,
       "institutional_holding": 0.2,
       "public_holding": 27.1,
@@ -8197,7 +8197,7 @@ window.stockData = {
         "YoY Revenue up 34.5%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 33.00%"
+        "Attractive Dividend Yield: 34.00%"
       ],
       "events": [
         {
@@ -8782,7 +8782,7 @@ window.stockData = {
       "target_mean_price": 639.5,
       "analyst_upside_pct": -4.3,
       "recommendation_key": "Underperform",
-      "dividend_yield": 8.0,
+      "dividend_yield": 7.0,
       "promoter_holding": 43.6,
       "institutional_holding": 10.1,
       "public_holding": 46.3,
@@ -8818,7 +8818,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 8.00%"
+        "Attractive Dividend Yield: 7.00%"
       ],
       "events": [
         {
@@ -9014,95 +9014,6 @@ window.stockData = {
       ]
     },
     {
-      "symbol": "NHPC.NS",
-      "clean_symbol": "NHPC",
-      "name": "NHPC Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b977.87",
-      "current_price": 76.38,
-      "prev_close": 76.35,
-      "day_change_pct": 0.04,
-      "52w_high": 87.4,
-      "52w_low": 71.42,
-      "pct_from_52w_high": -12.61,
-      "pct_from_52w_low": 6.94,
-      "sma_20": 76.28,
-      "sma_50": 77.67,
-      "sma_200": 77.34,
-      "rsi_14": 47.8,
-      "macd_val": -0.34,
-      "macd_signal": -0.45,
-      "macd_hist": 0.11,
-      "vol_surge_ratio": 1.3,
-      "pe_ratio": 27.98,
-      "forward_pe": 11.93,
-      "peg_ratio": 0.0,
-      "pb_ratio": 1.86,
-      "roe": 0.0,
-      "profit_margins": 31.1,
-      "operating_margins": 46.0,
-      "debt_to_equity": 1.13,
-      "debt_status": "High Debt Warning",
-      "rev_growth_yoy": 18.5,
-      "earnings_growth_yoy": 2.8,
-      "q_sales_growth": 18.5,
-      "q_pat_growth": 2.8,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 86.0,
-      "analyst_upside_pct": 12.6,
-      "recommendation_key": "Hold",
-      "dividend_yield": 211.0,
-      "promoter_holding": 62.5,
-      "institutional_holding": 21.6,
-      "public_holding": 15.9,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 78.11,
-      "sell_trigger_level": 74.15,
-      "dist_from_prev_close": 2.31,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "Qtr Results (05 Nov)",
-      "strengths": [
-        "Strong YoY Sales Growth (+18.5%)"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)",
-        "High Debt Burden (D/E 1.13)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 3.0,
-      "technical_score": 17.0,
-      "composite_score": 32,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 75.07,
-      "swing_target_1": 78.19,
-      "swing_target_2": 79.43,
-      "rationale": [
-        "YoY Revenue up 18.5%",
-        "Warning: High debt level"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 211.00%"
-      ],
-      "events": [
-        {
-          "date": "2026-11-05",
-          "date_tag": "05 Nov",
-          "type": "Qtr Results",
-          "title": "Official Qtr Results Announced (05 Nov 2026)",
-          "summary": "Company officially announced quarterly results date on 05 Nov 2026.",
-          "impact": "High Volatility \u26a1",
-          "impact_reason": "Quarterly results announcement impacts stock trend."
-        }
-      ]
-    },
-    {
       "symbol": "LTF.NS",
       "clean_symbol": "LTF",
       "name": "L&T Finance Ltd",
@@ -9189,6 +9100,95 @@ window.stockData = {
           "type": "Qtr Results",
           "title": "Official Qtr Results Announced (14 Oct 2026)",
           "summary": "Company officially announced quarterly results date on 14 Oct 2026.",
+          "impact": "High Volatility \u26a1",
+          "impact_reason": "Quarterly results announcement impacts stock trend."
+        }
+      ]
+    },
+    {
+      "symbol": "NHPC.NS",
+      "clean_symbol": "NHPC",
+      "name": "NHPC Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b977.87",
+      "current_price": 76.38,
+      "prev_close": 76.35,
+      "day_change_pct": 0.04,
+      "52w_high": 87.4,
+      "52w_low": 71.42,
+      "pct_from_52w_high": -12.61,
+      "pct_from_52w_low": 6.94,
+      "sma_20": 76.28,
+      "sma_50": 77.67,
+      "sma_200": 77.34,
+      "rsi_14": 47.8,
+      "macd_val": -0.34,
+      "macd_signal": -0.45,
+      "macd_hist": 0.11,
+      "vol_surge_ratio": 1.3,
+      "pe_ratio": 27.98,
+      "forward_pe": 11.93,
+      "peg_ratio": 0.0,
+      "pb_ratio": 1.86,
+      "roe": 0.0,
+      "profit_margins": 31.1,
+      "operating_margins": 46.0,
+      "debt_to_equity": 1.13,
+      "debt_status": "High Debt Warning",
+      "rev_growth_yoy": 18.5,
+      "earnings_growth_yoy": 2.8,
+      "q_sales_growth": 18.5,
+      "q_pat_growth": 2.8,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 86.0,
+      "analyst_upside_pct": 12.6,
+      "recommendation_key": "Hold",
+      "dividend_yield": 211.0,
+      "promoter_holding": 62.5,
+      "institutional_holding": 21.6,
+      "public_holding": 15.9,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 78.11,
+      "sell_trigger_level": 74.15,
+      "dist_from_prev_close": 2.31,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "Qtr Results (05 Nov)",
+      "strengths": [
+        "Strong YoY Sales Growth (+18.5%)"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)",
+        "High Debt Burden (D/E 1.13)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 3.0,
+      "technical_score": 17.0,
+      "composite_score": 32,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 75.07,
+      "swing_target_1": 78.19,
+      "swing_target_2": 79.43,
+      "rationale": [
+        "YoY Revenue up 18.5%",
+        "Warning: High debt level"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 211.00%"
+      ],
+      "events": [
+        {
+          "date": "2026-11-05",
+          "date_tag": "05 Nov",
+          "type": "Qtr Results",
+          "title": "Official Qtr Results Announced (05 Nov 2026)",
+          "summary": "Company officially announced quarterly results date on 05 Nov 2026.",
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
@@ -9490,7 +9490,7 @@ window.stockData = {
       "target_mean_price": 80.34,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 252.0,
+      "dividend_yield": 249.0,
       "promoter_holding": 75.9,
       "institutional_holding": 0.0,
       "public_holding": 24.1,
@@ -9527,7 +9527,7 @@ window.stockData = {
         "Warning: High debt level"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 252.00%"
+        "Attractive Dividend Yield: 249.00%"
       ],
       "events": [
         {
@@ -9741,7 +9741,7 @@ window.stockData = {
       "macd_signal": -7.73,
       "macd_hist": 0.45,
       "vol_surge_ratio": 1.33,
-      "pe_ratio": 9.13,
+      "pe_ratio": 9.12,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 1.81,
@@ -10631,7 +10631,7 @@ window.stockData = {
       "macd_signal": 4.24,
       "macd_hist": -1.05,
       "vol_surge_ratio": 0.94,
-      "pe_ratio": 130.62,
+      "pe_ratio": 124.68,
       "forward_pe": 23.38,
       "peg_ratio": 0.0,
       "pb_ratio": 2.48,
@@ -10847,6 +10847,96 @@ window.stockData = {
       "events": []
     },
     {
+      "symbol": "NATCOPHARM.NS",
+      "clean_symbol": "NATCOPHARM",
+      "name": "Natco Pharma Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9943.84",
+      "current_price": 815.35,
+      "prev_close": 818.65,
+      "day_change_pct": -0.4,
+      "52w_high": 1224.73,
+      "52w_low": 784.91,
+      "pct_from_52w_high": -33.43,
+      "pct_from_52w_low": 3.88,
+      "sma_20": 857.2,
+      "sma_50": 905.76,
+      "sma_200": 946.93,
+      "rsi_14": 26.3,
+      "macd_val": -24.89,
+      "macd_signal": -22.38,
+      "macd_hist": -2.51,
+      "vol_surge_ratio": 1.16,
+      "pe_ratio": 12.88,
+      "forward_pe": 17.21,
+      "peg_ratio": 0.0,
+      "pb_ratio": 1.58,
+      "roe": 0.0,
+      "profit_margins": 32.8,
+      "operating_margins": 19.0,
+      "debt_to_equity": 0.08,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": -44.7,
+      "earnings_growth_yoy": -57.0,
+      "q_sales_growth": -44.7,
+      "q_pat_growth": -57.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 1004.44,
+      "analyst_upside_pct": 23.2,
+      "recommendation_key": "None",
+      "dividend_yield": 73.0,
+      "promoter_holding": 51.0,
+      "institutional_holding": 12.8,
+      "public_holding": 36.2,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 965.14,
+      "sell_trigger_level": 813.57,
+      "dist_from_prev_close": 17.89,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "Qtr Results (12 Nov)",
+      "strengths": [
+        "Healthy Low Debt (D/E 0.08)"
+      ],
+      "weaknesses": [
+        "Revenue Contracting YoY (-44.7%)",
+        "Earnings De-growth YoY (-57.0%)",
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline",
+        "RSI Weak Momentum (26.3)"
+      ],
+      "fundamental_score": 5.0,
+      "technical_score": 4.0,
+      "composite_score": 24,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "STOPLOSS / SELL",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 763.48,
+      "swing_target_1": 887.39,
+      "swing_target_2": 936.38,
+      "rationale": [
+        "Consolidation phase with neutral momentum"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 73.00%"
+      ],
+      "events": [
+        {
+          "date": "2026-11-12",
+          "date_tag": "12 Nov",
+          "type": "Qtr Results",
+          "title": "Official Qtr Results Announced (12 Nov 2026)",
+          "summary": "Company officially announced quarterly results date on 12 Nov 2026.",
+          "impact": "High Volatility \u26a1",
+          "impact_reason": "Quarterly results announcement impacts stock trend."
+        }
+      ]
+    },
+    {
       "symbol": "NMDC.NS",
       "clean_symbol": "NMDC",
       "name": "NMDC Ltd",
@@ -10939,96 +11029,6 @@ window.stockData = {
           "summary": "Company announced dividend payout ex-date.",
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
-        }
-      ]
-    },
-    {
-      "symbol": "NATCOPHARM.NS",
-      "clean_symbol": "NATCOPHARM",
-      "name": "Natco Pharma Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9943.84",
-      "current_price": 815.35,
-      "prev_close": 818.65,
-      "day_change_pct": -0.4,
-      "52w_high": 1224.73,
-      "52w_low": 784.91,
-      "pct_from_52w_high": -33.43,
-      "pct_from_52w_low": 3.88,
-      "sma_20": 857.2,
-      "sma_50": 905.76,
-      "sma_200": 946.93,
-      "rsi_14": 26.3,
-      "macd_val": -24.89,
-      "macd_signal": -22.38,
-      "macd_hist": -2.51,
-      "vol_surge_ratio": 1.16,
-      "pe_ratio": 12.88,
-      "forward_pe": 17.21,
-      "peg_ratio": 0.0,
-      "pb_ratio": 1.58,
-      "roe": 0.0,
-      "profit_margins": 32.8,
-      "operating_margins": 19.0,
-      "debt_to_equity": 0.08,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": -44.7,
-      "earnings_growth_yoy": -57.0,
-      "q_sales_growth": -44.7,
-      "q_pat_growth": -57.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 1004.44,
-      "analyst_upside_pct": 23.2,
-      "recommendation_key": "None",
-      "dividend_yield": 73.0,
-      "promoter_holding": 51.0,
-      "institutional_holding": 12.8,
-      "public_holding": 36.2,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 965.14,
-      "sell_trigger_level": 813.57,
-      "dist_from_prev_close": 17.89,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "Qtr Results (12 Nov)",
-      "strengths": [
-        "Healthy Low Debt (D/E 0.08)"
-      ],
-      "weaknesses": [
-        "Revenue Contracting YoY (-44.7%)",
-        "Earnings De-growth YoY (-57.0%)",
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline",
-        "RSI Weak Momentum (26.3)"
-      ],
-      "fundamental_score": 5.0,
-      "technical_score": 4.0,
-      "composite_score": 24,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 763.48,
-      "swing_target_1": 887.39,
-      "swing_target_2": 936.38,
-      "rationale": [
-        "Consolidation phase with neutral momentum"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 73.00%"
-      ],
-      "events": [
-        {
-          "date": "2026-11-12",
-          "date_tag": "12 Nov",
-          "type": "Qtr Results",
-          "title": "Official Qtr Results Announced (12 Nov 2026)",
-          "summary": "Company officially announced quarterly results date on 12 Nov 2026.",
-          "impact": "High Volatility \u26a1",
-          "impact_reason": "Quarterly results announcement impacts stock trend."
         }
       ]
     },
@@ -11222,7 +11222,7 @@ window.stockData = {
       "macd_signal": -4.24,
       "macd_hist": 1.1,
       "vol_surge_ratio": 0.46,
-      "pe_ratio": 30.49,
+      "pe_ratio": 30.21,
       "forward_pe": 21.83,
       "peg_ratio": 0.0,
       "pb_ratio": 2.95,
@@ -11328,7 +11328,7 @@ window.stockData = {
       "target_mean_price": 2246.5,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 156.0,
+      "dividend_yield": 157.0,
       "promoter_holding": 35.9,
       "institutional_holding": 16.6,
       "public_holding": 47.5,
@@ -11364,7 +11364,7 @@ window.stockData = {
         "YoY Revenue up 17.7%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 156.00%"
+        "Attractive Dividend Yield: 157.00%"
       ],
       "events": []
     },
@@ -12205,7 +12205,7 @@ window.stockData = {
       "macd_signal": -3.89,
       "macd_hist": -0.9,
       "vol_surge_ratio": 0.82,
-      "pe_ratio": 15.16,
+      "pe_ratio": 14.71,
       "forward_pe": 4.29,
       "peg_ratio": 0.0,
       "pb_ratio": 2.4,
@@ -12378,7 +12378,7 @@ window.stockData = {
       "target_mean_price": 54.15,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 90.0,
+      "dividend_yield": 92.0,
       "promoter_holding": 34.5,
       "institutional_holding": 1.0,
       "public_holding": 64.5,
@@ -12414,7 +12414,7 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 90.00%"
+        "Attractive Dividend Yield: 92.00%"
       ],
       "events": []
     },
@@ -12457,7 +12457,7 @@ window.stockData = {
       "target_mean_price": 60.0,
       "analyst_upside_pct": -26.0,
       "recommendation_key": "None",
-      "dividend_yield": 356.0,
+      "dividend_yield": 358.0,
       "promoter_holding": 82.9,
       "institutional_holding": 4.8,
       "public_holding": 12.3,
@@ -12494,7 +12494,7 @@ window.stockData = {
         "Warning: High debt level"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 356.00%"
+        "Attractive Dividend Yield: 358.00%"
       ],
       "events": [
         {
@@ -12850,7 +12850,7 @@ window.stockData = {
       "target_mean_price": 710.75,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 48.0,
+      "dividend_yield": 49.0,
       "promoter_holding": 48.3,
       "institutional_holding": 0.6,
       "public_holding": 51.1,
@@ -12887,7 +12887,7 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 48.00%"
+        "Attractive Dividend Yield: 49.00%"
       ],
       "events": []
     },
