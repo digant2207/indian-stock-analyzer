@@ -2,7 +2,7 @@ window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
   "overall_win_rate": 28.0,
-  "overall_avg_return_per_trade": -1.87,
+  "overall_avg_return_per_trade": -1.86,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -72,7 +72,7 @@ window.backtestData = {
       "symbol": "BAJAJHLDNG.NS",
       "total_trades": 6,
       "win_rate": 33.3,
-      "avg_return": -1.42,
+      "avg_return": -1.3,
       "total_wins": 2,
       "total_losses": 4
     },
