@@ -1,8 +1,8 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 28.0,
-  "overall_avg_return_per_trade": -1.86,
+  "overall_win_rate": 27.8,
+  "overall_avg_return_per_trade": -1.89,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -72,7 +72,7 @@
       "symbol": "BAJAJHLDNG.NS",
       "total_trades": 6,
       "win_rate": 33.3,
-      "avg_return": -1.19,
+      "avg_return": -1.18,
       "total_wins": 2,
       "total_losses": 4
     },
@@ -110,11 +110,11 @@
     },
     {
       "symbol": "BLUEJET.NS",
-      "total_trades": 9,
-      "win_rate": 55.6,
-      "avg_return": 1.69,
+      "total_trades": 10,
+      "win_rate": 50.0,
+      "avg_return": 0.93,
       "total_wins": 5,
-      "total_losses": 4
+      "total_losses": 5
     },
     {
       "symbol": "BOROLTD.NS",
