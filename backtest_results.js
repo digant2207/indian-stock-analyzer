@@ -72,7 +72,7 @@ window.backtestData = {
       "symbol": "BAJAJHLDNG.NS",
       "total_trades": 6,
       "win_rate": 33.3,
-      "avg_return": -1.28,
+      "avg_return": -1.31,
       "total_wins": 2,
       "total_losses": 4
     },
