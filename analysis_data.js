@@ -6,7 +6,12 @@ window.stockData = {
     "swing_breakouts_count": 7,
     "intraday_setups_count": 11,
     "high_debt_warnings": 15,
-    "breakouts_done_today": 4
+    "breakouts_done_today": 4,
+    "wyckoff_accumulation_count": 6,
+    "wyckoff_markup_count": 0,
+    "wyckoff_phase_c_springs": 0,
+    "wyckoff_phase_d_breakouts": 6,
+    "wyckoff_distribution_count": 49
   },
   "top_15_stocks": [
     {
@@ -96,6 +101,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_creek": 136.14,
+      "wyckoff_ice": 117.15,
+      "wyckoff_breakout": 136.41,
+      "wyckoff_dist_to_breakout_pct": 0.7,
+      "wyckoff_stoploss": 118.32,
+      "wyckoff_stoploss_pct": 12.65,
+      "wyckoff_target_1": 155.13,
+      "wyckoff_target_2": 174.12,
+      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_rationale": [
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9136.14).",
+        "Volume surge 4.1x confirms institutional demand absorption.",
+        "Cause of 18.99 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -177,7 +199,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 411.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Last Point of Support (LPS / Backup)",
+      "wyckoff_creek": 1429.75,
+      "wyckoff_ice": 1258.48,
+      "wyckoff_breakout": 1436.9,
+      "wyckoff_dist_to_breakout_pct": 1.75,
+      "wyckoff_stoploss": 1283.65,
+      "wyckoff_stoploss_pct": 9.1,
+      "wyckoff_target_1": 1601.02,
+      "wyckoff_target_2": 1772.29,
+      "wyckoff_signal": "LPS PULLBACK BUY",
+      "wyckoff_rationale": [
+        "Last Point of Support (LPS) successfully holding above Creek (\u20b91429.75).",
+        "Low-volume pullback demonstrates floating supply is exhausted.",
+        "Prime Wyckoff low-risk entry before Phase E markup acceleration."
+      ]
     },
     {
       "symbol": "KROSS.NS",
@@ -259,7 +298,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase A",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Stopping Climax & Secondary Test",
+      "wyckoff_creek": 241.28,
+      "wyckoff_ice": 196.61,
+      "wyckoff_breakout": 241.28,
+      "wyckoff_dist_to_breakout_pct": 0.92,
+      "wyckoff_stoploss": 246.11,
+      "wyckoff_stoploss_pct": -2.94,
+      "wyckoff_target_1": 285.95,
+      "wyckoff_target_2": 330.62,
+      "wyckoff_signal": "CLIMAX WATCH",
+      "wyckoff_rationale": [
+        "Phase A Stopping Action: Climactic volume surge (2.4x vol).",
+        "Automatic reaction establishes Trading Range between \u20b9196.61 and \u20b9241.28.",
+        "Wait for Phase B cause development before initiating trades."
+      ]
     },
     {
       "symbol": "YESBANK.NS",
@@ -349,6 +405,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_creek": 23.6,
+      "wyckoff_ice": 21.78,
+      "wyckoff_breakout": 23.65,
+      "wyckoff_dist_to_breakout_pct": 0.72,
+      "wyckoff_stoploss": 22.0,
+      "wyckoff_stoploss_pct": 6.3,
+      "wyckoff_target_1": 25.42,
+      "wyckoff_target_2": 27.24,
+      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_rationale": [
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b923.6).",
+        "Volume surge 4.0x confirms institutional demand absorption.",
+        "Cause of 1.82 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -430,7 +503,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 209.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 103.91,
+      "wyckoff_ice": 82.94,
+      "wyckoff_breakout": 103.91,
+      "wyckoff_dist_to_breakout_pct": 11.47,
+      "wyckoff_stoploss": 81.28,
+      "wyckoff_stoploss_pct": 12.81,
+      "wyckoff_target_1": 124.88,
+      "wyckoff_target_2": 145.85,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b982.94 (Ice) to \u20b9103.91 (Creek).",
+        "Consolidation inside 20.97 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "GPPL.NS",
@@ -511,7 +601,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 616.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 169.0,
+      "wyckoff_ice": 146.53,
+      "wyckoff_breakout": 169.0,
+      "wyckoff_dist_to_breakout_pct": 4.76,
+      "wyckoff_stoploss": 143.6,
+      "wyckoff_stoploss_pct": 10.98,
+      "wyckoff_target_1": 191.47,
+      "wyckoff_target_2": 213.94,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9146.53 (Ice) to \u20b9169.0 (Creek).",
+        "Consolidation inside 22.47 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "OIL.NS",
@@ -601,6 +708,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 515.48,
+      "wyckoff_ice": 456.85,
+      "wyckoff_breakout": 515.48,
+      "wyckoff_dist_to_breakout_pct": 5.24,
+      "wyckoff_stoploss": 447.71,
+      "wyckoff_stoploss_pct": 8.59,
+      "wyckoff_target_1": 574.11,
+      "wyckoff_target_2": 632.74,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9456.85 (Ice) to \u20b9515.48 (Creek).",
+        "Consolidation inside 58.63 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -692,6 +816,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 404.06,
+      "wyckoff_ice": 322.05,
+      "wyckoff_breakout": 404.06,
+      "wyckoff_dist_to_breakout_pct": 2.63,
+      "wyckoff_stoploss": 315.61,
+      "wyckoff_stoploss_pct": 19.83,
+      "wyckoff_target_1": 486.07,
+      "wyckoff_target_2": 568.08,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9322.05 (Ice) to \u20b9404.06 (Creek).",
+        "Consolidation inside 82.01 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -773,7 +914,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 72.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 851.8,
+      "wyckoff_ice": 665.62,
+      "wyckoff_breakout": 851.8,
+      "wyckoff_dist_to_breakout_pct": 18.92,
+      "wyckoff_stoploss": 652.31,
+      "wyckoff_stoploss_pct": 8.93,
+      "wyckoff_target_1": 1037.98,
+      "wyckoff_target_2": 1224.16,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9665.62 (Ice) to \u20b9851.8 (Creek).",
+        "Consolidation inside 186.18 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "IKIO.NS",
@@ -852,7 +1010,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 235.47,
+      "wyckoff_ice": 184.63,
+      "wyckoff_breakout": 235.47,
+      "wyckoff_dist_to_breakout_pct": 5.18,
+      "wyckoff_stoploss": 180.94,
+      "wyckoff_stoploss_pct": 19.18,
+      "wyckoff_target_1": 286.31,
+      "wyckoff_target_2": 337.15,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9184.63 (Ice) to \u20b9235.47 (Creek).",
+        "Consolidation inside 50.84 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "NYKAA.NS",
@@ -942,6 +1117,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Last Point of Support (LPS / Backup)",
+      "wyckoff_creek": 350.25,
+      "wyckoff_ice": 319.66,
+      "wyckoff_breakout": 352.0,
+      "wyckoff_dist_to_breakout_pct": 2.18,
+      "wyckoff_stoploss": 326.05,
+      "wyckoff_stoploss_pct": 5.36,
+      "wyckoff_target_1": 380.84,
+      "wyckoff_target_2": 411.43,
+      "wyckoff_signal": "LPS PULLBACK BUY",
+      "wyckoff_rationale": [
+        "Last Point of Support (LPS) successfully holding above Creek (\u20b9350.25).",
+        "Low-volume pullback demonstrates floating supply is exhausted.",
+        "Prime Wyckoff low-risk entry before Phase E markup acceleration."
       ]
     },
     {
@@ -1023,7 +1215,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 591.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 228.66,
+      "wyckoff_ice": 183.64,
+      "wyckoff_breakout": 228.66,
+      "wyckoff_dist_to_breakout_pct": 5.26,
+      "wyckoff_stoploss": 179.97,
+      "wyckoff_stoploss_pct": 17.15,
+      "wyckoff_target_1": 273.68,
+      "wyckoff_target_2": 318.7,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9183.64 (Ice) to \u20b9228.66 (Creek).",
+        "Consolidation inside 45.02 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "PNB.NS",
@@ -1112,6 +1321,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 119.34,
+      "wyckoff_ice": 112.93,
+      "wyckoff_breakout": 119.34,
+      "wyckoff_dist_to_breakout_pct": 2.22,
+      "wyckoff_stoploss": 110.67,
+      "wyckoff_stoploss_pct": 5.21,
+      "wyckoff_target_1": 125.75,
+      "wyckoff_target_2": 132.16,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9112.93 (Ice) to \u20b9119.34 (Creek).",
+        "Consolidation inside 6.41 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -1192,7 +1418,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 114.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1442.88,
+      "wyckoff_ice": 1069.86,
+      "wyckoff_breakout": 1442.88,
+      "wyckoff_dist_to_breakout_pct": 6.09,
+      "wyckoff_stoploss": 1048.46,
+      "wyckoff_stoploss_pct": 22.91,
+      "wyckoff_target_1": 1815.9,
+      "wyckoff_target_2": 2188.92,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91069.86 (Ice) to \u20b91442.88 (Creek).",
+        "Consolidation inside 373.02 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "STAR.NS",
@@ -1271,237 +1514,119 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 41.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1225.45,
+      "wyckoff_ice": 929.44,
+      "wyckoff_breakout": 1225.45,
+      "wyckoff_dist_to_breakout_pct": 3.55,
+      "wyckoff_stoploss": 910.85,
+      "wyckoff_stoploss_pct": 23.03,
+      "wyckoff_target_1": 1521.46,
+      "wyckoff_target_2": 1817.47,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9929.44 (Ice) to \u20b91225.45 (Creek).",
+        "Consolidation inside 296.01 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     }
   ],
   "worst_5_stocks": [
     {
-      "symbol": "VIRINCHI.NS",
-      "clean_symbol": "VIRINCHI",
-      "name": "Virinchi Ltd",
+      "symbol": "ZENITHEXPO.NS",
+      "clean_symbol": "ZENITHEXPO",
+      "name": "Zenith Exports Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b918.39",
-      "current_price": 14.25,
-      "prev_close": 14.16,
-      "day_change_pct": 0.64,
-      "52w_high": 32.69,
-      "52w_low": 13.75,
-      "pct_from_52w_high": -56.41,
-      "pct_from_52w_low": 3.64,
-      "sma_20": 14.81,
-      "sma_50": 15.27,
-      "sma_200": 18.12,
-      "rsi_14": 37.5,
-      "macd_val": -0.33,
-      "macd_signal": -0.27,
-      "macd_hist": -0.06,
-      "vol_surge_ratio": 0.42,
-      "pe_ratio": 0.0,
+      "tracking_notes": "Spark Sheet: \u20b9208.44",
+      "current_price": 205.0,
+      "prev_close": 204.98,
+      "day_change_pct": 0.01,
+      "52w_high": 300.0,
+      "52w_low": 174.0,
+      "pct_from_52w_high": -31.67,
+      "pct_from_52w_low": 17.82,
+      "sma_20": 206.97,
+      "sma_50": 205.87,
+      "sma_200": 207.81,
+      "rsi_14": 47.9,
+      "macd_val": -1.2,
+      "macd_signal": -0.25,
+      "macd_hist": -0.95,
+      "vol_surge_ratio": 0.05,
+      "pe_ratio": 386.79,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 0.31,
+      "pb_ratio": 1.31,
       "roe": 0.0,
-      "profit_margins": -9.5,
-      "operating_margins": 2.0,
-      "debt_to_equity": 0.57,
-      "debt_status": "Moderate Debt",
-      "rev_growth_yoy": -12.0,
-      "earnings_growth_yoy": 0.0,
-      "q_sales_growth": -12.0,
-      "q_pat_growth": 0.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 14.25,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 0.0,
-      "promoter_holding": 43.5,
-      "institutional_holding": 0.0,
-      "public_holding": 56.5,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 16.03,
-      "sell_trigger_level": 13.72,
-      "dist_from_prev_close": 13.21,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Stable Price Consolidation"
-      ],
-      "weaknesses": [
-        "Revenue Contracting YoY (-12.0%)",
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 0.0,
-      "technical_score": 0.0,
-      "composite_score": 0,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 13.07,
-      "swing_target_1": 15.88,
-      "swing_target_2": 16.99,
-      "rationale": [
-        "Consolidation phase with neutral momentum"
-      ],
-      "corporate_actions": [],
-      "events": []
-    },
-    {
-      "symbol": "SIMBHALS.NS",
-      "clean_symbol": "SIMBHALS",
-      "name": "Simbhaoli Sugars Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b98.34",
-      "current_price": 7.07,
-      "prev_close": 7.21,
-      "day_change_pct": -1.94,
-      "52w_high": 14.95,
-      "52w_low": 6.47,
-      "pct_from_52w_high": -52.71,
-      "pct_from_52w_low": 9.27,
-      "sma_20": 7.92,
-      "sma_50": 7.31,
-      "sma_200": 8.38,
-      "rsi_14": 37.7,
-      "macd_val": 0.02,
-      "macd_signal": 0.21,
-      "macd_hist": -0.18,
-      "vol_surge_ratio": 0.2,
-      "pe_ratio": 0.0,
-      "forward_pe": 0.0,
-      "peg_ratio": 0.0,
-      "pb_ratio": -0.17,
-      "roe": 0.0,
-      "profit_margins": -7.1,
-      "operating_margins": -17.2,
-      "debt_to_equity": 0.0,
-      "debt_status": "Zero Debt",
-      "rev_growth_yoy": -34.3,
-      "earnings_growth_yoy": 0.0,
-      "q_sales_growth": -34.3,
-      "q_pat_growth": 0.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 7.07,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 0.0,
-      "promoter_holding": 60.3,
-      "institutional_holding": 0.0,
-      "public_holding": 39.7,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": false,
-      "is_20d_low_breakdown": false,
-      "is_52w_high_breakout": false,
-      "is_52w_low_breakdown": false,
-      "buy_trigger_level": 9.32,
-      "sell_trigger_level": 6.74,
-      "dist_from_prev_close": 29.26,
-      "is_breakout_done_today": false,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Zero Debt Balance Sheet"
-      ],
-      "weaknesses": [
-        "Revenue Contracting YoY (-34.3%)",
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 5.0,
-      "technical_score": 0.0,
-      "composite_score": 5,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 5.33,
-      "swing_target_1": 9.49,
-      "swing_target_2": 11.13,
-      "rationale": [
-        "Consolidation phase with neutral momentum"
-      ],
-      "corporate_actions": [],
-      "events": []
-    },
-    {
-      "symbol": "SADHNANIQ.NS",
-      "clean_symbol": "SADHNANIQ",
-      "name": "Sadhana Nitro Chem Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b92.22",
-      "current_price": 2.84,
-      "prev_close": 2.86,
-      "day_change_pct": -0.7,
-      "52w_high": 11.3,
-      "52w_low": 1.27,
-      "pct_from_52w_high": -74.87,
-      "pct_from_52w_low": 123.62,
-      "sma_20": 2.88,
-      "sma_50": 2.84,
-      "sma_200": 3.47,
-      "rsi_14": 49.0,
-      "macd_val": -0.03,
-      "macd_signal": -0.02,
-      "macd_hist": -0.01,
-      "vol_surge_ratio": 0.47,
-      "pe_ratio": 0.0,
-      "forward_pe": 0.0,
-      "peg_ratio": 0.0,
-      "pb_ratio": 0.27,
-      "roe": 0.0,
-      "profit_margins": -173.9,
-      "operating_margins": -2.2,
-      "debt_to_equity": 0.25,
+      "profit_margins": 0.5,
+      "operating_margins": -12.2,
+      "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": -3.1,
+      "rev_growth_yoy": -24.6,
       "earnings_growth_yoy": 0.0,
-      "q_sales_growth": -3.1,
+      "q_sales_growth": -24.6,
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 2.84,
+      "target_mean_price": 205.0,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
-      "promoter_holding": 67.5,
+      "promoter_holding": 91.5,
       "institutional_holding": 0.0,
-      "public_holding": 32.5,
+      "public_holding": 8.5,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": false,
       "is_20d_low_breakdown": false,
       "is_52w_high_breakout": false,
       "is_52w_low_breakdown": false,
-      "buy_trigger_level": 3.21,
-      "sell_trigger_level": 2.66,
-      "dist_from_prev_close": 12.24,
+      "buy_trigger_level": 233.87,
+      "sell_trigger_level": 191.62,
+      "dist_from_prev_close": 14.09,
       "is_breakout_done_today": false,
       "upcoming_event_str": "None",
       "strengths": [
-        "Healthy Low Debt (D/E 0.25)"
+        "Healthy Low Debt (D/E 0.03)"
       ],
       "weaknesses": [
-        "Revenue Contracting YoY (-3.1%)",
+        "Revenue Contracting YoY (-24.6%)",
         "Weak Return on Capital (0.0% ROE)",
         "Trading Below 200-Day EMA Trendline"
       ],
       "fundamental_score": 5.0,
       "technical_score": 3.0,
-      "composite_score": 8,
+      "composite_score": 10,
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 2.61,
-      "swing_target_1": 3.15,
-      "swing_target_2": 3.37,
+      "swing_stoploss": 189.11,
+      "swing_target_1": 227.07,
+      "swing_target_2": 242.07,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 233.87,
+      "wyckoff_ice": 191.62,
+      "wyckoff_breakout": 233.87,
+      "wyckoff_dist_to_breakout_pct": 14.08,
+      "wyckoff_stoploss": 187.79,
+      "wyckoff_stoploss_pct": 8.4,
+      "wyckoff_target_1": 276.12,
+      "wyckoff_target_2": 318.37,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9191.62 (Ice) to \u20b9233.87 (Creek).",
+        "Consolidation inside 42.25 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ONMOBILE.NS",
@@ -1578,83 +1703,303 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 64.44,
+      "wyckoff_ice": 46.06,
+      "wyckoff_breakout": 64.44,
+      "wyckoff_dist_to_breakout_pct": 37.11,
+      "wyckoff_stoploss": 45.14,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 82.82,
+      "wyckoff_target_2": 101.2,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b946.06 (Ice) to \u20b964.44 (Creek).",
+        "Consolidation inside 18.38 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
-      "symbol": "ZENITHEXPO.NS",
-      "clean_symbol": "ZENITHEXPO",
-      "name": "Zenith Exports Ltd",
+      "symbol": "SADHNANIQ.NS",
+      "clean_symbol": "SADHNANIQ",
+      "name": "Sadhana Nitro Chem Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9208.44",
-      "current_price": 205.0,
-      "prev_close": 204.98,
-      "day_change_pct": 0.01,
-      "52w_high": 300.0,
-      "52w_low": 174.0,
-      "pct_from_52w_high": -31.67,
-      "pct_from_52w_low": 17.82,
-      "sma_20": 206.97,
-      "sma_50": 205.87,
-      "sma_200": 207.81,
-      "rsi_14": 47.9,
-      "macd_val": -1.2,
-      "macd_signal": -0.25,
-      "macd_hist": -0.95,
-      "vol_surge_ratio": 0.05,
-      "pe_ratio": 386.79,
+      "tracking_notes": "Spark Sheet: \u20b92.22",
+      "current_price": 2.84,
+      "prev_close": 2.86,
+      "day_change_pct": -0.7,
+      "52w_high": 11.3,
+      "52w_low": 1.27,
+      "pct_from_52w_high": -74.87,
+      "pct_from_52w_low": 123.62,
+      "sma_20": 2.88,
+      "sma_50": 2.84,
+      "sma_200": 3.47,
+      "rsi_14": 49.0,
+      "macd_val": -0.03,
+      "macd_signal": -0.02,
+      "macd_hist": -0.01,
+      "vol_surge_ratio": 0.47,
+      "pe_ratio": 0.0,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 1.31,
+      "pb_ratio": 0.27,
       "roe": 0.0,
-      "profit_margins": 0.5,
-      "operating_margins": -12.2,
-      "debt_to_equity": 0.03,
+      "profit_margins": -173.9,
+      "operating_margins": -2.2,
+      "debt_to_equity": 0.25,
       "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": -24.6,
+      "rev_growth_yoy": -3.1,
       "earnings_growth_yoy": 0.0,
-      "q_sales_growth": -24.6,
+      "q_sales_growth": -3.1,
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 205.0,
+      "target_mean_price": 2.84,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
-      "promoter_holding": 91.5,
+      "promoter_holding": 67.5,
       "institutional_holding": 0.0,
-      "public_holding": 8.5,
+      "public_holding": 32.5,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": false,
       "is_20d_low_breakdown": false,
       "is_52w_high_breakout": false,
       "is_52w_low_breakdown": false,
-      "buy_trigger_level": 233.87,
-      "sell_trigger_level": 191.62,
-      "dist_from_prev_close": 14.09,
+      "buy_trigger_level": 3.21,
+      "sell_trigger_level": 2.66,
+      "dist_from_prev_close": 12.24,
       "is_breakout_done_today": false,
       "upcoming_event_str": "None",
       "strengths": [
-        "Healthy Low Debt (D/E 0.03)"
+        "Healthy Low Debt (D/E 0.25)"
       ],
       "weaknesses": [
-        "Revenue Contracting YoY (-24.6%)",
+        "Revenue Contracting YoY (-3.1%)",
         "Weak Return on Capital (0.0% ROE)",
         "Trading Below 200-Day EMA Trendline"
       ],
       "fundamental_score": 5.0,
       "technical_score": 3.0,
-      "composite_score": 10,
+      "composite_score": 8,
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 189.11,
-      "swing_target_1": 227.07,
-      "swing_target_2": 242.07,
+      "swing_stoploss": 2.61,
+      "swing_target_1": 3.15,
+      "swing_target_2": 3.37,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 3.21,
+      "wyckoff_ice": 2.66,
+      "wyckoff_breakout": 3.21,
+      "wyckoff_dist_to_breakout_pct": 13.03,
+      "wyckoff_stoploss": 2.61,
+      "wyckoff_stoploss_pct": 8.1,
+      "wyckoff_target_1": 3.76,
+      "wyckoff_target_2": 4.31,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b92.66 (Ice) to \u20b93.21 (Creek).",
+        "Consolidation inside 0.55 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "SIMBHALS.NS",
+      "clean_symbol": "SIMBHALS",
+      "name": "Simbhaoli Sugars Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b98.34",
+      "current_price": 7.07,
+      "prev_close": 7.21,
+      "day_change_pct": -1.94,
+      "52w_high": 14.95,
+      "52w_low": 6.47,
+      "pct_from_52w_high": -52.71,
+      "pct_from_52w_low": 9.27,
+      "sma_20": 7.92,
+      "sma_50": 7.31,
+      "sma_200": 8.38,
+      "rsi_14": 37.7,
+      "macd_val": 0.02,
+      "macd_signal": 0.21,
+      "macd_hist": -0.18,
+      "vol_surge_ratio": 0.2,
+      "pe_ratio": 0.0,
+      "forward_pe": 0.0,
+      "peg_ratio": 0.0,
+      "pb_ratio": -0.17,
+      "roe": 0.0,
+      "profit_margins": -7.1,
+      "operating_margins": -17.2,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "rev_growth_yoy": -34.3,
+      "earnings_growth_yoy": 0.0,
+      "q_sales_growth": -34.3,
+      "q_pat_growth": 0.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 7.07,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 0.0,
+      "promoter_holding": 60.3,
+      "institutional_holding": 0.0,
+      "public_holding": 39.7,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 9.32,
+      "sell_trigger_level": 6.74,
+      "dist_from_prev_close": 29.26,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Zero Debt Balance Sheet"
+      ],
+      "weaknesses": [
+        "Revenue Contracting YoY (-34.3%)",
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 5.0,
+      "technical_score": 0.0,
+      "composite_score": 5,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "STOPLOSS / SELL",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 5.33,
+      "swing_target_1": 9.49,
+      "swing_target_2": 11.13,
+      "rationale": [
+        "Consolidation phase with neutral momentum"
+      ],
+      "corporate_actions": [],
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 9.32,
+      "wyckoff_ice": 6.74,
+      "wyckoff_breakout": 9.32,
+      "wyckoff_dist_to_breakout_pct": 31.82,
+      "wyckoff_stoploss": 6.61,
+      "wyckoff_stoploss_pct": 6.51,
+      "wyckoff_target_1": 11.9,
+      "wyckoff_target_2": 14.48,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b96.74 (Ice) to \u20b99.32 (Creek).",
+        "Consolidation inside 2.58 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "VIRINCHI.NS",
+      "clean_symbol": "VIRINCHI",
+      "name": "Virinchi Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b918.39",
+      "current_price": 14.25,
+      "prev_close": 14.16,
+      "day_change_pct": 0.64,
+      "52w_high": 32.69,
+      "52w_low": 13.75,
+      "pct_from_52w_high": -56.41,
+      "pct_from_52w_low": 3.64,
+      "sma_20": 14.81,
+      "sma_50": 15.27,
+      "sma_200": 18.12,
+      "rsi_14": 37.5,
+      "macd_val": -0.33,
+      "macd_signal": -0.27,
+      "macd_hist": -0.06,
+      "vol_surge_ratio": 0.42,
+      "pe_ratio": 0.0,
+      "forward_pe": 0.0,
+      "peg_ratio": 0.0,
+      "pb_ratio": 0.31,
+      "roe": 0.0,
+      "profit_margins": -9.5,
+      "operating_margins": 2.0,
+      "debt_to_equity": 0.57,
+      "debt_status": "Moderate Debt",
+      "rev_growth_yoy": -12.0,
+      "earnings_growth_yoy": 0.0,
+      "q_sales_growth": -12.0,
+      "q_pat_growth": 0.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 14.25,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 0.0,
+      "promoter_holding": 43.5,
+      "institutional_holding": 0.0,
+      "public_holding": 56.5,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": false,
+      "is_20d_low_breakdown": false,
+      "is_52w_high_breakout": false,
+      "is_52w_low_breakdown": false,
+      "buy_trigger_level": 16.03,
+      "sell_trigger_level": 13.72,
+      "dist_from_prev_close": 13.21,
+      "is_breakout_done_today": false,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Stable Price Consolidation"
+      ],
+      "weaknesses": [
+        "Revenue Contracting YoY (-12.0%)",
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 0.0,
+      "technical_score": 0.0,
+      "composite_score": 0,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "STOPLOSS / SELL",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 13.07,
+      "swing_target_1": 15.88,
+      "swing_target_2": 16.99,
+      "rationale": [
+        "Consolidation phase with neutral momentum"
+      ],
+      "corporate_actions": [],
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 16.03,
+      "wyckoff_ice": 13.72,
+      "wyckoff_breakout": 16.03,
+      "wyckoff_dist_to_breakout_pct": 12.49,
+      "wyckoff_stoploss": 13.45,
+      "wyckoff_stoploss_pct": 5.61,
+      "wyckoff_target_1": 18.34,
+      "wyckoff_target_2": 20.65,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b913.72 (Ice) to \u20b916.03 (Creek).",
+        "Consolidation inside 2.31 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     }
   ],
   "all_stocks": [
@@ -1745,6 +2090,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_creek": 136.14,
+      "wyckoff_ice": 117.15,
+      "wyckoff_breakout": 136.41,
+      "wyckoff_dist_to_breakout_pct": 0.7,
+      "wyckoff_stoploss": 118.32,
+      "wyckoff_stoploss_pct": 12.65,
+      "wyckoff_target_1": 155.13,
+      "wyckoff_target_2": 174.12,
+      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_rationale": [
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9136.14).",
+        "Volume surge 4.1x confirms institutional demand absorption.",
+        "Cause of 18.99 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -1826,7 +2188,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 411.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Last Point of Support (LPS / Backup)",
+      "wyckoff_creek": 1429.75,
+      "wyckoff_ice": 1258.48,
+      "wyckoff_breakout": 1436.9,
+      "wyckoff_dist_to_breakout_pct": 1.75,
+      "wyckoff_stoploss": 1283.65,
+      "wyckoff_stoploss_pct": 9.1,
+      "wyckoff_target_1": 1601.02,
+      "wyckoff_target_2": 1772.29,
+      "wyckoff_signal": "LPS PULLBACK BUY",
+      "wyckoff_rationale": [
+        "Last Point of Support (LPS) successfully holding above Creek (\u20b91429.75).",
+        "Low-volume pullback demonstrates floating supply is exhausted.",
+        "Prime Wyckoff low-risk entry before Phase E markup acceleration."
+      ]
     },
     {
       "symbol": "KROSS.NS",
@@ -1908,7 +2287,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase A",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Stopping Climax & Secondary Test",
+      "wyckoff_creek": 241.28,
+      "wyckoff_ice": 196.61,
+      "wyckoff_breakout": 241.28,
+      "wyckoff_dist_to_breakout_pct": 0.92,
+      "wyckoff_stoploss": 246.11,
+      "wyckoff_stoploss_pct": -2.94,
+      "wyckoff_target_1": 285.95,
+      "wyckoff_target_2": 330.62,
+      "wyckoff_signal": "CLIMAX WATCH",
+      "wyckoff_rationale": [
+        "Phase A Stopping Action: Climactic volume surge (2.4x vol).",
+        "Automatic reaction establishes Trading Range between \u20b9196.61 and \u20b9241.28.",
+        "Wait for Phase B cause development before initiating trades."
+      ]
     },
     {
       "symbol": "YESBANK.NS",
@@ -1998,6 +2394,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_creek": 23.6,
+      "wyckoff_ice": 21.78,
+      "wyckoff_breakout": 23.65,
+      "wyckoff_dist_to_breakout_pct": 0.72,
+      "wyckoff_stoploss": 22.0,
+      "wyckoff_stoploss_pct": 6.3,
+      "wyckoff_target_1": 25.42,
+      "wyckoff_target_2": 27.24,
+      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_rationale": [
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b923.6).",
+        "Volume surge 4.0x confirms institutional demand absorption.",
+        "Cause of 1.82 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -2079,7 +2492,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 209.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 103.91,
+      "wyckoff_ice": 82.94,
+      "wyckoff_breakout": 103.91,
+      "wyckoff_dist_to_breakout_pct": 11.47,
+      "wyckoff_stoploss": 81.28,
+      "wyckoff_stoploss_pct": 12.81,
+      "wyckoff_target_1": 124.88,
+      "wyckoff_target_2": 145.85,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b982.94 (Ice) to \u20b9103.91 (Creek).",
+        "Consolidation inside 20.97 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "GPPL.NS",
@@ -2160,7 +2590,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 616.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 169.0,
+      "wyckoff_ice": 146.53,
+      "wyckoff_breakout": 169.0,
+      "wyckoff_dist_to_breakout_pct": 4.76,
+      "wyckoff_stoploss": 143.6,
+      "wyckoff_stoploss_pct": 10.98,
+      "wyckoff_target_1": 191.47,
+      "wyckoff_target_2": 213.94,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9146.53 (Ice) to \u20b9169.0 (Creek).",
+        "Consolidation inside 22.47 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "OIL.NS",
@@ -2250,6 +2697,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 515.48,
+      "wyckoff_ice": 456.85,
+      "wyckoff_breakout": 515.48,
+      "wyckoff_dist_to_breakout_pct": 5.24,
+      "wyckoff_stoploss": 447.71,
+      "wyckoff_stoploss_pct": 8.59,
+      "wyckoff_target_1": 574.11,
+      "wyckoff_target_2": 632.74,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9456.85 (Ice) to \u20b9515.48 (Creek).",
+        "Consolidation inside 58.63 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -2341,6 +2805,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 404.06,
+      "wyckoff_ice": 322.05,
+      "wyckoff_breakout": 404.06,
+      "wyckoff_dist_to_breakout_pct": 2.63,
+      "wyckoff_stoploss": 315.61,
+      "wyckoff_stoploss_pct": 19.83,
+      "wyckoff_target_1": 486.07,
+      "wyckoff_target_2": 568.08,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9322.05 (Ice) to \u20b9404.06 (Creek).",
+        "Consolidation inside 82.01 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -2422,7 +2903,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 72.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 851.8,
+      "wyckoff_ice": 665.62,
+      "wyckoff_breakout": 851.8,
+      "wyckoff_dist_to_breakout_pct": 18.92,
+      "wyckoff_stoploss": 652.31,
+      "wyckoff_stoploss_pct": 8.93,
+      "wyckoff_target_1": 1037.98,
+      "wyckoff_target_2": 1224.16,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9665.62 (Ice) to \u20b9851.8 (Creek).",
+        "Consolidation inside 186.18 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "IKIO.NS",
@@ -2501,7 +2999,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 235.47,
+      "wyckoff_ice": 184.63,
+      "wyckoff_breakout": 235.47,
+      "wyckoff_dist_to_breakout_pct": 5.18,
+      "wyckoff_stoploss": 180.94,
+      "wyckoff_stoploss_pct": 19.18,
+      "wyckoff_target_1": 286.31,
+      "wyckoff_target_2": 337.15,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9184.63 (Ice) to \u20b9235.47 (Creek).",
+        "Consolidation inside 50.84 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "NYKAA.NS",
@@ -2591,6 +3106,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Last Point of Support (LPS / Backup)",
+      "wyckoff_creek": 350.25,
+      "wyckoff_ice": 319.66,
+      "wyckoff_breakout": 352.0,
+      "wyckoff_dist_to_breakout_pct": 2.18,
+      "wyckoff_stoploss": 326.05,
+      "wyckoff_stoploss_pct": 5.36,
+      "wyckoff_target_1": 380.84,
+      "wyckoff_target_2": 411.43,
+      "wyckoff_signal": "LPS PULLBACK BUY",
+      "wyckoff_rationale": [
+        "Last Point of Support (LPS) successfully holding above Creek (\u20b9350.25).",
+        "Low-volume pullback demonstrates floating supply is exhausted.",
+        "Prime Wyckoff low-risk entry before Phase E markup acceleration."
       ]
     },
     {
@@ -2672,7 +3204,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 591.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 228.66,
+      "wyckoff_ice": 183.64,
+      "wyckoff_breakout": 228.66,
+      "wyckoff_dist_to_breakout_pct": 5.26,
+      "wyckoff_stoploss": 179.97,
+      "wyckoff_stoploss_pct": 17.15,
+      "wyckoff_target_1": 273.68,
+      "wyckoff_target_2": 318.7,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9183.64 (Ice) to \u20b9228.66 (Creek).",
+        "Consolidation inside 45.02 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "PNB.NS",
@@ -2761,6 +3310,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 119.34,
+      "wyckoff_ice": 112.93,
+      "wyckoff_breakout": 119.34,
+      "wyckoff_dist_to_breakout_pct": 2.22,
+      "wyckoff_stoploss": 110.67,
+      "wyckoff_stoploss_pct": 5.21,
+      "wyckoff_target_1": 125.75,
+      "wyckoff_target_2": 132.16,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9112.93 (Ice) to \u20b9119.34 (Creek).",
+        "Consolidation inside 6.41 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -2841,7 +3407,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 114.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1442.88,
+      "wyckoff_ice": 1069.86,
+      "wyckoff_breakout": 1442.88,
+      "wyckoff_dist_to_breakout_pct": 6.09,
+      "wyckoff_stoploss": 1048.46,
+      "wyckoff_stoploss_pct": 22.91,
+      "wyckoff_target_1": 1815.9,
+      "wyckoff_target_2": 2188.92,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91069.86 (Ice) to \u20b91442.88 (Creek).",
+        "Consolidation inside 373.02 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "STAR.NS",
@@ -2920,7 +3503,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 41.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1225.45,
+      "wyckoff_ice": 929.44,
+      "wyckoff_breakout": 1225.45,
+      "wyckoff_dist_to_breakout_pct": 3.55,
+      "wyckoff_stoploss": 910.85,
+      "wyckoff_stoploss_pct": 23.03,
+      "wyckoff_target_1": 1521.46,
+      "wyckoff_target_2": 1817.47,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9929.44 (Ice) to \u20b91225.45 (Creek).",
+        "Consolidation inside 296.01 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "VIJAYA.NS",
@@ -3011,6 +3611,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1581.16,
+      "wyckoff_ice": 1437.12,
+      "wyckoff_breakout": 1581.16,
+      "wyckoff_dist_to_breakout_pct": 5.27,
+      "wyckoff_stoploss": 1408.38,
+      "wyckoff_stoploss_pct": 6.23,
+      "wyckoff_target_1": 1725.2,
+      "wyckoff_target_2": 1869.24,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91437.12 (Ice) to \u20b91581.16 (Creek).",
+        "Consolidation inside 144.04 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -3100,6 +3717,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 161.0,
+      "wyckoff_ice": 150.61,
+      "wyckoff_breakout": 161.0,
+      "wyckoff_dist_to_breakout_pct": 3.24,
+      "wyckoff_stoploss": 147.6,
+      "wyckoff_stoploss_pct": 5.35,
+      "wyckoff_target_1": 171.39,
+      "wyckoff_target_2": 181.78,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9150.61 (Ice) to \u20b9161.0 (Creek).",
+        "Consolidation inside 10.39 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -3190,6 +3824,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 960.92,
+      "wyckoff_ice": 863.27,
+      "wyckoff_breakout": 960.92,
+      "wyckoff_dist_to_breakout_pct": 1.82,
+      "wyckoff_stoploss": 846.0,
+      "wyckoff_stoploss_pct": 10.36,
+      "wyckoff_target_1": 1058.57,
+      "wyckoff_target_2": 1156.22,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9863.27 (Ice) to \u20b9960.92 (Creek).",
+        "Consolidation inside 97.65 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -3271,7 +3922,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 16.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 2696.38,
+      "wyckoff_ice": 2442.01,
+      "wyckoff_breakout": 2696.38,
+      "wyckoff_dist_to_breakout_pct": 5.82,
+      "wyckoff_stoploss": 2393.17,
+      "wyckoff_stoploss_pct": 6.08,
+      "wyckoff_target_1": 2950.75,
+      "wyckoff_target_2": 3205.12,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b92442.01 (Ice) to \u20b92696.38 (Creek).",
+        "Consolidation inside 254.37 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ENGINERSIN.NS",
@@ -3361,6 +4029,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 290.23,
+      "wyckoff_ice": 234.87,
+      "wyckoff_breakout": 290.23,
+      "wyckoff_dist_to_breakout_pct": 7.91,
+      "wyckoff_stoploss": 230.17,
+      "wyckoff_stoploss_pct": 14.42,
+      "wyckoff_target_1": 345.59,
+      "wyckoff_target_2": 400.95,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9234.87 (Ice) to \u20b9290.23 (Creek).",
+        "Consolidation inside 55.36 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -3450,6 +4135,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 741.23,
+      "wyckoff_ice": 684.83,
+      "wyckoff_breakout": 741.23,
+      "wyckoff_dist_to_breakout_pct": 4.66,
+      "wyckoff_stoploss": 671.13,
+      "wyckoff_stoploss_pct": 5.24,
+      "wyckoff_target_1": 797.63,
+      "wyckoff_target_2": 854.03,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9684.83 (Ice) to \u20b9741.23 (Creek).",
+        "Consolidation inside 56.4 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -3531,7 +4233,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 18.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1196.19,
+      "wyckoff_ice": 1060.12,
+      "wyckoff_breakout": 1196.19,
+      "wyckoff_dist_to_breakout_pct": 5.95,
+      "wyckoff_stoploss": 1038.92,
+      "wyckoff_stoploss_pct": 7.98,
+      "wyckoff_target_1": 1332.26,
+      "wyckoff_target_2": 1468.33,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91060.12 (Ice) to \u20b91196.19 (Creek).",
+        "Consolidation inside 136.07 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "FCL.NS",
@@ -3612,7 +4331,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 22.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 62.52,
+      "wyckoff_ice": 41.53,
+      "wyckoff_breakout": 62.52,
+      "wyckoff_dist_to_breakout_pct": 8.32,
+      "wyckoff_stoploss": 40.7,
+      "wyckoff_stoploss_pct": 29.49,
+      "wyckoff_target_1": 83.51,
+      "wyckoff_target_2": 104.5,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b941.53 (Ice) to \u20b962.52 (Creek).",
+        "Consolidation inside 20.99 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "JINDALSAW.NS",
@@ -3690,7 +4426,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 63.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 320.64,
+      "wyckoff_ice": 262.62,
+      "wyckoff_breakout": 320.64,
+      "wyckoff_dist_to_breakout_pct": 2.79,
+      "wyckoff_stoploss": 257.37,
+      "wyckoff_stoploss_pct": 17.5,
+      "wyckoff_target_1": 378.66,
+      "wyckoff_target_2": 436.68,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9262.62 (Ice) to \u20b9320.64 (Creek).",
+        "Consolidation inside 58.02 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "DCW.NS",
@@ -3779,6 +4532,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 49.4,
+      "wyckoff_ice": 42.41,
+      "wyckoff_breakout": 49.4,
+      "wyckoff_dist_to_breakout_pct": 5.94,
+      "wyckoff_stoploss": 41.56,
+      "wyckoff_stoploss_pct": 10.87,
+      "wyckoff_target_1": 56.39,
+      "wyckoff_target_2": 63.38,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b942.41 (Ice) to \u20b949.4 (Creek).",
+        "Consolidation inside 6.99 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -3856,7 +4626,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 49.5,
+      "wyckoff_ice": 39.22,
+      "wyckoff_breakout": 49.5,
+      "wyckoff_dist_to_breakout_pct": 13.38,
+      "wyckoff_stoploss": 38.44,
+      "wyckoff_stoploss_pct": 11.96,
+      "wyckoff_target_1": 59.78,
+      "wyckoff_target_2": 70.06,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b939.22 (Ice) to \u20b949.5 (Creek).",
+        "Consolidation inside 10.28 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ONGC.NS",
@@ -3946,6 +4733,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 241.65,
+      "wyckoff_ice": 227.85,
+      "wyckoff_breakout": 241.65,
+      "wyckoff_dist_to_breakout_pct": 3.94,
+      "wyckoff_stoploss": 223.29,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 255.45,
+      "wyckoff_target_2": 269.25,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9227.85 (Ice) to \u20b9241.65 (Creek).",
+        "Consolidation inside 13.8 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -4024,7 +4828,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 37.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 556.11,
+      "wyckoff_ice": 488.52,
+      "wyckoff_breakout": 556.11,
+      "wyckoff_dist_to_breakout_pct": 6.1,
+      "wyckoff_stoploss": 478.75,
+      "wyckoff_stoploss_pct": 8.66,
+      "wyckoff_target_1": 623.7,
+      "wyckoff_target_2": 691.29,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9488.52 (Ice) to \u20b9556.11 (Creek).",
+        "Consolidation inside 67.59 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "EDELWEISS.NS",
@@ -4125,6 +4946,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 139.63,
+      "wyckoff_ice": 118.5,
+      "wyckoff_breakout": 139.63,
+      "wyckoff_dist_to_breakout_pct": 5.44,
+      "wyckoff_stoploss": 116.13,
+      "wyckoff_stoploss_pct": 12.31,
+      "wyckoff_target_1": 160.76,
+      "wyckoff_target_2": 181.89,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9118.5 (Ice) to \u20b9139.63 (Creek).",
+        "Consolidation inside 21.13 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -4216,6 +5054,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 9463.89,
+      "wyckoff_ice": 8076.18,
+      "wyckoff_breakout": 9463.89,
+      "wyckoff_dist_to_breakout_pct": 14.84,
+      "wyckoff_stoploss": 7914.66,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 10851.6,
+      "wyckoff_target_2": 12239.31,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b98076.18 (Ice) to \u20b99463.89 (Creek).",
+        "Consolidation inside 1387.71 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -4294,7 +5149,24 @@ window.stockData = {
         "Warning: High debt level"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 86.99,
+      "wyckoff_ice": 81.55,
+      "wyckoff_breakout": 86.99,
+      "wyckoff_dist_to_breakout_pct": 3.42,
+      "wyckoff_stoploss": 79.92,
+      "wyckoff_stoploss_pct": 4.98,
+      "wyckoff_target_1": 92.43,
+      "wyckoff_target_2": 97.87,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b981.55 (Ice) to \u20b986.99 (Creek).",
+        "Consolidation inside 5.44 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "BOROLTD.NS",
@@ -4370,7 +5242,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 289.58,
+      "wyckoff_ice": 228.79,
+      "wyckoff_breakout": 289.58,
+      "wyckoff_dist_to_breakout_pct": 12.47,
+      "wyckoff_stoploss": 224.21,
+      "wyckoff_stoploss_pct": 12.92,
+      "wyckoff_target_1": 350.37,
+      "wyckoff_target_2": 411.16,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9228.79 (Ice) to \u20b9289.58 (Creek).",
+        "Consolidation inside 60.79 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "GMDCLTD.NS",
@@ -4459,6 +5348,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 602.2,
+      "wyckoff_ice": 551.64,
+      "wyckoff_breakout": 602.2,
+      "wyckoff_dist_to_breakout_pct": 4.67,
+      "wyckoff_stoploss": 540.61,
+      "wyckoff_stoploss_pct": 6.04,
+      "wyckoff_target_1": 652.76,
+      "wyckoff_target_2": 703.32,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9551.64 (Ice) to \u20b9602.2 (Creek).",
+        "Consolidation inside 50.56 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -4536,7 +5442,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1747.49,
+      "wyckoff_ice": 1418.86,
+      "wyckoff_breakout": 1747.49,
+      "wyckoff_dist_to_breakout_pct": 5.52,
+      "wyckoff_stoploss": 1390.48,
+      "wyckoff_stoploss_pct": 16.03,
+      "wyckoff_target_1": 2076.12,
+      "wyckoff_target_2": 2404.75,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91418.86 (Ice) to \u20b91747.49 (Creek).",
+        "Consolidation inside 328.63 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "RAJOOENG.NS",
@@ -4625,6 +5548,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 57.11,
+      "wyckoff_ice": 46.42,
+      "wyckoff_breakout": 57.11,
+      "wyckoff_dist_to_breakout_pct": 3.48,
+      "wyckoff_stoploss": 45.49,
+      "wyckoff_stoploss_pct": 17.58,
+      "wyckoff_target_1": 67.8,
+      "wyckoff_target_2": 78.49,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b946.42 (Ice) to \u20b957.11 (Creek).",
+        "Consolidation inside 10.69 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -4713,6 +5653,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 773.27,
+      "wyckoff_ice": 645.81,
+      "wyckoff_breakout": 773.27,
+      "wyckoff_dist_to_breakout_pct": 7.07,
+      "wyckoff_stoploss": 632.89,
+      "wyckoff_stoploss_pct": 12.37,
+      "wyckoff_target_1": 900.73,
+      "wyckoff_target_2": 1028.19,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9645.81 (Ice) to \u20b9773.27 (Creek).",
+        "Consolidation inside 127.46 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -4792,7 +5749,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_creek": 836.61,
+      "wyckoff_ice": 620.76,
+      "wyckoff_breakout": 838.28,
+      "wyckoff_dist_to_breakout_pct": 0.7,
+      "wyckoff_stoploss": 626.97,
+      "wyckoff_stoploss_pct": 24.68,
+      "wyckoff_target_1": 1052.46,
+      "wyckoff_target_2": 1268.31,
+      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_rationale": [
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9836.61).",
+        "Volume surge 1.1x confirms institutional demand absorption.",
+        "Cause of 215.85 pts horizontal accumulation ready to unlock upward effect."
+      ]
     },
     {
       "symbol": "WAAREEENER.NS",
@@ -4881,6 +5855,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase A",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Stopping Climax & Secondary Test",
+      "wyckoff_creek": 2730.31,
+      "wyckoff_ice": 2523.76,
+      "wyckoff_breakout": 2730.31,
+      "wyckoff_dist_to_breakout_pct": 4.01,
+      "wyckoff_stoploss": 2473.28,
+      "wyckoff_stoploss_pct": 5.78,
+      "wyckoff_target_1": 2936.86,
+      "wyckoff_target_2": 3143.41,
+      "wyckoff_signal": "CLIMAX WATCH",
+      "wyckoff_rationale": [
+        "Phase A Stopping Action: Climactic volume surge (2.1x vol).",
+        "Automatic reaction establishes Trading Range between \u20b92523.76 and \u20b92730.31.",
+        "Wait for Phase B cause development before initiating trades."
       ]
     },
     {
@@ -4972,6 +5963,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 289.23,
+      "wyckoff_ice": 251.66,
+      "wyckoff_breakout": 289.23,
+      "wyckoff_dist_to_breakout_pct": 12.63,
+      "wyckoff_stoploss": 246.63,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 326.8,
+      "wyckoff_target_2": 364.37,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9251.66 (Ice) to \u20b9289.23 (Creek).",
+        "Consolidation inside 37.57 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -5050,7 +6058,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 9.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 2344.18,
+      "wyckoff_ice": 1876.04,
+      "wyckoff_breakout": 2344.18,
+      "wyckoff_dist_to_breakout_pct": 4.34,
+      "wyckoff_stoploss": 1838.52,
+      "wyckoff_stoploss_pct": 18.16,
+      "wyckoff_target_1": 2812.32,
+      "wyckoff_target_2": 3280.46,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91876.04 (Ice) to \u20b92344.18 (Creek).",
+        "Consolidation inside 468.14 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "SBICARD.NS",
@@ -5141,6 +6166,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 676.35,
+      "wyckoff_ice": 608.78,
+      "wyckoff_breakout": 676.35,
+      "wyckoff_dist_to_breakout_pct": 3.23,
+      "wyckoff_stoploss": 596.6,
+      "wyckoff_stoploss_pct": 8.94,
+      "wyckoff_target_1": 743.92,
+      "wyckoff_target_2": 811.49,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9608.78 (Ice) to \u20b9676.35 (Creek).",
+        "Consolidation inside 67.57 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -5220,7 +6262,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_creek": 1.02,
+      "wyckoff_ice": 0.78,
+      "wyckoff_breakout": 1.02,
+      "wyckoff_dist_to_breakout_pct": 0.99,
+      "wyckoff_stoploss": 0.79,
+      "wyckoff_stoploss_pct": 21.78,
+      "wyckoff_target_1": 1.26,
+      "wyckoff_target_2": 1.5,
+      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_rationale": [
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b91.02).",
+        "Volume surge 2.1x confirms institutional demand absorption.",
+        "Cause of 0.24 pts horizontal accumulation ready to unlock upward effect."
+      ]
     },
     {
       "symbol": "HAL.NS",
@@ -5309,6 +6368,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 5160.2,
+      "wyckoff_ice": 4697.59,
+      "wyckoff_breakout": 5160.2,
+      "wyckoff_dist_to_breakout_pct": 5.2,
+      "wyckoff_stoploss": 4603.64,
+      "wyckoff_stoploss_pct": 6.14,
+      "wyckoff_target_1": 5622.81,
+      "wyckoff_target_2": 6085.42,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b94697.59 (Ice) to \u20b95160.2 (Creek).",
+        "Consolidation inside 462.61 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -5388,7 +6464,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 24.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1488.17,
+      "wyckoff_ice": 1406.58,
+      "wyckoff_breakout": 1488.17,
+      "wyckoff_dist_to_breakout_pct": 2.99,
+      "wyckoff_stoploss": 1378.45,
+      "wyckoff_stoploss_pct": 4.6,
+      "wyckoff_target_1": 1569.76,
+      "wyckoff_target_2": 1651.35,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91406.58 (Ice) to \u20b91488.17 (Creek).",
+        "Consolidation inside 81.59 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ACMESOLAR.NS",
@@ -5470,7 +6563,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 5.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 431.36,
+      "wyckoff_ice": 361.08,
+      "wyckoff_breakout": 431.36,
+      "wyckoff_dist_to_breakout_pct": 7.22,
+      "wyckoff_stoploss": 353.86,
+      "wyckoff_stoploss_pct": 12.04,
+      "wyckoff_target_1": 501.64,
+      "wyckoff_target_2": 571.92,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9361.08 (Ice) to \u20b9431.36 (Creek).",
+        "Consolidation inside 70.28 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "SANSTAR.NS",
@@ -5547,7 +6657,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 115.13,
+      "wyckoff_ice": 104.09,
+      "wyckoff_breakout": 115.13,
+      "wyckoff_dist_to_breakout_pct": 4.16,
+      "wyckoff_stoploss": 102.01,
+      "wyckoff_stoploss_pct": 7.71,
+      "wyckoff_target_1": 126.17,
+      "wyckoff_target_2": 137.21,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9104.09 (Ice) to \u20b9115.13 (Creek).",
+        "Consolidation inside 11.04 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "UNIVPHOTO.NS",
@@ -5623,7 +6750,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 581.16,
+      "wyckoff_ice": 437.12,
+      "wyckoff_breakout": 581.16,
+      "wyckoff_dist_to_breakout_pct": 7.59,
+      "wyckoff_stoploss": 428.38,
+      "wyckoff_stoploss_pct": 20.69,
+      "wyckoff_target_1": 725.2,
+      "wyckoff_target_2": 869.24,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9437.12 (Ice) to \u20b9581.16 (Creek).",
+        "Consolidation inside 144.04 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ASIANTILES.NS",
@@ -5700,7 +6844,24 @@ window.stockData = {
         "YoY Revenue up 36.8%"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 53.75,
+      "wyckoff_ice": 43.01,
+      "wyckoff_breakout": 53.75,
+      "wyckoff_dist_to_breakout_pct": 6.77,
+      "wyckoff_stoploss": 42.15,
+      "wyckoff_stoploss_pct": 16.27,
+      "wyckoff_target_1": 64.49,
+      "wyckoff_target_2": 75.23,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b943.01 (Ice) to \u20b953.75 (Creek).",
+        "Consolidation inside 10.74 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "KUANTUM.NS",
@@ -5778,7 +6939,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 331.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 81.79,
+      "wyckoff_ice": 70.21,
+      "wyckoff_breakout": 81.79,
+      "wyckoff_dist_to_breakout_pct": 7.01,
+      "wyckoff_stoploss": 68.81,
+      "wyckoff_stoploss_pct": 9.97,
+      "wyckoff_target_1": 93.37,
+      "wyckoff_target_2": 104.95,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b970.21 (Ice) to \u20b981.79 (Creek).",
+        "Consolidation inside 11.58 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "BAJAJHLDNG.NS",
@@ -5867,6 +7045,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 11667.29,
+      "wyckoff_ice": 10789.38,
+      "wyckoff_breakout": 11667.29,
+      "wyckoff_dist_to_breakout_pct": 4.79,
+      "wyckoff_stoploss": 10573.59,
+      "wyckoff_stoploss_pct": 5.03,
+      "wyckoff_target_1": 12545.2,
+      "wyckoff_target_2": 13423.11,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b910789.38 (Ice) to \u20b911667.29 (Creek).",
+        "Consolidation inside 877.91 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -5958,6 +7153,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 2711.41,
+      "wyckoff_ice": 2378.95,
+      "wyckoff_breakout": 2711.41,
+      "wyckoff_dist_to_breakout_pct": 11.7,
+      "wyckoff_stoploss": 2331.37,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 3043.87,
+      "wyckoff_target_2": 3376.33,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b92378.95 (Ice) to \u20b92711.41 (Creek).",
+        "Consolidation inside 332.46 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -6047,6 +7259,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 83.45,
+      "wyckoff_ice": 72.06,
+      "wyckoff_breakout": 83.45,
+      "wyckoff_dist_to_breakout_pct": 6.62,
+      "wyckoff_stoploss": 70.62,
+      "wyckoff_stoploss_pct": 9.77,
+      "wyckoff_target_1": 94.84,
+      "wyckoff_target_2": 106.23,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b972.06 (Ice) to \u20b983.45 (Creek).",
+        "Consolidation inside 11.39 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -6125,7 +7354,24 @@ window.stockData = {
         "YoY Profit up 74.8%"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1472.94,
+      "wyckoff_ice": 1381.02,
+      "wyckoff_breakout": 1472.94,
+      "wyckoff_dist_to_breakout_pct": 4.52,
+      "wyckoff_stoploss": 1353.4,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 1564.86,
+      "wyckoff_target_2": 1656.78,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91381.02 (Ice) to \u20b91472.94 (Creek).",
+        "Consolidation inside 91.92 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "SUZLON.NS",
@@ -6213,6 +7459,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 49.42,
+      "wyckoff_ice": 43.24,
+      "wyckoff_breakout": 49.42,
+      "wyckoff_dist_to_breakout_pct": 12.01,
+      "wyckoff_stoploss": 42.38,
+      "wyckoff_stoploss_pct": 3.94,
+      "wyckoff_target_1": 55.6,
+      "wyckoff_target_2": 61.78,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b943.24 (Ice) to \u20b949.42 (Creek).",
+        "Consolidation inside 6.18 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -6293,7 +7556,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 134.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 5990.96,
+      "wyckoff_ice": 5475.75,
+      "wyckoff_breakout": 5990.96,
+      "wyckoff_dist_to_breakout_pct": 7.22,
+      "wyckoff_stoploss": 5366.23,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 6506.17,
+      "wyckoff_target_2": 7021.38,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b95475.75 (Ice) to \u20b95990.96 (Creek).",
+        "Consolidation inside 515.21 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "GENUSPOWER.NS",
@@ -6385,6 +7665,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 354.21,
+      "wyckoff_ice": 300.9,
+      "wyckoff_breakout": 354.21,
+      "wyckoff_dist_to_breakout_pct": 9.63,
+      "wyckoff_stoploss": 294.88,
+      "wyckoff_stoploss_pct": 8.73,
+      "wyckoff_target_1": 407.52,
+      "wyckoff_target_2": 460.83,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9300.9 (Ice) to \u20b9354.21 (Creek).",
+        "Consolidation inside 53.31 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -6466,7 +7763,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 26.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 263.93,
+      "wyckoff_ice": 225.3,
+      "wyckoff_breakout": 263.93,
+      "wyckoff_dist_to_breakout_pct": 14.8,
+      "wyckoff_stoploss": 220.79,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 302.56,
+      "wyckoff_target_2": 341.19,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9225.3 (Ice) to \u20b9263.93 (Creek).",
+        "Consolidation inside 38.63 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "LUMAXIND.NS",
@@ -6548,7 +7862,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 94.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 6622.72,
+      "wyckoff_ice": 5543.89,
+      "wyckoff_breakout": 6622.72,
+      "wyckoff_dist_to_breakout_pct": 12.64,
+      "wyckoff_stoploss": 5433.01,
+      "wyckoff_stoploss_pct": 7.59,
+      "wyckoff_target_1": 7701.55,
+      "wyckoff_target_2": 8780.38,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b95543.89 (Ice) to \u20b96622.72 (Creek).",
+        "Consolidation inside 1078.83 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "HAPPSTMNDS.NS",
@@ -6636,6 +7967,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 458.21,
+      "wyckoff_ice": 325.7,
+      "wyckoff_breakout": 458.21,
+      "wyckoff_dist_to_breakout_pct": 37.87,
+      "wyckoff_stoploss": 319.19,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 590.72,
+      "wyckoff_target_2": 723.23,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9325.7 (Ice) to \u20b9458.21 (Creek).",
+        "Consolidation inside 132.51 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -6726,6 +8074,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 787.97,
+      "wyckoff_ice": 679.64,
+      "wyckoff_breakout": 787.97,
+      "wyckoff_dist_to_breakout_pct": 10.83,
+      "wyckoff_stoploss": 666.05,
+      "wyckoff_stoploss_pct": 6.32,
+      "wyckoff_target_1": 896.3,
+      "wyckoff_target_2": 1004.63,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9679.64 (Ice) to \u20b9787.97 (Creek).",
+        "Consolidation inside 108.33 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -6806,7 +8171,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 54.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 205.23,
+      "wyckoff_ice": 181.32,
+      "wyckoff_breakout": 205.23,
+      "wyckoff_dist_to_breakout_pct": 10.92,
+      "wyckoff_stoploss": 177.69,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 229.14,
+      "wyckoff_target_2": 253.05,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9181.32 (Ice) to \u20b9205.23 (Creek).",
+        "Consolidation inside 23.91 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "HEG.NS",
@@ -6886,7 +8268,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 136.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 755.41,
+      "wyckoff_ice": 232.46,
+      "wyckoff_breakout": 755.41,
+      "wyckoff_dist_to_breakout_pct": 218.47,
+      "wyckoff_stoploss": 227.81,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 1278.36,
+      "wyckoff_target_2": 1801.31,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9232.46 (Ice) to \u20b9755.41 (Creek).",
+        "Consolidation inside 522.95 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ITCHOTELS.NS",
@@ -6966,7 +8365,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 64.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Sign of Weakness (Break of Ice)",
+      "wyckoff_creek": 168.61,
+      "wyckoff_ice": 150.62,
+      "wyckoff_breakout": 168.61,
+      "wyckoff_dist_to_breakout_pct": 9.71,
+      "wyckoff_stoploss": 168.61,
+      "wyckoff_stoploss_pct": -9.71,
+      "wyckoff_target_1": 186.6,
+      "wyckoff_target_2": 204.59,
+      "wyckoff_signal": "SOW EXIT / SHORT",
+      "wyckoff_rationale": [
+        "Major Sign of Weakness (SOW) breaking below Ice support (\u20b9150.62).",
+        "Elevated selling volume and momentum breakdown.",
+        "High probability of entering Phase E markdown."
+      ]
     },
     {
       "symbol": "NATIONALUM.NS",
@@ -7056,6 +8472,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Sign of Weakness (Break of Ice)",
+      "wyckoff_creek": 405.81,
+      "wyckoff_ice": 353.78,
+      "wyckoff_breakout": 405.81,
+      "wyckoff_dist_to_breakout_pct": 12.41,
+      "wyckoff_stoploss": 405.81,
+      "wyckoff_stoploss_pct": -12.41,
+      "wyckoff_target_1": 457.84,
+      "wyckoff_target_2": 509.87,
+      "wyckoff_signal": "SOW EXIT / SHORT",
+      "wyckoff_rationale": [
+        "Major Sign of Weakness (SOW) breaking below Ice support (\u20b9353.78).",
+        "Elevated selling volume and momentum breakdown.",
+        "High probability of entering Phase E markdown."
       ]
     },
     {
@@ -7145,6 +8578,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 38.85,
+      "wyckoff_ice": 25.75,
+      "wyckoff_breakout": 38.85,
+      "wyckoff_dist_to_breakout_pct": 2.43,
+      "wyckoff_stoploss": 25.23,
+      "wyckoff_stoploss_pct": 33.48,
+      "wyckoff_target_1": 51.95,
+      "wyckoff_target_2": 65.05,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b925.75 (Ice) to \u20b938.85 (Creek).",
+        "Consolidation inside 13.1 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -7223,7 +8673,24 @@ window.stockData = {
         "YoY Profit up 25.0%"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 115.63,
+      "wyckoff_ice": 99.68,
+      "wyckoff_breakout": 115.63,
+      "wyckoff_dist_to_breakout_pct": 13.69,
+      "wyckoff_stoploss": 97.69,
+      "wyckoff_stoploss_pct": 3.95,
+      "wyckoff_target_1": 131.58,
+      "wyckoff_target_2": 147.53,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b999.68 (Ice) to \u20b9115.63 (Creek).",
+        "Consolidation inside 15.95 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "DHANBANK.NS",
@@ -7302,7 +8769,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 34.9,
+      "wyckoff_ice": 30.29,
+      "wyckoff_breakout": 34.9,
+      "wyckoff_dist_to_breakout_pct": 12.04,
+      "wyckoff_stoploss": 29.68,
+      "wyckoff_stoploss_pct": 4.72,
+      "wyckoff_target_1": 39.51,
+      "wyckoff_target_2": 44.12,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b930.29 (Ice) to \u20b934.9 (Creek).",
+        "Consolidation inside 4.61 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ANANTRAJ.NS",
@@ -7380,7 +8864,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 16.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 650.3,
+      "wyckoff_ice": 570.21,
+      "wyckoff_breakout": 650.3,
+      "wyckoff_dist_to_breakout_pct": 8.68,
+      "wyckoff_stoploss": 558.81,
+      "wyckoff_stoploss_pct": 6.61,
+      "wyckoff_target_1": 730.39,
+      "wyckoff_target_2": 810.48,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9570.21 (Ice) to \u20b9650.3 (Creek).",
+        "Consolidation inside 80.09 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "EXIDEIND.NS",
@@ -7471,6 +8972,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 487.87,
+      "wyckoff_ice": 404.4,
+      "wyckoff_breakout": 487.87,
+      "wyckoff_dist_to_breakout_pct": 18.23,
+      "wyckoff_stoploss": 396.31,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 571.34,
+      "wyckoff_target_2": 654.81,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9404.4 (Ice) to \u20b9487.87 (Creek).",
+        "Consolidation inside 83.47 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -7552,7 +9070,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 57.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 829.66,
+      "wyckoff_ice": 678.99,
+      "wyckoff_breakout": 829.66,
+      "wyckoff_dist_to_breakout_pct": 19.75,
+      "wyckoff_stoploss": 665.41,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 980.33,
+      "wyckoff_target_2": 1131.0,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9678.99 (Ice) to \u20b9829.66 (Creek).",
+        "Consolidation inside 150.67 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "UTKARSHBNK.NS",
@@ -7629,7 +9164,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 16.52,
+      "wyckoff_ice": 13.82,
+      "wyckoff_breakout": 16.52,
+      "wyckoff_dist_to_breakout_pct": 13.77,
+      "wyckoff_stoploss": 13.54,
+      "wyckoff_stoploss_pct": 6.75,
+      "wyckoff_target_1": 19.22,
+      "wyckoff_target_2": 21.92,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b913.82 (Ice) to \u20b916.52 (Creek).",
+        "Consolidation inside 2.7 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "JYOTICNC.NS",
@@ -7707,7 +9259,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1060.97,
+      "wyckoff_ice": 820.76,
+      "wyckoff_breakout": 1060.97,
+      "wyckoff_dist_to_breakout_pct": 7.71,
+      "wyckoff_stoploss": 804.34,
+      "wyckoff_stoploss_pct": 18.34,
+      "wyckoff_target_1": 1301.18,
+      "wyckoff_target_2": 1541.39,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9820.76 (Ice) to \u20b91060.97 (Creek).",
+        "Consolidation inside 240.21 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "SPARC.NS",
@@ -7784,7 +9353,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 210.32,
+      "wyckoff_ice": 191.5,
+      "wyckoff_breakout": 210.32,
+      "wyckoff_dist_to_breakout_pct": 7.3,
+      "wyckoff_stoploss": 187.67,
+      "wyckoff_stoploss_pct": 4.25,
+      "wyckoff_target_1": 229.14,
+      "wyckoff_target_2": 247.96,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9191.5 (Ice) to \u20b9210.32 (Creek).",
+        "Consolidation inside 18.82 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "TATACONSUM.NS",
@@ -7874,6 +9460,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1095.59,
+      "wyckoff_ice": 971.18,
+      "wyckoff_breakout": 1095.59,
+      "wyckoff_dist_to_breakout_pct": 10.55,
+      "wyckoff_stoploss": 951.76,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 1220.0,
+      "wyckoff_target_2": 1344.41,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9971.18 (Ice) to \u20b91095.59 (Creek).",
+        "Consolidation inside 124.41 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -7963,6 +9566,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 642.01,
+      "wyckoff_ice": 595.75,
+      "wyckoff_breakout": 642.01,
+      "wyckoff_dist_to_breakout_pct": 4.39,
+      "wyckoff_stoploss": 583.84,
+      "wyckoff_stoploss_pct": 5.07,
+      "wyckoff_target_1": 688.27,
+      "wyckoff_target_2": 734.53,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9595.75 (Ice) to \u20b9642.01 (Creek).",
+        "Consolidation inside 46.26 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8042,7 +9662,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 198.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 2495.98,
+      "wyckoff_ice": 1969.31,
+      "wyckoff_breakout": 2495.98,
+      "wyckoff_dist_to_breakout_pct": 24.21,
+      "wyckoff_stoploss": 1929.92,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 3022.65,
+      "wyckoff_target_2": 3549.32,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91969.31 (Ice) to \u20b92495.98 (Creek).",
+        "Consolidation inside 526.67 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "GRAVITA.NS",
@@ -8121,7 +9758,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 64.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1862.22,
+      "wyckoff_ice": 1611.87,
+      "wyckoff_breakout": 1862.22,
+      "wyckoff_dist_to_breakout_pct": 11.63,
+      "wyckoff_stoploss": 1579.63,
+      "wyckoff_stoploss_pct": 5.31,
+      "wyckoff_target_1": 2112.57,
+      "wyckoff_target_2": 2362.92,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91611.87 (Ice) to \u20b91862.22 (Creek).",
+        "Consolidation inside 250.35 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "HPL.NS",
@@ -8209,6 +9863,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 326.15,
+      "wyckoff_ice": 286.16,
+      "wyckoff_breakout": 326.15,
+      "wyckoff_dist_to_breakout_pct": 11.7,
+      "wyckoff_stoploss": 280.44,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 366.14,
+      "wyckoff_target_2": 406.13,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9286.16 (Ice) to \u20b9326.15 (Creek).",
+        "Consolidation inside 39.99 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8296,6 +9967,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 384.97,
+      "wyckoff_ice": 347.6,
+      "wyckoff_breakout": 384.97,
+      "wyckoff_dist_to_breakout_pct": 8.44,
+      "wyckoff_stoploss": 340.65,
+      "wyckoff_stoploss_pct": 4.04,
+      "wyckoff_target_1": 422.34,
+      "wyckoff_target_2": 459.71,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9347.6 (Ice) to \u20b9384.97 (Creek).",
+        "Consolidation inside 37.37 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8387,6 +10075,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 3252.99,
+      "wyckoff_ice": 2736.26,
+      "wyckoff_breakout": 3252.99,
+      "wyckoff_dist_to_breakout_pct": 16.51,
+      "wyckoff_stoploss": 2681.53,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 3769.72,
+      "wyckoff_target_2": 4286.45,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b92736.26 (Ice) to \u20b93252.99 (Creek).",
+        "Consolidation inside 516.73 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8476,6 +10181,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 341.45,
+      "wyckoff_ice": 319.4,
+      "wyckoff_breakout": 341.45,
+      "wyckoff_dist_to_breakout_pct": 2.41,
+      "wyckoff_stoploss": 313.01,
+      "wyckoff_stoploss_pct": 6.12,
+      "wyckoff_target_1": 363.5,
+      "wyckoff_target_2": 385.55,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9319.4 (Ice) to \u20b9341.45 (Creek).",
+        "Consolidation inside 22.05 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8563,6 +10285,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 186.21,
+      "wyckoff_ice": 164.05,
+      "wyckoff_breakout": 186.21,
+      "wyckoff_dist_to_breakout_pct": 11.24,
+      "wyckoff_stoploss": 160.77,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 208.37,
+      "wyckoff_target_2": 230.53,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9164.05 (Ice) to \u20b9186.21 (Creek).",
+        "Consolidation inside 22.16 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8661,6 +10400,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 512.57,
+      "wyckoff_ice": 453.64,
+      "wyckoff_breakout": 512.57,
+      "wyckoff_dist_to_breakout_pct": 10.73,
+      "wyckoff_stoploss": 444.57,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 571.5,
+      "wyckoff_target_2": 630.43,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9453.64 (Ice) to \u20b9512.57 (Creek).",
+        "Consolidation inside 58.93 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8741,7 +10497,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 87.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 2662.11,
+      "wyckoff_ice": 2292.22,
+      "wyckoff_breakout": 2662.11,
+      "wyckoff_dist_to_breakout_pct": 13.81,
+      "wyckoff_stoploss": 2246.38,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 3032.0,
+      "wyckoff_target_2": 3401.89,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b92292.22 (Ice) to \u20b92662.11 (Creek).",
+        "Consolidation inside 369.89 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "PREMEXPLN.NS",
@@ -8830,6 +10603,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 703.9,
+      "wyckoff_ice": 645.81,
+      "wyckoff_breakout": 703.9,
+      "wyckoff_dist_to_breakout_pct": 5.37,
+      "wyckoff_stoploss": 632.89,
+      "wyckoff_stoploss_pct": 5.26,
+      "wyckoff_target_1": 761.99,
+      "wyckoff_target_2": 820.08,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9645.81 (Ice) to \u20b9703.9 (Creek).",
+        "Consolidation inside 58.09 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8919,6 +10709,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1335.67,
+      "wyckoff_ice": 1232.35,
+      "wyckoff_breakout": 1335.67,
+      "wyckoff_dist_to_breakout_pct": 6.22,
+      "wyckoff_stoploss": 1207.7,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 1438.99,
+      "wyckoff_target_2": 1542.31,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91232.35 (Ice) to \u20b91335.67 (Creek).",
+        "Consolidation inside 103.32 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9011,6 +10818,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1109.21,
+      "wyckoff_ice": 1013.81,
+      "wyckoff_breakout": 1109.21,
+      "wyckoff_dist_to_breakout_pct": 7.22,
+      "wyckoff_stoploss": 993.53,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 1204.61,
+      "wyckoff_target_2": 1300.01,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91013.81 (Ice) to \u20b91109.21 (Creek).",
+        "Consolidation inside 95.4 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9103,6 +10927,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 327.95,
+      "wyckoff_ice": 302.09,
+      "wyckoff_breakout": 327.95,
+      "wyckoff_dist_to_breakout_pct": 6.1,
+      "wyckoff_stoploss": 296.05,
+      "wyckoff_stoploss_pct": 4.22,
+      "wyckoff_target_1": 353.81,
+      "wyckoff_target_2": 379.67,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9302.09 (Ice) to \u20b9327.95 (Creek).",
+        "Consolidation inside 25.86 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9191,6 +11032,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 182.3,
+      "wyckoff_ice": 166.98,
+      "wyckoff_breakout": 182.3,
+      "wyckoff_dist_to_breakout_pct": 4.14,
+      "wyckoff_stoploss": 163.64,
+      "wyckoff_stoploss_pct": 6.52,
+      "wyckoff_target_1": 197.62,
+      "wyckoff_target_2": 212.94,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9166.98 (Ice) to \u20b9182.3 (Creek).",
+        "Consolidation inside 15.32 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9280,6 +11138,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 78.11,
+      "wyckoff_ice": 74.15,
+      "wyckoff_breakout": 78.11,
+      "wyckoff_dist_to_breakout_pct": 2.26,
+      "wyckoff_stoploss": 72.67,
+      "wyckoff_stoploss_pct": 4.86,
+      "wyckoff_target_1": 82.07,
+      "wyckoff_target_2": 86.03,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b974.15 (Ice) to \u20b978.11 (Creek).",
+        "Consolidation inside 3.96 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9359,7 +11234,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 148.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 654.31,
+      "wyckoff_ice": 562.87,
+      "wyckoff_breakout": 654.31,
+      "wyckoff_dist_to_breakout_pct": 10.4,
+      "wyckoff_stoploss": 551.61,
+      "wyckoff_stoploss_pct": 6.92,
+      "wyckoff_target_1": 745.75,
+      "wyckoff_target_2": 837.19,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9562.87 (Ice) to \u20b9654.31 (Creek).",
+        "Consolidation inside 91.44 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "PIIND.NS",
@@ -9449,6 +11341,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Sign of Weakness (Break of Ice)",
+      "wyckoff_creek": 2550.09,
+      "wyckoff_ice": 2213.82,
+      "wyckoff_breakout": 2550.09,
+      "wyckoff_dist_to_breakout_pct": 12.89,
+      "wyckoff_stoploss": 2550.09,
+      "wyckoff_stoploss_pct": -12.89,
+      "wyckoff_target_1": 2886.36,
+      "wyckoff_target_2": 3222.63,
+      "wyckoff_signal": "SOW EXIT / SHORT",
+      "wyckoff_rationale": [
+        "Major Sign of Weakness (SOW) breaking below Ice support (\u20b92213.82).",
+        "Elevated selling volume and momentum breakdown.",
+        "High probability of entering Phase E markdown."
       ]
     },
     {
@@ -9539,6 +11448,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 85.67,
+      "wyckoff_ice": 74.35,
+      "wyckoff_breakout": 85.67,
+      "wyckoff_dist_to_breakout_pct": 6.63,
+      "wyckoff_stoploss": 72.86,
+      "wyckoff_stoploss_pct": 9.31,
+      "wyckoff_target_1": 96.99,
+      "wyckoff_target_2": 108.31,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b974.35 (Ice) to \u20b985.67 (Creek).",
+        "Consolidation inside 11.32 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9628,6 +11554,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 132.28,
+      "wyckoff_ice": 121.52,
+      "wyckoff_breakout": 132.28,
+      "wyckoff_dist_to_breakout_pct": 6.68,
+      "wyckoff_stoploss": 119.09,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 143.04,
+      "wyckoff_target_2": 153.8,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9121.52 (Ice) to \u20b9132.28 (Creek).",
+        "Consolidation inside 10.76 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9707,7 +11650,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 60.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 136.88,
+      "wyckoff_ice": 113.96,
+      "wyckoff_breakout": 136.88,
+      "wyckoff_dist_to_breakout_pct": 17.41,
+      "wyckoff_stoploss": 111.68,
+      "wyckoff_stoploss_pct": 4.2,
+      "wyckoff_target_1": 159.8,
+      "wyckoff_target_2": 182.72,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9113.96 (Ice) to \u20b9136.88 (Creek).",
+        "Consolidation inside 22.92 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "HEROMOTOCO.NS",
@@ -9796,6 +11756,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 5860.7,
+      "wyckoff_ice": 5117.07,
+      "wyckoff_breakout": 5860.7,
+      "wyckoff_dist_to_breakout_pct": 12.24,
+      "wyckoff_stoploss": 5014.73,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 6604.33,
+      "wyckoff_target_2": 7347.96,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b95117.07 (Ice) to \u20b95860.7 (Creek).",
+        "Consolidation inside 743.63 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9883,6 +11860,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 4133.55,
+      "wyckoff_ice": 3852.09,
+      "wyckoff_breakout": 4133.55,
+      "wyckoff_dist_to_breakout_pct": 5.16,
+      "wyckoff_stoploss": 3775.05,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 4415.01,
+      "wyckoff_target_2": 4696.47,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b93852.09 (Ice) to \u20b94133.55 (Creek).",
+        "Consolidation inside 281.46 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -9958,7 +11952,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 251.15,
+      "wyckoff_ice": 211.33,
+      "wyckoff_breakout": 251.15,
+      "wyckoff_dist_to_breakout_pct": 11.13,
+      "wyckoff_stoploss": 207.1,
+      "wyckoff_stoploss_pct": 8.36,
+      "wyckoff_target_1": 290.97,
+      "wyckoff_target_2": 330.79,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9211.33 (Ice) to \u20b9251.15 (Creek).",
+        "Consolidation inside 39.82 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ELECON.NS",
@@ -10036,7 +12047,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 48.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 460.22,
+      "wyckoff_ice": 405.39,
+      "wyckoff_breakout": 460.22,
+      "wyckoff_dist_to_breakout_pct": 9.03,
+      "wyckoff_stoploss": 397.28,
+      "wyckoff_stoploss_pct": 5.88,
+      "wyckoff_target_1": 515.05,
+      "wyckoff_target_2": 569.88,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9405.39 (Ice) to \u20b9460.22 (Creek).",
+        "Consolidation inside 54.83 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "RHFL.NS",
@@ -10111,7 +12139,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase A",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Stopping Climax & Secondary Test",
+      "wyckoff_creek": 1.98,
+      "wyckoff_ice": 1.7,
+      "wyckoff_breakout": 1.98,
+      "wyckoff_dist_to_breakout_pct": 5.88,
+      "wyckoff_stoploss": 2.02,
+      "wyckoff_stoploss_pct": -8.02,
+      "wyckoff_target_1": 2.26,
+      "wyckoff_target_2": 2.54,
+      "wyckoff_signal": "CLIMAX WATCH",
+      "wyckoff_rationale": [
+        "Phase A Stopping Action: Climactic volume surge (2.4x vol).",
+        "Automatic reaction establishes Trading Range between \u20b91.7 and \u20b91.98.",
+        "Wait for Phase B cause development before initiating trades."
+      ]
     },
     {
       "symbol": "RVNL.NS",
@@ -10191,7 +12236,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 167.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 231.84,
+      "wyckoff_ice": 200.8,
+      "wyckoff_breakout": 231.84,
+      "wyckoff_dist_to_breakout_pct": 13.15,
+      "wyckoff_stoploss": 196.78,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 262.88,
+      "wyckoff_target_2": 293.92,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9200.8 (Ice) to \u20b9231.84 (Creek).",
+        "Consolidation inside 31.04 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "DELHIVERY.NS",
@@ -10278,6 +12340,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 473.95,
+      "wyckoff_ice": 430.22,
+      "wyckoff_breakout": 473.95,
+      "wyckoff_dist_to_breakout_pct": 7.96,
+      "wyckoff_stoploss": 421.62,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 517.68,
+      "wyckoff_target_2": 561.41,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9430.22 (Ice) to \u20b9473.95 (Creek).",
+        "Consolidation inside 43.73 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -10355,7 +12434,24 @@ window.stockData = {
         "YoY Profit up 38.0%"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Sign of Weakness (Break of Ice)",
+      "wyckoff_creek": 160.28,
+      "wyckoff_ice": 141.88,
+      "wyckoff_breakout": 160.28,
+      "wyckoff_dist_to_breakout_pct": 10.71,
+      "wyckoff_stoploss": 160.28,
+      "wyckoff_stoploss_pct": -10.71,
+      "wyckoff_target_1": 178.68,
+      "wyckoff_target_2": 197.08,
+      "wyckoff_signal": "SOW EXIT / SHORT",
+      "wyckoff_rationale": [
+        "Major Sign of Weakness (SOW) breaking below Ice support (\u20b9141.88).",
+        "Elevated selling volume and momentum breakdown.",
+        "High probability of entering Phase E markdown."
+      ]
     },
     {
       "symbol": "JPOLYINVST.NS",
@@ -10431,7 +12527,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1080.96,
+      "wyckoff_ice": 936.12,
+      "wyckoff_breakout": 1080.96,
+      "wyckoff_dist_to_breakout_pct": 9.24,
+      "wyckoff_stoploss": 917.4,
+      "wyckoff_stoploss_pct": 7.29,
+      "wyckoff_target_1": 1225.8,
+      "wyckoff_target_2": 1370.64,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9936.12 (Ice) to \u20b91080.96 (Creek).",
+        "Consolidation inside 144.84 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "RCF.NS",
@@ -10519,6 +12632,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 128.81,
+      "wyckoff_ice": 109.22,
+      "wyckoff_breakout": 128.81,
+      "wyckoff_dist_to_breakout_pct": 15.58,
+      "wyckoff_stoploss": 107.04,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 148.4,
+      "wyckoff_target_2": 167.99,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9109.22 (Ice) to \u20b9128.81 (Creek).",
+        "Consolidation inside 19.59 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -10607,6 +12737,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 73.45,
+      "wyckoff_ice": 65.87,
+      "wyckoff_breakout": 73.45,
+      "wyckoff_dist_to_breakout_pct": 6.45,
+      "wyckoff_stoploss": 64.55,
+      "wyckoff_stoploss_pct": 6.45,
+      "wyckoff_target_1": 81.03,
+      "wyckoff_target_2": 88.61,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b965.87 (Ice) to \u20b973.45 (Creek).",
+        "Consolidation inside 7.58 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -10682,7 +12829,24 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 107.72,
+      "wyckoff_ice": 75.6,
+      "wyckoff_breakout": 107.72,
+      "wyckoff_dist_to_breakout_pct": 30.9,
+      "wyckoff_stoploss": 74.09,
+      "wyckoff_stoploss_pct": 9.96,
+      "wyckoff_target_1": 139.84,
+      "wyckoff_target_2": 171.96,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b975.6 (Ice) to \u20b9107.72 (Creek).",
+        "Consolidation inside 32.12 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "IOC.NS",
@@ -10769,6 +12933,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 141.43,
+      "wyckoff_ice": 132.41,
+      "wyckoff_breakout": 141.43,
+      "wyckoff_dist_to_breakout_pct": 4.68,
+      "wyckoff_stoploss": 129.76,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 150.45,
+      "wyckoff_target_2": 159.47,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9132.41 (Ice) to \u20b9141.43 (Creek).",
+        "Consolidation inside 9.02 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -10844,7 +13025,24 @@ window.stockData = {
         "YoY Revenue up 11.2%"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 138.38,
+      "wyckoff_ice": 122.07,
+      "wyckoff_breakout": 138.38,
+      "wyckoff_dist_to_breakout_pct": 10.46,
+      "wyckoff_stoploss": 119.63,
+      "wyckoff_stoploss_pct": 4.51,
+      "wyckoff_target_1": 154.69,
+      "wyckoff_target_2": 171.0,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9122.07 (Ice) to \u20b9138.38 (Creek).",
+        "Consolidation inside 16.31 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "NMDC.NS",
@@ -10940,6 +13138,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 89.28,
+      "wyckoff_ice": 80.75,
+      "wyckoff_breakout": 89.28,
+      "wyckoff_dist_to_breakout_pct": 8.35,
+      "wyckoff_stoploss": 79.14,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 97.81,
+      "wyckoff_target_2": 106.34,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b980.75 (Ice) to \u20b989.28 (Creek).",
+        "Consolidation inside 8.53 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -11030,6 +13245,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 965.14,
+      "wyckoff_ice": 799.04,
+      "wyckoff_breakout": 965.14,
+      "wyckoff_dist_to_breakout_pct": 18.37,
+      "wyckoff_stoploss": 783.06,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 1131.24,
+      "wyckoff_target_2": 1297.34,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9799.04 (Ice) to \u20b9965.14 (Creek).",
+        "Consolidation inside 166.1 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -11110,7 +13342,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 223.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 68.47,
+      "wyckoff_ice": 63.67,
+      "wyckoff_breakout": 68.47,
+      "wyckoff_dist_to_breakout_pct": 3.46,
+      "wyckoff_stoploss": 62.4,
+      "wyckoff_stoploss_pct": 5.71,
+      "wyckoff_target_1": 73.27,
+      "wyckoff_target_2": 78.07,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b963.67 (Ice) to \u20b968.47 (Creek).",
+        "Consolidation inside 4.8 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "TATAPOWER.NS",
@@ -11199,6 +13448,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 391.18,
+      "wyckoff_ice": 346.31,
+      "wyckoff_breakout": 391.18,
+      "wyckoff_dist_to_breakout_pct": 7.28,
+      "wyckoff_stoploss": 339.38,
+      "wyckoff_stoploss_pct": 6.93,
+      "wyckoff_target_1": 436.05,
+      "wyckoff_target_2": 480.92,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9346.31 (Ice) to \u20b9391.18 (Creek).",
+        "Consolidation inside 44.87 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -11287,6 +13553,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 327.6,
+      "wyckoff_ice": 282.73,
+      "wyckoff_breakout": 327.6,
+      "wyckoff_dist_to_breakout_pct": 13.55,
+      "wyckoff_stoploss": 277.08,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 372.47,
+      "wyckoff_target_2": 417.34,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9282.73 (Ice) to \u20b9327.6 (Creek).",
+        "Consolidation inside 44.87 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -11366,7 +13649,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 157.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 2465.52,
+      "wyckoff_ice": 2201.57,
+      "wyckoff_breakout": 2465.52,
+      "wyckoff_dist_to_breakout_pct": 9.75,
+      "wyckoff_stoploss": 2157.54,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 2729.47,
+      "wyckoff_target_2": 2993.42,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b92201.57 (Ice) to \u20b92465.52 (Creek).",
+        "Consolidation inside 263.95 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ORICONENT.NS",
@@ -11455,6 +13755,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 59.82,
+      "wyckoff_ice": 50.36,
+      "wyckoff_breakout": 59.82,
+      "wyckoff_dist_to_breakout_pct": 16.4,
+      "wyckoff_stoploss": 49.35,
+      "wyckoff_stoploss_pct": 3.97,
+      "wyckoff_target_1": 69.28,
+      "wyckoff_target_2": 78.74,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b950.36 (Ice) to \u20b959.82 (Creek).",
+        "Consolidation inside 9.46 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -11531,7 +13848,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 5.25,
+      "wyckoff_ice": 4.74,
+      "wyckoff_breakout": 5.25,
+      "wyckoff_dist_to_breakout_pct": 5.85,
+      "wyckoff_stoploss": 4.65,
+      "wyckoff_stoploss_pct": 6.25,
+      "wyckoff_target_1": 5.76,
+      "wyckoff_target_2": 6.27,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b94.74 (Ice) to \u20b95.25 (Creek).",
+        "Consolidation inside 0.51 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "KOKUYOCMLN.NS",
@@ -11609,7 +13943,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 38.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 85.67,
+      "wyckoff_ice": 76.35,
+      "wyckoff_breakout": 85.67,
+      "wyckoff_dist_to_breakout_pct": 9.96,
+      "wyckoff_stoploss": 74.82,
+      "wyckoff_stoploss_pct": 3.97,
+      "wyckoff_target_1": 94.99,
+      "wyckoff_target_2": 104.31,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b976.35 (Ice) to \u20b985.67 (Creek).",
+        "Consolidation inside 9.32 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "SHRENIK.NS",
@@ -11684,7 +14035,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 0.33,
+      "wyckoff_ice": 0.27,
+      "wyckoff_breakout": 0.33,
+      "wyckoff_dist_to_breakout_pct": 13.79,
+      "wyckoff_stoploss": 0.26,
+      "wyckoff_stoploss_pct": 10.34,
+      "wyckoff_target_1": 0.39,
+      "wyckoff_target_2": 0.45,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b90.27 (Ice) to \u20b90.33 (Creek).",
+        "Consolidation inside 0.06 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "SUMEETINDS.NS",
@@ -11761,7 +14129,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 15.03,
+      "wyckoff_ice": 10.55,
+      "wyckoff_breakout": 15.03,
+      "wyckoff_dist_to_breakout_pct": 39.55,
+      "wyckoff_stoploss": 10.34,
+      "wyckoff_stoploss_pct": 3.99,
+      "wyckoff_target_1": 19.51,
+      "wyckoff_target_2": 23.99,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b910.55 (Ice) to \u20b915.03 (Creek).",
+        "Consolidation inside 4.48 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "BLUEJET.NS",
@@ -11850,6 +14235,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 615.54,
+      "wyckoff_ice": 557.18,
+      "wyckoff_breakout": 615.54,
+      "wyckoff_dist_to_breakout_pct": 8.26,
+      "wyckoff_stoploss": 546.04,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 673.9,
+      "wyckoff_target_2": 732.26,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9557.18 (Ice) to \u20b9615.54 (Creek).",
+        "Consolidation inside 58.36 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -11938,6 +14340,23 @@ window.stockData = {
           "impact": "Bullish Income \ud83d\udcb0",
           "impact_reason": "Dividend payout ex-date."
         }
+      ],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Sign of Weakness (Break of Ice)",
+      "wyckoff_creek": 1581.06,
+      "wyckoff_ice": 1353.38,
+      "wyckoff_breakout": 1581.06,
+      "wyckoff_dist_to_breakout_pct": 14.49,
+      "wyckoff_stoploss": 1581.06,
+      "wyckoff_stoploss_pct": -14.49,
+      "wyckoff_target_1": 1808.74,
+      "wyckoff_target_2": 2036.42,
+      "wyckoff_signal": "SOW EXIT / SHORT",
+      "wyckoff_rationale": [
+        "Major Sign of Weakness (SOW) breaking below Ice support (\u20b91353.38).",
+        "Elevated selling volume and momentum breakdown.",
+        "High probability of entering Phase E markdown."
       ]
     },
     {
@@ -12015,7 +14434,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 20.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 5705.94,
+      "wyckoff_ice": 4939.69,
+      "wyckoff_breakout": 5705.94,
+      "wyckoff_dist_to_breakout_pct": 13.2,
+      "wyckoff_stoploss": 4840.9,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 6472.19,
+      "wyckoff_target_2": 7238.44,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b94939.69 (Ice) to \u20b95705.94 (Creek).",
+        "Consolidation inside 766.25 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "MTNL.NS",
@@ -12092,7 +14528,24 @@ window.stockData = {
         "YoY Revenue up 229.9%"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 28.86,
+      "wyckoff_ice": 24.25,
+      "wyckoff_breakout": 28.86,
+      "wyckoff_dist_to_breakout_pct": 16.65,
+      "wyckoff_stoploss": 23.77,
+      "wyckoff_stoploss_pct": 3.92,
+      "wyckoff_target_1": 33.47,
+      "wyckoff_target_2": 38.08,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b924.25 (Ice) to \u20b928.86 (Creek).",
+        "Consolidation inside 4.61 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ATGL.NS",
@@ -12181,6 +14634,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 689.28,
+      "wyckoff_ice": 582.9,
+      "wyckoff_breakout": 689.28,
+      "wyckoff_dist_to_breakout_pct": 15.88,
+      "wyckoff_stoploss": 571.24,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 795.66,
+      "wyckoff_target_2": 902.04,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9582.9 (Ice) to \u20b9689.28 (Creek).",
+        "Consolidation inside 106.38 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -12261,7 +14731,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 73.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 170.34,
+      "wyckoff_ice": 143.56,
+      "wyckoff_breakout": 170.34,
+      "wyckoff_dist_to_breakout_pct": 16.28,
+      "wyckoff_stoploss": 140.69,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 197.12,
+      "wyckoff_target_2": 223.9,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9143.56 (Ice) to \u20b9170.34 (Creek).",
+        "Consolidation inside 26.78 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "DEN.NS",
@@ -12337,7 +14824,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 29.3,
+      "wyckoff_ice": 26.44,
+      "wyckoff_breakout": 29.3,
+      "wyckoff_dist_to_breakout_pct": 8.6,
+      "wyckoff_stoploss": 25.91,
+      "wyckoff_stoploss_pct": 3.97,
+      "wyckoff_target_1": 32.16,
+      "wyckoff_target_2": 35.02,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b926.44 (Ice) to \u20b929.3 (Creek).",
+        "Consolidation inside 2.86 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "DELTACORP.NS",
@@ -12416,7 +14920,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 92.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Sign of Weakness (Break of Ice)",
+      "wyckoff_creek": 62.56,
+      "wyckoff_ice": 53.07,
+      "wyckoff_breakout": 62.56,
+      "wyckoff_dist_to_breakout_pct": 15.53,
+      "wyckoff_stoploss": 62.56,
+      "wyckoff_stoploss_pct": -15.53,
+      "wyckoff_target_1": 72.05,
+      "wyckoff_target_2": 81.54,
+      "wyckoff_signal": "SOW EXIT / SHORT",
+      "wyckoff_rationale": [
+        "Major Sign of Weakness (SOW) breaking below Ice support (\u20b953.07).",
+        "Elevated selling volume and momentum breakdown.",
+        "High probability of entering Phase E markdown."
+      ]
     },
     {
       "symbol": "IRFC.NS",
@@ -12506,6 +15027,23 @@ window.stockData = {
           "impact": "High Volatility \u26a1",
           "impact_reason": "Quarterly results announcement impacts stock trend."
         }
+      ],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 88.78,
+      "wyckoff_ice": 79.47,
+      "wyckoff_breakout": 88.78,
+      "wyckoff_dist_to_breakout_pct": 9.48,
+      "wyckoff_stoploss": 77.88,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 98.09,
+      "wyckoff_target_2": 107.4,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b979.47 (Ice) to \u20b988.78 (Creek).",
+        "Consolidation inside 9.31 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -12581,7 +15119,24 @@ window.stockData = {
         "YoY Profit up 47.2%"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 23.85,
+      "wyckoff_ice": 21.15,
+      "wyckoff_breakout": 23.85,
+      "wyckoff_dist_to_breakout_pct": 10.52,
+      "wyckoff_stoploss": 20.73,
+      "wyckoff_stoploss_pct": 3.94,
+      "wyckoff_target_1": 26.55,
+      "wyckoff_target_2": 29.25,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b921.15 (Ice) to \u20b923.85 (Creek).",
+        "Consolidation inside 2.7 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "DCAL.NS",
@@ -12657,7 +15212,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 201.37,
+      "wyckoff_ice": 163.91,
+      "wyckoff_breakout": 201.37,
+      "wyckoff_dist_to_breakout_pct": 20.4,
+      "wyckoff_stoploss": 160.63,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 238.83,
+      "wyckoff_target_2": 276.29,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9163.91 (Ice) to \u20b9201.37 (Creek).",
+        "Consolidation inside 37.46 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "BHARATCOAL.NS",
@@ -12733,7 +15305,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 35.77,
+      "wyckoff_ice": 32.35,
+      "wyckoff_breakout": 35.77,
+      "wyckoff_dist_to_breakout_pct": 8.36,
+      "wyckoff_stoploss": 31.7,
+      "wyckoff_stoploss_pct": 3.97,
+      "wyckoff_target_1": 39.19,
+      "wyckoff_target_2": 42.61,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b932.35 (Ice) to \u20b935.77 (Creek).",
+        "Consolidation inside 3.42 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "HDIL.NS",
@@ -12809,7 +15398,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1.57,
+      "wyckoff_ice": 1.44,
+      "wyckoff_breakout": 1.57,
+      "wyckoff_dist_to_breakout_pct": 6.8,
+      "wyckoff_stoploss": 1.41,
+      "wyckoff_stoploss_pct": 4.08,
+      "wyckoff_target_1": 1.7,
+      "wyckoff_target_2": 1.83,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91.44 (Ice) to \u20b91.57 (Creek).",
+        "Consolidation inside 0.13 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "RIIL.NS",
@@ -12889,7 +15495,24 @@ window.stockData = {
       "corporate_actions": [
         "Attractive Dividend Yield: 49.00%"
       ],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 815.63,
+      "wyckoff_ice": 696.53,
+      "wyckoff_breakout": 815.63,
+      "wyckoff_dist_to_breakout_pct": 14.76,
+      "wyckoff_stoploss": 682.6,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 934.73,
+      "wyckoff_target_2": 1053.83,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9696.53 (Ice) to \u20b9815.63 (Creek).",
+        "Consolidation inside 119.1 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ZENITHEXPO.NS",
@@ -12965,7 +15588,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 233.87,
+      "wyckoff_ice": 191.62,
+      "wyckoff_breakout": 233.87,
+      "wyckoff_dist_to_breakout_pct": 14.08,
+      "wyckoff_stoploss": 187.79,
+      "wyckoff_stoploss_pct": 8.4,
+      "wyckoff_target_1": 276.12,
+      "wyckoff_target_2": 318.37,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9191.62 (Ice) to \u20b9233.87 (Creek).",
+        "Consolidation inside 42.25 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "ONMOBILE.NS",
@@ -13042,7 +15682,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 64.44,
+      "wyckoff_ice": 46.06,
+      "wyckoff_breakout": 64.44,
+      "wyckoff_dist_to_breakout_pct": 37.11,
+      "wyckoff_stoploss": 45.14,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 82.82,
+      "wyckoff_target_2": 101.2,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b946.06 (Ice) to \u20b964.44 (Creek).",
+        "Consolidation inside 18.38 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "SADHNANIQ.NS",
@@ -13118,7 +15775,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 3.21,
+      "wyckoff_ice": 2.66,
+      "wyckoff_breakout": 3.21,
+      "wyckoff_dist_to_breakout_pct": 13.03,
+      "wyckoff_stoploss": 2.61,
+      "wyckoff_stoploss_pct": 8.1,
+      "wyckoff_target_1": 3.76,
+      "wyckoff_target_2": 4.31,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b92.66 (Ice) to \u20b93.21 (Creek).",
+        "Consolidation inside 0.55 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "SIMBHALS.NS",
@@ -13194,7 +15868,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 9.32,
+      "wyckoff_ice": 6.74,
+      "wyckoff_breakout": 9.32,
+      "wyckoff_dist_to_breakout_pct": 31.82,
+      "wyckoff_stoploss": 6.61,
+      "wyckoff_stoploss_pct": 6.51,
+      "wyckoff_target_1": 11.9,
+      "wyckoff_target_2": 14.48,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b96.74 (Ice) to \u20b99.32 (Creek).",
+        "Consolidation inside 2.58 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     },
     {
       "symbol": "VIRINCHI.NS",
@@ -13270,7 +15961,24 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
-      "events": []
+      "events": [],
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 16.03,
+      "wyckoff_ice": 13.72,
+      "wyckoff_breakout": 16.03,
+      "wyckoff_dist_to_breakout_pct": 12.49,
+      "wyckoff_stoploss": 13.45,
+      "wyckoff_stoploss_pct": 5.61,
+      "wyckoff_target_1": 18.34,
+      "wyckoff_target_2": 20.65,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b913.72 (Ice) to \u20b916.03 (Creek).",
+        "Consolidation inside 2.31 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
     }
   ]
 };

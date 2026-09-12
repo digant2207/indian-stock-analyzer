@@ -94,6 +94,39 @@ def generate_email_html(analysis_data, nifty_data):
     else:
         event_rows = '<tr><td colspan="4" style="padding:12px; color:#64748b;">No major corporate events announced for today or tomorrow.</td></tr>'
 
+    # Filter Wyckoff Phase C (Springs) and Phase D (Jump Across Creek / LPS) setups (Max 15)
+    wyckoff_stocks = [
+        s for s in stocks_list 
+        if s.get('wyckoff_phase') in ['Phase C', 'Phase D'] and s.get('wyckoff_structure') == 'Accumulation'
+    ][:15]
+
+    wyckoff_rows = ""
+    if wyckoff_stocks:
+        for idx, s in enumerate(wyckoff_stocks, 1):
+            clean_sym = s.get('clean_symbol', s.get('symbol', '')).replace('.NS', '').replace('.BO', '')
+            price = f"₹{s.get('current_price', 0):,.2f}"
+            phase = s.get('wyckoff_phase', 'Phase B')
+            event = s.get('wyckoff_event', 'Range')
+            breakout = f"₹{s.get('wyckoff_breakout', s.get('buy_trigger_level', 0)):,.2f}"
+            sl = f"₹{s.get('wyckoff_stoploss', s.get('swing_stoploss', 0)):,.2f}"
+            signal = s.get('wyckoff_signal', 'BUY')
+            is_spring = 'Spring' in event
+            badge_bg = "#f3e8ff" if is_spring else "#ccfbf1"
+            badge_color = "#7e22ce" if is_spring else "#0f766e"
+
+            wyckoff_rows += f"""
+            <tr style="border-bottom:1px solid #e2e8f0;">
+                <td style="padding:10px;"><strong>#{idx} {s.get('name', clean_sym)}</strong> ({clean_sym})</td>
+                <td style="padding:10px; font-weight:bold;">{price}</td>
+                <td style="padding:10px;"><span style="background:{badge_bg}; color:{badge_color}; padding:3px 8px; border-radius:12px; font-size:11px; font-weight:bold;">{phase}: {event}</span></td>
+                <td style="padding:10px; color:#059669; font-weight:bold;">{breakout}</td>
+                <td style="padding:10px; color:#dc2626;">{sl}</td>
+                <td style="padding:10px; font-weight:bold; color:#0284c7; font-size:12px;">{signal}</td>
+            </tr>
+            """
+    else:
+        wyckoff_rows = '<tr><td colspan="6" style="padding:12px; color:#64748b;">No active Phase C Spring or Phase D breakout setups identified today.</td></tr>'
+
     # Top 5 Overall Stocks
     top5_rows = ""
     for idx, s in enumerate(stocks_list[:5], 1):
@@ -135,12 +168,12 @@ def generate_email_html(analysis_data, nifty_data):
         <div class="container">
             <div class="header">
                 <h1>📈 Indian Stock Market Daily Intelligence (9:45 AM IST)</h1>
-                <p>Opening Range Breakouts & Corporate Catalyst Report • {today_str}</p>
+                <p>Opening Range Breakouts, Wyckoff Analysis & Corporate Disclosures • {today_str}</p>
             </div>
             <div class="content">
                 <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:12px 16px; margin-bottom:20px; font-size:13px; color:#166534;">
                     <strong>9:45 AM Opening Scan Summary:</strong> Scanned {len(stocks_list)} stocks across NSE/BSE following market open. 
-                    Identified {len(breakout_stocks)} high-momentum breakout setups & {len(events_list)} major corporate events.
+                    Identified {len(breakout_stocks)} opening breakout setups, {len(wyckoff_stocks)} Wyckoff Phase C/D accumulation structures & {len(events_list)} corporate events.
                 </div>
 
                 <div class="section-title">🎯 Today's Top Breakout Setups (Top 25)</div>
@@ -157,6 +190,23 @@ def generate_email_html(analysis_data, nifty_data):
                     </thead>
                     <tbody>
                         {breakout_rows}
+                    </tbody>
+                </table>
+
+                <div class="section-title">🏛️ Wyckoff Methodology Setups (1-Day Phase C & D)</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Stock Name</th>
+                            <th>Price</th>
+                            <th>Phase & Event</th>
+                            <th>Breakout Point</th>
+                            <th>Stop Loss</th>
+                            <th>Signal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {wyckoff_rows}
                     </tbody>
                 </table>
 

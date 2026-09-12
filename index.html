@@ -51,6 +51,7 @@
     <aside class="sidebar-nav">
       <div class="nav-section-lbl">Navigation Menu</div>
       <button class="tab-btn active" data-tab="tab-today-action">🎯 Today's Breakouts (Top 25)</button>
+      <button class="tab-btn" data-tab="tab-wyckoff">🏛️ Wyckoff Analysis</button>
       <button class="tab-btn" data-tab="tab-overview">🔥 Top 15 & Worst 5</button>
       <button class="tab-btn" data-tab="tab-watchlist">📊 Spark Watchlist</button>
       <button class="tab-btn" data-tab="tab-nifty250">📈 Nifty 250 Universe</button>
@@ -245,6 +246,114 @@
 
         <div id="events-timeline-container" class="stock-cards-grid">
           <!-- Dynamic Corporate Events & Impact Cards -->
+        </div>
+      </div>
+
+      <!-- Tab 6: Wyckoff Methodology Analysis (1-Day Chart) -->
+      <div id="tab-wyckoff" class="tab-content">
+        <div class="section-title-group">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="section-title" style="color: #a855f7;">
+                🏛️ Wyckoff Methodology & Phase Analysis (1-Day Chart)
+              </h2>
+              <span style="font-size: 0.8rem; color: var(--text-secondary);">
+                Analyzing 1-Day Chart Market Cycles: Phases A-E, Trading Range (Creek & Ice), Wyckoff Breakout Points & Structural Stop Loss
+              </span>
+            </div>
+            <div style="font-size: 0.75rem; color: var(--text-muted); background: var(--bg-secondary); padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border-color);">
+              Based on Rubén Villahermosa's Wyckoff Methodology
+            </div>
+          </div>
+        </div>
+
+        <!-- Wyckoff Summary Cards -->
+        <section class="summary-grid" style="margin-bottom: 18px;">
+          <div class="stat-card clickable" onclick="setWyckoffFilter('PHASE', 'Phase C')" title="Filter Phase C Spring setups">
+            <div class="stat-label">Phase C: The Test (Springs)</div>
+            <div class="stat-value" style="color: #c084fc;" id="stat-wyckoff-springs">0</div>
+            <div class="stat-sub">High Asymmetry Low-Risk Buys ➔</div>
+          </div>
+          <div class="stat-card clickable" onclick="setWyckoffFilter('PHASE', 'Phase D')" title="Filter Phase D Sign of Strength & LPS">
+            <div class="stat-label">Phase D: Jump Across Creek (JAC)</div>
+            <div class="stat-value" style="color: var(--accent-cyan);" id="stat-wyckoff-breakouts">0</div>
+            <div class="stat-sub">Range Breakouts & LPS Tests ➔</div>
+          </div>
+          <div class="stat-card clickable" onclick="setWyckoffFilter('PHASE', 'Phase E')" title="Filter Phase E Active Markup">
+            <div class="stat-label">Phase E: Markup Uptrend</div>
+            <div class="stat-value positive" id="stat-wyckoff-markups">0</div>
+            <div class="stat-sub">Sustained Trend Outside Range ➔</div>
+          </div>
+          <div class="stat-card clickable" onclick="setWyckoffFilter('STRUCTURE', 'Distribution')" title="Filter Distribution & Markdown warnings">
+            <div class="stat-label">Distribution / SOW Warnings</div>
+            <div class="stat-value negative" id="stat-wyckoff-dist">0</div>
+            <div class="stat-sub">UTAD & Break of Ice Alerts ➔</div>
+          </div>
+        </section>
+
+        <!-- Wyckoff Quick Filter Buttons -->
+        <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px;">
+          <button class="pill-btn active" id="wyckoff-btn-all" onclick="applyWyckoffQuickFilter('ALL')">All Wyckoff Stocks</button>
+          <button class="pill-btn" id="wyckoff-btn-spring" onclick="applyWyckoffQuickFilter('SPRING')">🎯 Phase C: Springs & Tests</button>
+          <button class="pill-btn" id="wyckoff-btn-jac" onclick="applyWyckoffQuickFilter('JAC')">🚀 Phase D: Jump Across Creek (Breakouts)</button>
+          <button class="pill-btn" id="wyckoff-btn-lps" onclick="applyWyckoffQuickFilter('LPS')">💎 Phase D: LPS Pullbacks</button>
+          <button class="pill-btn" id="wyckoff-btn-markup" onclick="applyWyckoffQuickFilter('MARKUP')">📈 Phase E: Markup Trend</button>
+          <button class="pill-btn" id="wyckoff-btn-cause" onclick="applyWyckoffQuickFilter('CAUSE')">🧱 Phase B: Cause Building</button>
+          <button class="pill-btn" id="wyckoff-btn-dist" onclick="applyWyckoffQuickFilter('DIST')">⚠️ Distribution / Exit Alerts</button>
+        </div>
+
+        <!-- Filter Dropdowns & Search -->
+        <div class="table-controls">
+          <input type="text" id="wyckoff-search" class="search-input" placeholder="Search by stock name or symbol (e.g. Reliance, Dixon, GESHIP)...">
+
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <select id="wyckoff-universe-filter" class="filter-select">
+              <option value="ALL">All Universes (Combined)</option>
+              <option value="SPARK">Spark Watchlist Only</option>
+              <option value="NIFTY">Nifty 250 Universe Only</option>
+            </select>
+
+            <select id="wyckoff-phase-filter" class="filter-select">
+              <option value="ALL">All Wyckoff Phases</option>
+              <option value="Phase C">Phase C: The Test (Spring / UTAD)</option>
+              <option value="Phase D">Phase D: Trend in Range (JAC / LPS / SOW)</option>
+              <option value="Phase E">Phase E: Outside Range (Markup / Markdown)</option>
+              <option value="Phase B">Phase B: Cause Building (Absorption)</option>
+              <option value="Phase A">Phase A: Stopping Action (Climax / AR)</option>
+            </select>
+
+            <select id="wyckoff-structure-filter" class="filter-select">
+              <option value="ALL">All Structures</option>
+              <option value="Accumulation">Accumulation</option>
+              <option value="Markup">Markup</option>
+              <option value="Distribution">Distribution</option>
+              <option value="Markdown">Markdown</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Wyckoff Table -->
+        <div class="table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Company Name</th>
+                <th>Price (₹)</th>
+                <th>Day Chg (%)</th>
+                <th>Wyckoff Phase</th>
+                <th>Structure & Event</th>
+                <th>Breakout Point (₹)</th>
+                <th>Distance to Breakout</th>
+                <th>Stop Loss (₹)</th>
+                <th>Trading Range (Ice - Creek)</th>
+                <th>Cause Targets (T1 / T2)</th>
+                <th>Wyckoff Signal & Rationale</th>
+              </tr>
+            </thead>
+            <tbody id="wyckoff-tbody">
+              <!-- Dynamic Rows -->
+            </tbody>
+          </table>
         </div>
       </div>
 

@@ -470,6 +470,7 @@ function renderAllViews() {
   try { renderNifty250Table(nifty250Data.all_stocks || [], 'nifty250-tbody'); } catch (e) { console.error("renderNifty250Table error:", e); }
   try { populateSectorFilter(nifty250Data.all_stocks || [], 'nifty250-sector-filter'); } catch (e) { console.error("populateSectorFilter nifty error:", e); }
   try { renderEventsTab(); } catch (e) { console.error("renderEventsTab error:", e); }
+  try { renderWyckoffTab(); } catch (e) { console.error("renderWyckoffTab error:", e); }
 }
 
 function renderSummary() {
@@ -810,6 +811,232 @@ function setupEventListeners() {
   nSearchInput?.addEventListener('input', filterNiftyTable);
   nSectorSelect?.addEventListener('change', filterNiftyTable);
   nSignalSelect?.addEventListener('change', filterNiftyTable);
+
+  // Wyckoff Tab Listeners
+  const wSearchInput = document.getElementById('wyckoff-search');
+  const wUniverseSelect = document.getElementById('wyckoff-universe-filter');
+  const wPhaseSelect = document.getElementById('wyckoff-phase-filter');
+  const wStructSelect = document.getElementById('wyckoff-structure-filter');
+
+  wSearchInput?.addEventListener('input', filterWyckoffTable);
+  wUniverseSelect?.addEventListener('change', filterWyckoffTable);
+  wPhaseSelect?.addEventListener('change', filterWyckoffTable);
+  wStructSelect?.addEventListener('change', filterWyckoffTable);
+}
+
+// -------------------------------------------------------------
+// Wyckoff Methodology Tab Logic & Rendering (1-Day Chart)
+// -------------------------------------------------------------
+let currentWyckoffQuickFilter = 'ALL';
+
+function getWyckoffPhaseBadge(phase) {
+  switch (phase) {
+    case 'Phase C': return 'badge-wyckoff-phase-c';
+    case 'Phase D': return 'badge-wyckoff-phase-d';
+    case 'Phase E': return 'badge-wyckoff-phase-e';
+    case 'Phase B': return 'badge-wyckoff-phase-b';
+    case 'Phase A': return 'badge-wyckoff-phase-a';
+    default: return 'badge-accumulate';
+  }
+}
+
+function getWyckoffStructureBadge(structure) {
+  if (structure === 'Distribution' || structure === 'Markdown') return 'badge-wyckoff-dist';
+  if (structure === 'Markup') return 'badge-wyckoff-phase-e';
+  return 'badge-wyckoff-phase-d';
+}
+
+function applyWyckoffQuickFilter(filterKey) {
+  currentWyckoffQuickFilter = filterKey;
+  
+  document.querySelectorAll('#tab-wyckoff .pill-btn').forEach(btn => btn.classList.remove('active'));
+  const activeBtn = document.getElementById(`wyckoff-btn-${filterKey.toLowerCase()}`);
+  if (activeBtn) activeBtn.classList.add('active');
+
+  const phaseFilter = document.getElementById('wyckoff-phase-filter');
+  const structFilter = document.getElementById('wyckoff-structure-filter');
+
+  if (filterKey === 'SPRING') {
+    if (phaseFilter) phaseFilter.value = 'Phase C';
+    if (structFilter) structFilter.value = 'Accumulation';
+  } else if (filterKey === 'JAC') {
+    if (phaseFilter) phaseFilter.value = 'Phase D';
+    if (structFilter) structFilter.value = 'Accumulation';
+  } else if (filterKey === 'LPS') {
+    if (phaseFilter) phaseFilter.value = 'Phase D';
+    if (structFilter) structFilter.value = 'ALL';
+  } else if (filterKey === 'MARKUP') {
+    if (phaseFilter) phaseFilter.value = 'Phase E';
+    if (structFilter) structFilter.value = 'Markup';
+  } else if (filterKey === 'CAUSE') {
+    if (phaseFilter) phaseFilter.value = 'Phase B';
+    if (structFilter) structFilter.value = 'ALL';
+  } else if (filterKey === 'DIST') {
+    if (phaseFilter) phaseFilter.value = 'ALL';
+    if (structFilter) structFilter.value = 'Distribution';
+  } else {
+    if (phaseFilter) phaseFilter.value = 'ALL';
+    if (structFilter) structFilter.value = 'ALL';
+  }
+
+  filterWyckoffTable();
+}
+
+function setWyckoffFilter(type, val) {
+  document.querySelectorAll('.tab-btn').forEach(t => {
+    t.classList.toggle('active', t.getAttribute('data-tab') === 'tab-wyckoff');
+  });
+  document.querySelectorAll('.tab-content').forEach(c => {
+    c.classList.toggle('active', c.id === 'tab-wyckoff');
+  });
+
+  if (type === 'PHASE') {
+    const pSelect = document.getElementById('wyckoff-phase-filter');
+    if (pSelect) pSelect.value = val;
+  } else if (type === 'STRUCTURE') {
+    const sSelect = document.getElementById('wyckoff-structure-filter');
+    if (sSelect) sSelect.value = val;
+  }
+
+  filterWyckoffTable();
+}
+
+function filterWyckoffTable() {
+  const tbody = document.getElementById('wyckoff-tbody');
+  if (!tbody) return;
+
+  const searchVal = (document.getElementById('wyckoff-search')?.value || '').toLowerCase().trim();
+  const universeVal = document.getElementById('wyckoff-universe-filter')?.value || 'ALL';
+  const phaseVal = document.getElementById('wyckoff-phase-filter')?.value || 'ALL';
+  const structVal = document.getElementById('wyckoff-structure-filter')?.value || 'ALL';
+
+  let stockList = [];
+  if (universeVal === 'SPARK') {
+    stockList = stockData.all_stocks || [];
+  } else if (universeVal === 'NIFTY') {
+    stockList = nifty250Data.all_stocks || [];
+  } else {
+    stockList = getCombinedStocks();
+  }
+
+  const filtered = stockList.filter(s => {
+    const cleanSym = getCleanSymbol(s.symbol).toLowerCase();
+    const name = (s.name || '').toLowerCase();
+    const matchesSearch = !searchVal || cleanSym.includes(searchVal) || name.includes(searchVal);
+
+    const sPhase = s.wyckoff_phase || 'Phase B';
+    const matchesPhase = (phaseVal === 'ALL') || (sPhase === phaseVal);
+
+    const sStruct = s.wyckoff_structure || 'Accumulation';
+    const matchesStruct = (structVal === 'ALL') || (sStruct === structVal);
+
+    let matchesQuick = true;
+    if (currentWyckoffQuickFilter === 'SPRING') {
+      matchesQuick = (sPhase === 'Phase C' && (s.wyckoff_event || '').includes('Spring'));
+    } else if (currentWyckoffQuickFilter === 'JAC') {
+      matchesQuick = (sPhase === 'Phase D' && (s.wyckoff_event || '').includes('Jump Across Creek'));
+    } else if (currentWyckoffQuickFilter === 'LPS') {
+      matchesQuick = (sPhase === 'Phase D' && (s.wyckoff_event || '').includes('Last Point of Support'));
+    } else if (currentWyckoffQuickFilter === 'MARKUP') {
+      matchesQuick = (sPhase === 'Phase E' && sStruct === 'Markup');
+    } else if (currentWyckoffQuickFilter === 'CAUSE') {
+      matchesQuick = (sPhase === 'Phase B');
+    } else if (currentWyckoffQuickFilter === 'DIST') {
+      matchesQuick = (sStruct === 'Distribution' || sStruct === 'Markdown');
+    }
+
+    return matchesSearch && matchesPhase && matchesStruct && matchesQuick;
+  });
+
+  renderWyckoffRows(filtered, tbody);
+}
+
+function renderWyckoffTab() {
+  const combined = getCombinedStocks();
+
+  // Summary Metrics
+  const springsCount = combined.filter(s => s.wyckoff_phase === 'Phase C' && (s.wyckoff_event || '').includes('Spring')).length;
+  const breakoutsCount = combined.filter(s => s.wyckoff_phase === 'Phase D' && s.wyckoff_structure === 'Accumulation').length;
+  const markupsCount = combined.filter(s => s.wyckoff_phase === 'Phase E' && s.wyckoff_structure === 'Markup').length;
+  const distCount = combined.filter(s => ['Distribution', 'Markdown'].includes(s.wyckoff_structure || '')).length;
+
+  const springsEl = document.getElementById('stat-wyckoff-springs');
+  if (springsEl) springsEl.textContent = springsCount;
+
+  const breakoutsEl = document.getElementById('stat-wyckoff-breakouts');
+  if (breakoutsEl) breakoutsEl.textContent = breakoutsCount;
+
+  const markupsEl = document.getElementById('stat-wyckoff-markups');
+  if (markupsEl) markupsEl.textContent = markupsCount;
+
+  const distEl = document.getElementById('stat-wyckoff-dist');
+  if (distEl) distEl.textContent = distCount;
+
+  filterWyckoffTable();
+}
+
+function renderWyckoffRows(list, tbody) {
+  if (!tbody) return;
+
+  if (list.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="11" style="text-align:center; padding: 24px; color:var(--text-secondary);">No stocks match the selected Wyckoff criteria.</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = list.map((s, idx) => {
+    const cleanSym = getCleanSymbol(s.symbol);
+    const phase = s.wyckoff_phase || 'Phase B';
+    const struct = s.wyckoff_structure || 'Accumulation';
+    const event = s.wyckoff_event || 'Range Consolidation';
+    const creek = s.wyckoff_creek || (s.current_price * 1.02);
+    const ice = s.wyckoff_ice || (s.current_price * 0.98);
+    const breakout = s.wyckoff_breakout || creek;
+    const distPct = s.wyckoff_dist_to_breakout_pct !== undefined ? s.wyckoff_dist_to_breakout_pct : (((breakout - s.current_price) / s.current_price) * 100);
+    const stoploss = s.wyckoff_stoploss || ice;
+    const riskPct = s.wyckoff_stoploss_pct !== undefined ? s.wyckoff_stoploss_pct : (((s.current_price - stoploss) / s.current_price) * 100);
+    const t1 = s.wyckoff_target_1 || (creek + (creek - ice));
+    const t2 = s.wyckoff_target_2 || (creek + (creek - ice) * 2);
+    const isDone = Math.abs(distPct) <= 0.5 || s.is_breakout_done_today;
+
+    return `
+      <tr class="${isDone ? 'row-breakout-done' : ''}" onclick="openStockModal('${s.symbol}')">
+        <td>
+          <strong>#${idx + 1} ${s.name || cleanSym}</strong>
+          <span class="badge badge-accumulate">${cleanSym}</span>
+          ${isDone ? '<span class="badge badge-breakout-done" style="margin-left:6px;">TRIGGERED</span>' : ''}
+        </td>
+        <td><strong>₹${formatNum(s.current_price, 2)}</strong></td>
+        <td class="${(s.day_change_pct || 0) >= 0 ? 'positive' : 'negative'}">${(s.day_change_pct || 0) >= 0 ? '+' : ''}${formatNum(s.day_change_pct, 2)}%</td>
+        <td>
+          <span class="badge ${getWyckoffPhaseBadge(phase)}">${phase}</span>
+        </td>
+        <td>
+          <span class="badge ${getWyckoffStructureBadge(struct)}" style="margin-right:4px;">${struct}</span>
+          <span style="font-size:0.75rem; color:var(--text-secondary);">${event}</span>
+        </td>
+        <td><strong style="color:var(--accent-green); font-size:0.9rem;">₹${formatNum(breakout, 2)}</strong></td>
+        <td>
+          <span class="badge ${isDone ? 'badge-strong-buy' : (distPct <= 2.0 ? 'badge-accumulate' : 'badge-hold')}">
+            ${isDone ? 'At Breakout' : formatNum(distPct, 1) + '%'}
+          </span>
+        </td>
+        <td><strong style="color:var(--accent-rose)">₹${formatNum(stoploss, 2)}</strong> <span style="font-size:0.7rem; color:var(--text-muted);">(${formatNum(riskPct, 1)}%)</span></td>
+        <td>
+          <span style="font-size:0.75rem;">₹${formatNum(ice, 2)} - ₹${formatNum(creek, 2)}</span>
+        </td>
+        <td>
+          <span style="font-size:0.75rem; color:var(--accent-cyan);">T1: ₹${formatNum(t1, 1)}</span><br>
+          <span style="font-size:0.72rem; color:var(--text-muted);">T2: ₹${formatNum(t2, 1)}</span>
+        </td>
+        <td style="font-size:0.78rem;">
+          <strong style="color:var(--accent-cyan)">${s.wyckoff_signal || 'WATCH'}</strong>
+          <div style="font-size:0.72rem; color:var(--text-secondary); margin-top:2px;">
+            ${(s.wyckoff_rationale && s.wyckoff_rationale[0]) || 'Trading range analysis'}
+          </div>
+        </td>
+      </tr>
+    `;
+  }).join('');
 }
 
 function openStockModal(symbol) {
@@ -880,6 +1107,34 @@ function openStockModal(symbol) {
         <p><strong>Target 2:</strong> ₹${formatNum(stock.swing_target_2, 2)}</p>
         <p><strong>Stop Loss:</strong> ₹${formatNum(stock.swing_stoploss, 2)}</p>
         <p><strong>Intraday Setup:</strong> ${stock.intraday_signal || 'NEUTRAL'}</p>
+      </div>
+    </div>
+
+    <div class="modal-box" style="margin-top:14px; border-left: 4px solid #a855f7;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+        <div class="modal-box-title" style="color:#a855f7; margin-bottom:0; font-size:0.88rem;">🏛️ Wyckoff Methodology Analysis (1-Day Chart)</div>
+        <span class="badge ${getWyckoffPhaseBadge(stock.wyckoff_phase || 'Phase B')}">${stock.wyckoff_phase || 'Phase B'}: ${stock.wyckoff_event || 'Range Consolidation'}</span>
+      </div>
+      
+      <div class="modal-grid" style="margin-top:8px;">
+        <div>
+          <p><strong>Market Structure:</strong> <span class="badge ${getWyckoffStructureBadge(stock.wyckoff_structure || 'Accumulation')}">${stock.wyckoff_structure || 'Accumulation'}</span></p>
+          <p><strong>Wyckoff Breakout Trigger:</strong> <strong style="color:var(--accent-green)">₹${formatNum(stock.wyckoff_breakout || stock.buy_trigger_level, 2)}</strong> (${formatNum(stock.wyckoff_dist_to_breakout_pct || 0, 1)}% dist)</p>
+          <p><strong>Structural Stop Loss:</strong> <strong style="color:var(--accent-rose)">₹${formatNum(stock.wyckoff_stoploss || stock.swing_stoploss, 2)}</strong> (${formatNum(stock.wyckoff_stoploss_pct || 0, 1)}% risk)</p>
+          <p><strong>Trading Range Creek (Resistance):</strong> ₹${formatNum(stock.wyckoff_creek, 2)}</p>
+          <p><strong>Trading Range Ice (Support):</strong> ₹${formatNum(stock.wyckoff_ice, 2)}</p>
+        </div>
+        <div>
+          <p><strong>Wyckoff Signal:</strong> <strong style="color:var(--accent-cyan); font-size:0.95rem;">${stock.wyckoff_signal || 'CAUSE WATCH'}</strong></p>
+          <p><strong>Cause Target 1 (1x Range):</strong> ₹${formatNum(stock.wyckoff_target_1, 2)}</p>
+          <p><strong>Cause Target 2 (2x Range):</strong> ₹${formatNum(stock.wyckoff_target_2, 2)}</p>
+          <div style="margin-top:6px; font-size:0.78rem; color:var(--text-secondary);">
+            <strong>Wyckoff Rationale & Volume Absorption:</strong>
+            <ul style="padding-left:16px; margin-top:4px;">
+              ${(stock.wyckoff_rationale || ['Range structure established. Monitoring volume absorption.']).map(r => `<li>${r}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 

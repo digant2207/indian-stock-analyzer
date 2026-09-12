@@ -209,6 +209,217 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
 
     return events_list
 
+def analyze_wyckoff(close_prices, high_prices, low_prices, volumes, current_price, prev_close):
+    n = len(close_prices) if close_prices is not None else 0
+    if n < 20:
+        creek = round(current_price * 1.05, 2)
+        ice = round(current_price * 0.95, 2)
+        return {
+            "wyckoff_phase": "Phase B",
+            "wyckoff_structure": "Accumulation",
+            "wyckoff_event": "Consolidation Range",
+            "wyckoff_creek": creek,
+            "wyckoff_ice": ice,
+            "wyckoff_breakout": creek,
+            "wyckoff_dist_to_breakout_pct": 5.0,
+            "wyckoff_stoploss": ice,
+            "wyckoff_stoploss_pct": 5.0,
+            "wyckoff_target_1": round(creek + (creek - ice), 2),
+            "wyckoff_target_2": round(creek + (creek - ice) * 2.0, 2),
+            "wyckoff_signal": "RANGE WATCH",
+            "wyckoff_rationale": ["Building trading range; monitoring volume absorption."]
+        }
+
+    # Range Window: last 60 to 90 trading days on 1-day daily chart
+    rw = min(n, 90)
+    w_close = close_prices[-rw:]
+    w_high = high_prices[-rw:]
+    w_low = low_prices[-rw:]
+    w_vol = volumes[-rw:]
+
+    # Creek (TR Supply / Resistance) & Ice (TR Demand / Support)
+    try:
+        creek = round(float(np.percentile(w_high, 93)), 2)
+        ice = round(float(np.percentile(w_low, 7)), 2)
+    except Exception:
+        creek = round(float(np.max(w_high)), 2)
+        ice = round(float(np.min(w_low)), 2)
+
+    if creek <= ice:
+        creek = round(float(np.max(w_high)), 2)
+        ice = round(float(np.min(w_low)), 2)
+        if creek <= ice:
+            creek = round(current_price * 1.05, 2)
+            ice = round(current_price * 0.95, 2)
+
+    tr_height = round(max(creek - ice, current_price * 0.03), 2)
+    tr_midpoint = round((creek + ice) / 2.0, 2)
+
+    # Moving averages for trend context
+    sma_20 = float(np.mean(close_prices[-20:]))
+    sma_50 = float(np.mean(close_prices[-50:])) if n >= 50 else sma_20
+    sma_200 = float(np.mean(close_prices[-200:])) if n >= 200 else sma_50
+
+    # Volume: Up-day volume vs Down-day volume in last 20 bars (Effort vs Result)
+    recent_len = min(20, n - 1)
+    up_vol = 0.0
+    down_vol = 0.0
+    for i in range(-recent_len, 0):
+        if close_prices[i] >= close_prices[i - 1]:
+            up_vol += float(volumes[i])
+        else:
+            down_vol += float(volumes[i])
+
+    total_vol = up_vol + down_vol
+    up_vol_pct = (up_vol / total_vol * 100.0) if total_vol > 0 else 50.0
+    vol_avg_20 = float(np.mean(volumes[-20:])) if n >= 20 else float(np.mean(volumes))
+    vol_surge = float(volumes[-1] / vol_avg_20) if vol_avg_20 > 0 else 1.0
+
+    # Extremes in last 12 bars
+    recent_12_low = float(np.min(low_prices[-12:]))
+    recent_12_high = float(np.max(high_prices[-12:]))
+
+    # Wyckoff Schematics & Phase Detection
+    is_spring = (recent_12_low < ice * 1.005) and (current_price >= ice) and (current_price <= creek)
+    is_utad = (recent_12_high > creek * 0.995) and (current_price < creek) and (current_price >= ice) and (current_price > tr_midpoint)
+    is_jac_breakout = (current_price >= creek * 0.995) and (vol_surge >= 1.2 or current_price > prev_close)
+    is_lps = (creek * 0.98 <= current_price <= creek * 1.04) and (current_price > tr_midpoint) and (vol_surge <= 1.25)
+    is_markup = (current_price > creek * 1.03) and (current_price > sma_20) and (sma_20 >= sma_50)
+    is_sow_breakdown = (current_price < ice * 0.995) and (vol_surge >= 1.2 or current_price < prev_close)
+    is_markdown = (current_price < ice * 0.96) and (current_price < sma_20) and (sma_20 <= sma_50)
+    is_climax = (vol_surge >= 2.0) and (abs(current_price - prev_close) / prev_close >= 0.03)
+
+    if is_markup:
+        phase = "Phase E"
+        structure = "Markup"
+        event = "Markup Uptrend (Expansion)"
+        breakout = round(max(creek, float(np.max(high_prices[-15:])) * 1.003), 2)
+        stoploss = round(max(ice, current_price * 0.92, sma_20 * 0.97), 2)
+        signal = "MARKUP RIDE"
+        rationale = [
+            f"Trading firmly above Wyckoff Creek (₹{creek}) in active Markup Phase E.",
+            f"Strong alignment above 20 EMA (₹{sma_20:.1f}) and 50 EMA (₹{sma_50:.1f}).",
+            f"Accumulation cause built in ₹{ice} - ₹{creek} base now in vertical effect."
+        ]
+    elif is_markdown:
+        phase = "Phase E"
+        structure = "Markdown"
+        event = "Markdown Downtrend"
+        breakout = creek
+        stoploss = round(max(creek * 1.02, current_price * 1.06), 2)
+        signal = "MARKDOWN AVOID"
+        rationale = [
+            f"Broken below Wyckoff Ice support (₹{ice}) into Markdown Phase E.",
+            f"Supply heavily dominant with prices below 20 & 50 EMAs.",
+            "Avoid long positions until selling climax halts descent."
+        ]
+    elif is_sow_breakdown:
+        phase = "Phase D"
+        structure = "Distribution"
+        event = "Sign of Weakness (Break of Ice)"
+        breakout = creek
+        stoploss = round(max(creek, current_price * 1.05), 2)
+        signal = "SOW EXIT / SHORT"
+        rationale = [
+            f"Major Sign of Weakness (SOW) breaking below Ice support (₹{ice}).",
+            f"Elevated selling pressure ({100 - up_vol_pct:.1f}% down-volume).",
+            "High probability of entering Phase E markdown."
+        ]
+    elif is_jac_breakout:
+        phase = "Phase D"
+        structure = "Accumulation"
+        event = "Jump Across Creek (Sign of Strength)"
+        breakout = round(max(creek * 1.002, current_price * 1.002), 2)
+        stoploss = round(min(creek * 0.97, float(np.min(low_prices[-10:])) * 0.985), 2)
+        signal = "JAC BREAKOUT BUY"
+        rationale = [
+            f"Jump Across the Creek (JAC / SOS) breaking through Creek resistance (₹{creek}).",
+            f"Volume surge {vol_surge:.1f}x confirms institutional demand absorption.",
+            f"Cause of {tr_height} pts horizontal accumulation ready to unlock upward effect."
+        ]
+    elif is_lps:
+        phase = "Phase D"
+        structure = "Accumulation"
+        event = "Last Point of Support (LPS / Backup)"
+        breakout = round(max(creek * 1.005, recent_12_high * 1.002), 2)
+        stoploss = round(min(creek * 0.97, ice * 1.02), 2)
+        signal = "LPS PULLBACK BUY"
+        rationale = [
+            f"Last Point of Support (LPS) successfully holding above Creek (₹{creek}).",
+            f"Low-volume pullback demonstrates floating supply is exhausted.",
+            "Prime Wyckoff low-risk entry before Phase E markup acceleration."
+        ]
+    elif is_spring:
+        phase = "Phase C"
+        structure = "Accumulation"
+        event = "Spring / Shakeout Test"
+        breakout = creek
+        stoploss = round(min(recent_12_low, ice) * 0.985, 2)
+        signal = "SPRING TEST BUY"
+        rationale = [
+            f"Phase C Spring test under Ice support (₹{ice}) quickly rejected.",
+            f"Liquidity sweep completed; supply dried up on the test.",
+            f"Asymmetric risk-reward setup with stop loss strictly below Spring low (₹{stoploss})."
+        ]
+    elif is_utad:
+        phase = "Phase C"
+        structure = "Distribution"
+        event = "UTAD (Upthrust After Distribution)"
+        breakout = creek
+        stoploss = round(max(recent_12_high * 1.015, creek * 1.02), 2)
+        signal = "UTAD EXIT / CAUTION"
+        rationale = [
+            f"Upthrust After Distribution (UTAD) spiked above Creek (₹{creek}) and failed.",
+            "Smart money distributing to trap breakout buyers.",
+            "Tighten stop loss or take profits on long positions."
+        ]
+    elif is_climax:
+        phase = "Phase A"
+        structure = "Accumulation" if current_price < tr_midpoint else "Distribution"
+        event = "Stopping Climax & Secondary Test"
+        breakout = creek
+        stoploss = round(ice * 0.98 if structure == "Accumulation" else creek * 1.02, 2)
+        signal = "CLIMAX WATCH"
+        rationale = [
+            f"Phase A Stopping Action: Climactic volume surge ({vol_surge:.1f}x vol).",
+            f"Automatic reaction establishes Trading Range between ₹{ice} and ₹{creek}.",
+            "Wait for Phase B cause development before initiating trades."
+        ]
+    else:
+        phase = "Phase B"
+        structure = "Accumulation" if up_vol_pct >= 50.0 else "Distribution"
+        event = "Range Cause Building (Absorption)"
+        breakout = creek
+        stoploss = round(ice * 0.98, 2)
+        signal = "CAUSE BUILDING WATCH"
+        rationale = [
+            f"Phase B Cause Building inside Trading Range: ₹{ice} (Ice) to ₹{creek} (Creek).",
+            f"Volume balance: {up_vol_pct:.1f}% up-volume vs {100 - up_vol_pct:.1f}% down-volume.",
+            f"Smart money absorbing supply within {tr_height} pts horizontal range."
+        ]
+
+    dist_to_breakout = round(((breakout - current_price) / current_price) * 100.0, 2) if current_price > 0 else 0.0
+    stoploss_risk_pct = round(((current_price - stoploss) / current_price) * 100.0, 2) if current_price > 0 else 0.0
+
+    target_1 = round(creek + tr_height * 1.0, 2)
+    target_2 = round(creek + tr_height * 2.0, 2)
+
+    return {
+        "wyckoff_phase": phase,
+        "wyckoff_structure": structure,
+        "wyckoff_event": event,
+        "wyckoff_creek": creek,
+        "wyckoff_ice": ice,
+        "wyckoff_breakout": breakout,
+        "wyckoff_dist_to_breakout_pct": dist_to_breakout,
+        "wyckoff_stoploss": stoploss,
+        "wyckoff_stoploss_pct": stoploss_risk_pct,
+        "wyckoff_target_1": target_1,
+        "wyckoff_target_2": target_2,
+        "wyckoff_signal": signal,
+        "wyckoff_rationale": rationale
+    }
+
 def fetch_stock_data(symbol, metadata):
     print(f"Fetching data for {symbol}...")
     ticker = yf.Ticker(symbol)
@@ -431,6 +642,8 @@ def fetch_stock_data(symbol, metadata):
 
     events = fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earnings_growth_yoy, dividend_yield)
 
+    wyckoff_data = analyze_wyckoff(close_prices, high_prices, low_prices, volumes, current_price, prev_close)
+
     return {
         "symbol": symbol,
         "clean_symbol": symbol.replace('.NS', '').replace('.BO', ''),
@@ -488,7 +701,20 @@ def fetch_stock_data(symbol, metadata):
         "swing_target_2": swing_target_2,
         "rationale": rationale_bullets,
         "corporate_actions": corporate_actions,
-        "events": events
+        "events": events,
+        "wyckoff_phase": wyckoff_data.get("wyckoff_phase", "Phase B"),
+        "wyckoff_structure": wyckoff_data.get("wyckoff_structure", "Accumulation"),
+        "wyckoff_event": wyckoff_data.get("wyckoff_event", "Range Cause Building (Absorption)"),
+        "wyckoff_creek": wyckoff_data.get("wyckoff_creek", current_price * 1.05),
+        "wyckoff_ice": wyckoff_data.get("wyckoff_ice", current_price * 0.95),
+        "wyckoff_breakout": wyckoff_data.get("wyckoff_breakout", current_price * 1.05),
+        "wyckoff_dist_to_breakout_pct": wyckoff_data.get("wyckoff_dist_to_breakout_pct", 0.0),
+        "wyckoff_stoploss": wyckoff_data.get("wyckoff_stoploss", swing_stoploss),
+        "wyckoff_stoploss_pct": wyckoff_data.get("wyckoff_stoploss_pct", 0.0),
+        "wyckoff_target_1": wyckoff_data.get("wyckoff_target_1", swing_target_1),
+        "wyckoff_target_2": wyckoff_data.get("wyckoff_target_2", swing_target_2),
+        "wyckoff_signal": wyckoff_data.get("wyckoff_signal", "CAUSE BUILDING WATCH"),
+        "wyckoff_rationale": wyckoff_data.get("wyckoff_rationale", [])
     }
 
 def analyze_file(csv_path, output_json, output_js, js_var_name):
@@ -528,7 +754,12 @@ def analyze_file(csv_path, output_json, output_js, js_var_name):
         "strong_buys_count": sum(1 for s in analyzed if s['long_term_signal'] in ['STRONG BUY', 'ACCUMULATE']),
         "swing_breakouts_count": sum(1 for s in analyzed if s['swing_signal'] == 'BREAKOUT BUY'),
         "intraday_setups_count": sum(1 for s in analyzed if s['intraday_signal'] != 'NEUTRAL'),
-        "high_debt_warnings": sum(1 for s in analyzed if 'High Debt' in s['debt_status'])
+        "high_debt_warnings": sum(1 for s in analyzed if 'High Debt' in s['debt_status']),
+        "wyckoff_accumulation_count": sum(1 for s in analyzed if s.get('wyckoff_structure') == 'Accumulation' and s.get('wyckoff_phase') in ['Phase C', 'Phase D']),
+        "wyckoff_markup_count": sum(1 for s in analyzed if s.get('wyckoff_phase') == 'Phase E' and s.get('wyckoff_structure') == 'Markup'),
+        "wyckoff_phase_c_springs": sum(1 for s in analyzed if s.get('wyckoff_phase') == 'Phase C' and 'Spring' in s.get('wyckoff_event', '')),
+        "wyckoff_phase_d_breakouts": sum(1 for s in analyzed if s.get('wyckoff_phase') == 'Phase D' and s.get('wyckoff_structure') == 'Accumulation'),
+        "wyckoff_distribution_count": sum(1 for s in analyzed if s.get('wyckoff_structure') in ['Distribution', 'Markdown'])
     }
     
     output_payload = {
