@@ -1,7 +1,28 @@
 import json
 import os
+import math
+import re
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def sanitize_json(obj):
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return 0.0
+        return round(obj, 4)
+    elif isinstance(obj, dict):
+        return {k: sanitize_json(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [sanitize_json(x) for x in obj]
+    elif isinstance(obj, tuple):
+        return [sanitize_json(x) for x in obj]
+    elif isinstance(obj, str):
+        if "nan" in obj.lower():
+            res = re.sub(r'₹\s*nan\b', '₹0.00', obj, flags=re.IGNORECASE)
+            res = re.sub(r'\bnan\b', '0.0', res, flags=re.IGNORECASE)
+            return res
+        return obj
+    return obj
 
 def enrich_file(json_path, js_path, js_var_name):
     if not os.path.exists(json_path):
@@ -15,23 +36,23 @@ def enrich_file(json_path, js_path, js_var_name):
     print(f"Processing {len(stocks)} stocks in {json_path}...")
 
     for s in stocks:
-        current_price = float(s.get('current_price', 0.0))
-        prev_close = float(s.get('prev_close', current_price))
-        day_chg = float(s.get('day_change_pct', 0.0))
-        h52 = float(s.get('52w_high', current_price * 1.2))
-        l52 = float(s.get('52w_low', current_price * 0.8))
-        sma20 = float(s.get('sma_20', current_price))
-        sma50 = float(s.get('sma_50', current_price))
-        sma200 = float(s.get('sma_200', current_price))
-        rsi = float(s.get('rsi_14', 50.0))
-        vol_surge = float(s.get('vol_surge_ratio', 1.0))
+        current_price = float(s.get('current_price') or 0.0)
+        prev_close = float(s.get('prev_close') or current_price)
+        day_chg = float(s.get('day_change_pct') or 0.0)
+        h52 = float(s.get('52w_high') or (current_price * 1.2))
+        l52 = float(s.get('52w_low') or (current_price * 0.8))
+        sma20 = float(s.get('sma_20') or current_price)
+        sma50 = float(s.get('sma_50') or current_price)
+        sma200 = float(s.get('sma_200') or current_price)
+        rsi = float(s.get('rsi_14') or 50.0)
+        vol_surge = float(s.get('vol_surge_ratio') or 1.0)
         is_breakout_done = s.get('is_breakout_done_today', False)
         is_20d_high = s.get('is_20d_high_breakout', False)
         is_20d_low = s.get('is_20d_low_breakdown', False)
 
         # Trading Range (TR) Creek and Ice
-        buy_trig = float(s.get('buy_trigger_level', current_price * 1.01))
-        sell_trig = float(s.get('sell_trigger_level', current_price * 0.99))
+        buy_trig = float(s.get('buy_trigger_level') or (current_price * 1.01))
+        sell_trig = float(s.get('sell_trigger_level') or (current_price * 0.99))
 
         creek = round(max(buy_trig, current_price * 1.005), 2)
         ice = round(min(sell_trig, current_price * 0.98), 2)
@@ -191,11 +212,13 @@ def enrich_file(json_path, js_path, js_var_name):
     smry["wyckoff_distribution_count"] = sum(1 for s in stocks if s.get('wyckoff_structure') in ['Distribution', 'Markdown'])
     data["summary"] = smry
 
+    sanitized_data = sanitize_json(data)
+
     with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2)
+        json.dump(sanitized_data, f, indent=2, allow_nan=False)
 
     with open(js_path, 'w', encoding='utf-8') as f:
-        f.write(f"window.{js_var_name} = " + json.dumps(data, indent=2) + ";")
+        f.write(f"window.{js_var_name} = " + json.dumps(sanitized_data, indent=2, allow_nan=False) + ";")
 
     print(f"Successfully enriched {json_path} and {js_path}!")
 

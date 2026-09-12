@@ -61,9 +61,29 @@ def clean_val(val, default=0.0):
     if val is None or (isinstance(val, float) and math.isnan(val)):
         return default
     try:
-        return float(val)
+        f_val = float(val)
+        return default if (math.isnan(f_val) or math.isinf(f_val)) else f_val
     except Exception:
         return default
+
+def sanitize_json(obj):
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return 0.0
+        return round(obj, 4)
+    elif isinstance(obj, dict):
+        return {k: sanitize_json(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [sanitize_json(x) for x in obj]
+    elif isinstance(obj, tuple):
+        return [sanitize_json(x) for x in obj]
+    elif isinstance(obj, str):
+        if "nan" in obj.lower():
+            res = re.sub(r'₹\s*nan\b', '₹0.00', obj, flags=re.IGNORECASE)
+            res = re.sub(r'\bnan\b', '0.0', res, flags=re.IGNORECASE)
+            return res
+        return obj
+    return obj
 
 def safe_pct_change(current, previous):
     if previous is None or current is None or previous == 0 or math.isnan(previous) or math.isnan(current):
@@ -804,11 +824,12 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, start_p
         "all_stocks": analyzed
     }
     
+    output_payload = sanitize_json(output_payload)
     with open(output_json, 'w', encoding='utf-8') as f:
-        json.dump(output_payload, f, indent=2)
+        json.dump(output_payload, f, indent=2, allow_nan=False)
         
     with open(output_js, 'w', encoding='utf-8') as f:
-        f.write(f"window.{js_var_name} = " + json.dumps(output_payload, indent=2) + ";")
+        f.write(f"window.{js_var_name} = " + json.dumps(output_payload, indent=2, allow_nan=False) + ";")
         
     print(f"Completed {csv_path}! Scanned {len(analyzed)} stocks. Saved to {output_json} & {output_js}")
     return output_payload

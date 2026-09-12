@@ -67,6 +67,20 @@ function initTabs() {
       if (targetEl) {
         targetEl.classList.add('active');
       }
+
+      if (contentId === 'tab-wyckoff') {
+        try { renderWyckoffTab(); } catch(e) { console.error('Error rendering Wyckoff tab:', e); }
+      } else if (contentId === 'tab-today-action') {
+        try { renderTodayActionWatchlist(); } catch(e) { console.error('Error rendering Today Action tab:', e); }
+      } else if (contentId === 'tab-overview') {
+        try { renderTop15(); renderWorst5(); } catch(e) { console.error('Error rendering Overview tab:', e); }
+      } else if (contentId === 'tab-watchlist') {
+        try { renderSparkWatchlistTable(stockData.all_stocks || [], 'all-stocks-tbody'); } catch(e) { console.error('Error rendering Spark Watchlist:', e); }
+      } else if (contentId === 'tab-nifty250') {
+        try { renderNifty250Table(nifty250Data.all_stocks || [], 'nifty250-tbody'); } catch(e) { console.error('Error rendering Nifty 250:', e); }
+      } else if (contentId === 'tab-events') {
+        try { renderEventsTab(); } catch(e) { console.error('Error rendering Events tab:', e); }
+      }
     });
   });
 }
