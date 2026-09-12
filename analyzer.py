@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import requests
+import re
 
 HIGH_DEBT_SECTORS = [
     "Private Bank", "Public Bank", "NBFC", "Financial Services", 
@@ -89,18 +90,22 @@ def clean_val(val, default=0.0):
         return default
 
 def sanitize_json(obj):
-    if isinstance(obj, float):
-        if math.isnan(obj) or math.isinf(obj):
+    if obj is None:
+        return None
+    if isinstance(obj, (float, np.floating)):
+        if math.isnan(float(obj)) or math.isinf(float(obj)):
             return 0.0
-        return round(obj, 4)
+        return round(float(obj), 4)
+    elif isinstance(obj, (int, np.integer)):
+        return int(obj)
+    elif isinstance(obj, (bool, np.bool_)):
+        return bool(obj)
     elif isinstance(obj, dict):
         return {k: sanitize_json(v) for k, v in obj.items()}
-    elif isinstance(obj, list):
-        return [sanitize_json(x) for x in obj]
-    elif isinstance(obj, tuple):
+    elif isinstance(obj, (list, tuple, set)):
         return [sanitize_json(x) for x in obj]
     elif isinstance(obj, str):
-        if "nan" in obj.lower():
+        if re.search(r'(?:₹\s*|\b)nan\b', obj, flags=re.IGNORECASE):
             res = re.sub(r'₹\s*nan\b', '₹0.00', obj, flags=re.IGNORECASE)
             res = re.sub(r'\bnan\b', '0.0', res, flags=re.IGNORECASE)
             return res

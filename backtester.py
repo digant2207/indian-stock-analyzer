@@ -115,11 +115,24 @@ def run_backtest_all(stocks_csv_path=None, output_json_path=None, output_js_path
         "symbol_details": results
     }
     
+    def sanitize_val(obj):
+        if obj is None: return None
+        if isinstance(obj, (float, np.floating)):
+            import math
+            return 0.0 if (math.isnan(float(obj)) or math.isinf(float(obj))) else round(float(obj), 4)
+        if isinstance(obj, (int, np.integer)): return int(obj)
+        if isinstance(obj, (bool, np.bool_)): return bool(obj)
+        if isinstance(obj, dict): return {k: sanitize_val(v) for k, v in obj.items()}
+        if isinstance(obj, (list, tuple)): return [sanitize_val(x) for x in obj]
+        return obj
+
+    summary = sanitize_val(summary)
+
     with open(output_json_path, 'w', encoding='utf-8') as f:
-        json.dump(summary, f, indent=2)
+        json.dump(summary, f, indent=2, allow_nan=False)
         
     with open(output_js_path, 'w', encoding='utf-8') as f:
-        f.write("window.backtestData = " + json.dumps(summary, indent=2) + ";")
+        f.write("window.backtestData = " + json.dumps(summary, indent=2, allow_nan=False) + ";")
         
     print(f"Backtest complete! Saved to {output_json_path} & {output_js_path}")
     return summary
