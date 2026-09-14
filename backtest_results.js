@@ -1,8 +1,8 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 27.8,
-  "overall_avg_return_per_trade": -1.89,
+  "overall_win_rate": 27.6,
+  "overall_avg_return_per_trade": -1.93,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -134,18 +134,18 @@ window.backtestData = {
     },
     {
       "symbol": "CAMS.NS",
-      "total_trades": 9,
-      "win_rate": 22.2,
-      "avg_return": -2.9,
+      "total_trades": 8,
+      "win_rate": 25.0,
+      "avg_return": -2.55,
       "total_wins": 2,
-      "total_losses": 7
+      "total_losses": 6
     },
     {
       "symbol": "CANBK.NS",
-      "total_trades": 11,
-      "win_rate": 36.4,
-      "avg_return": -0.68,
-      "total_wins": 4,
+      "total_trades": 10,
+      "win_rate": 30.0,
+      "avg_return": -1.94,
+      "total_wins": 3,
       "total_losses": 7
     },
     {
