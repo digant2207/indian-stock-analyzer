@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "2026-09-14 01:15 PM IST",
+    "last_updated": "2026-09-14 01:30 PM IST",
     "total_stocks_scanned": 139,
     "strong_buys_count": 20,
     "swing_breakouts_count": 7,
@@ -149,10 +149,10 @@ window.stockData = {
       "target_mean_price": 1866.5,
       "analyst_upside_pct": 32.2,
       "recommendation_key": "None",
-      "dividend_yield": 411.0,
+      "dividend_yield": 408.0,
       "promoter_holding": 30.8,
-      "institutional_holding": 27.5,
-      "public_holding": 41.7,
+      "institutional_holding": 27.6,
+      "public_holding": 41.6,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": 0,
       "is_20d_low_breakdown": 0,
@@ -187,7 +187,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 411.00%"
+        "Attractive Dividend Yield: 408.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -443,7 +443,7 @@ window.stockData = {
       "target_mean_price": 93.22,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 209.0,
+      "dividend_yield": 215.0,
       "promoter_holding": 50.0,
       "institutional_holding": 30.0,
       "public_holding": 20.0,
@@ -481,7 +481,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 209.00%"
+        "Attractive Dividend Yield: 215.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -639,7 +639,7 @@ window.stockData = {
       "target_mean_price": 536.1,
       "analyst_upside_pct": 9.5,
       "recommendation_key": "Buy",
-      "dividend_yield": 265.0,
+      "dividend_yield": 260.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.6,
       "public_holding": 9.7,
@@ -676,7 +676,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 265.00%"
+        "Attractive Dividend Yield: 260.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -834,7 +834,7 @@ window.stockData = {
       "target_mean_price": 950.0,
       "analyst_upside_pct": 32.6,
       "recommendation_key": "None",
-      "dividend_yield": 72.0,
+      "dividend_yield": 70.0,
       "promoter_holding": 69.4,
       "institutional_holding": 13.7,
       "public_holding": 16.9,
@@ -872,7 +872,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 72.00%"
+        "Attractive Dividend Yield: 70.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -2080,10 +2080,10 @@ window.stockData = {
       "target_mean_price": 1866.5,
       "analyst_upside_pct": 32.2,
       "recommendation_key": "None",
-      "dividend_yield": 411.0,
+      "dividend_yield": 408.0,
       "promoter_holding": 30.8,
-      "institutional_holding": 27.5,
-      "public_holding": 41.7,
+      "institutional_holding": 27.6,
+      "public_holding": 41.6,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": 0,
       "is_20d_low_breakdown": 0,
@@ -2118,7 +2118,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 411.00%"
+        "Attractive Dividend Yield: 408.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -2374,7 +2374,7 @@ window.stockData = {
       "target_mean_price": 93.22,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 209.0,
+      "dividend_yield": 215.0,
       "promoter_holding": 50.0,
       "institutional_holding": 30.0,
       "public_holding": 20.0,
@@ -2412,7 +2412,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 209.00%"
+        "Attractive Dividend Yield: 215.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -2570,7 +2570,7 @@ window.stockData = {
       "target_mean_price": 536.1,
       "analyst_upside_pct": 9.5,
       "recommendation_key": "Buy",
-      "dividend_yield": 265.0,
+      "dividend_yield": 260.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.6,
       "public_holding": 9.7,
@@ -2607,7 +2607,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 265.00%"
+        "Attractive Dividend Yield: 260.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -2765,7 +2765,7 @@ window.stockData = {
       "target_mean_price": 950.0,
       "analyst_upside_pct": 32.6,
       "recommendation_key": "None",
-      "dividend_yield": 72.0,
+      "dividend_yield": 70.0,
       "promoter_holding": 69.4,
       "institutional_holding": 13.7,
       "public_holding": 16.9,
@@ -2803,7 +2803,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 72.00%"
+        "Attractive Dividend Yield: 70.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -3445,7 +3445,7 @@ window.stockData = {
       "target_mean_price": 1338.67,
       "analyst_upside_pct": 13.1,
       "recommendation_key": "None",
-      "dividend_yield": 41.0,
+      "dividend_yield": 42.0,
       "promoter_holding": 30.8,
       "institutional_holding": 29.4,
       "public_holding": 39.8,
@@ -3481,7 +3481,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 41.00%"
+        "Attractive Dividend Yield: 42.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -3541,7 +3541,7 @@ window.stockData = {
       "target_mean_price": 185.0,
       "analyst_upside_pct": 18.6,
       "recommendation_key": "None",
-      "dividend_yield": 312.0,
+      "dividend_yield": 321.0,
       "promoter_holding": 42.9,
       "institutional_holding": 11.7,
       "public_holding": 45.4,
@@ -3577,7 +3577,7 @@ window.stockData = {
         "YoY Profit up 14.4%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 312.00%"
+        "Attractive Dividend Yield: 321.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -3637,7 +3637,7 @@ window.stockData = {
       "target_mean_price": 943.75,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 212.0,
+      "dividend_yield": 211.0,
       "promoter_holding": 64.8,
       "institutional_holding": 12.7,
       "public_holding": 22.5,
@@ -3674,7 +3674,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 212.00%"
+        "Attractive Dividend Yield: 211.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -4221,7 +4221,7 @@ window.stockData = {
       "target_mean_price": 360.0,
       "analyst_upside_pct": 15.4,
       "recommendation_key": "Strong Buy",
-      "dividend_yield": 63.0,
+      "dividend_yield": 64.0,
       "promoter_holding": 75.5,
       "institutional_holding": 13.7,
       "public_holding": 10.8,
@@ -4256,7 +4256,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 63.00%"
+        "Attractive Dividend Yield: 64.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -4603,7 +4603,7 @@ window.stockData = {
       "target_mean_price": 524.15,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 37.0,
+      "dividend_yield": 38.0,
       "promoter_holding": 74.8,
       "institutional_holding": 3.9,
       "public_holding": 21.3,
@@ -4638,7 +4638,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 37.00%"
+        "Attractive Dividend Yield: 38.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -4698,7 +4698,7 @@ window.stockData = {
       "target_mean_price": 132.43,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 110.0,
+      "dividend_yield": 113.0,
       "promoter_holding": 38.0,
       "institutional_holding": 16.4,
       "public_holding": 45.6,
@@ -4737,7 +4737,7 @@ window.stockData = {
         "Warning: High debt level"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 110.00%"
+        "Attractive Dividend Yield: 113.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -4854,101 +4854,6 @@ window.stockData = {
         "Broken below Wyckoff Ice support (\u20b98744.65) into Markdown Phase E.",
         "Supply heavily dominant with prices below 20 & 50 EMAs.",
         "Avoid long positions until selling climax halts descent."
-      ]
-    },
-    {
-      "symbol": "BAJAJHFL.NS",
-      "clean_symbol": "BAJAJHFL",
-      "name": "Bajaj Housing Finance Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b988.32",
-      "current_price": 84.11,
-      "prev_close": 84.22,
-      "day_change_pct": -0.13,
-      "52w_high": 117.0,
-      "52w_low": 72.65,
-      "pct_from_52w_high": -28.11,
-      "pct_from_52w_low": 15.77,
-      "sma_20": 84.06,
-      "sma_50": 85.45,
-      "sma_200": 87.71,
-      "rsi_14": 48.3,
-      "macd_val": -0.48,
-      "macd_signal": -0.57,
-      "macd_hist": 0.09,
-      "vol_surge_ratio": 1.83,
-      "pe_ratio": 26.05,
-      "forward_pe": 19.22,
-      "peg_ratio": 0.0,
-      "pb_ratio": 3.11,
-      "roe": 12.7,
-      "profit_margins": 63.2,
-      "operating_margins": 80.9,
-      "debt_to_equity": 4.61,
-      "debt_status": "High Debt Warning",
-      "rev_growth_yoy": 19.6,
-      "earnings_growth_yoy": 22.9,
-      "q_sales_growth": 19.6,
-      "q_pat_growth": 22.9,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 94.47,
-      "analyst_upside_pct": 12.3,
-      "recommendation_key": "None",
-      "dividend_yield": 0.0,
-      "promoter_holding": 86.7,
-      "institutional_holding": 1.0,
-      "public_holding": 12.3,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 86.99,
-      "sell_trigger_level": 81.55,
-      "dist_from_prev_close": 3.29,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+19.6%)",
-        "Robust YoY Profit Expansion (+22.9%)"
-      ],
-      "weaknesses": [
-        "High Debt Burden (D/E 4.61)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 17.0,
-      "technical_score": 21.0,
-      "composite_score": 50,
-      "long_term_signal": "HOLD",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 82.05,
-      "swing_target_1": 86.97,
-      "swing_target_2": 88.92,
-      "rationale": [
-        "YoY Revenue up 19.6%",
-        "YoY Profit up 22.9%",
-        "Warning: High debt level"
-      ],
-      "corporate_actions": [],
-      "events": null,
-      "wyckoff_phase": "Phase C",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Spring / Shakeout Test",
-      "wyckoff_creek": 89.41,
-      "wyckoff_ice": 82.51,
-      "wyckoff_breakout": 89.41,
-      "wyckoff_dist_to_breakout_pct": 6.3,
-      "wyckoff_stoploss": 80.48,
-      "wyckoff_stoploss_pct": 4.32,
-      "wyckoff_target_1": 96.31,
-      "wyckoff_target_2": 103.21,
-      "wyckoff_signal": "SPRING TEST BUY",
-      "wyckoff_rationale": [
-        "Phase C Spring test under Ice support (\u20b982.51) quickly rejected.",
-        "Liquidity sweep completed; supply dried up on the test.",
-        "Asymmetric risk-reward setup with stop loss strictly below Spring low (\u20b980.48)."
       ]
     },
     {
@@ -5136,6 +5041,101 @@ window.stockData = {
         "Last Point of Support (LPS) successfully holding above Creek (\u20b9262.68).",
         "Low-volume pullback demonstrates floating supply is exhausted.",
         "Prime Wyckoff low-risk entry before Phase E markup acceleration."
+      ]
+    },
+    {
+      "symbol": "BAJAJHFL.NS",
+      "clean_symbol": "BAJAJHFL",
+      "name": "Bajaj Housing Finance Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b988.32",
+      "current_price": 84.11,
+      "prev_close": 84.22,
+      "day_change_pct": -0.13,
+      "52w_high": 117.0,
+      "52w_low": 72.65,
+      "pct_from_52w_high": -28.11,
+      "pct_from_52w_low": 15.77,
+      "sma_20": 84.06,
+      "sma_50": 85.45,
+      "sma_200": 87.71,
+      "rsi_14": 48.3,
+      "macd_val": -0.48,
+      "macd_signal": -0.57,
+      "macd_hist": 0.09,
+      "vol_surge_ratio": 1.83,
+      "pe_ratio": 26.05,
+      "forward_pe": 19.22,
+      "peg_ratio": 0.0,
+      "pb_ratio": 3.11,
+      "roe": 12.7,
+      "profit_margins": 63.2,
+      "operating_margins": 80.9,
+      "debt_to_equity": 4.61,
+      "debt_status": "High Debt Warning",
+      "rev_growth_yoy": 19.6,
+      "earnings_growth_yoy": 22.9,
+      "q_sales_growth": 19.6,
+      "q_pat_growth": 22.9,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 94.47,
+      "analyst_upside_pct": 12.3,
+      "recommendation_key": "None",
+      "dividend_yield": 0.0,
+      "promoter_holding": 86.7,
+      "institutional_holding": 1.0,
+      "public_holding": 12.3,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 86.99,
+      "sell_trigger_level": 81.55,
+      "dist_from_prev_close": 3.29,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+19.6%)",
+        "Robust YoY Profit Expansion (+22.9%)"
+      ],
+      "weaknesses": [
+        "High Debt Burden (D/E 4.61)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 17.0,
+      "technical_score": 21.0,
+      "composite_score": 50,
+      "long_term_signal": "HOLD",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 82.05,
+      "swing_target_1": 86.97,
+      "swing_target_2": 88.92,
+      "rationale": [
+        "YoY Revenue up 19.6%",
+        "YoY Profit up 22.9%",
+        "Warning: High debt level"
+      ],
+      "corporate_actions": [],
+      "events": null,
+      "wyckoff_phase": "Phase C",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Spring / Shakeout Test",
+      "wyckoff_creek": 89.41,
+      "wyckoff_ice": 82.51,
+      "wyckoff_breakout": 89.41,
+      "wyckoff_dist_to_breakout_pct": 6.3,
+      "wyckoff_stoploss": 80.48,
+      "wyckoff_stoploss_pct": 4.32,
+      "wyckoff_target_1": 96.31,
+      "wyckoff_target_2": 103.21,
+      "wyckoff_signal": "SPRING TEST BUY",
+      "wyckoff_rationale": [
+        "Phase C Spring test under Ice support (\u20b982.51) quickly rejected.",
+        "Liquidity sweep completed; supply dried up on the test.",
+        "Asymmetric risk-reward setup with stop loss strictly below Spring low (\u20b980.48)."
       ]
     },
     {
@@ -5737,7 +5737,7 @@ window.stockData = {
       "macd_signal": 66.77,
       "macd_hist": 15.36,
       "vol_surge_ratio": 0.5,
-      "pe_ratio": 76.3,
+      "pe_ratio": 79.86,
       "forward_pe": 48.89,
       "peg_ratio": 0.0,
       "pb_ratio": 18.21,
@@ -6043,7 +6043,7 @@ window.stockData = {
       "target_mean_price": 5467.89,
       "analyst_upside_pct": 11.5,
       "recommendation_key": "Buy",
-      "dividend_yield": 40.0,
+      "dividend_yield": 41.0,
       "promoter_holding": 71.6,
       "institutional_holding": 16.0,
       "public_holding": 12.4,
@@ -6079,7 +6079,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 40.00%"
+        "Attractive Dividend Yield: 41.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -6615,7 +6615,7 @@ window.stockData = {
       "target_mean_price": 76.43,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 331.0,
+      "dividend_yield": 327.0,
       "promoter_holding": 74.9,
       "institutional_holding": 0.0,
       "public_holding": 25.1,
@@ -6650,7 +6650,7 @@ window.stockData = {
         "YoY Revenue up 36.3%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 331.00%"
+        "Attractive Dividend Yield: 327.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -6710,7 +6710,7 @@ window.stockData = {
       "target_mean_price": 11134.0,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 146.0,
+      "dividend_yield": 144.0,
       "promoter_holding": 61.6,
       "institutional_holding": 13.1,
       "public_holding": 25.3,
@@ -6746,7 +6746,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 146.00%"
+        "Attractive Dividend Yield: 144.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -6806,7 +6806,7 @@ window.stockData = {
       "target_mean_price": 3069.29,
       "analyst_upside_pct": 26.4,
       "recommendation_key": "None",
-      "dividend_yield": 80.0,
+      "dividend_yield": 81.0,
       "promoter_holding": 74.5,
       "institutional_holding": 3.9,
       "public_holding": 21.6,
@@ -6844,7 +6844,7 @@ window.stockData = {
         "YoY Profit up 43.9%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 80.00%"
+        "Attractive Dividend Yield: 81.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -6904,7 +6904,7 @@ window.stockData = {
       "target_mean_price": 78.27,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 65.0,
+      "dividend_yield": 64.0,
       "promoter_holding": 74.2,
       "institutional_holding": 0.0,
       "public_holding": 25.8,
@@ -6940,7 +6940,7 @@ window.stockData = {
         "YoY Profit up 127.9%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 65.00%"
+        "Attractive Dividend Yield: 64.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase B",
@@ -7286,7 +7286,7 @@ window.stockData = {
       "free_cash_flow": 0.0,
       "target_mean_price": 395.0,
       "analyst_upside_pct": 22.3,
-      "recommendation_key": "Strong Buy",
+      "recommendation_key": "None",
       "dividend_yield": 15.0,
       "promoter_holding": 61.7,
       "institutional_holding": 6.5,
@@ -7486,8 +7486,8 @@ window.stockData = {
       "recommendation_key": "None",
       "dividend_yield": 94.0,
       "promoter_holding": 76.1,
-      "institutional_holding": 7.1,
-      "public_holding": 16.8,
+      "institutional_holding": 7.2,
+      "public_holding": 16.7,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": 0,
       "is_20d_low_breakdown": 0,
@@ -7964,7 +7964,7 @@ window.stockData = {
       "target_mean_price": 710.0,
       "analyst_upside_pct": 199.3,
       "recommendation_key": "None",
-      "dividend_yield": 136.0,
+      "dividend_yield": 143.0,
       "promoter_holding": 59.4,
       "institutional_holding": 12.5,
       "public_holding": 28.1,
@@ -8001,7 +8001,7 @@ window.stockData = {
         "YoY Profit up 16.8%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 136.00%"
+        "Attractive Dividend Yield: 143.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase E",
@@ -8543,7 +8543,7 @@ window.stockData = {
       "target_mean_price": 720.0,
       "analyst_upside_pct": 20.3,
       "recommendation_key": "None",
-      "dividend_yield": 16.0,
+      "dividend_yield": 17.0,
       "promoter_holding": 63.4,
       "institutional_holding": 11.3,
       "public_holding": 25.3,
@@ -8578,7 +8578,7 @@ window.stockData = {
         "Above 200-day EMA long-term uptrend"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 16.00%"
+        "Attractive Dividend Yield: 17.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -8736,8 +8736,8 @@ window.stockData = {
       "recommendation_key": "None",
       "dividend_yield": 48.0,
       "promoter_holding": 50.9,
-      "institutional_holding": 24.8,
-      "public_holding": 24.3,
+      "institutional_holding": 24.7,
+      "public_holding": 24.4,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": 0,
       "is_20d_low_breakdown": 0,
@@ -8832,7 +8832,7 @@ window.stockData = {
       "target_mean_price": 692.85,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 57.0,
+      "dividend_yield": 58.0,
       "promoter_holding": 0.1,
       "institutional_holding": 73.2,
       "public_holding": 26.7,
@@ -8870,7 +8870,7 @@ window.stockData = {
         "YoY Profit up 20.6%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 57.00%"
+        "Attractive Dividend Yield: 58.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -9213,7 +9213,7 @@ window.stockData = {
       "target_mean_price": 615.0,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 260.0,
+      "dividend_yield": 255.0,
       "promoter_holding": 70.0,
       "institutional_holding": 1.3,
       "public_holding": 28.7,
@@ -9249,7 +9249,7 @@ window.stockData = {
         "YoY Profit up 11.7%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 260.00%"
+        "Attractive Dividend Yield: 255.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase B",
@@ -9268,102 +9268,6 @@ window.stockData = {
         "Phase B Cause Building inside Trading Range: \u20b9585.26 (Ice) to \u20b9683.03 (Creek).",
         "Volume balance: 54.6% up-volume vs 45.4% down-volume.",
         "Smart money absorbing supply within 97.77 pts horizontal range."
-      ]
-    },
-    {
-      "symbol": "GRAVITA.NS",
-      "clean_symbol": "GRAVITA",
-      "name": "Gravita India Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b91,675.64",
-      "current_price": 1668.2,
-      "prev_close": 1698.7,
-      "day_change_pct": -1.8,
-      "52w_high": 1913.6,
-      "52w_low": 1266.9,
-      "pct_from_52w_high": -12.82,
-      "pct_from_52w_low": 31.68,
-      "sma_20": 1762.12,
-      "sma_50": 1759.52,
-      "sma_200": 1672.06,
-      "rsi_14": 37.4,
-      "macd_val": -22.26,
-      "macd_signal": -8.31,
-      "macd_hist": -13.94,
-      "vol_surge_ratio": 0.63,
-      "pe_ratio": 31.33,
-      "forward_pe": 22.1,
-      "peg_ratio": 0.0,
-      "pb_ratio": 5.01,
-      "roe": 0.0,
-      "profit_margins": 8.3,
-      "operating_margins": 9.7,
-      "debt_to_equity": 0.3,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 41.8,
-      "earnings_growth_yoy": 14.0,
-      "q_sales_growth": 41.8,
-      "q_pat_growth": 14.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 2061.89,
-      "analyst_upside_pct": 23.6,
-      "recommendation_key": "None",
-      "dividend_yield": 64.0,
-      "promoter_holding": 59.4,
-      "institutional_holding": 10.4,
-      "public_holding": 30.2,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 1862.22,
-      "sell_trigger_level": 1611.87,
-      "dist_from_prev_close": 9.63,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+41.8%)",
-        "Healthy Low Debt (D/E 0.30)"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 21.0,
-      "technical_score": 0.0,
-      "composite_score": 36,
-      "long_term_signal": "REDUCE",
-      "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1493.12,
-      "swing_target_1": 1911.37,
-      "swing_target_2": 2076.73,
-      "rationale": [
-        "YoY Revenue up 41.8%",
-        "YoY Profit up 14.0%"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 64.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Distribution",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 1848.52,
-      "wyckoff_ice": 1586.84,
-      "wyckoff_breakout": 1848.52,
-      "wyckoff_dist_to_breakout_pct": 10.81,
-      "wyckoff_stoploss": 1555.1,
-      "wyckoff_stoploss_pct": 6.78,
-      "wyckoff_target_1": 2110.2,
-      "wyckoff_target_2": 2371.88,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b91586.84 (Ice) to \u20b91848.52 (Creek).",
-        "Volume balance: 44.0% up-volume vs 56.0% down-volume.",
-        "Smart money absorbing supply within 261.68 pts horizontal range."
       ]
     },
     {
@@ -9460,6 +9364,102 @@ window.stockData = {
         "Phase B Cause Building inside Trading Range: \u20b92035.23 (Ice) to \u20b92479.25 (Creek).",
         "Volume balance: 27.1% up-volume vs 72.9% down-volume.",
         "Smart money absorbing supply within 444.02 pts horizontal range."
+      ]
+    },
+    {
+      "symbol": "GRAVITA.NS",
+      "clean_symbol": "GRAVITA",
+      "name": "Gravita India Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b91,675.64",
+      "current_price": 1668.2,
+      "prev_close": 1698.7,
+      "day_change_pct": -1.8,
+      "52w_high": 1913.6,
+      "52w_low": 1266.9,
+      "pct_from_52w_high": -12.82,
+      "pct_from_52w_low": 31.68,
+      "sma_20": 1762.12,
+      "sma_50": 1759.52,
+      "sma_200": 1672.06,
+      "rsi_14": 37.4,
+      "macd_val": -22.26,
+      "macd_signal": -8.31,
+      "macd_hist": -13.94,
+      "vol_surge_ratio": 0.63,
+      "pe_ratio": 31.33,
+      "forward_pe": 22.1,
+      "peg_ratio": 0.0,
+      "pb_ratio": 5.01,
+      "roe": 0.0,
+      "profit_margins": 8.3,
+      "operating_margins": 9.7,
+      "debt_to_equity": 0.3,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 41.8,
+      "earnings_growth_yoy": 14.0,
+      "q_sales_growth": 41.8,
+      "q_pat_growth": 14.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 2061.89,
+      "analyst_upside_pct": 23.6,
+      "recommendation_key": "None",
+      "dividend_yield": 64.0,
+      "promoter_holding": 59.4,
+      "institutional_holding": 10.4,
+      "public_holding": 30.2,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 1862.22,
+      "sell_trigger_level": 1611.87,
+      "dist_from_prev_close": 9.63,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+41.8%)",
+        "Healthy Low Debt (D/E 0.30)"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 21.0,
+      "technical_score": 0.0,
+      "composite_score": 36,
+      "long_term_signal": "REDUCE",
+      "swing_signal": "STOPLOSS / SELL",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 1493.12,
+      "swing_target_1": 1911.37,
+      "swing_target_2": 2076.73,
+      "rationale": [
+        "YoY Revenue up 41.8%",
+        "YoY Profit up 14.0%"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 64.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1848.52,
+      "wyckoff_ice": 1586.84,
+      "wyckoff_breakout": 1848.52,
+      "wyckoff_dist_to_breakout_pct": 10.81,
+      "wyckoff_stoploss": 1555.1,
+      "wyckoff_stoploss_pct": 6.78,
+      "wyckoff_target_1": 2110.2,
+      "wyckoff_target_2": 2371.88,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91586.84 (Ice) to \u20b91848.52 (Creek).",
+        "Volume balance: 44.0% up-volume vs 56.0% down-volume.",
+        "Smart money absorbing supply within 261.68 pts horizontal range."
       ]
     },
     {
@@ -9596,7 +9596,7 @@ window.stockData = {
       "target_mean_price": 550.0,
       "analyst_upside_pct": 54.9,
       "recommendation_key": "None",
-      "dividend_yield": 111.0,
+      "dividend_yield": 113.0,
       "promoter_holding": 55.3,
       "institutional_holding": 0.7,
       "public_holding": 44.0,
@@ -9630,7 +9630,7 @@ window.stockData = {
         "YoY Revenue up 11.3%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 111.00%"
+        "Attractive Dividend Yield: 113.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -9771,7 +9771,7 @@ window.stockData = {
       "macd_signal": -2.83,
       "macd_hist": 1.08,
       "vol_surge_ratio": 0.61,
-      "pe_ratio": 10.2,
+      "pe_ratio": 10.19,
       "forward_pe": 11.83,
       "peg_ratio": 0.0,
       "pb_ratio": 1.59,
@@ -9978,7 +9978,7 @@ window.stockData = {
       "target_mean_price": 629.5,
       "analyst_upside_pct": 36.0,
       "recommendation_key": "None",
-      "dividend_yield": 192.0,
+      "dividend_yield": 194.0,
       "promoter_holding": 62.4,
       "institutional_holding": 16.8,
       "public_holding": 20.8,
@@ -10014,7 +10014,7 @@ window.stockData = {
         "YoY Revenue up 18.1%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 192.00%"
+        "Attractive Dividend Yield: 194.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -10074,7 +10074,7 @@ window.stockData = {
       "target_mean_price": 2599.0,
       "analyst_upside_pct": 11.1,
       "recommendation_key": "Hold",
-      "dividend_yield": 87.0,
+      "dividend_yield": 89.0,
       "promoter_holding": 81.2,
       "institutional_holding": 6.0,
       "public_holding": 12.8,
@@ -10111,7 +10111,7 @@ window.stockData = {
         "YoY Profit up 21.5%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 87.00%"
+        "Attractive Dividend Yield: 89.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase B",
@@ -10170,7 +10170,7 @@ window.stockData = {
       "free_cash_flow": 0.0,
       "target_mean_price": 639.5,
       "analyst_upside_pct": -4.3,
-      "recommendation_key": "Underperform",
+      "recommendation_key": "None",
       "dividend_yield": 7.0,
       "promoter_holding": 43.6,
       "institutional_holding": 10.1,
@@ -10267,7 +10267,7 @@ window.stockData = {
       "target_mean_price": 1676.85,
       "analyst_upside_pct": 33.3,
       "recommendation_key": "Strong Buy",
-      "dividend_yield": 47.0,
+      "dividend_yield": 48.0,
       "promoter_holding": 51.8,
       "institutional_holding": 28.0,
       "public_holding": 20.2,
@@ -10303,7 +10303,7 @@ window.stockData = {
         "YoY Revenue up 29.7%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 47.00%"
+        "Attractive Dividend Yield: 48.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase B",
@@ -10346,7 +10346,7 @@ window.stockData = {
       "macd_signal": -3.16,
       "macd_hist": -5.35,
       "vol_surge_ratio": 1.14,
-      "pe_ratio": 31.77,
+      "pe_ratio": 31.74,
       "forward_pe": 20.48,
       "peg_ratio": 0.0,
       "pb_ratio": 5.64,
@@ -10462,7 +10462,7 @@ window.stockData = {
       "target_mean_price": 348.1,
       "analyst_upside_pct": 12.6,
       "recommendation_key": "None",
-      "dividend_yield": 88.0,
+      "dividend_yield": 89.0,
       "promoter_holding": 65.9,
       "institutional_holding": 18.9,
       "public_holding": 15.2,
@@ -10501,7 +10501,7 @@ window.stockData = {
         "Warning: High debt level"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 88.00%"
+        "Attractive Dividend Yield: 89.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase B",
@@ -10520,101 +10520,6 @@ window.stockData = {
         "Phase B Cause Building inside Trading Range: \u20b9263.76 (Ice) to \u20b9327.23 (Creek).",
         "Volume balance: 48.9% up-volume vs 51.1% down-volume.",
         "Smart money absorbing supply within 63.47 pts horizontal range."
-      ]
-    },
-    {
-      "symbol": "NCLIND.NS",
-      "clean_symbol": "NCLIND",
-      "name": "Ncl Industries Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9184.56",
-      "current_price": 175.05,
-      "prev_close": 176.11,
-      "day_change_pct": -0.6,
-      "52w_high": 210.68,
-      "52w_low": 145.84,
-      "pct_from_52w_high": -16.91,
-      "pct_from_52w_low": 20.03,
-      "sma_20": 173.57,
-      "sma_50": 177.62,
-      "sma_200": 181.48,
-      "rsi_14": 49.6,
-      "macd_val": -0.31,
-      "macd_signal": -0.91,
-      "macd_hist": 0.61,
-      "vol_surge_ratio": 0.99,
-      "pe_ratio": 6.62,
-      "forward_pe": 5.67,
-      "peg_ratio": 0.0,
-      "pb_ratio": 0.79,
-      "roe": 0.0,
-      "profit_margins": 6.3,
-      "operating_margins": 8.4,
-      "debt_to_equity": 0.32,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 1.5,
-      "earnings_growth_yoy": -14.3,
-      "q_sales_growth": 1.5,
-      "q_pat_growth": -14.3,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 175.05,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 229.0,
-      "promoter_holding": 50.3,
-      "institutional_holding": 0.5,
-      "public_holding": 49.2,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 182.3,
-      "sell_trigger_level": 166.98,
-      "dist_from_prev_close": 3.51,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Healthy Low Debt (D/E 0.32)"
-      ],
-      "weaknesses": [
-        "Earnings De-growth YoY (-14.3%)",
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 8.0,
-      "technical_score": 17.0,
-      "composite_score": 32,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 168.83,
-      "swing_target_1": 183.69,
-      "swing_target_2": 189.56,
-      "rationale": [
-        "Consolidation phase with neutral momentum"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 229.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Distribution",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 193.47,
-      "wyckoff_ice": 166.73,
-      "wyckoff_breakout": 193.47,
-      "wyckoff_dist_to_breakout_pct": 10.52,
-      "wyckoff_stoploss": 163.4,
-      "wyckoff_stoploss_pct": 6.66,
-      "wyckoff_target_1": 220.21,
-      "wyckoff_target_2": 246.95,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b9166.73 (Ice) to \u20b9193.47 (Creek).",
-        "Volume balance: 49.6% up-volume vs 50.4% down-volume.",
-        "Smart money absorbing supply within 26.74 pts horizontal range."
       ]
     },
     {
@@ -10714,6 +10619,101 @@ window.stockData = {
       ]
     },
     {
+      "symbol": "NCLIND.NS",
+      "clean_symbol": "NCLIND",
+      "name": "Ncl Industries Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9184.56",
+      "current_price": 175.05,
+      "prev_close": 176.11,
+      "day_change_pct": -0.6,
+      "52w_high": 210.68,
+      "52w_low": 145.84,
+      "pct_from_52w_high": -16.91,
+      "pct_from_52w_low": 20.03,
+      "sma_20": 173.57,
+      "sma_50": 177.62,
+      "sma_200": 181.48,
+      "rsi_14": 49.6,
+      "macd_val": -0.31,
+      "macd_signal": -0.91,
+      "macd_hist": 0.61,
+      "vol_surge_ratio": 0.99,
+      "pe_ratio": 6.62,
+      "forward_pe": 5.67,
+      "peg_ratio": 0.0,
+      "pb_ratio": 0.79,
+      "roe": 0.0,
+      "profit_margins": 6.3,
+      "operating_margins": 8.4,
+      "debt_to_equity": 0.32,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 1.5,
+      "earnings_growth_yoy": -14.3,
+      "q_sales_growth": 1.5,
+      "q_pat_growth": -14.3,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 175.05,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 229.0,
+      "promoter_holding": 50.3,
+      "institutional_holding": 0.5,
+      "public_holding": 49.2,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 182.3,
+      "sell_trigger_level": 166.98,
+      "dist_from_prev_close": 3.51,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Healthy Low Debt (D/E 0.32)"
+      ],
+      "weaknesses": [
+        "Earnings De-growth YoY (-14.3%)",
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 8.0,
+      "technical_score": 17.0,
+      "composite_score": 32,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 168.83,
+      "swing_target_1": 183.69,
+      "swing_target_2": 189.56,
+      "rationale": [
+        "Consolidation phase with neutral momentum"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 229.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 193.47,
+      "wyckoff_ice": 166.73,
+      "wyckoff_breakout": 193.47,
+      "wyckoff_dist_to_breakout_pct": 10.52,
+      "wyckoff_stoploss": 163.4,
+      "wyckoff_stoploss_pct": 6.66,
+      "wyckoff_target_1": 220.21,
+      "wyckoff_target_2": 246.95,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9166.73 (Ice) to \u20b9193.47 (Creek).",
+        "Volume balance: 49.6% up-volume vs 50.4% down-volume.",
+        "Smart money absorbing supply within 26.74 pts horizontal range."
+      ]
+    },
+    {
       "symbol": "SYMPHONY.NS",
       "clean_symbol": "SYMPHONY",
       "name": "Symphony Ltd",
@@ -10752,7 +10752,7 @@ window.stockData = {
       "target_mean_price": 805.86,
       "analyst_upside_pct": 36.0,
       "recommendation_key": "None",
-      "dividend_yield": 148.0,
+      "dividend_yield": 152.0,
       "promoter_holding": 75.8,
       "institutional_holding": 9.2,
       "public_holding": 15.0,
@@ -10788,7 +10788,7 @@ window.stockData = {
         "YoY Revenue up 50.6%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 148.00%"
+        "Attractive Dividend Yield: 152.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -11042,10 +11042,10 @@ window.stockData = {
       "target_mean_price": 150.71,
       "analyst_upside_pct": 21.5,
       "recommendation_key": "Buy",
-      "dividend_yield": 337.0,
+      "dividend_yield": 339.0,
       "promoter_holding": 64.4,
-      "institutional_holding": 18.3,
-      "public_holding": 17.3,
+      "institutional_holding": 18.2,
+      "public_holding": 17.4,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": 0,
       "is_20d_low_breakdown": 0,
@@ -11078,7 +11078,7 @@ window.stockData = {
         "YoY Profit up 62.2%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 337.00%"
+        "Attractive Dividend Yield: 339.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -11121,7 +11121,7 @@ window.stockData = {
       "macd_signal": -5.07,
       "macd_hist": -52.55,
       "vol_surge_ratio": 0.47,
-      "pe_ratio": 19.2,
+      "pe_ratio": 19.19,
       "forward_pe": 16.04,
       "peg_ratio": 0.0,
       "pb_ratio": 4.83,
@@ -11330,7 +11330,7 @@ window.stockData = {
       "target_mean_price": 4499.52,
       "analyst_upside_pct": 14.5,
       "recommendation_key": "Buy",
-      "dividend_yield": 96.0,
+      "dividend_yield": 97.0,
       "promoter_holding": 18.1,
       "institutional_holding": 52.7,
       "public_holding": 29.2,
@@ -11364,7 +11364,7 @@ window.stockData = {
         "YoY Profit up 14.0%"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 96.00%"
+        "Attractive Dividend Yield: 97.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase B",
@@ -12648,7 +12648,7 @@ window.stockData = {
       "target_mean_price": 69.5,
       "analyst_upside_pct": 5.0,
       "recommendation_key": "None",
-      "dividend_yield": 223.0,
+      "dividend_yield": 227.0,
       "promoter_holding": 81.8,
       "institutional_holding": 5.7,
       "public_holding": 12.5,
@@ -12685,7 +12685,7 @@ window.stockData = {
         "Warning: High debt level"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 223.00%"
+        "Attractive Dividend Yield: 227.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase C",
@@ -12704,102 +12704,6 @@ window.stockData = {
         "Phase C Spring test under Ice support (\u20b964.81) quickly rejected.",
         "Liquidity sweep completed; supply dried up on the test.",
         "Asymmetric risk-reward setup with stop loss strictly below Spring low (\u20b962.84)."
-      ]
-    },
-    {
-      "symbol": "TATAPOWER.NS",
-      "clean_symbol": "TATAPOWER",
-      "name": "Tata Power Company Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9387.50",
-      "current_price": 364.65,
-      "prev_close": 367.0,
-      "day_change_pct": -0.64,
-      "52w_high": 462.04,
-      "52w_low": 340.39,
-      "pct_from_52w_high": -21.08,
-      "pct_from_52w_low": 7.13,
-      "sma_20": 366.55,
-      "sma_50": 373.87,
-      "sma_200": 386.22,
-      "rsi_14": 45.1,
-      "macd_val": -3.14,
-      "macd_signal": -4.24,
-      "macd_hist": 1.1,
-      "vol_surge_ratio": 0.46,
-      "pe_ratio": 30.21,
-      "forward_pe": 21.84,
-      "peg_ratio": 0.0,
-      "pb_ratio": 2.95,
-      "roe": 0.0,
-      "profit_margins": 6.1,
-      "operating_margins": 14.5,
-      "debt_to_equity": 1.68,
-      "debt_status": "High Debt Warning",
-      "rev_growth_yoy": 5.6,
-      "earnings_growth_yoy": 10.9,
-      "q_sales_growth": 5.6,
-      "q_pat_growth": 10.9,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 417.37,
-      "analyst_upside_pct": 14.5,
-      "recommendation_key": "Buy",
-      "dividend_yield": 68.0,
-      "promoter_holding": 48.7,
-      "institutional_holding": 21.7,
-      "public_holding": 29.6,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 391.18,
-      "sell_trigger_level": 346.31,
-      "dist_from_prev_close": 6.59,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Stable Price Consolidation"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (0.0% ROE)",
-        "High Debt Burden (D/E 1.68)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 2.0,
-      "technical_score": 9.0,
-      "composite_score": 23,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "NEUTRAL / WATCH",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 344.08,
-      "swing_target_1": 393.23,
-      "swing_target_2": 412.66,
-      "rationale": [
-        "YoY Profit up 10.9%",
-        "Warning: High debt level"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 68.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase C",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Spring / Shakeout Test",
-      "wyckoff_creek": 419.94,
-      "wyckoff_ice": 362.8,
-      "wyckoff_breakout": 419.94,
-      "wyckoff_dist_to_breakout_pct": 15.16,
-      "wyckoff_stoploss": 341.8,
-      "wyckoff_stoploss_pct": 6.27,
-      "wyckoff_target_1": 477.08,
-      "wyckoff_target_2": 534.22,
-      "wyckoff_signal": "SPRING TEST BUY",
-      "wyckoff_rationale": [
-        "Phase C Spring test under Ice support (\u20b9362.8) quickly rejected.",
-        "Liquidity sweep completed; supply dried up on the test.",
-        "Asymmetric risk-reward setup with stop loss strictly below Spring low (\u20b9341.8)."
       ]
     },
     {
@@ -12895,6 +12799,102 @@ window.stockData = {
         "Major Sign of Weakness (SOW) breaking below Ice support (\u20b9290.12).",
         "Elevated selling pressure (32.2% down-volume).",
         "High probability of entering Phase E markdown."
+      ]
+    },
+    {
+      "symbol": "TATAPOWER.NS",
+      "clean_symbol": "TATAPOWER",
+      "name": "Tata Power Company Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9387.50",
+      "current_price": 364.65,
+      "prev_close": 367.0,
+      "day_change_pct": -0.64,
+      "52w_high": 462.04,
+      "52w_low": 340.39,
+      "pct_from_52w_high": -21.08,
+      "pct_from_52w_low": 7.13,
+      "sma_20": 366.55,
+      "sma_50": 373.87,
+      "sma_200": 386.22,
+      "rsi_14": 45.1,
+      "macd_val": -3.14,
+      "macd_signal": -4.24,
+      "macd_hist": 1.1,
+      "vol_surge_ratio": 0.46,
+      "pe_ratio": 30.21,
+      "forward_pe": 21.84,
+      "peg_ratio": 0.0,
+      "pb_ratio": 2.95,
+      "roe": 0.0,
+      "profit_margins": 6.1,
+      "operating_margins": 14.5,
+      "debt_to_equity": 1.68,
+      "debt_status": "High Debt Warning",
+      "rev_growth_yoy": 5.6,
+      "earnings_growth_yoy": 10.9,
+      "q_sales_growth": 5.6,
+      "q_pat_growth": 10.9,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 417.37,
+      "analyst_upside_pct": 14.5,
+      "recommendation_key": "Buy",
+      "dividend_yield": 69.0,
+      "promoter_holding": 48.7,
+      "institutional_holding": 21.7,
+      "public_holding": 29.6,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 391.18,
+      "sell_trigger_level": 346.31,
+      "dist_from_prev_close": 6.59,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Stable Price Consolidation"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)",
+        "High Debt Burden (D/E 1.68)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 2.0,
+      "technical_score": 9.0,
+      "composite_score": 23,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "NEUTRAL / WATCH",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 344.08,
+      "swing_target_1": 393.23,
+      "swing_target_2": 412.66,
+      "rationale": [
+        "YoY Profit up 10.9%",
+        "Warning: High debt level"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 69.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase C",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Spring / Shakeout Test",
+      "wyckoff_creek": 419.94,
+      "wyckoff_ice": 362.8,
+      "wyckoff_breakout": 419.94,
+      "wyckoff_dist_to_breakout_pct": 15.16,
+      "wyckoff_stoploss": 341.8,
+      "wyckoff_stoploss_pct": 6.27,
+      "wyckoff_target_1": 477.08,
+      "wyckoff_target_2": 534.22,
+      "wyckoff_signal": "SPRING TEST BUY",
+      "wyckoff_rationale": [
+        "Phase C Spring test under Ice support (\u20b9362.8) quickly rejected.",
+        "Liquidity sweep completed; supply dried up on the test.",
+        "Asymmetric risk-reward setup with stop loss strictly below Spring low (\u20b9341.8)."
       ]
     },
     {
@@ -13114,7 +13114,7 @@ window.stockData = {
       "pe_ratio": 0.0,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 0.62,
+      "pb_ratio": 0.58,
       "roe": 0.0,
       "profit_margins": -69.7,
       "operating_margins": -849.6,
@@ -13221,7 +13221,7 @@ window.stockData = {
       "target_mean_price": 77.91,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 38.0,
+      "dividend_yield": 39.0,
       "promoter_holding": 75.7,
       "institutional_holding": 1.0,
       "public_holding": 23.3,
@@ -13256,7 +13256,7 @@ window.stockData = {
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 38.00%"
+        "Attractive Dividend Yield: 39.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase D",
@@ -13464,101 +13464,6 @@ window.stockData = {
       ]
     },
     {
-      "symbol": "COCHINSHIP.NS",
-      "clean_symbol": "COCHINSHIP",
-      "name": "Cochin Shipyard Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b91,512.81",
-      "current_price": 1381.0,
-      "prev_close": 1520.4,
-      "day_change_pct": -9.17,
-      "52w_high": 1970.73,
-      "52w_low": 1187.0,
-      "pct_from_52w_high": -29.92,
-      "pct_from_52w_low": 16.34,
-      "sma_20": 1499.08,
-      "sma_50": 1459.64,
-      "sma_200": 1506.63,
-      "rsi_14": 35.1,
-      "macd_val": 3.47,
-      "macd_signal": 12.18,
-      "macd_hist": -8.71,
-      "vol_surge_ratio": 5.54,
-      "pe_ratio": 53.49,
-      "forward_pe": 30.89,
-      "peg_ratio": 0.0,
-      "pb_ratio": 6.19,
-      "roe": 0.0,
-      "profit_margins": 13.5,
-      "operating_margins": 14.7,
-      "debt_to_equity": 0.28,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 2.4,
-      "earnings_growth_yoy": -19.3,
-      "q_sales_growth": 2.4,
-      "q_pat_growth": -19.3,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 1499.0,
-      "analyst_upside_pct": 8.5,
-      "recommendation_key": "Hold",
-      "dividend_yield": 81.0,
-      "promoter_holding": 63.3,
-      "institutional_holding": 10.1,
-      "public_holding": 26.6,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 1,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 1581.06,
-      "sell_trigger_level": 1432.13,
-      "dist_from_prev_close": 3.99,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Healthy Low Debt (D/E 0.28)"
-      ],
-      "weaknesses": [
-        "Earnings De-growth YoY (-19.3%)",
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 8.0,
-      "technical_score": 4.0,
-      "composite_score": 19,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "INTRADAY SHORT / CAUTION",
-      "swing_stoploss": 1264.53,
-      "swing_target_1": 1542.76,
-      "swing_target_2": 1652.76,
-      "rationale": [
-        "Consolidation phase with neutral momentum"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 81.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase A",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Stopping Climax & Secondary Test",
-      "wyckoff_creek": 1569.55,
-      "wyckoff_ice": 1383.27,
-      "wyckoff_breakout": 1569.55,
-      "wyckoff_dist_to_breakout_pct": 13.65,
-      "wyckoff_stoploss": 1355.6,
-      "wyckoff_stoploss_pct": 1.84,
-      "wyckoff_target_1": 1755.83,
-      "wyckoff_target_2": 1942.11,
-      "wyckoff_signal": "CLIMAX WATCH",
-      "wyckoff_rationale": [
-        "Phase A Stopping Action: Climactic volume surge (5.5x vol).",
-        "Automatic reaction establishes Trading Range between \u20b91383.27 and \u20b91569.55.",
-        "Wait for Phase B cause development before initiating trades."
-      ]
-    },
-    {
       "symbol": "BLUEJET.NS",
       "clean_symbol": "BLUEJET",
       "name": "Blue Jet Healthcare Ltd",
@@ -13655,97 +13560,98 @@ window.stockData = {
       ]
     },
     {
-      "symbol": "MTNL.NS",
-      "clean_symbol": "MTNL",
-      "name": "Mahanagar Telephone Nigam Ltd",
+      "symbol": "COCHINSHIP.NS",
+      "clean_symbol": "COCHINSHIP",
+      "name": "Cochin Shipyard Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b930.50",
-      "current_price": 24.74,
-      "prev_close": 25.1,
-      "day_change_pct": -1.43,
-      "52w_high": 46.44,
-      "52w_low": 21.26,
-      "pct_from_52w_high": -46.73,
-      "pct_from_52w_low": 16.37,
-      "sma_20": 26.39,
-      "sma_50": 27.26,
-      "sma_200": 30.22,
-      "rsi_14": 27.0,
-      "macd_val": -0.61,
-      "macd_signal": -0.46,
-      "macd_hist": -0.15,
-      "vol_surge_ratio": 0.58,
-      "pe_ratio": 0.0,
-      "forward_pe": 0.0,
+      "tracking_notes": "Spark Sheet: \u20b91,512.81",
+      "current_price": 1381.0,
+      "prev_close": 1520.4,
+      "day_change_pct": -9.17,
+      "52w_high": 1970.73,
+      "52w_low": 1187.0,
+      "pct_from_52w_high": -29.92,
+      "pct_from_52w_low": 16.34,
+      "sma_20": 1499.08,
+      "sma_50": 1459.64,
+      "sma_200": 1506.63,
+      "rsi_14": 35.1,
+      "macd_val": 3.47,
+      "macd_signal": 12.18,
+      "macd_hist": -8.71,
+      "vol_surge_ratio": 5.54,
+      "pe_ratio": 53.49,
+      "forward_pe": 30.89,
       "peg_ratio": 0.0,
-      "pb_ratio": -0.05,
+      "pb_ratio": 6.19,
       "roe": 0.0,
-      "profit_margins": 0.0,
-      "operating_margins": -43.9,
-      "debt_to_equity": 0.0,
-      "debt_status": "Zero Debt",
-      "rev_growth_yoy": 229.9,
-      "earnings_growth_yoy": 0.0,
-      "q_sales_growth": 229.9,
-      "q_pat_growth": 0.0,
+      "profit_margins": 13.5,
+      "operating_margins": 14.7,
+      "debt_to_equity": 0.28,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 2.4,
+      "earnings_growth_yoy": -19.3,
+      "q_sales_growth": 2.4,
+      "q_pat_growth": -19.3,
       "free_cash_flow": 0.0,
-      "target_mean_price": 24.74,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 0.0,
-      "promoter_holding": 56.3,
-      "institutional_holding": 13.1,
-      "public_holding": 30.6,
+      "target_mean_price": 1499.0,
+      "analyst_upside_pct": 8.5,
+      "recommendation_key": "Hold",
+      "dividend_yield": 81.0,
+      "promoter_holding": 63.3,
+      "institutional_holding": 10.1,
+      "public_holding": 26.6,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
+      "is_20d_low_breakdown": 1,
       "is_52w_high_breakout": 0,
       "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 28.86,
-      "sell_trigger_level": 24.97,
-      "dist_from_prev_close": 14.98,
+      "buy_trigger_level": 1581.06,
+      "sell_trigger_level": 1432.13,
+      "dist_from_prev_close": 3.99,
       "is_breakout_done_today": 0,
       "upcoming_event_str": "None",
       "strengths": [
-        "Strong YoY Sales Growth (+229.9%)",
-        "Zero Debt Balance Sheet"
+        "Healthy Low Debt (D/E 0.28)"
       ],
       "weaknesses": [
+        "Earnings De-growth YoY (-19.3%)",
         "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline",
-        "RSI Weak Momentum (27.0)"
+        "Trading Below 200-Day EMA Trendline"
       ],
-      "fundamental_score": 15.0,
+      "fundamental_score": 8.0,
       "technical_score": 4.0,
       "composite_score": 19,
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "STOPLOSS / SELL",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 22.66,
-      "swing_target_1": 27.62,
-      "swing_target_2": 29.58,
+      "intraday_signal": "INTRADAY SHORT / CAUTION",
+      "swing_stoploss": 1264.53,
+      "swing_target_1": 1542.76,
+      "swing_target_2": 1652.76,
       "rationale": [
-        "YoY Revenue up 229.9%"
+        "Consolidation phase with neutral momentum"
       ],
-      "corporate_actions": [],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 81.00%"
+      ],
       "events": null,
-      "wyckoff_phase": "Phase E",
-      "wyckoff_structure": "Markdown",
-      "wyckoff_event": "Markdown Downtrend",
-      "wyckoff_creek": 31.97,
-      "wyckoff_ice": 26.27,
-      "wyckoff_breakout": 31.97,
-      "wyckoff_dist_to_breakout_pct": 29.22,
-      "wyckoff_stoploss": 32.61,
-      "wyckoff_stoploss_pct": -31.81,
-      "wyckoff_target_1": 37.67,
-      "wyckoff_target_2": 43.37,
-      "wyckoff_signal": "MARKDOWN AVOID",
+      "wyckoff_phase": "Phase A",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Stopping Climax & Secondary Test",
+      "wyckoff_creek": 1569.55,
+      "wyckoff_ice": 1383.27,
+      "wyckoff_breakout": 1569.55,
+      "wyckoff_dist_to_breakout_pct": 13.65,
+      "wyckoff_stoploss": 1355.6,
+      "wyckoff_stoploss_pct": 1.84,
+      "wyckoff_target_1": 1755.83,
+      "wyckoff_target_2": 1942.11,
+      "wyckoff_signal": "CLIMAX WATCH",
       "wyckoff_rationale": [
-        "Broken below Wyckoff Ice support (\u20b926.27) into Markdown Phase E.",
-        "Supply heavily dominant with prices below 20 & 50 EMAs.",
-        "Avoid long positions until selling climax halts descent."
+        "Phase A Stopping Action: Climactic volume surge (5.5x vol).",
+        "Automatic reaction establishes Trading Range between \u20b91383.27 and \u20b91569.55.",
+        "Wait for Phase B cause development before initiating trades."
       ]
     },
     {
@@ -13840,6 +13746,100 @@ window.stockData = {
         "Phase B Cause Building inside Trading Range: \u20b94826.31 (Ice) to \u20b95638.08 (Creek).",
         "Volume balance: 26.2% up-volume vs 73.8% down-volume.",
         "Smart money absorbing supply within 811.77 pts horizontal range."
+      ]
+    },
+    {
+      "symbol": "MTNL.NS",
+      "clean_symbol": "MTNL",
+      "name": "Mahanagar Telephone Nigam Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b930.50",
+      "current_price": 24.74,
+      "prev_close": 25.1,
+      "day_change_pct": -1.43,
+      "52w_high": 46.44,
+      "52w_low": 21.26,
+      "pct_from_52w_high": -46.73,
+      "pct_from_52w_low": 16.37,
+      "sma_20": 26.39,
+      "sma_50": 27.26,
+      "sma_200": 30.22,
+      "rsi_14": 27.0,
+      "macd_val": -0.61,
+      "macd_signal": -0.46,
+      "macd_hist": -0.15,
+      "vol_surge_ratio": 0.58,
+      "pe_ratio": 0.0,
+      "forward_pe": 0.0,
+      "peg_ratio": 0.0,
+      "pb_ratio": -0.05,
+      "roe": 0.0,
+      "profit_margins": 0.0,
+      "operating_margins": -43.9,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "rev_growth_yoy": 229.9,
+      "earnings_growth_yoy": 0.0,
+      "q_sales_growth": 229.9,
+      "q_pat_growth": 0.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 24.74,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 0.0,
+      "promoter_holding": 56.3,
+      "institutional_holding": 13.1,
+      "public_holding": 30.6,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 28.86,
+      "sell_trigger_level": 24.97,
+      "dist_from_prev_close": 14.98,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+229.9%)",
+        "Zero Debt Balance Sheet"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline",
+        "RSI Weak Momentum (27.0)"
+      ],
+      "fundamental_score": 15.0,
+      "technical_score": 4.0,
+      "composite_score": 19,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "STOPLOSS / SELL",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 22.66,
+      "swing_target_1": 27.62,
+      "swing_target_2": 29.58,
+      "rationale": [
+        "YoY Revenue up 229.9%"
+      ],
+      "corporate_actions": [],
+      "events": null,
+      "wyckoff_phase": "Phase E",
+      "wyckoff_structure": "Markdown",
+      "wyckoff_event": "Markdown Downtrend",
+      "wyckoff_creek": 31.97,
+      "wyckoff_ice": 26.27,
+      "wyckoff_breakout": 31.97,
+      "wyckoff_dist_to_breakout_pct": 29.22,
+      "wyckoff_stoploss": 32.61,
+      "wyckoff_stoploss_pct": -31.81,
+      "wyckoff_target_1": 37.67,
+      "wyckoff_target_2": 43.37,
+      "wyckoff_signal": "MARKDOWN AVOID",
+      "wyckoff_rationale": [
+        "Broken below Wyckoff Ice support (\u20b926.27) into Markdown Phase E.",
+        "Supply heavily dominant with prices below 20 & 50 EMAs.",
+        "Avoid long positions until selling climax halts descent."
       ]
     },
     {
@@ -14344,7 +14344,7 @@ window.stockData = {
       "macd_hist": -0.0,
       "vol_surge_ratio": 0.71,
       "pe_ratio": 0.0,
-      "forward_pe": 4.8,
+      "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 0.56,
       "roe": 0.0,
@@ -14435,7 +14435,7 @@ window.stockData = {
       "macd_signal": -3.21,
       "macd_hist": -0.6,
       "vol_surge_ratio": 0.28,
-      "pe_ratio": 26.97,
+      "pe_ratio": 26.93,
       "forward_pe": 13.4,
       "peg_ratio": 0.0,
       "pb_ratio": 0.39,
