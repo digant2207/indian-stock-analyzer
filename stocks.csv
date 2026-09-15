@@ -15,8 +15,8 @@ BAJFINANCE.NS,Bajaj Finance Ltd,Spark Watchlist,Equity,Spark Sheet: ₹979.12
 BANCOINDIA.NS,Banco Products (India) Ltd,Spark Watchlist,Equity,Spark Sheet: ₹637.46
 BBL.NS,Bharat Bijlee Ltd,Spark Watchlist,Equity,"Spark Sheet: ₹2,617.59"
 BHARATCOAL.NS,Bharat Coking Coal Ltd,Spark Watchlist,Equity,Spark Sheet: ₹35.60
-BLUEJET.NS,bluejet,Spark Watchlist,Equity,Spark Sheet: ₹491.23
-BOROLTD.NS,BOROLTD,Spark Watchlist,Equity,Spark Sheet: ₹252.48
+BLUEJET.NS,Blue Jet Healthcare Ltd,Spark Watchlist,Equity,Spark Sheet: ₹491.23
+BOROLTD.NS,Borosil Ltd,Spark Watchlist,Equity,Spark Sheet: ₹252.48
 BOROSCI.NS,Borosil Scientific Ltd,Spark Watchlist,Equity,Spark Sheet: ₹127.39
 CAMS.NS,Computer Age Management Services Ltd,Spark Watchlist,Equity,Spark Sheet: ₹745.53
 CANBK.NS,Canara Bank Ltd,Spark Watchlist,Equity,Spark Sheet: ₹138.21
@@ -58,10 +58,10 @@ INDRAMEDCO.NS,Indraprastha Medical Corporation Ltd,Spark Watchlist,Equity,Spark 
 INOXINDIA.NS,INOX India Ltd,Spark Watchlist,Equity,"Spark Sheet: ₹1,491.85"
 INTLCONV.NS,International Conveyors Ltd,Spark Watchlist,Equity,Spark Sheet: ₹79.61
 IOC.NS,Indian Oil Corporation Ltd,Spark Watchlist,Equity,Spark Sheet: ₹150.79
-IRCTC.NS,IRCTC,Spark Watchlist,Equity,Spark Sheet: ₹563.89
+IRCTC.NS,Indian Railway Ctrng nd Trsm Corp Ltd,Spark Watchlist,Equity,Spark Sheet: ₹563.89
 IRFC.NS,Indian Railway Finance Corp Ltd,Spark Watchlist,Equity,Spark Sheet: ₹101.88
 ITCHOTELS.NS,ITC Hotels Ltd,Spark Watchlist,Equity,Spark Sheet: ₹172.31
-JAMNAAUTO.NS,JAMNAAUTO,Spark Watchlist,Equity,Spark Sheet: ₹126.22
+JAMNAAUTO.NS,Jamna Auto Industries Ltd,Spark Watchlist,Equity,Spark Sheet: ₹126.22
 JAYBARMARU.NS,Jay Bharat Maruti Ltd,Spark Watchlist,Equity,Spark Sheet: ₹113.46
 JINDALSAW.NS,Jindal SAW Ltd,Spark Watchlist,Equity,Spark Sheet: ₹219.29
 JIOFIN.NS,Jio Financial Services Ltd,Spark Watchlist,Equity,Spark Sheet: ₹255.15
@@ -99,7 +99,7 @@ PREMEXPLN.NS,Premier Explosives Ltd,Spark Watchlist,Equity,Spark Sheet: ₹573.5
 RAINBOW.NS,Rainbow Children's Medicare Ltd,Spark Watchlist,Equity,"Spark Sheet: ₹1,328.25"
 RCF.NS,Rashtriya Chemicals and Fertilizers Ltd,Spark Watchlist,Equity,Spark Sheet: ₹129.25
 RCOM.NS,Reliance Communications Ltd,Spark Watchlist,Equity,Spark Sheet: ₹0.96
-REDINGTON.NS,redington,Spark Watchlist,Equity,Spark Sheet: ₹268.95
+REDINGTON.NS,Redington Ltd,Spark Watchlist,Equity,Spark Sheet: ₹268.95
 RELIANCE.NS,Reliance Industries Ltd,Spark Watchlist,Equity,"Spark Sheet: ₹1,387.34"
 RHFL.NS,Reliance Home Finance Ltd,Spark Watchlist,Equity,Spark Sheet: ₹2.38
 RIIL.NS,Reliance Industrial Infrastructure Ltd,Spark Watchlist,Equity,Spark Sheet: ₹764.07
@@ -114,7 +114,7 @@ SBICARD.NS,SBI Cards and Payment Services Ltd,Spark Watchlist,Equity,Spark Sheet
 SHALBY.NS,Shalby Ltd,Spark Watchlist,Equity,Spark Sheet: ₹168.32
 SHARDAMOTR.NS,Sharda Motor Industries Ltd,Spark Watchlist,Equity,Spark Sheet: ₹877.67
 SHRENIK.NS,Shrenik Ltd,Spark Watchlist,Equity,Spark Sheet: ₹0.40
-SHYAMCENT.NS,SHYAMCENT,Spark Watchlist,Equity,Spark Sheet: ₹5.38
+SHYAMCENT.NS,Shyam Century Ferrous Ltd,Spark Watchlist,Equity,Spark Sheet: ₹5.38
 SIGACHI.NS,Sigachi Industries Ltd,Spark Watchlist,Equity,Spark Sheet: ₹25.41
 SIGMAADV.NS,Sigma Advanced Systems Ltd,Spark Watchlist,Equity,Spark Sheet: ₹414.05
 SIMBHALS.NS,Simbhaoli Sugars Ltd,Spark Watchlist,Equity,Spark Sheet: ₹8.31
@@ -125,15 +125,15 @@ SPIC.NS,Southern Petrochemical Industries CorpLd,Spark Watchlist,Equity,Spark Sh
 STAR.NS,Strides Pharma Science Ltd,Spark Watchlist,Equity,Spark Sheet: ₹985.61
 SUMEETINDS.NS,Sumeet Industries Ltd,Spark Watchlist,Equity,Spark Sheet: ₹23.97
 SUMMITSEC.NS,Summit Securities Ltd,Spark Watchlist,Equity,"Spark Sheet: ₹1,647.40"
-SUZLON.NS,suzlon,Spark Watchlist,Equity,Spark Sheet: ₹50.03
+SUZLON.NS,Suzlon Energy Ltd,Spark Watchlist,Equity,Spark Sheet: ₹50.03
 SYMPHONY.NS,Symphony Ltd,Spark Watchlist,Equity,Spark Sheet: ₹767.29
 TARIL.NS,Transformers and Rectifiers (India) Ltd,Spark Watchlist,Equity,Spark Sheet: ₹297.09
 TATACONSUM.NS,Tata Consumer Products Ltd,Spark Watchlist,Equity,"Spark Sheet: ₹1,125.89"
-TATAPOWER.NS,TATAPOWER,Spark Watchlist,Equity,Spark Sheet: ₹387.51
+TATAPOWER.NS,Tata Power Company Ltd,Spark Watchlist,Equity,Spark Sheet: ₹387.51
 UNIVPHOTO.NS,Universus Photo Imagings Ltd,Spark Watchlist,Equity,Spark Sheet: ₹367.58
 UTKARSHBNK.NS,Utkarsh Small Finance Bank Ltd,Spark Watchlist,Equity,Spark Sheet: ₹14.12
 VIJAYA.NS,Vijaya Diagnostic Centre Ltd,Spark Watchlist,Equity,"Spark Sheet: ₹1,162.35"
-VIRINCHI.NS,VIRINCHI,Spark Watchlist,Equity,Spark Sheet: ₹18.31
+VIRINCHI.NS,Virinchi Ltd,Spark Watchlist,Equity,Spark Sheet: ₹18.31
 VMM.NS,Vishal Mega Mart Ltd,Spark Watchlist,Equity,Spark Sheet: ₹119.14
 WAAREEENER.NS,Waaree Energies Ltd,Spark Watchlist,Equity,"Spark Sheet: ₹2,929.35"
 WIPRO.NS,Wipro Ltd,Spark Watchlist,Equity,Spark Sheet: ₹207.97
