@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23000,
   "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $104.01.",
-    "Universe breadth shows 18 advancing vs 158 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $104.13.",
+    "Universe breadth shows 19 advancing vs 158 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,000 | Resistance cap at 23,350."
   ],
   "top_setups": [
     {
-      "symbol": "UNIVPHOTO",
-      "name": "Universus Photo Imagings Ltd",
-      "current_price": 567.15,
-      "trigger": 581.16,
-      "target1": 741.82,
-      "sl": 441.39,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
-      "change_pct": 5.0
-    },
-    {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1402.0,
-      "trigger": 1429.75,
-      "target1": 1539.06,
-      "sl": 1303.32,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": -0.72
-    },
-    {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1038.4,
+      "current_price": 1045.0,
       "trigger": 1044.18,
-      "target1": 1111.93,
-      "sl": 985.46,
-      "rationale": "High Technical Score (30.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": 0.07
+      "target1": 1120.89,
+      "sl": 990.36,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
+      "change_pct": 0.7
+    },
+    {
+      "symbol": "ACMESOLAR",
+      "name": "Acme Solar Holdings Ltd",
+      "current_price": 421.45,
+      "trigger": 431.36,
+      "target1": 456.66,
+      "sl": 396.1,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9431.36 with Accumulation structure.",
+      "change_pct": 4.76
+    },
+    {
+      "symbol": "UNIVPHOTO",
+      "name": "Universus Photo Imagings Ltd",
+      "current_price": 567.1,
+      "trigger": 581.16,
+      "target1": 741.75,
+      "sl": 441.36,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
+      "change_pct": 4.99
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Shalby Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 09:30 AM",
+  "timestamp": "15 Sep 2026, 09:45 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23172.55,
+      "price": 23172.35,
       "change_pct": -0.96,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74268.29,
-      "change_pct": -0.69,
+      "price": 74153.91,
+      "change_pct": -0.84,
       "status": "down"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.01,
-      "change_pct": 2.58,
+      "price": 104.13,
+      "change_pct": 2.7,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": 0.95,
+      "price": 95.95,
+      "change_pct": 0.96,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 18,
+    "advances": 19,
     "declines": 158,
     "total": 178
   }
