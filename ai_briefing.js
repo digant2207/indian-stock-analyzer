@@ -1,23 +1,23 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 23150,
+  "nifty_support": 23100,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.06.",
-    "Universe breadth shows 37 advancing vs 140 declining stocks across 178 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.26.",
+    "Universe breadth shows 34 advancing vs 143 declining stocks across 178 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 955.45,
+      "current_price": 942.5,
       "trigger": 960.92,
-      "target1": 1060.85,
-      "sl": 879.56,
+      "target1": 1041.29,
+      "sl": 871.37,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9960.92 with Accumulation structure.",
-      "change_pct": 1.24
+      "change_pct": -0.13
     },
     {
       "symbol": "UNIVPHOTO",
@@ -32,29 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1400.8,
+      "current_price": 1399.8,
       "trigger": 1429.75,
-      "target1": 1537.48,
-      "sl": 1302.39,
+      "target1": 1536.17,
+      "sl": 1301.62,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": -0.81
+      "change_pct": -0.88
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 07:30 AM",
+  "timestamp": "15 Sep 2026, 07:45 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23312.35,
-      "change_pct": -0.37,
+      "price": 23291.1,
+      "change_pct": -0.46,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74616.58,
-      "change_pct": -0.22,
+      "price": 74593.36,
+      "change_pct": -0.25,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.06,
-      "change_pct": 1.65,
+      "price": 103.26,
+      "change_pct": 1.84,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.91,
-      "change_pct": 0.93,
+      "change_pct": 0.92,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 37,
-    "declines": 140,
+    "advances": 34,
+    "declines": 143,
     "total": 178
   }
 };
