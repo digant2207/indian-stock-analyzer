@@ -2044,6 +2044,95 @@ function renderAiBriefing() {
   }
 }
 
+async function autoDetectChatId() {
+  const token = (document.getElementById('tg-bot-token')?.value || '').trim();
+  const banner = document.getElementById('tg-status-banner');
+
+  if (!token || token.includes('...')) {
+    if (banner) {
+      banner.style.display = 'block';
+      banner.style.background = 'rgba(244, 63, 94, 0.15)';
+      banner.style.color = '#fb7185';
+      banner.textContent = '⚠️ Please enter your Bot Token first.';
+    }
+    showToast('Please enter your Bot Token first', 'error');
+    return;
+  }
+
+  if (banner) {
+    banner.style.display = 'block';
+    banner.style.background = 'rgba(2, 132, 199, 0.15)';
+    banner.style.color = '#38bdf8';
+    banner.textContent = '⏳ Checking Telegram for recent messages to your bot...';
+  }
+
+  try {
+    const resp = await fetch(`https://api.telegram.org/bot${token}/getUpdates`);
+    const data = await resp.json();
+
+    if (!data.ok) {
+      const errMsg = data.description || 'Failed to check bot updates';
+      if (banner) {
+        banner.style.background = 'rgba(244, 63, 94, 0.15)';
+        banner.style.color = '#fb7185';
+        banner.textContent = `❌ Telegram Error: ${errMsg}`;
+      }
+      showToast(`Telegram Error: ${errMsg}`, 'error');
+      return;
+    }
+
+    const updates = data.result || [];
+    if (updates.length === 0) {
+      if (banner) {
+        banner.style.background = 'rgba(245, 158, 11, 0.15)';
+        banner.style.color = '#fbbf24';
+        banner.innerHTML = '⚠️ No messages found! <b>Open your bot in Telegram and send a message (like "hi" or "/start")</b>, then click Auto-Detect again!';
+      }
+      showToast('Send a message to your bot in Telegram first', 'info', 6000);
+      return;
+    }
+
+    // Find latest message/chat
+    let foundChat = null;
+    for (let i = updates.length - 1; i >= 0; i--) {
+      const u = updates[i];
+      const chat = u.message?.chat || u.edited_message?.chat || u.channel_post?.chat || u.my_chat_member?.chat;
+      if (chat && chat.id) {
+        foundChat = chat;
+        break;
+      }
+    }
+
+    if (foundChat) {
+      const chatInput = document.getElementById('tg-chat-id');
+      if (chatInput) chatInput.value = String(foundChat.id);
+      localStorage.setItem('tg_chat_id', String(foundChat.id));
+
+      const name = foundChat.first_name || foundChat.title || foundChat.username || 'You';
+      if (banner) {
+        banner.style.display = 'block';
+        banner.style.background = 'rgba(16, 185, 129, 0.15)';
+        banner.style.color = '#34d399';
+        banner.innerHTML = `✅ Successfully detected Chat ID: <b>${foundChat.id}</b> (${name})! Click "Send Test Alert" now.`;
+      }
+      showToast(`Detected Chat ID: ${foundChat.id}!`, 'success', 4000);
+    } else {
+      if (banner) {
+        banner.style.background = 'rgba(245, 158, 11, 0.15)';
+        banner.style.color = '#fbbf24';
+        banner.textContent = 'Could not find chat ID. Please send /start to your bot in Telegram and click Auto-Detect again.';
+      }
+    }
+  } catch (err) {
+    if (banner) {
+      banner.style.background = 'rgba(244, 63, 94, 0.15)';
+      banner.style.color = '#fb7185';
+      banner.textContent = `❌ Network Error: ${err.message}`;
+    }
+    showToast(`Error: ${err.message}`, 'error');
+  }
+}
+
 function openTelegramModal() {
   const modal = document.getElementById('telegram-modal');
   if (!modal) return;

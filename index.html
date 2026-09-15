@@ -481,10 +481,13 @@
       </div>
 
       <div class="form-group">
-        <label class="form-label" for="tg-chat-id">Your Telegram Chat ID:</label>
-        <input type="text" id="tg-chat-id" class="form-input" placeholder="e.g. 987654321">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <label class="form-label" for="tg-chat-id" style="margin:0;">Your Telegram Chat ID:</label>
+          <button type="button" class="btn-secondary" onclick="autoDetectChatId()" style="padding:3px 10px; font-size:0.75rem; border-radius:4px; cursor:pointer;">🔍 Auto-Detect Chat ID</button>
+        </div>
+        <input type="text" id="tg-chat-id" class="form-input" placeholder="e.g. 987654321" style="margin-top:6px;">
         <div class="form-help">
-          To find your Chat ID: Search <b>@userinfobot</b> on Telegram, click Start, and copy the numeric ID.
+          <b>Instant Fix:</b> Open your bot in Telegram, send any message (like <code>hi</code> or <code>/start</code>), then click <b>"Auto-Detect Chat ID"</b> above!
         </div>
       </div>
 
