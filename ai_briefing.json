@@ -4,7 +4,7 @@
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $102.46.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.62.",
     "Universe breadth shows 20 advancing vs 157 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Shalby Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 11:15 AM",
+  "timestamp": "15 Sep 2026, 02:24 PM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
@@ -59,26 +59,26 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7619.98,
+      "price": 7583.71,
       "change_pct": -0.48,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26186.41,
-      "change_pct": -0.56,
+      "price": 26014.37,
+      "change_pct": -0.66,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.46,
-      "change_pct": 1.06,
+      "price": 103.62,
+      "change_pct": 2.2,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.96,
-      "change_pct": 0.97,
+      "price": 95.94,
+      "change_pct": 0.96,
       "status": "up"
     }
   },
