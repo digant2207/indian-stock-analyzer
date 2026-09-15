@@ -406,12 +406,181 @@ function formatNum(val, decimals = 2) {
   return Number(val).toFixed(decimals);
 }
 
+function ensureWyckoffData(s) {
+  if (!s) return s;
+  if (s.wyckoff_phase && s.wyckoff_creek && Number(s.wyckoff_creek) > 0) {
+    return s;
+  }
+
+  const current_price = Number(s.current_price) || 0;
+  const prev_close = Number(s.prev_close) || current_price;
+  const day_chg = Number(s.day_change_pct) || 0;
+  const sma20 = Number(s.sma_20) || current_price;
+  const sma50 = Number(s.sma_50) || current_price;
+  const sma200 = Number(s.sma_200) || current_price;
+  const rsi = Number(s.rsi_14) || 50;
+  const vol_surge = Number(s.vol_surge_ratio) || 1.0;
+  const is_breakout_done = !!s.is_breakout_done_today;
+  const is_20d_high = !!s.is_20d_high_breakout;
+  const is_20d_low = !!s.is_20d_low_breakdown;
+
+  const buy_trig = Number(s.buy_trigger_level) || (current_price * 1.01);
+  const sell_trig = Number(s.sell_trigger_level) || (current_price * 0.99);
+
+  const creek = Number((Math.max(buy_trig, current_price * 1.005)).toFixed(2));
+  const ice = Number((Math.min(sell_trig, current_price * 0.98)).toFixed(2));
+  const tr_height = Number((Math.max(creek - ice, current_price * 0.03)).toFixed(2));
+  const tr_midpoint = Number(((creek + ice) / 2.0).toFixed(2));
+
+  let phase, structure, event, breakout, stoploss, signal, rationale;
+
+  const is_markup = (current_price > creek * 1.015) && (current_price >= sma20 && sma20 >= sma50);
+  const is_markdown = (current_price < ice * 0.97) && (current_price <= sma20 && sma20 <= sma50);
+  const is_sow = is_20d_low || (current_price < ice * 0.995 && vol_surge >= 1.2);
+  const is_jac = is_breakout_done || is_20d_high || (current_price >= creek * 0.995 && (vol_surge >= 1.2 || day_chg > 0.8));
+  const is_lps = (creek * 0.98 <= current_price && current_price <= creek * 1.04) && (current_price > tr_midpoint) && (vol_surge <= 1.3);
+  const is_spring = (current_price <= ice * 1.02) && (rsi <= 45);
+  const is_utad = (current_price >= creek * 0.99) && (rsi >= 68) && (day_chg < 0);
+  const is_climax = (vol_surge >= 2.0) && (Math.abs(day_chg) >= 3.0);
+
+  if (is_markup) {
+    phase = "Phase E";
+    structure = "Markup";
+    event = "Markup Uptrend (Expansion)";
+    breakout = Number((Math.max(creek, current_price * 1.008)).toFixed(2));
+    stoploss = Number((Math.max(ice, current_price * 0.92, sma20 * 0.97)).toFixed(2));
+    signal = "MARKUP RIDE";
+    rationale = [
+      `Trading firmly above Wyckoff Creek (₹${creek}) in active Markup Phase E.`,
+      `Strong alignment above 20 EMA (₹${sma20.toFixed(1)}) and 50 EMA (₹${sma50.toFixed(1)}).`,
+      `Accumulation cause built in ₹${ice} - ₹${creek} base now in vertical effect.`
+    ];
+  } else if (is_markdown) {
+    phase = "Phase E";
+    structure = "Markdown";
+    event = "Markdown Downtrend";
+    breakout = creek;
+    stoploss = Number((Math.max(creek * 1.02, current_price * 1.06)).toFixed(2));
+    signal = "MARKDOWN AVOID";
+    rationale = [
+      `Broken below Wyckoff Ice support (₹${ice}) into Markdown Phase E.`,
+      `Supply heavily dominant with prices below 20 & 50 EMAs.`,
+      `Avoid long positions until selling climax halts descent.`
+    ];
+  } else if (is_sow) {
+    phase = "Phase D";
+    structure = "Distribution";
+    event = "Sign of Weakness (Break of Ice)";
+    breakout = creek;
+    stoploss = Number((Math.max(creek, current_price * 1.05)).toFixed(2));
+    signal = "SOW EXIT / SHORT";
+    rationale = [
+      `Major Sign of Weakness (SOW) breaking below Ice support (₹${ice}).`,
+      `Elevated selling volume and momentum breakdown.`,
+      `High probability of entering Phase E markdown.`
+    ];
+  } else if (is_jac) {
+    phase = "Phase D";
+    structure = "Accumulation";
+    event = "Jump Across Creek (Sign of Strength)";
+    breakout = Number((Math.max(creek * 1.002, current_price * 1.002)).toFixed(2));
+    stoploss = Number((Math.min(creek * 0.97, ice * 1.01)).toFixed(2));
+    signal = "JAC BREAKOUT BUY";
+    rationale = [
+      `Jump Across the Creek (JAC / SOS) breaking through Creek resistance (₹${creek}).`,
+      `Volume surge ${vol_surge.toFixed(1)}x confirms institutional demand absorption.`,
+      `Cause of ${tr_height} pts horizontal accumulation ready to unlock upward effect.`
+    ];
+  } else if (is_lps) {
+    phase = "Phase D";
+    structure = "Accumulation";
+    event = "Last Point of Support (LPS / Backup)";
+    breakout = Number((Math.max(creek * 1.005, current_price * 1.01)).toFixed(2));
+    stoploss = Number((Math.min(creek * 0.97, ice * 1.02)).toFixed(2));
+    signal = "LPS PULLBACK BUY";
+    rationale = [
+      `Last Point of Support (LPS) successfully holding above Creek (₹${creek}).`,
+      `Low-volume pullback demonstrates floating supply is exhausted.`,
+      `Prime Wyckoff low-risk entry before Phase E markup acceleration.`
+    ];
+  } else if (is_spring) {
+    phase = "Phase C";
+    structure = "Accumulation";
+    event = "Spring / Shakeout Test";
+    breakout = creek;
+    stoploss = Number((ice * 0.985).toFixed(2));
+    signal = "SPRING TEST BUY";
+    rationale = [
+      `Phase C Spring test under Ice support (₹${ice}) holding firmly.`,
+      `Liquidity sweep completed; supply dried up on the test.`,
+      `Asymmetric risk-reward setup with stop loss strictly below Spring low (₹${stoploss}).`
+    ];
+  } else if (is_utad) {
+    phase = "Phase C";
+    structure = "Distribution";
+    event = "UTAD (Upthrust After Distribution)";
+    breakout = creek;
+    stoploss = Number((creek * 1.025).toFixed(2));
+    signal = "UTAD EXIT / CAUTION";
+    rationale = [
+      `Upthrust After Distribution (UTAD) spiked above Creek (₹${creek}) and failed.`,
+      `Smart money distributing to trap breakout buyers.`,
+      `Tighten stop loss or take profits on long positions.`
+    ];
+  } else if (is_climax) {
+    phase = "Phase A";
+    structure = current_price < tr_midpoint ? "Accumulation" : "Distribution";
+    event = "Stopping Climax & Secondary Test";
+    breakout = creek;
+    stoploss = Number((structure === "Accumulation" ? ice * 0.98 : creek * 1.02).toFixed(2));
+    signal = "CLIMAX WATCH";
+    rationale = [
+      `Phase A Stopping Action: Climactic volume surge (${vol_surge.toFixed(1)}x vol).`,
+      `Automatic reaction establishes Trading Range between ₹${ice} and ₹${creek}.`,
+      `Wait for Phase B cause development before initiating trades.`
+    ];
+  } else {
+    phase = "Phase B";
+    structure = (sma50 >= sma200 || rsi >= 48) ? "Accumulation" : "Distribution";
+    event = "Range Cause Building (Absorption)";
+    breakout = creek;
+    stoploss = Number((ice * 0.98).toFixed(2));
+    signal = "CAUSE BUILDING WATCH";
+    rationale = [
+      `Phase B Cause Building inside Trading Range: ₹${ice} (Ice) to ₹${creek} (Creek).`,
+      `Consolidation inside ${tr_height} pts horizontal range.`,
+      `Smart money absorbing supply; wait for Phase C Spring or Phase D breakout.`
+    ];
+  }
+
+  const dist_to_breakout = current_price > 0 ? Number((((breakout - current_price) / current_price) * 100.0).toFixed(2)) : 0;
+  const stoploss_risk_pct = current_price > 0 ? Number((((current_price - stoploss) / current_price) * 100.0).toFixed(2)) : 0;
+  const target_1 = Number((creek + tr_height * 1.0).toFixed(2));
+  const target_2 = Number((creek + tr_height * 2.0).toFixed(2));
+
+  s.wyckoff_phase = phase;
+  s.wyckoff_structure = structure;
+  s.wyckoff_event = event;
+  s.wyckoff_creek = creek;
+  s.wyckoff_ice = ice;
+  s.wyckoff_breakout = breakout;
+  s.wyckoff_dist_to_breakout_pct = dist_to_breakout;
+  s.wyckoff_stoploss = stoploss;
+  s.wyckoff_stoploss_pct = stoploss_risk_pct;
+  s.wyckoff_target_1 = target_1;
+  s.wyckoff_target_2 = target_2;
+  s.wyckoff_signal = signal;
+  s.wyckoff_rationale = rationale;
+  return s;
+}
+
 function getCombinedStocks() {
   const list1 = (stockData && stockData.all_stocks) ? stockData.all_stocks : [];
   const list2 = (nifty250Data && nifty250Data.all_stocks) ? nifty250Data.all_stocks : [];
   const map = new Map();
   list1.concat(list2).forEach(s => {
     if (s && s.symbol) {
+      ensureWyckoffData(s);
       map.set(s.symbol, s);
     }
   });
@@ -419,6 +588,7 @@ function getCombinedStocks() {
   all.sort((a, b) => (b.composite_score || 0) - (a.composite_score || 0));
   return all;
 }
+
 
 async function loadData() {
   if (window.stockData && window.stockData.all_stocks && window.stockData.all_stocks.length > 0) {
@@ -640,6 +810,7 @@ function renderNifty250Table(stocks, tbodyId='nifty250-tbody') {
 
 function createStockCardHTML(stock, isWorst=false) {
   if (!stock) return '';
+  stock = ensureWyckoffData(stock);
   const dayChg = stock.day_change_pct || 0;
   const changeClass = dayChg >= 0 ? 'positive' : 'negative';
   const changeSign = dayChg >= 0 ? '+' : '';
@@ -669,6 +840,10 @@ function createStockCardHTML(stock, isWorst=false) {
           <span class="metric-val" style="color:${isWorst ? '#e11d48':'#059669'}; font-size:0.78rem;">F:${fundScore} | T:${techScore} | <strong>Total:${overallScore}</strong></span>
         </div>
         <div class="metric-item">
+          <span class="metric-lbl">🏛️ Wyckoff Setup</span>
+          <span class="metric-val" style="color:#a855f7; font-size:0.76rem;">${stock.wyckoff_phase} • ${stock.wyckoff_signal || 'WATCH'}</span>
+        </div>
+        <div class="metric-item">
           <span class="metric-lbl">YoY Sales Growth</span>
           <span class="metric-val">${formatNum(stock.rev_growth_yoy, 1)}%</span>
         </div>
@@ -676,15 +851,13 @@ function createStockCardHTML(stock, isWorst=false) {
           <span class="metric-lbl">ROE / Debt Status</span>
           <span class="metric-val">${formatNum(stock.roe, 1)}% | ${stock.debt_status || 'N/A'}</span>
         </div>
-        <div class="metric-item">
-          <span class="metric-lbl">Analyst Target</span>
-          <span class="metric-val">₹${formatNum(stock.target_mean_price, 2)} (+${formatNum(stock.analyst_upside_pct, 1)}%)</span>
-        </div>
       </div>
 
       <div class="signals-group">
         <span class="badge ${getBadgeClass(stock.long_term_signal)}">LT: ${stock.long_term_signal || 'HOLD'}</span>
         <span class="badge ${getBadgeClass(stock.swing_signal)}">Swing: ${stock.swing_signal || 'NEUTRAL'}</span>
+        <span class="badge ${getWyckoffPhaseBadge(stock.wyckoff_phase)}">${stock.wyckoff_phase}</span>
+        <span class="badge ${getWyckoffStructureBadge(stock.wyckoff_structure)}">${stock.wyckoff_structure}</span>
         ${stock.is_20d_high_breakout ? '<span class="badge badge-breakout">20D Breakout</span>' : ''}
         ${(stock.pledged_pct || 0) > 5 ? '<span class="badge badge-debt">Pledged: '+formatNum(stock.pledged_pct, 1)+'%</span>' : ''}
       </div>
@@ -1053,14 +1226,469 @@ function renderWyckoffRows(list, tbody) {
   }).join('');
 }
 
+let currentChartInstance = null;
+let currentCandleSeries = null;
+let currentVolumeSeries = null;
+let currentSma20Series = null;
+let currentSma50Series = null;
+let currentSma200Series = null;
+let currentPriceLines = [];
+let currentChartResizeObserver = null;
+let currentChartStock = null;
+let currentChartTimeframe = '3M';
+let chartToggleState = {
+  wyckoff: true,
+  emas: true,
+  targets: true
+};
+
+function changeChartTimeframe(tf) {
+  currentChartTimeframe = tf;
+  document.querySelectorAll('.timeframe-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.textContent.trim() === tf);
+  });
+  if (currentChartStock) {
+    initStockChart(currentChartStock, tf);
+  }
+}
+
+function toggleChartFeature(feat, checked) {
+  chartToggleState[feat] = checked;
+  if (!currentChartInstance) return;
+
+  if (feat === 'wyckoff' || feat === 'targets') {
+    updateChartPriceLines(currentChartStock);
+  } else if (feat === 'emas') {
+    if (currentSma20Series) currentSma20Series.applyOptions({ visible: checked });
+    if (currentSma50Series) currentSma50Series.applyOptions({ visible: checked });
+    if (currentSma200Series) currentSma200Series.applyOptions({ visible: checked });
+  }
+}
+
+function updateChartPriceLines(stock) {
+  if (!currentCandleSeries || !stock) return;
+  currentPriceLines.forEach(pl => {
+    try { currentCandleSeries.removePriceLine(pl); } catch(e){}
+  });
+  currentPriceLines = [];
+
+  const curPrice = Number(stock.current_price) || 0;
+  const creek = Number(stock.wyckoff_creek) || (curPrice * 1.02);
+  const ice = Number(stock.wyckoff_ice) || (curPrice * 0.98);
+  const t1 = Number(stock.wyckoff_target_1) || Number(stock.swing_target_1) || 0;
+  const t2 = Number(stock.wyckoff_target_2) || Number(stock.swing_target_2) || 0;
+  const sl = Number(stock.wyckoff_stoploss) || Number(stock.swing_stoploss) || (ice * 0.98);
+
+  if (chartToggleState.wyckoff && window.LightweightCharts) {
+    const creekLine = currentCandleSeries.createPriceLine({
+      price: creek,
+      color: '#06b6d4',
+      lineWidth: 2,
+      lineStyle: LightweightCharts.LineStyle.Dashed,
+      axisLabelVisible: true,
+      title: `Creek ₹${creek.toFixed(1)}`
+    });
+    currentPriceLines.push(creekLine);
+
+    const iceLine = currentCandleSeries.createPriceLine({
+      price: ice,
+      color: '#3b82f6',
+      lineWidth: 2,
+      lineStyle: LightweightCharts.LineStyle.Dashed,
+      axisLabelVisible: true,
+      title: `Ice ₹${ice.toFixed(1)}`
+    });
+    currentPriceLines.push(iceLine);
+  }
+
+  if (chartToggleState.targets && window.LightweightCharts) {
+    if (t1 > 0) {
+      const t1Line = currentCandleSeries.createPriceLine({
+        price: t1,
+        color: '#10b981',
+        lineWidth: 1,
+        lineStyle: LightweightCharts.LineStyle.Dotted,
+        axisLabelVisible: true,
+        title: `Target 1 ₹${t1.toFixed(1)}`
+      });
+      currentPriceLines.push(t1Line);
+    }
+    if (t2 > 0) {
+      const t2Line = currentCandleSeries.createPriceLine({
+        price: t2,
+        color: '#059669',
+        lineWidth: 1,
+        lineStyle: LightweightCharts.LineStyle.Dotted,
+        axisLabelVisible: true,
+        title: `Target 2 ₹${t2.toFixed(1)}`
+      });
+      currentPriceLines.push(t2Line);
+    }
+    if (sl > 0) {
+      const slLine = currentCandleSeries.createPriceLine({
+        price: sl,
+        color: '#ef4444',
+        lineWidth: 2,
+        lineStyle: LightweightCharts.LineStyle.Dashed,
+        axisLabelVisible: true,
+        title: `Stop Loss ₹${sl.toFixed(1)}`
+      });
+      currentPriceLines.push(slLine);
+    }
+  }
+}
+
+function formatVolumeNumber(num) {
+  if (!num) return '0';
+  if (num >= 10000000) return (num / 10000000).toFixed(2) + ' Cr';
+  if (num >= 100000) return (num / 100000).toFixed(2) + ' L';
+  if (num >= 1000) return (num / 1000).toFixed(1) + ' K';
+  return num.toLocaleString('en-IN');
+}
+
+async function initStockChart(stock, timeframe = '3M') {
+  currentChartStock = stock;
+  const container = document.getElementById('tv-chart-container');
+  const loader = document.getElementById('chart-loading');
+  if (!container) return;
+
+  if (currentChartInstance) {
+    try { currentChartInstance.remove(); } catch(e){}
+    currentChartInstance = null;
+  }
+  if (currentChartResizeObserver) {
+    try { currentChartResizeObserver.disconnect(); } catch(e){}
+    currentChartResizeObserver = null;
+  }
+
+  if (!window.LightweightCharts) {
+    container.innerHTML = `<div style="padding:40px; text-align:center; color:var(--text-secondary);">Chart library loading or unavailable.</div>`;
+    return;
+  }
+
+  container.innerHTML = '';
+  if (loader) loader.style.display = 'flex';
+
+  let candles = (stock.candles && Array.isArray(stock.candles) && stock.candles.length > 0) ? [...stock.candles] : [];
+  let sma20Data = [];
+  let sma50Data = [];
+  let sma200Data = [];
+
+  const needsServerFetch = (timeframe === '6M' || timeframe === '1Y' || candles.length === 0);
+  if (needsServerFetch) {
+    const periodParam = timeframe === '1M' ? '1mo' : timeframe === '6M' ? '6mo' : timeframe === '1Y' ? '1y' : '3mo';
+    try {
+      const resp = await fetch(`/api/stock_history?symbol=${encodeURIComponent(stock.symbol)}&period=${periodParam}&interval=1d`);
+      if (resp.ok) {
+        const histData = await resp.json();
+        if (histData.status === 'success' && histData.candles && histData.candles.length > 0) {
+          candles = histData.candles;
+          sma20Data = histData.sma20 || [];
+          sma50Data = histData.sma50 || [];
+          sma200Data = histData.sma200 || [];
+        }
+      }
+    } catch(e) {
+      console.warn("Stock history API notice:", e);
+    }
+  }
+
+  if (loader) loader.style.display = 'none';
+
+  if (!candles || candles.length === 0) {
+    container.innerHTML = `<div style="padding:60px; text-align:center; color:var(--text-muted);">No historical candlestick data available for ${stock.symbol}.</div>`;
+    return;
+  }
+
+  if (timeframe === '1M' && candles.length > 22) {
+    candles = candles.slice(-22);
+  } else if (timeframe === '3M' && candles.length > 65) {
+    candles = candles.slice(-65);
+  }
+
+  candles.sort((a, b) => (a.time > b.time ? 1 : -1));
+  const uniqueCandles = [];
+  const seenTimes = new Set();
+  for (const c of candles) {
+    if (!seenTimes.has(c.time)) {
+      seenTimes.add(c.time);
+      uniqueCandles.push(c);
+    }
+  }
+  candles = uniqueCandles;
+
+  if (sma20Data.length === 0 && candles.length >= 5) {
+    const calcEMA = (period) => {
+      const k = 2 / (period + 1);
+      let ema = candles[0].close;
+      const res = [];
+      for (let i = 0; i < candles.length; i++) {
+        ema = (candles[i].close * k) + (ema * (1 - k));
+        if (i >= Math.min(Math.floor(period / 2), 5)) {
+          res.push({ time: candles[i].time, value: parseFloat(ema.toFixed(2)) });
+        }
+      }
+      return res;
+    };
+    sma20Data = calcEMA(20);
+    sma50Data = calcEMA(50);
+    sma200Data = calcEMA(200);
+  }
+
+  const isDark = document.body.classList.contains('dark-mode') || true;
+  const chart = LightweightCharts.createChart(container, {
+    width: container.clientWidth || 920,
+    height: container.clientHeight || 350,
+    layout: {
+      background: { type: 'solid', color: isDark ? '#0b1120' : '#ffffff' },
+      textColor: isDark ? '#94a3b8' : '#334155',
+      fontFamily: 'Inter, -apple-system, sans-serif'
+    },
+    grid: {
+      vertLines: { color: isDark ? 'rgba(51, 65, 85, 0.22)' : 'rgba(226, 232, 240, 0.8)' },
+      horzLines: { color: isDark ? 'rgba(51, 65, 85, 0.22)' : 'rgba(226, 232, 240, 0.8)' }
+    },
+    crosshair: {
+      mode: LightweightCharts.CrosshairMode.Normal,
+      vertLine: {
+        color: 'rgba(56, 189, 248, 0.6)',
+        width: 1,
+        style: LightweightCharts.LineStyle.Dashed,
+        labelBackgroundColor: '#0284c7'
+      },
+      horzLine: {
+        color: 'rgba(56, 189, 248, 0.6)',
+        width: 1,
+        style: LightweightCharts.LineStyle.Dashed,
+        labelBackgroundColor: '#0284c7'
+      }
+    },
+    rightPriceScale: {
+      borderColor: isDark ? 'rgba(51, 65, 85, 0.5)' : '#cbd5e1',
+      autoScale: true,
+      scaleMargins: { top: 0.08, bottom: 0.20 }
+    },
+    timeScale: {
+      borderColor: isDark ? 'rgba(51, 65, 85, 0.5)' : '#cbd5e1',
+      timeVisible: true,
+      secondsVisible: false,
+      fixLeftEdge: true,
+      fixRightEdge: true
+    }
+  });
+
+  currentChartInstance = chart;
+
+  currentVolumeSeries = chart.addHistogramSeries({
+    color: '#26a69a',
+    priceFormat: { type: 'volume' },
+    priceScaleId: '',
+  });
+  currentVolumeSeries.priceScale().applyOptions({
+    scaleMargins: { top: 0.78, bottom: 0 }
+  });
+
+  const volumeData = candles.map(c => ({
+    time: c.time,
+    value: c.volume || 0,
+    color: (c.close >= c.open) ? 'rgba(16, 185, 129, 0.45)' : 'rgba(239, 68, 68, 0.45)'
+  }));
+  currentVolumeSeries.setData(volumeData);
+
+  currentSma20Series = chart.addLineSeries({
+    color: '#06b6d4',
+    lineWidth: 1.5,
+    title: '20 EMA',
+    visible: chartToggleState.emas
+  });
+  currentSma20Series.setData(sma20Data);
+
+  currentSma50Series = chart.addLineSeries({
+    color: '#f59e0b',
+    lineWidth: 1.5,
+    title: '50 EMA',
+    visible: chartToggleState.emas
+  });
+  currentSma50Series.setData(sma50Data);
+
+  currentSma200Series = chart.addLineSeries({
+    color: '#a855f7',
+    lineWidth: 1.5,
+    title: '200 EMA',
+    visible: chartToggleState.emas
+  });
+  currentSma200Series.setData(sma200Data);
+
+  currentCandleSeries = chart.addCandlestickSeries({
+    upColor: '#10b981',
+    downColor: '#ef4444',
+    borderVisible: false,
+    wickUpColor: '#10b981',
+    wickDownColor: '#ef4444'
+  });
+  currentCandleSeries.setData(candles);
+
+  const markers = [];
+  const isSpring = (stock.wyckoff_phase || '').includes('Phase C');
+  const isJac = (stock.wyckoff_phase || '').includes('Phase D') && (stock.wyckoff_event || '').includes('Jump Across Creek');
+  const isDoneToday = stock.is_breakout_done_today || stock.is_20d_high_breakout;
+
+  const lastCandle = candles[candles.length - 1];
+  if (lastCandle) {
+    if (isDoneToday) {
+      markers.push({
+        time: lastCandle.time,
+        position: 'aboveBar',
+        color: '#10b981',
+        shape: 'arrowUp',
+        text: '🔥 Breakout'
+      });
+    } else if (isJac) {
+      markers.push({
+        time: lastCandle.time,
+        position: 'aboveBar',
+        color: '#06b6d4',
+        shape: 'arrowUp',
+        text: 'JAC'
+      });
+    } else if (isSpring) {
+      markers.push({
+        time: lastCandle.time,
+        position: 'belowBar',
+        color: '#c084fc',
+        shape: 'arrowUp',
+        text: 'Spring'
+      });
+    }
+  }
+
+  for (let i = Math.max(0, candles.length - 15); i < candles.length - 1; i++) {
+    const c = candles[i];
+    const prevC = candles[i - 1];
+    if (prevC && c.volume > prevC.volume * 2.2 && c.close > c.open) {
+      markers.push({
+        time: c.time,
+        position: 'belowBar',
+        color: '#38bdf8',
+        shape: 'circle',
+        text: 'Vol Surge'
+      });
+    }
+  }
+
+  if (markers.length > 0) {
+    markers.sort((a, b) => (a.time > b.time ? 1 : -1));
+    currentCandleSeries.setMarkers(markers);
+  }
+
+  updateChartPriceLines(stock);
+
+  const updateLegend = (candle, vol) => {
+    if (!candle) return;
+    const legDate = document.getElementById('leg-date');
+    const legOpen = document.getElementById('leg-open');
+    const legHigh = document.getElementById('leg-high');
+    const legLow = document.getElementById('leg-low');
+    const legClose = document.getElementById('leg-close');
+    const legChg = document.getElementById('leg-chg');
+    const legVol = document.getElementById('leg-vol');
+
+    const chg = candle.open > 0 ? (((candle.close - candle.open) / candle.open) * 100) : 0;
+    const chgColor = chg >= 0 ? 'var(--accent-green)' : 'var(--accent-rose)';
+
+    if (legDate) legDate.textContent = candle.time;
+    if (legOpen) legOpen.textContent = `₹${candle.open.toFixed(2)}`;
+    if (legHigh) legHigh.textContent = `₹${candle.high.toFixed(2)}`;
+    if (legLow) legLow.textContent = `₹${candle.low.toFixed(2)}`;
+    if (legClose) legClose.textContent = `₹${candle.close.toFixed(2)}`;
+    if (legChg) {
+      legChg.textContent = `${chg >= 0 ? '+' : ''}${chg.toFixed(2)}%`;
+      legChg.style.color = chgColor;
+    }
+    if (legVol) legVol.textContent = vol !== undefined ? formatVolumeNumber(vol) : (candle.volume ? formatVolumeNumber(candle.volume) : '--');
+  };
+
+  if (lastCandle) {
+    updateLegend(lastCandle, lastCandle.volume);
+  }
+
+  chart.subscribeCrosshairMove(param => {
+    if (!param || !param.time || !param.seriesData) {
+      if (lastCandle) updateLegend(lastCandle, lastCandle.volume);
+      return;
+    }
+    const cData = param.seriesData.get(currentCandleSeries);
+    const vData = param.seriesData.get(currentVolumeSeries);
+    if (cData) {
+      updateLegend(cData, vData ? vData.value : undefined);
+    }
+  });
+
+  chart.timeScale().fitContent();
+
+  currentChartResizeObserver = new ResizeObserver(entries => {
+    if (!entries || entries.length === 0 || !entries[0].contentRect) return;
+    const { width, height } = entries[0].contentRect;
+    if (width > 0 && height > 0) {
+      chart.applyOptions({ width, height });
+    }
+  });
+  currentChartResizeObserver.observe(container);
+}
+
 function openStockModal(symbol) {
   const combined = getCombinedStocks();
-  const stock = combined.find(s => s.symbol === symbol);
+  let stock = combined.find(s => s.symbol === symbol) || 
+              (stockData.all_stocks || []).find(s => s.symbol === symbol) || 
+              (nifty250Data.all_stocks || []).find(s => s.symbol === symbol);
   if (!stock) return;
 
+  stock = ensureWyckoffData(stock);
+  currentChartStock = stock;
   const cleanSym = getCleanSymbol(stock.symbol);
+  
+  const curPrice = Number(stock.current_price) || 0;
+  const creek = Number(stock.wyckoff_creek) || (curPrice * 1.02);
+  const ice = Number(stock.wyckoff_ice) || (curPrice * 0.98);
+  const rangeHeight = Math.max(0.01, creek - ice);
+  const rangePct = ice > 0 ? ((rangeHeight / ice) * 100) : 0;
+  
+  let posPct = Math.round(((curPrice - ice) / rangeHeight) * 100);
+  if (posPct < 0) posPct = 0;
+  if (posPct > 100) posPct = 100;
+
+  const riskAmt = Math.max(0.01, curPrice - (Number(stock.wyckoff_stoploss) || ice));
+  const rewardAmt = Math.max(0.01, (Number(stock.wyckoff_target_1) || creek) - curPrice);
+  const rrr = curPrice > 0 ? (rewardAmt / riskAmt).toFixed(1) : '1.0';
+
+  const t1Upside = curPrice > 0 ? (((Number(stock.wyckoff_target_1) - curPrice) / curPrice) * 100).toFixed(1) : '0.0';
+  const t2Upside = curPrice > 0 ? (((Number(stock.wyckoff_target_2) - curPrice) / curPrice) * 100).toFixed(1) : '0.0';
+
+  let wyckoffPlaybook = "Horizontal cause building inside Trading Range. Smart money absorbing supply. Monitor for Phase C Spring or Phase D Creek Breakout.";
+  if ((stock.wyckoff_phase || '').includes('Phase C')) {
+    wyckoffPlaybook = "🎯 <strong>Phase C (Spring / Shakeout Test)</strong>: Smart money flushed weak hands below Ice support. High asymmetry buy zone with tight structural stop loss strictly below the Spring low.";
+  } else if ((stock.wyckoff_phase || '').includes('Phase D') && (stock.wyckoff_event || '').includes('Jump Across Creek')) {
+    wyckoffPlaybook = "🚀 <strong>Phase D (Jump Across Creek / SOS)</strong>: Price breaking above Creek resistance with institutional volume surge. Momentum breakout setup; buy at breakout or wait for shallow LPS retest.";
+  } else if ((stock.wyckoff_phase || '').includes('Phase D') && (stock.wyckoff_event || '').includes('Last Point of Support')) {
+    wyckoffPlaybook = "💎 <strong>Phase D (Last Point of Support / LPS)</strong>: Pullback successfully holding above Creek on drying supply. Ideal low-risk re-entry before Phase E markup acceleration.";
+  } else if ((stock.wyckoff_phase || '').includes('Phase E') && stock.wyckoff_structure === 'Markup') {
+    wyckoffPlaybook = "📈 <strong>Phase E (Markup Trend)</strong>: Active institutional trend outside the Trading Range. Ride trend momentum with trailing stop loss along 20-day EMA.";
+  } else if (['Distribution', 'Markdown'].includes(stock.wyckoff_structure || '') || (stock.wyckoff_event || '').includes('Sign of Weakness') || (stock.wyckoff_event || '').includes('UTAD')) {
+    wyckoffPlaybook = "⚠️ <strong>Distribution / Sign of Weakness Alert</strong>: Supply dominant; smart money distributing. Protect capital, tighten stops, or avoid long positions until selling climax.";
+  }
+
   document.getElementById('modal-stock-title').textContent = `${stock.name || cleanSym} (${cleanSym})`;
-  document.getElementById('modal-stock-subtitle').textContent = `${stock.sector || 'General'} | ${stock.cap_type || 'Equity'}`;
+  
+  const subtitleEl = document.getElementById('modal-stock-subtitle');
+  subtitleEl.innerHTML = `
+    <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:2px;">
+      <span>${stock.sector || 'General'} | ${stock.cap_type || 'Equity'}</span>
+      <span class="badge ${getBadgeClass(stock.long_term_signal)}">LT: ${stock.long_term_signal || 'HOLD'}</span>
+      <span class="badge ${getBadgeClass(stock.swing_signal)}">Swing: ${stock.swing_signal || 'NEUTRAL'}</span>
+      <span class="badge ${getWyckoffPhaseBadge(stock.wyckoff_phase || 'Phase B')}">🏛️ ${stock.wyckoff_phase || 'Phase B'}: ${stock.wyckoff_event || 'Range Consolidation'}</span>
+      <span class="badge ${getWyckoffStructureBadge(stock.wyckoff_structure || 'Accumulation')}">${stock.wyckoff_structure || 'Accumulation'}</span>
+    </div>
+  `;
   
   const fundScore = formatNum(stock.fundamental_score !== undefined ? stock.fundamental_score : (stock.composite_score * 0.35), 1);
   const techScore = formatNum(stock.technical_score !== undefined ? stock.technical_score : (stock.composite_score * 0.45), 1);
@@ -1068,20 +1696,84 @@ function openStockModal(symbol) {
 
   const content = document.getElementById('modal-body');
   content.innerHTML = `
+    <!-- Interactive TradingView Lightweight Candlestick Chart Card -->
+    <div class="stock-chart-card">
+      <div class="chart-header-row">
+        <div class="chart-title-box">
+          <div class="chart-title-text">
+            📈 Interactive Candlestick Chart & Wyckoff Levels
+          </div>
+          <span class="badge ${getWyckoffPhaseBadge(stock.wyckoff_phase || 'Phase B')}">
+            ${stock.wyckoff_phase || 'Phase B'}
+          </span>
+        </div>
+        <div class="chart-timeframe-group">
+          <button class="timeframe-btn" onclick="changeChartTimeframe('1M')">1M</button>
+          <button class="timeframe-btn active" onclick="changeChartTimeframe('3M')">3M</button>
+          <button class="timeframe-btn" onclick="changeChartTimeframe('6M')">6M</button>
+          <button class="timeframe-btn" onclick="changeChartTimeframe('1Y')">1Y</button>
+        </div>
+      </div>
+
+      <div class="chart-toggles-row">
+        <div class="chart-toggles-group">
+          <label class="chart-toggle-chip">
+            <input type="checkbox" id="chk-wyckoff" checked onchange="toggleChartFeature('wyckoff', this.checked)">
+            🏛️ Creek & Ice Levels
+          </label>
+          <label class="chart-toggle-chip">
+            <input type="checkbox" id="chk-emas" checked onchange="toggleChartFeature('emas', this.checked)">
+            📊 20 / 50 / 200 EMA
+          </label>
+          <label class="chart-toggle-chip">
+            <input type="checkbox" id="chk-targets" checked onchange="toggleChartFeature('targets', this.checked)">
+            🎯 Targets & Stop Loss
+          </label>
+        </div>
+        <div style="font-size:0.73rem; color:var(--text-muted);">
+          Hover for OHLCV • Drag to pan • Scroll to zoom
+        </div>
+      </div>
+
+      <div class="chart-legend-bar" id="chart-legend-bar">
+        <div class="chart-legend-ohlc">
+          <span>Date: <strong id="leg-date">--</strong></span>
+          <span>O: <strong id="leg-open">--</strong></span>
+          <span>H: <strong id="leg-high">--</strong></span>
+          <span>L: <strong id="leg-low">--</strong></span>
+          <span>C: <strong id="leg-close">--</strong></span>
+          <span>Chg: <strong id="leg-chg">--</strong></span>
+          <span>Vol: <strong id="leg-vol">--</strong></span>
+        </div>
+      </div>
+
+      <div class="chart-canvas-box" id="stock-chart-canvas-box">
+        <div class="chart-loading-overlay" id="chart-loading" style="display:none;">
+          <span class="spin-icon">⚡</span> Loading historical data...
+        </div>
+        <div id="tv-chart-container" style="width:100%; height:100%;"></div>
+      </div>
+    </div>
+
     <div class="modal-box" style="margin-bottom:14px; background:var(--bg-secondary);">
-      <div class="modal-box-title">📊 3 Criteria Score Breakdown</div>
-      <div style="display:flex; justify-content:space-between; gap:12px; margin-top:8px;">
-        <div style="flex:1; text-align:center; padding:8px; background:rgba(56,189,248,0.1); border-radius:8px;">
-          <div style="font-size:0.75rem; color:var(--text-secondary);">1. Fundamental Score</div>
+      <div class="modal-box-title">📊 4-Pillar Score & Market Cycle Breakdown</div>
+      <div style="display:flex; justify-content:space-between; gap:10px; margin-top:8px; flex-wrap:wrap;">
+        <div style="flex:1; min-width:110px; text-align:center; padding:8px; background:rgba(56,189,248,0.1); border-radius:8px;">
+          <div style="font-size:0.72rem; color:var(--text-secondary);">1. Fundamental Score</div>
           <div style="font-size:1.1rem; font-weight:700; color:var(--accent-cyan);">${fundScore} / 35</div>
         </div>
-        <div style="flex:1; text-align:center; padding:8px; background:rgba(168,85,247,0.1); border-radius:8px;">
-          <div style="font-size:0.75rem; color:var(--text-secondary);">2. Technical Score</div>
+        <div style="flex:1; min-width:110px; text-align:center; padding:8px; background:rgba(168,85,247,0.1); border-radius:8px;">
+          <div style="font-size:0.72rem; color:var(--text-secondary);">2. Technical Score</div>
           <div style="font-size:1.1rem; font-weight:700; color:#a855f7;">${techScore} / 50</div>
         </div>
-        <div style="flex:1; text-align:center; padding:8px; background:rgba(34,197,94,0.1); border-radius:8px;">
-          <div style="font-size:0.75rem; color:var(--text-secondary);">3. Overall Score</div>
+        <div style="flex:1; min-width:110px; text-align:center; padding:8px; background:rgba(34,197,94,0.1); border-radius:8px;">
+          <div style="font-size:0.72rem; color:var(--text-secondary);">3. Overall Score</div>
           <div style="font-size:1.1rem; font-weight:700; color:var(--accent-green);">${overallScore} / 100</div>
+        </div>
+        <div style="flex:1; min-width:120px; text-align:center; padding:8px; background:rgba(192,132,252,0.12); border-radius:8px; border: 1px solid rgba(192,132,252,0.25);">
+          <div style="font-size:0.72rem; color:var(--text-secondary);">4. Wyckoff Cycle</div>
+          <div style="font-size:1.05rem; font-weight:700; color:#c084fc;">${stock.wyckoff_phase || 'Phase B'}</div>
+          <div style="font-size:0.72rem; font-weight:700; color:var(--accent-cyan); margin-top:2px;">${stock.wyckoff_signal || 'CAUSE WATCH'}</div>
         </div>
       </div>
     </div>
@@ -1124,35 +1816,69 @@ function openStockModal(symbol) {
       </div>
     </div>
 
-    <div class="modal-box" style="margin-top:14px; border-left: 4px solid #a855f7;">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-        <div class="modal-box-title" style="color:#a855f7; margin-bottom:0; font-size:0.88rem;">🏛️ Wyckoff Methodology Analysis (1-Day Chart)</div>
-        <span class="badge ${getWyckoffPhaseBadge(stock.wyckoff_phase || 'Phase B')}">${stock.wyckoff_phase || 'Phase B'}: ${stock.wyckoff_event || 'Range Consolidation'}</span>
+    <!-- Enhanced Wyckoff Methodology Analysis Card -->
+    <div class="wyckoff-detail-box">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:8px;">
+        <div>
+          <div class="modal-box-title" style="color:#a855f7; margin-bottom:2px; font-size:0.92rem;">
+            🏛️ Wyckoff Methodology & Phase Analysis (1-Day Chart)
+          </div>
+          <div style="font-size:0.75rem; color:var(--text-secondary);">
+            Institutional Supply/Demand Accumulation Analysis based on Rubén Villahermosa's Wyckoff Method
+          </div>
+        </div>
+        <div style="display:flex; gap:6px; flex-wrap:wrap;">
+          <span class="badge ${getWyckoffPhaseBadge(stock.wyckoff_phase || 'Phase B')}">${stock.wyckoff_phase || 'Phase B'}</span>
+          <span class="badge ${getWyckoffStructureBadge(stock.wyckoff_structure || 'Accumulation')}">${stock.wyckoff_structure || 'Accumulation'}</span>
+          <span class="badge badge-strong-buy">${stock.wyckoff_signal || 'CAUSE WATCH'}</span>
+        </div>
+      </div>
+
+      <!-- Visual Trading Range Gauge -->
+      <div class="wyckoff-range-gauge">
+        <div class="wyckoff-gauge-title">
+          <span>Trading Range (TR) Position: ₹${ice.toFixed(2)} (Ice) ➔ ₹${creek.toFixed(2)} (Creek)</span>
+          <span style="color:var(--accent-cyan);">Range Span: ₹${rangeHeight.toFixed(2)} (${rangePct.toFixed(1)}% Base)</span>
+        </div>
+        <div class="wyckoff-bar-track" title="Current Price position: ${posPct}% within Trading Range">
+          <div class="wyckoff-bar-pointer" style="left: ${posPct}%;" title="Current Price: ₹${curPrice.toFixed(2)} (${posPct}% in TR)"></div>
+        </div>
+        <div class="wyckoff-gauge-labels">
+          <span style="color:var(--accent-rose);">🧊 Ice Support: ₹${ice.toFixed(2)}</span>
+          <span style="color:var(--accent-cyan); font-weight:700;">📍 Current: ₹${curPrice.toFixed(2)} (${posPct}%)</span>
+          <span style="color:var(--accent-green);">🌊 Creek Resistance: ₹${creek.toFixed(2)}</span>
+        </div>
       </div>
       
-      <div class="modal-grid" style="margin-top:8px;">
-        <div>
-          <p><strong>Market Structure:</strong> <span class="badge ${getWyckoffStructureBadge(stock.wyckoff_structure || 'Accumulation')}">${stock.wyckoff_structure || 'Accumulation'}</span></p>
-          <p><strong>Wyckoff Breakout Trigger:</strong> <strong style="color:var(--accent-green)">₹${formatNum(stock.wyckoff_breakout || stock.buy_trigger_level, 2)}</strong> (${formatNum(stock.wyckoff_dist_to_breakout_pct || 0, 1)}% dist)</p>
-          <p><strong>Structural Stop Loss:</strong> <strong style="color:var(--accent-rose)">₹${formatNum(stock.wyckoff_stoploss || stock.swing_stoploss, 2)}</strong> (${formatNum(stock.wyckoff_stoploss_pct || 0, 1)}% risk)</p>
-          <p><strong>Trading Range Creek (Resistance):</strong> ₹${formatNum(stock.wyckoff_creek, 2)}</p>
-          <p><strong>Trading Range Ice (Support):</strong> ₹${formatNum(stock.wyckoff_ice, 2)}</p>
+      <div class="modal-grid" style="margin-top:10px;">
+        <div class="modal-box" style="background:var(--bg-secondary);">
+          <div class="modal-box-title" style="color:var(--accent-green); margin-bottom:8px;">🎯 Wyckoff Trade Triggers & Targets</div>
+          <p><strong>Wyckoff Breakout Trigger:</strong> <strong style="color:var(--accent-green)">₹${formatNum(stock.wyckoff_breakout, 2)}</strong> <span style="font-size:0.75rem; color:var(--text-muted);">(${formatNum(stock.wyckoff_dist_to_breakout_pct || 0, 1)}% dist)</span></p>
+          <p><strong>Structural Stop Loss:</strong> <strong style="color:var(--accent-rose)">₹${formatNum(stock.wyckoff_stoploss, 2)}</strong> <span style="font-size:0.75rem; color:var(--text-muted);">(${formatNum(stock.wyckoff_stoploss_pct || 0, 1)}% risk)</span></p>
+          <p><strong>Cause Target 1 (1x Range):</strong> <strong style="color:var(--accent-cyan)">₹${formatNum(stock.wyckoff_target_1, 2)}</strong> <span style="font-size:0.75rem; color:var(--accent-green);">(+${t1Upside}%)</span></p>
+          <p><strong>Cause Target 2 (2x Range):</strong> <strong style="color:var(--accent-cyan)">₹${formatNum(stock.wyckoff_target_2, 2)}</strong> <span style="font-size:0.75rem; color:var(--accent-green);">(+${t2Upside}%)</span></p>
+          <p><strong>Wyckoff Risk/Reward (RRR):</strong> <span class="badge badge-accumulate">1 : ${rrr}</span></p>
         </div>
-        <div>
-          <p><strong>Wyckoff Signal:</strong> <strong style="color:var(--accent-cyan); font-size:0.95rem;">${stock.wyckoff_signal || 'CAUSE WATCH'}</strong></p>
-          <p><strong>Cause Target 1 (1x Range):</strong> ₹${formatNum(stock.wyckoff_target_1, 2)}</p>
-          <p><strong>Cause Target 2 (2x Range):</strong> ₹${formatNum(stock.wyckoff_target_2, 2)}</p>
+
+        <div class="modal-box" style="background:var(--bg-secondary);">
+          <div class="modal-box-title" style="color:#a855f7; margin-bottom:8px;">🔬 Volume Absorption & Institutional Footprint</div>
+          <p><strong>Volume Surge vs 20D:</strong> <strong>${formatNum(stock.vol_surge_ratio, 2)}x</strong> <span style="font-size:0.75rem; color:var(--text-muted);">${(stock.vol_surge_ratio || 1) >= 1.5 ? '(Institutional Expansion)' : '(Normal Absorption)'}</span></p>
+          <p><strong>Wyckoff Event:</strong> <strong>${stock.wyckoff_event || 'Range Consolidation'}</strong></p>
           <div style="margin-top:6px; font-size:0.78rem; color:var(--text-secondary);">
-            <strong>Wyckoff Rationale & Volume Absorption:</strong>
-            <ul style="padding-left:16px; margin-top:4px;">
-              ${(stock.wyckoff_rationale || ['Range structure established. Monitoring volume absorption.']).map(r => `<li>${r}</li>`).join('')}
+            <strong>Step-by-Step Wyckoff Rationale:</strong>
+            <ul style="padding-left:16px; margin-top:4px; line-height:1.4;">
+              ${(stock.wyckoff_rationale || ['Trading range structure established. Monitoring volume absorption.']).map(r => `<li>${r}</li>`).join('')}
             </ul>
           </div>
         </div>
       </div>
+
+      <div style="background:rgba(168,85,247,0.08); border:1px solid rgba(168,85,247,0.25); border-radius:6px; padding:10px 12px; margin-top:10px; font-size:0.8rem; color:var(--text-primary); line-height:1.4;">
+        ${wyckoffPlaybook}
+      </div>
     </div>
 
-    <div class="modal-box" style="margin-top:16px;">
+    <div class="modal-box" style="margin-top:14px;">
       <div class="modal-box-title">Announced Corporate Event Date</div>
       <p style="font-size:0.95rem; font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">${stock.upcoming_event_str || 'None'}</p>
       <div class="modal-box-title">Key Rationale & Catalysts</div>
@@ -1164,8 +1890,22 @@ function openStockModal(symbol) {
   `;
 
   document.getElementById('stock-modal').classList.add('active');
+
+  // Initialize chart after container is in active display
+  setTimeout(() => {
+    initStockChart(stock, '3M');
+  }, 50);
 }
 
 function closeModal() {
+  if (currentChartInstance) {
+    try { currentChartInstance.remove(); } catch(e){}
+    currentChartInstance = null;
+  }
+  if (currentChartResizeObserver) {
+    try { currentChartResizeObserver.disconnect(); } catch(e){}
+    currentChartResizeObserver = null;
+  }
   document.getElementById('stock-modal').classList.remove('active');
 }
+

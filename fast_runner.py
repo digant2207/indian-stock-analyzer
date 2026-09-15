@@ -682,11 +682,35 @@ def fetch_stock_data(stock_meta):
         first_evt = events[0]
         upcoming_event_str = f"{first_evt.get('type','Event')} ({first_evt.get('date_tag','Upcoming')})"
 
+    recent_candles = []
+    if not hist.empty:
+        tail_df = hist.tail(60)
+        for idx_val, row_val in tail_df.iterrows():
+            try:
+                d_str = str(idx_val)[:10]
+                c_val = round(clean_val(row_val['Close']), 2)
+                if c_val <= 0: continue
+                o_val = round(clean_val(row_val.get('Open', c_val)), 2)
+                h_val = round(clean_val(row_val.get('High', c_val)), 2)
+                l_val = round(clean_val(row_val.get('Low', c_val)), 2)
+                v_val = int(clean_val(row_val.get('Volume', 0)))
+                recent_candles.append({
+                    "time": d_str,
+                    "open": o_val,
+                    "high": h_val,
+                    "low": l_val,
+                    "close": c_val,
+                    "volume": v_val
+                })
+            except Exception:
+                continue
+
     wyckoff_data = analyze_wyckoff(close_prices, high_prices, low_prices, volumes, current_price, prev_close)
 
     return {
         "symbol": symbol,
         "clean_symbol": symbol.replace('.NS', '').replace('.BO', ''),
+        "candles": recent_candles,
         "name": stock_meta.get('name', symbol.split('.')[0]),
         "sector": stock_meta.get('sector', 'General'),
         "cap_type": stock_meta.get('cap_type', 'Equity'),
@@ -836,6 +860,12 @@ def process_csv_file_fast(csv_path, output_json, output_js, js_var_name, start_p
         
     with open(output_js, 'w', encoding='utf-8') as f:
         f.write(f"window.{js_var_name} = " + json.dumps(output_payload, indent=2, allow_nan=False) + ";")
+
+    try:
+        import populate_wyckoff_data
+        populate_wyckoff_data.enrich_file(output_json, output_js, js_var_name)
+    except Exception as w_err:
+        print(f"Wyckoff enrichment notice: {w_err}")
         
     print(f"Completed {csv_path}! Scanned {len(analyzed)} stocks. Saved to {output_json} & {output_js}")
     return output_payload

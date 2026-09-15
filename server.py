@@ -6,11 +6,14 @@ import time
 import datetime
 import threading
 import subprocess
+import math
 import requests
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse
 
 import email_notifier
+
+HISTORY_CACHE = {}
 
 PORT = 8080
 LOCK = threading.Lock()
@@ -171,6 +174,11 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
         elif path == '/api/search_stock':
             symbol = query.get('symbol', [''])[0].strip()
             self.handle_search_stock(symbol)
+        elif path == '/api/stock_history':
+            symbol = query.get('symbol', [''])[0].strip()
+            period = query.get('period', ['6mo'])[0].strip()
+            interval = query.get('interval', ['1d'])[0].strip()
+            self.handle_stock_history(symbol, period, interval)
         elif path == '/api/get_email_config':
             cfg = email_notifier.load_email_config()
             cfg['app_password'] = '********' if cfg.get('app_password') else ''
@@ -300,6 +308,119 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
                 res = json.dumps({"status": "success", "stock": stock_data}).encode('utf-8')
             else:
                 res = json.dumps({"status": "error", "message": f"Could not find valid NSE/BSE stock data for '{symbol}'."}).encode('utf-8')
+        except Exception as e:
+            res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
+
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(res)
+
+    def handle_stock_history(self, symbol, period='6mo', interval='1d'):
+        if not symbol:
+            res = json.dumps({"status": "error", "message": "Symbol is required"}).encode('utf-8')
+            self.send_response(400)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(res)
+            return
+
+        try:
+            cache_key = f"{symbol}_{period}_{interval}"
+            now_ts = time.time()
+            if cache_key in HISTORY_CACHE:
+                cached_data, exp = HISTORY_CACHE[cache_key]
+                if now_ts < exp:
+                    res = json.dumps(cached_data).encode('utf-8')
+                    self.send_response(200)
+                    self.send_header("Content-Type", "application/json")
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    self.wfile.write(res)
+                    return
+
+            import yfinance as yf
+            import pandas as pd
+            import numpy as np
+
+            clean_sym = symbol.strip().upper()
+            if not (clean_sym.endswith('.NS') or clean_sym.endswith('.BO')):
+                clean_sym += '.NS'
+
+            ticker = yf.Ticker(clean_sym)
+            try:
+                hist = ticker.history(period=period, interval=interval)
+            except Exception:
+                hist = pd.DataFrame()
+
+            if hist.empty and clean_sym.endswith('.NS'):
+                bo_sym = clean_sym.replace('.NS', '.BO')
+                try:
+                    hist = yf.Ticker(bo_sym).history(period=period, interval=interval)
+                    if not hist.empty:
+                        clean_sym = bo_sym
+                except Exception:
+                    pass
+
+            if hist.empty:
+                res = json.dumps({"status": "error", "message": f"No chart history found for {symbol}"}).encode('utf-8')
+            else:
+                candles = []
+                for idx_val, row_val in hist.iterrows():
+                    try:
+                        d_str = str(idx_val)[:10]
+                        c_val = round(float(row_val['Close']), 2)
+                        if math.isnan(c_val) or c_val <= 0:
+                            continue
+                        o_val = round(float(row_val.get('Open', c_val)), 2)
+                        h_val = round(float(row_val.get('High', c_val)), 2)
+                        l_val = round(float(row_val.get('Low', c_val)), 2)
+                        v_val = int(row_val.get('Volume', 0)) if not math.isnan(float(row_val.get('Volume', 0))) else 0
+                        candles.append({
+                            "time": d_str,
+                            "open": o_val,
+                            "high": h_val,
+                            "low": l_val,
+                            "close": c_val,
+                            "volume": v_val
+                        })
+                    except Exception:
+                        continue
+
+                if not candles:
+                    res = json.dumps({"status": "error", "message": "No valid candle records"}).encode('utf-8')
+                else:
+                    closes = [c['close'] for c in candles]
+                    close_series = pd.Series(closes)
+                    ema20 = close_series.ewm(span=20, adjust=False).mean()
+                    ema50 = close_series.ewm(span=50, adjust=False).mean()
+                    ema200 = close_series.ewm(span=200, adjust=False).mean()
+
+                    sma20_data = []
+                    sma50_data = []
+                    sma200_data = []
+                    for i in range(len(candles)):
+                        t = candles[i]['time']
+                        if i >= 5:
+                            sma20_data.append({"time": t, "value": round(float(ema20.iloc[i]), 2)})
+                        if i >= 15:
+                            sma50_data.append({"time": t, "value": round(float(ema50.iloc[i]), 2)})
+                        if i >= 40:
+                            sma200_data.append({"time": t, "value": round(float(ema200.iloc[i]), 2)})
+
+                    payload_obj = {
+                        "status": "success",
+                        "symbol": clean_sym,
+                        "period": period,
+                        "candles": candles,
+                        "sma20": sma20_data,
+                        "sma50": sma50_data,
+                        "sma200": sma200_data
+                    }
+                    HISTORY_CACHE[cache_key] = (payload_obj, now_ts + 600)
+                    res = json.dumps(payload_obj).encode('utf-8')
         except Exception as e:
             res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
 

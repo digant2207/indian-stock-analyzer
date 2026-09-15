@@ -800,6 +800,12 @@ def analyze_file(csv_path, output_json, output_js, js_var_name):
         
     with open(output_js, 'w', encoding='utf-8') as f:
         f.write(f"window.{js_var_name} = " + json.dumps(output_payload, indent=2, allow_nan=False) + ";")
+
+    try:
+        import populate_wyckoff_data
+        populate_wyckoff_data.enrich_file(output_json, output_js, js_var_name)
+    except Exception as w_err:
+        print(f"Wyckoff enrichment notice: {w_err}")
         
     print(f"Analysis complete for {csv_path}! Saved to {output_json} & {output_js}")
     return output_payload
