@@ -4,8 +4,8 @@
   "nifty_support": 23000,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.53.",
-    "Universe breadth shows 20 advancing vs 155 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.71.",
+    "Universe breadth shows 21 advancing vs 155 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,000 | Resistance cap at 23,400."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1399.5,
+      "current_price": 1399.8,
       "trigger": 1429.75,
-      "target1": 1535.77,
-      "sl": 1301.38,
+      "target1": 1536.17,
+      "sl": 1301.62,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": -0.9
+      "change_pct": -0.88
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1038.3,
+      "current_price": 1040.7,
       "trigger": 1044.18,
-      "target1": 1111.8,
-      "sl": 985.38,
+      "target1": 1115.0,
+      "sl": 987.2,
       "rationale": "High Technical Score (30.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": 0.06
+      "change_pct": 0.29
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Delhivery due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 08:45 AM",
+  "timestamp": "15 Sep 2026, 08:55 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23209.25,
-      "change_pct": -0.81,
+      "price": 23206.6,
+      "change_pct": -0.82,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74455.21,
-      "change_pct": -0.44,
+      "price": 74402.24,
+      "change_pct": -0.51,
       "status": "down"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.53,
-      "change_pct": 2.11,
+      "price": 103.71,
+      "change_pct": 2.29,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.93,
-      "change_pct": 0.95,
+      "change_pct": 0.94,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 20,
+    "advances": 21,
     "declines": 155,
     "total": 178
   }
