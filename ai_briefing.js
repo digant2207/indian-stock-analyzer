@@ -4,20 +4,20 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.42.",
-    "Universe breadth shows 38 advancing vs 139 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.06.",
+    "Universe breadth shows 37 advancing vs 140 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 958.1,
+      "current_price": 955.45,
       "trigger": 960.92,
-      "target1": 1064.98,
-      "sl": 881.15,
+      "target1": 1060.85,
+      "sl": 879.56,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9960.92 with Accumulation structure.",
-      "change_pct": 1.52
+      "change_pct": 1.24
     },
     {
       "symbol": "UNIVPHOTO",
@@ -32,29 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1405.5,
+      "current_price": 1400.8,
       "trigger": 1429.75,
-      "target1": 1543.72,
-      "sl": 1305.98,
+      "target1": 1537.48,
+      "sl": 1302.39,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": -0.47
+      "change_pct": -0.81
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 07:15 AM",
+  "timestamp": "15 Sep 2026, 07:30 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23315.5,
-      "change_pct": -0.35,
+      "price": 23312.35,
+      "change_pct": -0.37,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74655.64,
-      "change_pct": -0.17,
+      "price": 74616.58,
+      "change_pct": -0.22,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.42,
-      "change_pct": 2.0,
+      "price": 103.06,
+      "change_pct": 1.65,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": 0.95,
+      "price": 95.91,
+      "change_pct": 0.93,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 38,
-    "declines": 139,
+    "advances": 37,
+    "declines": 140,
     "total": 178
   }
 };
