@@ -2134,8 +2134,19 @@ function saveTelegramSettings() {
 function testTelegramAlert() {
   const token = (document.getElementById('tg-bot-token')?.value || '').trim();
   const chat = (document.getElementById('tg-chat-id')?.value || '').trim();
-
   const banner = document.getElementById('tg-status-banner');
+
+  if (!token || token.includes('...') || !chat) {
+    if (banner) {
+      banner.style.display = 'block';
+      banner.style.background = 'rgba(244, 63, 94, 0.15)';
+      banner.style.color = '#fb7185';
+      banner.textContent = '⚠️ Please enter both your Telegram Bot Token and Chat ID first.';
+    }
+    showToast('Please enter both Bot Token and Chat ID', 'error', 4000);
+    return;
+  }
+
   if (banner) {
     banner.style.display = 'block';
     banner.style.background = 'rgba(2, 132, 199, 0.15)';
@@ -2143,27 +2154,80 @@ function testTelegramAlert() {
     banner.textContent = 'Sending test alert to Telegram...';
   }
 
-  fetch('/api/test_telegram', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ bot_token: token, chat_id: chat })
-  })
-  .then(r => r.json())
-  .then(res => {
-    if (banner) {
-      banner.style.background = res.status === 'success' ? 'rgba(16, 185, 129, 0.15)' : 'rgba(244, 63, 94, 0.15)';
-      banner.style.color = res.status === 'success' ? '#34d399' : '#fb7185';
-      banner.textContent = res.message || (res.status === 'success' ? 'Test alert sent! Check your Telegram app.' : 'Failed to send');
+  const dispatchDirectTelegram = async (botToken, chatId) => {
+    try {
+      const nowStr = new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
+      const testMsg = `🔔 <b>[TEST] Indian Stock Analyzer Connected!</b>\n━━━━━━━━━━━━━━━━━━━━\n✅ Telegram bot alerts are active.\n⚡ You will receive instant notifications when a stock triggers a volume breakout during NSE/BSE trading hours.\n🌅 Pre-market AI analyst briefing will be delivered at 8:30 AM.\n━━━━━━━━━━━━━━━━━━━━\n⏰ <i>Timestamp: ${nowStr} IST</i>`;
+      
+      const resp = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text: testMsg,
+          parse_mode: 'HTML',
+          disable_web_page_preview: true
+        })
+      });
+      const data = await resp.json();
+      if (data.ok) {
+        if (banner) {
+          banner.style.background = 'rgba(16, 185, 129, 0.15)';
+          banner.style.color = '#34d399';
+          banner.textContent = '✅ Test alert sent successfully! Check your Telegram app.';
+        }
+        showToast('✅ Test alert sent! Check your Telegram app.', 'success', 5000);
+      } else {
+        const errDesc = data.description || 'Telegram rejected request';
+        if (banner) {
+          banner.style.background = 'rgba(244, 63, 94, 0.15)';
+          banner.style.color = '#fb7185';
+          banner.textContent = `❌ Telegram Error: ${errDesc}`;
+        }
+        showToast(`Telegram Error: ${errDesc}`, 'error', 5000);
+      }
+    } catch (err) {
+      if (banner) {
+        banner.style.background = 'rgba(244, 63, 94, 0.15)';
+        banner.style.color = '#fb7185';
+        banner.textContent = `❌ Network Error: ${err.message}`;
+      }
+      showToast(`Network Error: ${err.message}`, 'error', 5000);
     }
-    showToast(res.message || (res.status === 'success' ? 'Test alert sent!' : 'Error sending alert'), res.status === 'success' ? 'success' : 'error');
-  })
-  .catch(err => {
-    if (banner) {
-      banner.style.background = 'rgba(244, 63, 94, 0.15)';
-      banner.style.color = '#fb7185';
-      banner.textContent = 'Server unreachable. Run local server to test directly.';
-    }
-    showToast('Server unreachable. Ensure server.py is running.', 'error');
-  });
+  };
+
+  // If on local server, try server endpoint first, fallback to direct dispatch
+  const isLocal = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+  if (isLocal) {
+    fetch('/api/test_telegram', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ bot_token: token, chat_id: chat })
+    })
+    .then(r => {
+      if (!r.ok) throw new Error('Local server returned status ' + r.status);
+      return r.json();
+    })
+    .then(res => {
+      if (res.status === 'success') {
+        if (banner) {
+          banner.style.background = 'rgba(16, 185, 129, 0.15)';
+          banner.style.color = '#34d399';
+          banner.textContent = res.message || '✅ Test alert sent! Check your Telegram app.';
+        }
+        showToast(res.message || '✅ Test alert sent! Check Telegram.', 'success', 5000);
+      } else {
+        // Fallback to direct client-side fetch if server had issues
+        dispatchDirectTelegram(token, chat);
+      }
+    })
+    .catch(() => {
+      // Direct client-side dispatch
+      dispatchDirectTelegram(token, chat);
+    });
+  } else {
+    // Direct dispatch for GitHub Pages / Web
+    dispatchDirectTelegram(token, chat);
+  }
 }
 
