@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 23100,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.72.",
-    "Universe breadth shows 28 advancing vs 147 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.54.",
+    "Universe breadth shows 29 advancing vs 148 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
   "top_setups": [
@@ -20,41 +20,41 @@ window.AI_BRIEFING = {
       "change_pct": 5.0
     },
     {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1400.0,
-      "trigger": 1429.75,
-      "target1": 1536.43,
-      "sl": 1301.77,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": -0.86
-    },
-    {
       "symbol": "ANGELONE",
       "name": "Angel One Ltd",
-      "current_price": 302.45,
+      "current_price": 302.25,
       "trigger": 308.97,
-      "target1": 331.4,
-      "sl": 281.61,
+      "target1": 331.15,
+      "sl": 281.44,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9308.97 with Accumulation structure.",
-      "change_pct": -0.84
+      "change_pct": -0.9
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "name": "Max Healthcare Institute",
+      "current_price": 1033.6,
+      "trigger": 1044.18,
+      "target1": 1105.72,
+      "sl": 981.67,
+      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
+      "change_pct": -0.4
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Delhivery due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 08:15 AM",
+  "timestamp": "15 Sep 2026, 08:30 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23268.6,
-      "change_pct": -0.55,
+      "price": 23274.55,
+      "change_pct": -0.53,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74491.34,
-      "change_pct": -0.39,
+      "price": 74446.53,
+      "change_pct": -0.45,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.72,
-      "change_pct": 2.3,
+      "price": 103.54,
+      "change_pct": 2.12,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": 0.95,
+      "price": 95.91,
+      "change_pct": 0.93,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 28,
-    "declines": 147,
+    "advances": 29,
+    "declines": 148,
     "total": 178
   }
 };
