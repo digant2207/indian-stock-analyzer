@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.39.",
-    "Universe breadth shows 43 advancing vs 133 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $102.87.",
+    "Universe breadth shows 41 advancing vs 136 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 958.1,
+      "current_price": 951.9,
       "trigger": 960.92,
-      "target1": 1064.98,
-      "sl": 881.15,
+      "target1": 1055.38,
+      "sl": 877.4,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9960.92 with Accumulation structure.",
-      "change_pct": 1.52
-    },
-    {
-      "symbol": "UNIVPHOTO",
-      "name": "Universus Photo Imagings Ltd",
-      "current_price": 567.15,
-      "trigger": 581.16,
-      "target1": 741.82,
-      "sl": 441.39,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
-      "change_pct": 5.0
+      "change_pct": 0.86
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1406.3,
+      "current_price": 1405.1,
       "trigger": 1429.75,
-      "target1": 1544.8,
-      "sl": 1306.58,
+      "target1": 1543.19,
+      "sl": 1305.68,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": -0.42
+      "change_pct": -0.5
+    },
+    {
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 341.9,
+      "trigger": 350.25,
+      "target1": 358.74,
+      "sl": 329.78,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9350.25 with Accumulation structure.",
+      "change_pct": -0.75
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 05:48 AM",
+  "timestamp": "15 Sep 2026, 06:01 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23334.3,
-      "change_pct": -0.27,
+      "price": 23314.6,
+      "change_pct": -0.36,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74719.24,
-      "change_pct": -0.08,
+      "price": 74705.44,
+      "change_pct": -0.1,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.39,
-      "change_pct": 1.97,
+      "price": 102.87,
+      "change_pct": 1.46,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.88,
-      "change_pct": 0.89,
+      "price": 95.9,
+      "change_pct": 0.91,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 43,
-    "declines": 133,
+    "advances": 41,
+    "declines": 136,
     "total": 178
   }
 };
