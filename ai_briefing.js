@@ -2,13 +2,23 @@ window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 23000,
-  "nifty_resistance": 23400,
+  "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.25.",
-    "Universe breadth shows 25 advancing vs 152 declining stocks across 178 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,000 | Resistance cap at 23,400."
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.56.",
+    "Universe breadth shows 18 advancing vs 157 declining stocks across 178 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,000 | Resistance cap at 23,350."
   ],
   "top_setups": [
+    {
+      "symbol": "ACMESOLAR",
+      "name": "Acme Solar Holdings Ltd",
+      "current_price": 421.85,
+      "trigger": 431.36,
+      "target1": 457.26,
+      "sl": 396.35,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9431.36 with Accumulation structure.",
+      "change_pct": 4.86
+    },
     {
       "symbol": "UNIVPHOTO",
       "name": "Universus Photo Imagings Ltd",
@@ -22,39 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1401.0,
+      "current_price": 1402.4,
       "trigger": 1429.75,
-      "target1": 1537.74,
-      "sl": 1302.55,
+      "target1": 1539.59,
+      "sl": 1303.62,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": -0.79
-    },
-    {
-      "symbol": "MAXHEALTH",
-      "name": "Max Healthcare Institute",
-      "current_price": 1041.4,
-      "trigger": 1044.18,
-      "target1": 1115.95,
-      "sl": 987.73,
-      "rationale": "High Technical Score (30.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": 0.36
+      "change_pct": -0.69
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Solar Industries India, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 09:15 AM",
+  "timestamp": "15 Sep 2026, 09:24 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23210.05,
-      "change_pct": -0.8,
+      "price": 23183.9,
+      "change_pct": -0.92,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74243.3,
-      "change_pct": -0.72,
+      "price": 74291.25,
+      "change_pct": -0.66,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.25,
-      "change_pct": 1.83,
+      "price": 103.56,
+      "change_pct": 2.14,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": 0.94,
+      "price": 95.94,
+      "change_pct": 0.95,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 25,
-    "declines": 152,
+    "advances": 18,
+    "declines": 157,
     "total": 178
   }
 };
