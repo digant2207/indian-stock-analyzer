@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 23150,
-  "nifty_resistance": 23550,
+  "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.32.",
-    "Universe breadth shows 57 advancing vs 118 declining stocks across 178 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.39.",
+    "Universe breadth shows 43 advancing vs 133 declining stocks across 178 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 135.46,
-      "trigger": 134.23,
-      "target1": 154.48,
-      "sl": 121.77,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9134.23 with Accumulation structure.",
-      "change_pct": 2.73
+      "symbol": "SHARDAMOTR",
+      "name": "Sharda Motor Industries Ltd",
+      "current_price": 958.1,
+      "trigger": 960.92,
+      "target1": 1064.98,
+      "sl": 881.15,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9960.92 with Accumulation structure.",
+      "change_pct": 1.52
     },
     {
-      "symbol": "KROSS",
-      "name": "Kross Ltd",
-      "current_price": 239.07,
-      "trigger": 241.28,
-      "target1": 272.05,
-      "sl": 215.33,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9241.28 with Accumulation structure.",
-      "change_pct": 3.25
+      "symbol": "UNIVPHOTO",
+      "name": "Universus Photo Imagings Ltd",
+      "current_price": 567.15,
+      "trigger": 581.16,
+      "target1": 741.82,
+      "sl": 441.39,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
+      "change_pct": 5.0
     },
     {
-      "symbol": "YESBANK",
-      "name": "Yes Bank Ltd",
-      "current_price": 23.48,
-      "trigger": 23.07,
-      "target1": 24.76,
-      "sl": 22.56,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b923.07 with Accumulation structure.",
-      "change_pct": 5.29
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1406.3,
+      "trigger": 1429.75,
+      "target1": 1544.8,
+      "sl": 1306.58,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
+      "change_pct": -0.42
     }
   ],
-  "risk_warning": "Defensive alert on Cochin Shipyard Ltd, Godrej Properties due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 11:13 AM",
+  "timestamp": "15 Sep 2026, 05:48 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23338.4,
-      "change_pct": -0.26,
+      "price": 23334.3,
+      "change_pct": -0.27,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74628.19,
-      "change_pct": -0.21,
+      "price": 74719.24,
+      "change_pct": -0.08,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.32,
-      "change_pct": 1.9,
+      "price": 103.39,
+      "change_pct": 1.97,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.86,
-      "change_pct": 0.87,
+      "price": 95.88,
+      "change_pct": 0.89,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 57,
-    "declines": 118,
+    "advances": 43,
+    "declines": 133,
     "total": 178
   }
 };
