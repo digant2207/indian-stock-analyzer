@@ -1,12 +1,12 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 23000,
-  "nifty_resistance": 23350,
+  "nifty_support": 22950,
+  "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $104.13.",
-    "Universe breadth shows 19 advancing vs 158 declining stocks across 178 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,000 | Resistance cap at 23,350."
+    "US Markets closed down 0.48% with Brent Crude hovering around $104.03.",
+    "Universe breadth shows 21 advancing vs 155 declining stocks across 178 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
@@ -20,16 +20,6 @@ window.AI_BRIEFING = {
       "change_pct": 0.7
     },
     {
-      "symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd",
-      "current_price": 421.45,
-      "trigger": 431.36,
-      "target1": 456.66,
-      "sl": 396.1,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9431.36 with Accumulation structure.",
-      "change_pct": 4.76
-    },
-    {
       "symbol": "UNIVPHOTO",
       "name": "Universus Photo Imagings Ltd",
       "current_price": 567.1,
@@ -38,23 +28,33 @@ window.AI_BRIEFING = {
       "sl": 441.36,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
       "change_pct": 4.99
+    },
+    {
+      "symbol": "RAINBOW",
+      "name": "Rainbow Children's Medicare Ltd",
+      "current_price": 1455.1,
+      "trigger": 1488.17,
+      "target1": 1493.82,
+      "sl": 1427.22,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
+      "change_pct": 0.71
     }
   ],
-  "risk_warning": "Defensive alert on Shalby Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Shalby Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 09:45 AM",
+  "timestamp": "15 Sep 2026, 10:00 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23172.35,
-      "change_pct": -0.96,
+      "price": 23118.6,
+      "change_pct": -1.19,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74153.91,
-      "change_pct": -0.84,
+      "price": 74159.82,
+      "change_pct": -0.83,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.13,
-      "change_pct": 2.7,
+      "price": 104.03,
+      "change_pct": 2.6,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.95,
-      "change_pct": 0.96,
+      "price": 95.96,
+      "change_pct": 0.97,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 19,
-    "declines": 158,
+    "advances": 21,
+    "declines": 155,
     "total": 178
   }
 };
