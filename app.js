@@ -640,11 +640,26 @@ async function loadData() {
       console.log("Using preloaded Nifty 250 data fallback.");
     }
 
+    try {
+      const bUrl = isLocalHost ? `ai_briefing.json?_t=${timestamp}` : `${GITHUB_RAW_BASE}ai_briefing.json?_t=${timestamp}`;
+      const bResp = await fetch(bUrl, { 
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' }
+      });
+      if (bResp.ok) {
+        const freshBriefing = await bResp.json();
+        if (freshBriefing) {
+          window.AI_BRIEFING = freshBriefing;
+        }
+      }
+    } catch (e) {}
+
     renderAllViews();
   }
 }
 
 function renderAllViews() {
+  try { renderAiBriefing(); } catch (e) { console.error("renderAiBriefing error:", e); }
   try { renderSummary(); } catch (e) { console.error("renderSummary error:", e); }
   try { renderTodayActionWatchlist(); } catch (e) { console.error("renderTodayActionWatchlist error:", e); }
   try { renderTop15(); } catch (e) { console.error("renderTop15 error:", e); }
@@ -1907,5 +1922,248 @@ function closeModal() {
     currentChartResizeObserver = null;
   }
   document.getElementById('stock-modal').classList.remove('active');
+}
+
+/* ============================================================
+   Pre-Market AI Analyst Briefing & Telegram Controllers
+   ============================================================ */
+function toggleAiBriefing() {
+  const body = document.getElementById('ai-briefing-body');
+  const arrow = document.getElementById('ai-toggle-arrow');
+  if (body) {
+    const isCollapsed = body.classList.toggle('collapsed');
+    if (arrow) arrow.classList.toggle('collapsed', isCollapsed);
+    localStorage.setItem('ai_briefing_collapsed', isCollapsed ? 'true' : 'false');
+  }
+}
+
+function openStockModalFromSymbol(symbol) {
+  if (!symbol) return;
+  const combined = getCombinedStocks();
+  let stock = combined.find(s => 
+    s.symbol === symbol || 
+    s.clean_symbol === symbol || 
+    (s.symbol && s.symbol.replace('.NS','').replace('.BO','') === symbol.replace('.NS','').replace('.BO','')) ||
+    (s.symbol && s.symbol.startsWith(symbol + '.'))
+  );
+  if (stock) {
+    openStockModal(stock.symbol);
+  } else {
+    showToast(`Stock ${symbol} details loading...`, 'info', 2500);
+  }
+}
+
+function renderAiBriefing() {
+  const briefing = window.AI_BRIEFING;
+  if (!briefing) return;
+
+  const card = document.getElementById('ai-briefing-card');
+  if (!card) return;
+
+  // Stance badge
+  const stanceBadge = document.getElementById('ai-stance-badge');
+  if (stanceBadge) {
+    const stance = briefing.stance || 'RANGEBOUND NEUTRAL';
+    stanceBadge.textContent = stance;
+    stanceBadge.className = 'ai-stance-badge';
+    if (stance.includes('BULLISH')) stanceBadge.classList.add('stance-bullish');
+    else if (stance.includes('DEFENSIVE') || stance.includes('CAUTION')) stanceBadge.classList.add('stance-defensive');
+    else stanceBadge.classList.add('stance-neutral');
+  }
+
+  // Engine tag & timestamp
+  const engineTag = document.getElementById('ai-engine-tag');
+  if (engineTag && briefing.engine) engineTag.textContent = briefing.engine;
+
+  const timeEl = document.getElementById('ai-timestamp');
+  if (timeEl && briefing.timestamp) timeEl.textContent = `Generated: ${briefing.timestamp} IST`;
+
+  // Stance text
+  const stanceText = document.getElementById('ai-stance-text');
+  if (stanceText) stanceText.innerHTML = `<strong>Market Assessment:</strong> ${briefing.stance_summary || ''}`;
+
+  // Global Cues Pills
+  const cuesContainer = document.getElementById('ai-cues-pills');
+  if (cuesContainer && briefing.global_cues) {
+    cuesContainer.innerHTML = Object.entries(briefing.global_cues).map(([name, cue]) => {
+      const sign = cue.change_pct >= 0 ? '+' : '';
+      const statusClass = cue.status || (cue.change_pct >= 0 ? 'up' : 'down');
+      const arrow = cue.change_pct >= 0 ? '▲' : '▼';
+      const formattedPrice = (typeof cue.price === 'number') ? cue.price.toLocaleString('en-IN') : cue.price;
+      return `<div class="ai-cue-pill ${statusClass}"><span>${name}</span> <strong>${formattedPrice}</strong> <span>${arrow} ${sign}${cue.change_pct}%</span></div>`;
+    }).join('');
+  }
+
+  // Nifty range
+  const rangeEl = document.getElementById('ai-nifty-range');
+  if (rangeEl) {
+    rangeEl.innerHTML = `Nifty 50 Trading Corridor: <strong>Support ₹${formatNum(briefing.nifty_support || 0, 0)}</strong> &bull; <strong>Resistance ₹${formatNum(briefing.nifty_resistance || 0, 0)}</strong>`;
+  }
+
+  // Bullets
+  const bulletsList = document.getElementById('ai-bullets-list');
+  if (bulletsList && briefing.executive_bullets) {
+    bulletsList.innerHTML = briefing.executive_bullets.map(b => `<li>${b}</li>`).join('');
+  }
+
+  // Top Setups
+  const setupsList = document.getElementById('ai-setups-list');
+  if (setupsList && briefing.top_setups) {
+    setupsList.innerHTML = briefing.top_setups.map(s => {
+      const sym = s.symbol || '';
+      const price = s.current_price ? `₹${formatNum(s.current_price, 2)}` : '';
+      const trig = s.trigger ? `Trigger ₹${formatNum(s.trigger, 2)}` : '';
+      return `
+        <div class="ai-setup-card" onclick="openStockModalFromSymbol('${sym}')" title="Click to view interactive chart for ${s.name || sym}">
+          <div class="ai-setup-left">
+            <div class="ai-setup-name">${s.name || sym} <span class="ai-setup-ticker">${sym}</span></div>
+            <div class="ai-setup-rationale">${s.rationale || ''}</div>
+          </div>
+          <div class="ai-setup-right">
+            <div class="ai-setup-price">${price}</div>
+            <div class="ai-setup-trig">${trig}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // Risk warning
+  const riskText = document.getElementById('ai-risk-text');
+  if (riskText && briefing.risk_warning) {
+    riskText.textContent = briefing.risk_warning;
+  }
+
+  // Restore collapsed preference
+  const savedCollapsed = localStorage.getItem('ai_briefing_collapsed');
+  if (savedCollapsed === 'true') {
+    const body = document.getElementById('ai-briefing-body');
+    const arrow = document.getElementById('ai-toggle-arrow');
+    if (body) body.classList.add('collapsed');
+    if (arrow) arrow.classList.add('collapsed');
+  }
+}
+
+function openTelegramModal() {
+  const modal = document.getElementById('telegram-modal');
+  if (!modal) return;
+  modal.classList.add('active');
+
+  const banner = document.getElementById('tg-status-banner');
+  if (banner) banner.style.display = 'none';
+
+  // Populate from localStorage first
+  const localToken = localStorage.getItem('tg_bot_token') || '';
+  const localChat = localStorage.getItem('tg_chat_id') || '';
+  const tokenInput = document.getElementById('tg-bot-token');
+  const chatInput = document.getElementById('tg-chat-id');
+
+  if (tokenInput && localToken) tokenInput.value = localToken;
+  if (chatInput && localChat) chatInput.value = localChat;
+
+  // Try to load saved server config
+  fetch('/api/get_telegram_config')
+    .then(r => r.json())
+    .then(cfg => {
+      if (tokenInput && cfg.bot_token && !tokenInput.value) tokenInput.value = cfg.bot_token;
+      if (chatInput && cfg.chat_id) chatInput.value = cfg.chat_id;
+      if (document.getElementById('tg-enable-all')) document.getElementById('tg-enable-all').checked = cfg.enabled !== false;
+      if (document.getElementById('tg-alert-breakout')) document.getElementById('tg-alert-breakout').checked = cfg.alert_on_breakout !== false;
+      if (document.getElementById('tg-alert-briefing')) document.getElementById('tg-alert-briefing').checked = cfg.alert_morning_briefing !== false;
+    })
+    .catch(() => {});
+}
+
+function closeTelegramModal() {
+  const modal = document.getElementById('telegram-modal');
+  if (modal) modal.classList.remove('active');
+}
+
+function saveTelegramSettings() {
+  const token = (document.getElementById('tg-bot-token')?.value || '').trim();
+  const chat = (document.getElementById('tg-chat-id')?.value || '').trim();
+  const enabled = document.getElementById('tg-enable-all')?.checked ?? true;
+  const alertBreakout = document.getElementById('tg-alert-breakout')?.checked ?? true;
+  const alertBriefing = document.getElementById('tg-alert-briefing')?.checked ?? true;
+
+  if (token && !token.includes('...')) localStorage.setItem('tg_bot_token', token);
+  if (chat) localStorage.setItem('tg_chat_id', chat);
+
+  const banner = document.getElementById('tg-status-banner');
+  if (banner) {
+    banner.style.display = 'block';
+    banner.style.background = 'rgba(2, 132, 199, 0.15)';
+    banner.style.color = '#38bdf8';
+    banner.textContent = 'Saving settings...';
+  }
+
+  fetch('/api/save_telegram_config', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      bot_token: token,
+      chat_id: chat,
+      enabled: enabled,
+      alert_on_breakout: alertBreakout,
+      alert_morning_briefing: alertBriefing
+    })
+  })
+  .then(r => r.json())
+  .then(res => {
+    if (banner) {
+      banner.style.background = res.status === 'success' ? 'rgba(16, 185, 129, 0.15)' : 'rgba(244, 63, 94, 0.15)';
+      banner.style.color = res.status === 'success' ? '#34d399' : '#fb7185';
+      banner.textContent = res.message || (res.status === 'success' ? 'Settings saved successfully!' : 'Save failed');
+    }
+    showToast(res.message || 'Settings saved', res.status === 'success' ? 'success' : 'error');
+    if (res.status === 'success') {
+      setTimeout(() => closeTelegramModal(), 1200);
+    }
+  })
+  .catch(err => {
+    if (banner) {
+      banner.style.background = 'rgba(16, 185, 129, 0.15)';
+      banner.style.color = '#34d399';
+      banner.textContent = 'Saved locally in browser!';
+    }
+    showToast('Saved locally in browser!', 'success');
+    setTimeout(() => closeTelegramModal(), 1200);
+  });
+}
+
+function testTelegramAlert() {
+  const token = (document.getElementById('tg-bot-token')?.value || '').trim();
+  const chat = (document.getElementById('tg-chat-id')?.value || '').trim();
+
+  const banner = document.getElementById('tg-status-banner');
+  if (banner) {
+    banner.style.display = 'block';
+    banner.style.background = 'rgba(2, 132, 199, 0.15)';
+    banner.style.color = '#38bdf8';
+    banner.textContent = 'Sending test alert to Telegram...';
+  }
+
+  fetch('/api/test_telegram', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ bot_token: token, chat_id: chat })
+  })
+  .then(r => r.json())
+  .then(res => {
+    if (banner) {
+      banner.style.background = res.status === 'success' ? 'rgba(16, 185, 129, 0.15)' : 'rgba(244, 63, 94, 0.15)';
+      banner.style.color = res.status === 'success' ? '#34d399' : '#fb7185';
+      banner.textContent = res.message || (res.status === 'success' ? 'Test alert sent! Check your Telegram app.' : 'Failed to send');
+    }
+    showToast(res.message || (res.status === 'success' ? 'Test alert sent!' : 'Error sending alert'), res.status === 'success' ? 'success' : 'error');
+  })
+  .catch(err => {
+    if (banner) {
+      banner.style.background = 'rgba(244, 63, 94, 0.15)';
+      banner.style.color = '#fb7185';
+      banner.textContent = 'Server unreachable. Run local server to test directly.';
+    }
+    showToast('Server unreachable. Ensure server.py is running.', 'error');
+  });
 }
 

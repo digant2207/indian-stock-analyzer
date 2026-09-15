@@ -57,6 +57,9 @@ jobs:
       - name: Sync Google Sheet & Run Stock Market Screener
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FORCE_EMAIL: ${{ inputs.force_email || '' }}
         run: |
           python import_gsheet.py || echo "Warning: Google Sheet sync encountered an issue, proceeding with local stock list."
@@ -72,7 +75,8 @@ jobs:
           git config --global pull.rebase true
           git pull origin main --rebase || true
           touch last_email_sent.txt
-          git add analysis_data.json analysis_data.js nifty250_data.json nifty250_data.js backtest_results.json backtest_results.js stocks.csv scan_status.json google_sheet_config.json last_email_sent.txt .nojekyll requirements.txt last_run.txt
+          touch last_telegram_alerts.json
+          git add analysis_data.json analysis_data.js nifty250_data.json nifty250_data.js ai_briefing.json ai_briefing.js backtest_results.json backtest_results.js stocks.csv scan_status.json google_sheet_config.json last_email_sent.txt last_telegram_alerts.json .nojekyll requirements.txt last_run.txt
           git commit -m "Automated Market Intelligence Update [9:45 AM / 30-Min Schedule] [skip ci]" || echo "No changes to commit"
           git push origin main || echo "Git push skipped or completed."
 
@@ -82,8 +86,8 @@ jobs:
       - name: Prepare Clean GitHub Pages Site Directory
         run: |
           mkdir -p _site
-          cp index.html styles.css app.js manifest.json favicon.png apple-touch-icon.png icon-512.png _site/ 2>/dev/null || true
-          cp analysis_data.js analysis_data.json nifty250_data.js nifty250_data.json backtest_results.js backtest_results.json last_run.txt _site/ 2>/dev/null || true
+          cp index.html styles.css app.js manifest.json favicon.png apple-touch-icon.png icon-512.png lightweight-charts.standalone.production.js _site/ 2>/dev/null || true
+          cp analysis_data.js analysis_data.json nifty250_data.js nifty250_data.json ai_briefing.js ai_briefing.json backtest_results.js backtest_results.json last_run.txt _site/ 2>/dev/null || true
           touch _site/.nojekyll
 
       - name: Upload GitHub Pages Artifact

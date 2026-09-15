@@ -12,6 +12,8 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse
 
 import email_notifier
+import telegram_notifier
+import ai_briefing
 
 HISTORY_CACHE = {}
 
@@ -189,6 +191,34 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             self.send_header("Access-Control-Allow-Origin", "*")
             self.end_headers()
             self.wfile.write(payload)
+        elif path == '/api/get_telegram_config':
+            cfg = telegram_notifier.load_telegram_config()
+            cfg_copy = dict(cfg)
+            if cfg_copy.get('bot_token'):
+                tok = cfg_copy['bot_token']
+                cfg_copy['bot_token'] = tok[:6] + "..." + tok[-4:] if len(tok) > 10 else "********"
+            payload = json.dumps(cfg_copy).encode('utf-8')
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(payload)
+        elif path == '/api/get_ai_briefing':
+            force = query.get('refresh', ['0'])[0] in ['1', 'true', 'yes']
+            fpath = os.path.join(BASE_DIR, "ai_briefing.json")
+            if force or not os.path.exists(fpath):
+                briefing = ai_briefing.generate_ai_briefing(force_refresh=force)
+            else:
+                with open(fpath, 'r', encoding='utf-8') as f:
+                    briefing = json.load(f)
+            payload = json.dumps(briefing).encode('utf-8')
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(payload)
         else:
             super().do_GET()
 
@@ -203,6 +233,10 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             self.handle_save_email_config()
         elif self.path == '/api/test_email':
             self.handle_test_email()
+        elif self.path == '/api/save_telegram_config':
+            self.handle_save_telegram_config()
+        elif self.path == '/api/test_telegram':
+            self.handle_test_telegram()
         else:
             self.send_error(404, "Endpoint not found")
 
@@ -287,6 +321,52 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
         except Exception as e:
             res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
 
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(res)
+
+    def handle_save_telegram_config(self):
+        try:
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(content_length)
+            data = json.loads(body.decode('utf-8'))
+            cfg = telegram_notifier.load_telegram_config()
+            new_token = data.get('bot_token', '').strip()
+            if new_token and not new_token.startswith('***') and '...' not in new_token:
+                cfg['bot_token'] = new_token
+            if 'chat_id' in data:
+                cfg['chat_id'] = str(data.get('chat_id', '')).strip()
+            if 'enabled' in data:
+                cfg['enabled'] = bool(data.get('enabled'))
+            if 'alert_on_breakout' in data:
+                cfg['alert_on_breakout'] = bool(data.get('alert_on_breakout'))
+            if 'alert_morning_briefing' in data:
+                cfg['alert_morning_briefing'] = bool(data.get('alert_morning_briefing'))
+            telegram_notifier.save_telegram_config(cfg)
+            res = json.dumps({"status": "success", "message": "Telegram configuration saved successfully"}).encode('utf-8')
+        except Exception as e:
+            res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(res)
+
+    def handle_test_telegram(self):
+        try:
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(content_length) if content_length > 0 else b'{}'
+            data = json.loads(body.decode('utf-8')) if body else {}
+            token = data.get('bot_token', '').strip()
+            if token.startswith('***') or '...' in token:
+                token = None
+            chat = data.get('chat_id', '').strip() or None
+            result = telegram_notifier.send_test_alert(bot_token=token, chat_id=chat)
+            res = json.dumps(result).encode('utf-8')
+        except Exception as e:
+            res = json.dumps({"status": "error", "message": str(e)}).encode('utf-8')
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")

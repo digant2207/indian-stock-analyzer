@@ -37,6 +37,9 @@
           <span class="status-dot"></span>
           <span>Last Run: <strong id="last-updated">Loading...</strong></span>
         </div>
+        <button class="btn-theme-toggle" onclick="openTelegramModal()" title="Configure Telegram Instant Breakout Bot">
+          <span>⚡</span> Telegram Alerts
+        </button>
         <button class="btn-theme-toggle" onclick="toggleTheme()">
           <span>🌙</span> Dark Mode
         </button>
@@ -60,6 +63,59 @@
 
     <!-- Main Workspace Content -->
     <main class="app-content">
+
+      <!-- Pre-Market AI Analyst Briefing Card -->
+      <section id="ai-briefing-card" class="ai-briefing-container">
+        <div class="ai-briefing-header" onclick="toggleAiBriefing()">
+          <div class="ai-briefing-title-group">
+            <div class="ai-badge-pulse">
+              <span class="ai-sparkle">🤖</span>
+              <span class="ai-pulse-dot"></span>
+            </div>
+            <div>
+              <div class="ai-card-title">Pre-Market AI Analyst Briefing <span id="ai-engine-tag" class="ai-engine-tag">Quant + Gemini</span></div>
+              <div class="ai-card-subtitle" id="ai-timestamp">Updated: Pre-Market 8:30 AM IST</div>
+            </div>
+          </div>
+          <div class="ai-header-right">
+            <span id="ai-stance-badge" class="ai-stance-badge stance-bullish">BULLISH BIAS</span>
+            <button class="ai-toggle-btn" id="ai-toggle-arrow">▼</button>
+          </div>
+        </div>
+
+        <div id="ai-briefing-body" class="ai-briefing-body">
+          <div class="ai-stance-text" id="ai-stance-text">
+            Analyzing morning global cues and high-conviction momentum setups...
+          </div>
+
+          <div class="ai-grid-cols">
+            <!-- Left Column: Global Cues & Macro Levels -->
+            <div class="ai-box ai-box-macro">
+              <div class="ai-box-heading">🌐 Global Macro Cues & Pivot Levels</div>
+              <div class="ai-cues-pills" id="ai-cues-pills">
+                <!-- Dynamic Cues -->
+              </div>
+              <div class="ai-nifty-range" id="ai-nifty-range">
+                Nifty 50 Pivot: <strong>Loading...</strong>
+              </div>
+              <ul class="ai-bullet-list" id="ai-bullets-list">
+                <!-- Bullets -->
+              </ul>
+            </div>
+
+            <!-- Right Column: Top 3 High-Conviction Setups & Risk Warning -->
+            <div class="ai-box ai-box-setups">
+              <div class="ai-box-heading">🔥 Top High-Conviction Setups to Watch Today</div>
+              <div class="ai-setups-list" id="ai-setups-list">
+                <!-- Stock Chips -->
+              </div>
+              <div class="ai-risk-alert" id="ai-risk-alert">
+                ⚠️ <strong>Caution Watch:</strong> <span id="ai-risk-text">Loading risk warnings...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Key Metrics Bar -->
       <section class="summary-grid">
@@ -404,9 +460,59 @@
     </div>
   </div>
 
+  <!-- Telegram Bot Alerts Modal -->
+  <div id="telegram-modal" class="modal-overlay">
+    <div class="modal-container" style="max-width: 540px;">
+      <button class="modal-close" onclick="closeTelegramModal()">&times;</button>
+      <div style="display:flex; align-items:center; gap:10px; margin-bottom: 6px;">
+        <span style="font-size: 1.6rem;">⚡</span>
+        <div>
+          <h2 style="font-size: 1.25rem; color: var(--text-primary); margin:0;">Telegram Breakout Alerts Bot</h2>
+          <div style="font-size: 0.82rem; color: var(--text-secondary);">Receive instant push alerts on your phone during market hours.</div>
+        </div>
+      </div>
+
+      <div class="form-group" style="margin-top: 14px;">
+        <label class="form-label" for="tg-bot-token">Telegram Bot Token:</label>
+        <input type="password" id="tg-bot-token" class="form-input" placeholder="e.g. 123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ">
+        <div class="form-help">
+          Create a bot in 30 seconds: Open Telegram, search for <b>@BotFather</b>, send <code>/newbot</code>, and copy the API token.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="tg-chat-id">Your Telegram Chat ID:</label>
+        <input type="text" id="tg-chat-id" class="form-input" placeholder="e.g. 987654321">
+        <div class="form-help">
+          To find your Chat ID: Search <b>@userinfobot</b> on Telegram, click Start, and copy the numeric ID.
+        </div>
+      </div>
+
+      <div class="tg-checkboxes" style="display:flex; flex-direction:column; gap:8px; margin: 16px 0; background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; border: 1px solid var(--border-color);">
+        <label style="font-size: 0.85rem; display:flex; align-items:center; gap:8px; cursor:pointer; color: var(--text-primary);">
+          <input type="checkbox" id="tg-enable-all" checked> <strong>Enable Telegram Notifications</strong>
+        </label>
+        <label style="font-size: 0.85rem; display:flex; align-items:center; gap:8px; cursor:pointer; color: var(--text-secondary);">
+          <input type="checkbox" id="tg-alert-breakout" checked> 🚀 Real-Time 30-Min Breakout Alerts (Volume &gt; 1.2x)
+        </label>
+        <label style="font-size: 0.85rem; display:flex; align-items:center; gap:8px; cursor:pointer; color: var(--text-secondary);">
+          <input type="checkbox" id="tg-alert-briefing" checked> 🌅 8:30 AM Pre-Market AI Analyst Briefing
+        </label>
+      </div>
+
+      <div id="tg-status-banner" style="display:none; padding: 8px 12px; border-radius: 6px; font-size: 0.8rem; margin-bottom: 12px;"></div>
+
+      <div class="modal-actions">
+        <button class="btn-secondary" onclick="testTelegramAlert()">🔔 Send Test Alert</button>
+        <button class="btn-primary" onclick="saveTelegramSettings()">💾 Save Settings</button>
+      </div>
+    </div>
+  </div>
+
   <script src="lightweight-charts.standalone.production.js"></script>
   <script src="analysis_data.js?v=20260912"></script>
   <script src="nifty250_data.js?v=20260912"></script>
+  <script src="ai_briefing.js?v=20260915"></script>
   <script src="app.js?v=20260912"></script>
 </body>
 </html>

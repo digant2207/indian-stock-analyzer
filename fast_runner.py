@@ -980,6 +980,36 @@ if __name__ == "__main__":
         except Exception as em_err:
             print(f"Email notification notice: {em_err}")
 
+        # Send Telegram Live Breakout Notifications
+        try:
+            import telegram_notifier
+            t_cfg = telegram_notifier.load_telegram_config()
+            if t_cfg.get("enabled", True):
+                with open(analysis_json, 'r', encoding='utf-8') as f:
+                    a_data = json.load(f)
+                with open(nifty250_json, 'r', encoding='utf-8') as f:
+                    n_data = json.load(f)
+                combined_stocks = (a_data.get('all_stocks') or []) + (n_data.get('all_stocks') or [])
+                sent_t = telegram_notifier.send_breakout_notifications(combined_stocks)
+                if sent_t > 0:
+                    print(f"[{ist_str}] ⚡ Sent {sent_t} real-time Telegram breakout alerts.")
+        except Exception as tg_err:
+            print(f"Telegram alert notice: {tg_err}")
+
+        # Generate Pre-Market AI Analyst Briefing
+        try:
+            import ai_briefing
+            briefing = ai_briefing.generate_ai_briefing()
+            # If morning window (8:00 AM - 9:30 AM) on weekdays, dispatch morning briefing to Telegram
+            is_morning_window = ist_now.weekday() < 5 and ((ist_now.hour == 8) or (ist_now.hour == 9 and ist_now.minute <= 30))
+            if is_morning_window:
+                t_cfg = telegram_notifier.load_telegram_config()
+                if t_cfg.get("enabled") and t_cfg.get("alert_morning_briefing"):
+                    ai_briefing.send_morning_briefing_to_telegram()
+                    print(f"[{ist_str}] 🌅 Morning AI briefing dispatched to Telegram.")
+        except Exception as ai_err:
+            print(f"AI briefing notice: {ai_err}")
+
         update_scan_status(False, 100, "Scan Complete! All stocks updated.")
     except Exception as err:
         print(f"Fast runner execution error: {err}")
