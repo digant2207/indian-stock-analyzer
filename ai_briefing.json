@@ -4,20 +4,20 @@
   "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.12.",
-    "Universe breadth shows 40 advancing vs 136 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.01.",
+    "Universe breadth shows 40 advancing vs 137 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 947.25,
+      "current_price": 949.35,
       "trigger": 960.92,
-      "target1": 1048.33,
-      "sl": 874.47,
+      "target1": 1051.5,
+      "sl": 875.81,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9960.92 with Accumulation structure.",
-      "change_pct": 0.37
+      "change_pct": 0.59
     },
     {
       "symbol": "UNIVPHOTO",
@@ -42,19 +42,19 @@
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 06:28 AM",
+  "timestamp": "15 Sep 2026, 06:30 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23334.6,
-      "change_pct": -0.27,
+      "price": 23336.45,
+      "change_pct": -0.26,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74664.96,
-      "change_pct": -0.16,
+      "price": 74677.29,
+      "change_pct": -0.14,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.12,
-      "change_pct": 1.71,
+      "price": 103.01,
+      "change_pct": 1.6,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.91,
-      "change_pct": 0.92,
+      "change_pct": 0.93,
       "status": "up"
     }
   },
   "market_breadth": {
     "advances": 40,
-    "declines": 136,
+    "declines": 137,
     "total": 178
   }
 }
