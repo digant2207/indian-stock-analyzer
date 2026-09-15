@@ -4,45 +4,45 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $104.03.",
-    "Universe breadth shows 21 advancing vs 155 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.66.",
+    "Universe breadth shows 20 advancing vs 157 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1045.0,
+      "current_price": 1030.0,
       "trigger": 1044.18,
-      "target1": 1120.89,
-      "sl": 990.36,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": 0.7
-    },
-    {
-      "symbol": "UNIVPHOTO",
-      "name": "Universus Photo Imagings Ltd",
-      "current_price": 567.1,
-      "trigger": 581.16,
-      "target1": 741.75,
-      "sl": 441.36,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
-      "change_pct": 4.99
+      "target1": 1101.24,
+      "sl": 978.7,
+      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
+      "change_pct": -0.74
     },
     {
       "symbol": "RAINBOW",
       "name": "Rainbow Children's Medicare Ltd",
-      "current_price": 1455.1,
+      "current_price": 1453.7,
       "trigger": 1488.17,
-      "target1": 1493.82,
-      "sl": 1427.22,
+      "target1": 1492.05,
+      "sl": 1426.09,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
-      "change_pct": 0.71
+      "change_pct": 0.61
+    },
+    {
+      "symbol": "TATACOMM",
+      "name": "Tata Communications",
+      "current_price": 1748.2,
+      "trigger": 1788.57,
+      "target1": 1879.29,
+      "sl": 1653.81,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,788.57 with Accumulation structure.",
+      "change_pct": -0.76
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Shalby Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 10:00 AM",
+  "timestamp": "15 Sep 2026, 10:15 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74159.82,
-      "change_pct": -0.83,
+      "price": 74003.82,
+      "change_pct": -1.04,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.03,
-      "change_pct": 2.6,
+      "price": 103.66,
+      "change_pct": 2.24,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 21,
-    "declines": 155,
+    "advances": 20,
+    "declines": 157,
     "total": 178
   }
 };
