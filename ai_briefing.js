@@ -4,21 +4,11 @@ window.AI_BRIEFING = {
   "nifty_support": 23100,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.51.",
-    "Universe breadth shows 29 advancing vs 147 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.48% with Brent Crude hovering around $103.72.",
+    "Universe breadth shows 28 advancing vs 147 declining stocks across 178 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
   "top_setups": [
-    {
-      "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
-      "current_price": 940.75,
-      "trigger": 960.92,
-      "target1": 1038.73,
-      "sl": 870.2,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9960.92 with Accumulation structure.",
-      "change_pct": -0.32
-    },
     {
       "symbol": "UNIVPHOTO",
       "name": "Universus Photo Imagings Ltd",
@@ -32,29 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1400.2,
+      "current_price": 1400.0,
       "trigger": 1429.75,
-      "target1": 1536.69,
-      "sl": 1301.93,
+      "target1": 1536.43,
+      "sl": 1301.77,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": -0.85
+      "change_pct": -0.86
+    },
+    {
+      "symbol": "ANGELONE",
+      "name": "Angel One Ltd",
+      "current_price": 302.45,
+      "trigger": 308.97,
+      "target1": 331.4,
+      "sl": 281.61,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9308.97 with Accumulation structure.",
+      "change_pct": -0.84
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 08:01 AM",
+  "timestamp": "15 Sep 2026, 08:15 AM",
   "date_tag": "2026-09-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23272.95,
-      "change_pct": -0.53,
+      "price": 23268.6,
+      "change_pct": -0.55,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74520.48,
-      "change_pct": -0.35,
+      "price": 74491.34,
+      "change_pct": -0.39,
       "status": "down"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.51,
-      "change_pct": 2.09,
+      "price": 103.72,
+      "change_pct": 2.3,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.94,
-      "change_pct": 0.96,
+      "price": 95.93,
+      "change_pct": 0.95,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 29,
+    "advances": 28,
     "declines": 147,
     "total": 178
   }
