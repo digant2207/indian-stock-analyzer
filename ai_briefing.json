@@ -4,57 +4,57 @@
   "nifty_support": 23050,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.79.",
-    "Universe breadth shows 54 advancing vs 123 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.72.",
+    "Universe breadth shows 60 advancing vs 117 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
       "symbol": "YESBANK",
       "name": "Yes Bank Ltd",
-      "current_price": 23.56,
+      "current_price": 23.59,
       "trigger": 24.0,
-      "target1": 25.45,
-      "sl": 22.2,
+      "target1": 25.49,
+      "sl": 22.22,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
-      "change_pct": 2.12
+      "change_pct": 2.25
     },
     {
       "symbol": "UNIVPHOTO",
       "name": "Universus Photo Imagings Ltd",
-      "current_price": 594.2,
+      "current_price": 590.0,
       "trigger": 581.16,
-      "target1": 782.16,
-      "sl": 458.87,
+      "target1": 775.71,
+      "sl": 456.29,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
-      "change_pct": 10.01
+      "change_pct": 9.23
     },
     {
-      "symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd",
-      "current_price": 420.9,
-      "trigger": 431.36,
-      "target1": 453.22,
-      "sl": 397.63,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9431.36 with Accumulation structure.",
-      "change_pct": 0.12
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 117.07,
+      "trigger": 119.34,
+      "target1": 120.42,
+      "sl": 114.66,
+      "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
+      "change_pct": 2.07
     }
   ],
-  "risk_warning": "Defensive alert on Solar Industries India, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Solar Industries India due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 05:15 AM",
+  "timestamp": "16 Sep 2026, 05:31 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23247.3,
-      "change_pct": 0.56,
+      "price": 23260.55,
+      "change_pct": 0.61,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74356.67,
-      "change_pct": 0.48,
+      "price": 74416.65,
+      "change_pct": 0.56,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.79,
-      "change_pct": -0.98,
+      "price": 104.72,
+      "change_pct": -1.05,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": 0.1,
+      "price": 95.92,
+      "change_pct": 0.08,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 54,
-    "declines": 123,
+    "advances": 60,
+    "declines": 117,
     "total": 177
   }
 }
