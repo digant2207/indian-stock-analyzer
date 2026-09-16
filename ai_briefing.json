@@ -2,11 +2,11 @@
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 23050,
-  "nifty_resistance": 23400,
+  "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.17.",
-    "Universe breadth shows 60 advancing vs 117 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
+    "US Markets closed down 0.45% with Brent Crude hovering around $103.80.",
+    "Universe breadth shows 65 advancing vs 112 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
@@ -22,39 +22,39 @@
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 116.75,
+      "current_price": 117.1,
       "trigger": 119.34,
-      "target1": 120.02,
-      "sl": 114.4,
+      "target1": 120.46,
+      "sl": 114.68,
       "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 1.79
+      "change_pct": 2.09
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1027.0,
+      "current_price": 1028.5,
       "trigger": 1044.18,
-      "target1": 1097.64,
-      "sl": 976.14,
+      "target1": 1099.43,
+      "sl": 977.43,
       "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": -1.03
+      "change_pct": -0.89
     }
   ],
   "risk_warning": "Defensive alert on Kalyani Investment Company Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 07:01 AM",
+  "timestamp": "16 Sep 2026, 07:15 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23237.05,
-      "change_pct": 0.51,
+      "price": 23250.8,
+      "change_pct": 0.57,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74308.59,
-      "change_pct": 0.41,
+      "price": 74347.27,
+      "change_pct": 0.46,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.17,
-      "change_pct": -1.57,
+      "price": 103.8,
+      "change_pct": -1.92,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 60,
-    "declines": 117,
+    "advances": 65,
+    "declines": 112,
     "total": 177
   }
 }
