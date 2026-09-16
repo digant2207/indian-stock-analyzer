@@ -78,6 +78,7 @@
             </div>
           </div>
           <div class="ai-header-right">
+            <button type="button" class="btn-secondary" onclick="event.stopPropagation(); dispatchBriefingToTelegram()" style="padding:3px 8px; font-size:0.75rem; border-radius:6px; display:inline-flex; align-items:center; gap:4px; cursor:pointer;" title="Dispatch this AI Analyst Briefing directly to Telegram">📱 Send to Telegram</button>
             <span id="ai-stance-badge" class="ai-stance-badge stance-bullish">BULLISH BIAS</span>
             <button class="ai-toggle-btn" id="ai-toggle-arrow">▼</button>
           </div>
@@ -517,8 +518,9 @@
 
       <div id="tg-status-banner" style="display:none; padding: 8px 12px; border-radius: 6px; font-size: 0.8rem; margin-bottom: 12px;"></div>
 
-      <div class="modal-actions">
+      <div class="modal-actions" style="display:flex; flex-wrap:wrap; gap:8px; justify-content:flex-end;">
         <button class="btn-secondary" onclick="testTelegramAlert()">🔔 Send Test Alert</button>
+        <button class="btn-secondary" onclick="dispatchBriefingToTelegram()" style="background: rgba(14, 165, 233, 0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.3);">🌅 Send AI Briefing Now</button>
         <button class="btn-primary" onclick="saveTelegramSettings()">💾 Save Settings</button>
       </div>
     </div>

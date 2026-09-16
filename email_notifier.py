@@ -146,6 +146,39 @@ def generate_email_html(analysis_data, nifty_data):
         </tr>
         """
 
+    # Load Pre-Market AI Briefing if available
+    briefing_html = ""
+    briefing_file = os.path.join(os.path.dirname(__file__), "ai_briefing.json")
+    if os.path.exists(briefing_file):
+        try:
+            with open(briefing_file, 'r', encoding='utf-8') as f:
+                b_data = json.load(f)
+            stance = b_data.get('stance', 'NEUTRAL')
+            stance_color = "#166534" if "BULLISH" in stance else ("#991b1b" if ("DEFENSIVE" in stance or "CAUTION" in stance) else "#854d0e")
+            stance_bg = "#dcfce7" if "BULLISH" in stance else ("#fee2e2" if ("DEFENSIVE" in stance or "CAUTION" in stance) else "#fef9c3")
+            
+            bullets_li = "".join([f"<li style='margin-bottom:4px;'>{bullet}</li>" for bullet in b_data.get('executive_bullets', [])])
+            
+            briefing_html = f"""
+            <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:10px; padding:16px; margin-bottom:20px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #e2e8f0; padding-bottom:8px; margin-bottom:10px;">
+                    <div style="font-size:15px; font-weight:700; color:#0f172a;">🤖 Pre-Market AI Analyst Briefing</div>
+                    <span style="background:{stance_bg}; color:{stance_color}; font-weight:700; font-size:11px; padding:4px 10px; border-radius:12px;">{stance}</span>
+                </div>
+                <div style="font-size:13px; color:#334155; margin-bottom:10px; line-height:1.5;">
+                    <strong>Market Assessment:</strong> {b_data.get('stance_summary', '')}
+                </div>
+                <div style="font-size:12px; background:#ffffff; border:1px solid #e2e8f0; padding:8px 12px; border-radius:6px; margin-bottom:10px; color:#475569;">
+                    📍 <strong>Nifty 50 Corridor:</strong> Support <b>₹{b_data.get('nifty_support', 'N/A')}</b> &bull; Resistance <b>₹{b_data.get('nifty_resistance', 'N/A')}</b>
+                </div>
+                <ul style="margin:0; padding-left:20px; font-size:12px; color:#475569; line-height:1.5;">
+                    {bullets_li}
+                </ul>
+            </div>
+            """
+        except Exception:
+            pass
+
     html = f"""
     <!DOCTYPE html>
     <html>
@@ -171,6 +204,7 @@ def generate_email_html(analysis_data, nifty_data):
                 <p>Opening Range Breakouts, Wyckoff Analysis & Corporate Disclosures • {today_str}</p>
             </div>
             <div class="content">
+                {briefing_html}
                 <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:12px 16px; margin-bottom:20px; font-size:13px; color:#166534;">
                     <strong>9:45 AM Opening Scan Summary:</strong> Scanned {len(stocks_list)} stocks across NSE/BSE following market open. 
                     Identified {len(breakout_stocks)} opening breakout setups, {len(wyckoff_stocks)} Wyckoff Phase C/D accumulation structures & {len(events_list)} corporate events.

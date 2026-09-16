@@ -2320,3 +2320,100 @@ function testTelegramAlert() {
   }
 }
 
+async function dispatchBriefingToTelegram() {
+  const token = (document.getElementById('tg-bot-token')?.value || localStorage.getItem('tg_bot_token') || '').trim();
+  const chat = (document.getElementById('tg-chat-id')?.value || localStorage.getItem('tg_chat_id') || '').trim();
+
+  if (!token || token.includes('...') || !chat) {
+    showToast('⚠️ Please enter Bot Token and Chat ID first', 'info', 4000);
+    openTelegramModal();
+    return;
+  }
+
+  const briefing = window.AI_BRIEFING;
+  if (!briefing) {
+    showToast('AI Briefing data not available yet', 'error');
+    return;
+  }
+
+  const banner = document.getElementById('tg-status-banner');
+  if (banner) {
+    banner.style.display = 'block';
+    banner.style.background = 'rgba(2, 132, 199, 0.15)';
+    banner.style.color = '#38bdf8';
+    banner.textContent = 'Sending AI Analyst Briefing to Telegram...';
+  }
+  showToast('Sending AI Analyst Briefing to Telegram...', 'info', 3000);
+
+  const stance = briefing.stance || 'RANGEBOUND NEUTRAL';
+  const stanceEmoji = stance.includes('BULLISH') ? '🟢' : (stance.includes('DEFENSIVE') || stance.includes('CAUTION') ? '🔴' : '🟡');
+  const nowStr = new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'Asia/Kolkata' });
+
+  let lines = [
+    `🌅 <b>[PRE-MARKET AI BRIEFING] ${nowStr}</b>`,
+    `━━━━━━━━━━━━━━━━━━━━`,
+    `🎯 <b>Market Stance:</b> ${stanceEmoji} <b>${stance}</b>`,
+    `💡 <i>${briefing.stance_summary || ''}</i>`,
+    `━━━━━━━━━━━━━━━━━━━━`,
+    `📊 <b>Nifty 50 Levels:</b> Support <b>${briefing.nifty_support || 'N/A'}</b> | Resistance <b>${briefing.nifty_resistance || 'N/A'}</b>`,
+    `━━━━━━━━━━━━━━━━━━━━`,
+    `🔥 <b>TOP HIGH-CONVICTION SETUPS TODAY:</b>`
+  ];
+
+  if (briefing.top_setups && briefing.top_setups.length) {
+    briefing.top_setups.slice(0, 3).forEach(s => {
+      const sym = s.symbol || '';
+      const name = s.name || sym;
+      const price = s.current_price ? Number(s.current_price).toLocaleString('en-IN') : 'N/A';
+      const trig = s.trigger ? Number(s.trigger).toLocaleString('en-IN') : 'N/A';
+      lines.push(`• <b>${name} (${sym})</b>: ₹${price} | Buy Trigger: ₹${trig}`);
+      if (s.rationale) lines.push(`  <i>↳ ${s.rationale}</i>`);
+    });
+  }
+
+  lines.push(`━━━━━━━━━━━━━━━━━━━━`);
+  if (briefing.risk_warning) {
+    lines.push(`⚠️ <b>Risk Watch:</b> <i>${briefing.risk_warning}</i>`);
+    lines.push(`━━━━━━━━━━━━━━━━━━━━`);
+  }
+  lines.push(`⏰ <i>Pre-Market AI Analyst • Indian Stock Screener</i>`);
+
+  try {
+    const resp = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: chat,
+        text: lines.join('\n'),
+        parse_mode: 'HTML',
+        disable_web_page_preview: true
+      })
+    });
+    const res = await resp.json();
+    if (res.ok) {
+      if (banner) {
+        banner.style.background = 'rgba(16, 185, 129, 0.15)';
+        banner.style.color = '#34d399';
+        banner.textContent = '✅ AI Briefing sent to your Telegram!';
+      }
+      showToast('✅ AI Briefing sent to your Telegram!', 'success', 5000);
+    } else {
+      const errDesc = res.description || 'Telegram rejected request';
+      if (banner) {
+        banner.style.background = 'rgba(244, 63, 94, 0.15)';
+        banner.style.color = '#fb7185';
+        banner.textContent = `❌ Telegram Error: ${errDesc}`;
+      }
+      showToast(`Telegram Error: ${errDesc}`, 'error', 5000);
+    }
+  } catch (err) {
+    if (banner) {
+      banner.style.background = 'rgba(244, 63, 94, 0.15)';
+      banner.style.color = '#fb7185';
+      banner.textContent = `❌ Network Error: ${err.message}`;
+    }
+    showToast(`Network Error: ${err.message}`, 'error', 5000);
+  }
+}
+
+
