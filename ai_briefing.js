@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.27.",
-    "Universe breadth shows 60 advancing vs 117 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.03.",
+    "Universe breadth shows 66 advancing vs 111 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,450."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 117.07,
+      "current_price": 117.17,
       "trigger": 119.34,
-      "target1": 120.42,
-      "sl": 114.66,
+      "target1": 120.55,
+      "sl": 114.73,
       "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 2.07
+      "change_pct": 2.15
     },
     {
       "symbol": "RAINBOW",
       "name": "Rainbow Children's Medicare Ltd",
-      "current_price": 1453.8,
+      "current_price": 1453.6,
       "trigger": 1488.17,
-      "target1": 1492.17,
-      "sl": 1426.17,
+      "target1": 1491.92,
+      "sl": 1426.01,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
-      "change_pct": 0.62
+      "change_pct": 0.6
     }
   ],
   "risk_warning": "Defensive alert on Kalyani Investment Company Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 07:30 AM",
+  "timestamp": "16 Sep 2026, 07:45 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23247.0,
-      "change_pct": 0.56,
+      "price": 23255.2,
+      "change_pct": 0.59,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74373.86,
-      "change_pct": 0.5,
+      "price": 74386.78,
+      "change_pct": 0.52,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.27,
-      "change_pct": -1.47,
+      "price": 104.03,
+      "change_pct": -1.7,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 60,
-    "declines": 117,
+    "advances": 66,
+    "declines": 111,
     "total": 177
   }
 };
