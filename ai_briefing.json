@@ -4,20 +4,20 @@
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.91.",
-    "Universe breadth shows 69 advancing vs 107 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.23.",
+    "Universe breadth shows 71 advancing vs 105 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 116.51,
+      "current_price": 116.69,
       "trigger": 119.34,
-      "target1": 119.73,
-      "sl": 114.19,
+      "target1": 119.94,
+      "sl": 114.35,
       "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 1.58
+      "change_pct": 1.73
     },
     {
       "symbol": "UNIVPHOTO",
@@ -32,29 +32,29 @@
     {
       "symbol": "RAINBOW",
       "name": "Rainbow Children's Medicare Ltd",
-      "current_price": 1455.5,
+      "current_price": 1457.7,
       "trigger": 1488.17,
-      "target1": 1495.4,
-      "sl": 1426.77,
-      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
-      "change_pct": 0.12
+      "target1": 1498.24,
+      "sl": 1428.51,
+      "rationale": "High Technical Score (30.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
+      "change_pct": 0.28
     }
   ],
   "risk_warning": "Defensive alert on HEG Advanced Materials Ltd, Sona BLW Precision due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 09:30 AM",
+  "timestamp": "16 Sep 2026, 09:45 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23225.55,
+      "price": 23224.15,
       "change_pct": 0.46,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74326.08,
-      "change_pct": 0.44,
+      "price": 74290.94,
+      "change_pct": 0.39,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.91,
-      "change_pct": -0.87,
+      "price": 104.23,
+      "change_pct": -1.51,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.97,
-      "change_pct": 0.14,
+      "price": 95.96,
+      "change_pct": 0.13,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 69,
-    "declines": 107,
+    "advances": 71,
+    "declines": 105,
     "total": 177
   }
 }
