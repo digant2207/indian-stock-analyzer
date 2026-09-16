@@ -1005,8 +1005,11 @@ if __name__ == "__main__":
             if is_morning_window:
                 t_cfg = telegram_notifier.load_telegram_config()
                 if t_cfg.get("enabled") and t_cfg.get("alert_morning_briefing"):
-                    ai_briefing.send_morning_briefing_to_telegram()
-                    print(f"[{ist_str}] 🌅 Morning AI briefing dispatched to Telegram.")
+                    res_briefing = ai_briefing.send_morning_briefing_to_telegram()
+                    if res_briefing and res_briefing.get("status") == "success":
+                        print(f"[{ist_str}] 🌅 Morning AI briefing dispatched to Telegram.")
+                    else:
+                        print(f"[{ist_str}] ℹ️ Morning AI briefing not dispatched: {res_briefing.get('message', 'Unknown status')}")
         except Exception as ai_err:
             print(f"AI briefing notice: {ai_err}")
 

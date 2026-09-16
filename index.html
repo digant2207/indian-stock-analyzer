@@ -503,6 +503,18 @@
         </label>
       </div>
 
+      <!-- Cloud Actions Secrets Notice -->
+      <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 8px; padding: 10px 12px; margin-bottom: 14px; font-size: 0.78rem; color: var(--text-secondary); line-height: 1.45;">
+        <div style="font-weight: 600; color: #38bdf8; margin-bottom: 4px; display:flex; align-items:center; gap:6px;">
+          <span>☁️</span> Required for Automated Cloud Alerts (GitHub Actions):
+        </div>
+        Because screener runs in GitHub cloud, add these 2 repository secrets at <a href="https://github.com/digant2207/indian-stock-analyzer/settings/secrets/actions" target="_blank" style="color:#38bdf8; text-decoration:underline;">GitHub Settings &rarr; Secrets &rarr; Actions</a>:
+        <div style="margin-top: 5px; font-family: monospace; font-size: 0.75rem; color: var(--text-primary);">
+          • <b>TELEGRAM_BOT_TOKEN</b><br>
+          • <b>TELEGRAM_CHAT_ID</b>
+        </div>
+      </div>
+
       <div id="tg-status-banner" style="display:none; padding: 8px 12px; border-radius: 6px; font-size: 0.8rem; margin-bottom: 12px;"></div>
 
       <div class="modal-actions">

@@ -1,8 +1,16 @@
 import os
+import sys
 import json
 import time
 import datetime
 import requests
+
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+        sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_FILE = os.path.join(BASE_DIR, "telegram_config.json")
@@ -138,23 +146,24 @@ def send_breakout_notifications(stocks_list, force=False):
     """Scan and dispatch alerts for stocks breaking out today."""
     cfg = load_telegram_config()
     if not cfg.get("enabled") or not cfg.get("alert_on_breakout"):
+        print("ℹ️ Telegram breakout alerts are disabled in configuration.")
         return 0
 
     if not cfg.get("bot_token") or not cfg.get("chat_id"):
+        print("⚠️ Telegram Bot Token or Chat ID is not configured (check TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID env/secrets or telegram_config.json).")
         return 0
 
     sent_count = 0
     for s in stocks_list:
         is_triggered = (
-            s.get('is_breakout_done_today') or 
-            s.get('is_20d_high_breakout') or 
-            s.get('wyckoff_breakout') or
+            bool(s.get('is_breakout_done_today')) or 
+            bool(s.get('is_20d_high_breakout')) or 
             s.get('swing_signal') == 'BREAKOUT BUY'
         )
         vol_surge = s.get('vol_surge_ratio', s.get('volume_surge_multiple', 1.0))
 
         # Only alert if triggered and volume is healthy (or force)
-        if is_triggered:
+        if is_triggered and (force or vol_surge >= 1.15 or s.get('is_breakout_done_today')):
             sym = s.get('symbol')
             if force or should_alert(sym, "breakout", cooldown_hours=4):
                 msg = format_breakout_alert(s)

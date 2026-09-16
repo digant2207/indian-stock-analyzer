@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import time
 import datetime
@@ -7,6 +8,13 @@ import requests
 import yfinance as yf
 import pandas as pd
 import numpy as np
+
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+        sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        pass
 
 import telegram_notifier
 
