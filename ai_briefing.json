@@ -4,20 +4,20 @@
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.89.",
-    "Universe breadth shows 72 advancing vs 105 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.91.",
+    "Universe breadth shows 69 advancing vs 107 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 116.65,
+      "current_price": 116.51,
       "trigger": 119.34,
-      "target1": 119.89,
-      "sl": 114.31,
+      "target1": 119.73,
+      "sl": 114.19,
       "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 1.7
+      "change_pct": 1.58
     },
     {
       "symbol": "UNIVPHOTO",
@@ -30,31 +30,31 @@
       "change_pct": 4.99
     },
     {
-      "symbol": "MAXHEALTH",
-      "name": "Max Healthcare Institute",
-      "current_price": 1027.1,
-      "trigger": 1050.1,
-      "target1": 1099.41,
-      "sl": 975.03,
-      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,050.10 with Accumulation structure.",
-      "change_pct": -0.28
+      "symbol": "RAINBOW",
+      "name": "Rainbow Children's Medicare Ltd",
+      "current_price": 1455.5,
+      "trigger": 1488.17,
+      "target1": 1495.4,
+      "sl": 1426.77,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
+      "change_pct": 0.12
     }
   ],
-  "risk_warning": "Defensive alert on HEG Advanced Materials Ltd, HPL Electric & Power Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on HEG Advanced Materials Ltd, Sona BLW Precision due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 09:17 AM",
+  "timestamp": "16 Sep 2026, 09:30 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23236.65,
-      "change_pct": 0.51,
+      "price": 23225.55,
+      "change_pct": 0.46,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74305.86,
-      "change_pct": 0.41,
+      "price": 74326.08,
+      "change_pct": 0.44,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.89,
-      "change_pct": -0.89,
+      "price": 104.91,
+      "change_pct": -0.87,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.96,
+      "price": 95.97,
       "change_pct": 0.14,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 72,
-    "declines": 105,
+    "advances": 69,
+    "declines": 107,
     "total": 177
   }
 }
