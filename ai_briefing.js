@@ -4,46 +4,46 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.48% with Brent Crude hovering around $103.62.",
-    "Universe breadth shows 20 advancing vs 157 declining stocks across 178 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.27.",
+    "Universe breadth shows 29 advancing vs 148 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
-      "symbol": "MAXHEALTH",
-      "name": "Max Healthcare Institute",
-      "current_price": 1030.0,
-      "trigger": 1044.18,
-      "target1": 1101.24,
-      "sl": 978.7,
-      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": -0.74
+      "symbol": "CHEMCON",
+      "name": "Chemcon Speciality Chemicals Ltd",
+      "current_price": 213.88,
+      "trigger": 228.66,
+      "target1": 243.32,
+      "sl": 192.69,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9228.66 with Accumulation structure.",
+      "change_pct": -1.54
     },
     {
-      "symbol": "RAINBOW",
-      "name": "Rainbow Children's Medicare Ltd",
-      "current_price": 1453.7,
-      "trigger": 1488.17,
-      "target1": 1492.05,
-      "sl": 1426.09,
-      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
-      "change_pct": 0.61
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "current_price": 716.55,
+      "trigger": 741.23,
+      "target1": 747.9,
+      "sl": 693.98,
+      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
+      "change_pct": 1.17
     },
     {
-      "symbol": "TATACOMM",
-      "name": "Tata Communications",
-      "current_price": 1748.2,
-      "trigger": 1788.57,
-      "target1": 1879.29,
-      "sl": 1653.81,
-      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,788.57 with Accumulation structure.",
-      "change_pct": -0.76
+      "symbol": "YESBANK",
+      "name": "Yes Bank Ltd",
+      "current_price": 23.07,
+      "trigger": 24.0,
+      "target1": 24.75,
+      "sl": 21.86,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
+      "change_pct": -1.75
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Shalby Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Sep 2026, 02:24 PM",
-  "date_tag": "2026-09-15",
+  "timestamp": "16 Sep 2026, 03:30 AM",
+  "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7583.71,
-      "change_pct": -0.48,
+      "price": 7585.73,
+      "change_pct": -0.45,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26014.37,
-      "change_pct": -0.66,
+      "price": 25981.57,
+      "change_pct": -0.78,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.62,
-      "change_pct": 2.2,
+      "price": 104.27,
+      "change_pct": 2.84,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.94,
-      "change_pct": 0.96,
+      "price": 95.89,
+      "change_pct": 0.06,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 20,
-    "declines": 157,
-    "total": 178
+    "advances": 29,
+    "declines": 148,
+    "total": 177
   }
 };
