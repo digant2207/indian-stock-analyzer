@@ -1,10 +1,10 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $103.75.",
+    "US Markets closed up 0.29% with Brent Crude hovering around $103.35.",
     "Universe breadth shows 68 advancing vs 108 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on HEG Advanced Materials Ltd, Sona BLW Precision due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 12:47 PM",
+  "timestamp": "16 Sep 2026, 02:08 PM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
@@ -59,20 +59,20 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7585.73,
-      "change_pct": -0.45,
-      "status": "down"
+      "price": 7607.6,
+      "change_pct": 0.29,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25981.57,
-      "change_pct": -0.78,
-      "status": "down"
+      "price": 26148.54,
+      "change_pct": 0.64,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.75,
-      "change_pct": -1.97,
+      "price": 103.35,
+      "change_pct": -2.34,
       "status": "down"
     },
     "USD/INR": {
