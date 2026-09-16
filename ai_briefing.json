@@ -1,60 +1,60 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 23000,
-  "nifty_resistance": 23350,
+  "nifty_support": 22950,
+  "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $105.83.",
-    "Universe breadth shows 36 advancing vs 141 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,000 | Resistance cap at 23,350."
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.72.",
+    "Universe breadth shows 20 advancing vs 157 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "YESBANK",
       "name": "Yes Bank Ltd",
-      "current_price": 23.82,
+      "current_price": 23.78,
       "trigger": 24.0,
-      "target1": 25.84,
-      "sl": 22.37,
+      "target1": 25.78,
+      "sl": 22.34,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
-      "change_pct": 3.25
+      "change_pct": 3.08
+    },
+    {
+      "symbol": "UNIVPHOTO",
+      "name": "Universus Photo Imagings Ltd",
+      "current_price": 592.0,
+      "trigger": 581.16,
+      "target1": 778.77,
+      "sl": 457.52,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
+      "change_pct": 9.6
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1027.2,
+      "current_price": 1021.7,
       "trigger": 1044.18,
-      "target1": 1097.87,
-      "sl": 976.32,
-      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": -1.01
-    },
-    {
-      "symbol": "TATACOMM",
-      "name": "Tata Communications",
-      "current_price": 1763.4,
-      "trigger": 1788.57,
-      "target1": 1897.95,
-      "sl": 1666.53,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,788.57 with Accumulation structure.",
-      "change_pct": 0.1
+      "target1": 1091.54,
+      "sl": 971.42,
+      "rationale": "High Technical Score (20.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
+      "change_pct": -1.54
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 04:00 AM",
+  "timestamp": "16 Sep 2026, 04:15 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23181.6,
-      "change_pct": 0.27,
+      "price": 23129.7,
+      "change_pct": 0.05,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74331.04,
-      "change_pct": 0.44,
+      "price": 74219.82,
+      "change_pct": 0.29,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 105.83,
-      "change_pct": 4.38,
-      "status": "up"
+      "price": 104.72,
+      "change_pct": -1.05,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.89,
-      "change_pct": 0.06,
+      "price": 95.9,
+      "change_pct": 0.07,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 36,
-    "declines": 141,
+    "advances": 20,
+    "declines": 157,
     "total": 177
   }
 }
