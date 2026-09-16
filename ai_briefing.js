@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.81.",
-    "Universe breadth shows 57 advancing vs 119 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.17.",
+    "Universe breadth shows 60 advancing vs 117 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 116.83,
+      "current_price": 116.75,
       "trigger": 119.34,
-      "target1": 120.11,
-      "sl": 114.47,
+      "target1": 120.02,
+      "sl": 114.4,
       "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 1.86
+      "change_pct": 1.79
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1027.4,
+      "current_price": 1027.0,
       "trigger": 1044.18,
-      "target1": 1098.11,
-      "sl": 976.49,
+      "target1": 1097.64,
+      "sl": 976.14,
       "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": -0.99
+      "change_pct": -1.03
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Solar Industries India due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Kalyani Investment Company Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 06:45 AM",
+  "timestamp": "16 Sep 2026, 07:01 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23223.8,
-      "change_pct": 0.46,
+      "price": 23237.05,
+      "change_pct": 0.51,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74287.82,
-      "change_pct": 0.38,
+      "price": 74308.59,
+      "change_pct": 0.41,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.81,
-      "change_pct": -0.96,
+      "price": 104.17,
+      "change_pct": -1.57,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": 0.1,
+      "price": 95.94,
+      "change_pct": 0.11,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 57,
-    "declines": 119,
+    "advances": 60,
+    "declines": 117,
     "total": 177
   }
 };
