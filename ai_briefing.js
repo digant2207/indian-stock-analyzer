@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 23050,
-  "nifty_resistance": 23400,
+  "nifty_support": 23000,
+  "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.64.",
-    "Universe breadth shows 32 advancing vs 145 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.60.",
+    "Universe breadth shows 32 advancing vs 144 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,000 | Resistance cap at 23,350."
   ],
   "top_setups": [
     {
       "symbol": "YESBANK",
       "name": "Yes Bank Ltd",
-      "current_price": 23.5,
+      "current_price": 23.53,
       "trigger": 24.0,
-      "target1": 25.36,
-      "sl": 22.16,
+      "target1": 25.4,
+      "sl": 22.18,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
-      "change_pct": 1.86
+      "change_pct": 1.99
     },
     {
       "symbol": "UNIVPHOTO",
       "name": "Universus Photo Imagings Ltd",
-      "current_price": 590.0,
+      "current_price": 585.55,
       "trigger": 581.16,
-      "target1": 775.71,
-      "sl": 456.29,
+      "target1": 768.96,
+      "sl": 453.5,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
-      "change_pct": 9.23
+      "change_pct": 8.41
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1029.3,
+      "current_price": 1029.0,
       "trigger": 1044.18,
-      "target1": 1100.39,
-      "sl": 978.11,
+      "target1": 1100.03,
+      "sl": 977.86,
       "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": -0.81
+      "change_pct": -0.84
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Solar Industries India due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 04:31 AM",
+  "timestamp": "16 Sep 2026, 04:45 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23216.85,
-      "change_pct": 0.42,
+      "price": 23181.15,
+      "change_pct": 0.27,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74015.8,
-      "change_pct": 0.02,
+      "price": 74308.73,
+      "change_pct": 0.41,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.64,
-      "change_pct": -1.12,
+      "price": 104.6,
+      "change_pct": -1.16,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.91,
-      "change_pct": 0.08,
+      "price": 95.92,
+      "change_pct": 0.09,
       "status": "up"
     }
   },
   "market_breadth": {
     "advances": 32,
-    "declines": 145,
+    "declines": 144,
     "total": 177
   }
 };
