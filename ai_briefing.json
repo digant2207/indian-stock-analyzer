@@ -4,8 +4,8 @@
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.54.",
-    "Universe breadth shows 66 advancing vs 110 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.62.",
+    "Universe breadth shows 70 advancing vs 107 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
@@ -20,41 +20,41 @@
       "change_pct": 10.16
     },
     {
-      "symbol": "RAINBOW",
-      "name": "Rainbow Children's Medicare Ltd",
-      "current_price": 1453.7,
-      "trigger": 1488.17,
-      "target1": 1492.05,
-      "sl": 1426.09,
-      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
-      "change_pct": 0.61
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 116.95,
+      "trigger": 119.34,
+      "target1": 120.27,
+      "sl": 114.56,
+      "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
+      "change_pct": 1.96
     },
     {
-      "symbol": "MAXHEALTH",
-      "name": "Max Healthcare Institute",
-      "current_price": 1029.1,
-      "trigger": 1044.18,
-      "target1": 1100.15,
-      "sl": 977.94,
-      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
-      "change_pct": -0.83
+      "symbol": "RAINBOW",
+      "name": "Rainbow Children's Medicare Ltd",
+      "current_price": 1452.6,
+      "trigger": 1488.17,
+      "target1": 1490.69,
+      "sl": 1425.18,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
+      "change_pct": 0.53
     }
   ],
   "risk_warning": "Defensive alert on Kalyani Investment Company Ltd, HEG Advanced Materials Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 08:30 AM",
+  "timestamp": "16 Sep 2026, 08:45 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23226.0,
-      "change_pct": 0.46,
+      "price": 23238.45,
+      "change_pct": 0.52,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74295.52,
-      "change_pct": 0.39,
+      "price": 74296.2,
+      "change_pct": 0.4,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.54,
-      "change_pct": -1.22,
+      "price": 104.62,
+      "change_pct": -1.14,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.96,
-      "change_pct": 0.13,
+      "change_pct": 0.14,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 66,
-    "declines": 110,
+    "advances": 70,
+    "declines": 107,
     "total": 177
   }
 }
