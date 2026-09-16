@@ -1,55 +1,55 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22950,
-  "nifty_resistance": 23300,
+  "nifty_support": 23050,
+  "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.27.",
-    "Universe breadth shows 29 advancing vs 148 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.76.",
+    "Universe breadth shows 80 advancing vs 95 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
-      "symbol": "CHEMCON",
-      "name": "Chemcon Speciality Chemicals Ltd",
-      "current_price": 213.88,
-      "trigger": 228.66,
-      "target1": 243.32,
-      "sl": 192.69,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9228.66 with Accumulation structure.",
-      "change_pct": -1.54
-    },
-    {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 716.55,
-      "trigger": 741.23,
-      "target1": 747.9,
-      "sl": 693.98,
-      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
-      "change_pct": 1.17
+      "symbol": "IPCALAB",
+      "name": "IPCA Laboratories",
+      "current_price": 1977.6,
+      "trigger": 2005.5,
+      "target1": 2025.55,
+      "sl": 1943.07,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
+      "change_pct": 2.34
     },
     {
       "symbol": "YESBANK",
       "name": "Yes Bank Ltd",
-      "current_price": 23.07,
+      "current_price": 24.08,
       "trigger": 24.0,
-      "target1": 24.75,
-      "sl": 21.86,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
-      "change_pct": -1.75
+      "target1": 26.26,
+      "sl": 22.51,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
+      "change_pct": 4.38
+    },
+    {
+      "symbol": "ACMESOLAR",
+      "name": "Acme Solar Holdings Ltd",
+      "current_price": 422.15,
+      "trigger": 431.36,
+      "target1": 455.06,
+      "sl": 398.46,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9431.36 with Accumulation structure.",
+      "change_pct": 0.42
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Shalby Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Bharat Bijlee Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 03:30 AM",
+  "timestamp": "16 Sep 2026, 03:45 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23118.6,
-      "change_pct": -1.19,
-      "status": "down"
+      "price": 23228.7,
+      "change_pct": 0.48,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.27,
-      "change_pct": 2.84,
+      "price": 104.76,
+      "change_pct": 3.32,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.89,
-      "change_pct": 0.06,
+      "price": 95.88,
+      "change_pct": 0.04,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 29,
-    "declines": 148,
+    "advances": 80,
+    "declines": 95,
     "total": 177
   }
 }

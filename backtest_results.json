@@ -2,7 +2,7 @@
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
   "overall_win_rate": 27.5,
-  "overall_avg_return_per_trade": -1.94,
+  "overall_avg_return_per_trade": -1.96,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -54,11 +54,11 @@
     },
     {
       "symbol": "AWL.NS",
-      "total_trades": 6,
-      "win_rate": 16.7,
-      "avg_return": -4.53,
+      "total_trades": 5,
+      "win_rate": 20.0,
+      "avg_return": -4.4,
       "total_wins": 1,
-      "total_losses": 5
+      "total_losses": 4
     },
     {
       "symbol": "BAJAJHFL.NS",
@@ -86,11 +86,11 @@
     },
     {
       "symbol": "BANCOINDIA.NS",
-      "total_trades": 8,
-      "win_rate": 37.5,
-      "avg_return": -1.42,
+      "total_trades": 9,
+      "win_rate": 33.3,
+      "avg_return": -2.21,
       "total_wins": 3,
-      "total_losses": 5
+      "total_losses": 6
     },
     {
       "symbol": "BBL.NS",
@@ -134,11 +134,11 @@
     },
     {
       "symbol": "CAMS.NS",
-      "total_trades": 8,
-      "win_rate": 25.0,
-      "avg_return": -2.55,
+      "total_trades": 9,
+      "win_rate": 22.2,
+      "avg_return": -2.88,
       "total_wins": 2,
-      "total_losses": 6
+      "total_losses": 7
     },
     {
       "symbol": "CANBK.NS",
@@ -158,10 +158,10 @@
     },
     {
       "symbol": "CHEMCON.NS",
-      "total_trades": 11,
-      "win_rate": 54.5,
-      "avg_return": 4.27,
-      "total_wins": 6,
+      "total_trades": 12,
+      "win_rate": 58.3,
+      "avg_return": 4.92,
+      "total_wins": 7,
       "total_losses": 5
     },
     {
