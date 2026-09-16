@@ -4,24 +4,14 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.73.",
-    "Universe breadth shows 61 advancing vs 115 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $104.62.",
+    "Universe breadth shows 54 advancing vs 123 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
-      "symbol": "YESBANK",
-      "name": "Yes Bank Ltd",
-      "current_price": 23.47,
-      "trigger": 24.0,
-      "target1": 25.31,
-      "sl": 22.14,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
-      "change_pct": 1.73
-    },
-    {
       "symbol": "UNIVPHOTO",
-      "name": "UNIVPHOTO",
+      "name": "Universus Photo Imagings Ltd",
       "current_price": 595.05,
       "trigger": 581.16,
       "target1": 783.47,
@@ -32,28 +22,38 @@ window.AI_BRIEFING = {
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 116.73,
+      "current_price": 116.72,
       "trigger": 119.34,
-      "target1": 119.99,
-      "sl": 114.38,
+      "target1": 119.98,
+      "sl": 114.37,
       "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 1.77
+      "change_pct": 1.76
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "name": "Max Healthcare Institute",
+      "current_price": 1028.1,
+      "trigger": 1044.18,
+      "target1": 1098.95,
+      "sl": 977.09,
+      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,044.18 with Accumulation structure.",
+      "change_pct": -0.93
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, Shalby Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 06:15 AM",
+  "timestamp": "16 Sep 2026, 06:31 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23230.4,
-      "change_pct": 0.48,
+      "price": 23218.35,
+      "change_pct": 0.43,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74324.2,
+      "price": 74319.7,
       "change_pct": 0.43,
       "status": "up"
     },
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.73,
-      "change_pct": -1.04,
+      "price": 104.62,
+      "change_pct": -1.14,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 61,
-    "declines": 115,
+    "advances": 54,
+    "declines": 123,
     "total": 177
   }
 };
