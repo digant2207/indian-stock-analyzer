@@ -4,20 +4,20 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $104.06.",
-    "Universe breadth shows 72 advancing vs 104 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $103.92.",
+    "Universe breadth shows 68 advancing vs 108 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 116.69,
+      "current_price": 116.8,
       "trigger": 119.34,
-      "target1": 119.94,
-      "sl": 114.35,
-      "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 1.73
+      "target1": 120.08,
+      "sl": 114.44,
+      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
+      "change_pct": 1.83
     },
     {
       "symbol": "UNIVPHOTO",
@@ -32,17 +32,17 @@ window.AI_BRIEFING = {
     {
       "symbol": "RAINBOW",
       "name": "Rainbow Children's Medicare Ltd",
-      "current_price": 1459.7,
+      "current_price": 1457.2,
       "trigger": 1488.17,
-      "target1": 1500.91,
-      "sl": 1430.03,
-      "rationale": "High Technical Score (30.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
-      "change_pct": 0.41
+      "target1": 1497.59,
+      "sl": 1428.12,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
+      "change_pct": 0.24
     }
   ],
   "risk_warning": "Defensive alert on HEG Advanced Materials Ltd, Sona BLW Precision due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 10:00 AM",
+  "timestamp": "16 Sep 2026, 10:15 AM",
   "date_tag": "2026-09-16",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74307.87,
-      "change_pct": 0.41,
+      "price": 74336.45,
+      "change_pct": 0.45,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.06,
-      "change_pct": -1.67,
+      "price": 103.92,
+      "change_pct": -1.8,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 72,
-    "declines": 104,
+    "advances": 68,
+    "declines": 108,
     "total": 177
   }
 };
