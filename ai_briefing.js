@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23100,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $101.12.",
-    "Universe breadth shows 118 advancing vs 58 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $101.15.",
+    "Universe breadth shows 117 advancing vs 58 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1192.3,
+      "current_price": 1201.0,
       "trigger": 1196.19,
-      "target1": 1283.92,
-      "sl": 1126.33,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
-      "change_pct": 3.71
+      "target1": 1298.87,
+      "sl": 1130.53,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
+      "change_pct": 4.46
     },
     {
       "symbol": "IPCALAB",
       "name": "IPCA Laboratories",
-      "current_price": 1965.7,
+      "current_price": 1966.5,
       "trigger": 2005.5,
-      "target1": 2011.64,
-      "sl": 1932.62,
+      "target1": 2012.49,
+      "sl": 1933.39,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
-      "change_pct": 1.72
+      "change_pct": 1.76
     },
     {
       "symbol": "HBLENGINE",
       "name": "HBL Engineering Ltd",
-      "current_price": 756.9,
+      "current_price": 757.05,
       "trigger": 773.27,
-      "target1": 872.33,
-      "sl": 673.79,
+      "target1": 872.55,
+      "sl": 673.89,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9773.27 with Accumulation structure.",
-      "change_pct": 7.42
+      "change_pct": 7.44
     }
   ],
-  "risk_warning": "Defensive alert on Fiem Industries Ltd, Mazagon Dock Shipbuilders Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Fiem Industries Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 09:01 AM",
+  "timestamp": "17 Sep 2026, 09:06 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23282.65,
-      "change_pct": 0.28,
+      "price": 23285.1,
+      "change_pct": 0.29,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74402.71,
-      "change_pct": 0.09,
+      "price": 74424.02,
+      "change_pct": 0.12,
       "status": "up"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.12,
-      "change_pct": -1.28,
+      "price": 101.15,
+      "change_pct": -1.25,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.9,
-      "change_pct": -0.09,
+      "price": 95.92,
+      "change_pct": -0.07,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 118,
+    "advances": 117,
     "declines": 58,
     "total": 177
   }
