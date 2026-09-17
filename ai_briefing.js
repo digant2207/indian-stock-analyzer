@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 23100,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $101.13.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $100.72.",
     "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 10:30 AM",
+  "timestamp": "17 Sep 2026, 10:45 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.13,
-      "change_pct": -1.27,
+      "price": 100.72,
+      "change_pct": -1.67,
       "status": "down"
     },
     "USD/INR": {
