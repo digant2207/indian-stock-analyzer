@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 23100,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $101.34.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $101.40.",
     "Universe breadth shows 119 advancing vs 58 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
@@ -12,49 +12,49 @@ window.AI_BRIEFING = {
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1187.9,
+      "current_price": 1191.4,
       "trigger": 1196.19,
-      "target1": 1276.5,
-      "sl": 1124.11,
+      "target1": 1282.4,
+      "sl": 1125.88,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
-      "change_pct": 3.32
+      "change_pct": 3.63
     },
     {
-      "symbol": "REDINGTON",
-      "name": "Redington Ltd",
-      "current_price": 399.0,
-      "trigger": 404.06,
-      "target1": 451.7,
-      "sl": 361.06,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": 2.8
+      "symbol": "IPCALAB",
+      "name": "IPCA Laboratories",
+      "current_price": 1962.8,
+      "trigger": 2005.5,
+      "target1": 2008.68,
+      "sl": 1929.77,
+      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
+      "change_pct": 1.57
     },
     {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1415.0,
-      "trigger": 1429.75,
-      "target1": 1553.19,
-      "sl": 1315.5,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": 1.68
+      "symbol": "HBLENGINE",
+      "name": "HBL Engineering Ltd",
+      "current_price": 757.5,
+      "trigger": 773.27,
+      "target1": 873.22,
+      "sl": 674.18,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9773.27 with Accumulation structure.",
+      "change_pct": 7.5
     }
   ],
-  "risk_warning": "Defensive alert on Mazagon Dock Shipbuilders Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Fiem Industries Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 08:45 AM",
+  "timestamp": "17 Sep 2026, 08:52 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23277.4,
-      "change_pct": 0.26,
+      "price": 23288.55,
+      "change_pct": 0.31,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74359.0,
-      "change_pct": 0.03,
+      "price": 74394.86,
+      "change_pct": 0.08,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.34,
-      "change_pct": -1.06,
+      "price": 101.4,
+      "change_pct": -1.01,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.92,
-      "change_pct": -0.08,
+      "price": 95.9,
+      "change_pct": -0.1,
       "status": "down"
     }
   },
