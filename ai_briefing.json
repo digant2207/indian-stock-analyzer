@@ -1,61 +1,61 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23100,
-  "nifty_resistance": 23450,
+  "nifty_support": 23150,
+  "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $101.34.",
-    "Universe breadth shows 116 advancing vs 58 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
+    "US Markets closed down 0.45% with Brent Crude hovering around $101.13.",
+    "Universe breadth shows 128 advancing vs 49 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 398.0,
+      "current_price": 399.3,
       "trigger": 404.06,
-      "target1": 450.3,
-      "sl": 360.34,
+      "target1": 452.12,
+      "sl": 361.27,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": 2.54
-    },
-    {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1407.8,
-      "trigger": 1429.75,
-      "target1": 1543.99,
-      "sl": 1309.74,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": 1.16
+      "change_pct": 2.87
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1171.9,
+      "current_price": 1176.2,
       "trigger": 1196.19,
-      "target1": 1250.46,
-      "sl": 1115.34,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
-      "change_pct": 1.93
+      "target1": 1257.29,
+      "sl": 1117.81,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
+      "change_pct": 2.3
+    },
+    {
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1408.2,
+      "trigger": 1429.75,
+      "target1": 1544.49,
+      "sl": 1310.07,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
+      "change_pct": 1.19
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 06:15 AM",
+  "timestamp": "17 Sep 2026, 06:30 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23272.15,
-      "change_pct": 0.23,
+      "price": 23312.6,
+      "change_pct": 0.41,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74300.92,
-      "change_pct": -0.05,
-      "status": "down"
+      "price": 74391.42,
+      "change_pct": 0.07,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.34,
-      "change_pct": -1.06,
+      "price": 101.13,
+      "change_pct": -1.27,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 116,
-    "declines": 58,
+    "advances": 128,
+    "declines": 49,
     "total": 177
   }
 }
