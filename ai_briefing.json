@@ -1,12 +1,12 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23050,
-  "nifty_resistance": 23400,
+  "nifty_support": 23100,
+  "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $100.50.",
+    "US Markets closed up 1.04% with Brent Crude hovering around $100.39.",
     "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
+    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
@@ -42,13 +42,13 @@
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 11:15 AM",
+  "timestamp": "17 Sep 2026, 02:23 PM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23217.6,
-      "change_pct": 0.43,
+      "price": 23270.6,
+      "change_pct": 0.23,
       "status": "up"
     },
     "Sensex": {
@@ -59,26 +59,26 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7551.81,
-      "change_pct": -0.45,
-      "status": "down"
+      "price": 7630.49,
+      "change_pct": 1.04,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25978.43,
-      "change_pct": -0.01,
-      "status": "down"
+      "price": 26390.43,
+      "change_pct": 1.59,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.5,
-      "change_pct": -1.88,
+      "price": 100.39,
+      "change_pct": -1.99,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": -0.07,
+      "price": 95.92,
+      "change_pct": -0.08,
       "status": "down"
     }
   },
