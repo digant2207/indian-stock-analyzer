@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 23150,
-  "nifty_resistance": 23500,
+  "nifty_support": 23100,
+  "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $102.36.",
-    "Universe breadth shows 127 advancing vs 49 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "US Markets closed down 0.45% with Brent Crude hovering around $102.16.",
+    "Universe breadth shows 115 advancing vs 60 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1398.4,
+      "current_price": 1398.1,
       "trigger": 1429.75,
-      "target1": 1532.48,
-      "sl": 1301.87,
+      "target1": 1532.12,
+      "sl": 1301.61,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": 0.49
+      "change_pct": 0.47
     },
     {
-      "symbol": "REDINGTON",
-      "name": "Redington Ltd",
-      "current_price": 397.2,
-      "trigger": 404.06,
-      "target1": 449.2,
-      "sl": 359.76,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": 2.33
+      "symbol": "IPCALAB",
+      "name": "IPCA Laboratories",
+      "current_price": 1988.8,
+      "trigger": 2005.5,
+      "target1": 2040.94,
+      "sl": 1951.26,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
+      "change_pct": 2.92
     },
     {
-      "symbol": "STAR",
-      "name": "Strides Pharma Science Ltd",
-      "current_price": 1209.4,
-      "trigger": 1225.45,
-      "target1": 1478.72,
-      "sl": 1015.49,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,225.45 with Accumulation structure.",
-      "change_pct": 2.15
+      "symbol": "KROSS",
+      "name": "Kross Ltd",
+      "current_price": 239.06,
+      "trigger": 243.78,
+      "target1": 283.96,
+      "sl": 206.73,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9243.78 with Accumulation structure.",
+      "change_pct": 4.45
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 04:45 AM",
+  "timestamp": "17 Sep 2026, 05:01 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23316.0,
-      "change_pct": 0.42,
+      "price": 23287.35,
+      "change_pct": 0.3,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74456.08,
-      "change_pct": 0.16,
+      "price": 74553.55,
+      "change_pct": 0.29,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.36,
-      "change_pct": -0.07,
+      "price": 102.16,
+      "change_pct": -0.26,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.82,
-      "change_pct": -0.18,
+      "price": 95.81,
+      "change_pct": -0.19,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 127,
-    "declines": 49,
+    "advances": 115,
+    "declines": 60,
     "total": 177
   }
 };
