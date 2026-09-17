@@ -1,61 +1,61 @@
 {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23050,
-  "nifty_resistance": 23400,
+  "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $102.09.",
-    "Universe breadth shows 88 advancing vs 87 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
+    "US Markets closed down 0.45% with Brent Crude hovering around $102.43.",
+    "Universe breadth shows 133 advancing vs 43 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
+      "symbol": "REDINGTON",
+      "name": "Redington Ltd",
+      "current_price": 397.3,
+      "trigger": 404.06,
+      "target1": 449.33,
+      "sl": 359.84,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
+      "change_pct": 2.36
+    },
+    {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1397.4,
+      "current_price": 1403.0,
       "trigger": 1429.75,
-      "target1": 1531.29,
-      "sl": 1301.0,
+      "target1": 1538.04,
+      "sl": 1305.77,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": 0.42
+      "change_pct": 0.82
     },
     {
       "symbol": "IPCALAB",
       "name": "IPCA Laboratories",
-      "current_price": 1959.8,
+      "current_price": 1980.0,
       "trigger": 2005.5,
-      "target1": 2005.79,
-      "sl": 1926.69,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
-      "change_pct": 1.42
-    },
-    {
-      "symbol": "PNB",
-      "name": "Punjab National Bank",
-      "current_price": 117.14,
-      "trigger": 119.34,
-      "target1": 120.52,
-      "sl": 114.71,
-      "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 0.29
+      "target1": 2028.68,
+      "sl": 1944.95,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
+      "change_pct": 2.46
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 03:45 AM",
+  "timestamp": "17 Sep 2026, 04:01 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23225.6,
-      "change_pct": 0.03,
+      "price": 23260.9,
+      "change_pct": 0.19,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74336.45,
-      "change_pct": 0.45,
-      "status": "up"
+      "price": 74260.61,
+      "change_pct": -0.1,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -65,26 +65,26 @@
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25978.42,
+      "price": 25978.43,
       "change_pct": -0.01,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.09,
-      "change_pct": -3.53,
+      "price": 102.43,
+      "change_pct": -3.21,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.08,
-      "change_pct": 0.09,
+      "price": 96.04,
+      "change_pct": 0.05,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 88,
-    "declines": 87,
+    "advances": 133,
+    "declines": 43,
     "total": 177
   }
 }
