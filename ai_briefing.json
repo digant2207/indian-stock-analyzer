@@ -4,57 +4,57 @@
   "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $101.13.",
-    "Universe breadth shows 128 advancing vs 49 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $100.52.",
+    "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 399.3,
+      "current_price": 398.85,
       "trigger": 404.06,
-      "target1": 452.12,
-      "sl": 361.27,
+      "target1": 451.49,
+      "sl": 360.95,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": 2.87
-    },
-    {
-      "symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "current_price": 1176.2,
-      "trigger": 1196.19,
-      "target1": 1257.29,
-      "sl": 1117.81,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
-      "change_pct": 2.3
+      "change_pct": 2.76
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1408.2,
+      "current_price": 1410.3,
       "trigger": 1429.75,
-      "target1": 1544.49,
-      "sl": 1310.07,
+      "target1": 1547.15,
+      "sl": 1311.77,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
-      "change_pct": 1.19
+      "change_pct": 1.34
+    },
+    {
+      "symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "current_price": 1174.9,
+      "trigger": 1196.19,
+      "target1": 1255.21,
+      "sl": 1117.08,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
+      "change_pct": 2.19
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 06:30 AM",
+  "timestamp": "17 Sep 2026, 06:45 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23312.6,
-      "change_pct": 0.41,
+      "price": 23336.45,
+      "change_pct": 0.51,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74391.42,
-      "change_pct": 0.07,
+      "price": 74526.5,
+      "change_pct": 0.26,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.13,
-      "change_pct": -1.27,
+      "price": 100.52,
+      "change_pct": -1.86,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.88,
-      "change_pct": -0.11,
+      "change_pct": -0.12,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 128,
-    "declines": 49,
+    "advances": 130,
+    "declines": 47,
     "total": 177
   }
 }
