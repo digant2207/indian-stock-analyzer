@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed up 0.29% with Brent Crude hovering around $103.35.",
-    "Universe breadth shows 68 advancing vs 108 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $102.38.",
+    "Universe breadth shows 46 advancing vs 130 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
@@ -20,30 +20,30 @@ window.AI_BRIEFING = {
       "change_pct": 1.83
     },
     {
-      "symbol": "UNIVPHOTO",
-      "name": "Universus Photo Imagings Ltd",
-      "current_price": 595.05,
-      "trigger": 581.16,
-      "target1": 791.95,
-      "sl": 453.28,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9581.16 with Accumulation structure.",
-      "change_pct": 4.99
+      "symbol": "TATACOMM",
+      "name": "Tata Communications",
+      "current_price": 1799.3,
+      "trigger": 1823.44,
+      "target1": 1919.22,
+      "sl": 1712.96,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,823.44 with Accumulation structure.",
+      "change_pct": 2.92
     },
     {
-      "symbol": "RAINBOW",
-      "name": "Rainbow Children's Medicare Ltd",
-      "current_price": 1457.2,
-      "trigger": 1488.17,
-      "target1": 1497.59,
-      "sl": 1428.12,
-      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,488.17 with Accumulation structure.",
-      "change_pct": 0.24
+      "symbol": "YESBANK",
+      "name": "Yes Bank Ltd",
+      "current_price": 23.4,
+      "trigger": 24.0,
+      "target1": 25.22,
+      "sl": 22.09,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
+      "change_pct": 1.43
     }
   ],
-  "risk_warning": "Defensive alert on HEG Advanced Materials Ltd, Sona BLW Precision due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, HEG Advanced Materials Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Sep 2026, 02:08 PM",
-  "date_tag": "2026-09-16",
+  "timestamp": "17 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7607.6,
-      "change_pct": 0.29,
-      "status": "up"
+      "price": 7551.81,
+      "change_pct": -0.45,
+      "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26148.54,
-      "change_pct": 0.64,
-      "status": "up"
+      "price": 25978.42,
+      "change_pct": -0.01,
+      "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.35,
-      "change_pct": -2.34,
+      "price": 102.38,
+      "change_pct": -3.26,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.94,
-      "change_pct": 0.11,
+      "price": 96.01,
+      "change_pct": 0.02,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 68,
-    "declines": 108,
+    "advances": 46,
+    "declines": 130,
     "total": 177
   }
 };
