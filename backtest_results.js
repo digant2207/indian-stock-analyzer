@@ -1,8 +1,8 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 27.1,
-  "overall_avg_return_per_trade": 0.0,
+  "overall_win_rate": 27.2,
+  "overall_avg_return_per_trade": -2.02,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -142,10 +142,10 @@ window.backtestData = {
     },
     {
       "symbol": "CANBK.NS",
-      "total_trades": 10,
-      "win_rate": 30.0,
-      "avg_return": -1.94,
-      "total_wins": 3,
+      "total_trades": 9,
+      "win_rate": 22.2,
+      "avg_return": -3.31,
+      "total_wins": 2,
       "total_losses": 7
     },
     {
@@ -159,18 +159,18 @@ window.backtestData = {
     {
       "symbol": "CHEMCON.NS",
       "total_trades": 12,
-      "win_rate": 50.0,
-      "avg_return": 0.0,
-      "total_wins": 6,
-      "total_losses": 6
+      "win_rate": 58.3,
+      "avg_return": 4.85,
+      "total_wins": 7,
+      "total_losses": 5
     },
     {
       "symbol": "COCHINSHIP.NS",
-      "total_trades": 5,
+      "total_trades": 6,
       "win_rate": 0.0,
-      "avg_return": -7.95,
+      "avg_return": -7.85,
       "total_wins": 0,
-      "total_losses": 5
+      "total_losses": 6
     },
     {
       "symbol": "DCAL.NS",

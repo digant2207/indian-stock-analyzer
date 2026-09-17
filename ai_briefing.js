@@ -1,54 +1,54 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $102.38.",
-    "Universe breadth shows 46 advancing vs 130 declining stocks across 177 scanned equities.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $102.09.",
+    "Universe breadth shows 88 advancing vs 87 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1397.4,
+      "trigger": 1429.75,
+      "target1": 1531.29,
+      "sl": 1301.0,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,429.75 with Accumulation structure.",
+      "change_pct": 0.42
+    },
+    {
+      "symbol": "IPCALAB",
+      "name": "IPCA Laboratories",
+      "current_price": 1959.8,
+      "trigger": 2005.5,
+      "target1": 2005.79,
+      "sl": 1926.69,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
+      "change_pct": 1.42
+    },
+    {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 116.8,
+      "current_price": 117.14,
       "trigger": 119.34,
-      "target1": 120.08,
-      "sl": 114.44,
-      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
-      "change_pct": 1.83
-    },
-    {
-      "symbol": "TATACOMM",
-      "name": "Tata Communications",
-      "current_price": 1799.3,
-      "trigger": 1823.44,
-      "target1": 1919.22,
-      "sl": 1712.96,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,823.44 with Accumulation structure.",
-      "change_pct": 2.92
-    },
-    {
-      "symbol": "YESBANK",
-      "name": "Yes Bank Ltd",
-      "current_price": 23.4,
-      "trigger": 24.0,
-      "target1": 25.22,
-      "sl": 22.09,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b924.00 with Accumulation structure.",
-      "change_pct": 1.43
+      "target1": 120.52,
+      "sl": 114.71,
+      "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9119.34 with Accumulation structure.",
+      "change_pct": 0.29
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, HEG Advanced Materials Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 03:31 AM",
+  "timestamp": "17 Sep 2026, 03:45 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23217.6,
-      "change_pct": 0.43,
+      "price": 23225.6,
+      "change_pct": 0.03,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.38,
-      "change_pct": -3.26,
+      "price": 102.09,
+      "change_pct": -3.53,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.01,
-      "change_pct": 0.02,
+      "price": 96.08,
+      "change_pct": 0.09,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 46,
-    "declines": 130,
+    "advances": 88,
+    "declines": 87,
     "total": 177
   }
 };
