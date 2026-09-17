@@ -1,12 +1,12 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23100,
-  "nifty_resistance": 23450,
+  "nifty_support": 23050,
+  "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $100.69.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $100.50.",
     "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
+    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
@@ -42,13 +42,13 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 11:01 AM",
+  "timestamp": "17 Sep 2026, 11:15 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23270.6,
-      "change_pct": 0.23,
+      "price": 23217.6,
+      "change_pct": 0.43,
       "status": "up"
     },
     "Sensex": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.69,
-      "change_pct": -1.7,
+      "price": 100.5,
+      "change_pct": -1.88,
       "status": "down"
     },
     "USD/INR": {
