@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed down 0.45% with Brent Crude hovering around $101.18.",
+    "US Markets closed down 0.45% with Brent Crude hovering around $100.95.",
     "Universe breadth shows 129 advancing vs 47 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
@@ -12,48 +12,48 @@ window.AI_BRIEFING = {
     {
       "symbol": "IPCALAB",
       "name": "IPCA Laboratories",
-      "current_price": 1979.1,
+      "current_price": 1967.5,
       "trigger": 2005.5,
-      "target1": 2027.5,
-      "sl": 1944.25,
+      "target1": 2013.57,
+      "sl": 1934.33,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
-      "change_pct": 2.42
+      "change_pct": 1.82
     },
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 399.15,
+      "current_price": 399.45,
       "trigger": 404.06,
-      "target1": 451.91,
-      "sl": 361.16,
+      "target1": 452.33,
+      "sl": 361.38,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": 2.83
+      "change_pct": 2.91
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1176.0,
+      "current_price": 1177.1,
       "trigger": 1196.19,
-      "target1": 1256.97,
-      "sl": 1117.7,
+      "target1": 1258.74,
+      "sl": 1118.32,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
-      "change_pct": 2.29
+      "change_pct": 2.38
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 07:15 AM",
+  "timestamp": "17 Sep 2026, 07:30 AM",
   "date_tag": "2026-09-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23347.8,
-      "change_pct": 0.56,
+      "price": 23344.25,
+      "change_pct": 0.55,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74621.0,
+      "price": 74619.99,
       "change_pct": 0.38,
       "status": "up"
     },
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.18,
-      "change_pct": -1.22,
+      "price": 100.95,
+      "change_pct": -1.44,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.88,
-      "change_pct": -0.12,
+      "price": 95.87,
+      "change_pct": -0.13,
       "status": "down"
     }
   },
