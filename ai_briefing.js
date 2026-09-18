@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $101.29.",
+    "US Markets closed up 1.14% with Brent Crude hovering around $101.22.",
     "Universe breadth shows 132 advancing vs 45 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1416.8,
-      "trigger": 1432.23,
-      "target1": 1541.65,
-      "sl": 1326.91,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,432.23 with Accumulation structure.",
-      "change_pct": -0.58
-    },
-    {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1231.0,
+      "current_price": 1230.7,
       "trigger": 1215.63,
-      "target1": 1372.11,
-      "sl": 1129.4,
+      "target1": 1371.6,
+      "sl": 1129.25,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 2.11
+      "change_pct": 2.08
+    },
+    {
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1417.0,
+      "trigger": 1432.23,
+      "target1": 1541.9,
+      "sl": 1327.07,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,432.23 with Accumulation structure.",
+      "change_pct": -0.57
     },
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 396.9,
+      "current_price": 397.7,
       "trigger": 404.06,
-      "target1": 448.56,
-      "sl": 359.7,
+      "target1": 449.62,
+      "sl": 360.32,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": -0.8
+      "change_pct": -0.6
     }
   ],
   "risk_warning": "Defensive alert on REC Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 04:30 AM",
+  "timestamp": "18 Sep 2026, 04:45 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23330.35,
-      "change_pct": 0.26,
+      "price": 23327.05,
+      "change_pct": 0.24,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74433.87,
-      "change_pct": 0.16,
+      "price": 74512.61,
+      "change_pct": 0.27,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.29,
-      "change_pct": -0.61,
+      "price": 101.22,
+      "change_pct": -0.68,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.73,
-      "change_pct": -0.42,
+      "price": 95.75,
+      "change_pct": -0.39,
       "status": "down"
     }
   },
