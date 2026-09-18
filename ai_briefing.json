@@ -1,60 +1,60 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23150,
+  "nifty_support": 23100,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $95.28.",
-    "Universe breadth shows 132 advancing vs 45 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "US Markets closed up 1.14% with Brent Crude hovering around $95.49.",
+    "Universe breadth shows 126 advancing vs 51 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1226.9,
+      "current_price": 1224.7,
       "trigger": 1215.63,
-      "target1": 1365.27,
-      "sl": 1127.28,
+      "target1": 1361.62,
+      "sl": 1126.12,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 1.77
+      "change_pct": 1.58
     },
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 966.7,
+      "current_price": 965.05,
       "trigger": 976.35,
-      "target1": 1082.8,
-      "sl": 883.11,
+      "target1": 1080.28,
+      "sl": 882.08,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9976.35 with Accumulation structure.",
-      "change_pct": 3.88
+      "change_pct": 3.71
     },
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 806.6,
+      "current_price": 808.15,
       "trigger": 826.25,
-      "target1": 849.54,
-      "sl": 775.68,
+      "target1": 851.63,
+      "sl": 776.85,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9826.25 with Accumulation structure.",
-      "change_pct": 3.69
+      "change_pct": 3.89
     }
   ],
-  "risk_warning": "Defensive alert on Tata Communications, REC Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, Syngene International due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 08:01 AM",
+  "timestamp": "18 Sep 2026, 08:15 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23325.4,
-      "change_pct": 0.24,
+      "price": 23308.4,
+      "change_pct": 0.16,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74542.71,
-      "change_pct": 0.31,
+      "price": 74538.07,
+      "change_pct": 0.3,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.28,
-      "change_pct": -6.51,
+      "price": 95.49,
+      "change_pct": -6.3,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.89,
-      "change_pct": -0.25,
+      "price": 95.88,
+      "change_pct": -0.27,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 132,
-    "declines": 45,
+    "advances": 126,
+    "declines": 51,
     "total": 177
   }
 }
