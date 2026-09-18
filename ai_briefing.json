@@ -1,60 +1,60 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23100,
+  "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $100.94.",
-    "Universe breadth shows 129 advancing vs 48 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,500."
+    "US Markets closed up 1.14% with Brent Crude hovering around $101.05.",
+    "Universe breadth shows 134 advancing vs 43 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "current_price": 1230.4,
+      "name": "ace",
+      "current_price": 1231.6,
       "trigger": 1215.63,
-      "target1": 1371.1,
-      "sl": 1129.1,
+      "target1": 1373.11,
+      "sl": 1129.71,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 2.06
+      "change_pct": 2.16
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1420.8,
+      "current_price": 1420.0,
       "trigger": 1432.23,
-      "target1": 1546.8,
-      "sl": 1330.08,
+      "target1": 1545.76,
+      "sl": 1329.45,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,432.23 with Accumulation structure.",
-      "change_pct": -0.3
+      "change_pct": -0.36
     },
     {
-      "symbol": "REDINGTON",
-      "name": "Redington Ltd",
-      "current_price": 410.85,
-      "trigger": 404.06,
-      "target1": 468.34,
-      "sl": 369.46,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": 2.69
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 737.7,
+      "trigger": 739.38,
+      "target1": 763.11,
+      "sl": 719.4,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9739.38 with Accumulation structure.",
+      "change_pct": 1.52
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 05:15 AM",
+  "timestamp": "18 Sep 2026, 05:31 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23305.45,
-      "change_pct": 0.15,
+      "price": 23311.8,
+      "change_pct": 0.18,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74458.4,
-      "change_pct": 0.19,
+      "price": 74422.27,
+      "change_pct": 0.14,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.94,
-      "change_pct": -0.95,
+      "price": 101.05,
+      "change_pct": -0.84,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.75,
-      "change_pct": -0.4,
+      "price": 95.76,
+      "change_pct": -0.38,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 129,
-    "declines": 48,
+    "advances": 134,
+    "declines": 43,
     "total": 177
   }
 }
