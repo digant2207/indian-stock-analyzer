@@ -1,8 +1,8 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 26.9,
-  "overall_avg_return_per_trade": -2.06,
+  "overall_win_rate": 26.6,
+  "overall_avg_return_per_trade": -2.11,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -54,11 +54,11 @@ window.backtestData = {
     },
     {
       "symbol": "AWL.NS",
-      "total_trades": 5,
-      "win_rate": 20.0,
-      "avg_return": -4.4,
+      "total_trades": 6,
+      "win_rate": 16.7,
+      "avg_return": -4.52,
       "total_wins": 1,
-      "total_losses": 4
+      "total_losses": 5
     },
     {
       "symbol": "BAJAJHFL.NS",
@@ -142,19 +142,19 @@ window.backtestData = {
     },
     {
       "symbol": "CANBK.NS",
-      "total_trades": 9,
-      "win_rate": 22.2,
-      "avg_return": -3.31,
-      "total_wins": 2,
+      "total_trades": 8,
+      "win_rate": 12.5,
+      "avg_return": -4.75,
+      "total_wins": 1,
       "total_losses": 7
     },
     {
       "symbol": "CERA.NS",
-      "total_trades": 11,
-      "win_rate": 45.5,
-      "avg_return": 0.22,
+      "total_trades": 10,
+      "win_rate": 50.0,
+      "avg_return": 0.9,
       "total_wins": 5,
-      "total_losses": 6
+      "total_losses": 5
     },
     {
       "symbol": "CHEMCON.NS",
@@ -166,11 +166,11 @@ window.backtestData = {
     },
     {
       "symbol": "COCHINSHIP.NS",
-      "total_trades": 6,
+      "total_trades": 7,
       "win_rate": 0.0,
-      "avg_return": -7.85,
+      "avg_return": -8.03,
       "total_wins": 0,
-      "total_losses": 6
+      "total_losses": 7
     },
     {
       "symbol": "DCAL.NS",

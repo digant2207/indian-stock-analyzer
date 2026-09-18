@@ -1,54 +1,54 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23100,
-  "nifty_resistance": 23450,
+  "nifty_support": 23150,
+  "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $101.20.",
-    "Universe breadth shows 99 advancing vs 77 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
+    "US Markets closed up 1.14% with Brent Crude hovering around $101.09.",
+    "Universe breadth shows 136 advancing vs 39 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1205.6,
-      "trigger": 1196.19,
-      "target1": 1306.9,
-      "sl": 1132.66,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,196.19 with Accumulation structure.",
-      "change_pct": 4.86
+      "current_price": 1208.8,
+      "trigger": 1215.63,
+      "target1": 1335.84,
+      "sl": 1117.33,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
+      "change_pct": 0.27
     },
     {
-      "symbol": "KROSS",
-      "name": "Kross Ltd",
-      "current_price": 242.05,
-      "trigger": 243.78,
-      "target1": 288.03,
-      "sl": 208.95,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9243.78 with Accumulation structure.",
-      "change_pct": 7.17
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1424.7,
+      "trigger": 1432.23,
+      "target1": 1551.93,
+      "sl": 1333.09,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,432.23 with Accumulation structure.",
+      "change_pct": -0.03
     },
     {
-      "symbol": "IPCALAB",
-      "name": "IPCA Laboratories",
-      "current_price": 1970.3,
-      "trigger": 2005.5,
-      "target1": 2016.58,
-      "sl": 1936.98,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,005.50 with Accumulation structure.",
-      "change_pct": 1.0
+      "symbol": "REDINGTON",
+      "name": "Redington Ltd",
+      "current_price": 405.3,
+      "trigger": 404.06,
+      "target1": 460.15,
+      "sl": 365.81,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
+      "change_pct": 1.3
     }
   ],
-  "risk_warning": "Defensive alert on Dhanlaxmi Bank Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 03:31 AM",
+  "timestamp": "18 Sep 2026, 03:45 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23270.6,
-      "change_pct": 0.23,
+      "price": 23334.55,
+      "change_pct": 0.27,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.2,
-      "change_pct": -1.2,
+      "price": 101.09,
+      "change_pct": -1.31,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.7,
-      "change_pct": -0.45,
+      "price": 95.73,
+      "change_pct": -0.42,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 99,
-    "declines": 77,
+    "advances": 136,
+    "declines": 39,
     "total": 177
   }
 }
