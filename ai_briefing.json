@@ -2,59 +2,59 @@
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23150,
-  "nifty_resistance": 23500,
+  "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $95.34.",
-    "Universe breadth shows 131 advancing vs 46 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "US Markets closed up 1.14% with Brent Crude hovering around $95.72.",
+    "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1217.7,
+      "current_price": 1219.5,
       "trigger": 1215.63,
-      "target1": 1350.14,
-      "sl": 1122.34,
+      "target1": 1353.08,
+      "sl": 1123.33,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 1.0
+      "change_pct": 1.15
+    },
+    {
+      "symbol": "REDINGTON",
+      "name": "Redington Ltd",
+      "current_price": 399.95,
+      "trigger": 404.06,
+      "target1": 452.65,
+      "sl": 362.01,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
+      "change_pct": -0.04
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 737.6,
+      "current_price": 737.75,
       "trigger": 739.38,
-      "target1": 762.95,
-      "sl": 719.35,
+      "target1": 763.19,
+      "sl": 719.43,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9739.38 with Accumulation structure.",
-      "change_pct": 1.51
-    },
-    {
-      "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
-      "current_price": 964.15,
-      "trigger": 976.35,
-      "target1": 1078.91,
-      "sl": 881.52,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9976.35 with Accumulation structure.",
-      "change_pct": 3.61
+      "change_pct": 1.53
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 08:31 AM",
+  "timestamp": "18 Sep 2026, 08:41 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23331.0,
-      "change_pct": 0.26,
+      "price": 23357.9,
+      "change_pct": 0.38,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74463.46,
-      "change_pct": 0.2,
+      "price": 74548.87,
+      "change_pct": 0.32,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.34,
-      "change_pct": -6.45,
+      "price": 95.72,
+      "change_pct": -6.07,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 131,
-    "declines": 46,
+    "advances": 130,
+    "declines": 47,
     "total": 177
   }
 }
