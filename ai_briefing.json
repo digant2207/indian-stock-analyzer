@@ -1,12 +1,12 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23100,
-  "nifty_resistance": 23450,
+  "nifty_support": 23150,
+  "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $96.18.",
+    "US Markets closed up 1.14% with Brent Crude hovering around $97.43.",
     "Universe breadth shows 126 advancing vs 50 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
@@ -14,8 +14,8 @@
       "name": "Action Construction Equipment Ltd",
       "current_price": 1229.2,
       "trigger": 1215.63,
-      "target1": 1369.1,
-      "sl": 1128.48,
+      "target1": 1368.23,
+      "sl": 1129.1,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
       "change_pct": 1.96
     },
@@ -42,13 +42,13 @@
   ],
   "risk_warning": "Defensive alert on KPIT Technologies, Tata Elxsi Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 11:15 AM",
+  "timestamp": "18 Sep 2026, 01:19 PM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23270.6,
-      "change_pct": 0.23,
+      "price": 23346.4,
+      "change_pct": 0.33,
       "status": "up"
     },
     "Sensex": {
@@ -71,14 +71,14 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.18,
-      "change_pct": -5.62,
+      "price": 97.43,
+      "change_pct": -4.4,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.87,
-      "change_pct": -0.27,
+      "price": 95.86,
+      "change_pct": -0.28,
       "status": "down"
     }
   },
