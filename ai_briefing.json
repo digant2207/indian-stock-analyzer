@@ -4,57 +4,57 @@
   "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $100.05.",
-    "Universe breadth shows 124 advancing vs 52 declining stocks across 177 scanned equities.",
+    "US Markets closed up 1.14% with Brent Crude hovering around $100.18.",
+    "Universe breadth shows 125 advancing vs 51 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1227.0,
+      "current_price": 1225.5,
       "trigger": 1215.63,
-      "target1": 1365.43,
-      "sl": 1127.33,
+      "target1": 1362.94,
+      "sl": 1126.54,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 1.78
+      "change_pct": 1.65
     },
     {
       "symbol": "ACMESOLAR",
       "name": "Acme Solar Holdings Ltd",
-      "current_price": 433.4,
+      "current_price": 429.85,
       "trigger": 431.36,
-      "target1": 471.48,
-      "sl": 405.98,
+      "target1": 465.73,
+      "sl": 404.02,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9431.36 with Accumulation structure.",
-      "change_pct": 3.68
+      "change_pct": 2.83
     },
     {
-      "symbol": "JYOTICNC",
-      "name": "Jyoti CNC Automation Ltd",
-      "current_price": 1044.25,
-      "trigger": 1060.97,
-      "target1": 1144.33,
-      "sl": 972.19,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,060.97 with Accumulation structure.",
-      "change_pct": 6.46
+      "symbol": "VIJAYA",
+      "name": "Vijaya Diagnostic Centre Ltd",
+      "current_price": 1546.5,
+      "trigger": 1578.97,
+      "target1": 1652.26,
+      "sl": 1470.35,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b91,578.97 with Accumulation structure.",
+      "change_pct": 7.52
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 07:00 AM",
+  "timestamp": "18 Sep 2026, 07:15 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23325.95,
-      "change_pct": 0.24,
+      "price": 23330.15,
+      "change_pct": 0.26,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74485.18,
-      "change_pct": 0.23,
+      "price": 74504.63,
+      "change_pct": 0.26,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.05,
-      "change_pct": -1.83,
+      "price": 100.18,
+      "change_pct": -1.7,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.77,
-      "change_pct": -0.38,
+      "price": 95.79,
+      "change_pct": -0.36,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 124,
-    "declines": 52,
+    "advances": 125,
+    "declines": 51,
     "total": 177
   }
 }
