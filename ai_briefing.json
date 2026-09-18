@@ -4,20 +4,30 @@
   "nifty_support": 23150,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $95.84.",
-    "Universe breadth shows 131 advancing vs 46 declining stocks across 177 scanned equities.",
+    "US Markets closed up 1.14% with Brent Crude hovering around $96.36.",
+    "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1233.0,
+      "current_price": 1229.1,
       "trigger": 1215.63,
-      "target1": 1375.46,
-      "sl": 1130.43,
+      "target1": 1368.93,
+      "sl": 1128.42,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 2.27
+      "change_pct": 1.95
+    },
+    {
+      "symbol": "REDINGTON",
+      "name": "Redington Ltd",
+      "current_price": 399.6,
+      "trigger": 404.06,
+      "target1": 452.17,
+      "sl": 361.75,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
+      "change_pct": -0.12
     },
     {
       "symbol": "INDHOTEL",
@@ -28,33 +38,23 @@
       "sl": 719.05,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9739.38 with Accumulation structure.",
       "change_pct": 1.43
-    },
-    {
-      "symbol": "REDINGTON",
-      "name": "Redington Ltd",
-      "current_price": 400.0,
-      "trigger": 404.06,
-      "target1": 452.72,
-      "sl": 362.04,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": -0.02
     }
   ],
   "risk_warning": "Defensive alert on ZF Commercial Vehl Cntrl Sytm India Ltd, Syngene International due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 09:45 AM",
+  "timestamp": "18 Sep 2026, 10:01 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23341.85,
-      "change_pct": 0.31,
+      "price": 23346.4,
+      "change_pct": 0.33,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74682.76,
-      "change_pct": 0.5,
+      "price": 74605.0,
+      "change_pct": 0.39,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.84,
-      "change_pct": -5.96,
+      "price": 96.36,
+      "change_pct": -5.45,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.83,
-      "change_pct": -0.31,
+      "price": 95.87,
+      "change_pct": -0.27,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 131,
-    "declines": 46,
+    "advances": 130,
+    "declines": 47,
     "total": 177
   }
 }
