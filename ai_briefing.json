@@ -4,8 +4,8 @@
   "nifty_support": 23100,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed up 1.04% with Brent Crude hovering around $100.39.",
-    "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
+    "US Markets closed up 1.14% with Brent Crude hovering around $101.20.",
+    "Universe breadth shows 99 advancing vs 77 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@
       "change_pct": 1.0
     }
   ],
-  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Dhanlaxmi Bank Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Sep 2026, 02:23 PM",
-  "date_tag": "2026-09-17",
+  "timestamp": "18 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7630.49,
-      "change_pct": 1.04,
+      "price": 7637.76,
+      "change_pct": 1.14,
       "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26390.43,
-      "change_pct": 1.59,
+      "price": 26418.3,
+      "change_pct": 1.69,
       "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.39,
-      "change_pct": -1.99,
+      "price": 101.2,
+      "change_pct": -1.2,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.92,
-      "change_pct": -0.08,
+      "price": 95.7,
+      "change_pct": -0.45,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 130,
-    "declines": 47,
+    "advances": 99,
+    "declines": 77,
     "total": 177
   }
 }
