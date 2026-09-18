@@ -5,55 +5,55 @@
   "nifty_resistance": 23500,
   "executive_bullets": [
     "US Markets closed up 1.14% with Brent Crude hovering around $99.83.",
-    "Universe breadth shows 128 advancing vs 48 declining stocks across 177 scanned equities.",
+    "Universe breadth shows 131 advancing vs 46 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1227.1,
+      "current_price": 1226.4,
       "trigger": 1215.63,
-      "target1": 1365.6,
-      "sl": 1127.38,
+      "target1": 1364.44,
+      "sl": 1127.01,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 1.78
+      "change_pct": 1.73
     },
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 969.8,
+      "current_price": 969.6,
       "trigger": 976.35,
-      "target1": 1087.57,
-      "sl": 885.0,
+      "target1": 1087.26,
+      "sl": 884.88,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9976.35 with Accumulation structure.",
-      "change_pct": 4.22
+      "change_pct": 4.2
     },
     {
       "symbol": "ACMESOLAR",
       "name": "Acme Solar Holdings Ltd",
-      "current_price": 430.1,
+      "current_price": 430.25,
       "trigger": 431.36,
-      "target1": 466.13,
-      "sl": 404.16,
+      "target1": 466.37,
+      "sl": 404.24,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9431.36 with Accumulation structure.",
-      "change_pct": 2.89
+      "change_pct": 2.93
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 07:30 AM",
+  "timestamp": "18 Sep 2026, 07:32 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23331.35,
-      "change_pct": 0.26,
+      "price": 23333.4,
+      "change_pct": 0.27,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74527.1,
+      "price": 74528.58,
       "change_pct": 0.29,
       "status": "up"
     },
@@ -77,14 +77,14 @@
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.81,
-      "change_pct": -0.34,
+      "price": 95.82,
+      "change_pct": -0.33,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 128,
-    "declines": 48,
+    "advances": 131,
+    "declines": 46,
     "total": 177
   }
 }
