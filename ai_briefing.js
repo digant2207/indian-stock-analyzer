@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $95.72.",
-    "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
+    "US Markets closed up 1.14% with Brent Crude hovering around $95.73.",
+    "Universe breadth shows 131 advancing vs 46 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1219.5,
+      "current_price": 1217.5,
       "trigger": 1215.63,
-      "target1": 1353.08,
-      "sl": 1123.33,
+      "target1": 1349.82,
+      "sl": 1122.23,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 1.15
+      "change_pct": 0.99
     },
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 399.95,
+      "current_price": 399.8,
       "trigger": 404.06,
-      "target1": 452.65,
-      "sl": 362.01,
+      "target1": 452.44,
+      "sl": 361.9,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": -0.04
+      "change_pct": -0.07
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 737.75,
+      "current_price": 737.65,
       "trigger": 739.38,
-      "target1": 763.19,
-      "sl": 719.43,
+      "target1": 763.03,
+      "sl": 719.38,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9739.38 with Accumulation structure.",
-      "change_pct": 1.53
+      "change_pct": 1.51
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 08:41 AM",
+  "timestamp": "18 Sep 2026, 08:45 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23357.9,
-      "change_pct": 0.38,
+      "price": 23351.7,
+      "change_pct": 0.35,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74548.87,
-      "change_pct": 0.32,
+      "price": 74539.57,
+      "change_pct": 0.3,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.72,
-      "change_pct": -6.07,
+      "price": 95.73,
+      "change_pct": -6.06,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 130,
-    "declines": 47,
+    "advances": 131,
+    "declines": 46,
     "total": 177
   }
 };
