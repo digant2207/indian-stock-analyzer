@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23100,
+  "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.14% with Brent Crude hovering around $95.49.",
-    "Universe breadth shows 126 advancing vs 51 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,500."
+    "US Markets closed up 1.14% with Brent Crude hovering around $95.32.",
+    "Universe breadth shows 130 advancing vs 47 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1224.7,
+      "current_price": 1218.6,
       "trigger": 1215.63,
-      "target1": 1361.62,
-      "sl": 1126.12,
+      "target1": 1351.61,
+      "sl": 1122.83,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 1.58
+      "change_pct": 1.08
+    },
+    {
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 735.8,
+      "trigger": 739.38,
+      "target1": 760.04,
+      "sl": 718.35,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9739.38 with Accumulation structure.",
+      "change_pct": 1.26
     },
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 965.05,
+      "current_price": 964.6,
       "trigger": 976.35,
-      "target1": 1080.28,
-      "sl": 882.08,
+      "target1": 1079.6,
+      "sl": 881.8,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9976.35 with Accumulation structure.",
-      "change_pct": 3.71
-    },
-    {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 808.15,
-      "trigger": 826.25,
-      "target1": 851.63,
-      "sl": 776.85,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9826.25 with Accumulation structure.",
-      "change_pct": 3.89
+      "change_pct": 3.66
     }
   ],
-  "risk_warning": "Defensive alert on Tata Communications, Syngene International due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Sep 2026, 08:15 AM",
+  "timestamp": "18 Sep 2026, 08:28 AM",
   "date_tag": "2026-09-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23308.4,
-      "change_pct": 0.16,
+      "price": 23336.55,
+      "change_pct": 0.28,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74538.07,
-      "change_pct": 0.3,
+      "price": 74495.56,
+      "change_pct": 0.24,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.49,
-      "change_pct": -6.3,
+      "price": 95.32,
+      "change_pct": -6.47,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.88,
-      "change_pct": -0.27,
+      "price": 95.85,
+      "change_pct": -0.29,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 126,
-    "declines": 51,
+    "advances": 130,
+    "declines": 47,
     "total": 177
   }
 };
