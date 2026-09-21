@@ -4,7 +4,7 @@
   "nifty_support": 23250,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.11.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $93.85.",
     "Universe breadth shows 97 advancing vs 79 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 09:55 AM",
+  "timestamp": "21 Sep 2026, 10:01 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74914.56,
-      "change_pct": 0.83,
+      "price": 74906.37,
+      "change_pct": 0.82,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.11,
-      "change_pct": -6.17,
+      "price": 93.85,
+      "change_pct": -6.43,
       "status": "down"
     },
     "USD/INR": {
