@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23200,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.28.",
-    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.61.",
+    "Universe breadth shows 91 advancing vs 84 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 256.7,
+      "current_price": 260.05,
       "trigger": 249.27,
-      "target1": 312.1,
-      "sl": 216.82,
+      "target1": 317.33,
+      "sl": 218.81,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 7.32
+      "change_pct": 8.72
     },
     {
       "symbol": "JYOTICNC",
       "name": "Jyoti CNC Automation Ltd",
-      "current_price": 1106.45,
+      "current_price": 1108.85,
       "trigger": 1067.13,
-      "target1": 1252.16,
-      "sl": 1001.54,
+      "target1": 1256.22,
+      "sl": 1002.75,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,067.13 with Accumulation structure.",
-      "change_pct": 5.41
+      "change_pct": 5.63
     },
     {
       "symbol": "ACMESOLAR",
       "name": "Acme Solar Holdings Ltd",
-      "current_price": 454.6,
+      "current_price": 454.95,
       "trigger": 441.58,
-      "target1": 511.99,
-      "sl": 413.28,
+      "target1": 512.6,
+      "sl": 413.44,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9441.58 with Accumulation structure.",
-      "change_pct": 4.45
+      "change_pct": 4.53
     }
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 05:45 AM",
+  "timestamp": "21 Sep 2026, 06:01 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23396.35,
-      "change_pct": 0.21,
+      "price": 23401.2,
+      "change_pct": 0.23,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74697.86,
-      "change_pct": 0.54,
+      "price": 74743.21,
+      "change_pct": 0.6,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.28,
-      "change_pct": -6.0,
+      "price": 94.61,
+      "change_pct": -5.67,
       "status": "down"
     },
     "USD/INR": {
@@ -84,7 +84,7 @@ window.AI_BRIEFING = {
   },
   "market_breadth": {
     "advances": 91,
-    "declines": 85,
+    "declines": 84,
     "total": 176
   }
 };
