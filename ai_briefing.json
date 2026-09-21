@@ -4,57 +4,57 @@
   "nifty_support": 23250,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $93.98.",
-    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.03.",
+    "Universe breadth shows 82 advancing vs 94 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 258.03,
+      "current_price": 257.35,
       "trigger": 249.27,
-      "target1": 314.16,
-      "sl": 217.62,
+      "target1": 313.1,
+      "sl": 217.21,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 7.88
+      "change_pct": 7.59
+    },
+    {
+      "symbol": "KUANTUM",
+      "name": "Kuantum Papers Ltd",
+      "current_price": 81.4,
+      "trigger": 81.44,
+      "target1": 91.44,
+      "sl": 74.17,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b981.44 with Accumulation structure.",
+      "change_pct": 3.34
     },
     {
       "symbol": "JYOTICNC",
       "name": "Jyoti CNC Automation Ltd",
-      "current_price": 1102.9,
+      "current_price": 1104.2,
       "trigger": 1067.13,
-      "target1": 1246.18,
-      "sl": 999.74,
+      "target1": 1248.37,
+      "sl": 1000.4,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,067.13 with Accumulation structure.",
-      "change_pct": 5.07
-    },
-    {
-      "symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd",
-      "current_price": 454.3,
-      "trigger": 441.58,
-      "target1": 511.48,
-      "sl": 413.13,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9441.58 with Accumulation structure.",
-      "change_pct": 4.38
+      "change_pct": 5.19
     }
   ],
-  "risk_warning": "Defensive alert on Oracle Financial Services, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Oracle Financial Services, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 06:30 AM",
+  "timestamp": "21 Sep 2026, 06:45 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23429.75,
-      "change_pct": 0.36,
+      "price": 23415.05,
+      "change_pct": 0.29,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74775.73,
-      "change_pct": 0.65,
+      "price": 74864.62,
+      "change_pct": 0.77,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.98,
-      "change_pct": -6.3,
+      "price": 94.03,
+      "change_pct": -6.25,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.81,
-      "change_pct": 0.01,
+      "price": 95.83,
+      "change_pct": 0.03,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 91,
-    "declines": 85,
+    "advances": 82,
+    "declines": 94,
     "total": 176
   }
 }
