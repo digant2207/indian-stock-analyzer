@@ -2,32 +2,32 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23200,
-  "nifty_resistance": 23550,
+  "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.24.",
-    "Universe breadth shows 92 advancing vs 84 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,550."
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.28.",
+    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 255.52,
+      "current_price": 256.7,
       "trigger": 249.27,
-      "target1": 310.28,
-      "sl": 216.09,
+      "target1": 312.1,
+      "sl": 216.82,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 6.83
+      "change_pct": 7.32
     },
     {
       "symbol": "JYOTICNC",
       "name": "Jyoti CNC Automation Ltd",
-      "current_price": 1120.2,
+      "current_price": 1106.45,
       "trigger": 1067.13,
-      "target1": 1275.64,
-      "sl": 1008.28,
+      "target1": 1252.16,
+      "sl": 1001.54,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,067.13 with Accumulation structure.",
-      "change_pct": 6.72
+      "change_pct": 5.41
     },
     {
       "symbol": "ACMESOLAR",
@@ -42,19 +42,19 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 05:31 AM",
+  "timestamp": "21 Sep 2026, 05:45 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23386.1,
-      "change_pct": 0.17,
+      "price": 23396.35,
+      "change_pct": 0.21,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74683.73,
-      "change_pct": 0.52,
+      "price": 74697.86,
+      "change_pct": 0.54,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.24,
-      "change_pct": -6.04,
+      "price": 94.28,
+      "change_pct": -6.0,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.8,
-      "change_pct": -0.0,
-      "status": "up"
+      "price": 95.79,
+      "change_pct": -0.01,
+      "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 92,
-    "declines": 84,
+    "advances": 91,
+    "declines": 85,
     "total": 176
   }
 };
