@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.17.",
-    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.54.",
+    "Universe breadth shows 101 advancing vs 75 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 748.3,
+      "current_price": 745.5,
       "trigger": 744.49,
-      "target1": 782.48,
-      "sl": 723.69,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9744.49 with Accumulation structure.",
-      "change_pct": 2.12
+      "target1": 777.68,
+      "sl": 722.33,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9744.49 with Accumulation structure.",
+      "change_pct": 1.74
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 256.88,
+      "current_price": 257.42,
       "trigger": 249.27,
-      "target1": 312.37,
-      "sl": 216.92,
+      "target1": 313.21,
+      "sl": 217.25,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 7.4
+      "change_pct": 7.62
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1239.8,
+      "current_price": 1234.0,
       "trigger": 1243.98,
-      "target1": 1402.64,
-      "sl": 1122.56,
+      "target1": 1393.58,
+      "sl": 1119.1,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 0.86
+      "change_pct": 0.39
     }
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 09:01 AM",
+  "timestamp": "21 Sep 2026, 09:15 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23447.85,
-      "change_pct": 0.43,
+      "price": 23450.05,
+      "change_pct": 0.44,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74938.11,
-      "change_pct": 0.87,
+      "price": 74933.73,
+      "change_pct": 0.86,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.17,
-      "change_pct": -6.11,
+      "price": 94.54,
+      "change_pct": -5.74,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.8,
-      "change_pct": -0.0,
+      "price": 95.81,
+      "change_pct": 0.01,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 91,
-    "declines": 85,
+    "advances": 101,
+    "declines": 75,
     "total": 176
   }
 };
