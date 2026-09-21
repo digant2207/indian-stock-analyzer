@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23200,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.03.",
-    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.04.",
+    "Universe breadth shows 82 advancing vs 93 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 255.0,
+      "current_price": 257.96,
       "trigger": 249.27,
-      "target1": 309.49,
-      "sl": 215.77,
+      "target1": 314.05,
+      "sl": 217.57,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 6.61
+      "change_pct": 7.85
     },
     {
       "symbol": "ACMESOLAR",
       "name": "Acme Solar Holdings Ltd",
-      "current_price": 447.35,
+      "current_price": 448.8,
       "trigger": 441.58,
-      "target1": 499.72,
-      "sl": 409.65,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9441.58 with Accumulation structure.",
-      "change_pct": 2.78
+      "target1": 502.14,
+      "sl": 410.4,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9441.58 with Accumulation structure.",
+      "change_pct": 3.11
     },
     {
       "symbol": "JYOTICNC",
       "name": "Jyoti CNC Automation Ltd",
-      "current_price": 1095.0,
+      "current_price": 1096.85,
       "trigger": 1067.13,
-      "target1": 1233.05,
-      "sl": 995.61,
+      "target1": 1236.1,
+      "sl": 996.59,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,067.13 with Accumulation structure.",
-      "change_pct": 4.32
+      "change_pct": 4.49
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Oracle Financial Services, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 04:45 AM",
+  "timestamp": "21 Sep 2026, 05:01 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23372.9,
-      "change_pct": 0.11,
+      "price": 23368.75,
+      "change_pct": 0.1,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74738.94,
-      "change_pct": 0.6,
+      "price": 74659.53,
+      "change_pct": 0.49,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.03,
-      "change_pct": -6.25,
+      "price": 94.04,
+      "change_pct": -6.24,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.79,
-      "change_pct": -0.01,
+      "price": 95.78,
+      "change_pct": -0.02,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 91,
-    "declines": 85,
+    "advances": 82,
+    "declines": 93,
     "total": 176
   }
 };
