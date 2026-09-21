@@ -1,61 +1,61 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23150,
-  "nifty_resistance": 23550,
+  "nifty_support": 23200,
+  "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $93.78.",
-    "Universe breadth shows 105 advancing vs 67 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
+    "US Markets closed up 0.17% with Brent Crude hovering around $100.30.",
+    "Universe breadth shows 104 advancing vs 70 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1441.4,
-      "trigger": 1442.58,
-      "target1": 1567.26,
-      "sl": 1350.78,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,442.58 with Accumulation structure.",
-      "change_pct": 0.65
+      "current_price": 1451.8,
+      "trigger": 1432.23,
+      "target1": 1590.12,
+      "sl": 1352.21,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,432.23 with Accumulation structure.",
+      "change_pct": 1.87
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "current_price": 736.65,
+      "trigger": 741.23,
+      "target1": 784.42,
+      "sl": 702.26,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
+      "change_pct": 0.77
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1254.1,
+      "current_price": 1242.8,
       "trigger": 1243.98,
-      "target1": 1425.49,
-      "sl": 1130.7,
+      "target1": 1407.37,
+      "sl": 1124.31,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 2.03
-    },
-    {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 744.8,
-      "trigger": 744.49,
-      "target1": 776.49,
-      "sl": 721.98,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9744.49 with Accumulation structure.",
-      "change_pct": 1.64
+      "change_pct": 1.11
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 03:45 AM",
+  "timestamp": "21 Sep 2026, 04:01 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23350.8,
-      "change_pct": 0.02,
+      "price": 23405.75,
+      "change_pct": 0.25,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74294.96,
-      "change_pct": -0.03,
-      "status": "down"
+      "price": 74555.65,
+      "change_pct": 0.35,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.78,
-      "change_pct": -6.5,
+      "price": 100.3,
+      "change_pct": -1.58,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.8,
-      "change_pct": -0.0,
-      "status": "up"
+      "price": 95.73,
+      "change_pct": -0.07,
+      "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 105,
-    "declines": 67,
+    "advances": 104,
+    "declines": 70,
     "total": 176
   }
 };
