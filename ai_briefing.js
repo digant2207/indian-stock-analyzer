@@ -2,11 +2,11 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23250,
-  "nifty_resistance": 23650,
+  "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.45.",
-    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.19.",
+    "Universe breadth shows 88 advancing vs 87 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 256.18,
+      "current_price": 256.52,
       "trigger": 249.27,
-      "target1": 311.29,
-      "sl": 216.5,
+      "target1": 311.82,
+      "sl": 216.71,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 7.1
+      "change_pct": 7.25
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1237.4,
+      "current_price": 1233.0,
       "trigger": 1243.98,
-      "target1": 1398.87,
-      "sl": 1121.14,
+      "target1": 1392.03,
+      "sl": 1118.5,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 0.67
+      "change_pct": 0.31
     }
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 09:31 AM",
+  "timestamp": "21 Sep 2026, 09:45 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23448.1,
-      "change_pct": 0.44,
+      "price": 23429.0,
+      "change_pct": 0.35,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74943.19,
-      "change_pct": 0.87,
+      "price": 74929.03,
+      "change_pct": 0.85,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.45,
-      "change_pct": -5.83,
+      "price": 94.19,
+      "change_pct": -6.09,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.81,
-      "change_pct": 0.01,
+      "price": 95.82,
+      "change_pct": 0.02,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 91,
-    "declines": 85,
+    "advances": 88,
+    "declines": 87,
     "total": 176
   }
 };
