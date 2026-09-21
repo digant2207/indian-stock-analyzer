@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23200,
-  "nifty_resistance": 23600,
+  "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $93.88.",
-    "Universe breadth shows 85 advancing vs 91 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,600."
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.03.",
+    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 254.8,
+      "current_price": 255.0,
       "trigger": 249.27,
-      "target1": 309.18,
-      "sl": 215.65,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 6.53
+      "target1": 309.49,
+      "sl": 215.77,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
+      "change_pct": 6.61
+    },
+    {
+      "symbol": "ACMESOLAR",
+      "name": "Acme Solar Holdings Ltd",
+      "current_price": 447.35,
+      "trigger": 441.58,
+      "target1": 499.72,
+      "sl": 409.65,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9441.58 with Accumulation structure.",
+      "change_pct": 2.78
     },
     {
       "symbol": "JYOTICNC",
       "name": "Jyoti CNC Automation Ltd",
-      "current_price": 1094.0,
+      "current_price": 1095.0,
       "trigger": 1067.13,
-      "target1": 1231.4,
-      "sl": 995.07,
+      "target1": 1233.05,
+      "sl": 995.61,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,067.13 with Accumulation structure.",
-      "change_pct": 4.22
-    },
-    {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1458.0,
-      "trigger": 1432.23,
-      "target1": 1599.42,
-      "sl": 1356.18,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,432.23 with Accumulation structure.",
-      "change_pct": 2.31
+      "change_pct": 4.32
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 04:31 AM",
+  "timestamp": "21 Sep 2026, 04:45 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23392.35,
-      "change_pct": 0.2,
+      "price": 23372.9,
+      "change_pct": 0.11,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74736.92,
-      "change_pct": 0.59,
+      "price": 74738.94,
+      "change_pct": 0.6,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.88,
-      "change_pct": -6.4,
+      "price": 94.03,
+      "change_pct": -6.25,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.77,
-      "change_pct": -0.03,
+      "price": 95.79,
+      "change_pct": -0.01,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 85,
-    "declines": 91,
+    "advances": 91,
+    "declines": 85,
     "total": 176
   }
 };
