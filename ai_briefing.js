@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23200,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $100.30.",
-    "Universe breadth shows 104 advancing vs 70 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.12.",
+    "Universe breadth shows 97 advancing vs 79 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
+      "symbol": "JYOTICNC",
+      "name": "Jyoti CNC Automation Ltd",
+      "current_price": 1092.65,
+      "trigger": 1067.13,
+      "target1": 1229.18,
+      "sl": 994.35,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,067.13 with Accumulation structure.",
+      "change_pct": 4.09
+    },
+    {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1451.8,
-      "trigger": 1432.23,
-      "target1": 1590.12,
-      "sl": 1352.21,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,432.23 with Accumulation structure.",
-      "change_pct": 1.87
+      "current_price": 1454.5,
+      "trigger": 1442.58,
+      "target1": 1586.03,
+      "sl": 1359.8,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,442.58 with Accumulation structure.",
+      "change_pct": 1.56
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 736.65,
+      "current_price": 736.75,
       "trigger": 741.23,
-      "target1": 784.42,
-      "sl": 702.26,
+      "target1": 784.58,
+      "sl": 702.32,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
-      "change_pct": 0.77
-    },
-    {
-      "symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "current_price": 1242.8,
-      "trigger": 1243.98,
-      "target1": 1407.37,
-      "sl": 1124.31,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 1.11
+      "change_pct": 0.79
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 04:01 AM",
+  "timestamp": "21 Sep 2026, 04:15 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23405.75,
-      "change_pct": 0.25,
+      "price": 23396.4,
+      "change_pct": 0.21,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74555.65,
-      "change_pct": 0.35,
+      "price": 74770.72,
+      "change_pct": 0.64,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.3,
-      "change_pct": -1.58,
+      "price": 94.12,
+      "change_pct": -6.16,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 104,
-    "declines": 70,
+    "advances": 97,
+    "declines": 79,
     "total": 176
   }
 };
