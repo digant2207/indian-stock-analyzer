@@ -4,57 +4,57 @@
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $93.67.",
-    "Universe breadth shows 101 advancing vs 75 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.17.",
+    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 747.65,
+      "current_price": 748.3,
       "trigger": 744.49,
-      "target1": 781.35,
-      "sl": 723.38,
+      "target1": 782.48,
+      "sl": 723.69,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9744.49 with Accumulation structure.",
-      "change_pct": 2.03
+      "change_pct": 2.12
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 258.44,
+      "current_price": 256.88,
       "trigger": 249.27,
-      "target1": 314.8,
-      "sl": 217.86,
+      "target1": 312.37,
+      "sl": 216.92,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 8.05
+      "change_pct": 7.4
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1240.4,
+      "current_price": 1239.8,
       "trigger": 1243.98,
-      "target1": 1403.58,
-      "sl": 1122.91,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 0.91
+      "target1": 1402.64,
+      "sl": 1122.56,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
+      "change_pct": 0.86
     }
   ],
-  "risk_warning": "Defensive alert on Oracle Financial Services, BSE Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Oracle Financial Services, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 08:45 AM",
+  "timestamp": "21 Sep 2026, 09:01 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23452.85,
-      "change_pct": 0.46,
+      "price": 23447.85,
+      "change_pct": 0.43,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74976.46,
-      "change_pct": 0.92,
+      "price": 74938.11,
+      "change_pct": 0.87,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.67,
-      "change_pct": -6.61,
+      "price": 94.17,
+      "change_pct": -6.11,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.8,
-      "change_pct": 0.0,
+      "change_pct": -0.0,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 101,
-    "declines": 75,
+    "advances": 91,
+    "declines": 85,
     "total": 176
   }
 }
