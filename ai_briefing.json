@@ -4,57 +4,57 @@
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.54.",
-    "Universe breadth shows 101 advancing vs 75 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.45.",
+    "Universe breadth shows 91 advancing vs 85 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 745.5,
+      "current_price": 746.0,
       "trigger": 744.49,
-      "target1": 777.68,
-      "sl": 722.33,
+      "target1": 778.53,
+      "sl": 722.58,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9744.49 with Accumulation structure.",
-      "change_pct": 1.74
+      "change_pct": 1.81
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 257.42,
+      "current_price": 256.18,
       "trigger": 249.27,
-      "target1": 313.21,
-      "sl": 217.25,
+      "target1": 311.29,
+      "sl": 216.5,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 7.62
+      "change_pct": 7.1
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1234.0,
+      "current_price": 1237.4,
       "trigger": 1243.98,
-      "target1": 1393.58,
-      "sl": 1119.1,
+      "target1": 1398.87,
+      "sl": 1121.14,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 0.39
+      "change_pct": 0.67
     }
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 09:15 AM",
+  "timestamp": "21 Sep 2026, 09:31 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23450.05,
+      "price": 23448.1,
       "change_pct": 0.44,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74933.73,
-      "change_pct": 0.86,
+      "price": 74943.19,
+      "change_pct": 0.87,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.54,
-      "change_pct": -5.74,
+      "price": 94.45,
+      "change_pct": -5.83,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 101,
-    "declines": 75,
+    "advances": 91,
+    "declines": 85,
     "total": 176
   }
 }
