@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.19.",
-    "Universe breadth shows 88 advancing vs 87 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.11.",
+    "Universe breadth shows 97 advancing vs 79 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
@@ -22,27 +22,27 @@ window.AI_BRIEFING = {
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 256.52,
+      "current_price": 257.0,
       "trigger": 249.27,
-      "target1": 311.82,
-      "sl": 216.71,
+      "target1": 312.56,
+      "sl": 217.0,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 7.25
+      "change_pct": 7.45
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1233.0,
+      "current_price": 1232.1,
       "trigger": 1243.98,
-      "target1": 1392.03,
-      "sl": 1118.5,
+      "target1": 1390.64,
+      "sl": 1117.95,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 0.31
+      "change_pct": 0.24
     }
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 09:45 AM",
+  "timestamp": "21 Sep 2026, 09:55 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74929.03,
-      "change_pct": 0.85,
+      "price": 74914.56,
+      "change_pct": 0.83,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.19,
-      "change_pct": -6.09,
+      "price": 94.11,
+      "change_pct": -6.17,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 88,
-    "declines": 87,
+    "advances": 97,
+    "declines": 79,
     "total": 176
   }
 };
