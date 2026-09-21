@@ -4,51 +4,51 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $93.93.",
-    "Universe breadth shows 126 advancing vs 49 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $93.78.",
+    "Universe breadth shows 105 advancing vs 67 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
-      "symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "current_price": 1229.2,
-      "trigger": 1215.63,
-      "target1": 1368.23,
-      "sl": 1129.1,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,215.63 with Accumulation structure.",
-      "change_pct": 1.96
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1441.4,
+      "trigger": 1442.58,
+      "target1": 1567.26,
+      "sl": 1350.78,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,442.58 with Accumulation structure.",
+      "change_pct": 0.65
     },
     {
-      "symbol": "REDINGTON",
-      "name": "Redington Ltd",
-      "current_price": 399.85,
-      "trigger": 404.06,
-      "target1": 452.51,
-      "sl": 361.93,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9404.06 with Accumulation structure.",
-      "change_pct": -0.06
+      "symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "current_price": 1254.1,
+      "trigger": 1243.98,
+      "target1": 1425.49,
+      "sl": 1130.7,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
+      "change_pct": 2.03
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 732.75,
-      "trigger": 739.38,
-      "target1": 755.3,
-      "sl": 716.52,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9739.38 with Accumulation structure.",
-      "change_pct": 0.84
+      "current_price": 744.8,
+      "trigger": 744.49,
+      "target1": 776.49,
+      "sl": 721.98,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9744.49 with Accumulation structure.",
+      "change_pct": 1.64
     }
   ],
-  "risk_warning": "Defensive alert on KPIT Technologies, Tata Elxsi Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 03:31 AM",
+  "timestamp": "21 Sep 2026, 03:45 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23346.4,
-      "change_pct": 0.33,
+      "price": 23350.8,
+      "change_pct": 0.02,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.93,
-      "change_pct": -6.35,
+      "price": 93.78,
+      "change_pct": -6.5,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.82,
-      "change_pct": 0.02,
+      "price": 95.8,
+      "change_pct": -0.0,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 126,
-    "declines": 49,
+    "advances": 105,
+    "declines": 67,
     "total": 176
   }
 };
