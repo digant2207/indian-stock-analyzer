@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $100.30.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $93.93.",
     "Universe breadth shows 126 advancing vs 49 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on KPIT Technologies, Tata Elxsi Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Sep 2026, 07:52 AM",
-  "date_tag": "2026-09-20",
+  "timestamp": "21 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.3,
-      "change_pct": -1.58,
+      "price": 93.93,
+      "change_pct": -6.35,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.88,
-      "change_pct": 0.08,
+      "price": 95.82,
+      "change_pct": 0.02,
       "status": "up"
     }
   },
