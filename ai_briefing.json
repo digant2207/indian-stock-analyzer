@@ -1,12 +1,12 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23250,
+  "nifty_support": 23200,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $93.95.",
-    "Universe breadth shows 82 advancing vs 92 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.11.",
+    "Universe breadth shows 95 advancing vs 80 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
@@ -22,39 +22,39 @@
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1243.9,
+      "current_price": 1243.1,
       "trigger": 1243.98,
-      "target1": 1409.12,
-      "sl": 1124.94,
+      "target1": 1407.85,
+      "sl": 1124.48,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 1.2
+      "change_pct": 1.13
     },
     {
-      "symbol": "JYOTICNC",
-      "name": "Jyoti CNC Automation Ltd",
-      "current_price": 1114.0,
-      "trigger": 1067.13,
-      "target1": 1264.99,
-      "sl": 1005.29,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,067.13 with Accumulation structure.",
-      "change_pct": 6.13
+      "symbol": "KUANTUM",
+      "name": "Kuantum Papers Ltd",
+      "current_price": 82.04,
+      "trigger": 81.44,
+      "target1": 92.47,
+      "sl": 74.53,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b981.44 with Accumulation structure.",
+      "change_pct": 4.15
     }
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 07:15 AM",
+  "timestamp": "21 Sep 2026, 07:31 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23414.6,
-      "change_pct": 0.29,
+      "price": 23411.9,
+      "change_pct": 0.28,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74825.57,
-      "change_pct": 0.71,
+      "price": 74832.16,
+      "change_pct": 0.72,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.95,
-      "change_pct": -6.33,
+      "price": 94.11,
+      "change_pct": -6.17,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.83,
-      "change_pct": 0.03,
+      "price": 95.81,
+      "change_pct": 0.01,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 82,
-    "declines": 92,
+    "advances": 95,
+    "declines": 80,
     "total": 176
   }
 }
