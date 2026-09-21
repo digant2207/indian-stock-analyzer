@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $94.16.",
-    "Universe breadth shows 86 advancing vs 90 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $94.00.",
+    "Universe breadth shows 98 advancing vs 77 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 748.4,
+      "trigger": 744.49,
+      "target1": 782.65,
+      "sl": 723.74,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9744.49 with Accumulation structure.",
+      "change_pct": 2.14
+    },
+    {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 257.96,
+      "current_price": 257.64,
       "trigger": 249.27,
-      "target1": 314.05,
-      "sl": 217.57,
+      "target1": 313.55,
+      "sl": 217.38,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9249.27 with Accumulation structure.",
-      "change_pct": 7.85
+      "change_pct": 7.71
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1243.5,
+      "current_price": 1244.4,
       "trigger": 1243.98,
-      "target1": 1408.48,
-      "sl": 1124.71,
+      "target1": 1409.91,
+      "sl": 1125.23,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 1.16
-    },
-    {
-      "symbol": "KUANTUM",
-      "name": "Kuantum Papers Ltd",
-      "current_price": 81.3,
-      "trigger": 81.44,
-      "target1": 91.28,
-      "sl": 74.11,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b981.44 with Accumulation structure.",
-      "change_pct": 3.21
+      "change_pct": 1.24
     }
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Sep 2026, 08:01 AM",
+  "timestamp": "21 Sep 2026, 08:06 AM",
   "date_tag": "2026-09-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23427.25,
-      "change_pct": 0.35,
+      "price": 23434.6,
+      "change_pct": 0.38,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74829.68,
-      "change_pct": 0.72,
+      "price": 74872.34,
+      "change_pct": 0.78,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.16,
-      "change_pct": -6.12,
+      "price": 94.0,
+      "change_pct": -6.28,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 86,
-    "declines": 90,
+    "advances": 98,
+    "declines": 77,
     "total": 176
   }
 };
