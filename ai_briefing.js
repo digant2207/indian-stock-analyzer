@@ -4,14 +4,14 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $89.42.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $89.95.",
     "Universe breadth shows 80 advancing vs 95 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
+      "name": "SHARDAMOTR",
       "current_price": 985.75,
       "trigger": 973.89,
       "target1": 1137.52,
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Voltas Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 11:01 AM",
+  "timestamp": "22 Sep 2026, 11:15 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.42,
-      "change_pct": -6.64,
+      "price": 89.95,
+      "change_pct": -6.09,
       "status": "down"
     },
     "USD/INR": {
