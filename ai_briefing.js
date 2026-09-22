@@ -2,22 +2,22 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23200,
-  "nifty_resistance": 23550,
+  "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $92.59.",
-    "Universe breadth shows 87 advancing vs 87 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,550."
+    "US Markets closed up 1.49% with Brent Crude hovering around $91.20.",
+    "Universe breadth shows 91 advancing vs 83 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
-      "current_price": 985.0,
+      "name": "SHARDAMOTR",
+      "current_price": 986.85,
       "trigger": 973.89,
-      "target1": 1136.39,
-      "sl": 876.0,
+      "target1": 1139.18,
+      "sl": 877.17,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 2.85
+      "change_pct": 3.04
     },
     {
       "symbol": "CHEMCON",
@@ -32,29 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 297.5,
+      "current_price": 298.5,
       "trigger": 290.23,
-      "target1": 334.17,
-      "sl": 271.1,
+      "target1": 335.82,
+      "sl": 271.63,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
-      "change_pct": 4.29
+      "change_pct": 4.65
     }
   ],
-  "risk_warning": "Defensive alert on Tata Elxsi Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, Tata Elxsi Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 08:47 AM",
+  "timestamp": "22 Sep 2026, 08:58 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23376.25,
-      "change_pct": -0.16,
+      "price": 23389.1,
+      "change_pct": -0.11,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74447.87,
-      "change_pct": -0.55,
+      "price": 74579.53,
+      "change_pct": -0.37,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.59,
-      "change_pct": -3.33,
+      "price": 91.2,
+      "change_pct": -4.78,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.75,
-      "change_pct": -0.27,
+      "price": 95.65,
+      "change_pct": -0.38,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 87,
-    "declines": 87,
+    "advances": 91,
+    "declines": 83,
     "total": 176
   }
 };
