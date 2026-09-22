@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $95.78.",
-    "Universe breadth shows 111 advancing vs 65 declining stocks across 176 scanned equities.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $93.06.",
+    "Universe breadth shows 114 advancing vs 62 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 747.85,
+      "current_price": 747.6,
       "trigger": 741.23,
-      "target1": 802.48,
-      "sl": 708.52,
+      "target1": 802.06,
+      "sl": 708.39,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
-      "change_pct": 2.31
-    },
-    {
-      "symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "current_price": 1248.8,
-      "trigger": 1243.98,
-      "target1": 1416.94,
-      "sl": 1127.74,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 1.59
+      "change_pct": 2.27
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1480.7,
+      "current_price": 1474.9,
       "trigger": 1442.58,
-      "target1": 1626.24,
-      "sl": 1375.91,
-      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,442.58 with Accumulation structure.",
-      "change_pct": 3.39
+      "target1": 1617.07,
+      "sl": 1372.54,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b91,442.58 with Accumulation structure.",
+      "change_pct": 2.99
+    },
+    {
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 743.55,
+      "trigger": 744.49,
+      "target1": 774.4,
+      "sl": 721.34,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9744.49 with Accumulation structure.",
+      "change_pct": 1.47
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 04:01 AM",
+  "timestamp": "22 Sep 2026, 04:15 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23444.8,
-      "change_pct": 0.13,
+      "price": 23457.1,
+      "change_pct": 0.18,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 75026.48,
-      "change_pct": 0.22,
+      "price": 74942.23,
+      "change_pct": 0.11,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.78,
-      "change_pct": -4.51,
+      "price": 93.06,
+      "change_pct": -2.84,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 111,
-    "declines": 65,
+    "advances": 114,
+    "declines": 62,
     "total": 176
   }
 };
