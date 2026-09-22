@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $93.49.",
-    "Universe breadth shows 93 advancing vs 83 declining stocks across 176 scanned equities.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $93.50.",
+    "Universe breadth shows 83 advancing vs 93 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 295.9,
+      "current_price": 291.1,
       "trigger": 290.23,
-      "target1": 329.74,
-      "sl": 271.54,
-      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
-      "change_pct": 11.09
+      "target1": 321.9,
+      "sl": 268.92,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
+      "change_pct": 9.29
     },
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 62.59,
+      "current_price": 62.63,
       "trigger": 62.56,
-      "target1": 70.73,
-      "sl": 56.73,
+      "target1": 70.8,
+      "sl": 56.75,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b962.56 with Accumulation structure.",
-      "change_pct": 7.28
+      "change_pct": 7.35
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 743.45,
+      "current_price": 743.3,
       "trigger": 741.23,
-      "target1": 795.22,
-      "sl": 706.17,
+      "target1": 794.98,
+      "sl": 706.09,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
-      "change_pct": 1.7
+      "change_pct": 1.68
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 07:01 AM",
+  "timestamp": "22 Sep 2026, 07:15 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23353.5,
-      "change_pct": -0.26,
+      "price": 23345.4,
+      "change_pct": -0.29,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74618.25,
-      "change_pct": -0.32,
+      "price": 74635.62,
+      "change_pct": -0.3,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.49,
-      "change_pct": -2.39,
+      "price": 93.5,
+      "change_pct": -2.38,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.82,
-      "change_pct": -0.21,
+      "change_pct": -0.2,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 93,
-    "declines": 83,
+    "advances": 83,
+    "declines": 93,
     "total": 176
   }
 };
