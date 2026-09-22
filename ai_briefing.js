@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23250,
-  "nifty_resistance": 23650,
+  "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $93.22.",
-    "Universe breadth shows 102 advancing vs 74 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
+    "US Markets closed up 1.49% with Brent Crude hovering around $93.37.",
+    "Universe breadth shows 100 advancing vs 75 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 748.9,
+      "current_price": 746.85,
       "trigger": 741.23,
-      "target1": 804.23,
-      "sl": 709.06,
+      "target1": 800.81,
+      "sl": 708.0,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
-      "change_pct": 2.45
+      "change_pct": 2.17
     },
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1562.3,
+      "current_price": 1559.5,
       "trigger": 1578.97,
-      "target1": 1685.46,
-      "sl": 1473.63,
+      "target1": 1681.2,
+      "sl": 1471.87,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,578.97 with Accumulation structure.",
-      "change_pct": 0.22
+      "change_pct": 0.04
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1467.0,
+      "current_price": 1471.4,
       "trigger": 1442.58,
-      "target1": 1604.81,
-      "sl": 1367.77,
+      "target1": 1611.6,
+      "sl": 1370.45,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b91,442.58 with Accumulation structure.",
-      "change_pct": 2.44
+      "change_pct": 2.74
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 04:46 AM",
+  "timestamp": "22 Sep 2026, 05:01 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23456.25,
-      "change_pct": 0.18,
+      "price": 23429.1,
+      "change_pct": 0.06,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74998.58,
-      "change_pct": 0.19,
+      "price": 74988.93,
+      "change_pct": 0.17,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.22,
-      "change_pct": -2.67,
+      "price": 93.37,
+      "change_pct": -2.52,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 74,
+    "advances": 100,
+    "declines": 75,
     "total": 176
   }
 };
