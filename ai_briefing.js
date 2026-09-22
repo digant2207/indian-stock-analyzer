@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23200,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $93.43.",
-    "Universe breadth shows 100 advancing vs 75 declining stocks across 176 scanned equities.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $93.68.",
+    "Universe breadth shows 96 advancing vs 79 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 745.3,
+      "current_price": 745.05,
       "trigger": 741.23,
-      "target1": 798.25,
-      "sl": 707.18,
+      "target1": 797.84,
+      "sl": 707.04,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
-      "change_pct": 1.96
+      "change_pct": 1.92
     },
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1565.8,
+      "current_price": 1565.7,
       "trigger": 1578.97,
-      "target1": 1690.83,
-      "sl": 1475.78,
+      "target1": 1690.68,
+      "sl": 1475.72,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,578.97 with Accumulation structure.",
       "change_pct": 0.44
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1471.7,
+      "current_price": 1468.9,
       "trigger": 1442.58,
-      "target1": 1612.07,
-      "sl": 1370.63,
+      "target1": 1607.73,
+      "sl": 1368.94,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b91,442.58 with Accumulation structure.",
-      "change_pct": 2.77
+      "change_pct": 2.57
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 06:01 AM",
+  "timestamp": "22 Sep 2026, 06:15 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23387.05,
-      "change_pct": -0.12,
+      "price": 23371.7,
+      "change_pct": -0.18,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74759.98,
-      "change_pct": -0.13,
+      "price": 74737.91,
+      "change_pct": -0.16,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.43,
-      "change_pct": -2.45,
+      "price": 93.68,
+      "change_pct": -2.19,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.79,
-      "change_pct": -0.23,
+      "price": 95.8,
+      "change_pct": -0.22,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 100,
-    "declines": 75,
+    "advances": 96,
+    "declines": 79,
     "total": 176
   }
 };
