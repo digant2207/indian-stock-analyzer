@@ -4,20 +4,20 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $90.30.",
-    "Universe breadth shows 72 advancing vs 101 declining stocks across 176 scanned equities.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $89.50.",
+    "Universe breadth shows 80 advancing vs 95 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 987.6,
+      "current_price": 985.75,
       "trigger": 973.89,
-      "target1": 1140.31,
-      "sl": 877.65,
+      "target1": 1137.52,
+      "sl": 876.48,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 3.12
+      "change_pct": 2.92
     },
     {
       "symbol": "DCW",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Voltas Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 10:01 AM",
+  "timestamp": "22 Sep 2026, 10:15 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74637.17,
-      "change_pct": -0.3,
+      "price": 74529.08,
+      "change_pct": -0.44,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.3,
-      "change_pct": -5.72,
+      "price": 89.5,
+      "change_pct": -6.56,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 72,
-    "declines": 101,
+    "advances": 80,
+    "declines": 95,
     "total": 176
   }
 };
