@@ -4,20 +4,20 @@
   "nifty_support": 23200,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $91.20.",
-    "Universe breadth shows 91 advancing vs 83 declining stocks across 176 scanned equities.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $90.69.",
+    "Universe breadth shows 90 advancing vs 85 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
-      "name": "SHARDAMOTR",
-      "current_price": 986.85,
+      "name": "Sharda Motor Industries Ltd",
+      "current_price": 986.7,
       "trigger": 973.89,
-      "target1": 1139.18,
-      "sl": 877.17,
+      "target1": 1138.95,
+      "sl": 877.08,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 3.04
+      "change_pct": 3.02
     },
     {
       "symbol": "CHEMCON",
@@ -32,29 +32,29 @@
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 298.5,
+      "current_price": 298.4,
       "trigger": 290.23,
-      "target1": 335.82,
-      "sl": 271.63,
+      "target1": 335.66,
+      "sl": 271.58,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
-      "change_pct": 4.65
+      "change_pct": 4.61
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, Tata Elxsi Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 08:58 AM",
+  "timestamp": "22 Sep 2026, 09:01 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23389.1,
-      "change_pct": -0.11,
+      "price": 23392.95,
+      "change_pct": -0.09,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74579.53,
-      "change_pct": -0.37,
+      "price": 74716.98,
+      "change_pct": -0.19,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.2,
-      "change_pct": -4.78,
+      "price": 90.69,
+      "change_pct": -5.31,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.65,
+      "price": 95.64,
       "change_pct": -0.38,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 91,
-    "declines": 83,
+    "advances": 90,
+    "declines": 85,
     "total": 176
   }
 }
