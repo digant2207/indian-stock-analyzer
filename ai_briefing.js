@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23150,
-  "nifty_resistance": 23550,
+  "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $91.00.",
-    "Universe breadth shows 73 advancing vs 101 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
+    "US Markets closed up 1.49% with Brent Crude hovering around $90.30.",
+    "Universe breadth shows 72 advancing vs 101 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
-      "name": "SHARDAMOTR",
-      "current_price": 987.75,
+      "name": "Sharda Motor Industries Ltd",
+      "current_price": 987.6,
       "trigger": 973.89,
-      "target1": 1140.54,
-      "sl": 877.74,
+      "target1": 1140.31,
+      "sl": 877.65,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 3.13
+      "change_pct": 3.12
+    },
+    {
+      "symbol": "DCW",
+      "name": "DCW Ltd",
+      "current_price": 48.02,
+      "trigger": 49.18,
+      "target1": 52.61,
+      "sl": 44.72,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b949.18 with Accumulation structure.",
+      "change_pct": 5.61
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 303.15,
+      "current_price": 302.55,
       "trigger": 290.23,
-      "target1": 343.66,
-      "sl": 273.98,
+      "target1": 342.63,
+      "sl": 273.69,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
-      "change_pct": 6.28
-    },
-    {
-      "symbol": "CHEMCON",
-      "name": "Chemcon Speciality Chemicals Ltd",
-      "current_price": 226.5,
-      "trigger": 228.66,
-      "target1": 258.03,
-      "sl": 203.8,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9228.66 with Accumulation structure.",
-      "change_pct": 0.31
+      "change_pct": 6.06
     }
   ],
   "risk_warning": "Defensive alert on Voltas Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 09:45 AM",
+  "timestamp": "22 Sep 2026, 10:01 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23349.5,
-      "change_pct": -0.28,
+      "price": 23329.0,
+      "change_pct": -0.36,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74662.59,
-      "change_pct": -0.26,
+      "price": 74637.17,
+      "change_pct": -0.3,
       "status": "down"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.0,
-      "change_pct": -4.99,
+      "price": 90.3,
+      "change_pct": -5.72,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.61,
-      "change_pct": -0.42,
+      "price": 95.58,
+      "change_pct": -0.45,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 73,
+    "advances": 72,
     "declines": 101,
     "total": 176
   }
