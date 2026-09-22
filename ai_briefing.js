@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23150,
-  "nifty_resistance": 23500,
+  "nifty_support": 23100,
+  "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $92.92.",
-    "Universe breadth shows 79 advancing vs 97 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "US Markets closed up 1.49% with Brent Crude hovering around $92.89.",
+    "Universe breadth shows 72 advancing vs 103 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
-      "current_price": 981.5,
+      "name": "SHARDAMOTR",
+      "current_price": 979.95,
       "trigger": 973.89,
-      "target1": 1127.24,
-      "sl": 876.57,
+      "target1": 1124.85,
+      "sl": 875.62,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 1.49
+      "change_pct": 1.33
     },
     {
       "symbol": "CHEMCON",
       "name": "Chemcon Speciality Chemicals Ltd",
-      "current_price": 227.0,
+      "current_price": 225.13,
       "trigger": 228.66,
-      "target1": 258.49,
-      "sl": 204.33,
+      "target1": 255.73,
+      "sl": 203.1,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9228.66 with Accumulation structure.",
-      "change_pct": 4.92
+      "change_pct": 4.05
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 292.95,
+      "current_price": 292.55,
       "trigger": 290.23,
-      "target1": 324.88,
-      "sl": 269.96,
+      "target1": 324.23,
+      "sl": 269.74,
       "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
-      "change_pct": 9.99
+      "change_pct": 9.84
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 08:15 AM",
+  "timestamp": "22 Sep 2026, 08:30 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23331.7,
-      "change_pct": -0.35,
+      "price": 23286.8,
+      "change_pct": -0.54,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74590.55,
-      "change_pct": -0.36,
+      "price": 74559.93,
+      "change_pct": -0.4,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.92,
-      "change_pct": -2.99,
+      "price": 92.89,
+      "change_pct": -3.02,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 79,
-    "declines": 97,
+    "advances": 72,
+    "declines": 103,
     "total": 176
   }
 };
