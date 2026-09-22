@@ -2,22 +2,32 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23150,
-  "nifty_resistance": 23550,
+  "nifty_resistance": 23500,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $93.00.",
-    "Universe breadth shows 78 advancing vs 98 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
+    "US Markets closed up 1.49% with Brent Crude hovering around $93.01.",
+    "Universe breadth shows 80 advancing vs 96 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
   ],
   "top_setups": [
     {
+      "symbol": "SHARDAMOTR",
+      "name": "Sharda Motor Industries Ltd",
+      "current_price": 982.2,
+      "trigger": 973.89,
+      "target1": 1128.33,
+      "sl": 876.99,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
+      "change_pct": 1.57
+    },
+    {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 294.8,
+      "current_price": 292.75,
       "trigger": 290.23,
-      "target1": 327.91,
-      "sl": 270.96,
+      "target1": 324.55,
+      "sl": 269.85,
       "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
-      "change_pct": 10.68
+      "change_pct": 9.91
     },
     {
       "symbol": "DELTACORP",
@@ -28,33 +38,23 @@ window.AI_BRIEFING = {
       "sl": 56.76,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b962.56 with Accumulation structure.",
       "change_pct": 7.39
-    },
-    {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 744.1,
-      "trigger": 741.23,
-      "target1": 796.28,
-      "sl": 706.53,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
-      "change_pct": 1.79
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 07:46 AM",
+  "timestamp": "22 Sep 2026, 07:51 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23339.8,
-      "change_pct": -0.32,
+      "price": 23330.85,
+      "change_pct": -0.36,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74527.07,
-      "change_pct": -0.44,
+      "price": 74537.71,
+      "change_pct": -0.43,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.0,
-      "change_pct": -2.9,
+      "price": 93.01,
+      "change_pct": -2.89,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.82,
-      "change_pct": -0.21,
+      "change_pct": -0.2,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 78,
-    "declines": 98,
+    "advances": 80,
+    "declines": 96,
     "total": 176
   }
 };
