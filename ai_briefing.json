@@ -4,57 +4,57 @@
   "nifty_support": 23200,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $90.99.",
-    "Universe breadth shows 85 advancing vs 89 declining stocks across 176 scanned equities.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $91.30.",
+    "Universe breadth shows 85 advancing vs 90 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
       "name": "SHARDAMOTR",
-      "current_price": 982.85,
+      "current_price": 982.6,
       "trigger": 973.89,
-      "target1": 1133.16,
-      "sl": 874.62,
+      "target1": 1132.79,
+      "sl": 874.46,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 2.62
-    },
-    {
-      "symbol": "CHEMCON",
-      "name": "Chemcon Speciality Chemicals Ltd",
-      "current_price": 229.94,
-      "trigger": 228.66,
-      "target1": 263.05,
-      "sl": 206.1,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9228.66 with Accumulation structure.",
-      "change_pct": 1.83
+      "change_pct": 2.59
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 304.0,
+      "current_price": 303.9,
       "trigger": 290.23,
-      "target1": 345.12,
-      "sl": 274.4,
+      "target1": 344.94,
+      "sl": 274.35,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
-      "change_pct": 6.57
+      "change_pct": 6.54
+    },
+    {
+      "symbol": "CHEMCON",
+      "name": "Chemcon Speciality Chemicals Ltd",
+      "current_price": 226.11,
+      "trigger": 228.66,
+      "target1": 257.47,
+      "sl": 203.53,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9228.66 with Accumulation structure.",
+      "change_pct": 0.14
     }
   ],
   "risk_warning": "Defensive alert on Voltas Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 09:15 AM",
+  "timestamp": "22 Sep 2026, 09:17 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23381.3,
-      "change_pct": -0.14,
+      "price": 23374.8,
+      "change_pct": -0.17,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74743.2,
-      "change_pct": -0.15,
+      "price": 74766.85,
+      "change_pct": -0.12,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.99,
-      "change_pct": -5.0,
+      "price": 91.3,
+      "change_pct": -4.68,
       "status": "down"
     },
     "USD/INR": {
@@ -84,7 +84,7 @@
   },
   "market_breadth": {
     "advances": 85,
-    "declines": 89,
+    "declines": 90,
     "total": 176
   }
 }
