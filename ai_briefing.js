@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23150,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $91.09.",
-    "Universe breadth shows 81 advancing vs 92 declining stocks across 176 scanned equities.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $91.00.",
+    "Universe breadth shows 73 advancing vs 101 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
-      "current_price": 986.15,
+      "name": "SHARDAMOTR",
+      "current_price": 987.75,
       "trigger": 973.89,
-      "target1": 1138.12,
-      "sl": 876.73,
+      "target1": 1140.54,
+      "sl": 877.74,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 2.97
+      "change_pct": 3.13
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 303.45,
+      "current_price": 303.15,
       "trigger": 290.23,
-      "target1": 344.17,
-      "sl": 274.13,
+      "target1": 343.66,
+      "sl": 273.98,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
-      "change_pct": 6.38
+      "change_pct": 6.28
     },
     {
       "symbol": "CHEMCON",
       "name": "Chemcon Speciality Chemicals Ltd",
-      "current_price": 226.51,
+      "current_price": 226.5,
       "trigger": 228.66,
-      "target1": 258.04,
-      "sl": 203.81,
+      "target1": 258.03,
+      "sl": 203.8,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9228.66 with Accumulation structure.",
       "change_pct": 0.31
     }
   ],
   "risk_warning": "Defensive alert on Voltas Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 09:31 AM",
+  "timestamp": "22 Sep 2026, 09:45 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23355.55,
-      "change_pct": -0.25,
+      "price": 23349.5,
+      "change_pct": -0.28,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74719.45,
-      "change_pct": -0.19,
+      "price": 74662.59,
+      "change_pct": -0.26,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.09,
-      "change_pct": -4.9,
+      "price": 91.0,
+      "change_pct": -4.99,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.68,
-      "change_pct": -0.35,
+      "price": 95.61,
+      "change_pct": -0.42,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 81,
-    "declines": 92,
+    "advances": 73,
+    "declines": 101,
     "total": 176
   }
 };
