@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed up 1.49% with Brent Crude hovering around $93.12.",
-    "Universe breadth shows 102 advancing vs 74 declining stocks across 176 scanned equities.",
+    "US Markets closed up 1.49% with Brent Crude hovering around $95.78.",
+    "Universe breadth shows 111 advancing vs 65 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 742.65,
+      "current_price": 747.85,
       "trigger": 741.23,
-      "target1": 793.92,
-      "sl": 705.73,
+      "target1": 802.48,
+      "sl": 708.52,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9741.23 with Accumulation structure.",
-      "change_pct": 1.59
+      "change_pct": 2.31
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1242.1,
+      "current_price": 1248.8,
       "trigger": 1243.98,
-      "target1": 1406.26,
-      "sl": 1123.9,
+      "target1": 1416.94,
+      "sl": 1127.74,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,243.98 with Accumulation structure.",
-      "change_pct": 1.05
+      "change_pct": 1.59
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1490.0,
+      "current_price": 1480.7,
       "trigger": 1442.58,
-      "target1": 1641.22,
-      "sl": 1381.12,
+      "target1": 1626.24,
+      "sl": 1375.91,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,442.58 with Accumulation structure.",
-      "change_pct": 4.04
+      "change_pct": 3.39
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 03:46 AM",
+  "timestamp": "22 Sep 2026, 04:01 AM",
   "date_tag": "2026-09-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23459.15,
-      "change_pct": 0.19,
+      "price": 23444.8,
+      "change_pct": 0.13,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74858.99,
-      "change_pct": 0.76,
+      "price": 75026.48,
+      "change_pct": 0.22,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.12,
-      "change_pct": -7.16,
+      "price": 95.78,
+      "change_pct": -4.51,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.7,
-      "change_pct": -0.33,
+      "price": 95.75,
+      "change_pct": -0.27,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 74,
+    "advances": 111,
+    "declines": 65,
     "total": 176
   }
 };
