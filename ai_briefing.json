@@ -4,57 +4,57 @@
   "nifty_support": 23200,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $89.03.",
-    "Universe breadth shows 118 advancing vs 54 declining stocks across 176 scanned equities.",
+    "US Markets closed down 100.00% with Brent Crude hovering around $88.97.",
+    "Universe breadth shows 119 advancing vs 56 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,200 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 991.65,
+      "current_price": 988.1,
       "trigger": 973.89,
-      "target1": 1146.49,
-      "sl": 880.17,
+      "target1": 1141.07,
+      "sl": 877.96,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 3.54
+      "change_pct": 3.17
     },
     {
       "symbol": "ELECON",
       "name": "Elecon Engineering Company Ltd",
-      "current_price": 450.85,
+      "current_price": 452.55,
       "trigger": 457.91,
-      "target1": 490.9,
-      "sl": 422.01,
+      "target1": 493.8,
+      "sl": 422.85,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9457.91 with Accumulation structure.",
-      "change_pct": 9.05
+      "change_pct": 9.46
     },
     {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1467.0,
-      "trigger": 1498.09,
-      "target1": 1595.93,
-      "sl": 1374.17,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,498.09 with Accumulation structure.",
-      "change_pct": 0.34
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "current_price": 740.35,
+      "trigger": 750.8,
+      "target1": 800.34,
+      "sl": 697.16,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9750.80 with Accumulation structure.",
+      "change_pct": 0.24
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 04:30 AM",
+  "timestamp": "23 Sep 2026, 04:45 AM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23377.75,
-      "change_pct": -0.16,
+      "price": 23372.8,
+      "change_pct": -0.18,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74701.03,
-      "change_pct": -0.21,
+      "price": 74708.34,
+      "change_pct": -0.2,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.03,
-      "change_pct": -5.88,
+      "price": 88.97,
+      "change_pct": -5.94,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.62,
-      "change_pct": -0.1,
+      "change_pct": -0.09,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 118,
-    "declines": 54,
+    "advances": 119,
+    "declines": 56,
     "total": 176
   }
 }
