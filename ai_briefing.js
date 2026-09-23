@@ -4,58 +4,58 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $89.51.",
-    "Universe breadth shows 121 advancing vs 54 declining stocks across 176 scanned equities.",
+    "US Markets closed down 100.00% with Brent Crude hovering around $89.42.",
+    "Universe breadth shows 126 advancing vs 49 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "IDFCFIRSTB",
       "name": "IDFC First Bank Ltd",
-      "current_price": 89.5,
+      "current_price": 88.95,
       "trigger": 88.28,
-      "target1": 93.51,
-      "sl": 86.61,
+      "target1": 92.53,
+      "sl": 86.37,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b988.28 with Accumulation structure.",
-      "change_pct": 4.84
+      "change_pct": 4.19
+    },
+    {
+      "symbol": "KROSS",
+      "name": "Kross Ltd",
+      "current_price": 275.0,
+      "trigger": 263.11,
+      "target1": 344.26,
+      "sl": 225.13,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9263.11 with Accumulation structure.",
+      "change_pct": 7.37
     },
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 979.75,
+      "current_price": 979.15,
       "trigger": 973.89,
-      "target1": 1128.55,
-      "sl": 872.61,
+      "target1": 1127.67,
+      "sl": 872.22,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 2.3
-    },
-    {
-      "symbol": "ELECON",
-      "name": "Elecon Engineering Company Ltd",
-      "current_price": 475.0,
-      "trigger": 457.91,
-      "target1": 534.14,
-      "sl": 432.42,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9457.91 with Accumulation structure.",
-      "change_pct": 14.89
+      "change_pct": 2.23
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 05:45 AM",
+  "timestamp": "23 Sep 2026, 06:01 AM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23429.35,
-      "change_pct": 0.06,
+      "price": 23433.3,
+      "change_pct": 0.08,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74809.1,
-      "change_pct": -0.07,
-      "status": "down"
+      "price": 74873.21,
+      "change_pct": 0.02,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.51,
-      "change_pct": -5.37,
+      "price": 89.42,
+      "change_pct": -5.47,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.68,
-      "change_pct": -0.04,
+      "change_pct": -0.03,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 121,
-    "declines": 54,
+    "advances": 126,
+    "declines": 49,
     "total": 176
   }
 };
