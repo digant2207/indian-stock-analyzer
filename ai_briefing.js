@@ -1,24 +1,14 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23150,
-  "nifty_resistance": 23500,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 23250,
+  "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed up 0.06% with Brent Crude hovering around $90.52.",
-    "Universe breadth shows 80 advancing vs 95 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "US Markets closed up 0.00% with Brent Crude hovering around $89.74.",
+    "Universe breadth shows 73 advancing vs 102 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
-    {
-      "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
-      "current_price": 985.75,
-      "trigger": 973.89,
-      "target1": 1137.52,
-      "sl": 876.48,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 2.92
-    },
     {
       "symbol": "DCW",
       "name": "DCW Ltd",
@@ -38,53 +28,63 @@ window.AI_BRIEFING = {
       "sl": 273.69,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9290.23 with Accumulation structure.",
       "change_pct": 6.06
+    },
+    {
+      "symbol": "EDELWEISS",
+      "name": "Edelweiss Financial Services Ltd",
+      "current_price": 141.16,
+      "trigger": 143.24,
+      "target1": 156.67,
+      "sl": 129.99,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9143.24 with Accumulation structure.",
+      "change_pct": 1.18
     }
   ],
   "risk_warning": "Defensive alert on Voltas Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Sep 2026, 01:55 PM",
-  "date_tag": "2026-09-22",
+  "timestamp": "23 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23329.0,
-      "change_pct": -0.36,
-      "status": "down"
+      "price": 23414.3,
+      "change_pct": 0.29,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74529.08,
-      "change_pct": -0.44,
-      "status": "down"
+      "price": 74858.99,
+      "change_pct": 0.76,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7769.39,
-      "change_pct": 0.06,
+      "price": 7764.64,
+      "change_pct": -0.0,
       "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 27225.29,
-      "change_pct": 0.38,
+      "price": 27244.28,
+      "change_pct": 0.45,
       "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.52,
-      "change_pct": -5.49,
+      "price": 89.74,
+      "change_pct": -6.31,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.58,
-      "change_pct": -0.45,
+      "price": 95.57,
+      "change_pct": -0.15,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 80,
-    "declines": 95,
+    "advances": 73,
+    "declines": 102,
     "total": 176
   }
 };
