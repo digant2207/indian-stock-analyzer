@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $89.71.",
+    "US Markets closed down 100.00% with Brent Crude hovering around $89.70.",
     "Universe breadth shows 126 advancing vs 49 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
@@ -12,22 +12,22 @@ window.AI_BRIEFING = {
     {
       "symbol": "DCW",
       "name": "DCW Ltd",
-      "current_price": 50.94,
+      "current_price": 50.95,
       "trigger": 49.18,
-      "target1": 57.39,
-      "sl": 46.29,
+      "target1": 57.41,
+      "sl": 46.3,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b949.18 with Accumulation structure.",
-      "change_pct": 6.08
+      "change_pct": 6.1
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 275.92,
+      "current_price": 280.97,
       "trigger": 263.11,
-      "target1": 345.72,
-      "sl": 225.66,
+      "target1": 353.86,
+      "sl": 228.49,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9263.11 with Accumulation structure.",
-      "change_pct": 7.73
+      "change_pct": 9.7
     },
     {
       "symbol": "SHARDAMOTR",
@@ -40,21 +40,21 @@ window.AI_BRIEFING = {
       "change_pct": 1.52
     }
   ],
-  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 07:31 AM",
+  "timestamp": "23 Sep 2026, 07:45 AM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23452.15,
-      "change_pct": 0.16,
+      "price": 23446.85,
+      "change_pct": 0.14,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74925.53,
-      "change_pct": 0.09,
+      "price": 74917.86,
+      "change_pct": 0.08,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.71,
-      "change_pct": -5.16,
+      "price": 89.7,
+      "change_pct": -5.17,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.74,
-      "change_pct": 0.03,
+      "price": 95.72,
+      "change_pct": 0.01,
       "status": "up"
     }
   },
