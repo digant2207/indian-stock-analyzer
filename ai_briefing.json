@@ -4,57 +4,57 @@
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $89.34.",
-    "Universe breadth shows 123 advancing vs 52 declining stocks across 176 scanned equities.",
+    "US Markets closed down 100.00% with Brent Crude hovering around $89.32.",
+    "Universe breadth shows 126 advancing vs 48 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
     {
-      "symbol": "IDFCFIRSTB",
-      "name": "IDFC First Bank Ltd",
-      "current_price": 88.15,
-      "trigger": 88.28,
-      "target1": 91.15,
-      "sl": 85.99,
-      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b988.28 with Accumulation structure.",
-      "change_pct": 3.26
-    },
-    {
       "symbol": "DCW",
       "name": "DCW Ltd",
-      "current_price": 50.85,
+      "current_price": 50.9,
       "trigger": 49.18,
-      "target1": 57.24,
-      "sl": 46.25,
+      "target1": 57.32,
+      "sl": 46.27,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b949.18 with Accumulation structure.",
-      "change_pct": 5.89
+      "change_pct": 6.0
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 275.44,
+      "current_price": 275.05,
       "trigger": 263.11,
-      "target1": 344.96,
-      "sl": 225.39,
+      "target1": 344.34,
+      "sl": 225.16,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9263.11 with Accumulation structure.",
-      "change_pct": 7.54
+      "change_pct": 7.39
+    },
+    {
+      "symbol": "SHARDAMOTR",
+      "name": "Sharda Motor Industries Ltd",
+      "current_price": 973.4,
+      "trigger": 973.89,
+      "target1": 1119.25,
+      "sl": 868.39,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
+      "change_pct": 1.63
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 06:45 AM",
+  "timestamp": "23 Sep 2026, 07:01 AM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23457.45,
-      "change_pct": 0.18,
+      "price": 23447.1,
+      "change_pct": 0.14,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74859.5,
-      "change_pct": 0.0,
+      "price": 74946.68,
+      "change_pct": 0.12,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.34,
-      "change_pct": -5.55,
+      "price": 89.32,
+      "change_pct": -5.57,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 123,
-    "declines": 52,
+    "advances": 126,
+    "declines": 48,
     "total": 176
   }
 }
