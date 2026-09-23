@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $89.99.",
+    "US Markets closed down 0.50% with Brent Crude hovering around $91.91.",
     "Universe breadth shows 125 advancing vs 51 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 11:15 AM",
+  "timestamp": "23 Sep 2026, 02:12 PM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
@@ -59,26 +59,26 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 0.0,
-      "change_pct": -100.0,
+      "price": 7725.66,
+      "change_pct": -0.5,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 0.0,
-      "change_pct": -100.0,
+      "price": 26990.79,
+      "change_pct": -0.48,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.99,
-      "change_pct": -4.86,
+      "price": 91.91,
+      "change_pct": -2.83,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.74,
-      "change_pct": 0.03,
+      "price": 95.73,
+      "change_pct": 0.02,
       "status": "up"
     }
   },
