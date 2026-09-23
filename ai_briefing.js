@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $89.82.",
-    "Universe breadth shows 121 advancing vs 53 declining stocks across 176 scanned equities.",
+    "US Markets closed down 100.00% with Brent Crude hovering around $89.93.",
+    "Universe breadth shows 121 advancing vs 54 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 279.7,
+      "current_price": 279.09,
       "trigger": 263.11,
-      "target1": 351.8,
-      "sl": 227.79,
+      "target1": 350.81,
+      "sl": 227.45,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9263.11 with Accumulation structure.",
-      "change_pct": 9.2
+      "change_pct": 8.96
     },
     {
       "symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd",
-      "current_price": 972.75,
+      "current_price": 974.5,
       "trigger": 973.89,
-      "target1": 1118.31,
-      "sl": 867.95,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 1.57
+      "target1": 1120.85,
+      "sl": 869.13,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
+      "change_pct": 1.75
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 08:01 AM",
+  "timestamp": "23 Sep 2026, 08:16 AM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23435.55,
-      "change_pct": 0.09,
+      "price": 23431.8,
+      "change_pct": 0.07,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74901.58,
-      "change_pct": 0.06,
+      "price": 74860.82,
+      "change_pct": 0.0,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.82,
-      "change_pct": -5.04,
+      "price": 89.93,
+      "change_pct": -4.93,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.71,
-      "change_pct": 0.0,
+      "price": 95.73,
+      "change_pct": 0.02,
       "status": "up"
     }
   },
   "market_breadth": {
     "advances": 121,
-    "declines": 53,
+    "declines": 54,
     "total": 176
   }
 };
