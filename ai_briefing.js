@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23250,
-  "nifty_resistance": 23650,
+  "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $90.04.",
-    "Universe breadth shows 126 advancing vs 49 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
+    "US Markets closed down 100.00% with Brent Crude hovering around $90.06.",
+    "Universe breadth shows 124 advancing vs 50 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 831.25,
+      "current_price": 832.1,
       "trigger": 826.25,
-      "target1": 886.83,
-      "sl": 791.23,
+      "target1": 888.23,
+      "sl": 791.68,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9826.25 with Accumulation structure.",
-      "change_pct": 2.75
+      "change_pct": 2.86
     },
     {
       "symbol": "DCW",
       "name": "DCW Ltd",
-      "current_price": 50.09,
+      "current_price": 50.06,
       "trigger": 49.18,
-      "target1": 55.99,
-      "sl": 45.84,
+      "target1": 55.94,
+      "sl": 45.82,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b949.18 with Accumulation structure.",
-      "change_pct": 4.31
+      "change_pct": 4.25
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 275.34,
+      "current_price": 274.28,
       "trigger": 263.11,
-      "target1": 344.8,
-      "sl": 225.33,
+      "target1": 343.12,
+      "sl": 224.72,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9263.11 with Accumulation structure.",
-      "change_pct": 7.5
+      "change_pct": 7.09
     }
   ],
-  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 09:00 AM",
+  "timestamp": "23 Sep 2026, 09:15 AM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23459.9,
-      "change_pct": 0.19,
+      "price": 23431.5,
+      "change_pct": 0.07,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74887.63,
-      "change_pct": 0.04,
+      "price": 74911.92,
+      "change_pct": 0.07,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.04,
-      "change_pct": -4.81,
+      "price": 90.06,
+      "change_pct": -4.79,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.73,
-      "change_pct": 0.02,
+      "price": 95.71,
+      "change_pct": -0.0,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 126,
-    "declines": 49,
+    "advances": 124,
+    "declines": 50,
     "total": 176
   }
 };
