@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23250,
-  "nifty_resistance": 23650,
+  "nifty_resistance": 23600,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $89.18.",
-    "Universe breadth shows 122 advancing vs 53 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
+    "US Markets closed down 100.00% with Brent Crude hovering around $89.26.",
+    "Universe breadth shows 123 advancing vs 52 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,600."
   ],
   "top_setups": [
     {
       "symbol": "IDFCFIRSTB",
       "name": "IDFC First Bank Ltd",
-      "current_price": 88.63,
+      "current_price": 88.28,
       "trigger": 88.28,
-      "target1": 91.97,
-      "sl": 86.23,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b988.28 with Accumulation structure.",
-      "change_pct": 3.82
+      "target1": 91.37,
+      "sl": 86.06,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b988.28 with Accumulation structure.",
+      "change_pct": 3.41
+    },
+    {
+      "symbol": "DCW",
+      "name": "DCW Ltd",
+      "current_price": 50.9,
+      "trigger": 49.18,
+      "target1": 57.32,
+      "sl": 46.27,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b949.18 with Accumulation structure.",
+      "change_pct": 6.0
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 275.1,
+      "current_price": 273.4,
       "trigger": 263.11,
-      "target1": 344.42,
-      "sl": 225.19,
+      "target1": 341.73,
+      "sl": 224.2,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9263.11 with Accumulation structure.",
-      "change_pct": 7.41
-    },
-    {
-      "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
-      "current_price": 979.45,
-      "trigger": 973.89,
-      "target1": 1128.11,
-      "sl": 872.42,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 2.27
+      "change_pct": 6.74
     }
   ],
-  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 06:16 AM",
+  "timestamp": "23 Sep 2026, 06:31 AM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23439.75,
-      "change_pct": 0.11,
+      "price": 23433.55,
+      "change_pct": 0.08,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74879.35,
-      "change_pct": 0.03,
+      "price": 74895.4,
+      "change_pct": 0.05,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.18,
-      "change_pct": -5.72,
+      "price": 89.26,
+      "change_pct": -5.63,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.68,
-      "change_pct": -0.03,
-      "status": "down"
+      "price": 95.71,
+      "change_pct": 0.0,
+      "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 122,
-    "declines": 53,
+    "advances": 123,
+    "declines": 52,
     "total": 176
   }
 };
