@@ -4,58 +4,58 @@ window.AI_BRIEFING = {
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed down 100.00% with Brent Crude hovering around $90.45.",
-    "Universe breadth shows 126 advancing vs 48 declining stocks across 176 scanned equities.",
+    "US Markets closed down 100.00% with Brent Crude hovering around $90.04.",
+    "Universe breadth shows 126 advancing vs 49 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
     {
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 831.25,
+      "trigger": 826.25,
+      "target1": 886.83,
+      "sl": 791.23,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9826.25 with Accumulation structure.",
+      "change_pct": 2.75
+    },
+    {
       "symbol": "DCW",
       "name": "DCW Ltd",
-      "current_price": 50.51,
+      "current_price": 50.09,
       "trigger": 49.18,
-      "target1": 56.68,
-      "sl": 46.07,
+      "target1": 55.99,
+      "sl": 45.84,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b949.18 with Accumulation structure.",
-      "change_pct": 5.19
+      "change_pct": 4.31
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 277.59,
+      "current_price": 275.34,
       "trigger": 263.11,
-      "target1": 348.39,
-      "sl": 226.61,
+      "target1": 344.8,
+      "sl": 225.33,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9263.11 with Accumulation structure.",
-      "change_pct": 8.38
-    },
-    {
-      "symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
-      "current_price": 978.95,
-      "trigger": 973.89,
-      "target1": 1127.37,
-      "sl": 872.09,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9973.89 with Accumulation structure.",
-      "change_pct": 2.21
+      "change_pct": 7.5
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 08:48 AM",
+  "timestamp": "23 Sep 2026, 09:00 AM",
   "date_tag": "2026-09-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23444.95,
-      "change_pct": 0.13,
+      "price": 23459.9,
+      "change_pct": 0.19,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74823.45,
-      "change_pct": -0.05,
-      "status": "down"
+      "price": 74887.63,
+      "change_pct": 0.04,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.45,
-      "change_pct": -4.38,
+      "price": 90.04,
+      "change_pct": -4.81,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.72,
-      "change_pct": 0.01,
+      "price": 95.73,
+      "change_pct": 0.02,
       "status": "up"
     }
   },
   "market_breadth": {
     "advances": 126,
-    "declines": 48,
+    "declines": 49,
     "total": 176
   }
 };
