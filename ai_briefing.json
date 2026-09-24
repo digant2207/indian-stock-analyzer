@@ -4,8 +4,8 @@
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $91.91.",
-    "Universe breadth shows 125 advancing vs 51 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.76% with Brent Crude hovering around $91.31.",
+    "Universe breadth shows 111 advancing vs 64 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@
       "change_pct": 8.76
     }
   ],
-  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Sep 2026, 02:12 PM",
-  "date_tag": "2026-09-23",
+  "timestamp": "24 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7725.66,
-      "change_pct": -0.5,
+      "price": 7706.03,
+      "change_pct": -0.76,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26990.79,
-      "change_pct": -0.48,
+      "price": 26936.04,
+      "change_pct": -0.69,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.91,
-      "change_pct": -2.83,
+      "price": 91.31,
+      "change_pct": -3.47,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.73,
-      "change_pct": 0.02,
+      "price": 95.82,
+      "change_pct": 0.14,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 125,
-    "declines": 51,
+    "advances": 111,
+    "declines": 64,
     "total": 176
   }
 }
