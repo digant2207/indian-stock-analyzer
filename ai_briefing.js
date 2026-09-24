@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $91.45.",
-    "Universe breadth shows 53 advancing vs 122 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.76% with Brent Crude hovering around $91.46.",
+    "Universe breadth shows 58 advancing vs 118 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 74.41,
+      "current_price": 74.18,
       "trigger": 69.14,
-      "target1": 96.72,
-      "sl": 58.35,
+      "target1": 96.32,
+      "sl": 58.24,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b969.14 with Accumulation structure.",
-      "change_pct": 8.39
+      "change_pct": 8.06
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1482.8,
+      "current_price": 1483.0,
       "trigger": 1498.09,
-      "target1": 1624.81,
-      "sl": 1380.55,
+      "target1": 1625.09,
+      "sl": 1380.69,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,498.09 with Accumulation structure.",
-      "change_pct": -0.07
+      "change_pct": -0.05
     },
     {
-      "symbol": "NDRAUTO",
-      "name": "NDR Auto Components Ltd",
-      "current_price": 776.0,
-      "trigger": 769.19,
-      "target1": 878.1,
-      "sl": 702.49,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9769.19 with Accumulation structure.",
-      "change_pct": 3.03
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 117.52,
+      "trigger": 119.64,
+      "target1": 121.04,
+      "sl": 114.99,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9119.64 with Accumulation structure.",
+      "change_pct": -0.66
     }
   ],
   "risk_warning": "Defensive alert on Max Financial Services, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 04:45 AM",
+  "timestamp": "24 Sep 2026, 05:01 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23216.9,
-      "change_pct": -0.98,
+      "price": 23213.2,
+      "change_pct": -1.0,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74166.65,
-      "change_pct": -0.88,
+      "price": 74123.92,
+      "change_pct": -0.94,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.45,
-      "change_pct": -0.77,
+      "price": 91.46,
+      "change_pct": -0.76,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.89,
-      "change_pct": 0.21,
+      "price": 95.88,
+      "change_pct": 0.2,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 53,
-    "declines": 122,
+    "advances": 58,
+    "declines": 118,
     "total": 176
   }
 };
