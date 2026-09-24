@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22900,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $93.35.",
+    "US Markets closed down 0.76% with Brent Crude hovering around $93.07.",
     "Universe breadth shows 30 advancing vs 145 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Max Financial Services due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 10:31 AM",
+  "timestamp": "24 Sep 2026, 10:46 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.35,
-      "change_pct": 1.29,
+      "price": 93.07,
+      "change_pct": 0.99,
       "status": "up"
     },
     "USD/INR": {
