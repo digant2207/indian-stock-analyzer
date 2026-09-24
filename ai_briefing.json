@@ -4,57 +4,57 @@
   "nifty_support": 22900,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $94.13.",
-    "Universe breadth shows 38 advancing vs 138 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.76% with Brent Crude hovering around $94.30.",
+    "Universe breadth shows 31 advancing vs 143 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.63,
+      "current_price": 138.9,
       "trigger": 138.06,
-      "target1": 153.24,
-      "sl": 128.11,
+      "target1": 153.69,
+      "sl": 128.25,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9138.06 with Accumulation structure.",
-      "change_pct": 7.01
+      "change_pct": 7.22
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3433.4,
+      "current_price": 3432.7,
       "trigger": 3406.8,
-      "target1": 3688.21,
-      "sl": 3249.94,
+      "target1": 3687.12,
+      "sl": 3249.52,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b93,406.80 with Accumulation structure.",
-      "change_pct": 1.76
+      "change_pct": 1.74
     },
     {
       "symbol": "NDRAUTO",
       "name": "NDR Auto Components Ltd",
       "current_price": 765.0,
-      "trigger": 769.19,
-      "target1": 861.02,
-      "sl": 695.87,
-      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b9769.19 with Accumulation structure.",
-      "change_pct": 1.57
+      "trigger": 770.94,
+      "target1": 871.36,
+      "sl": 688.42,
+      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b9770.94 with Accumulation structure.",
+      "change_pct": 0.24
     }
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Max Financial Services due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 08:43 AM",
+  "timestamp": "24 Sep 2026, 08:45 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23071.65,
-      "change_pct": -1.6,
+      "price": 23074.95,
+      "change_pct": -1.59,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73613.51,
-      "change_pct": -1.62,
+      "price": 73622.59,
+      "change_pct": -1.61,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.13,
-      "change_pct": 2.14,
+      "price": 94.3,
+      "change_pct": 2.32,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.94,
-      "change_pct": 0.26,
+      "price": 95.95,
+      "change_pct": 0.27,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 38,
-    "declines": 138,
+    "advances": 31,
+    "declines": 143,
     "total": 176
   }
 }
