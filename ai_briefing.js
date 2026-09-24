@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $91.46.",
-    "Universe breadth shows 58 advancing vs 118 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.76% with Brent Crude hovering around $91.48.",
+    "Universe breadth shows 67 advancing vs 109 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 74.18,
+      "current_price": 73.95,
       "trigger": 69.14,
-      "target1": 96.32,
-      "sl": 58.24,
+      "target1": 95.93,
+      "sl": 58.12,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b969.14 with Accumulation structure.",
-      "change_pct": 8.06
+      "change_pct": 7.72
+    },
+    {
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 835.55,
+      "trigger": 837.16,
+      "target1": 903.39,
+      "sl": 786.7,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9837.16 with Accumulation structure.",
+      "change_pct": 0.31
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1483.0,
+      "current_price": 1488.5,
       "trigger": 1498.09,
-      "target1": 1625.09,
-      "sl": 1380.69,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,498.09 with Accumulation structure.",
-      "change_pct": -0.05
-    },
-    {
-      "symbol": "PNB",
-      "name": "Punjab National Bank",
-      "current_price": 117.52,
-      "trigger": 119.64,
-      "target1": 121.04,
-      "sl": 114.99,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9119.64 with Accumulation structure.",
-      "change_pct": -0.66
+      "target1": 1632.98,
+      "sl": 1384.48,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b91,498.09 with Accumulation structure.",
+      "change_pct": 0.32
     }
   ],
   "risk_warning": "Defensive alert on Max Financial Services, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 05:01 AM",
+  "timestamp": "24 Sep 2026, 05:15 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23213.2,
-      "change_pct": -1.0,
+      "price": 23221.45,
+      "change_pct": -0.96,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74123.92,
-      "change_pct": -0.94,
+      "price": 74109.7,
+      "change_pct": -0.96,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.46,
-      "change_pct": -0.76,
+      "price": 91.48,
+      "change_pct": -0.74,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 58,
-    "declines": 118,
+    "advances": 67,
+    "declines": 109,
     "total": 176
   }
 };
