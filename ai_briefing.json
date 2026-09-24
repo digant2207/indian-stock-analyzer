@@ -4,57 +4,57 @@
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $91.63.",
-    "Universe breadth shows 68 advancing vs 107 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.76% with Brent Crude hovering around $91.98.",
+    "Universe breadth shows 67 advancing vs 108 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
+      "symbol": "MCX",
+      "name": "Multi Commodity Exchange",
+      "current_price": 3420.3,
+      "trigger": 3406.8,
+      "target1": 3667.93,
+      "sl": 3242.01,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b93,406.80 with Accumulation structure.",
+      "change_pct": 1.37
+    },
+    {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 72.93,
+      "current_price": 73.33,
       "trigger": 69.14,
-      "target1": 94.2,
-      "sl": 57.61,
+      "target1": 94.88,
+      "sl": 57.82,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b969.14 with Accumulation structure.",
-      "change_pct": 6.23
+      "change_pct": 6.82
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 732.8,
+      "current_price": 733.5,
       "trigger": 750.8,
-      "target1": 793.66,
-      "sl": 688.98,
+      "target1": 794.55,
+      "sl": 689.55,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9750.80 with Accumulation structure.",
-      "change_pct": -0.6
-    },
-    {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 832.6,
-      "trigger": 837.16,
-      "target1": 898.9,
-      "sl": 784.87,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9837.16 with Accumulation structure.",
-      "change_pct": -0.05
+      "change_pct": -0.51
     }
   ],
   "risk_warning": "Defensive alert on Max Financial Services, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 05:45 AM",
+  "timestamp": "24 Sep 2026, 06:01 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23223.2,
-      "change_pct": -0.95,
+      "price": 23218.5,
+      "change_pct": -0.97,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74181.44,
-      "change_pct": -0.86,
+      "price": 74160.11,
+      "change_pct": -0.89,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.63,
-      "change_pct": -0.58,
+      "price": 91.98,
+      "change_pct": -0.2,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.89,
-      "change_pct": 0.21,
+      "price": 95.91,
+      "change_pct": 0.23,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 68,
-    "declines": 107,
+    "advances": 67,
+    "declines": 108,
     "total": 176
   }
 }
