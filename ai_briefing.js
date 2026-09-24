@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $91.43.",
-    "Universe breadth shows 51 advancing vs 124 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.76% with Brent Crude hovering around $91.48.",
+    "Universe breadth shows 48 advancing vs 126 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1473.1,
+      "current_price": 1481.2,
       "trigger": 1498.09,
-      "target1": 1611.31,
-      "sl": 1373.59,
+      "target1": 1622.55,
+      "sl": 1379.43,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,498.09 with Accumulation structure.",
-      "change_pct": -0.72
+      "change_pct": -0.18
     },
     {
-      "symbol": "PNB",
-      "name": "Punjab National Bank",
-      "current_price": 117.44,
-      "trigger": 119.64,
-      "target1": 120.94,
-      "sl": 114.92,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9119.64 with Accumulation structure.",
-      "change_pct": -0.73
+      "symbol": "NDRAUTO",
+      "name": "NDR Auto Components Ltd",
+      "current_price": 777.15,
+      "trigger": 769.19,
+      "target1": 879.93,
+      "sl": 703.15,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9769.19 with Accumulation structure.",
+      "change_pct": 3.18
     }
   ],
   "risk_warning": "Defensive alert on Max Financial Services, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 04:15 AM",
+  "timestamp": "24 Sep 2026, 04:30 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23227.0,
+      "price": 23226.0,
       "change_pct": -0.94,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74261.85,
-      "change_pct": -0.76,
+      "price": 74168.78,
+      "change_pct": -0.88,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.43,
-      "change_pct": -0.79,
+      "price": 91.48,
+      "change_pct": -0.74,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.84,
-      "change_pct": 0.16,
+      "price": 95.88,
+      "change_pct": 0.2,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 51,
-    "declines": 124,
+    "advances": 48,
+    "declines": 126,
     "total": 176
   }
 };
