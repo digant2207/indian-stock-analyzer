@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22900,
-  "nifty_resistance": 23250,
+  "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $94.43.",
-    "Universe breadth shows 28 advancing vs 147 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
+    "US Markets closed down 0.76% with Brent Crude hovering around $94.11.",
+    "Universe breadth shows 30 advancing vs 146 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.4,
+      "current_price": 138.31,
       "trigger": 138.06,
-      "target1": 152.86,
-      "sl": 127.99,
+      "target1": 152.71,
+      "sl": 127.94,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9138.06 with Accumulation structure.",
-      "change_pct": 6.83
+      "change_pct": 6.76
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3419.0,
+      "current_price": 3427.9,
       "trigger": 3406.8,
-      "target1": 3665.94,
-      "sl": 3241.2,
+      "target1": 3679.64,
+      "sl": 3246.65,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b93,406.80 with Accumulation structure.",
-      "change_pct": 1.33
+      "change_pct": 1.6
     },
     {
       "symbol": "NDRAUTO",
       "name": "NDR Auto Components Ltd",
-      "current_price": 765.1,
+      "current_price": 763.0,
       "trigger": 770.94,
-      "target1": 871.5,
-      "sl": 688.49,
+      "target1": 868.49,
+      "sl": 687.05,
       "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b9770.94 with Accumulation structure.",
-      "change_pct": 0.26
+      "change_pct": -0.02
     }
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Max Financial Services due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 09:01 AM",
+  "timestamp": "24 Sep 2026, 09:15 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23062.05,
-      "change_pct": -1.64,
+      "price": 23093.7,
+      "change_pct": -1.51,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73664.42,
-      "change_pct": -1.56,
+      "price": 73624.41,
+      "change_pct": -1.61,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.43,
-      "change_pct": 2.46,
+      "price": 94.11,
+      "change_pct": 2.12,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": 0.25,
+      "price": 95.92,
+      "change_pct": 0.24,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 28,
-    "declines": 147,
+    "advances": 30,
+    "declines": 146,
     "total": 176
   }
 };
