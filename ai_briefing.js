@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 23000,
+  "nifty_support": 22950,
   "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $92.26.",
-    "Universe breadth shows 61 advancing vs 113 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,000 | Resistance cap at 23,350."
+    "US Markets closed down 0.76% with Brent Crude hovering around $92.28.",
+    "Universe breadth shows 53 advancing vs 123 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
   "top_setups": [
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 139.3,
+      "current_price": 138.44,
       "trigger": 138.06,
-      "target1": 154.37,
-      "sl": 128.45,
+      "target1": 152.93,
+      "sl": 128.01,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9138.06 with Accumulation structure.",
-      "change_pct": 7.53
+      "change_pct": 6.86
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3464.1,
+      "current_price": 3465.5,
       "trigger": 3406.8,
-      "target1": 3737.3,
-      "sl": 3267.4,
+      "target1": 3739.58,
+      "sl": 3268.16,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b93,406.80 with Accumulation structure.",
-      "change_pct": 2.67
+      "change_pct": 2.71
     },
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 164.25,
+      "current_price": 163.92,
       "trigger": 167.97,
-      "target1": 176.51,
-      "sl": 155.42,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9167.97 with Accumulation structure.",
-      "change_pct": 1.87
+      "target1": 175.98,
+      "sl": 155.24,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9167.97 with Accumulation structure.",
+      "change_pct": 1.67
     }
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Max Financial Services due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 07:45 AM",
+  "timestamp": "24 Sep 2026, 08:01 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23184.55,
-      "change_pct": -1.12,
+      "price": 23151.5,
+      "change_pct": -1.26,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73963.03,
-      "change_pct": -1.16,
+      "price": 74023.21,
+      "change_pct": -1.08,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.26,
-      "change_pct": 0.11,
+      "price": 92.28,
+      "change_pct": 0.13,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 61,
-    "declines": 113,
+    "advances": 53,
+    "declines": 123,
     "total": 176
   }
 };
