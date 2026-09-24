@@ -1,55 +1,55 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23250,
-  "nifty_resistance": 23650,
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "nifty_support": 23050,
+  "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $91.31.",
-    "Universe breadth shows 111 advancing vs 64 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
+    "US Markets closed down 0.76% with Brent Crude hovering around $91.39.",
+    "Universe breadth shows 45 advancing vs 131 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 833.0,
-      "trigger": 826.25,
-      "target1": 889.72,
-      "sl": 792.16,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9826.25 with Accumulation structure.",
-      "change_pct": 2.97
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1479.4,
+      "trigger": 1498.09,
+      "target1": 1620.02,
+      "sl": 1378.15,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,498.09 with Accumulation structure.",
+      "change_pct": -0.3
     },
     {
-      "symbol": "DCW",
-      "name": "DCW Ltd",
-      "current_price": 50.02,
-      "trigger": 49.18,
-      "target1": 55.88,
-      "sl": 45.8,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b949.18 with Accumulation structure.",
-      "change_pct": 4.16
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 118.39,
+      "trigger": 119.64,
+      "target1": 122.2,
+      "sl": 115.65,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9119.64 with Accumulation structure.",
+      "change_pct": 0.08
     },
     {
-      "symbol": "KROSS",
-      "name": "Kross Ltd",
-      "current_price": 278.56,
-      "trigger": 263.11,
-      "target1": 349.95,
-      "sl": 227.16,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9263.11 with Accumulation structure.",
-      "change_pct": 8.76
+      "symbol": "VIJAYA",
+      "name": "Vijaya Diagnostic Centre Ltd",
+      "current_price": 1561.5,
+      "trigger": 1596.79,
+      "target1": 1708.65,
+      "sl": 1455.55,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,596.79 with Accumulation structure.",
+      "change_pct": -0.59
     }
   ],
-  "risk_warning": "Defensive alert on Tata Communications, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 03:31 AM",
+  "timestamp": "24 Sep 2026, 03:45 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23446.8,
-      "change_pct": 0.14,
-      "status": "up"
+      "price": 23257.2,
+      "change_pct": -0.81,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.31,
-      "change_pct": -3.47,
+      "price": 91.39,
+      "change_pct": -3.38,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.82,
-      "change_pct": 0.14,
+      "price": 95.83,
+      "change_pct": 0.15,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 111,
-    "declines": 64,
+    "advances": 45,
+    "declines": 131,
     "total": 176
   }
 };
