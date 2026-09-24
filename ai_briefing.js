@@ -4,56 +4,56 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 0.76% with Brent Crude hovering around $91.48.",
-    "Universe breadth shows 48 advancing vs 126 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.76% with Brent Crude hovering around $91.45.",
+    "Universe breadth shows 53 advancing vs 122 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 73.76,
+      "current_price": 74.41,
       "trigger": 69.14,
-      "target1": 95.61,
-      "sl": 58.03,
+      "target1": 96.72,
+      "sl": 58.35,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b969.14 with Accumulation structure.",
-      "change_pct": 7.44
+      "change_pct": 8.39
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1481.2,
+      "current_price": 1482.8,
       "trigger": 1498.09,
-      "target1": 1622.55,
-      "sl": 1379.43,
+      "target1": 1624.81,
+      "sl": 1380.55,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,498.09 with Accumulation structure.",
-      "change_pct": -0.18
+      "change_pct": -0.07
     },
     {
       "symbol": "NDRAUTO",
       "name": "NDR Auto Components Ltd",
-      "current_price": 777.15,
+      "current_price": 776.0,
       "trigger": 769.19,
-      "target1": 879.93,
-      "sl": 703.15,
+      "target1": 878.1,
+      "sl": 702.49,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9769.19 with Accumulation structure.",
-      "change_pct": 3.18
+      "change_pct": 3.03
     }
   ],
   "risk_warning": "Defensive alert on Max Financial Services, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 04:30 AM",
+  "timestamp": "24 Sep 2026, 04:45 AM",
   "date_tag": "2026-09-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23226.0,
-      "change_pct": -0.94,
+      "price": 23216.9,
+      "change_pct": -0.98,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74168.78,
+      "price": 74166.65,
       "change_pct": -0.88,
       "status": "down"
     },
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.48,
-      "change_pct": -0.74,
+      "price": 91.45,
+      "change_pct": -0.77,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.88,
-      "change_pct": 0.2,
+      "price": 95.89,
+      "change_pct": 0.21,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 48,
-    "declines": 126,
+    "advances": 53,
+    "declines": 122,
     "total": 176
   }
 };
