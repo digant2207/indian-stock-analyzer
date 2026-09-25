@@ -1,12 +1,12 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22850,
-  "nifty_resistance": 23250,
+  "nifty_support": 22900,
+  "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $93.10.",
-    "Universe breadth shows 43 advancing vs 132 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,250."
+    "US Markets closed down 0.02% with Brent Crude hovering around $93.06.",
+    "Universe breadth shows 58 advancing vs 116 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
@@ -20,40 +20,40 @@ window.AI_BRIEFING = {
       "change_pct": -0.53
     },
     {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.15,
-      "trigger": 140.36,
-      "target1": 154.49,
-      "sl": 126.39,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9140.36 with Accumulation structure.",
-      "change_pct": -0.17
+      "symbol": "REDINGTON",
+      "name": "Redington Ltd",
+      "current_price": 411.0,
+      "trigger": 420.34,
+      "target1": 453.14,
+      "sl": 380.66,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
+      "change_pct": 1.13
     },
     {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 825.2,
-      "trigger": 838.67,
-      "target1": 889.25,
-      "sl": 779.09,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 1.09
+      "symbol": "JAMNAAUTO",
+      "name": "Jamna Auto Industries Ltd",
+      "current_price": 138.03,
+      "trigger": 140.36,
+      "target1": 154.31,
+      "sl": 126.31,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9140.36 with Accumulation structure.",
+      "change_pct": -0.26
     }
   ],
-  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 04:30 AM",
+  "timestamp": "25 Sep 2026, 04:45 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23057.2,
-      "change_pct": -0.03,
-      "status": "down"
+      "price": 23101.85,
+      "change_pct": 0.17,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73589.11,
+      "price": 73589.17,
       "change_pct": 0.01,
       "status": "up"
     },
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.1,
-      "change_pct": -1.6,
+      "price": 93.06,
+      "change_pct": -1.64,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.92,
-      "change_pct": 0.19,
+      "price": 95.9,
+      "change_pct": 0.17,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 43,
-    "declines": 132,
+    "advances": 58,
+    "declines": 116,
     "total": 176
   }
 };
