@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $93.10.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.84.",
     "Universe breadth shows 75 advancing vs 99 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 11:00 AM",
+  "timestamp": "25 Sep 2026, 11:15 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.1,
-      "change_pct": -1.6,
+      "price": 92.84,
+      "change_pct": -1.87,
       "status": "down"
     },
     "USD/INR": {
