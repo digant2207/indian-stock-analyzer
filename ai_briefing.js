@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22950,
-  "nifty_resistance": 23300,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 22850,
+  "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $94.61.",
-    "Universe breadth shows 65 advancing vs 111 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
+    "US Markets closed down 0.02% with Brent Crude hovering around $93.07.",
+    "Universe breadth shows 50 advancing vs 125 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1479.2,
-      "trigger": 1501.5,
-      "target1": 1621.59,
-      "sl": 1376.68,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,501.50 with Accumulation structure.",
-      "change_pct": -0.23
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 825.0,
+      "trigger": 838.67,
+      "target1": 888.97,
+      "sl": 778.94,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
+      "change_pct": 1.07
+    },
+    {
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 162.4,
+      "trigger": 165.73,
+      "target1": 175.79,
+      "sl": 152.76,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9165.73 with Accumulation structure.",
+      "change_pct": -0.98
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3443.5,
+      "current_price": 3413.0,
       "trigger": 3483.95,
-      "target1": 3734.16,
-      "sl": 3234.22,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,483.95 with Accumulation structure.",
-      "change_pct": 0.46
-    },
-    {
-      "symbol": "REDINGTON",
-      "name": "Redington Ltd",
-      "current_price": 411.6,
-      "trigger": 420.34,
-      "target1": 453.98,
-      "sl": 381.08,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
-      "change_pct": 1.28
+      "target1": 3689.46,
+      "sl": 3213.95,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b93,483.95 with Accumulation structure.",
+      "change_pct": -0.43
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Max Financial Services, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 04:01 AM",
+  "timestamp": "25 Sep 2026, 04:15 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23119.85,
-      "change_pct": 0.25,
-      "status": "up"
+      "price": 23056.65,
+      "change_pct": -0.03,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73684.44,
-      "change_pct": 0.14,
+      "price": 73779.37,
+      "change_pct": 0.27,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.61,
-      "change_pct": 2.66,
-      "status": "up"
+      "price": 93.07,
+      "change_pct": -1.63,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
+      "price": 95.92,
       "change_pct": 0.19,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 65,
-    "declines": 111,
+    "advances": 50,
+    "declines": 125,
     "total": 176
   }
 };
