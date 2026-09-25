@@ -4,57 +4,57 @@
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.85.",
-    "Universe breadth shows 69 advancing vs 106 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.95.",
+    "Universe breadth shows 72 advancing vs 104 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 823.0,
+      "current_price": 824.25,
       "trigger": 838.67,
-      "target1": 886.22,
-      "sl": 777.48,
+      "target1": 887.93,
+      "sl": 778.4,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 0.82
+      "change_pct": 0.97
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 315.2,
+      "current_price": 315.5,
       "trigger": 307.59,
-      "target1": 381.89,
-      "sl": 267.18,
+      "target1": 382.36,
+      "sl": 267.36,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9307.59 with Accumulation structure.",
-      "change_pct": 6.25
+      "change_pct": 6.35
     },
     {
       "symbol": "HBLENGINE",
       "name": "HBL Engineering Ltd",
-      "current_price": 800.5,
+      "current_price": 802.45,
       "trigger": 787.97,
-      "target1": 898.86,
-      "sl": 729.68,
+      "target1": 901.94,
+      "sl": 730.82,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9787.97 with Accumulation structure.",
-      "change_pct": 3.25
+      "change_pct": 3.5
     }
   ],
   "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 09:30 AM",
+  "timestamp": "25 Sep 2026, 09:36 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23114.25,
-      "change_pct": 0.22,
+      "price": 23117.7,
+      "change_pct": 0.24,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73860.82,
-      "change_pct": 0.38,
+      "price": 73829.68,
+      "change_pct": 0.34,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.85,
-      "change_pct": -1.86,
+      "price": 92.95,
+      "change_pct": -1.75,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.87,
-      "change_pct": 0.13,
+      "price": 95.83,
+      "change_pct": 0.1,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 69,
-    "declines": 106,
+    "advances": 72,
+    "declines": 104,
     "total": 176
   }
 }
