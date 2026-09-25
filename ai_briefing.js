@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.70.",
-    "Universe breadth shows 81 advancing vs 95 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.28.",
+    "Universe breadth shows 80 advancing vs 95 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 825.0,
+      "current_price": 824.5,
       "trigger": 838.67,
-      "target1": 888.97,
-      "sl": 778.94,
+      "target1": 888.28,
+      "sl": 778.58,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 1.07
+      "change_pct": 1.0
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 316.65,
+      "current_price": 316.6,
       "trigger": 307.59,
-      "target1": 384.16,
-      "sl": 268.04,
+      "target1": 384.08,
+      "sl": 268.01,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9307.59 with Accumulation structure.",
-      "change_pct": 6.74
+      "change_pct": 6.73
     },
     {
       "symbol": "HBLENGINE",
       "name": "HBL Engineering Ltd",
-      "current_price": 803.65,
+      "current_price": 802.05,
       "trigger": 787.97,
-      "target1": 903.85,
-      "sl": 731.51,
+      "target1": 901.31,
+      "sl": 730.58,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9787.97 with Accumulation structure.",
-      "change_pct": 3.66
+      "change_pct": 3.45
     }
   ],
   "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 09:03 AM",
+  "timestamp": "25 Sep 2026, 09:16 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23133.2,
-      "change_pct": 0.3,
+      "price": 23122.35,
+      "change_pct": 0.26,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73875.51,
-      "change_pct": 0.4,
+      "price": 73895.72,
+      "change_pct": 0.43,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.7,
-      "change_pct": -2.02,
+      "price": 92.28,
+      "change_pct": -2.46,
       "status": "down"
     },
     "USD/INR": {
@@ -83,7 +83,7 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 81,
+    "advances": 80,
     "declines": 95,
     "total": 176
   }
