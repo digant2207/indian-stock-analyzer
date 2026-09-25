@@ -1,60 +1,60 @@
 {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.28.",
-    "Universe breadth shows 80 advancing vs 95 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.27.",
+    "Universe breadth shows 75 advancing vs 98 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 824.5,
+      "current_price": 824.6,
       "trigger": 838.67,
-      "target1": 888.28,
-      "sl": 778.58,
+      "target1": 888.42,
+      "sl": 778.65,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 1.0
+      "change_pct": 1.02
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 316.6,
+      "current_price": 317.15,
       "trigger": 307.59,
-      "target1": 384.08,
-      "sl": 268.01,
+      "target1": 384.95,
+      "sl": 268.34,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9307.59 with Accumulation structure.",
-      "change_pct": 6.73
+      "change_pct": 6.91
     },
     {
       "symbol": "HBLENGINE",
       "name": "HBL Engineering Ltd",
-      "current_price": 802.05,
+      "current_price": 801.0,
       "trigger": 787.97,
-      "target1": 901.31,
-      "sl": 730.58,
+      "target1": 899.65,
+      "sl": 729.97,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9787.97 with Accumulation structure.",
-      "change_pct": 3.45
+      "change_pct": 3.31
     }
   ],
   "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 09:16 AM",
+  "timestamp": "25 Sep 2026, 09:17 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23122.35,
-      "change_pct": 0.26,
+      "price": 23125.7,
+      "change_pct": 0.27,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73895.72,
-      "change_pct": 0.43,
+      "price": 73902.65,
+      "change_pct": 0.44,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.28,
-      "change_pct": -2.46,
+      "price": 92.27,
+      "change_pct": -2.47,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.83,
-      "change_pct": 0.09,
+      "price": 95.85,
+      "change_pct": 0.11,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 80,
-    "declines": 95,
+    "advances": 75,
+    "declines": 98,
     "total": 176
   }
 }
