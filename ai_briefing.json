@@ -4,8 +4,8 @@
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.72.",
-    "Universe breadth shows 79 advancing vs 97 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.70.",
+    "Universe breadth shows 81 advancing vs 95 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 317.3,
+      "current_price": 316.65,
       "trigger": 307.59,
-      "target1": 385.18,
-      "sl": 268.42,
+      "target1": 384.16,
+      "sl": 268.04,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9307.59 with Accumulation structure.",
-      "change_pct": 6.96
+      "change_pct": 6.74
     },
     {
       "symbol": "HBLENGINE",
       "name": "HBL Engineering Ltd",
-      "current_price": 803.0,
+      "current_price": 803.65,
       "trigger": 787.97,
-      "target1": 902.81,
-      "sl": 731.13,
+      "target1": 903.85,
+      "sl": 731.51,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9787.97 with Accumulation structure.",
-      "change_pct": 3.57
+      "change_pct": 3.66
     }
   ],
   "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 09:01 AM",
+  "timestamp": "25 Sep 2026, 09:03 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23132.4,
+      "price": 23133.2,
       "change_pct": 0.3,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73861.41,
-      "change_pct": 0.38,
+      "price": 73875.51,
+      "change_pct": 0.4,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.72,
-      "change_pct": -2.0,
+      "price": 92.7,
+      "change_pct": -2.02,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 79,
-    "declines": 97,
+    "advances": 81,
+    "declines": 95,
     "total": 176
   }
 }
