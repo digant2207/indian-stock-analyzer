@@ -4,57 +4,57 @@
   "nifty_support": 22900,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.83.",
-    "Universe breadth shows 52 advancing vs 124 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.85.",
+    "Universe breadth shows 49 advancing vs 127 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
       "symbol": "HBLENGINE",
       "name": "HBL Engineering Ltd",
-      "current_price": 799.0,
+      "current_price": 796.45,
       "trigger": 787.97,
-      "target1": 896.51,
-      "sl": 728.79,
+      "target1": 892.55,
+      "sl": 727.26,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9787.97 with Accumulation structure.",
-      "change_pct": 3.06
+      "change_pct": 2.73
+    },
+    {
+      "symbol": "DELTACORP",
+      "name": "Delta Corp Ltd",
+      "current_price": 76.2,
+      "trigger": 74.95,
+      "target1": 103.21,
+      "sl": 56.75,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b974.95 with Accumulation structure.",
+      "change_pct": 4.84
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1483.4,
+      "current_price": 1484.9,
       "trigger": 1501.5,
-      "target1": 1627.27,
-      "sl": 1379.82,
+      "target1": 1629.32,
+      "sl": 1380.92,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,501.50 with Accumulation structure.",
-      "change_pct": 0.05
-    },
-    {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 734.4,
-      "trigger": 750.8,
-      "target1": 796.21,
-      "sl": 689.9,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9750.80 with Accumulation structure.",
-      "change_pct": 0.75
+      "change_pct": 0.16
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 06:30 AM",
+  "timestamp": "25 Sep 2026, 06:45 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23078.4,
-      "change_pct": 0.07,
+      "price": 23080.5,
+      "change_pct": 0.08,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73720.63,
-      "change_pct": 0.19,
+      "price": 73712.94,
+      "change_pct": 0.18,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.83,
-      "change_pct": -1.88,
+      "price": 92.85,
+      "change_pct": -1.86,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.88,
-      "change_pct": 0.14,
+      "price": 95.89,
+      "change_pct": 0.16,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 52,
-    "declines": 124,
+    "advances": 49,
+    "declines": 127,
     "total": 176
   }
 }
