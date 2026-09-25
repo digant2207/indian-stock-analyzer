@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22900,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.64.",
-    "Universe breadth shows 47 advancing vs 129 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.69.",
+    "Universe breadth shows 48 advancing vs 128 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1483.0,
+      "current_price": 1483.2,
       "trigger": 1501.5,
-      "target1": 1626.72,
-      "sl": 1379.52,
+      "target1": 1627.0,
+      "sl": 1379.67,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,501.50 with Accumulation structure.",
-      "change_pct": 0.03
+      "change_pct": 0.04
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 733.4,
+      "current_price": 733.95,
       "trigger": 750.8,
-      "target1": 794.96,
-      "sl": 689.08,
+      "target1": 795.64,
+      "sl": 689.53,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9750.80 with Accumulation structure.",
-      "change_pct": 0.62
+      "change_pct": 0.69
     },
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.76,
+      "current_price": 138.27,
       "trigger": 140.36,
-      "target1": 155.42,
-      "sl": 126.77,
+      "target1": 154.67,
+      "sl": 126.46,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9140.36 with Accumulation structure.",
-      "change_pct": 0.27
+      "change_pct": -0.09
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 06:01 AM",
+  "timestamp": "25 Sep 2026, 06:15 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23078.5,
-      "change_pct": 0.07,
+      "price": 23082.95,
+      "change_pct": 0.09,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73726.69,
-      "change_pct": 0.2,
+      "price": 73709.61,
+      "change_pct": 0.18,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.64,
-      "change_pct": -2.08,
+      "price": 92.69,
+      "change_pct": -2.03,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.86,
-      "change_pct": 0.13,
+      "price": 95.89,
+      "change_pct": 0.15,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 47,
-    "declines": 129,
+    "advances": 48,
+    "declines": 128,
     "total": 176
   }
 };
