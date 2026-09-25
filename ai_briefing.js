@@ -1,61 +1,61 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22900,
+  "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $93.06.",
-    "Universe breadth shows 72 advancing vs 103 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,300."
+    "US Markets closed down 0.02% with Brent Crude hovering around $94.61.",
+    "Universe breadth shows 65 advancing vs 111 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1480.7,
+      "current_price": 1479.2,
       "trigger": 1501.5,
-      "target1": 1623.61,
-      "sl": 1377.81,
+      "target1": 1621.59,
+      "sl": 1376.68,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,501.50 with Accumulation structure.",
-      "change_pct": -0.13
+      "change_pct": -0.23
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3462.5,
+      "current_price": 3443.5,
       "trigger": 3483.95,
-      "target1": 3763.13,
-      "sl": 3246.05,
+      "target1": 3734.16,
+      "sl": 3234.22,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,483.95 with Accumulation structure.",
-      "change_pct": 1.02
+      "change_pct": 0.46
     },
     {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 818.7,
-      "trigger": 838.67,
-      "target1": 880.49,
-      "sl": 774.21,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 0.29
+      "symbol": "REDINGTON",
+      "name": "Redington Ltd",
+      "current_price": 411.6,
+      "trigger": 420.34,
+      "target1": 453.98,
+      "sl": 381.08,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
+      "change_pct": 1.28
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 03:46 AM",
+  "timestamp": "25 Sep 2026, 04:01 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23102.25,
-      "change_pct": 0.17,
+      "price": 23119.85,
+      "change_pct": 0.25,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73580.54,
-      "change_pct": -1.67,
-      "status": "down"
+      "price": 73684.44,
+      "change_pct": 0.14,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.06,
-      "change_pct": 0.98,
+      "price": 94.61,
+      "change_pct": 2.66,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.92,
-      "change_pct": 0.18,
+      "price": 95.93,
+      "change_pct": 0.19,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 72,
-    "declines": 103,
+    "advances": 65,
+    "declines": 111,
     "total": 176
   }
 };
