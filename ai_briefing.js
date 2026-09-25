@@ -2,54 +2,54 @@ window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22900,
-  "nifty_resistance": 23250,
+  "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.95.",
-    "Universe breadth shows 64 advancing vs 112 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
+    "US Markets closed down 0.02% with Brent Crude hovering around $93.06.",
+    "Universe breadth shows 72 advancing vs 103 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.39,
-      "trigger": 138.06,
-      "target1": 152.84,
-      "sl": 127.98,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9138.06 with Accumulation structure.",
-      "change_pct": 6.82
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1480.7,
+      "trigger": 1501.5,
+      "target1": 1623.61,
+      "sl": 1377.81,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,501.50 with Accumulation structure.",
+      "change_pct": -0.13
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3427.7,
-      "trigger": 3406.8,
-      "target1": 3679.33,
-      "sl": 3246.52,
-      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b93,406.80 with Accumulation structure.",
-      "change_pct": 1.59
+      "current_price": 3462.5,
+      "trigger": 3483.95,
+      "target1": 3763.13,
+      "sl": 3246.05,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,483.95 with Accumulation structure.",
+      "change_pct": 1.02
     },
     {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 164.01,
-      "trigger": 167.97,
-      "target1": 176.12,
-      "sl": 155.29,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9167.97 with Accumulation structure.",
-      "change_pct": 1.72
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 818.7,
+      "trigger": 838.67,
+      "target1": 880.49,
+      "sl": 774.21,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
+      "change_pct": 0.29
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 03:31 AM",
+  "timestamp": "25 Sep 2026, 03:46 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23063.1,
-      "change_pct": -1.64,
-      "status": "down"
+      "price": 23102.25,
+      "change_pct": 0.17,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.95,
-      "change_pct": 0.86,
+      "price": 93.06,
+      "change_pct": 0.98,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.9,
-      "change_pct": 0.17,
+      "price": 95.92,
+      "change_pct": 0.18,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 64,
-    "declines": 112,
+    "advances": 72,
+    "declines": 103,
     "total": 176
   }
 };
