@@ -2,11 +2,11 @@ window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 22950,
-  "nifty_resistance": 23300,
+  "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.88.",
-    "Universe breadth shows 70 advancing vs 104 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.94.",
+    "Universe breadth shows 73 advancing vs 102 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
   "top_setups": [
     {
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 317.8,
+      "current_price": 313.35,
       "trigger": 307.59,
-      "target1": 385.97,
-      "sl": 268.72,
+      "target1": 379.02,
+      "sl": 266.06,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9307.59 with Accumulation structure.",
-      "change_pct": 7.13
+      "change_pct": 5.63
     },
     {
       "symbol": "HBLENGINE",
       "name": "HBL Engineering Ltd",
-      "current_price": 800.55,
+      "current_price": 810.5,
       "trigger": 787.97,
-      "target1": 898.94,
-      "sl": 729.71,
+      "target1": 914.88,
+      "sl": 735.35,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9787.97 with Accumulation structure.",
-      "change_pct": 3.26
+      "change_pct": 4.54
     }
   ],
   "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 09:46 AM",
+  "timestamp": "25 Sep 2026, 10:01 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23128.1,
-      "change_pct": 0.28,
+      "price": 23140.5,
+      "change_pct": 0.34,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73842.16,
-      "change_pct": 0.36,
+      "price": 73828.03,
+      "change_pct": 0.34,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.88,
-      "change_pct": -1.83,
+      "price": 92.94,
+      "change_pct": -1.77,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.83,
-      "change_pct": 0.1,
+      "price": 95.81,
+      "change_pct": 0.07,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 70,
-    "declines": 104,
+    "advances": 73,
+    "declines": 102,
     "total": 176
   }
 };
