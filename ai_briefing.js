@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22900,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $92.69.",
-    "Universe breadth shows 48 advancing vs 128 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.83.",
+    "Universe breadth shows 52 advancing vs 124 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
+      "symbol": "HBLENGINE",
+      "name": "HBL Engineering Ltd",
+      "current_price": 799.0,
+      "trigger": 787.97,
+      "target1": 896.51,
+      "sl": 728.79,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9787.97 with Accumulation structure.",
+      "change_pct": 3.06
+    },
+    {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1483.2,
+      "current_price": 1483.4,
       "trigger": 1501.5,
-      "target1": 1627.0,
-      "sl": 1379.67,
+      "target1": 1627.27,
+      "sl": 1379.82,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,501.50 with Accumulation structure.",
-      "change_pct": 0.04
+      "change_pct": 0.05
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 733.95,
+      "current_price": 734.4,
       "trigger": 750.8,
-      "target1": 795.64,
-      "sl": 689.53,
+      "target1": 796.21,
+      "sl": 689.9,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9750.80 with Accumulation structure.",
-      "change_pct": 0.69
-    },
-    {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.27,
-      "trigger": 140.36,
-      "target1": 154.67,
-      "sl": 126.46,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9140.36 with Accumulation structure.",
-      "change_pct": -0.09
+      "change_pct": 0.75
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 06:15 AM",
+  "timestamp": "25 Sep 2026, 06:30 AM",
   "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23082.95,
-      "change_pct": 0.09,
+      "price": 23078.4,
+      "change_pct": 0.07,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73709.61,
-      "change_pct": 0.18,
+      "price": 73720.63,
+      "change_pct": 0.19,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.69,
-      "change_pct": -2.03,
+      "price": 92.83,
+      "change_pct": -1.88,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.89,
-      "change_pct": 0.15,
+      "price": 95.88,
+      "change_pct": 0.14,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 48,
-    "declines": 128,
+    "advances": 52,
+    "declines": 124,
     "total": 176
   }
 };
