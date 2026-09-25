@@ -4,8 +4,8 @@
   "nifty_support": 22900,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 0.31% with Brent Crude hovering around $94.22.",
-    "Universe breadth shows 30 advancing vs 145 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $92.95.",
+    "Universe breadth shows 64 advancing vs 112 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@
       "change_pct": 1.72
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, Max Financial Services due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Sep 2026, 02:00 PM",
-  "date_tag": "2026-09-24",
+  "timestamp": "25 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7682.21,
-      "change_pct": -0.31,
+      "price": 7704.13,
+      "change_pct": -0.02,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26763.97,
-      "change_pct": -0.64,
-      "status": "down"
+      "price": 26939.37,
+      "change_pct": 0.01,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.22,
-      "change_pct": 2.24,
+      "price": 92.95,
+      "change_pct": 0.86,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.94,
-      "change_pct": 0.27,
+      "price": 95.9,
+      "change_pct": 0.17,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 30,
-    "declines": 145,
+    "advances": 64,
+    "declines": 112,
     "total": 176
   }
 }
