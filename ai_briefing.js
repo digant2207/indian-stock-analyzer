@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22950,
   "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed up 0.09% with Brent Crude hovering around $93.94.",
-    "Universe breadth shows 75 advancing vs 99 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.51% with Brent Crude hovering around $92.41.",
+    "Universe breadth shows 58 advancing vs 117 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@ window.AI_BRIEFING = {
       "change_pct": 3.96
     }
   ],
-  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, Federal Bank Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Sep 2026, 02:41 PM",
-  "date_tag": "2026-09-25",
+  "timestamp": "26 Sep 2026, 07:55 AM",
+  "date_tag": "2026-09-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7710.84,
-      "change_pct": 0.09,
+      "price": 7743.41,
+      "change_pct": 0.51,
       "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26948.93,
-      "change_pct": 0.04,
+      "price": 27068.72,
+      "change_pct": 0.48,
       "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.94,
-      "change_pct": -0.71,
+      "price": 92.41,
+      "change_pct": -2.33,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.8,
-      "change_pct": 0.06,
-      "status": "up"
+      "price": 95.82,
+      "change_pct": -0.35,
+      "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 75,
-    "declines": 99,
+    "advances": 58,
+    "declines": 117,
     "total": 176
   }
 };
