@@ -5,7 +5,7 @@ window.AI_BRIEFING = {
   "nifty_resistance": 23350,
   "executive_bullets": [
     "US Markets closed up 0.51% with Brent Crude hovering around $92.41.",
-    "Universe breadth shows 58 advancing vs 117 declining stocks across 176 scanned equities.",
+    "Universe breadth shows 76 advancing vs 98 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@ window.AI_BRIEFING = {
       "change_pct": 3.96
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, Federal Bank Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Sep 2026, 07:55 AM",
-  "date_tag": "2026-09-26",
+  "timestamp": "27 Sep 2026, 08:26 AM",
+  "date_tag": "2026-09-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 58,
-    "declines": 117,
+    "advances": 76,
+    "declines": 98,
     "total": 176
   }
 };
