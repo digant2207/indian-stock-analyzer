@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22650,
-  "nifty_resistance": 23050,
+  "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $93.71.",
-    "Universe breadth shows 24 advancing vs 151 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,050."
+    "US Markets closed up 0.51% with Brent Crude hovering around $94.03.",
+    "Universe breadth shows 23 advancing vs 152 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,000."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1542.0,
+      "current_price": 1531.1,
       "trigger": 1508.01,
-      "target1": 1715.97,
-      "sl": 1416.75,
+      "target1": 1699.09,
+      "sl": 1410.15,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 2.99
+      "change_pct": 2.26
     },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 276.97,
+      "current_price": 276.51,
       "trigger": 275.41,
-      "target1": 305.02,
-      "sl": 256.77,
+      "target1": 304.28,
+      "sl": 256.52,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9275.41 with Accumulation structure.",
-      "change_pct": 4.6
+      "change_pct": 4.42
     },
     {
       "symbol": "ELECON",
       "name": "Elecon Engineering Company Ltd",
-      "current_price": 481.5,
+      "current_price": 479.2,
       "trigger": 477.85,
-      "target1": 567.7,
-      "sl": 419.43,
+      "target1": 564.08,
+      "sl": 418.09,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
-      "change_pct": 5.07
+      "change_pct": 4.57
     }
   ],
   "risk_warning": "Defensive alert on Cera Sanitaryware Ltd, Summit Securities Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 07:01 AM",
+  "timestamp": "28 Sep 2026, 07:16 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22849.1,
-      "change_pct": -1.26,
+      "price": 22838.75,
+      "change_pct": -1.3,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72904.43,
-      "change_pct": -1.34,
+      "price": 72978.19,
+      "change_pct": -1.24,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.71,
-      "change_pct": 1.41,
+      "price": 94.03,
+      "change_pct": 1.75,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.97,
-      "change_pct": -0.19,
+      "price": 95.96,
+      "change_pct": -0.21,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 24,
-    "declines": 151,
+    "advances": 23,
+    "declines": 152,
     "total": 176
   }
 };
