@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22600,
   "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $95.03.",
-    "Universe breadth shows 23 advancing vs 152 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.51% with Brent Crude hovering around $95.06.",
+    "Universe breadth shows 21 advancing vs 154 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,600 | Resistance cap at 23,000."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1532.7,
+      "current_price": 1530.4,
       "trigger": 1508.01,
-      "target1": 1701.54,
-      "sl": 1411.14,
+      "target1": 1698.02,
+      "sl": 1409.72,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 2.37
-    },
-    {
-      "symbol": "ELECON",
-      "name": "Elecon Engineering Company Ltd",
-      "current_price": 477.95,
-      "trigger": 477.85,
-      "target1": 562.13,
-      "sl": 417.34,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
-      "change_pct": 4.3
+      "change_pct": 2.22
     },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 280.09,
+      "current_price": 282.29,
       "trigger": 275.41,
-      "target1": 310.17,
-      "sl": 258.44,
+      "target1": 313.89,
+      "sl": 259.54,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9275.41 with Accumulation structure.",
-      "change_pct": 5.77
+      "change_pct": 6.6
+    },
+    {
+      "symbol": "ELECON",
+      "name": "Elecon Engineering Company Ltd",
+      "current_price": 479.0,
+      "trigger": 477.85,
+      "target1": 563.77,
+      "sl": 417.97,
+      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
+      "change_pct": 4.53
     }
   ],
   "risk_warning": "Defensive alert on Yes Bank Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 08:51 AM",
+  "timestamp": "28 Sep 2026, 09:01 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22806.2,
-      "change_pct": -1.44,
+      "price": 22805.0,
+      "change_pct": -1.45,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72920.09,
-      "change_pct": -1.32,
+      "price": 72868.38,
+      "change_pct": -1.39,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.03,
-      "change_pct": 2.84,
+      "price": 95.06,
+      "change_pct": 2.87,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.96,
+      "price": 95.97,
       "change_pct": -0.2,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 23,
-    "declines": 152,
+    "advances": 21,
+    "declines": 154,
     "total": 176
   }
 };
