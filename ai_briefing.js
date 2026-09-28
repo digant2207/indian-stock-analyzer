@@ -1,55 +1,55 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22950,
-  "nifty_resistance": 23350,
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "nifty_support": 22800,
+  "nifty_resistance": 23150,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $93.27.",
-    "Universe breadth shows 76 advancing vs 98 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
+    "US Markets closed up 0.51% with Brent Crude hovering around $93.78.",
+    "Universe breadth shows 36 advancing vs 136 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
   ],
   "top_setups": [
     {
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1516.4,
+      "trigger": 1508.01,
+      "target1": 1677.06,
+      "sl": 1400.72,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
+      "change_pct": 1.28
+    },
+    {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 824.5,
+      "current_price": 818.5,
       "trigger": 838.67,
-      "target1": 888.28,
-      "sl": 778.58,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 1.0
+      "target1": 884.61,
+      "sl": 770.9,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
+      "change_pct": -0.73
     },
     {
-      "symbol": "ENGINERSIN",
-      "name": "Engineers India Ltd",
-      "current_price": 315.65,
-      "trigger": 307.59,
-      "target1": 382.59,
-      "sl": 267.45,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9307.59 with Accumulation structure.",
-      "change_pct": 6.4
-    },
-    {
-      "symbol": "HBLENGINE",
-      "name": "HBL Engineering Ltd",
-      "current_price": 806.0,
-      "trigger": 787.97,
-      "target1": 907.6,
-      "sl": 732.85,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9787.97 with Accumulation structure.",
-      "change_pct": 3.96
+      "symbol": "CHEMCON",
+      "name": "Chemcon Speciality Chemicals Ltd",
+      "current_price": 233.9,
+      "trigger": 235.47,
+      "target1": 259.64,
+      "sl": 215.37,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9235.47 with Accumulation structure.",
+      "change_pct": 2.66
     }
   ],
-  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 03:31 AM",
+  "timestamp": "28 Sep 2026, 03:45 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23140.5,
-      "change_pct": 0.34,
-      "status": "up"
+      "price": 22978.45,
+      "change_pct": -0.7,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.27,
-      "change_pct": 0.93,
+      "price": 93.78,
+      "change_pct": 1.48,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.88,
-      "change_pct": -0.29,
+      "price": 95.93,
+      "change_pct": -0.24,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 76,
-    "declines": 98,
+    "advances": 36,
+    "declines": 136,
     "total": 176
   }
 };
