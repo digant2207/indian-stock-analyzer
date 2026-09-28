@@ -4,57 +4,57 @@
   "nifty_support": 22650,
   "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $94.50.",
-    "Universe breadth shows 21 advancing vs 154 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.51% with Brent Crude hovering around $94.30.",
+    "Universe breadth shows 19 advancing vs 155 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,000."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1537.3,
+      "current_price": 1536.0,
       "trigger": 1508.01,
-      "target1": 1708.63,
-      "sl": 1413.94,
+      "target1": 1706.62,
+      "sl": 1413.15,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 2.68
+      "change_pct": 2.59
     },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 279.41,
+      "current_price": 279.35,
       "trigger": 275.41,
-      "target1": 309.03,
-      "sl": 258.08,
+      "target1": 308.93,
+      "sl": 258.05,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9275.41 with Accumulation structure.",
-      "change_pct": 5.52
+      "change_pct": 5.49
     },
     {
       "symbol": "ELECON",
       "name": "Elecon Engineering Company Ltd",
-      "current_price": 486.8,
+      "current_price": 485.7,
       "trigger": 477.85,
-      "target1": 576.19,
-      "sl": 422.44,
-      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
-      "change_pct": 6.23
+      "target1": 574.41,
+      "sl": 421.83,
+      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
+      "change_pct": 5.99
     }
   ],
   "risk_warning": "Defensive alert on Cera Sanitaryware Ltd, Summit Securities Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 05:46 AM",
+  "timestamp": "28 Sep 2026, 06:01 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22814.15,
-      "change_pct": -1.41,
+      "price": 22832.65,
+      "change_pct": -1.33,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72899.73,
-      "change_pct": -1.35,
+      "price": 72868.48,
+      "change_pct": -1.39,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.5,
-      "change_pct": 2.26,
+      "price": 94.3,
+      "change_pct": 2.05,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 21,
-    "declines": 154,
+    "advances": 19,
+    "declines": 155,
     "total": 176
   }
 }
