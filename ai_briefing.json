@@ -1,60 +1,60 @@
 {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22700,
-  "nifty_resistance": 23100,
+  "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $92.41.",
-    "Universe breadth shows 18 advancing vs 155 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,100."
+    "US Markets closed up 0.51% with Brent Crude hovering around $94.15.",
+    "Universe breadth shows 17 advancing vs 158 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1525.0,
+      "current_price": 1538.2,
       "trigger": 1508.01,
-      "target1": 1689.84,
-      "sl": 1406.32,
+      "target1": 1710.03,
+      "sl": 1414.48,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 1.86
+      "change_pct": 2.74
     },
     {
-      "symbol": "ENGINERSIN",
-      "name": "Engineers India Ltd",
-      "current_price": 312.05,
-      "trigger": 319.54,
-      "target1": 386.5,
-      "sl": 258.45,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9319.54 with Accumulation structure.",
-      "change_pct": -1.14
+      "symbol": "SPARC",
+      "name": "Sun Pharma Advanced Research Co Ltd",
+      "current_price": 207.99,
+      "trigger": 212.42,
+      "target1": 233.14,
+      "sl": 189.88,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9212.42 with Accumulation structure.",
+      "change_pct": -0.51
     },
     {
-      "symbol": "HBLENGINE",
-      "name": "HBL Engineering Ltd",
-      "current_price": 817.55,
-      "trigger": 813.17,
-      "target1": 939.5,
-      "sl": 729.75,
-      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9813.17 with Accumulation structure.",
-      "change_pct": 1.43
+      "symbol": "ELECON",
+      "name": "Elecon Engineering Company Ltd",
+      "current_price": 471.45,
+      "trigger": 477.85,
+      "target1": 552.16,
+      "sl": 413.34,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
+      "change_pct": 2.88
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 04:00 AM",
+  "timestamp": "28 Sep 2026, 04:15 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22906.2,
-      "change_pct": -1.01,
+      "price": 22864.7,
+      "change_pct": -1.19,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73374.31,
-      "change_pct": -0.71,
+      "price": 73155.71,
+      "change_pct": -1.0,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.41,
-      "change_pct": -2.33,
-      "status": "down"
+      "price": 94.15,
+      "change_pct": 1.88,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.93,
-      "change_pct": -0.24,
+      "price": 95.94,
+      "change_pct": -0.23,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 18,
-    "declines": 155,
+    "advances": 17,
+    "declines": 158,
     "total": 176
   }
 }
