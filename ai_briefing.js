@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22600,
   "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $96.33.",
+    "US Markets closed down 0.54% with Brent Crude hovering around $92.61.",
     "Universe breadth shows 22 advancing vs 152 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,600 | Resistance cap at 22,950."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Yes Bank Ltd, Jindal Poly Investment & Finance Co Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 11:16 AM",
+  "timestamp": "28 Sep 2026, 06:13 PM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
@@ -59,26 +59,26 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7743.41,
-      "change_pct": 0.51,
-      "status": "up"
+      "price": 7701.65,
+      "change_pct": -0.54,
+      "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 27068.72,
-      "change_pct": 0.48,
-      "status": "up"
+      "price": 26905.27,
+      "change_pct": -0.6,
+      "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.33,
-      "change_pct": 4.24,
+      "price": 92.61,
+      "change_pct": 0.22,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.98,
-      "change_pct": -0.19,
+      "price": 95.97,
+      "change_pct": -0.2,
       "status": "down"
     }
   },
