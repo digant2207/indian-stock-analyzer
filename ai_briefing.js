@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22700,
+  "nifty_support": 22650,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $94.08.",
-    "Universe breadth shows 24 advancing vs 151 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
+    "US Markets closed up 0.51% with Brent Crude hovering around $94.14.",
+    "Universe breadth shows 22 advancing vs 153 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,050."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1547.1,
+      "current_price": 1539.0,
       "trigger": 1508.01,
-      "target1": 1724.01,
-      "sl": 1419.73,
+      "target1": 1711.28,
+      "sl": 1414.96,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 3.33
+      "change_pct": 2.79
     },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 277.23,
+      "current_price": 275.44,
       "trigger": 275.41,
-      "target1": 305.44,
-      "sl": 256.92,
+      "target1": 302.57,
+      "sl": 255.91,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9275.41 with Accumulation structure.",
-      "change_pct": 4.69
+      "change_pct": 4.02
     },
     {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.96,
-      "trigger": 140.78,
-      "target1": 157.25,
-      "sl": 125.79,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9140.78 with Accumulation structure.",
-      "change_pct": 0.55
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 821.6,
+      "trigger": 838.67,
+      "target1": 888.57,
+      "sl": 773.38,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
+      "change_pct": -0.35
     }
   ],
-  "risk_warning": "Defensive alert on REC Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on REC Ltd, Summit Securities Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 04:45 AM",
+  "timestamp": "28 Sep 2026, 05:01 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22857.9,
-      "change_pct": -1.22,
+      "price": 22847.4,
+      "change_pct": -1.27,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73010.13,
-      "change_pct": -1.2,
+      "price": 72989.03,
+      "change_pct": -1.23,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.08,
-      "change_pct": 1.81,
+      "price": 94.14,
+      "change_pct": 1.87,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 24,
-    "declines": 151,
+    "advances": 22,
+    "declines": 153,
     "total": 176
   }
 };
