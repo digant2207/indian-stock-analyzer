@@ -1,10 +1,10 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 22950,
   "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $92.41.",
+    "US Markets closed up 0.51% with Brent Crude hovering around $93.27.",
     "Universe breadth shows 76 advancing vs 98 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Fortis Healthcare Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Sep 2026, 08:26 AM",
-  "date_tag": "2026-09-27",
+  "timestamp": "28 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.41,
-      "change_pct": -2.33,
-      "status": "down"
+      "price": 93.27,
+      "change_pct": 0.93,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.82,
-      "change_pct": -0.35,
+      "price": 95.88,
+      "change_pct": -0.29,
       "status": "down"
     }
   },
