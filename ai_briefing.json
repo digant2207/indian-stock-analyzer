@@ -1,61 +1,61 @@
 {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22800,
-  "nifty_resistance": 23150,
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "nifty_support": 22700,
+  "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $93.78.",
-    "Universe breadth shows 36 advancing vs 136 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
+    "US Markets closed up 0.51% with Brent Crude hovering around $92.41.",
+    "Universe breadth shows 18 advancing vs 155 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1516.4,
+      "current_price": 1525.0,
       "trigger": 1508.01,
-      "target1": 1677.06,
-      "sl": 1400.72,
+      "target1": 1689.84,
+      "sl": 1406.32,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 1.28
+      "change_pct": 1.86
     },
     {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 818.5,
-      "trigger": 838.67,
-      "target1": 884.61,
-      "sl": 770.9,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": -0.73
+      "symbol": "ENGINERSIN",
+      "name": "Engineers India Ltd",
+      "current_price": 312.05,
+      "trigger": 319.54,
+      "target1": 386.5,
+      "sl": 258.45,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9319.54 with Accumulation structure.",
+      "change_pct": -1.14
     },
     {
-      "symbol": "CHEMCON",
-      "name": "Chemcon Speciality Chemicals Ltd",
-      "current_price": 233.9,
-      "trigger": 235.47,
-      "target1": 259.64,
-      "sl": 215.37,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9235.47 with Accumulation structure.",
-      "change_pct": 2.66
+      "symbol": "HBLENGINE",
+      "name": "HBL Engineering Ltd",
+      "current_price": 817.55,
+      "trigger": 813.17,
+      "target1": 939.5,
+      "sl": 729.75,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9813.17 with Accumulation structure.",
+      "change_pct": 1.43
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 03:45 AM",
+  "timestamp": "28 Sep 2026, 04:00 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22978.45,
-      "change_pct": -0.7,
+      "price": 22906.2,
+      "change_pct": -1.01,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73895.74,
-      "change_pct": 0.43,
-      "status": "up"
+      "price": 73374.31,
+      "change_pct": -0.71,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,9 +71,9 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.78,
-      "change_pct": 1.48,
-      "status": "up"
+      "price": 92.41,
+      "change_pct": -2.33,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 36,
-    "declines": 136,
+    "advances": 18,
+    "declines": 155,
     "total": 176
   }
 }
