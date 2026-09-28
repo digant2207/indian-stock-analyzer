@@ -4,57 +4,57 @@
   "nifty_support": 22700,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $94.15.",
-    "Universe breadth shows 17 advancing vs 158 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.51% with Brent Crude hovering around $93.97.",
+    "Universe breadth shows 23 advancing vs 152 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1538.2,
+      "current_price": 1555.2,
       "trigger": 1508.01,
-      "target1": 1710.03,
-      "sl": 1414.48,
-      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 2.74
+      "target1": 1736.96,
+      "sl": 1424.33,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
+      "change_pct": 3.87
     },
     {
-      "symbol": "SPARC",
-      "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 207.99,
-      "trigger": 212.42,
-      "target1": 233.14,
-      "sl": 189.88,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9212.42 with Accumulation structure.",
-      "change_pct": -0.51
+      "symbol": "JAMNAAUTO",
+      "name": "Jamna Auto Industries Ltd",
+      "current_price": 138.74,
+      "trigger": 140.78,
+      "target1": 156.94,
+      "sl": 125.64,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9140.78 with Accumulation structure.",
+      "change_pct": 0.39
     },
     {
-      "symbol": "ELECON",
-      "name": "Elecon Engineering Company Ltd",
-      "current_price": 471.45,
-      "trigger": 477.85,
-      "target1": 552.16,
-      "sl": 413.34,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
-      "change_pct": 2.88
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 819.8,
+      "trigger": 838.67,
+      "target1": 886.26,
+      "sl": 771.95,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
+      "change_pct": -0.57
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 04:15 AM",
+  "timestamp": "28 Sep 2026, 04:30 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22864.7,
-      "change_pct": -1.19,
+      "price": 22868.1,
+      "change_pct": -1.18,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73155.71,
-      "change_pct": -1.0,
+      "price": 73013.12,
+      "change_pct": -1.19,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.15,
-      "change_pct": 1.88,
+      "price": 93.97,
+      "change_pct": 1.69,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.94,
-      "change_pct": -0.23,
+      "price": 95.93,
+      "change_pct": -0.24,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 17,
-    "declines": 158,
+    "advances": 23,
+    "declines": 152,
     "total": 176
   }
 }
