@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22650,
   "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.51% with Brent Crude hovering around $94.23.",
-    "Universe breadth shows 19 advancing vs 156 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.51% with Brent Crude hovering around $94.50.",
+    "Universe breadth shows 21 advancing vs 154 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,000."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1538.7,
+      "current_price": 1537.3,
       "trigger": 1508.01,
-      "target1": 1710.81,
-      "sl": 1414.78,
+      "target1": 1708.63,
+      "sl": 1413.94,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 2.77
+      "change_pct": 2.68
     },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 277.8,
+      "current_price": 279.41,
       "trigger": 275.41,
-      "target1": 306.37,
-      "sl": 257.23,
+      "target1": 309.03,
+      "sl": 258.08,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9275.41 with Accumulation structure.",
-      "change_pct": 4.91
+      "change_pct": 5.52
     },
     {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 140.69,
-      "trigger": 140.78,
-      "target1": 159.82,
-      "sl": 126.91,
-      "rationale": "High Technical Score (29.0/100), 0.0% to Buy Trigger \u20b9140.78 with Accumulation structure.",
-      "change_pct": 1.8
+      "symbol": "ELECON",
+      "name": "Elecon Engineering Company Ltd",
+      "current_price": 486.8,
+      "trigger": 477.85,
+      "target1": 576.19,
+      "sl": 422.44,
+      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
+      "change_pct": 6.23
     }
   ],
-  "risk_warning": "Defensive alert on Summit Securities Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Cera Sanitaryware Ltd, Summit Securities Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 05:30 AM",
+  "timestamp": "28 Sep 2026, 05:46 AM",
   "date_tag": "2026-09-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22832.15,
-      "change_pct": -1.33,
+      "price": 22814.15,
+      "change_pct": -1.41,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72904.39,
-      "change_pct": -1.34,
+      "price": 72899.73,
+      "change_pct": -1.35,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.23,
-      "change_pct": 1.97,
+      "price": 94.5,
+      "change_pct": 2.26,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 19,
-    "declines": 156,
+    "advances": 21,
+    "declines": 154,
     "total": 176
   }
 };
