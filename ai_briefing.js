@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22450,
+  "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $92.88.",
-    "Universe breadth shows 54 advancing vs 121 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,850."
+    "US Markets closed down 0.77% with Brent Crude hovering around $93.04.",
+    "Universe breadth shows 48 advancing vs 127 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1548.0,
+      "current_price": 1544.8,
       "trigger": 1508.01,
-      "target1": 1725.44,
-      "sl": 1420.25,
+      "target1": 1720.37,
+      "sl": 1418.39,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 3.39
+      "change_pct": 3.18
     },
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 126.65,
+      "current_price": 125.39,
       "trigger": 127.91,
-      "target1": 144.11,
-      "sl": 114.08,
+      "target1": 142.11,
+      "sl": 113.35,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9127.91 with Accumulation structure.",
-      "change_pct": 4.2
+      "change_pct": 3.16
     },
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 820.2,
+      "current_price": 826.0,
       "trigger": 838.67,
-      "target1": 887.01,
-      "sl": 772.1,
+      "target1": 894.59,
+      "sl": 776.61,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 1.52
+      "change_pct": 2.24
     }
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 08:31 AM",
+  "timestamp": "29 Sep 2026, 08:45 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22654.3,
-      "change_pct": -0.55,
+      "price": 22673.4,
+      "change_pct": -0.47,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72336.23,
-      "change_pct": -0.6,
+      "price": 72358.14,
+      "change_pct": -0.57,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.88,
-      "change_pct": 0.3,
+      "price": 93.04,
+      "change_pct": 0.48,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.0,
-      "change_pct": 0.22,
+      "price": 95.99,
+      "change_pct": 0.21,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 54,
-    "declines": 121,
+    "advances": 48,
+    "declines": 127,
     "total": 176
   }
 };
