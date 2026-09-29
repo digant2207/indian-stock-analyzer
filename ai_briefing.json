@@ -4,57 +4,57 @@
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $94.27.",
-    "Universe breadth shows 19 advancing vs 155 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.77% with Brent Crude hovering around $94.31.",
+    "Universe breadth shows 24 advancing vs 150 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1556.4,
+      "current_price": 1559.9,
       "trigger": 1508.01,
-      "target1": 1738.9,
-      "sl": 1425.0,
+      "target1": 1744.57,
+      "sl": 1426.94,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 3.95
+      "change_pct": 4.19
+    },
+    {
+      "symbol": "JAYBARMARU",
+      "name": "Jay Bharat Maruti Ltd",
+      "current_price": 125.59,
+      "trigger": 127.91,
+      "target1": 142.42,
+      "sl": 113.47,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9127.91 with Accumulation structure.",
+      "change_pct": 3.32
     },
     {
       "symbol": "NATCOPHARM",
       "name": "Natco Pharma Ltd",
-      "current_price": 839.3,
+      "current_price": 840.65,
       "trigger": 859.57,
-      "target1": 879.36,
-      "sl": 810.46,
+      "target1": 881.25,
+      "sl": 811.41,
       "rationale": "High Technical Score (17.0/100), 0.0% to Buy Trigger \u20b9859.57 with Accumulation structure.",
-      "change_pct": 1.3
-    },
-    {
-      "symbol": "ORICONENT",
-      "name": "Oricon Enterprises Ltd",
-      "current_price": 51.0,
-      "trigger": 56.29,
-      "target1": 56.53,
-      "sl": 47.02,
-      "rationale": "High Technical Score (7.0/100), 0.0% to Buy Trigger \u20b956.29 with Accumulation structure.",
-      "change_pct": -0.78
+      "change_pct": 1.46
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on AWL Agri Business Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 05:16 AM",
+  "timestamp": "29 Sep 2026, 05:30 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22607.5,
-      "change_pct": -0.76,
+      "price": 22614.1,
+      "change_pct": -0.73,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72166.38,
-      "change_pct": -0.83,
+      "price": 72213.14,
+      "change_pct": -0.77,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.27,
-      "change_pct": 1.8,
+      "price": 94.31,
+      "change_pct": 1.85,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 19,
-    "declines": 155,
+    "advances": 24,
+    "declines": 150,
     "total": 175
   }
 }
