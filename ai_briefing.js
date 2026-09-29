@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $92.77.",
-    "Universe breadth shows 74 advancing vs 102 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.77% with Brent Crude hovering around $92.57.",
+    "Universe breadth shows 72 advancing vs 103 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1545.1,
+      "current_price": 1539.0,
       "trigger": 1571.04,
-      "target1": 1732.18,
-      "sl": 1410.4,
+      "target1": 1723.16,
+      "sl": 1406.41,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,571.04 with Accumulation structure.",
-      "change_pct": 0.76
+      "change_pct": 0.37
     },
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 825.45,
+      "current_price": 827.15,
       "trigger": 838.67,
-      "target1": 893.86,
-      "sl": 776.2,
+      "target1": 896.15,
+      "sl": 777.47,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 2.17
+      "change_pct": 2.38
     },
     {
-      "symbol": "SPARC",
-      "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 209.68,
-      "trigger": 212.42,
-      "target1": 235.86,
-      "sl": 190.83,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9212.42 with Accumulation structure.",
-      "change_pct": 3.37
+      "symbol": "JAYBARMARU",
+      "name": "Jay Bharat Maruti Ltd",
+      "current_price": 125.18,
+      "trigger": 127.84,
+      "target1": 142.94,
+      "sl": 112.4,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9127.84 with Accumulation structure.",
+      "change_pct": 2.17
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 09:01 AM",
+  "timestamp": "29 Sep 2026, 09:16 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22686.3,
-      "change_pct": -0.41,
+      "price": 22671.15,
+      "change_pct": -0.48,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72416.58,
-      "change_pct": -0.49,
+      "price": 72431.77,
+      "change_pct": -0.47,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.77,
-      "change_pct": 0.18,
-      "status": "up"
+      "price": 92.57,
+      "change_pct": -0.03,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.95,
-      "change_pct": 0.17,
+      "price": 95.97,
+      "change_pct": 0.19,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 74,
-    "declines": 102,
+    "advances": 72,
+    "declines": 103,
     "total": 176
   }
 };
