@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $92.60.",
-    "Universe breadth shows 12 advancing vs 163 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.77% with Brent Crude hovering around $94.13.",
+    "Universe breadth shows 17 advancing vs 157 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1552.4,
+      "current_price": 1573.9,
       "trigger": 1508.01,
-      "target1": 1732.46,
-      "sl": 1422.76,
+      "target1": 1767.61,
+      "sl": 1434.43,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 3.69
+      "change_pct": 5.12
     },
     {
       "symbol": "KAYNES",
       "name": "Kaynes Technology India",
-      "current_price": 3678.1,
+      "current_price": 3688.2,
       "trigger": 3742.27,
-      "target1": 4026.49,
-      "sl": 3427.26,
+      "target1": 4041.09,
+      "sl": 3434.12,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b93,742.27 with Accumulation structure.",
-      "change_pct": 0.55
+      "change_pct": 0.83
     },
     {
       "symbol": "CHAMBLFERT",
       "name": "Chambal Fertilisers",
-      "current_price": 415.4,
+      "current_price": 414.9,
       "trigger": 424.45,
-      "target1": 425.28,
-      "sl": 408.28,
+      "target1": 424.85,
+      "sl": 407.73,
       "rationale": "High Technical Score (9.0/100), 0.0% to Buy Trigger \u20b9424.45 with Accumulation structure.",
-      "change_pct": -0.61
+      "change_pct": -0.73
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PNB Gilts Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 04:01 AM",
+  "timestamp": "29 Sep 2026, 04:15 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22632.0,
-      "change_pct": -0.65,
+      "price": 22610.45,
+      "change_pct": -0.75,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72569.75,
-      "change_pct": -0.28,
+      "price": 72273.25,
+      "change_pct": -0.68,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.6,
-      "change_pct": 0.21,
+      "price": 94.13,
+      "change_pct": 1.65,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.11,
-      "change_pct": 0.34,
+      "price": 96.13,
+      "change_pct": 0.36,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 12,
-    "declines": 163,
+    "advances": 17,
+    "declines": 157,
     "total": 175
   }
 };
