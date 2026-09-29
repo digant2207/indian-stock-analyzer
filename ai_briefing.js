@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $93.41.",
-    "Universe breadth shows 50 advancing vs 125 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.77% with Brent Crude hovering around $93.24.",
+    "Universe breadth shows 46 advancing vs 128 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 126.65,
+      "current_price": 126.58,
       "trigger": 127.91,
-      "target1": 144.11,
-      "sl": 114.08,
+      "target1": 144.0,
+      "sl": 114.04,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9127.91 with Accumulation structure.",
-      "change_pct": 4.2
+      "change_pct": 4.14
     },
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 208.6,
+      "current_price": 208.67,
       "trigger": 212.42,
-      "target1": 234.0,
-      "sl": 190.31,
+      "target1": 234.1,
+      "sl": 190.36,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9212.42 with Accumulation structure.",
-      "change_pct": -0.22
+      "change_pct": -0.18
     }
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 07:45 AM",
+  "timestamp": "29 Sep 2026, 08:01 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22674.35,
-      "change_pct": -0.46,
+      "price": 22660.3,
+      "change_pct": -0.53,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72453.1,
-      "change_pct": -0.44,
+      "price": 72411.67,
+      "change_pct": -0.49,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.41,
-      "change_pct": 0.87,
+      "price": 93.24,
+      "change_pct": 0.69,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.02,
-      "change_pct": 0.24,
+      "price": 96.03,
+      "change_pct": 0.25,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 50,
-    "declines": 125,
+    "advances": 46,
+    "declines": 128,
     "total": 176
   }
 };
