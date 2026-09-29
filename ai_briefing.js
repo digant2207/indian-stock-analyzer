@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22450,
-  "nifty_resistance": 22800,
+  "nifty_support": 22500,
+  "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $94.31.",
-    "Universe breadth shows 24 advancing vs 150 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
+    "US Markets closed down 0.77% with Brent Crude hovering around $94.63.",
+    "Universe breadth shows 36 advancing vs 136 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1559.9,
+      "current_price": 1563.2,
       "trigger": 1508.01,
-      "target1": 1744.57,
-      "sl": 1426.94,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 4.19
+      "target1": 1749.95,
+      "sl": 1428.74,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
+      "change_pct": 4.41
     },
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 125.59,
+      "current_price": 126.4,
       "trigger": 127.91,
-      "target1": 142.42,
-      "sl": 113.47,
+      "target1": 143.71,
+      "sl": 113.94,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9127.91 with Accumulation structure.",
-      "change_pct": 3.32
+      "change_pct": 3.99
     },
     {
-      "symbol": "NATCOPHARM",
-      "name": "Natco Pharma Ltd",
-      "current_price": 840.65,
-      "trigger": 859.57,
-      "target1": 881.25,
-      "sl": 811.41,
-      "rationale": "High Technical Score (17.0/100), 0.0% to Buy Trigger \u20b9859.57 with Accumulation structure.",
-      "change_pct": 1.46
+      "symbol": "CHAMBLFERT",
+      "name": "Chambal Fertilisers",
+      "current_price": 417.15,
+      "trigger": 424.45,
+      "target1": 426.96,
+      "sl": 410.08,
+      "rationale": "High Technical Score (17.0/100), 0.0% to Buy Trigger \u20b9424.45 with Accumulation structure.",
+      "change_pct": -0.19
     }
   ],
-  "risk_warning": "Defensive alert on AWL Agri Business Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, AWL Agri Business Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 05:30 AM",
+  "timestamp": "29 Sep 2026, 05:45 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22614.1,
-      "change_pct": -0.73,
+      "price": 22686.95,
+      "change_pct": -0.41,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72213.14,
-      "change_pct": -0.77,
+      "price": 72223.99,
+      "change_pct": -0.75,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.31,
-      "change_pct": 1.85,
+      "price": 94.63,
+      "change_pct": 2.19,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.08,
-      "change_pct": 0.31,
+      "price": 96.06,
+      "change_pct": 0.28,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 24,
-    "declines": 150,
+    "advances": 36,
+    "declines": 136,
     "total": 175
   }
 };
