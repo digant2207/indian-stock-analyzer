@@ -120,7 +120,7 @@ window.backtestData = {
       "symbol": "BOROLTD.NS",
       "total_trades": 4,
       "win_rate": 50.0,
-      "avg_return": 0.73,
+      "avg_return": 0.75,
       "total_wins": 2,
       "total_losses": 2
     },
