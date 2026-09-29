@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $93.04.",
-    "Universe breadth shows 48 advancing vs 127 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.77% with Brent Crude hovering around $92.75.",
+    "Universe breadth shows 72 advancing vs 104 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1544.8,
-      "trigger": 1508.01,
-      "target1": 1720.37,
-      "sl": 1418.39,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 3.18
-    },
-    {
-      "symbol": "JAYBARMARU",
-      "name": "Jay Bharat Maruti Ltd",
-      "current_price": 125.39,
-      "trigger": 127.91,
-      "target1": 142.11,
-      "sl": 113.35,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9127.91 with Accumulation structure.",
-      "change_pct": 3.16
+      "current_price": 1543.1,
+      "trigger": 1571.04,
+      "target1": 1729.2,
+      "sl": 1409.1,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,571.04 with Accumulation structure.",
+      "change_pct": 0.63
     },
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 826.0,
+      "current_price": 823.5,
       "trigger": 838.67,
-      "target1": 894.59,
-      "sl": 776.61,
+      "target1": 891.27,
+      "sl": 774.7,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 2.24
+      "change_pct": 1.93
+    },
+    {
+      "symbol": "JAYBARMARU",
+      "name": "Jay Bharat Maruti Ltd",
+      "current_price": 125.16,
+      "trigger": 127.84,
+      "target1": 142.91,
+      "sl": 112.38,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9127.84 with Accumulation structure.",
+      "change_pct": 2.15
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 08:45 AM",
+  "timestamp": "29 Sep 2026, 08:49 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22673.4,
-      "change_pct": -0.47,
+      "price": 22676.3,
+      "change_pct": -0.46,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72358.14,
-      "change_pct": -0.57,
+      "price": 72332.44,
+      "change_pct": -0.6,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.04,
-      "change_pct": 0.48,
+      "price": 92.75,
+      "change_pct": 0.16,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.99,
-      "change_pct": 0.21,
+      "price": 95.98,
+      "change_pct": 0.2,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 48,
-    "declines": 127,
+    "advances": 72,
+    "declines": 104,
     "total": 176
   }
 };
