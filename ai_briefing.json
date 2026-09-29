@@ -4,57 +4,57 @@
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $92.57.",
-    "Universe breadth shows 72 advancing vs 103 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.77% with Brent Crude hovering around $92.51.",
+    "Universe breadth shows 62 advancing vs 113 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1539.0,
-      "trigger": 1571.04,
-      "target1": 1723.16,
-      "sl": 1406.41,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,571.04 with Accumulation structure.",
-      "change_pct": 0.37
-    },
-    {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 827.15,
+      "current_price": 825.0,
       "trigger": 838.67,
-      "target1": 896.15,
-      "sl": 777.47,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 2.38
+      "target1": 893.26,
+      "sl": 775.86,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
+      "change_pct": 2.12
     },
     {
-      "symbol": "JAYBARMARU",
-      "name": "Jay Bharat Maruti Ltd",
-      "current_price": 125.18,
-      "trigger": 127.84,
-      "target1": 142.94,
-      "sl": 112.4,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9127.84 with Accumulation structure.",
-      "change_pct": 2.17
+      "symbol": "SPARC",
+      "name": "Sun Pharma Advanced Research Co Ltd",
+      "current_price": 208.8,
+      "trigger": 212.42,
+      "target1": 234.61,
+      "sl": 190.22,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9212.42 with Accumulation structure.",
+      "change_pct": 2.93
+    },
+    {
+      "symbol": "SIGMAADV",
+      "name": "Sigma Advanced Systems Ltd",
+      "current_price": 976.9,
+      "trigger": 981.96,
+      "target1": 1208.8,
+      "sl": 809.93,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9981.96 with Accumulation structure.",
+      "change_pct": 5.0
     }
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 09:16 AM",
+  "timestamp": "29 Sep 2026, 09:31 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22671.15,
-      "change_pct": -0.48,
+      "price": 22679.6,
+      "change_pct": -0.44,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72431.77,
-      "change_pct": -0.47,
+      "price": 72409.81,
+      "change_pct": -0.5,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.57,
-      "change_pct": -0.03,
+      "price": 92.51,
+      "change_pct": -0.1,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 72,
-    "declines": 103,
-    "total": 176
+    "advances": 62,
+    "declines": 113,
+    "total": 175
   }
 }
