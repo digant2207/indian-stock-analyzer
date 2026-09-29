@@ -4,45 +4,45 @@ window.AI_BRIEFING = {
   "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $92.30.",
-    "Universe breadth shows 56 advancing vs 119 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.77% with Brent Crude hovering around $92.44.",
+    "Universe breadth shows 57 advancing vs 117 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1545.0,
+      "current_price": 1537.8,
       "trigger": 1571.04,
-      "target1": 1732.03,
-      "sl": 1410.34,
+      "target1": 1721.4,
+      "sl": 1405.61,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,571.04 with Accumulation structure.",
-      "change_pct": 0.76
+      "change_pct": 0.29
     },
     {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 825.05,
-      "trigger": 838.67,
-      "target1": 893.32,
-      "sl": 775.89,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 2.12
+      "symbol": "GLENMARK",
+      "name": "Glenmark Pharmaceuticals",
+      "current_price": 2441.5,
+      "trigger": 2499.89,
+      "target1": 2582.9,
+      "sl": 2339.69,
+      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,499.89 with Accumulation structure.",
+      "change_pct": 4.98
     },
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 208.91,
+      "current_price": 208.85,
       "trigger": 212.42,
-      "target1": 234.76,
-      "sl": 190.3,
+      "target1": 234.68,
+      "sl": 190.25,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9212.42 with Accumulation structure.",
-      "change_pct": 2.99
+      "change_pct": 2.96
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, Voltas Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 10:01 AM",
+  "timestamp": "29 Sep 2026, 10:05 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72451.07,
-      "change_pct": -0.44,
+      "price": 72651.39,
+      "change_pct": -0.17,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.3,
-      "change_pct": -0.32,
+      "price": 92.44,
+      "change_pct": -0.17,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 56,
-    "declines": 119,
+    "advances": 57,
+    "declines": 117,
     "total": 175
   }
 };
