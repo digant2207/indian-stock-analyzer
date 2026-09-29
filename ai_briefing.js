@@ -1,54 +1,54 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22600,
-  "nifty_resistance": 22950,
+  "nifty_support": 22550,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.77% with Brent Crude hovering around $93.91.",
-    "Universe breadth shows 40 advancing vs 134 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,600 | Resistance cap at 22,950."
+    "US Markets closed down 0.77% with Brent Crude hovering around $93.95.",
+    "Universe breadth shows 29 advancing vs 144 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1528.3,
+      "trigger": 1508.01,
+      "target1": 1694.82,
+      "sl": 1408.4,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
+      "change_pct": 2.08
+    },
+    {
+      "symbol": "JAMNAAUTO",
+      "name": "Jamna Auto Industries Ltd",
+      "current_price": 137.9,
+      "trigger": 140.78,
+      "target1": 155.74,
+      "sl": 125.06,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9140.78 with Accumulation structure.",
+      "change_pct": -0.22
+    },
+    {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 280.8,
-      "trigger": 275.41,
-      "target1": 311.36,
-      "sl": 258.8,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9275.41 with Accumulation structure.",
-      "change_pct": 6.04
-    },
-    {
-      "symbol": "ELECON",
-      "name": "Elecon Engineering Company Ltd",
-      "current_price": 480.75,
-      "trigger": 477.85,
-      "target1": 566.52,
-      "sl": 419.0,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
-      "change_pct": 4.91
-    },
-    {
-      "symbol": "ENGINERSIN",
-      "name": "Engineers India Ltd",
-      "current_price": 313.9,
-      "trigger": 319.54,
-      "target1": 389.15,
-      "sl": 259.72,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9319.54 with Accumulation structure.",
-      "change_pct": -0.55
+      "current_price": 278.25,
+      "trigger": 284.33,
+      "target1": 313.09,
+      "sl": 253.17,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
+      "change_pct": -0.91
     }
   ],
-  "risk_warning": "Defensive alert on Yes Bank Ltd, Jindal Poly Investment & Finance Co Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PNB Gilts Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 03:31 AM",
+  "timestamp": "29 Sep 2026, 03:45 AM",
   "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22780.25,
-      "change_pct": -1.56,
+      "price": 22726.95,
+      "change_pct": -0.23,
       "status": "down"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.91,
-      "change_pct": 1.62,
+      "price": 93.95,
+      "change_pct": 1.67,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.97,
-      "change_pct": 0.19,
+      "price": 96.1,
+      "change_pct": 0.33,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 40,
-    "declines": 134,
+    "advances": 29,
+    "declines": 144,
     "total": 175
   }
 };
