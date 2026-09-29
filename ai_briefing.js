@@ -4,21 +4,11 @@ window.AI_BRIEFING = {
   "nifty_support": 22600,
   "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed down 0.54% with Brent Crude hovering around $92.61.",
-    "Universe breadth shows 22 advancing vs 152 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.77% with Brent Crude hovering around $93.91.",
+    "Universe breadth shows 40 advancing vs 134 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,600 | Resistance cap at 22,950."
   ],
   "top_setups": [
-    {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1533.4,
-      "trigger": 1508.01,
-      "target1": 1702.61,
-      "sl": 1411.57,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 2.42
-    },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
@@ -38,12 +28,22 @@ window.AI_BRIEFING = {
       "sl": 419.0,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9477.85 with Accumulation structure.",
       "change_pct": 4.91
+    },
+    {
+      "symbol": "ENGINERSIN",
+      "name": "Engineers India Ltd",
+      "current_price": 313.9,
+      "trigger": 319.54,
+      "target1": 389.15,
+      "sl": 259.72,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9319.54 with Accumulation structure.",
+      "change_pct": -0.55
     }
   ],
   "risk_warning": "Defensive alert on Yes Bank Ltd, Jindal Poly Investment & Finance Co Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Sep 2026, 06:13 PM",
-  "date_tag": "2026-09-28",
+  "timestamp": "29 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7701.65,
-      "change_pct": -0.54,
+      "price": 7683.69,
+      "change_pct": -0.77,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26905.27,
-      "change_pct": -0.6,
+      "price": 26820.38,
+      "change_pct": -0.92,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.61,
-      "change_pct": 0.22,
+      "price": 93.91,
+      "change_pct": 1.62,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.97,
-      "change_pct": -0.2,
-      "status": "down"
+      "change_pct": 0.19,
+      "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 22,
-    "declines": 152,
+    "advances": 40,
+    "declines": 134,
     "total": 175
   }
 };
