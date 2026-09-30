@@ -2,13 +2,23 @@
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $89.43.",
-    "Universe breadth shows 87 advancing vs 87 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.63.",
+    "Universe breadth shows 89 advancing vs 85 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
   ],
   "top_setups": [
+    {
+      "symbol": "BOROLTD",
+      "name": "Borosil Ltd",
+      "current_price": 288.5,
+      "trigger": 284.33,
+      "target1": 331.36,
+      "sl": 257.64,
+      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
+      "change_pct": 4.45
+    },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
@@ -22,39 +32,29 @@
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 86.91,
+      "current_price": 86.94,
       "trigger": 81.72,
-      "target1": 126.16,
-      "sl": 58.65,
+      "target1": 126.21,
+      "sl": 58.67,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b981.72 with Accumulation structure.",
-      "change_pct": 10.45
-    },
-    {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1556.9,
-      "trigger": 1585.16,
-      "target1": 1756.67,
-      "sl": 1413.06,
-      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,585.16 with Accumulation structure.",
-      "change_pct": 1.24
+      "change_pct": 10.48
     }
   ],
-  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Metropolis Healthcare due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Max Healthcare Institute due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 05:45 AM",
+  "timestamp": "30 Sep 2026, 06:01 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22671.2,
-      "change_pct": -0.2,
+      "price": 22706.55,
+      "change_pct": -0.04,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72695.41,
-      "change_pct": 0.23,
+      "price": 72612.04,
+      "change_pct": 0.11,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.43,
-      "change_pct": 0.06,
+      "price": 89.63,
+      "change_pct": 0.28,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.96,
-      "change_pct": -0.02,
+      "price": 95.97,
+      "change_pct": -0.01,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 87,
-    "declines": 87,
+    "advances": 89,
+    "declines": 85,
     "total": 175
   }
 }
