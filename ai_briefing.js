@@ -4,20 +4,20 @@ window.AI_BRIEFING = {
   "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $89.28.",
-    "Universe breadth shows 98 advancing vs 77 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.84.",
+    "Universe breadth shows 90 advancing vs 85 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 288.05,
+      "current_price": 288.43,
       "trigger": 284.33,
-      "target1": 330.64,
-      "sl": 257.39,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
-      "change_pct": 4.29
+      "target1": 331.24,
+      "sl": 257.6,
+      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
+      "change_pct": 4.42
     },
     {
       "symbol": "SIGMAADV",
@@ -32,29 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 86.8,
+      "current_price": 85.71,
       "trigger": 81.72,
-      "target1": 125.99,
-      "sl": 58.58,
+      "target1": 124.3,
+      "sl": 57.92,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b981.72 with Accumulation structure.",
-      "change_pct": 10.31
+      "change_pct": 8.92
     }
   ],
-  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Metropolis Healthcare due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Metropolis Healthcare, Fortis Healthcare Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 06:30 AM",
+  "timestamp": "30 Sep 2026, 06:45 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22740.4,
-      "change_pct": 0.11,
-      "status": "up"
+      "price": 22714.55,
+      "change_pct": -0.01,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72731.65,
-      "change_pct": 0.28,
+      "price": 72848.82,
+      "change_pct": 0.44,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.28,
-      "change_pct": -0.11,
-      "status": "down"
+      "price": 89.84,
+      "change_pct": 0.51,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.97,
-      "change_pct": -0.01,
-      "status": "down"
+      "price": 95.98,
+      "change_pct": -0.0,
+      "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 98,
-    "declines": 77,
-    "total": 176
+    "advances": 90,
+    "declines": 85,
+    "total": 175
   }
 };
