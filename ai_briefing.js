@@ -1,23 +1,23 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22550,
-  "nifty_resistance": 22900,
+  "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $89.84.",
-    "Universe breadth shows 90 advancing vs 85 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.62.",
+    "Universe breadth shows 104 advancing vs 71 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
   ],
   "top_setups": [
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 288.43,
+      "current_price": 288.85,
       "trigger": 284.33,
-      "target1": 331.24,
-      "sl": 257.6,
+      "target1": 331.91,
+      "sl": 257.84,
       "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
-      "change_pct": 4.42
+      "change_pct": 4.58
     },
     {
       "symbol": "SIGMAADV",
@@ -32,29 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 85.71,
+      "current_price": 85.21,
       "trigger": 81.72,
-      "target1": 124.3,
-      "sl": 57.92,
+      "target1": 123.53,
+      "sl": 57.62,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b981.72 with Accumulation structure.",
-      "change_pct": 8.92
+      "change_pct": 8.29
     }
   ],
   "risk_warning": "Defensive alert on Metropolis Healthcare, Fortis Healthcare Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 06:45 AM",
+  "timestamp": "30 Sep 2026, 07:01 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22714.55,
-      "change_pct": -0.01,
-      "status": "down"
+      "price": 22753.6,
+      "change_pct": 0.16,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72848.82,
-      "change_pct": 0.44,
+      "price": 72739.49,
+      "change_pct": 0.29,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.84,
-      "change_pct": 0.51,
+      "price": 89.62,
+      "change_pct": 0.27,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.98,
-      "change_pct": -0.0,
-      "status": "up"
+      "price": 95.97,
+      "change_pct": -0.01,
+      "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 90,
-    "declines": 85,
-    "total": 175
+    "advances": 104,
+    "declines": 71,
+    "total": 176
   }
 };
