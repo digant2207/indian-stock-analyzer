@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.27% with Brent Crude hovering around $90.39.",
-    "Universe breadth shows 57 advancing vs 117 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.65.",
+    "Universe breadth shows 42 advancing vs 131 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
@@ -30,20 +30,20 @@ window.AI_BRIEFING = {
       "change_pct": 4.98
     },
     {
-      "symbol": "SPARC",
-      "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 208.85,
-      "trigger": 212.42,
-      "target1": 234.68,
-      "sl": 190.25,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9212.42 with Accumulation structure.",
-      "change_pct": 2.96
+      "symbol": "NATCOPHARM",
+      "name": "Natco Pharma Ltd",
+      "current_price": 843.1,
+      "trigger": 859.57,
+      "target1": 884.78,
+      "sl": 813.09,
+      "rationale": "High Technical Score (20.0/100), 0.0% to Buy Trigger \u20b9859.57 with Accumulation structure.",
+      "change_pct": 1.76
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, Voltas Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, Hindustan Aeronautics Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Sep 2026, 04:35 PM",
-  "date_tag": "2026-09-29",
+  "timestamp": "30 Sep 2026, 03:31 AM",
+  "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7662.83,
-      "change_pct": -0.27,
+      "price": 7670.84,
+      "change_pct": -0.17,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26783.54,
-      "change_pct": -0.14,
+      "price": 26797.54,
+      "change_pct": -0.09,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.39,
-      "change_pct": -2.39,
+      "price": 89.65,
+      "change_pct": -3.19,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.97,
-      "change_pct": 0.19,
-      "status": "up"
+      "price": 95.94,
+      "change_pct": -0.04,
+      "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 57,
-    "declines": 117,
+    "advances": 42,
+    "declines": 131,
     "total": 175
   }
 };
