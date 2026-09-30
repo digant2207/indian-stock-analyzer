@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22550,
-  "nifty_resistance": 22950,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 22500,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $89.51.",
-    "Universe breadth shows 113 advancing vs 62 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.57.",
+    "Universe breadth shows 98 advancing vs 76 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 85.93,
+      "current_price": 85.89,
       "trigger": 81.72,
-      "target1": 124.64,
-      "sl": 58.06,
+      "target1": 124.58,
+      "sl": 58.03,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b981.72 with Accumulation structure.",
-      "change_pct": 9.2
+      "change_pct": 9.15
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1546.7,
+      "current_price": 1556.3,
       "trigger": 1585.16,
-      "target1": 1741.92,
-      "sl": 1406.14,
+      "target1": 1755.79,
+      "sl": 1412.66,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,585.16 with Accumulation structure.",
-      "change_pct": 0.58
+      "change_pct": 1.2
     },
     {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.21,
-      "trigger": 141.28,
-      "target1": 158.25,
-      "sl": 123.78,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9141.28 with Accumulation structure.",
-      "change_pct": 1.42
+      "symbol": "SIGMAADV",
+      "name": "Sigma Advanced Systems Ltd",
+      "current_price": 1025.7,
+      "trigger": 981.96,
+      "target1": 1280.67,
+      "sl": 842.12,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9981.96 with Accumulation structure.",
+      "change_pct": 10.24
     }
   ],
-  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Max Healthcare Institute due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Metropolis Healthcare due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 05:01 AM",
+  "timestamp": "30 Sep 2026, 05:15 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22749.25,
-      "change_pct": 0.15,
-      "status": "up"
+      "price": 22704.05,
+      "change_pct": -0.05,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72841.74,
-      "change_pct": 0.43,
+      "price": 72845.27,
+      "change_pct": 0.44,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.51,
-      "change_pct": 0.15,
+      "price": 89.57,
+      "change_pct": 0.21,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 113,
-    "declines": 62,
-    "total": 176
+    "advances": 98,
+    "declines": 76,
+    "total": 175
   }
 };
