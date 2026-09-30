@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $89.62.",
-    "Universe breadth shows 108 advancing vs 65 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.38.",
+    "Universe breadth shows 122 advancing vs 53 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1564.0,
+      "current_price": 1562.5,
       "trigger": 1585.16,
-      "target1": 1767.16,
-      "sl": 1417.72,
+      "target1": 1764.93,
+      "sl": 1416.75,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,585.16 with Accumulation structure.",
-      "change_pct": 1.7
+      "change_pct": 1.61
     },
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 138.3,
+      "current_price": 139.75,
       "trigger": 141.28,
-      "target1": 158.37,
-      "sl": 123.85,
+      "target1": 160.32,
+      "sl": 124.94,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9141.28 with Accumulation structure.",
-      "change_pct": 1.49
+      "change_pct": 2.55
     },
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 820.55,
+      "current_price": 823.7,
       "trigger": 838.67,
-      "target1": 888.72,
-      "sl": 771.47,
+      "target1": 892.74,
+      "sl": 773.99,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 0.6
+      "change_pct": 0.99
     }
   ],
-  "risk_warning": "Defensive alert on Summit Securities Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 03:45 AM",
+  "timestamp": "30 Sep 2026, 04:01 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22662.8,
-      "change_pct": -0.24,
+      "price": 22699.05,
+      "change_pct": -0.08,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72529.07,
-      "change_pct": -0.33,
+      "price": 72481.0,
+      "change_pct": -0.07,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.62,
-      "change_pct": -3.22,
+      "price": 89.38,
+      "change_pct": -3.48,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.91,
-      "change_pct": -0.07,
+      "price": 95.95,
+      "change_pct": -0.03,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 108,
-    "declines": 65,
-    "total": 175
+    "advances": 122,
+    "declines": 53,
+    "total": 176
   }
 };
