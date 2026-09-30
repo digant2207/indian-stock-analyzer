@@ -4,20 +4,20 @@
   "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $89.30.",
-    "Universe breadth shows 93 advancing vs 81 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.53.",
+    "Universe breadth shows 95 advancing vs 80 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 293.56,
+      "current_price": 299.25,
       "trigger": 284.33,
-      "target1": 339.58,
-      "sl": 260.43,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
-      "change_pct": 6.28
+      "target1": 349.16,
+      "sl": 263.31,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
+      "change_pct": 8.34
     },
     {
       "symbol": "SIGMAADV",
@@ -32,29 +32,29 @@
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 83.58,
+      "current_price": 83.42,
       "trigger": 81.72,
-      "target1": 121.06,
-      "sl": 56.59,
+      "target1": 120.82,
+      "sl": 56.49,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b981.72 with Accumulation structure.",
-      "change_pct": 6.21
+      "change_pct": 6.01
     }
   ],
-  "risk_warning": "Defensive alert on Max Healthcare Institute, Fortis Healthcare Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Max Healthcare Institute due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 08:16 AM",
+  "timestamp": "30 Sep 2026, 08:31 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22721.1,
-      "change_pct": 0.02,
+      "price": 22726.2,
+      "change_pct": 0.04,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72934.05,
-      "change_pct": 0.56,
+      "price": 72757.58,
+      "change_pct": 0.32,
       "status": "up"
     },
     "S&P 500": {
@@ -71,9 +71,9 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.3,
-      "change_pct": -0.09,
-      "status": "down"
+      "price": 89.53,
+      "change_pct": 0.17,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 93,
-    "declines": 81,
+    "advances": 95,
+    "declines": 80,
     "total": 175
   }
 }
