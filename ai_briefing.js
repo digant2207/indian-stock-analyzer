@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $90.23.",
+    "US Markets closed down 0.17% with Brent Crude hovering around $90.16.",
     "Universe breadth shows 77 advancing vs 95 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Max Healthcare Institute due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 10:14 AM",
+  "timestamp": "30 Sep 2026, 10:16 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.23,
-      "change_pct": 0.95,
+      "price": 90.16,
+      "change_pct": 0.87,
       "status": "up"
     },
     "USD/INR": {
