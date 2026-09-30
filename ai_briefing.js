@@ -1,54 +1,54 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22550,
-  "nifty_resistance": 22900,
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "nifty_support": 22500,
+  "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $89.65.",
-    "Universe breadth shows 42 advancing vs 131 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.62.",
+    "Universe breadth shows 108 advancing vs 65 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1537.8,
-      "trigger": 1571.04,
-      "target1": 1721.4,
-      "sl": 1405.61,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,571.04 with Accumulation structure.",
-      "change_pct": 0.29
+      "current_price": 1564.0,
+      "trigger": 1585.16,
+      "target1": 1767.16,
+      "sl": 1417.72,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,585.16 with Accumulation structure.",
+      "change_pct": 1.7
     },
     {
-      "symbol": "GLENMARK",
-      "name": "Glenmark Pharmaceuticals",
-      "current_price": 2441.5,
-      "trigger": 2499.89,
-      "target1": 2582.9,
-      "sl": 2339.69,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,499.89 with Accumulation structure.",
-      "change_pct": 4.98
+      "symbol": "JAMNAAUTO",
+      "name": "Jamna Auto Industries Ltd",
+      "current_price": 138.3,
+      "trigger": 141.28,
+      "target1": 158.37,
+      "sl": 123.85,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9141.28 with Accumulation structure.",
+      "change_pct": 1.49
     },
     {
-      "symbol": "NATCOPHARM",
-      "name": "Natco Pharma Ltd",
-      "current_price": 843.1,
-      "trigger": 859.57,
-      "target1": 884.78,
-      "sl": 813.09,
-      "rationale": "High Technical Score (20.0/100), 0.0% to Buy Trigger \u20b9859.57 with Accumulation structure.",
-      "change_pct": 1.76
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 820.55,
+      "trigger": 838.67,
+      "target1": 888.72,
+      "sl": 771.47,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
+      "change_pct": 0.6
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, Hindustan Aeronautics Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Summit Securities Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 03:31 AM",
+  "timestamp": "30 Sep 2026, 03:45 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22716.2,
-      "change_pct": -0.28,
+      "price": 22662.8,
+      "change_pct": -0.24,
       "status": "down"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.65,
-      "change_pct": -3.19,
+      "price": 89.62,
+      "change_pct": -3.22,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.94,
-      "change_pct": -0.04,
+      "price": 95.91,
+      "change_pct": -0.07,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 42,
-    "declines": 131,
+    "advances": 108,
+    "declines": 65,
     "total": 175
   }
 };
