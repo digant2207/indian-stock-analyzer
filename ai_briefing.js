@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22500,
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.17% with Brent Crude hovering around $89.61.",
-    "Universe breadth shows 91 advancing vs 83 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
+    "US Markets closed down 0.17% with Brent Crude hovering around $89.56.",
+    "Universe breadth shows 105 advancing vs 69 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 297.27,
+      "current_price": 295.89,
       "trigger": 284.33,
-      "target1": 345.79,
-      "sl": 262.33,
+      "target1": 343.47,
+      "sl": 261.64,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
-      "change_pct": 7.62
+      "change_pct": 7.13
+    },
+    {
+      "symbol": "CYIENT",
+      "name": "Cyient Ltd",
+      "current_price": 1125.6,
+      "trigger": 1152.3,
+      "target1": 1195.62,
+      "sl": 1075.19,
+      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b91,152.30 with Accumulation structure.",
+      "change_pct": 6.66
     },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
       "current_price": 1025.7,
       "trigger": 981.96,
-      "target1": 1280.67,
-      "sl": 842.12,
+      "target1": 1273.2,
+      "sl": 847.5,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9981.96 with Accumulation structure.",
-      "change_pct": 10.24
-    },
-    {
-      "symbol": "DELTACORP",
-      "name": "Delta Corp Ltd",
-      "current_price": 83.38,
-      "trigger": 81.72,
-      "target1": 120.76,
-      "sl": 56.46,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b981.72 with Accumulation structure.",
-      "change_pct": 5.96
+      "change_pct": 5.0
     }
   ],
   "risk_warning": "Defensive alert on Max Healthcare Institute, Fortis Healthcare Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 08:46 AM",
+  "timestamp": "30 Sep 2026, 08:48 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22703.1,
-      "change_pct": -0.06,
+      "price": 22706.85,
+      "change_pct": -0.04,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72791.02,
-      "change_pct": 0.36,
+      "price": 72813.4,
+      "change_pct": 0.39,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.61,
-      "change_pct": 0.26,
+      "price": 89.56,
+      "change_pct": 0.2,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.82,
-      "change_pct": -0.17,
+      "price": 95.8,
+      "change_pct": -0.19,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 91,
-    "declines": 83,
+    "advances": 105,
+    "declines": 69,
     "total": 175
   }
 };
