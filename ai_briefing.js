@@ -5,56 +5,56 @@ window.AI_BRIEFING = {
   "nifty_resistance": 22950,
   "executive_bullets": [
     "US Markets closed down 0.17% with Brent Crude hovering around $89.51.",
-    "Universe breadth shows 117 advancing vs 58 declining stocks across 176 scanned equities.",
+    "Universe breadth shows 113 advancing vs 62 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
   ],
   "top_setups": [
     {
       "symbol": "DELTACORP",
       "name": "Delta Corp Ltd",
-      "current_price": 84.92,
+      "current_price": 85.93,
       "trigger": 81.72,
-      "target1": 123.09,
-      "sl": 57.44,
+      "target1": 124.64,
+      "sl": 58.06,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b981.72 with Accumulation structure.",
-      "change_pct": 7.92
+      "change_pct": 9.2
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1551.6,
+      "current_price": 1546.7,
       "trigger": 1585.16,
-      "target1": 1748.96,
-      "sl": 1409.5,
+      "target1": 1741.92,
+      "sl": 1406.14,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,585.16 with Accumulation structure.",
-      "change_pct": 0.9
+      "change_pct": 0.58
     },
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 139.36,
+      "current_price": 138.21,
       "trigger": 141.28,
-      "target1": 159.79,
-      "sl": 124.65,
+      "target1": 158.25,
+      "sl": 123.78,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9141.28 with Accumulation structure.",
-      "change_pct": 2.27
+      "change_pct": 1.42
     }
   ],
-  "risk_warning": "Defensive alert on Max Healthcare Institute, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Max Healthcare Institute due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Sep 2026, 04:46 AM",
+  "timestamp": "30 Sep 2026, 05:01 AM",
   "date_tag": "2026-09-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22754.0,
-      "change_pct": 0.17,
+      "price": 22749.25,
+      "change_pct": 0.15,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72736.15,
-      "change_pct": 0.29,
+      "price": 72841.74,
+      "change_pct": 0.43,
       "status": "up"
     },
     "S&P 500": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 117,
-    "declines": 58,
+    "advances": 113,
+    "declines": 62,
     "total": 176
   }
 };
