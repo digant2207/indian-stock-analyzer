@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22350,
+  "nifty_support": 22400,
   "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $89.62.",
-    "Universe breadth shows 42 advancing vs 132 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,350 | Resistance cap at 22,750."
+    "US Markets closed down 0.25% with Brent Crude hovering around $90.42.",
+    "Universe breadth shows 47 advancing vs 128 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 166.15,
-      "trigger": 168.73,
-      "target1": 173.97,
-      "sl": 160.52,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": -0.36
+      "symbol": "GESHIP",
+      "name": "Great Eastern Shipping Company Ltd",
+      "current_price": 1547.5,
+      "trigger": 1585.16,
+      "target1": 1743.06,
+      "sl": 1406.69,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,585.16 with Accumulation structure.",
+      "change_pct": 0.63
     },
     {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 824.2,
-      "trigger": 838.67,
-      "target1": 895.93,
-      "sl": 772.55,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": -0.7
+      "symbol": "GPPL",
+      "name": "Gujarat Pipavav Port Ltd",
+      "current_price": 166.35,
+      "trigger": 168.73,
+      "target1": 174.26,
+      "sl": 160.66,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
+      "change_pct": -0.24
     },
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 162.49,
+      "current_price": 162.23,
       "trigger": 165.73,
-      "target1": 177.16,
-      "sl": 151.93,
+      "target1": 176.83,
+      "sl": 151.72,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9165.73 with Accumulation structure.",
-      "change_pct": -1.0
+      "change_pct": -1.16
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 03:45 AM",
+  "timestamp": "01 Oct 2026, 04:01 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22551.25,
-      "change_pct": -0.31,
+      "price": 22568.15,
+      "change_pct": -0.23,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72480.29,
-      "change_pct": -0.07,
+      "price": 72328.83,
+      "change_pct": -0.21,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.62,
-      "change_pct": 0.27,
+      "price": 90.42,
+      "change_pct": 1.16,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 42,
-    "declines": 132,
+    "advances": 47,
+    "declines": 128,
     "total": 175
   }
 };
