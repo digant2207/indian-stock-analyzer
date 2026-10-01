@@ -2,32 +2,32 @@ window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22250,
-  "nifty_resistance": 22650,
+  "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $92.01.",
-    "Universe breadth shows 35 advancing vs 141 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,650."
+    "US Markets closed down 0.25% with Brent Crude hovering around $92.30.",
+    "Universe breadth shows 34 advancing vs 142 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 165.94,
+      "current_price": 165.9,
       "trigger": 168.73,
-      "target1": 173.68,
-      "sl": 160.37,
+      "target1": 173.62,
+      "sl": 160.34,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": -0.49
+      "change_pct": -0.51
     },
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 130.5,
+      "current_price": 131.0,
       "trigger": 129.66,
-      "target1": 155.21,
-      "sl": 112.71,
+      "target1": 155.97,
+      "sl": 113.02,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9129.66 with Accumulation structure.",
-      "change_pct": 1.64
+      "change_pct": 2.03
     },
     {
       "symbol": "SIGMAADV",
@@ -42,19 +42,19 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 09:45 AM",
+  "timestamp": "01 Oct 2026, 10:00 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22446.0,
-      "change_pct": -0.77,
+      "price": 22421.95,
+      "change_pct": -0.88,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 71864.59,
-      "change_pct": -0.85,
+      "price": 71935.43,
+      "change_pct": -0.75,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.01,
-      "change_pct": 1.76,
+      "price": 92.3,
+      "change_pct": 2.08,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.23,
-      "change_pct": 0.19,
+      "price": 96.33,
+      "change_pct": 0.29,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 35,
-    "declines": 141,
+    "advances": 34,
+    "declines": 142,
     "total": 176
   }
 };
