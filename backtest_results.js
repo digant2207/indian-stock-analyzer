@@ -2,7 +2,7 @@ window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
   "overall_win_rate": 26.9,
-  "overall_avg_return_per_trade": -2.1,
+  "overall_avg_return_per_trade": -2.11,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -16,7 +16,7 @@ window.backtestData = {
       "symbol": "ACMESOLAR.NS",
       "total_trades": 13,
       "win_rate": 53.8,
-      "avg_return": 4.67,
+      "avg_return": 4.62,
       "total_wins": 7,
       "total_losses": 6
     },
