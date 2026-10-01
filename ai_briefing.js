@@ -4,30 +4,30 @@ window.AI_BRIEFING = {
   "nifty_support": 22350,
   "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $88.84.",
-    "Universe breadth shows 50 advancing vs 125 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $89.45.",
+    "Universe breadth shows 45 advancing vs 128 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,350 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 167.58,
+      "current_price": 167.77,
       "trigger": 168.73,
-      "target1": 176.09,
-      "sl": 161.46,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": 0.5
+      "target1": 176.38,
+      "sl": 161.57,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
+      "change_pct": 0.61
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 317.15,
+      "current_price": 317.9,
       "trigger": 322.04,
-      "target1": 401.17,
-      "sl": 256.65,
+      "target1": 402.17,
+      "sl": 257.23,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9322.04 with Accumulation structure.",
-      "change_pct": 2.44
+      "change_pct": 2.68
     },
     {
       "symbol": "SIGMAADV",
@@ -42,19 +42,19 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Escorts Kubota Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 05:46 AM",
+  "timestamp": "01 Oct 2026, 06:01 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22552.8,
-      "change_pct": -0.3,
+      "price": 22550.75,
+      "change_pct": -0.31,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72420.29,
-      "change_pct": -0.08,
+      "price": 72376.55,
+      "change_pct": -0.14,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.84,
-      "change_pct": -1.75,
+      "price": 89.45,
+      "change_pct": -1.07,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.98,
-      "change_pct": -0.08,
+      "change_pct": -0.07,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 50,
-    "declines": 125,
+    "advances": 45,
+    "declines": 128,
     "total": 175
   }
 };
