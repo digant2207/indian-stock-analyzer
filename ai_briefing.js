@@ -1,23 +1,23 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22350,
-  "nifty_resistance": 22700,
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "nifty_support": 22300,
+  "nifty_resistance": 22650,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $89.77.",
-    "Universe breadth shows 36 advancing vs 139 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,350 | Resistance cap at 22,700."
+    "US Markets closed down 0.25% with Brent Crude hovering around $90.50.",
+    "Universe breadth shows 32 advancing vs 142 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 167.22,
+      "current_price": 166.5,
       "trigger": 168.73,
-      "target1": 175.54,
-      "sl": 161.23,
+      "target1": 174.47,
+      "sl": 160.76,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": 0.28
+      "change_pct": -0.15
     },
     {
       "symbol": "SIGMAADV",
@@ -32,29 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 127.01,
+      "current_price": 127.7,
       "trigger": 128.16,
-      "target1": 147.34,
-      "sl": 112.37,
+      "target1": 148.38,
+      "sl": 112.81,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9128.16 with Accumulation structure.",
-      "change_pct": 1.93
+      "change_pct": 2.49
     }
   ],
   "risk_warning": "Defensive alert on Escorts Kubota Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 06:45 AM",
+  "timestamp": "01 Oct 2026, 07:01 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22516.4,
-      "change_pct": -0.46,
+      "price": 22465.85,
+      "change_pct": -0.68,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72401.03,
-      "change_pct": -0.11,
+      "price": 72227.24,
+      "change_pct": -0.35,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.77,
-      "change_pct": -0.72,
-      "status": "down"
+      "price": 90.5,
+      "change_pct": 0.09,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.98,
-      "change_pct": -0.07,
-      "status": "down"
+      "price": 96.08,
+      "change_pct": 0.04,
+      "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 36,
-    "declines": 139,
+    "advances": 32,
+    "declines": 142,
     "total": 176
   }
 };
