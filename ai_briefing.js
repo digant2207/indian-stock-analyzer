@@ -4,30 +4,30 @@ window.AI_BRIEFING = {
   "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $92.30.",
-    "Universe breadth shows 34 advancing vs 142 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $92.44.",
+    "Universe breadth shows 35 advancing vs 141 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 165.9,
+      "current_price": 165.88,
       "trigger": 168.73,
-      "target1": 173.62,
-      "sl": 160.34,
+      "target1": 173.59,
+      "sl": 160.33,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": -0.51
+      "change_pct": -0.52
     },
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 131.0,
+      "current_price": 130.8,
       "trigger": 129.66,
-      "target1": 155.97,
-      "sl": 113.02,
+      "target1": 155.67,
+      "sl": 112.9,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9129.66 with Accumulation structure.",
-      "change_pct": 2.03
+      "change_pct": 1.88
     },
     {
       "symbol": "SIGMAADV",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 10:00 AM",
+  "timestamp": "01 Oct 2026, 10:15 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 71935.43,
-      "change_pct": -0.75,
+      "price": 71909.7,
+      "change_pct": -0.79,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.3,
-      "change_pct": 2.08,
+      "price": 92.44,
+      "change_pct": 2.23,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.33,
-      "change_pct": 0.29,
+      "price": 96.32,
+      "change_pct": 0.28,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 34,
-    "declines": 142,
+    "advances": 35,
+    "declines": 141,
     "total": 176
   }
 };
