@@ -1,12 +1,12 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22100,
-  "nifty_resistance": 22450,
+  "nifty_support": 22050,
+  "nifty_resistance": 22400,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $92.31.",
-    "Universe breadth shows 15 advancing vs 160 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,100 | Resistance cap at 22,450."
+    "US Markets closed down 0.25% with Brent Crude hovering around $92.49.",
+    "Universe breadth shows 14 advancing vs 161 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,050 | Resistance cap at 22,400."
   ],
   "top_setups": [
     {
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 126.64,
+      "current_price": 126.68,
       "trigger": 128.16,
-      "target1": 146.78,
-      "sl": 112.14,
+      "target1": 146.84,
+      "sl": 112.16,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9128.16 with Accumulation structure.",
-      "change_pct": 1.64
+      "change_pct": 1.67
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 316.3,
+      "current_price": 315.7,
       "trigger": 357.66,
-      "target1": 349.22,
-      "sl": 292.6,
+      "target1": 348.86,
+      "sl": 291.82,
       "rationale": "High Technical Score (18.0/100), 0.0% to Buy Trigger \u20b9357.66 with Accumulation structure.",
-      "change_pct": -0.35
+      "change_pct": -0.54
     }
   ],
   "risk_warning": "Defensive alert on Shalby Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 08:15 AM",
+  "timestamp": "01 Oct 2026, 08:31 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22287.65,
-      "change_pct": -1.47,
+      "price": 22240.6,
+      "change_pct": -1.68,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 71593.52,
-      "change_pct": -1.22,
+      "price": 71520.67,
+      "change_pct": -1.32,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.31,
-      "change_pct": 2.09,
+      "price": 92.49,
+      "change_pct": 2.29,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.25,
-      "change_pct": 0.2,
+      "price": 96.21,
+      "change_pct": 0.17,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 15,
-    "declines": 160,
+    "advances": 14,
+    "declines": 161,
     "total": 176
   }
 };
