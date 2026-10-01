@@ -1,8 +1,8 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 27.3,
-  "overall_avg_return_per_trade": -2.05,
+  "overall_win_rate": 26.9,
+  "overall_avg_return_per_trade": -2.1,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -14,19 +14,19 @@
     },
     {
       "symbol": "ACMESOLAR.NS",
-      "total_trades": 12,
-      "win_rate": 50.0,
-      "avg_return": 4.22,
-      "total_wins": 6,
+      "total_trades": 13,
+      "win_rate": 53.8,
+      "avg_return": 4.72,
+      "total_wins": 7,
       "total_losses": 6
     },
     {
       "symbol": "ANANTRAJ.NS",
-      "total_trades": 12,
-      "win_rate": 41.7,
-      "avg_return": -1.55,
+      "total_trades": 13,
+      "win_rate": 38.5,
+      "avg_return": -1.99,
       "total_wins": 5,
-      "total_losses": 7
+      "total_losses": 8
     },
     {
       "symbol": "ASIANTILES.NS",
@@ -118,11 +118,11 @@
     },
     {
       "symbol": "BOROLTD.NS",
-      "total_trades": 4,
-      "win_rate": 50.0,
-      "avg_return": 0.47,
+      "total_trades": 5,
+      "win_rate": 40.0,
+      "avg_return": -0.69,
       "total_wins": 2,
-      "total_losses": 2
+      "total_losses": 3
     },
     {
       "symbol": "BOROSCI.NS",

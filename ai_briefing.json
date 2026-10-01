@@ -1,54 +1,54 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22450,
-  "nifty_resistance": 22800,
+  "nifty_support": 22350,
+  "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $89.56.",
-    "Universe breadth shows 73 advancing vs 99 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
+    "US Markets closed down 0.25% with Brent Crude hovering around $89.62.",
+    "Universe breadth shows 42 advancing vs 132 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,350 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 166.75,
+      "current_price": 166.15,
       "trigger": 168.73,
-      "target1": 173.94,
-      "sl": 161.57,
+      "target1": 173.97,
+      "sl": 160.52,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": 3.87
+      "change_pct": -0.36
     },
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 830.0,
+      "current_price": 824.2,
       "trigger": 838.67,
-      "target1": 901.16,
-      "sl": 778.77,
+      "target1": 895.93,
+      "sl": 772.55,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 1.76
+      "change_pct": -0.7
     },
     {
-      "symbol": "BOROLTD",
-      "name": "Borosil Ltd",
-      "current_price": 293.38,
-      "trigger": 284.33,
-      "target1": 339.28,
-      "sl": 260.33,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
-      "change_pct": 6.22
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 162.49,
+      "trigger": 165.73,
+      "target1": 177.16,
+      "sl": 151.93,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9165.73 with Accumulation structure.",
+      "change_pct": -1.0
     }
   ],
-  "risk_warning": "Defensive alert on Fortis Healthcare Ltd, Max Healthcare Institute due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 03:30 AM",
+  "timestamp": "01 Oct 2026, 03:45 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22620.45,
-      "change_pct": -0.42,
+      "price": 22551.25,
+      "change_pct": -0.31,
       "status": "down"
     },
     "Sensex": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.56,
-      "change_pct": 0.2,
+      "price": 89.62,
+      "change_pct": 0.27,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.94,
-      "change_pct": -0.12,
+      "price": 95.9,
+      "change_pct": -0.16,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 73,
-    "declines": 99,
+    "advances": 42,
+    "declines": 132,
     "total": 175
   }
 }
