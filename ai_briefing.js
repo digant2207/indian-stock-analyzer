@@ -1,23 +1,23 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22250,
-  "nifty_resistance": 22600,
+  "nifty_support": 22200,
+  "nifty_resistance": 22550,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $90.99.",
-    "Universe breadth shows 28 advancing vs 146 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
+    "US Markets closed down 0.25% with Brent Crude hovering around $92.30.",
+    "Universe breadth shows 25 advancing vs 151 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,200 | Resistance cap at 22,550."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 165.8,
+      "current_price": 165.27,
       "trigger": 168.73,
-      "target1": 173.48,
-      "sl": 160.27,
+      "target1": 172.77,
+      "sl": 159.87,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": -0.57
+      "change_pct": -0.89
     },
     {
       "symbol": "SIGMAADV",
@@ -32,29 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 127.5,
+      "current_price": 126.43,
       "trigger": 128.16,
-      "target1": 148.07,
-      "sl": 112.69,
+      "target1": 146.47,
+      "sl": 112.0,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9128.16 with Accumulation structure.",
-      "change_pct": 2.33
+      "change_pct": 1.47
     }
   ],
-  "risk_warning": "Defensive alert on Shalby Ltd, Escorts Kubota Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Shalby Ltd, Indraprastha Medical Corporation Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 07:15 AM",
+  "timestamp": "01 Oct 2026, 07:35 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22422.85,
-      "change_pct": -0.87,
+      "price": 22373.3,
+      "change_pct": -1.09,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72037.35,
-      "change_pct": -0.61,
+      "price": 71752.44,
+      "change_pct": -1.0,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.99,
-      "change_pct": 0.63,
+      "price": 92.3,
+      "change_pct": 2.08,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.1,
-      "change_pct": 0.05,
+      "price": 96.15,
+      "change_pct": 0.11,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 28,
-    "declines": 146,
+    "advances": 25,
+    "declines": 151,
     "total": 176
   }
 };
