@@ -1,12 +1,12 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22150,
-  "nifty_resistance": 22500,
+  "nifty_support": 22100,
+  "nifty_resistance": 22450,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $91.79.",
-    "Universe breadth shows 20 advancing vs 155 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,150 | Resistance cap at 22,500."
+    "US Markets closed down 0.25% with Brent Crude hovering around $92.31.",
+    "Universe breadth shows 15 advancing vs 160 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,100 | Resistance cap at 22,450."
   ],
   "top_setups": [
     {
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 126.55,
+      "current_price": 126.64,
       "trigger": 128.16,
-      "target1": 146.65,
-      "sl": 112.08,
+      "target1": 146.78,
+      "sl": 112.14,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9128.16 with Accumulation structure.",
-      "change_pct": 1.57
+      "change_pct": 1.64
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 317.05,
+      "current_price": 316.3,
       "trigger": 357.66,
-      "target1": 349.67,
-      "sl": 293.57,
-      "rationale": "High Technical Score (14.0/100), 0.0% to Buy Trigger \u20b9357.66 with Accumulation structure.",
-      "change_pct": -0.11
+      "target1": 349.22,
+      "sl": 292.6,
+      "rationale": "High Technical Score (18.0/100), 0.0% to Buy Trigger \u20b9357.66 with Accumulation structure.",
+      "change_pct": -0.35
     }
   ],
   "risk_warning": "Defensive alert on Shalby Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 08:01 AM",
+  "timestamp": "01 Oct 2026, 08:15 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22334.35,
-      "change_pct": -1.26,
+      "price": 22287.65,
+      "change_pct": -1.47,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 71713.29,
-      "change_pct": -1.06,
+      "price": 71593.52,
+      "change_pct": -1.22,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.79,
-      "change_pct": 1.52,
+      "price": 92.31,
+      "change_pct": 2.09,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.17,
-      "change_pct": 0.12,
+      "price": 96.25,
+      "change_pct": 0.2,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 20,
-    "declines": 155,
+    "advances": 15,
+    "declines": 160,
     "total": 176
   }
 };
