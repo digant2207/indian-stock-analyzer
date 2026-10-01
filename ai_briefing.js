@@ -2,23 +2,13 @@ window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22150,
-  "nifty_resistance": 22550,
+  "nifty_resistance": 22500,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $92.17.",
-    "Universe breadth shows 23 advancing vs 152 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,150 | Resistance cap at 22,550."
+    "US Markets closed down 0.25% with Brent Crude hovering around $91.79.",
+    "Universe breadth shows 20 advancing vs 155 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,150 | Resistance cap at 22,500."
   ],
   "top_setups": [
-    {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 164.9,
-      "trigger": 168.73,
-      "target1": 172.29,
-      "sl": 159.58,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": -1.11
-    },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
@@ -32,29 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "JAYBARMARU",
       "name": "Jay Bharat Maruti Ltd",
-      "current_price": 127.48,
+      "current_price": 126.55,
       "trigger": 128.16,
-      "target1": 148.04,
-      "sl": 112.67,
+      "target1": 146.65,
+      "sl": 112.08,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9128.16 with Accumulation structure.",
-      "change_pct": 2.31
+      "change_pct": 1.57
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 317.05,
+      "trigger": 357.66,
+      "target1": 349.67,
+      "sl": 293.57,
+      "rationale": "High Technical Score (14.0/100), 0.0% to Buy Trigger \u20b9357.66 with Accumulation structure.",
+      "change_pct": -0.11
     }
   ],
   "risk_warning": "Defensive alert on Shalby Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 07:46 AM",
+  "timestamp": "01 Oct 2026, 08:01 AM",
   "date_tag": "2026-10-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22352.55,
-      "change_pct": -1.18,
+      "price": 22334.35,
+      "change_pct": -1.26,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 71617.77,
-      "change_pct": -1.19,
+      "price": 71713.29,
+      "change_pct": -1.06,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.17,
-      "change_pct": 1.94,
+      "price": 91.79,
+      "change_pct": 1.52,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.14,
-      "change_pct": 0.09,
+      "price": 96.17,
+      "change_pct": 0.12,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 23,
-    "declines": 152,
+    "advances": 20,
+    "declines": 155,
     "total": 176
   }
 };
