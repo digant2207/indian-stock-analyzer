@@ -4,30 +4,30 @@
   "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed up 0.19% with Brent Crude hovering around $89.82.",
-    "Universe breadth shows 50 advancing vs 125 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.19% with Brent Crude hovering around $89.62.",
+    "Universe breadth shows 36 advancing vs 140 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 166.75,
+      "current_price": 165.88,
       "trigger": 168.73,
-      "target1": 173.94,
-      "sl": 161.57,
+      "target1": 173.59,
+      "sl": 160.33,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": 3.87
+      "change_pct": -0.52
     },
     {
-      "symbol": "BOROLTD",
-      "name": "Borosil Ltd",
-      "current_price": 293.38,
-      "trigger": 284.33,
-      "target1": 339.28,
-      "sl": 260.33,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
-      "change_pct": 6.22
+      "symbol": "JAYBARMARU",
+      "name": "Jay Bharat Maruti Ltd",
+      "current_price": 130.8,
+      "trigger": 129.66,
+      "target1": 155.67,
+      "sl": 112.9,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9129.66 with Accumulation structure.",
+      "change_pct": 1.88
     },
     {
       "symbol": "SIGMAADV",
@@ -40,9 +40,9 @@
       "change_pct": 4.99
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Oct 2026, 08:30 AM",
+  "timestamp": "02 Oct 2026, 08:45 AM",
   "date_tag": "2026-10-02",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.82,
-      "change_pct": -3.28,
+      "price": 89.62,
+      "change_pct": -3.5,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 50,
-    "declines": 125,
+    "advances": 36,
+    "declines": 140,
     "total": 176
   }
 }
