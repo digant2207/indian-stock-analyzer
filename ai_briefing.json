@@ -4,11 +4,31 @@
   "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed up 0.19% with Brent Crude hovering around $92.55.",
+    "US Markets closed up 0.19% with Brent Crude hovering around $92.64.",
     "Universe breadth shows 50 advancing vs 125 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
+    {
+      "symbol": "GPPL",
+      "name": "Gujarat Pipavav Port Ltd",
+      "current_price": 166.75,
+      "trigger": 168.73,
+      "target1": 173.94,
+      "sl": 161.57,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
+      "change_pct": 3.87
+    },
+    {
+      "symbol": "BOROLTD",
+      "name": "Borosil Ltd",
+      "current_price": 293.38,
+      "trigger": 284.33,
+      "target1": 339.28,
+      "sl": 260.33,
+      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9284.33 with Accumulation structure.",
+      "change_pct": 6.22
+    },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
@@ -18,31 +38,11 @@
       "sl": 869.43,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,030.83 with Accumulation structure.",
       "change_pct": 4.99
-    },
-    {
-      "symbol": "SONACOMS",
-      "name": "Sona BLW Precision",
-      "current_price": 805.0,
-      "trigger": 838.67,
-      "target1": 874.26,
-      "sl": 755.13,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": -3.01
-    },
-    {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 721.2,
-      "trigger": 750.8,
-      "target1": 760.44,
-      "sl": 692.95,
-      "rationale": "High Technical Score (20.0/100), 0.0% to Buy Trigger \u20b9750.80 with Accumulation structure.",
-      "change_pct": 1.76
     }
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Oct 2026, 03:31 AM",
+  "timestamp": "02 Oct 2026, 03:45 AM",
   "date_tag": "2026-10-02",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.55,
-      "change_pct": 2.36,
+      "price": 92.64,
+      "change_pct": 2.46,
       "status": "up"
     },
     "USD/INR": {
