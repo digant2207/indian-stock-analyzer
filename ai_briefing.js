@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed up 0.19% with Brent Crude hovering around $89.42.",
+    "US Markets closed up 0.19% with Brent Crude hovering around $89.04.",
     "Universe breadth shows 36 advancing vs 140 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Oct 2026, 09:15 AM",
+  "timestamp": "02 Oct 2026, 09:30 AM",
   "date_tag": "2026-10-02",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.42,
-      "change_pct": -3.71,
+      "price": 89.04,
+      "change_pct": -4.12,
       "status": "down"
     },
     "USD/INR": {
