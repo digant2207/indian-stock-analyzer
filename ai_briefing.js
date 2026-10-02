@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Oct 2026, 06:01 AM",
+  "timestamp": "02 Oct 2026, 06:15 AM",
   "date_tag": "2026-10-02",
   "global_cues": {
     "Nifty 50": {
