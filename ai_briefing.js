@@ -1,10 +1,10 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed up 0.19% with Brent Crude hovering around $92.40.",
+    "US Markets closed up 0.19% with Brent Crude hovering around $92.48.",
     "Universe breadth shows 50 advancing vs 125 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Oct 2026, 05:30 AM",
+  "timestamp": "02 Oct 2026, 05:46 AM",
   "date_tag": "2026-10-02",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 92.4,
-      "change_pct": -0.51,
+      "price": 92.48,
+      "change_pct": -0.42,
       "status": "down"
     },
     "USD/INR": {
