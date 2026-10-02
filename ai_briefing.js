@@ -4,31 +4,11 @@ window.AI_BRIEFING = {
   "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $91.81.",
-    "Universe breadth shows 35 advancing vs 141 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.19% with Brent Crude hovering around $92.55.",
+    "Universe breadth shows 50 advancing vs 125 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
-    {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 165.88,
-      "trigger": 168.73,
-      "target1": 173.59,
-      "sl": 160.33,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9168.73 with Accumulation structure.",
-      "change_pct": -0.52
-    },
-    {
-      "symbol": "JAYBARMARU",
-      "name": "Jay Bharat Maruti Ltd",
-      "current_price": 130.8,
-      "trigger": 129.66,
-      "target1": 155.67,
-      "sl": 112.9,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9129.66 with Accumulation structure.",
-      "change_pct": 1.88
-    },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
@@ -38,12 +18,32 @@ window.AI_BRIEFING = {
       "sl": 869.43,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,030.83 with Accumulation structure.",
       "change_pct": 4.99
+    },
+    {
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 805.0,
+      "trigger": 838.67,
+      "target1": 874.26,
+      "sl": 755.13,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
+      "change_pct": -3.01
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "current_price": 721.2,
+      "trigger": 750.8,
+      "target1": 760.44,
+      "sl": 692.95,
+      "rationale": "High Technical Score (20.0/100), 0.0% to Buy Trigger \u20b9750.80 with Accumulation structure.",
+      "change_pct": 1.76
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "01 Oct 2026, 11:15 AM",
-  "date_tag": "2026-10-01",
+  "timestamp": "02 Oct 2026, 03:31 AM",
+  "date_tag": "2026-10-02",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7651.54,
-      "change_pct": -0.25,
-      "status": "down"
+      "price": 7666.45,
+      "change_pct": 0.19,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26861.06,
-      "change_pct": 0.24,
+      "price": 26871.6,
+      "change_pct": 0.04,
       "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.81,
-      "change_pct": 1.54,
+      "price": 92.55,
+      "change_pct": 2.36,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.32,
-      "change_pct": 0.28,
+      "price": 96.3,
+      "change_pct": 0.39,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 35,
-    "declines": 141,
+    "advances": 50,
+    "declines": 125,
     "total": 176
   }
 };
