@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed up 0.19% with Brent Crude hovering around $91.98.",
+    "US Markets closed up 0.19% with Brent Crude hovering around $91.81.",
     "Universe breadth shows 50 advancing vs 125 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Fiem Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Oct 2026, 06:45 AM",
+  "timestamp": "02 Oct 2026, 07:00 AM",
   "date_tag": "2026-10-02",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.98,
-      "change_pct": -0.96,
+      "price": 91.81,
+      "change_pct": -1.14,
       "status": "down"
     },
     "USD/INR": {
