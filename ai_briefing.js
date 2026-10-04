@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PB Fintech Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Oct 2026, 08:24 AM",
-  "date_tag": "2026-10-03",
+  "timestamp": "04 Oct 2026, 08:38 AM",
+  "date_tag": "2026-10-04",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
