@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22300,
+  "nifty_support": 22250,
   "nifty_resistance": 22650,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $89.90.",
-    "Universe breadth shows 87 advancing vs 89 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
+    "US Markets closed up 0.73% with Brent Crude hovering around $89.87.",
+    "Universe breadth shows 81 advancing vs 95 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,650."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1139.4,
+      "current_price": 1141.9,
       "trigger": 1140.28,
-      "target1": 1224.85,
-      "sl": 1077.88,
+      "target1": 1229.11,
+      "sl": 1079.11,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
-      "change_pct": 3.15
+      "change_pct": 3.38
     },
     {
       "symbol": "NYKAA",
       "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 341.6,
+      "current_price": 341.45,
       "trigger": 346.84,
-      "target1": 365.68,
-      "sl": 324.26,
+      "target1": 365.47,
+      "sl": 324.16,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
-      "change_pct": 5.12
+      "change_pct": 5.08
     },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
-      "current_price": 1095.0,
+      "current_price": 1097.8,
       "trigger": 1082.28,
-      "target1": 1413.82,
-      "sl": 865.45,
+      "target1": 1418.01,
+      "sl": 867.25,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,082.28 with Accumulation structure.",
-      "change_pct": 1.68
+      "change_pct": 1.94
     }
   ],
   "risk_warning": "Defensive alert on Zenith Exports Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 07:16 AM",
+  "timestamp": "05 Oct 2026, 07:31 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22455.8,
-      "change_pct": 0.15,
+      "price": 22447.9,
+      "change_pct": 0.12,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72028.12,
-      "change_pct": 0.16,
+      "price": 72007.18,
+      "change_pct": 0.14,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.9,
-      "change_pct": -1.33,
+      "price": 89.87,
+      "change_pct": -1.36,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.27,
-      "change_pct": 0.05,
+      "price": 96.29,
+      "change_pct": 0.07,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 87,
-    "declines": 89,
+    "advances": 81,
+    "declines": 95,
     "total": 176
   }
 };
