@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22300,
   "nifty_resistance": 22650,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $89.74.",
-    "Universe breadth shows 87 advancing vs 89 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.73% with Brent Crude hovering around $89.72.",
+    "Universe breadth shows 83 advancing vs 93 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1151.0,
+      "current_price": 1148.2,
       "trigger": 1140.28,
-      "target1": 1244.89,
-      "sl": 1083.4,
+      "target1": 1240.0,
+      "sl": 1082.11,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
-      "change_pct": 4.2
+      "change_pct": 3.95
     },
     {
       "symbol": "NYKAA",
       "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 341.35,
+      "current_price": 341.4,
       "trigger": 346.84,
-      "target1": 365.33,
-      "sl": 324.09,
+      "target1": 365.4,
+      "sl": 324.12,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
-      "change_pct": 5.05
+      "change_pct": 5.06
     },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
-      "current_price": 1094.9,
+      "current_price": 1101.0,
       "trigger": 1082.28,
-      "target1": 1413.67,
-      "sl": 865.39,
+      "target1": 1422.83,
+      "sl": 869.28,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,082.28 with Accumulation structure.",
-      "change_pct": 1.67
+      "change_pct": 2.24
     }
   ],
-  "risk_warning": "Defensive alert on Zenith Exports Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Zenith Exports Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 07:45 AM",
+  "timestamp": "05 Oct 2026, 08:01 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22475.5,
-      "change_pct": 0.24,
+      "price": 22464.25,
+      "change_pct": 0.19,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 71976.65,
-      "change_pct": 0.09,
+      "price": 72072.37,
+      "change_pct": 0.23,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.74,
-      "change_pct": -1.5,
+      "price": 89.72,
+      "change_pct": -1.53,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 87,
-    "declines": 89,
+    "advances": 83,
+    "declines": 93,
     "total": 176
   }
 };
