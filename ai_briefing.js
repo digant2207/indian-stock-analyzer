@@ -4,45 +4,45 @@ window.AI_BRIEFING = {
   "nifty_support": 22400,
   "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $90.67.",
-    "Universe breadth shows 93 advancing vs 82 declining stocks across 177 scanned equities.",
+    "US Markets closed up 0.73% with Brent Crude hovering around $90.74.",
+    "Universe breadth shows 94 advancing vs 83 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 411.45,
+      "current_price": 412.75,
       "trigger": 420.34,
-      "target1": 444.35,
-      "sl": 387.76,
+      "target1": 446.09,
+      "sl": 388.74,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
-      "change_pct": 3.39
+      "change_pct": 3.72
     },
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1145.0,
+      "current_price": 1140.2,
       "trigger": 1140.28,
-      "target1": 1234.45,
-      "sl": 1080.6,
+      "target1": 1226.21,
+      "sl": 1078.27,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
-      "change_pct": 3.66
+      "change_pct": 3.22
     },
     {
-      "symbol": "SIGMAADV",
-      "name": "Sigma Advanced Systems Ltd",
-      "current_price": 1130.7,
-      "trigger": 1082.28,
-      "target1": 1468.5,
-      "sl": 887.49,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,082.28 with Accumulation structure.",
-      "change_pct": 5.0
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 339.55,
+      "trigger": 346.84,
+      "target1": 362.81,
+      "sl": 322.8,
+      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
+      "change_pct": 4.49
     }
   ],
-  "risk_warning": "Defensive alert on Jindal Poly Investment & Finance Co Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bharat Forge Ltd, Jindal Poly Investment & Finance Co Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 10:01 AM",
+  "timestamp": "05 Oct 2026, 10:15 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72258.8,
-      "change_pct": 0.49,
+      "price": 72382.47,
+      "change_pct": 0.66,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.67,
-      "change_pct": -0.48,
+      "price": 90.74,
+      "change_pct": -0.41,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 93,
-    "declines": 82,
+    "advances": 94,
+    "declines": 83,
     "total": 177
   }
 };
