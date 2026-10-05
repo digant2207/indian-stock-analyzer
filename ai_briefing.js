@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22350,
   "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $90.26.",
-    "Universe breadth shows 102 advancing vs 73 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.73% with Brent Crude hovering around $90.49.",
+    "Universe breadth shows 95 advancing vs 81 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,350 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 412.65,
+      "current_price": 415.0,
       "trigger": 420.34,
-      "target1": 445.96,
-      "sl": 388.67,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
-      "change_pct": 3.69
+      "target1": 449.21,
+      "sl": 390.37,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
+      "change_pct": 4.28
     },
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1151.9,
+      "current_price": 1151.0,
       "trigger": 1140.28,
-      "target1": 1246.47,
-      "sl": 1083.81,
+      "target1": 1244.89,
+      "sl": 1083.4,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
-      "change_pct": 4.28
+      "change_pct": 4.2
     },
     {
       "symbol": "NYKAA",
       "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 341.95,
+      "current_price": 339.0,
       "trigger": 346.84,
-      "target1": 366.19,
-      "sl": 324.5,
+      "target1": 362.06,
+      "sl": 322.39,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
-      "change_pct": 5.23
+      "change_pct": 4.32
     }
   ],
   "risk_warning": "Defensive alert on Zenith Exports Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 09:00 AM",
+  "timestamp": "05 Oct 2026, 09:15 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22553.3,
+      "price": 22553.45,
       "change_pct": 0.59,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72271.8,
-      "change_pct": 0.5,
+      "price": 72360.42,
+      "change_pct": 0.63,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.26,
-      "change_pct": -0.93,
+      "price": 90.49,
+      "change_pct": -0.68,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 96.29,
-      "change_pct": 0.07,
+      "change_pct": 0.06,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 73,
+    "advances": 95,
+    "declines": 81,
     "total": 176
   }
 };
