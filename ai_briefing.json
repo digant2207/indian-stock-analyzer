@@ -4,30 +4,30 @@
   "nifty_support": 22300,
   "nifty_resistance": 22650,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $90.22.",
-    "Universe breadth shows 88 advancing vs 88 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.73% with Brent Crude hovering around $89.90.",
+    "Universe breadth shows 87 advancing vs 89 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1143.4,
+      "current_price": 1139.4,
       "trigger": 1140.28,
-      "target1": 1231.69,
-      "sl": 1079.83,
+      "target1": 1224.85,
+      "sl": 1077.88,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
-      "change_pct": 3.51
+      "change_pct": 3.15
     },
     {
       "symbol": "NYKAA",
       "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 341.5,
+      "current_price": 341.6,
       "trigger": 346.84,
-      "target1": 365.54,
-      "sl": 324.19,
+      "target1": 365.68,
+      "sl": 324.26,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
-      "change_pct": 5.09
+      "change_pct": 5.12
     },
     {
       "symbol": "SIGMAADV",
@@ -40,21 +40,21 @@
       "change_pct": 1.68
     }
   ],
-  "risk_warning": "Defensive alert on Zenith Exports Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Zenith Exports Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 07:01 AM",
+  "timestamp": "05 Oct 2026, 07:16 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22461.35,
-      "change_pct": 0.18,
+      "price": 22455.8,
+      "change_pct": 0.15,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 71926.61,
-      "change_pct": 0.02,
+      "price": 72028.12,
+      "change_pct": 0.16,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.22,
-      "change_pct": -0.98,
+      "price": 89.9,
+      "change_pct": -1.33,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.28,
-      "change_pct": 0.06,
+      "price": 96.27,
+      "change_pct": 0.05,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 88,
-    "declines": 88,
+    "advances": 87,
+    "declines": 89,
     "total": 176
   }
 }
