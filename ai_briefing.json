@@ -4,7 +4,7 @@
   "nifty_support": 22400,
   "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $90.51.",
+    "US Markets closed up 0.73% with Brent Crude hovering around $90.33.",
     "Universe breadth shows 94 advancing vs 83 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,750."
   ],
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on Bharat Forge Ltd, Jindal Poly Investment & Finance Co Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 11:15 AM",
+  "timestamp": "05 Oct 2026, 11:27 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.51,
-      "change_pct": -0.66,
+      "price": 90.33,
+      "change_pct": -0.86,
       "status": "down"
     },
     "USD/INR": {
