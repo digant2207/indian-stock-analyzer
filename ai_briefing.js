@@ -4,30 +4,30 @@ window.AI_BRIEFING = {
   "nifty_support": 22350,
   "nifty_resistance": 22700,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $90.61.",
-    "Universe breadth shows 88 advancing vs 88 declining stocks across 176 scanned equities.",
+    "US Markets closed up 0.73% with Brent Crude hovering around $90.38.",
+    "Universe breadth shows 98 advancing vs 77 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,350 | Resistance cap at 22,700."
   ],
   "top_setups": [
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 411.85,
+      "current_price": 412.65,
       "trigger": 420.34,
-      "target1": 444.88,
-      "sl": 388.07,
+      "target1": 445.96,
+      "sl": 388.67,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
-      "change_pct": 3.49
+      "change_pct": 3.69
     },
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1137.6,
+      "current_price": 1141.9,
       "trigger": 1140.28,
-      "target1": 1221.79,
-      "sl": 1076.98,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
-      "change_pct": 2.99
+      "target1": 1229.11,
+      "sl": 1079.11,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
+      "change_pct": 3.38
     },
     {
       "symbol": "SIGMAADV",
@@ -42,19 +42,19 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 09:30 AM",
+  "timestamp": "05 Oct 2026, 09:45 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22534.8,
-      "change_pct": 0.5,
+      "price": 22535.45,
+      "change_pct": 0.51,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72361.4,
-      "change_pct": 0.63,
+      "price": 72295.43,
+      "change_pct": 0.54,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.61,
-      "change_pct": -0.55,
+      "price": 90.38,
+      "change_pct": -0.8,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.29,
-      "change_pct": 0.07,
+      "price": 96.28,
+      "change_pct": 0.05,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 88,
-    "declines": 88,
-    "total": 176
+    "advances": 98,
+    "declines": 77,
+    "total": 177
   }
 };
