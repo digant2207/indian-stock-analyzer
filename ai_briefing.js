@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22300,
-  "nifty_resistance": 22650,
+  "nifty_support": 22250,
+  "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $89.76.",
-    "Universe breadth shows 89 advancing vs 87 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
+    "US Markets closed up 0.73% with Brent Crude hovering around $89.89.",
+    "Universe breadth shows 73 advancing vs 103 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
     {
-      "symbol": "NYKAA",
-      "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 339.6,
-      "trigger": 346.84,
-      "target1": 362.88,
-      "sl": 322.84,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
-      "change_pct": 4.51
-    },
-    {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1137.3,
+      "current_price": 1140.9,
       "trigger": 1140.28,
-      "target1": 1221.29,
-      "sl": 1076.83,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
-      "change_pct": 2.96
+      "target1": 1227.4,
+      "sl": 1078.62,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
+      "change_pct": 3.29
+    },
+    {
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 340.5,
+      "trigger": 346.84,
+      "target1": 364.13,
+      "sl": 323.49,
+      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
+      "change_pct": 4.79
     },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
-      "current_price": 1091.0,
+      "current_price": 1091.9,
       "trigger": 1082.28,
-      "target1": 1407.85,
-      "sl": 862.86,
+      "target1": 1409.19,
+      "sl": 863.45,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,082.28 with Accumulation structure.",
-      "change_pct": 1.31
+      "change_pct": 1.39
     }
   ],
   "risk_warning": "Defensive alert on Zenith Exports Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 06:15 AM",
+  "timestamp": "05 Oct 2026, 06:30 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22461.9,
-      "change_pct": 0.18,
-      "status": "up"
+      "price": 22419.15,
+      "change_pct": -0.01,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72170.88,
-      "change_pct": 0.36,
+      "price": 72050.24,
+      "change_pct": 0.2,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.76,
-      "change_pct": -1.48,
+      "price": 89.89,
+      "change_pct": -1.34,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.27,
-      "change_pct": 0.05,
+      "price": 96.28,
+      "change_pct": 0.06,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 89,
-    "declines": 87,
+    "advances": 73,
+    "declines": 103,
     "total": 176
   }
 };
