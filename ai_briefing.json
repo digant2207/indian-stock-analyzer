@@ -2,59 +2,59 @@
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22300,
-  "nifty_resistance": 22700,
+  "nifty_resistance": 22650,
   "executive_bullets": [
-    "US Markets closed up 0.73% with Brent Crude hovering around $89.97.",
-    "Universe breadth shows 105 advancing vs 71 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,700."
+    "US Markets closed up 0.73% with Brent Crude hovering around $90.27.",
+    "Universe breadth shows 98 advancing vs 77 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1147.6,
+      "current_price": 1143.0,
       "trigger": 1140.28,
-      "target1": 1238.95,
-      "sl": 1081.83,
+      "target1": 1231.0,
+      "sl": 1079.64,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
-      "change_pct": 3.89
+      "change_pct": 3.48
     },
     {
       "symbol": "SIGMAADV",
       "name": "Sigma Advanced Systems Ltd",
-      "current_price": 1069.5,
+      "current_price": 1069.9,
       "trigger": 1082.28,
-      "target1": 1376.42,
-      "sl": 848.52,
+      "target1": 1376.99,
+      "sl": 848.79,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,082.28 with Accumulation structure.",
-      "change_pct": -0.69
+      "change_pct": -0.65
     },
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1562.1,
+      "current_price": 1560.9,
       "trigger": 1586.17,
-      "target1": 1771.14,
-      "sl": 1411.59,
+      "target1": 1769.49,
+      "sl": 1410.71,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
-      "change_pct": 2.06
+      "change_pct": 1.98
     }
   ],
-  "risk_warning": "Defensive alert on Bajaj Housing Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Zenith Exports Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Oct 2026, 05:31 AM",
+  "timestamp": "05 Oct 2026, 05:45 AM",
   "date_tag": "2026-10-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22501.85,
-      "change_pct": 0.36,
+      "price": 22487.6,
+      "change_pct": 0.29,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72144.31,
-      "change_pct": 0.33,
+      "price": 72200.48,
+      "change_pct": 0.4,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.97,
-      "change_pct": -1.25,
+      "price": 90.27,
+      "change_pct": -0.92,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.26,
+      "price": 96.27,
       "change_pct": 0.04,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 105,
-    "declines": 71,
+    "advances": 98,
+    "declines": 77,
     "total": 176
   }
 }
