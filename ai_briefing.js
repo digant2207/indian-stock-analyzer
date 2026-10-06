@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.66% with Brent Crude hovering around $89.53.",
-    "Universe breadth shows 124 advancing vs 52 declining stocks across 177 scanned equities.",
+    "US Markets closed up 0.66% with Brent Crude hovering around $89.71.",
+    "Universe breadth shows 119 advancing vs 58 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 169.3,
+      "current_price": 168.6,
       "trigger": 170.24,
-      "target1": 179.41,
-      "sl": 162.02,
+      "target1": 178.37,
+      "sl": 161.57,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9170.24 with Accumulation structure.",
-      "change_pct": 1.01
+      "change_pct": 0.6
     },
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 143.08,
+      "current_price": 142.5,
       "trigger": 142.03,
-      "target1": 165.37,
-      "sl": 127.03,
+      "target1": 164.51,
+      "sl": 126.65,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9142.03 with Accumulation structure.",
-      "change_pct": 8.67
+      "change_pct": 8.23
     },
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 412.4,
+      "current_price": 410.55,
       "trigger": 420.34,
-      "target1": 434.23,
-      "sl": 396.68,
+      "target1": 431.73,
+      "sl": 395.3,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
-      "change_pct": -0.08
+      "change_pct": -0.53
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Oct 2026, 04:31 AM",
+  "timestamp": "06 Oct 2026, 04:45 AM",
   "date_tag": "2026-10-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22657.6,
+      "price": 22658.3,
       "change_pct": 0.45,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72586.72,
-      "change_pct": 0.28,
+      "price": 72712.65,
+      "change_pct": 0.46,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.53,
-      "change_pct": 0.11,
+      "price": 89.71,
+      "change_pct": 0.31,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.37,
-      "change_pct": 0.05,
+      "price": 96.35,
+      "change_pct": 0.03,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 124,
-    "declines": 52,
+    "advances": 119,
+    "declines": 58,
     "total": 177
   }
 };
