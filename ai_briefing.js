@@ -4,56 +4,56 @@ window.AI_BRIEFING = {
   "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.66% with Brent Crude hovering around $88.35.",
-    "Universe breadth shows 114 advancing vs 63 declining stocks across 177 scanned equities.",
+    "US Markets closed up 0.66% with Brent Crude hovering around $88.65.",
+    "Universe breadth shows 116 advancing vs 60 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 144.5,
+      "current_price": 144.15,
       "trigger": 142.03,
-      "target1": 167.51,
-      "sl": 127.94,
+      "target1": 166.97,
+      "sl": 127.72,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9142.03 with Accumulation structure.",
-      "change_pct": 9.75
+      "change_pct": 9.49
+    },
+    {
+      "symbol": "JAYBARMARU",
+      "name": "Jay Bharat Maruti Ltd",
+      "current_price": 132.21,
+      "trigger": 132.26,
+      "target1": 160.49,
+      "sl": 111.85,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9132.26 with Accumulation structure.",
+      "change_pct": 1.08
     },
     {
       "symbol": "AWL",
       "name": "AWL Agri Business Ltd",
-      "current_price": 185.62,
+      "current_price": 185.71,
       "trigger": 189.71,
-      "target1": 200.67,
-      "sl": 174.79,
+      "target1": 200.78,
+      "sl": 174.86,
       "rationale": "High Technical Score (18.0/100), 0.0% to Buy Trigger \u20b9189.71 with Accumulation structure.",
-      "change_pct": 5.38
-    },
-    {
-      "symbol": "RAJOOENG",
-      "name": "Rajoo Engineers Ltd",
-      "current_price": 55.61,
-      "trigger": 56.96,
-      "target1": 59.09,
-      "sl": 53.11,
-      "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b956.96 with Accumulation structure.",
-      "change_pct": 1.16
+      "change_pct": 5.43
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Oct 2026, 08:16 AM",
+  "timestamp": "06 Oct 2026, 08:31 AM",
   "date_tag": "2026-10-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22707.1,
-      "change_pct": 0.67,
+      "price": 22717.5,
+      "change_pct": 0.72,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72894.11,
+      "price": 72899.43,
       "change_pct": 0.71,
       "status": "up"
     },
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.35,
-      "change_pct": -1.21,
+      "price": 88.65,
+      "change_pct": -0.87,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 114,
-    "declines": 63,
+    "advances": 116,
+    "declines": 60,
     "total": 177
   }
 };
