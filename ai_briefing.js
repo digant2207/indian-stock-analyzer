@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22500,
+  "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.66% with Brent Crude hovering around $88.60.",
-    "Universe breadth shows 113 advancing vs 63 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
+    "US Markets closed up 0.66% with Brent Crude hovering around $88.35.",
+    "Universe breadth shows 114 advancing vs 63 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
-      "symbol": "AWL",
-      "name": "AWL Agri Business Ltd",
-      "current_price": 185.23,
-      "trigger": 189.71,
-      "target1": 200.18,
-      "sl": 174.47,
-      "rationale": "High Technical Score (18.0/100), 0.0% to Buy Trigger \u20b9189.71 with Accumulation structure.",
-      "change_pct": 5.15
-    },
-    {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 143.4,
+      "current_price": 144.5,
       "trigger": 142.03,
-      "target1": 165.84,
-      "sl": 127.24,
+      "target1": 167.51,
+      "sl": 127.94,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9142.03 with Accumulation structure.",
-      "change_pct": 8.92
+      "change_pct": 9.75
     },
     {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 167.03,
-      "trigger": 170.24,
-      "target1": 176.18,
-      "sl": 160.44,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9170.24 with Accumulation structure.",
-      "change_pct": -0.34
+      "symbol": "AWL",
+      "name": "AWL Agri Business Ltd",
+      "current_price": 185.62,
+      "trigger": 189.71,
+      "target1": 200.67,
+      "sl": 174.79,
+      "rationale": "High Technical Score (18.0/100), 0.0% to Buy Trigger \u20b9189.71 with Accumulation structure.",
+      "change_pct": 5.38
+    },
+    {
+      "symbol": "RAJOOENG",
+      "name": "Rajoo Engineers Ltd",
+      "current_price": 55.61,
+      "trigger": 56.96,
+      "target1": 59.09,
+      "sl": 53.11,
+      "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b956.96 with Accumulation structure.",
+      "change_pct": 1.16
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Oct 2026, 08:01 AM",
+  "timestamp": "06 Oct 2026, 08:16 AM",
   "date_tag": "2026-10-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22705.15,
-      "change_pct": 0.66,
+      "price": 22707.1,
+      "change_pct": 0.67,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72908.47,
-      "change_pct": 0.73,
+      "price": 72894.11,
+      "change_pct": 0.71,
       "status": "up"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.6,
-      "change_pct": -0.93,
+      "price": 88.35,
+      "change_pct": -1.21,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.41,
-      "change_pct": 0.09,
+      "price": 96.42,
+      "change_pct": 0.1,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 113,
+    "advances": 114,
     "declines": 63,
     "total": 177
   }
