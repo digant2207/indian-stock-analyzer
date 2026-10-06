@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.66% with Brent Crude hovering around $88.67.",
-    "Universe breadth shows 114 advancing vs 62 declining stocks across 177 scanned equities.",
+    "US Markets closed up 0.66% with Brent Crude hovering around $88.76.",
+    "Universe breadth shows 113 advancing vs 64 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 167.4,
+      "current_price": 167.08,
       "trigger": 170.24,
-      "target1": 176.68,
-      "sl": 160.72,
+      "target1": 176.25,
+      "sl": 160.48,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9170.24 with Accumulation structure.",
-      "change_pct": -0.12
+      "change_pct": -0.31
+    },
+    {
+      "symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "current_price": 1241.2,
+      "trigger": 1270.54,
+      "target1": 1367.1,
+      "sl": 1150.55,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,270.54 with Accumulation structure.",
+      "change_pct": 2.38
     },
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 142.18,
+      "current_price": 142.92,
       "trigger": 142.03,
-      "target1": 164.04,
-      "sl": 126.44,
+      "target1": 165.13,
+      "sl": 126.93,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9142.03 with Accumulation structure.",
-      "change_pct": 7.99
-    },
-    {
-      "symbol": "NYKAA",
-      "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 340.8,
-      "trigger": 346.84,
-      "target1": 365.63,
-      "sl": 322.92,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
-      "change_pct": 0.37
+      "change_pct": 8.55
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Oct 2026, 06:31 AM",
+  "timestamp": "06 Oct 2026, 06:45 AM",
   "date_tag": "2026-10-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22681.6,
-      "change_pct": 0.56,
+      "price": 22674.85,
+      "change_pct": 0.53,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72853.09,
-      "change_pct": 0.65,
+      "price": 72812.17,
+      "change_pct": 0.59,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.67,
-      "change_pct": -0.85,
+      "price": 88.76,
+      "change_pct": -0.75,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.42,
+      "price": 96.43,
       "change_pct": 0.1,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 114,
-    "declines": 62,
+    "advances": 113,
+    "declines": 64,
     "total": 177
   }
 };
