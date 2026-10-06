@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.66% with Brent Crude hovering around $89.77.",
-    "Universe breadth shows 120 advancing vs 57 declining stocks across 177 scanned equities.",
+    "US Markets closed up 0.66% with Brent Crude hovering around $89.68.",
+    "Universe breadth shows 112 advancing vs 65 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
-      "symbol": "DELTACORP",
-      "name": "Delta Corp Ltd",
-      "current_price": 86.13,
-      "trigger": 88.08,
-      "target1": 120.66,
-      "sl": 61.27,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b988.08 with Accumulation structure.",
-      "change_pct": 0.82
-    },
-    {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 167.48,
+      "current_price": 167.53,
       "trigger": 170.24,
-      "target1": 176.79,
-      "sl": 160.78,
+      "target1": 176.86,
+      "sl": 160.82,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9170.24 with Accumulation structure.",
-      "change_pct": -0.07
+      "change_pct": -0.04
     },
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 143.12,
+      "current_price": 142.78,
       "trigger": 142.03,
-      "target1": 165.43,
-      "sl": 127.06,
+      "target1": 164.92,
+      "sl": 126.84,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9142.03 with Accumulation structure.",
-      "change_pct": 8.7
+      "change_pct": 8.45
+    },
+    {
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 339.5,
+      "trigger": 346.84,
+      "target1": 363.86,
+      "sl": 321.96,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
+      "change_pct": -0.01
     }
   ],
-  "risk_warning": "Defensive alert on Bajaj Housing Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Finance Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Oct 2026, 05:45 AM",
+  "timestamp": "06 Oct 2026, 06:01 AM",
   "date_tag": "2026-10-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22683.95,
-      "change_pct": 0.57,
+      "price": 22675.3,
+      "change_pct": 0.53,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72722.26,
-      "change_pct": 0.47,
+      "price": 72807.14,
+      "change_pct": 0.59,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.77,
-      "change_pct": 0.38,
+      "price": 89.68,
+      "change_pct": 0.28,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.4,
-      "change_pct": 0.08,
+      "price": 96.43,
+      "change_pct": 0.11,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 120,
-    "declines": 57,
+    "advances": 112,
+    "declines": 65,
     "total": 177
   }
 };
