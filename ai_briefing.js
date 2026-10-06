@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22450,
-  "nifty_resistance": 22800,
+  "nifty_support": 22500,
+  "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.66% with Brent Crude hovering around $89.67.",
-    "Universe breadth shows 115 advancing vs 61 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
+    "US Markets closed up 0.66% with Brent Crude hovering around $89.53.",
+    "Universe breadth shows 124 advancing vs 52 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 169.77,
+      "current_price": 169.3,
       "trigger": 170.24,
-      "target1": 180.12,
-      "sl": 162.32,
+      "target1": 179.41,
+      "sl": 162.02,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9170.24 with Accumulation structure.",
-      "change_pct": 1.29
+      "change_pct": 1.01
     },
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 140.31,
+      "current_price": 143.08,
       "trigger": 142.03,
-      "target1": 161.38,
-      "sl": 125.14,
+      "target1": 165.37,
+      "sl": 127.03,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9142.03 with Accumulation structure.",
-      "change_pct": 6.57
+      "change_pct": 8.67
     },
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 411.3,
+      "current_price": 412.4,
       "trigger": 420.34,
-      "target1": 432.73,
-      "sl": 395.87,
+      "target1": 434.23,
+      "sl": 396.68,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
-      "change_pct": -0.35
+      "change_pct": -0.08
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Oct 2026, 04:15 AM",
+  "timestamp": "06 Oct 2026, 04:31 AM",
   "date_tag": "2026-10-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22619.6,
-      "change_pct": 0.28,
+      "price": 22657.6,
+      "change_pct": 0.45,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72532.85,
-      "change_pct": 0.21,
+      "price": 72586.72,
+      "change_pct": 0.28,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.67,
-      "change_pct": 0.27,
+      "price": 89.53,
+      "change_pct": 0.11,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 115,
-    "declines": 61,
+    "advances": 124,
+    "declines": 52,
     "total": 177
   }
 };
