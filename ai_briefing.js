@@ -4,51 +4,51 @@ window.AI_BRIEFING = {
   "nifty_support": 22400,
   "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed up 0.66% with Brent Crude hovering around $89.75.",
-    "Universe breadth shows 70 advancing vs 107 declining stocks across 177 scanned equities.",
+    "US Markets closed up 0.66% with Brent Crude hovering around $89.74.",
+    "Universe breadth shows 106 advancing vs 67 declining stocks across 177 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
       "symbol": "REDINGTON",
       "name": "Redington Ltd",
-      "current_price": 412.75,
+      "current_price": 413.65,
       "trigger": 420.34,
-      "target1": 437.5,
-      "sl": 394.93,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
-      "change_pct": 3.72
+      "target1": 436.0,
+      "sl": 397.56,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9420.34 with Accumulation structure.",
+      "change_pct": 0.22
     },
     {
-      "symbol": "NYKAA",
-      "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 339.55,
-      "trigger": 346.84,
-      "target1": 362.84,
-      "sl": 322.78,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9346.84 with Accumulation structure.",
-      "change_pct": 4.49
+      "symbol": "GPPL",
+      "name": "Gujarat Pipavav Port Ltd",
+      "current_price": 170.27,
+      "trigger": 170.24,
+      "target1": 180.9,
+      "sl": 162.62,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9170.24 with Accumulation structure.",
+      "change_pct": 1.59
     },
     {
-      "symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1559.3,
-      "trigger": 1586.17,
-      "target1": 1747.29,
-      "sl": 1423.95,
-      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
-      "change_pct": 1.88
+      "symbol": "CYIENT",
+      "name": "Cyient Ltd",
+      "current_price": 1135.2,
+      "trigger": 1140.28,
+      "target1": 1217.75,
+      "sl": 1075.76,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b91,140.28 with Accumulation structure.",
+      "change_pct": 2.77
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Kalyani Investment Company Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Oct 2026, 03:30 AM",
+  "timestamp": "06 Oct 2026, 03:45 AM",
   "date_tag": "2026-10-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22555.75,
-      "change_pct": 0.6,
+      "price": 22582.35,
+      "change_pct": 0.12,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.75,
-      "change_pct": -1.49,
+      "price": 89.74,
+      "change_pct": -1.5,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.32,
-      "change_pct": -0.0,
+      "price": 96.42,
+      "change_pct": 0.1,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 70,
-    "declines": 107,
+    "advances": 106,
+    "declines": 67,
     "total": 177
   }
 };
