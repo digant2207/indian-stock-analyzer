@@ -4,56 +4,56 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $94.78.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $94.79.",
     "Universe breadth shows 102 advancing vs 74 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
+      "symbol": "TARIL",
+      "name": "Transformers and Rectifiers (India) Ltd",
+      "current_price": 347.0,
+      "trigger": 309.17,
+      "target1": 417.29,
+      "sl": 296.39,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9309.17 with Accumulation structure.",
+      "change_pct": 14.14
+    },
+    {
       "symbol": "GAEL",
       "name": "Gujarat Ambuja Exports Ltd",
-      "current_price": 178.5,
+      "current_price": 179.0,
       "trigger": 175.25,
-      "target1": 199.58,
-      "sl": 163.32,
+      "target1": 200.43,
+      "sl": 163.57,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
-      "change_pct": 3.02
+      "change_pct": 3.31
     },
     {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 174.8,
-      "trigger": 176.45,
-      "target1": 191.37,
-      "sl": 162.87,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9176.45 with Accumulation structure.",
-      "change_pct": 1.84
-    },
-    {
-      "symbol": "PERSISTENT",
-      "name": "Persistent Systems Ltd",
-      "current_price": 5900.5,
-      "trigger": 6020.52,
-      "target1": 6812.37,
-      "sl": 5243.95,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b96,020.52 with Accumulation structure.",
-      "change_pct": -1.46
+      "symbol": "TATAELXSI",
+      "name": "Tata Elxsi Ltd",
+      "current_price": 3623.1,
+      "trigger": 3539.16,
+      "target1": 4205.52,
+      "sl": 3203.76,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b93,539.16 with Accumulation structure.",
+      "change_pct": 5.73
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Oct 2026, 09:45 AM",
+  "timestamp": "14 Oct 2026, 10:01 AM",
   "date_tag": "2026-10-14",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22625.15,
-      "change_pct": -0.43,
+      "price": 22622.7,
+      "change_pct": -0.44,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72751.4,
+      "price": 72751.53,
       "change_pct": -0.39,
       "status": "down"
     },
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.78,
-      "change_pct": 0.68,
+      "price": 94.79,
+      "change_pct": 0.69,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.12,
-      "change_pct": -0.69,
+      "price": 95.14,
+      "change_pct": -0.66,
       "status": "down"
     }
   },
