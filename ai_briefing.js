@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22400,
   "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $94.56.",
-    "Universe breadth shows 102 advancing vs 73 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $94.67.",
+    "Universe breadth shows 100 advancing vs 76 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
       "symbol": "GAEL",
       "name": "Gujarat Ambuja Exports Ltd",
-      "current_price": 178.1,
+      "current_price": 177.95,
       "trigger": 175.25,
-      "target1": 198.9,
-      "sl": 163.13,
+      "target1": 198.64,
+      "sl": 163.05,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
-      "change_pct": 2.79
+      "change_pct": 2.71
     },
     {
       "symbol": "SUPREMEIND",
       "name": "Supreme Industries",
-      "current_price": 3568.7,
+      "current_price": 3579.5,
       "trigger": 3639.06,
-      "target1": 3768.89,
-      "sl": 3424.56,
+      "target1": 3784.77,
+      "sl": 3431.71,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b93,639.06 with Accumulation structure.",
-      "change_pct": 2.14
+      "change_pct": 2.45
     },
     {
       "symbol": "POLYCAB",
       "name": "Polycab India Ltd",
-      "current_price": 8290.0,
+      "current_price": 8280.5,
       "trigger": 8485.94,
-      "target1": 8785.97,
-      "sl": 7932.9,
+      "target1": 8775.11,
+      "sl": 7924.38,
       "rationale": "High Technical Score (21.0/100), 0.0% to Buy Trigger \u20b98,485.94 with Accumulation structure.",
-      "change_pct": 0.0
+      "change_pct": -0.11
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Oct 2026, 07:46 AM",
+  "timestamp": "14 Oct 2026, 07:52 AM",
   "date_tag": "2026-10-14",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22583.85,
-      "change_pct": -0.61,
+      "price": 22577.35,
+      "change_pct": -0.64,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72851.94,
-      "change_pct": -0.25,
+      "price": 72729.09,
+      "change_pct": -0.42,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.56,
-      "change_pct": 0.45,
+      "price": 94.67,
+      "change_pct": 0.56,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.02,
-      "change_pct": -0.79,
+      "price": 95.03,
+      "change_pct": -0.78,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 73,
+    "advances": 100,
+    "declines": 76,
     "total": 176
   }
 };
