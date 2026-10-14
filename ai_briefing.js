@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $95.23.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $95.31.",
     "Universe breadth shows 99 advancing vs 77 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Oct 2026, 10:30 AM",
+  "timestamp": "14 Oct 2026, 10:45 AM",
   "date_tag": "2026-10-14",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.23,
-      "change_pct": 1.16,
+      "price": 95.31,
+      "change_pct": 1.24,
       "status": "up"
     },
     "USD/INR": {
