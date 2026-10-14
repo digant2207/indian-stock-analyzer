@@ -30,7 +30,7 @@ permissions:
 
 concurrency:
   group: "market-analysis"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   analyze-and-update:
@@ -57,8 +57,6 @@ jobs:
       - name: Sync Google Sheet & Run Stock Market Screener
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FORCE_EMAIL: ${{ inputs.force_email || '' }}
         run: |
@@ -76,7 +74,7 @@ jobs:
           git pull origin main --rebase || true
           touch last_email_sent.txt
           touch last_telegram_alerts.json
-          git add analysis_data.json analysis_data.js nifty250_data.json nifty250_data.js ai_briefing.json ai_briefing.js backtest_results.json backtest_results.js stocks.csv scan_status.json google_sheet_config.json last_email_sent.txt last_telegram_alerts.json .nojekyll requirements.txt last_run.txt
+          git add analysis_data.json analysis_data.js nifty250_data.json nifty250_data.js ai_briefing.json ai_briefing.js backtest_results.json backtest_results.js stocks.csv scan_status.json google_sheet_config.json telegram_config.json last_email_sent.txt last_telegram_alerts.json .nojekyll requirements.txt last_run.txt
           git commit -m "Automated Market Intelligence Update [9:45 AM / 30-Min Schedule] [skip ci]" || echo "No changes to commit"
           git push origin main || echo "Git push skipped or completed."
 
@@ -98,6 +96,7 @@ jobs:
   deploy-pages:
     needs: analyze-and-update
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
