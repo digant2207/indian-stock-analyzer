@@ -4,57 +4,57 @@
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $94.20.",
-    "Universe breadth shows 106 advancing vs 70 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $94.57.",
+    "Universe breadth shows 113 advancing vs 63 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "GAEL",
       "name": "Gujarat Ambuja Exports Ltd",
-      "current_price": 180.78,
+      "current_price": 180.26,
       "trigger": 175.25,
-      "target1": 203.52,
-      "sl": 164.41,
+      "target1": 202.61,
+      "sl": 164.17,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
-      "change_pct": 4.34
+      "change_pct": 4.04
     },
     {
       "symbol": "SUPREMEIND",
       "name": "Supreme Industries",
-      "current_price": 3570.0,
+      "current_price": 3566.2,
       "trigger": 3639.06,
-      "target1": 3771.89,
-      "sl": 3424.64,
+      "target1": 3766.41,
+      "sl": 3422.05,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b93,639.06 with Accumulation structure.",
-      "change_pct": 1.8
+      "change_pct": 1.69
     },
     {
-      "symbol": "POLYCAB",
-      "name": "Polycab India Ltd",
-      "current_price": 8304.5,
-      "trigger": 8485.94,
-      "target1": 8802.86,
-      "sl": 7945.68,
-      "rationale": "High Technical Score (21.0/100), 0.0% to Buy Trigger \u20b98,485.94 with Accumulation structure.",
-      "change_pct": 0.17
+      "symbol": "TATAELXSI",
+      "name": "Tata Elxsi Ltd",
+      "current_price": 3626.2,
+      "trigger": 3539.16,
+      "target1": 4210.93,
+      "sl": 3205.19,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b93,539.16 with Accumulation structure.",
+      "change_pct": 5.82
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Oct 2026, 08:45 AM",
+  "timestamp": "14 Oct 2026, 08:59 AM",
   "date_tag": "2026-10-14",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22616.9,
-      "change_pct": -0.46,
+      "price": 22624.3,
+      "change_pct": -0.43,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72893.77,
-      "change_pct": -0.19,
+      "price": 72756.03,
+      "change_pct": -0.38,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.2,
-      "change_pct": 0.06,
+      "price": 94.57,
+      "change_pct": 0.46,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.08,
-      "change_pct": -0.72,
+      "price": 95.05,
+      "change_pct": -0.76,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 106,
-    "declines": 70,
+    "advances": 113,
+    "declines": 63,
     "total": 176
   }
 }
