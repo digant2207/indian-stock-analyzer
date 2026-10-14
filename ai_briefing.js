@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_support": 22450,
+  "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $94.24.",
-    "Universe breadth shows 118 advancing vs 58 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed down 0.02% with Brent Crude hovering around $94.20.",
+    "Universe breadth shows 106 advancing vs 70 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "GAEL",
       "name": "Gujarat Ambuja Exports Ltd",
-      "current_price": 178.7,
+      "current_price": 180.78,
       "trigger": 175.25,
-      "target1": 199.92,
-      "sl": 163.42,
+      "target1": 203.52,
+      "sl": 164.41,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
-      "change_pct": 3.14
+      "change_pct": 4.34
     },
     {
       "symbol": "SUPREMEIND",
       "name": "Supreme Industries",
-      "current_price": 3596.3,
+      "current_price": 3570.0,
       "trigger": 3639.06,
-      "target1": 3810.24,
-      "sl": 3442.26,
+      "target1": 3771.89,
+      "sl": 3424.64,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b93,639.06 with Accumulation structure.",
-      "change_pct": 2.93
+      "change_pct": 1.8
     },
     {
-      "symbol": "ELECON",
-      "name": "Elecon Engineering Company Ltd",
-      "current_price": 492.95,
-      "trigger": 490.48,
-      "target1": 583.79,
-      "sl": 427.55,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9490.48 with Accumulation structure.",
-      "change_pct": 12.03
+      "symbol": "POLYCAB",
+      "name": "Polycab India Ltd",
+      "current_price": 8304.5,
+      "trigger": 8485.94,
+      "target1": 8802.86,
+      "sl": 7945.68,
+      "rationale": "High Technical Score (21.0/100), 0.0% to Buy Trigger \u20b98,485.94 with Accumulation structure.",
+      "change_pct": 0.17
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Oct 2026, 08:30 AM",
+  "timestamp": "14 Oct 2026, 08:45 AM",
   "date_tag": "2026-10-14",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22659.1,
-      "change_pct": -0.28,
+      "price": 22616.9,
+      "change_pct": -0.46,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72746.27,
-      "change_pct": -0.39,
+      "price": 72893.77,
+      "change_pct": -0.19,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.24,
-      "change_pct": 0.11,
+      "price": 94.2,
+      "change_pct": 0.06,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.09,
-      "change_pct": -0.71,
+      "price": 95.08,
+      "change_pct": -0.72,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 118,
-    "declines": 58,
+    "advances": 106,
+    "declines": 70,
     "total": 176
   }
 };
