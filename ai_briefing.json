@@ -1,90 +1,90 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_support": 22550,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.66% with Brent Crude hovering around $87.99.",
-    "Universe breadth shows 110 advancing vs 67 declining stocks across 177 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed down 0.02% with Brent Crude hovering around $94.54.",
+    "Universe breadth shows 125 advancing vs 52 declining stocks across 177 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 143.46,
-      "trigger": 142.03,
-      "target1": 165.44,
-      "sl": 127.64,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9142.03 with Accumulation structure.",
-      "change_pct": 6.7
+      "symbol": "POLYCAB",
+      "name": "Polycab India Ltd",
+      "current_price": 8307.0,
+      "trigger": 8485.94,
+      "target1": 8805.81,
+      "sl": 7947.86,
+      "rationale": "High Technical Score (21.0/100), 0.0% to Buy Trigger \u20b98,485.94 with Accumulation structure.",
+      "change_pct": 0.21
     },
     {
-      "symbol": "JAYBARMARU",
-      "name": "Jay Bharat Maruti Ltd",
-      "current_price": 134.37,
-      "trigger": 133.27,
-      "target1": 163.86,
-      "sl": 113.14,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9133.27 with Accumulation structure.",
-      "change_pct": 4.99
+      "symbol": "TATAELXSI",
+      "name": "Tata Elxsi Ltd",
+      "current_price": 3656.0,
+      "trigger": 3539.16,
+      "target1": 4263.29,
+      "sl": 3218.75,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b93,539.16 with Accumulation structure.",
+      "change_pct": 6.69
     },
     {
-      "symbol": "AWL",
-      "name": "AWL Agri Business Ltd",
-      "current_price": 185.57,
-      "trigger": 189.71,
-      "target1": 200.6,
-      "sl": 174.75,
-      "rationale": "High Technical Score (18.0/100), 0.0% to Buy Trigger \u20b9189.71 with Accumulation structure.",
-      "change_pct": 5.35
+      "symbol": "TARIL",
+      "name": "Transformers and Rectifiers (India) Ltd",
+      "current_price": 350.05,
+      "trigger": 309.17,
+      "target1": 422.93,
+      "sl": 297.57,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9309.17 with Accumulation structure.",
+      "change_pct": 15.15
     }
   ],
-  "risk_warning": "Defensive alert on Zenith Exports Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Oct 2026, 09:01 AM",
-  "date_tag": "2026-10-06",
+  "timestamp": "14 Oct 2026, 06:31 AM",
+  "date_tag": "2026-10-14",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22690.25,
-      "change_pct": 0.6,
+      "price": 22725.0,
+      "change_pct": 0.01,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72938.29,
-      "change_pct": 0.77,
+      "price": 73032.46,
+      "change_pct": -0.0,
       "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7773.95,
-      "change_pct": 0.66,
-      "status": "up"
+      "price": 7805.45,
+      "change_pct": -0.02,
+      "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 27477.31,
-      "change_pct": 1.05,
-      "status": "up"
+      "price": 27204.38,
+      "change_pct": -0.15,
+      "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.99,
-      "change_pct": -1.61,
-      "status": "down"
+      "price": 94.54,
+      "change_pct": 0.42,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 96.39,
-      "change_pct": 0.07,
-      "status": "up"
+      "price": 95.03,
+      "change_pct": -0.78,
+      "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 110,
-    "declines": 67,
+    "advances": 125,
+    "declines": 52,
     "total": 177
   }
 }

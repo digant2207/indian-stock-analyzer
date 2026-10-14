@@ -1,14 +1,14 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 26.9,
-  "overall_avg_return_per_trade": -2.13,
+  "overall_win_rate": 26.6,
+  "overall_avg_return_per_trade": -2.25,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
       "total_trades": 12,
       "win_rate": 41.7,
-      "avg_return": 1.08,
+      "avg_return": 1.28,
       "total_wins": 5,
       "total_losses": 7
     },
@@ -16,17 +16,17 @@ window.backtestData = {
       "symbol": "ACMESOLAR.NS",
       "total_trades": 14,
       "win_rate": 57.1,
-      "avg_return": 4.8,
+      "avg_return": 5.1,
       "total_wins": 8,
       "total_losses": 6
     },
     {
       "symbol": "ANANTRAJ.NS",
-      "total_trades": 13,
-      "win_rate": 38.5,
-      "avg_return": -1.99,
+      "total_trades": 12,
+      "win_rate": 41.7,
+      "avg_return": -1.73,
       "total_wins": 5,
-      "total_losses": 8
+      "total_losses": 7
     },
     {
       "symbol": "ASIANTILES.NS",
@@ -40,23 +40,23 @@ window.backtestData = {
       "symbol": "ATGL.NS",
       "total_trades": 6,
       "win_rate": 0.0,
-      "avg_return": -5.73,
+      "avg_return": -5.98,
       "total_wins": 0,
       "total_losses": 6
     },
     {
       "symbol": "ATHERENERG.NS",
-      "total_trades": 19,
-      "win_rate": 57.9,
-      "avg_return": 7.96,
+      "total_trades": 21,
+      "win_rate": 52.4,
+      "avg_return": 6.71,
       "total_wins": 11,
-      "total_losses": 8
+      "total_losses": 10
     },
     {
       "symbol": "AWL.NS",
       "total_trades": 6,
       "win_rate": 16.7,
-      "avg_return": -4.67,
+      "avg_return": -4.74,
       "total_wins": 1,
       "total_losses": 5
     },
@@ -64,7 +64,7 @@ window.backtestData = {
       "symbol": "BAJAJHFL.NS",
       "total_trades": 5,
       "win_rate": 0.0,
-      "avg_return": -4.07,
+      "avg_return": -3.85,
       "total_wins": 0,
       "total_losses": 5
     },
@@ -72,7 +72,7 @@ window.backtestData = {
       "symbol": "BAJAJHLDNG.NS",
       "total_trades": 6,
       "win_rate": 33.3,
-      "avg_return": -1.14,
+      "avg_return": -1.8,
       "total_wins": 2,
       "total_losses": 4
     },
@@ -88,7 +88,7 @@ window.backtestData = {
       "symbol": "BANCOINDIA.NS",
       "total_trades": 9,
       "win_rate": 33.3,
-      "avg_return": -2.21,
+      "avg_return": -2.58,
       "total_wins": 3,
       "total_losses": 6
     },
@@ -96,7 +96,7 @@ window.backtestData = {
       "symbol": "BBL.NS",
       "total_trades": 10,
       "win_rate": 10.0,
-      "avg_return": -5.52,
+      "avg_return": -5.38,
       "total_wins": 1,
       "total_losses": 9
     },
@@ -110,73 +110,73 @@ window.backtestData = {
     },
     {
       "symbol": "BLUEJET.NS",
-      "total_trades": 10,
-      "win_rate": 50.0,
-      "avg_return": 0.93,
-      "total_wins": 5,
+      "total_trades": 9,
+      "win_rate": 44.4,
+      "avg_return": -0.01,
+      "total_wins": 4,
       "total_losses": 5
     },
     {
       "symbol": "BOROLTD.NS",
-      "total_trades": 5,
-      "win_rate": 40.0,
-      "avg_return": -0.69,
+      "total_trades": 6,
+      "win_rate": 33.3,
+      "avg_return": -0.8,
       "total_wins": 2,
-      "total_losses": 3
+      "total_losses": 4
     },
     {
       "symbol": "BOROSCI.NS",
       "total_trades": 10,
       "win_rate": 40.0,
-      "avg_return": 1.51,
+      "avg_return": 1.34,
       "total_wins": 4,
       "total_losses": 6
     },
     {
       "symbol": "CAMS.NS",
-      "total_trades": 9,
-      "win_rate": 22.2,
-      "avg_return": -2.88,
+      "total_trades": 8,
+      "win_rate": 25.0,
+      "avg_return": -2.71,
       "total_wins": 2,
-      "total_losses": 7
+      "total_losses": 6
     },
     {
       "symbol": "CANBK.NS",
-      "total_trades": 7,
+      "total_trades": 6,
       "win_rate": 0.0,
-      "avg_return": -6.21,
+      "avg_return": -5.93,
       "total_wins": 0,
-      "total_losses": 7
+      "total_losses": 6
     },
     {
       "symbol": "CERA.NS",
-      "total_trades": 9,
-      "win_rate": 55.6,
-      "avg_return": 1.64,
-      "total_wins": 5,
-      "total_losses": 4
+      "total_trades": 7,
+      "win_rate": 57.1,
+      "avg_return": 1.38,
+      "total_wins": 4,
+      "total_losses": 3
     },
     {
       "symbol": "CHEMCON.NS",
-      "total_trades": 13,
-      "win_rate": 53.8,
-      "avg_return": 3.98,
-      "total_wins": 7,
+      "total_trades": 14,
+      "win_rate": 57.1,
+      "avg_return": 3.92,
+      "total_wins": 8,
       "total_losses": 6
     },
     {
       "symbol": "COCHINSHIP.NS",
-      "total_trades": 7,
+      "total_trades": 8,
       "win_rate": 0.0,
-      "avg_return": -8.03,
+      "avg_return": -7.7,
       "total_wins": 0,
-      "total_losses": 7
+      "total_losses": 8
     },
     {
       "symbol": "DCAL.NS",
       "total_trades": 8,
       "win_rate": 12.5,
-      "avg_return": -5.25,
+      "avg_return": -5.64,
       "total_wins": 1,
       "total_losses": 7
     }
