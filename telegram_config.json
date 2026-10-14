@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "bot_token": "",
+  "chat_id": "",
+  "alert_on_breakout": false,
+  "alert_on_spring": false,
+  "alert_morning_briefing": false
+}
