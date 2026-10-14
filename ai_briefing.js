@@ -1,33 +1,33 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $94.79.",
-    "Universe breadth shows 102 advancing vs 74 declining stocks across 176 scanned equities.",
+    "US Markets closed down 0.02% with Brent Crude hovering around $95.36.",
+    "Universe breadth shows 99 advancing vs 77 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "TARIL",
       "name": "Transformers and Rectifiers (India) Ltd",
-      "current_price": 347.0,
+      "current_price": 349.5,
       "trigger": 309.17,
-      "target1": 417.29,
-      "sl": 296.39,
+      "target1": 421.91,
+      "sl": 297.36,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9309.17 with Accumulation structure.",
-      "change_pct": 14.14
+      "change_pct": 14.97
     },
     {
       "symbol": "GAEL",
       "name": "Gujarat Ambuja Exports Ltd",
-      "current_price": 179.0,
+      "current_price": 178.98,
       "trigger": 175.25,
-      "target1": 200.43,
-      "sl": 163.57,
+      "target1": 200.4,
+      "sl": 163.56,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
-      "change_pct": 3.31
+      "change_pct": 3.3
     },
     {
       "symbol": "TATAELXSI",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Oct 2026, 10:01 AM",
+  "timestamp": "14 Oct 2026, 10:15 AM",
   "date_tag": "2026-10-14",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72751.53,
-      "change_pct": -0.39,
+      "price": 72781.89,
+      "change_pct": -0.34,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.79,
-      "change_pct": 0.69,
+      "price": 95.36,
+      "change_pct": 1.3,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 74,
+    "advances": 99,
+    "declines": 77,
     "total": 176
   }
 };
