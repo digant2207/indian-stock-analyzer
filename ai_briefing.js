@@ -1,61 +1,61 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22450,
-  "nifty_resistance": 22800,
+  "nifty_support": 22400,
+  "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed down 0.02% with Brent Crude hovering around $94.50.",
-    "Universe breadth shows 109 advancing vs 65 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
+    "US Markets closed down 0.02% with Brent Crude hovering around $94.56.",
+    "Universe breadth shows 102 advancing vs 73 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
-      "symbol": "TATAELXSI",
-      "name": "Tata Elxsi Ltd",
-      "current_price": 3635.7,
-      "trigger": 3539.16,
-      "target1": 4227.57,
-      "sl": 3209.56,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b93,539.16 with Accumulation structure.",
-      "change_pct": 6.1
-    },
-    {
-      "symbol": "POLYCAB",
-      "name": "Polycab India Ltd",
-      "current_price": 8327.5,
-      "trigger": 8485.94,
-      "target1": 8830.43,
-      "sl": 7965.39,
-      "rationale": "High Technical Score (21.0/100), 0.0% to Buy Trigger \u20b98,485.94 with Accumulation structure.",
-      "change_pct": 0.45
+      "symbol": "GAEL",
+      "name": "Gujarat Ambuja Exports Ltd",
+      "current_price": 178.1,
+      "trigger": 175.25,
+      "target1": 198.9,
+      "sl": 163.13,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
+      "change_pct": 2.79
     },
     {
       "symbol": "SUPREMEIND",
       "name": "Supreme Industries",
-      "current_price": 3576.0,
+      "current_price": 3568.7,
       "trigger": 3639.06,
-      "target1": 3779.58,
-      "sl": 3429.42,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b93,639.06 with Accumulation structure.",
-      "change_pct": 2.35
+      "target1": 3768.89,
+      "sl": 3424.56,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b93,639.06 with Accumulation structure.",
+      "change_pct": 2.14
+    },
+    {
+      "symbol": "POLYCAB",
+      "name": "Polycab India Ltd",
+      "current_price": 8290.0,
+      "trigger": 8485.94,
+      "target1": 8785.97,
+      "sl": 7932.9,
+      "rationale": "High Technical Score (21.0/100), 0.0% to Buy Trigger \u20b98,485.94 with Accumulation structure.",
+      "change_pct": 0.0
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Oct 2026, 07:31 AM",
+  "timestamp": "14 Oct 2026, 07:46 AM",
   "date_tag": "2026-10-14",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22639.05,
-      "change_pct": -0.36,
+      "price": 22583.85,
+      "change_pct": -0.61,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73062.63,
-      "change_pct": 0.04,
-      "status": "up"
+      "price": 72851.94,
+      "change_pct": -0.25,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.5,
-      "change_pct": 0.38,
+      "price": 94.56,
+      "change_pct": 0.45,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.0,
-      "change_pct": -0.8,
+      "price": 95.02,
+      "change_pct": -0.79,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 109,
-    "declines": 65,
+    "advances": 102,
+    "declines": 73,
     "total": 176
   }
 };
