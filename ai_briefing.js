@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22800,
   "nifty_resistance": 23150,
   "executive_bullets": [
-    "US Markets closed down 1.11% with Brent Crude hovering around $95.00.",
-    "Universe breadth shows 76 advancing vs 99 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.11% with Brent Crude hovering around $94.96.",
+    "Universe breadth shows 72 advancing vs 102 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
   ],
   "top_setups": [
     {
       "symbol": "AWL",
       "name": "AWL Agri Business Ltd",
-      "current_price": 190.87,
+      "current_price": 190.61,
       "trigger": 190.53,
-      "target1": 207.52,
-      "sl": 178.88,
+      "target1": 207.13,
+      "sl": 178.71,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9190.53 with Accumulation structure.",
-      "change_pct": 1.41
-    },
-    {
-      "symbol": "HAPPSTMNDS",
-      "name": "Happiest Minds Technologies Ltd",
-      "current_price": 334.3,
-      "trigger": 334.57,
-      "target1": 368.3,
-      "sl": 309.82,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9334.57 with Accumulation structure.",
-      "change_pct": 3.12
+      "change_pct": 1.28
     },
     {
       "symbol": "ANGELONE",
       "name": "Angel One Ltd",
-      "current_price": 313.15,
+      "current_price": 313.95,
       "trigger": 312.62,
-      "target1": 361.36,
-      "sl": 278.44,
+      "target1": 362.51,
+      "sl": 278.98,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9312.62 with Accumulation structure.",
-      "change_pct": 2.32
+      "change_pct": 2.58
+    },
+    {
+      "symbol": "TATAELXSI",
+      "name": "Tata Elxsi Ltd",
+      "current_price": 3697.5,
+      "trigger": 3717.42,
+      "target1": 4457.98,
+      "sl": 3149.96,
+      "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b93,717.42 with Accumulation structure.",
+      "change_pct": 2.05
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Oct 2026, 09:15 AM",
+  "timestamp": "15 Oct 2026, 09:30 AM",
   "date_tag": "2026-10-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22975.1,
-      "change_pct": 1.56,
+      "price": 22962.85,
+      "change_pct": 1.5,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74118.16,
-      "change_pct": 1.84,
+      "price": 74057.96,
+      "change_pct": 1.75,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.0,
-      "change_pct": -0.09,
+      "price": 94.96,
+      "change_pct": -0.14,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 76,
-    "declines": 99,
+    "advances": 72,
+    "declines": 102,
     "total": 175
   }
 };
