@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22750,
   "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed down 1.11% with Brent Crude hovering around $93.99.",
-    "Universe breadth shows 96 advancing vs 79 declining stocks across 176 scanned equities.",
+    "US Markets closed down 1.11% with Brent Crude hovering around $94.10.",
+    "Universe breadth shows 98 advancing vs 77 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
+      "symbol": "RIIL",
+      "name": "Reliance Industrial Infrastructure Ltd",
+      "current_price": 755.15,
+      "trigger": 741.93,
+      "target1": 835.49,
+      "sl": 697.31,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9741.93 with Accumulation structure.",
+      "change_pct": 9.0
+    },
+    {
       "symbol": "AWL",
       "name": "AWL Agri Business Ltd",
-      "current_price": 191.24,
+      "current_price": 191.0,
       "trigger": 190.53,
-      "target1": 208.07,
-      "sl": 179.12,
+      "target1": 207.71,
+      "sl": 178.97,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9190.53 with Accumulation structure.",
-      "change_pct": 1.61
+      "change_pct": 1.48
     },
     {
       "symbol": "GAEL",
       "name": "Gujarat Ambuja Exports Ltd",
-      "current_price": 175.76,
+      "current_price": 175.39,
       "trigger": 175.25,
-      "target1": 194.98,
-      "sl": 161.92,
+      "target1": 194.38,
+      "sl": 161.72,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
-      "change_pct": 1.44
-    },
-    {
-      "symbol": "COFORGE",
-      "name": "Coforge Ltd",
-      "current_price": 1937.3,
-      "trigger": 1968.83,
-      "target1": 2176.43,
-      "sl": 1765.13,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,968.83 with Accumulation structure.",
-      "change_pct": 0.48
+      "change_pct": 1.23
     }
   ],
   "risk_warning": "Defensive alert on Bajaj Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Oct 2026, 05:15 AM",
+  "timestamp": "15 Oct 2026, 05:31 AM",
   "date_tag": "2026-10-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22931.8,
+      "price": 22933.25,
       "change_pct": 1.37,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73725.23,
-      "change_pct": 1.3,
+      "price": 73836.64,
+      "change_pct": 1.45,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.99,
-      "change_pct": -1.16,
+      "price": 94.1,
+      "change_pct": -1.04,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.95,
-      "change_pct": -0.35,
+      "price": 94.97,
+      "change_pct": -0.33,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 96,
-    "declines": 79,
+    "advances": 98,
+    "declines": 77,
     "total": 176
   }
 };
