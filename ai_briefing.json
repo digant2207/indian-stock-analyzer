@@ -4,57 +4,57 @@
   "nifty_support": 22800,
   "nifty_resistance": 23150,
   "executive_bullets": [
-    "US Markets closed down 1.11% with Brent Crude hovering around $94.15.",
-    "Universe breadth shows 87 advancing vs 89 declining stocks across 176 scanned equities.",
+    "US Markets closed down 1.11% with Brent Crude hovering around $94.27.",
+    "Universe breadth shows 83 advancing vs 93 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
   ],
   "top_setups": [
     {
       "symbol": "AWL",
       "name": "AWL Agri Business Ltd",
-      "current_price": 190.61,
+      "current_price": 190.08,
       "trigger": 190.53,
-      "target1": 207.13,
-      "sl": 178.71,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9190.53 with Accumulation structure.",
-      "change_pct": 1.28
+      "target1": 206.36,
+      "sl": 178.36,
+      "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b9190.53 with Accumulation structure.",
+      "change_pct": 0.99
     },
     {
       "symbol": "ELECON",
       "name": "Elecon Engineering Company Ltd",
-      "current_price": 493.7,
+      "current_price": 493.0,
       "trigger": 490.48,
-      "target1": 584.9,
-      "sl": 428.04,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9490.48 with Accumulation structure.",
-      "change_pct": 12.2
+      "target1": 583.86,
+      "sl": 427.58,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9490.48 with Accumulation structure.",
+      "change_pct": 12.05
     },
     {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
-      "current_price": 3659.6,
+      "current_price": 3667.0,
       "trigger": 3717.42,
-      "target1": 4397.07,
-      "sl": 3128.62,
+      "target1": 4408.88,
+      "sl": 3132.85,
       "rationale": "High Technical Score (22.0/100), 0.0% to Buy Trigger \u20b93,717.42 with Accumulation structure.",
-      "change_pct": 1.01
+      "change_pct": 1.21
     }
   ],
   "risk_warning": "Defensive alert on Bajaj Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Oct 2026, 06:45 AM",
+  "timestamp": "15 Oct 2026, 07:01 AM",
   "date_tag": "2026-10-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22958.7,
-      "change_pct": 1.49,
+      "price": 22964.55,
+      "change_pct": 1.51,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73987.15,
-      "change_pct": 1.66,
+      "price": 73965.97,
+      "change_pct": 1.63,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.15,
-      "change_pct": -0.99,
+      "price": 94.27,
+      "change_pct": -0.86,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.06,
-      "change_pct": -0.24,
+      "price": 95.04,
+      "change_pct": -0.26,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 87,
-    "declines": 89,
+    "advances": 83,
+    "declines": 93,
     "total": 176
   }
 }
