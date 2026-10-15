@@ -1,55 +1,55 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22450,
-  "nifty_resistance": 22800,
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "nifty_support": 22500,
+  "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 1.11% with Brent Crude hovering around $93.86.",
-    "Universe breadth shows 105 advancing vs 71 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
+    "US Markets closed down 1.11% with Brent Crude hovering around $94.13.",
+    "Universe breadth shows 87 advancing vs 88 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
-      "symbol": "TARIL",
-      "name": "Transformers and Rectifiers (India) Ltd",
-      "current_price": 349.5,
-      "trigger": 309.17,
-      "target1": 421.91,
-      "sl": 297.36,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9309.17 with Accumulation structure.",
-      "change_pct": 14.97
+      "symbol": "PERSISTENT",
+      "name": "Persistent Systems Ltd",
+      "current_price": 5980.5,
+      "trigger": 6090.16,
+      "target1": 6955.36,
+      "sl": 5278.6,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b96,090.16 with Accumulation structure.",
+      "change_pct": 1.4
     },
     {
-      "symbol": "TATAELXSI",
-      "name": "Tata Elxsi Ltd",
-      "current_price": 3623.1,
-      "trigger": 3539.16,
-      "target1": 4205.52,
-      "sl": 3203.76,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b93,539.16 with Accumulation structure.",
-      "change_pct": 5.73
+      "symbol": "GAEL",
+      "name": "Gujarat Ambuja Exports Ltd",
+      "current_price": 178.97,
+      "trigger": 175.25,
+      "target1": 200.38,
+      "sl": 163.55,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
+      "change_pct": 3.3
     },
     {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 175.53,
-      "trigger": 176.45,
-      "target1": 192.44,
-      "sl": 163.35,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9176.45 with Accumulation structure.",
-      "change_pct": 2.26
+      "symbol": "COFORGE",
+      "name": "Coforge Ltd",
+      "current_price": 1960.0,
+      "trigger": 1968.83,
+      "target1": 2209.59,
+      "sl": 1780.3,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,968.83 with Accumulation structure.",
+      "change_pct": 1.66
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Oct 2026, 03:31 AM",
+  "timestamp": "15 Oct 2026, 03:46 AM",
   "date_tag": "2026-10-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22622.7,
-      "change_pct": -0.44,
-      "status": "down"
+      "price": 22691.7,
+      "change_pct": 0.31,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.86,
-      "change_pct": -0.3,
+      "price": 94.13,
+      "change_pct": -0.01,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.91,
-      "change_pct": -0.4,
+      "price": 94.86,
+      "change_pct": -0.45,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 105,
-    "declines": 71,
+    "advances": 87,
+    "declines": 88,
     "total": 176
   }
 };
