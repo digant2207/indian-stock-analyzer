@@ -1,60 +1,60 @@
 {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22700,
-  "nifty_resistance": 23050,
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "nifty_support": 22750,
+  "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed down 1.11% with Brent Crude hovering around $94.09.",
-    "Universe breadth shows 82 advancing vs 92 declining stocks across 176 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
+    "US Markets closed down 1.11% with Brent Crude hovering around $93.93.",
+    "Universe breadth shows 107 advancing vs 69 declining stocks across 176 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
-      "symbol": "MPHASIS",
-      "name": "Mphasis Ltd",
-      "current_price": 2476.8,
-      "trigger": 2517.73,
-      "target1": 2846.55,
-      "sl": 2210.58,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
-      "change_pct": 1.7
-    },
-    {
-      "symbol": "PERSISTENT",
-      "name": "Persistent Systems Ltd",
-      "current_price": 5979.5,
-      "trigger": 6090.16,
-      "target1": 6953.94,
-      "sl": 5277.91,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b96,090.16 with Accumulation structure.",
-      "change_pct": 1.38
-    },
-    {
       "symbol": "GAEL",
       "name": "Gujarat Ambuja Exports Ltd",
-      "current_price": 176.46,
+      "current_price": 175.72,
       "trigger": 175.25,
-      "target1": 196.14,
-      "sl": 162.29,
+      "target1": 194.92,
+      "sl": 161.9,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
-      "change_pct": 1.85
+      "change_pct": 1.42
+    },
+    {
+      "symbol": "COFORGE",
+      "name": "Coforge Ltd",
+      "current_price": 1938.3,
+      "trigger": 1968.83,
+      "target1": 2177.86,
+      "sl": 1765.82,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,968.83 with Accumulation structure.",
+      "change_pct": 0.53
+    },
+    {
+      "symbol": "AWL",
+      "name": "AWL Agri Business Ltd",
+      "current_price": 192.0,
+      "trigger": 190.53,
+      "target1": 209.23,
+      "sl": 179.59,
+      "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b9190.53 with Accumulation structure.",
+      "change_pct": 2.01
     }
   ],
   "risk_warning": "Defensive alert on Bajaj Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Oct 2026, 04:31 AM",
+  "timestamp": "15 Oct 2026, 04:45 AM",
   "date_tag": "2026-10-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22864.25,
-      "change_pct": 1.07,
+      "price": 22912.4,
+      "change_pct": 1.28,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73325.03,
-      "change_pct": 0.75,
+      "price": 73636.36,
+      "change_pct": 1.17,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.09,
-      "change_pct": -1.05,
+      "price": 93.93,
+      "change_pct": -1.22,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.97,
-      "change_pct": -0.33,
+      "price": 94.96,
+      "change_pct": -0.34,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 82,
-    "declines": 92,
+    "advances": 107,
+    "declines": 69,
     "total": 176
   }
 }
