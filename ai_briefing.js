@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22800,
   "nifty_resistance": 23200,
   "executive_bullets": [
-    "US Markets closed down 1.11% with Brent Crude hovering around $93.80.",
+    "US Markets closed down 1.11% with Brent Crude hovering around $93.87.",
     "Universe breadth shows 71 advancing vs 103 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,200."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Anant Raj Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Oct 2026, 10:45 AM",
+  "timestamp": "15 Oct 2026, 11:01 AM",
   "date_tag": "2026-10-15",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 93.8,
-      "change_pct": -1.36,
+      "price": 93.87,
+      "change_pct": -1.28,
       "status": "down"
     },
     "USD/INR": {
