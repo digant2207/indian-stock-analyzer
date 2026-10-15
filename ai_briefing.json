@@ -4,57 +4,57 @@
   "nifty_support": 22850,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 1.11% with Brent Crude hovering around $94.32.",
-    "Universe breadth shows 83 advancing vs 92 declining stocks across 176 scanned equities.",
+    "US Markets closed down 1.11% with Brent Crude hovering around $94.28.",
+    "Universe breadth shows 83 advancing vs 93 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
       "symbol": "AWL",
       "name": "AWL Agri Business Ltd",
-      "current_price": 190.72,
+      "current_price": 190.81,
       "trigger": 190.53,
-      "target1": 207.3,
-      "sl": 178.78,
+      "target1": 207.43,
+      "sl": 178.84,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9190.53 with Accumulation structure.",
-      "change_pct": 1.33
+      "change_pct": 1.38
+    },
+    {
+      "symbol": "JINDALSAW",
+      "name": "Jindal SAW Ltd",
+      "current_price": 299.6,
+      "trigger": 300.05,
+      "target1": 332.41,
+      "sl": 275.98,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9300.05 with Accumulation structure.",
+      "change_pct": 0.84
     },
     {
       "symbol": "ANGELONE",
       "name": "Angel One Ltd",
-      "current_price": 314.8,
+      "current_price": 314.1,
       "trigger": 312.62,
-      "target1": 363.75,
-      "sl": 279.56,
+      "target1": 362.73,
+      "sl": 279.09,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9312.62 with Accumulation structure.",
-      "change_pct": 2.86
-    },
-    {
-      "symbol": "BBL",
-      "name": "Bharat Bijlee Ltd",
-      "current_price": 2538.0,
-      "trigger": 2378.35,
-      "target1": 3047.6,
-      "sl": 2171.09,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b92,378.35 with Accumulation structure.",
-      "change_pct": 8.87
+      "change_pct": 2.63
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Oct 2026, 08:30 AM",
+  "timestamp": "15 Oct 2026, 08:33 AM",
   "date_tag": "2026-10-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23042.15,
-      "change_pct": 1.85,
+      "price": 23044.4,
+      "change_pct": 1.86,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74300.85,
-      "change_pct": 2.09,
+      "price": 74257.37,
+      "change_pct": 2.03,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.32,
-      "change_pct": -0.81,
+      "price": 94.28,
+      "change_pct": -0.85,
       "status": "down"
     },
     "USD/INR": {
@@ -84,7 +84,7 @@
   },
   "market_breadth": {
     "advances": 83,
-    "declines": 92,
+    "declines": 93,
     "total": 176
   }
 }
