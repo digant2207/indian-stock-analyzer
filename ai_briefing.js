@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.62% with Brent Crude hovering around $95.31.",
-    "Universe breadth shows 99 advancing vs 77 declining stocks across 176 scanned equities.",
+    "US Markets closed down 1.11% with Brent Crude hovering around $93.86.",
+    "Universe breadth shows 105 advancing vs 71 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
@@ -20,16 +20,6 @@ window.AI_BRIEFING = {
       "change_pct": 14.97
     },
     {
-      "symbol": "GAEL",
-      "name": "Gujarat Ambuja Exports Ltd",
-      "current_price": 178.98,
-      "trigger": 175.25,
-      "target1": 200.4,
-      "sl": 163.56,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9175.25 with Accumulation structure.",
-      "change_pct": 3.3
-    },
-    {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
       "current_price": 3623.1,
@@ -38,12 +28,22 @@ window.AI_BRIEFING = {
       "sl": 3203.76,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b93,539.16 with Accumulation structure.",
       "change_pct": 5.73
+    },
+    {
+      "symbol": "GPPL",
+      "name": "Gujarat Pipavav Port Ltd",
+      "current_price": 175.53,
+      "trigger": 176.45,
+      "target1": 192.44,
+      "sl": 163.35,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9176.45 with Accumulation structure.",
+      "change_pct": 2.26
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Oct 2026, 02:36 PM",
-  "date_tag": "2026-10-14",
+  "timestamp": "15 Oct 2026, 03:31 AM",
+  "date_tag": "2026-10-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7757.15,
-      "change_pct": -0.62,
+      "price": 7718.94,
+      "change_pct": -1.11,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26979.54,
-      "change_pct": -0.83,
+      "price": 26692.87,
+      "change_pct": -1.88,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.31,
-      "change_pct": 1.24,
-      "status": "up"
+      "price": 93.86,
+      "change_pct": -0.3,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.14,
-      "change_pct": -0.66,
+      "price": 94.91,
+      "change_pct": -0.4,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 99,
-    "declines": 77,
+    "advances": 105,
+    "declines": 71,
     "total": 176
   }
 };
