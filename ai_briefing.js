@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.83.",
-    "Universe breadth shows 97 advancing vs 78 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.62.",
+    "Universe breadth shows 96 advancing vs 77 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 775.0,
+      "current_price": 775.6,
       "trigger": 756.51,
-      "target1": 836.18,
-      "sl": 730.95,
+      "target1": 837.26,
+      "sl": 731.21,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
-      "change_pct": 4.52
+      "change_pct": 4.61
     },
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2501.0,
+      "current_price": 2502.0,
       "trigger": 2517.73,
-      "target1": 2882.41,
-      "sl": 2226.39,
+      "target1": 2883.91,
+      "sl": 2227.02,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
-      "change_pct": 2.7
+      "change_pct": 2.74
     },
     {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
-      "current_price": 3822.1,
+      "current_price": 3826.0,
       "trigger": 3724.43,
-      "target1": 4773.55,
-      "sl": 3137.06,
+      "target1": 4779.71,
+      "sl": 3139.33,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b93,724.43 with Accumulation structure.",
-      "change_pct": 3.3
+      "change_pct": 3.41
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Dixon Technologies India due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 08:27 AM",
+  "timestamp": "16 Oct 2026, 08:31 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23132.55,
-      "change_pct": 0.59,
+      "price": 23126.85,
+      "change_pct": 0.56,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74698.36,
-      "change_pct": 0.52,
+      "price": 74650.61,
+      "change_pct": 0.45,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.83,
-      "change_pct": -2.18,
+      "price": 95.62,
+      "change_pct": -2.4,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 97,
-    "declines": 78,
+    "advances": 96,
+    "declines": 77,
     "total": 175
   }
 };
