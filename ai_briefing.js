@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22900,
-  "nifty_resistance": 23300,
+  "nifty_support": 22950,
+  "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.85.",
-    "Universe breadth shows 95 advancing vs 79 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,300."
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.91.",
+    "Universe breadth shows 96 advancing vs 79 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
   "top_setups": [
     {
+      "symbol": "WIPRO",
+      "name": "Wipro Ltd",
+      "current_price": 184.15,
+      "trigger": 175.04,
+      "target1": 211.67,
+      "sl": 164.33,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9175.04 with Accumulation structure.",
+      "change_pct": 5.8
+    },
+    {
+      "symbol": "ONMOBILE",
+      "name": "Onmobile Global Ltd",
+      "current_price": 60.1,
+      "trigger": 59.62,
+      "target1": 72.56,
+      "sl": 51.13,
+      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b959.62 with Accumulation structure.",
+      "change_pct": 3.87
+    },
+    {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 750.8,
+      "current_price": 752.25,
       "trigger": 756.51,
-      "target1": 794.67,
-      "sl": 719.22,
+      "target1": 797.0,
+      "sl": 720.03,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
-      "change_pct": 1.26
-    },
-    {
-      "symbol": "MPHASIS",
-      "name": "Mphasis Ltd",
-      "current_price": 2494.9,
-      "trigger": 2517.73,
-      "target1": 2873.27,
-      "sl": 2222.48,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
-      "change_pct": 2.45
-    },
-    {
-      "symbol": "COFORGE",
-      "name": "Coforge Ltd",
-      "current_price": 1940.0,
-      "trigger": 1973.94,
-      "target1": 2191.23,
-      "sl": 1759.12,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
-      "change_pct": 0.29
+      "change_pct": 1.46
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 04:45 AM",
+  "timestamp": "16 Oct 2026, 05:01 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23104.5,
-      "change_pct": 0.47,
+      "price": 23141.15,
+      "change_pct": 0.63,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74418.44,
-      "change_pct": 0.14,
+      "price": 74642.88,
+      "change_pct": 0.44,
       "status": "up"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.85,
-      "change_pct": -2.16,
+      "price": 95.91,
+      "change_pct": -2.1,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.85,
-      "change_pct": -0.31,
+      "price": 94.84,
+      "change_pct": -0.32,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 95,
+    "advances": 96,
     "declines": 79,
     "total": 175
   }
