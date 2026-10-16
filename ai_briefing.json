@@ -1,12 +1,12 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22900,
+  "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.38.",
-    "Universe breadth shows 76 advancing vs 98 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,300."
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.40.",
+    "Universe breadth shows 80 advancing vs 93 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
@@ -22,39 +22,39 @@
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2501.0,
+      "current_price": 2495.5,
       "trigger": 2517.73,
-      "target1": 2897.24,
-      "sl": 2215.71,
+      "target1": 2889.32,
+      "sl": 2211.95,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
-      "change_pct": 1.95
+      "change_pct": 1.72
     },
     {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
-      "current_price": 3833.9,
+      "current_price": 3840.1,
       "trigger": 3724.43,
-      "target1": 4792.23,
-      "sl": 3143.9,
+      "target1": 4802.09,
+      "sl": 3147.47,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b93,724.43 with Accumulation structure.",
-      "change_pct": 3.62
+      "change_pct": 3.79
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Dixon Technologies India due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 09:30 AM",
+  "timestamp": "16 Oct 2026, 09:46 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23090.7,
-      "change_pct": 0.41,
+      "price": 23119.0,
+      "change_pct": 0.53,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74588.04,
-      "change_pct": 0.37,
+      "price": 74582.86,
+      "change_pct": 0.36,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.38,
-      "change_pct": -2.64,
+      "price": 95.4,
+      "change_pct": -2.62,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.94,
-      "change_pct": -0.22,
+      "price": 94.92,
+      "change_pct": -0.24,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 76,
-    "declines": 98,
+    "advances": 80,
+    "declines": 93,
     "total": 175
   }
 }
