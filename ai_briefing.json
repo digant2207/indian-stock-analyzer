@@ -4,57 +4,57 @@
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.82.",
-    "Universe breadth shows 95 advancing vs 80 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.86.",
+    "Universe breadth shows 91 advancing vs 84 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
-      "current_price": 3827.0,
+      "current_price": 3824.0,
       "trigger": 3724.43,
-      "target1": 4781.3,
-      "sl": 3139.91,
+      "target1": 4776.55,
+      "sl": 3138.16,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b93,724.43 with Accumulation structure.",
-      "change_pct": 3.43
+      "change_pct": 3.35
     },
     {
       "symbol": "JINDALSAW",
       "name": "Jindal SAW Ltd",
-      "current_price": 305.65,
+      "current_price": 306.6,
       "trigger": 302.9,
-      "target1": 346.18,
-      "sl": 276.47,
+      "target1": 347.69,
+      "sl": 277.01,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9302.90 with Accumulation structure.",
-      "change_pct": 2.16
+      "change_pct": 2.47
     },
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 184.44,
+      "current_price": 183.76,
       "trigger": 175.04,
-      "target1": 212.17,
-      "sl": 164.47,
+      "target1": 211.0,
+      "sl": 164.15,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9175.04 with Accumulation structure.",
-      "change_pct": 5.97
+      "change_pct": 5.58
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 07:01 AM",
+  "timestamp": "16 Oct 2026, 07:15 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23124.0,
-      "change_pct": 0.55,
+      "price": 23126.35,
+      "change_pct": 0.56,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74660.76,
-      "change_pct": 0.46,
+      "price": 74672.06,
+      "change_pct": 0.48,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.82,
-      "change_pct": -2.19,
+      "price": 95.86,
+      "change_pct": -2.15,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.03,
-      "change_pct": -0.13,
+      "price": 95.0,
+      "change_pct": -0.16,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 95,
-    "declines": 80,
+    "advances": 91,
+    "declines": 84,
     "total": 175
   }
 }
