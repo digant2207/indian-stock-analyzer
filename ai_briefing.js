@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22800,
-  "nifty_resistance": 23150,
+  "nifty_support": 22850,
+  "nifty_resistance": 23200,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.82.",
-    "Universe breadth shows 61 advancing vs 114 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.72.",
+    "Universe breadth shows 68 advancing vs 107 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,200."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 748.1,
+      "current_price": 751.4,
       "trigger": 756.51,
-      "target1": 790.4,
-      "sl": 717.65,
+      "target1": 795.63,
+      "sl": 719.56,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
-      "change_pct": 0.9
+      "change_pct": 1.34
     },
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2492.3,
+      "current_price": 2483.8,
       "trigger": 2517.73,
-      "target1": 2869.39,
-      "sl": 2220.79,
+      "target1": 2856.81,
+      "sl": 2215.23,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
-      "change_pct": 2.34
+      "change_pct": 1.99
     },
     {
-      "symbol": "COFORGE",
-      "name": "Coforge Ltd",
-      "current_price": 1936.0,
-      "trigger": 1973.94,
-      "target1": 2185.76,
-      "sl": 1756.17,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
-      "change_pct": 0.09
+      "symbol": "SOLARINDS",
+      "name": "Solar Industries India",
+      "current_price": 20057.0,
+      "trigger": 20438.8,
+      "target1": 21714.05,
+      "sl": 18863.92,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b920,438.80 with Accumulation structure.",
+      "change_pct": 0.96
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 04:15 AM",
+  "timestamp": "16 Oct 2026, 04:31 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22966.0,
-      "change_pct": -0.14,
-      "status": "down"
+      "price": 23033.35,
+      "change_pct": 0.16,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74131.39,
-      "change_pct": -0.25,
+      "price": 74186.63,
+      "change_pct": -0.17,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.82,
-      "change_pct": -2.19,
+      "price": 95.72,
+      "change_pct": -2.3,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.77,
-      "change_pct": -0.4,
+      "price": 94.82,
+      "change_pct": -0.35,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 61,
-    "declines": 114,
+    "advances": 68,
+    "declines": 107,
     "total": 175
   }
 };
