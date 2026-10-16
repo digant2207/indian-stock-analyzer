@@ -2,59 +2,59 @@
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22900,
-  "nifty_resistance": 23250,
+  "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.45.",
-    "Universe breadth shows 84 advancing vs 89 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.56.",
+    "Universe breadth shows 87 advancing vs 87 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2512.9,
+      "current_price": 2514.9,
       "trigger": 2517.73,
-      "target1": 2914.57,
-      "sl": 2223.7,
+      "target1": 2917.51,
+      "sl": 2225.02,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
-      "change_pct": 2.43
+      "change_pct": 2.52
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 769.0,
+      "current_price": 773.0,
       "trigger": 756.51,
-      "target1": 825.48,
-      "sl": 728.34,
+      "target1": 832.59,
+      "sl": 730.1,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
-      "change_pct": 3.72
+      "change_pct": 4.26
     },
     {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
-      "current_price": 3833.3,
+      "current_price": 3843.0,
       "trigger": 3724.43,
-      "target1": 4791.28,
-      "sl": 3143.55,
+      "target1": 4806.7,
+      "sl": 3149.14,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b93,724.43 with Accumulation structure.",
-      "change_pct": 3.6
+      "change_pct": 3.86
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Dixon Technologies India due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 09:00 AM",
+  "timestamp": "16 Oct 2026, 09:15 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23083.8,
-      "change_pct": 0.38,
+      "price": 23096.75,
+      "change_pct": 0.43,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74624.39,
-      "change_pct": 0.42,
+      "price": 74555.55,
+      "change_pct": 0.32,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.45,
-      "change_pct": -2.57,
+      "price": 95.56,
+      "change_pct": -2.46,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.97,
-      "change_pct": -0.19,
+      "price": 94.9,
+      "change_pct": -0.26,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 84,
-    "declines": 89,
+    "advances": 87,
+    "declines": 87,
     "total": 175
   }
 }
