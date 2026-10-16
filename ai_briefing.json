@@ -4,57 +4,57 @@
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.71.",
-    "Universe breadth shows 96 advancing vs 78 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.83.",
+    "Universe breadth shows 97 advancing vs 78 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 771.75,
+      "current_price": 775.0,
       "trigger": 756.51,
-      "target1": 830.36,
-      "sl": 729.55,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
-      "change_pct": 4.09
-    },
-    {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 342.5,
-      "trigger": 344.44,
-      "target1": 367.85,
-      "sl": 324.25,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9344.44 with Accumulation structure.",
-      "change_pct": 2.24
+      "target1": 836.18,
+      "sl": 730.95,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
+      "change_pct": 4.52
     },
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2503.8,
+      "current_price": 2501.0,
       "trigger": 2517.73,
-      "target1": 2886.63,
-      "sl": 2228.16,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
-      "change_pct": 2.81
+      "target1": 2882.41,
+      "sl": 2226.39,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
+      "change_pct": 2.7
+    },
+    {
+      "symbol": "TATAELXSI",
+      "name": "Tata Elxsi Ltd",
+      "current_price": 3822.1,
+      "trigger": 3724.43,
+      "target1": 4773.55,
+      "sl": 3137.06,
+      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b93,724.43 with Accumulation structure.",
+      "change_pct": 3.3
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Dixon Technologies India due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 08:15 AM",
+  "timestamp": "16 Oct 2026, 08:27 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23121.0,
-      "change_pct": 0.54,
+      "price": 23132.55,
+      "change_pct": 0.59,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74672.26,
-      "change_pct": 0.48,
+      "price": 74698.36,
+      "change_pct": 0.52,
       "status": "up"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.71,
-      "change_pct": -2.31,
+      "price": 95.83,
+      "change_pct": -2.18,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.95,
-      "change_pct": -0.21,
+      "price": 94.98,
+      "change_pct": -0.18,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 96,
+    "advances": 97,
     "declines": 78,
     "total": 175
   }
