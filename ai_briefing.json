@@ -1,24 +1,14 @@
 {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 22800,
   "nifty_resistance": 23200,
   "executive_bullets": [
-    "US Markets closed down 0.39% with Brent Crude hovering around $94.60.",
-    "Universe breadth shows 71 advancing vs 103 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.85.",
+    "Universe breadth shows 74 advancing vs 100 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,200."
   ],
   "top_setups": [
-    {
-      "symbol": "AWL",
-      "name": "AWL Agri Business Ltd",
-      "current_price": 190.54,
-      "trigger": 190.53,
-      "target1": 207.03,
-      "sl": 178.67,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9190.53 with Accumulation structure.",
-      "change_pct": 1.24
-    },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
@@ -38,12 +28,22 @@
       "sl": 278.34,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9312.62 with Accumulation structure.",
       "change_pct": 2.27
+    },
+    {
+      "symbol": "TATAELXSI",
+      "name": "Tata Elxsi Ltd",
+      "current_price": 3700.0,
+      "trigger": 3717.42,
+      "target1": 4462.03,
+      "sl": 3151.34,
+      "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b93,717.42 with Accumulation structure.",
+      "change_pct": 2.12
     }
   ],
   "risk_warning": "Defensive alert on Anant Raj Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "15 Oct 2026, 01:51 PM",
-  "date_tag": "2026-10-15",
+  "timestamp": "16 Oct 2026, 03:31 AM",
+  "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7688.51,
-      "change_pct": -0.39,
-      "status": "down"
+      "price": 7744.06,
+      "change_pct": 0.33,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26402.61,
-      "change_pct": -1.09,
-      "status": "down"
+      "price": 26713.03,
+      "change_pct": 0.08,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 94.6,
-      "change_pct": -0.52,
-      "status": "down"
+      "price": 95.85,
+      "change_pct": 0.8,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.04,
-      "change_pct": -0.25,
+      "price": 94.71,
+      "change_pct": -0.46,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 71,
-    "declines": 103,
+    "advances": 74,
+    "declines": 100,
     "total": 175
   }
 }
