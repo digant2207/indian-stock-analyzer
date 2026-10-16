@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22950,
-  "nifty_resistance": 23300,
+  "nifty_support": 22900,
+  "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.72.",
-    "Universe breadth shows 92 advancing vs 81 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.65.",
+    "Universe breadth shows 82 advancing vs 90 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
-      "current_price": 3823.0,
+      "current_price": 3821.6,
       "trigger": 3724.43,
-      "target1": 4774.97,
-      "sl": 3137.58,
+      "target1": 4772.76,
+      "sl": 3136.77,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b93,724.43 with Accumulation structure.",
-      "change_pct": 3.32
+      "change_pct": 3.29
     },
     {
       "symbol": "JINDALSAW",
       "name": "Jindal SAW Ltd",
-      "current_price": 306.6,
+      "current_price": 306.7,
       "trigger": 302.9,
-      "target1": 347.69,
-      "sl": 277.01,
+      "target1": 347.85,
+      "sl": 277.07,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9302.90 with Accumulation structure.",
-      "change_pct": 2.47
+      "change_pct": 2.51
     },
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 184.0,
+      "current_price": 184.16,
       "trigger": 175.04,
-      "target1": 211.41,
-      "sl": 164.26,
+      "target1": 211.69,
+      "sl": 164.34,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9175.04 with Accumulation structure.",
-      "change_pct": 5.72
+      "change_pct": 5.81
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Vijaya Diagnostic Centre Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 07:25 AM",
+  "timestamp": "16 Oct 2026, 07:30 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23126.5,
-      "change_pct": 0.56,
+      "price": 23088.6,
+      "change_pct": 0.4,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74725.27,
-      "change_pct": 0.55,
+      "price": 74693.49,
+      "change_pct": 0.51,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.72,
-      "change_pct": -2.3,
+      "price": 95.65,
+      "change_pct": -2.37,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.01,
-      "change_pct": -0.14,
+      "change_pct": -0.15,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 92,
-    "declines": 81,
+    "advances": 82,
+    "declines": 90,
     "total": 175
   }
 };
