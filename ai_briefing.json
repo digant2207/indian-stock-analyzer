@@ -4,20 +4,20 @@
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.86.",
-    "Universe breadth shows 91 advancing vs 84 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.72.",
+    "Universe breadth shows 92 advancing vs 81 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
-      "current_price": 3824.0,
+      "current_price": 3823.0,
       "trigger": 3724.43,
-      "target1": 4776.55,
-      "sl": 3138.16,
+      "target1": 4774.97,
+      "sl": 3137.58,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b93,724.43 with Accumulation structure.",
-      "change_pct": 3.35
+      "change_pct": 3.32
     },
     {
       "symbol": "JINDALSAW",
@@ -32,29 +32,29 @@
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 183.76,
+      "current_price": 184.0,
       "trigger": 175.04,
-      "target1": 211.0,
-      "sl": 164.15,
+      "target1": 211.41,
+      "sl": 164.26,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9175.04 with Accumulation structure.",
-      "change_pct": 5.58
+      "change_pct": 5.72
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 07:15 AM",
+  "timestamp": "16 Oct 2026, 07:25 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23126.35,
+      "price": 23126.5,
       "change_pct": 0.56,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74672.06,
-      "change_pct": 0.48,
+      "price": 74725.27,
+      "change_pct": 0.55,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.86,
-      "change_pct": -2.15,
+      "price": 95.72,
+      "change_pct": -2.3,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.0,
-      "change_pct": -0.16,
+      "price": 95.01,
+      "change_pct": -0.14,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 91,
-    "declines": 84,
+    "advances": 92,
+    "declines": 81,
     "total": 175
   }
 }
