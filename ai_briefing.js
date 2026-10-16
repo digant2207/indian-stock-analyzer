@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.58.",
-    "Universe breadth shows 96 advancing vs 79 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.91.",
+    "Universe breadth shows 98 advancing vs 77 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 183.46,
+      "current_price": 183.2,
       "trigger": 175.04,
-      "target1": 210.49,
-      "sl": 164.0,
+      "target1": 210.04,
+      "sl": 163.87,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9175.04 with Accumulation structure.",
-      "change_pct": 5.41
+      "change_pct": 5.26
     },
     {
-      "symbol": "ONMOBILE",
-      "name": "Onmobile Global Ltd",
-      "current_price": 60.45,
-      "trigger": 59.62,
-      "target1": 73.13,
-      "sl": 51.32,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b959.62 with Accumulation structure.",
-      "change_pct": 4.48
+      "symbol": "HBLENGINE",
+      "name": "HBL Engineering Ltd",
+      "current_price": 811.6,
+      "trigger": 831.56,
+      "target1": 942.95,
+      "sl": 717.03,
+      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9831.56 with Accumulation structure.",
+      "change_pct": 14.24
     },
     {
       "symbol": "KPITTECH",
       "name": "KPIT Technologies",
-      "current_price": 549.15,
+      "current_price": 549.3,
       "trigger": 562.07,
-      "target1": 629.15,
-      "sl": 491.55,
-      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b9562.07 with Accumulation structure.",
-      "change_pct": 4.4
+      "target1": 629.39,
+      "sl": 491.64,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9562.07 with Accumulation structure.",
+      "change_pct": 4.43
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 06:15 AM",
+  "timestamp": "16 Oct 2026, 06:31 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23123.0,
-      "change_pct": 0.55,
+      "price": 23119.45,
+      "change_pct": 0.53,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74693.19,
-      "change_pct": 0.51,
+      "price": 74653.64,
+      "change_pct": 0.45,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.58,
-      "change_pct": -2.44,
+      "price": 95.91,
+      "change_pct": -2.1,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.0,
-      "change_pct": -0.16,
+      "price": 95.04,
+      "change_pct": -0.12,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 96,
-    "declines": 79,
+    "advances": 98,
+    "declines": 77,
     "total": 175
   }
 };
