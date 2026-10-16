@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.70.",
-    "Universe breadth shows 86 advancing vs 88 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.87.",
+    "Universe breadth shows 85 advancing vs 89 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
   "top_setups": [
@@ -40,9 +40,9 @@ window.AI_BRIEFING = {
       "change_pct": 2.86
     }
   ],
-  "risk_warning": "Defensive alert on SJVN Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 10:01 AM",
+  "timestamp": "16 Oct 2026, 10:15 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74624.77,
-      "change_pct": 0.42,
+      "price": 74729.27,
+      "change_pct": 0.56,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.7,
-      "change_pct": -2.32,
+      "price": 95.87,
+      "change_pct": -2.14,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.95,
-      "change_pct": -0.21,
+      "price": 94.96,
+      "change_pct": -0.2,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 86,
-    "declines": 88,
+    "advances": 85,
+    "declines": 89,
     "total": 175
   }
 };
