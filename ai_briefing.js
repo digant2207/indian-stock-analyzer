@@ -1,54 +1,54 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22800,
+  "nifty_support": 22850,
   "nifty_resistance": 23200,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.85.",
-    "Universe breadth shows 74 advancing vs 100 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,200."
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.84.",
+    "Universe breadth shows 67 advancing vs 107 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,200."
   ],
   "top_setups": [
     {
+      "symbol": "MPHASIS",
+      "name": "Mphasis Ltd",
+      "current_price": 2459.4,
+      "trigger": 2517.73,
+      "target1": 2821.46,
+      "sl": 2198.71,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
+      "change_pct": 0.99
+    },
+    {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 741.45,
+      "current_price": 745.4,
       "trigger": 756.51,
-      "target1": 776.09,
-      "sl": 716.51,
+      "target1": 786.24,
+      "sl": 716.0,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
-      "change_pct": 2.21
+      "change_pct": 0.53
     },
     {
-      "symbol": "ANGELONE",
-      "name": "Angel One Ltd",
-      "current_price": 313.0,
-      "trigger": 312.62,
-      "target1": 361.15,
-      "sl": 278.34,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9312.62 with Accumulation structure.",
-      "change_pct": 2.27
-    },
-    {
-      "symbol": "TATAELXSI",
-      "name": "Tata Elxsi Ltd",
-      "current_price": 3700.0,
-      "trigger": 3717.42,
-      "target1": 4462.03,
-      "sl": 3151.34,
-      "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b93,717.42 with Accumulation structure.",
-      "change_pct": 2.12
+      "symbol": "COFORGE",
+      "name": "Coforge Ltd",
+      "current_price": 1940.4,
+      "trigger": 1973.94,
+      "target1": 2191.78,
+      "sl": 1759.41,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
+      "change_pct": 0.32
     }
   ],
-  "risk_warning": "Defensive alert on Anant Raj Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 03:31 AM",
+  "timestamp": "16 Oct 2026, 03:45 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22997.35,
-      "change_pct": 1.66,
+      "price": 23028.3,
+      "change_pct": 0.13,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.85,
-      "change_pct": 0.8,
+      "price": 95.84,
+      "change_pct": 0.79,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.71,
-      "change_pct": -0.46,
+      "price": 94.76,
+      "change_pct": -0.41,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 74,
-    "declines": 100,
+    "advances": 67,
+    "declines": 107,
     "total": 175
   }
 };
