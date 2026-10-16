@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.73.",
+    "US Markets closed up 0.33% with Brent Crude hovering around $96.03.",
     "Universe breadth shows 85 advancing vs 89 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 10:45 AM",
+  "timestamp": "16 Oct 2026, 11:01 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.73,
-      "change_pct": -2.29,
+      "price": 96.03,
+      "change_pct": -1.98,
       "status": "down"
     },
     "USD/INR": {
