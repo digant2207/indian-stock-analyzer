@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22950,
+  "nifty_support": 22900,
   "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed up 0.33% with Brent Crude hovering around $95.88.",
-    "Universe breadth shows 89 advancing vs 86 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
+    "US Markets closed up 0.33% with Brent Crude hovering around $95.78.",
+    "Universe breadth shows 88 advancing vs 85 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 185.04,
+      "current_price": 184.88,
       "trigger": 175.04,
-      "target1": 213.21,
-      "sl": 164.76,
+      "target1": 212.93,
+      "sl": 164.68,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9175.04 with Accumulation structure.",
-      "change_pct": 6.31
+      "change_pct": 6.22
     },
     {
       "symbol": "ONMOBILE",
       "name": "Onmobile Global Ltd",
-      "current_price": 60.62,
+      "current_price": 60.65,
       "trigger": 59.62,
-      "target1": 73.42,
-      "sl": 51.41,
+      "target1": 73.47,
+      "sl": 51.42,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b959.62 with Accumulation structure.",
-      "change_pct": 4.77
+      "change_pct": 4.82
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 752.65,
-      "trigger": 756.51,
-      "target1": 797.65,
-      "sl": 720.25,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
-      "change_pct": 1.51
+      "symbol": "KPITTECH",
+      "name": "KPIT Technologies",
+      "current_price": 550.4,
+      "trigger": 562.07,
+      "target1": 631.14,
+      "sl": 492.26,
+      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b9562.07 with Accumulation structure.",
+      "change_pct": 4.64
     }
   ],
   "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Oct 2026, 05:30 AM",
+  "timestamp": "16 Oct 2026, 05:46 AM",
   "date_tag": "2026-10-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23118.45,
-      "change_pct": 0.53,
+      "price": 23091.8,
+      "change_pct": 0.41,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74639.31,
-      "change_pct": 0.44,
+      "price": 74682.88,
+      "change_pct": 0.49,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.88,
-      "change_pct": -2.13,
+      "price": 95.78,
+      "change_pct": -2.24,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 89,
-    "declines": 86,
+    "advances": 88,
+    "declines": 85,
     "total": 175
   }
 };
