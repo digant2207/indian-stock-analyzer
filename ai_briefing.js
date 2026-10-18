@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 22950,
   "nifty_resistance": 23350,
   "executive_bullets": [
-    "US Markets closed down 1.09% with Brent Crude hovering around $101.41.",
-    "Universe breadth shows 76 advancing vs 97 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.09% with Brent Crude hovering around $99.02.",
+    "Universe breadth shows 85 advancing vs 89 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@ window.AI_BRIEFING = {
       "change_pct": 2.86
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Oct 2026, 07:06 AM",
-  "date_tag": "2026-10-17",
+  "timestamp": "18 Oct 2026, 07:20 AM",
+  "date_tag": "2026-10-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.41,
-      "change_pct": 3.51,
+      "price": 99.02,
+      "change_pct": 1.07,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 76,
-    "declines": 97,
+    "advances": 85,
+    "declines": 89,
     "total": 175
   }
 };
