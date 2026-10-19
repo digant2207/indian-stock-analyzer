@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22750,
   "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed down 1.09% with Brent Crude hovering around $96.84.",
-    "Universe breadth shows 39 advancing vs 136 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.09% with Brent Crude hovering around $97.00.",
+    "Universe breadth shows 40 advancing vs 135 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 350.15,
+      "current_price": 350.45,
       "trigger": 345.49,
-      "target1": 382.66,
-      "sl": 326.75,
+      "target1": 383.16,
+      "sl": 326.9,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9345.49 with Accumulation structure.",
-      "change_pct": 3.59
+      "change_pct": 3.68
     },
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 122.15,
+      "current_price": 122.17,
       "trigger": 119.88,
-      "target1": 133.71,
-      "sl": 113.83,
+      "target1": 133.74,
+      "sl": 113.84,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9119.88 with Accumulation structure.",
-      "change_pct": 5.03
+      "change_pct": 5.05
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 305.8,
+      "current_price": 306.15,
       "trigger": 283.57,
-      "target1": 368.42,
-      "sl": 260.71,
+      "target1": 369.03,
+      "sl": 260.88,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9283.57 with Accumulation structure.",
-      "change_pct": 12.43
+      "change_pct": 12.56
     }
   ],
   "risk_warning": "Defensive alert on SJVN Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Oct 2026, 07:15 AM",
+  "timestamp": "19 Oct 2026, 07:31 AM",
   "date_tag": "2026-10-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22937.2,
-      "change_pct": -0.9,
+      "price": 22922.4,
+      "change_pct": -0.97,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74023.73,
-      "change_pct": -0.94,
+      "price": 74009.94,
+      "change_pct": -0.96,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.84,
-      "change_pct": -4.51,
+      "price": 97.0,
+      "change_pct": -4.35,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.84,
-      "change_pct": 0.33,
+      "price": 94.85,
+      "change_pct": 0.34,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 39,
-    "declines": 136,
+    "advances": 40,
+    "declines": 135,
     "total": 175
   }
 };
