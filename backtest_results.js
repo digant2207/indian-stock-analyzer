@@ -2,7 +2,7 @@ window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
   "overall_win_rate": 26.6,
-  "overall_avg_return_per_trade": -2.26,
+  "overall_avg_return_per_trade": -2.27,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -160,7 +160,7 @@ window.backtestData = {
       "symbol": "CHEMCON.NS",
       "total_trades": 15,
       "win_rate": 60.0,
-      "avg_return": 4.14,
+      "avg_return": 4.12,
       "total_wins": 9,
       "total_losses": 6
     },
