@@ -1,12 +1,12 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22750,
-  "nifty_resistance": 23100,
+  "nifty_support": 22700,
+  "nifty_resistance": 23050,
   "executive_bullets": [
     "US Markets closed down 1.09% with Brent Crude hovering around $96.90.",
-    "Universe breadth shows 38 advancing vs 137 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
+    "Universe breadth shows 35 advancing vs 140 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
   ],
   "top_setups": [
     {
@@ -22,38 +22,38 @@
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 122.04,
+      "current_price": 121.74,
       "trigger": 119.88,
-      "target1": 133.53,
-      "sl": 113.77,
+      "target1": 133.05,
+      "sl": 113.6,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9119.88 with Accumulation structure.",
-      "change_pct": 4.94
+      "change_pct": 4.68
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 305.65,
+      "current_price": 303.95,
       "trigger": 283.57,
-      "target1": 368.16,
-      "sl": 260.64,
+      "target1": 365.23,
+      "sl": 259.83,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9283.57 with Accumulation structure.",
-      "change_pct": 12.37
+      "change_pct": 11.75
     }
   ],
   "risk_warning": "Defensive alert on SJVN Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Oct 2026, 07:45 AM",
+  "timestamp": "19 Oct 2026, 07:59 AM",
   "date_tag": "2026-10-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22921.4,
-      "change_pct": -0.97,
+      "price": 22870.8,
+      "change_pct": -1.19,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73952.76,
+      "price": 73950.92,
       "change_pct": -1.04,
       "status": "down"
     },
@@ -77,14 +77,14 @@
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.86,
-      "change_pct": 0.35,
+      "price": 94.94,
+      "change_pct": 0.44,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 38,
-    "declines": 137,
+    "advances": 35,
+    "declines": 140,
     "total": 175
   }
 }
