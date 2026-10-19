@@ -1,55 +1,55 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 22950,
-  "nifty_resistance": 23350,
+  "nifty_resistance": 23300,
   "executive_bullets": [
-    "US Markets closed down 1.09% with Brent Crude hovering around $97.58.",
-    "Universe breadth shows 85 advancing vs 89 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,350."
+    "US Markets closed down 1.09% with Brent Crude hovering around $97.43.",
+    "Universe breadth shows 74 advancing vs 98 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
   ],
   "top_setups": [
     {
+      "symbol": "KICL",
+      "name": "Kalyani Investment Company Ltd",
+      "current_price": 4961.1,
+      "trigger": 5058.1,
+      "target1": 5234.45,
+      "sl": 4764.28,
+      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b95,058.10 with Accumulation structure.",
+      "change_pct": 3.57
+    },
+    {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 772.1,
-      "trigger": 756.51,
-      "target1": 830.98,
-      "sl": 729.71,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9756.51 with Accumulation structure.",
-      "change_pct": 4.13
+      "current_price": 772.7,
+      "trigger": 777.7,
+      "target1": 844.39,
+      "sl": 721.09,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
+      "change_pct": 0.08
     },
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2500.0,
-      "trigger": 2517.73,
-      "target1": 2895.8,
-      "sl": 2215.03,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,517.73 with Accumulation structure.",
-      "change_pct": 1.91
-    },
-    {
-      "symbol": "WAAREEENER",
-      "name": "Waaree Energies Ltd",
-      "current_price": 2565.4,
-      "trigger": 2565.82,
-      "target1": 2845.01,
-      "sl": 2364.08,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b92,565.82 with Accumulation structure.",
-      "change_pct": 2.86
+      "current_price": 2484.2,
+      "trigger": 2526.74,
+      "target1": 2896.48,
+      "sl": 2187.36,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,526.74 with Accumulation structure.",
+      "change_pct": -0.63
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Oct 2026, 03:31 AM",
+  "timestamp": "19 Oct 2026, 03:45 AM",
   "date_tag": "2026-10-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23146.15,
-      "change_pct": 0.65,
-      "status": "up"
+      "price": 23124.15,
+      "change_pct": -0.1,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.58,
-      "change_pct": -3.78,
+      "price": 97.43,
+      "change_pct": -3.92,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.96,
-      "change_pct": 0.46,
+      "price": 94.8,
+      "change_pct": 0.29,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 85,
-    "declines": 89,
+    "advances": 74,
+    "declines": 98,
     "total": 175
   }
 };
