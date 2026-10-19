@@ -4,8 +4,8 @@
   "nifty_support": 22700,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed down 1.09% with Brent Crude hovering around $98.21.",
-    "Universe breadth shows 36 advancing vs 138 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.09% with Brent Crude hovering around $98.37.",
+    "Universe breadth shows 34 advancing vs 140 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
   ],
   "top_setups": [
@@ -32,17 +32,17 @@
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 293.0,
+      "current_price": 297.55,
       "trigger": 283.57,
-      "target1": 346.89,
-      "sl": 254.2,
+      "target1": 354.39,
+      "sl": 256.63,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9283.57 with Accumulation structure.",
-      "change_pct": 7.72
+      "change_pct": 9.39
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, SJVN Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SJVN Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Oct 2026, 10:01 AM",
+  "timestamp": "19 Oct 2026, 10:16 AM",
   "date_tag": "2026-10-19",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73787.62,
-      "change_pct": -1.26,
+      "price": 73852.9,
+      "change_pct": -1.17,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.21,
-      "change_pct": -3.16,
+      "price": 98.37,
+      "change_pct": -3.0,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.91,
+      "price": 94.92,
       "change_pct": 0.41,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 36,
-    "declines": 138,
+    "advances": 34,
+    "declines": 140,
     "total": 175
   }
 }
