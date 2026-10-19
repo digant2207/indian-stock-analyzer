@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22700,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed down 1.09% with Brent Crude hovering around $96.86.",
-    "Universe breadth shows 36 advancing vs 138 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.09% with Brent Crude hovering around $96.99.",
+    "Universe breadth shows 38 advancing vs 137 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
   ],
   "top_setups": [
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 349.8,
+      "current_price": 350.6,
       "trigger": 345.49,
-      "target1": 382.06,
-      "sl": 326.57,
+      "target1": 383.42,
+      "sl": 326.97,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9345.49 with Accumulation structure.",
-      "change_pct": 3.49
+      "change_pct": 3.73
+    },
+    {
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 180.82,
+      "trigger": 181.08,
+      "target1": 193.8,
+      "sl": 171.47,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9181.08 with Accumulation structure.",
+      "change_pct": 5.32
     },
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 121.85,
+      "current_price": 122.0,
       "trigger": 119.88,
-      "target1": 133.22,
-      "sl": 113.66,
+      "target1": 133.46,
+      "sl": 113.75,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9119.88 with Accumulation structure.",
-      "change_pct": 4.77
-    },
-    {
-      "symbol": "KROSS",
-      "name": "Kross Ltd",
-      "current_price": 303.55,
-      "trigger": 283.57,
-      "target1": 364.55,
-      "sl": 259.63,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9283.57 with Accumulation structure.",
-      "change_pct": 11.6
+      "change_pct": 4.9
     }
   ],
   "risk_warning": "Defensive alert on SJVN Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Oct 2026, 08:15 AM",
+  "timestamp": "19 Oct 2026, 08:31 AM",
   "date_tag": "2026-10-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22860.7,
-      "change_pct": -1.23,
+      "price": 22865.7,
+      "change_pct": -1.21,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73801.44,
-      "change_pct": -1.24,
+      "price": 73752.69,
+      "change_pct": -1.31,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.86,
-      "change_pct": -4.49,
+      "price": 96.99,
+      "change_pct": -4.36,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.92,
+      "price": 94.93,
       "change_pct": 0.42,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 36,
-    "declines": 138,
+    "advances": 38,
+    "declines": 137,
     "total": 175
   }
 };
