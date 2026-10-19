@@ -1,60 +1,60 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22850,
+  "nifty_support": 22900,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 1.09% with Brent Crude hovering around $97.53.",
-    "Universe breadth shows 59 advancing vs 116 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,250."
+    "US Markets closed down 1.09% with Brent Crude hovering around $97.45.",
+    "Universe breadth shows 58 advancing vs 115 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 347.15,
+      "trigger": 345.49,
+      "target1": 377.65,
+      "sl": 325.19,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9345.49 with Accumulation structure.",
+      "change_pct": 2.71
+    },
+    {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 122.5,
+      "current_price": 122.34,
       "trigger": 119.88,
-      "target1": 134.28,
-      "sl": 114.02,
+      "target1": 134.02,
+      "sl": 113.93,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9119.88 with Accumulation structure.",
-      "change_pct": 5.33
+      "change_pct": 5.19
     },
     {
       "symbol": "KROSS",
       "name": "Kross Ltd",
-      "current_price": 307.8,
+      "current_price": 304.05,
       "trigger": 283.57,
-      "target1": 371.9,
-      "sl": 261.65,
+      "target1": 365.41,
+      "sl": 259.87,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9283.57 with Accumulation structure.",
-      "change_pct": 13.16
-    },
-    {
-      "symbol": "ONMOBILE",
-      "name": "Onmobile Global Ltd",
-      "current_price": 63.08,
-      "trigger": 61.65,
-      "target1": 80.15,
-      "sl": 50.79,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b961.65 with Accumulation structure.",
-      "change_pct": 3.66
+      "change_pct": 11.78
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Oct 2026, 05:15 AM",
+  "timestamp": "19 Oct 2026, 05:30 AM",
   "date_tag": "2026-10-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23051.95,
-      "change_pct": -0.41,
+      "price": 23062.9,
+      "change_pct": -0.36,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74555.83,
-      "change_pct": -0.23,
+      "price": 74388.12,
+      "change_pct": -0.46,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.53,
-      "change_pct": -3.83,
+      "price": 97.45,
+      "change_pct": -3.9,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.83,
-      "change_pct": 0.33,
+      "price": 94.82,
+      "change_pct": 0.31,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 59,
-    "declines": 116,
+    "advances": 58,
+    "declines": 115,
     "total": 175
   }
 }
