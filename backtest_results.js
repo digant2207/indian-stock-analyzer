@@ -160,7 +160,7 @@ window.backtestData = {
       "symbol": "CHEMCON.NS",
       "total_trades": 15,
       "win_rate": 60.0,
-      "avg_return": 4.15,
+      "avg_return": 4.16,
       "total_wins": 9,
       "total_losses": 6
     },
