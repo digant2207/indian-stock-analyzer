@@ -1,10 +1,10 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22700,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed down 1.09% with Brent Crude hovering around $98.64.",
+    "US Markets closed up 0.62% with Brent Crude hovering around $98.62.",
     "Universe breadth shows 34 advancing vs 140 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on SJVN Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Oct 2026, 11:16 AM",
+  "timestamp": "19 Oct 2026, 04:45 PM",
   "date_tag": "2026-10-19",
   "global_cues": {
     "Nifty 50": {
@@ -59,20 +59,20 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7659.44,
-      "change_pct": -1.09,
-      "status": "down"
+      "price": 7706.76,
+      "change_pct": 0.62,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26140.03,
-      "change_pct": -2.15,
-      "status": "down"
+      "price": 26511.53,
+      "change_pct": 1.42,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.64,
-      "change_pct": -2.73,
+      "price": 98.62,
+      "change_pct": -2.75,
       "status": "down"
     },
     "USD/INR": {
