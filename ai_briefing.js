@@ -1,61 +1,61 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22950,
-  "nifty_resistance": 23300,
+  "nifty_support": 22800,
+  "nifty_resistance": 23150,
   "executive_bullets": [
-    "US Markets closed down 1.09% with Brent Crude hovering around $97.43.",
-    "Universe breadth shows 74 advancing vs 98 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,950 | Resistance cap at 23,300."
+    "US Markets closed down 1.09% with Brent Crude hovering around $101.41.",
+    "Universe breadth shows 27 advancing vs 147 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
   ],
   "top_setups": [
     {
-      "symbol": "KICL",
-      "name": "Kalyani Investment Company Ltd",
-      "current_price": 4961.1,
-      "trigger": 5058.1,
-      "target1": 5234.45,
-      "sl": 4764.28,
-      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b95,058.10 with Accumulation structure.",
-      "change_pct": 3.57
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 123.8,
+      "trigger": 119.88,
+      "target1": 136.44,
+      "sl": 114.7,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9119.88 with Accumulation structure.",
+      "change_pct": 6.45
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 772.7,
-      "trigger": 777.7,
-      "target1": 844.39,
-      "sl": 721.09,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 0.08
+      "symbol": "KROSS",
+      "name": "Kross Ltd",
+      "current_price": 302.9,
+      "trigger": 283.57,
+      "target1": 363.43,
+      "sl": 259.32,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9283.57 with Accumulation structure.",
+      "change_pct": 11.36
     },
     {
-      "symbol": "MPHASIS",
-      "name": "Mphasis Ltd",
-      "current_price": 2484.2,
-      "trigger": 2526.74,
-      "target1": 2896.48,
-      "sl": 2187.36,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,526.74 with Accumulation structure.",
-      "change_pct": -0.63
+      "symbol": "COFORGE",
+      "name": "Coforge Ltd",
+      "current_price": 1936.4,
+      "trigger": 1973.94,
+      "target1": 2193.11,
+      "sl": 1751.57,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
+      "change_pct": -0.79
     }
   ],
-  "risk_warning": "Defensive alert on Tata Communications, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Oct 2026, 03:45 AM",
+  "timestamp": "19 Oct 2026, 04:01 AM",
   "date_tag": "2026-10-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23124.15,
-      "change_pct": -0.1,
+      "price": 22987.65,
+      "change_pct": -0.68,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74729.27,
-      "change_pct": 0.56,
-      "status": "up"
+      "price": 74641.27,
+      "change_pct": -0.12,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,9 +71,9 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.43,
-      "change_pct": -3.92,
-      "status": "down"
+      "price": 101.41,
+      "change_pct": 3.51,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 74,
-    "declines": 98,
+    "advances": 27,
+    "declines": 147,
     "total": 175
   }
 };
