@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22700,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed up 0.41% with Brent Crude hovering around $98.90.",
+    "US Markets closed up 0.41% with Brent Crude hovering around $98.80.",
     "Universe breadth shows 57 advancing vs 118 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on SJVN Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Oct 2026, 03:31 AM",
+  "timestamp": "20 Oct 2026, 03:46 AM",
   "date_tag": "2026-10-20",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.9,
-      "change_pct": -2.48,
+      "price": 98.8,
+      "change_pct": -2.57,
       "status": "down"
     },
     "USD/INR": {
