@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22700,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed up 0.41% with Brent Crude hovering around $99.34.",
+    "US Markets closed up 0.41% with Brent Crude hovering around $99.50.",
     "Universe breadth shows 57 advancing vs 118 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
   ],
@@ -30,19 +30,19 @@ window.AI_BRIEFING = {
       "change_pct": 4.82
     },
     {
-      "symbol": "KROSS",
-      "name": "Kross Ltd",
-      "current_price": 297.55,
-      "trigger": 283.57,
-      "target1": 354.39,
-      "sl": 256.63,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9283.57 with Accumulation structure.",
-      "change_pct": 9.39
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 180.7,
+      "trigger": 181.08,
+      "target1": 193.6,
+      "sl": 171.41,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9181.08 with Accumulation structure.",
+      "change_pct": 5.25
     }
   ],
   "risk_warning": "Defensive alert on SJVN Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Oct 2026, 07:49 AM",
+  "timestamp": "20 Oct 2026, 08:01 AM",
   "date_tag": "2026-10-20",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.34,
-      "change_pct": -4.17,
+      "price": 99.5,
+      "change_pct": -4.01,
       "status": "down"
     },
     "USD/INR": {
