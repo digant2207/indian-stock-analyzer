@@ -20,6 +20,11 @@ on:
         required: false
         type: boolean
         default: false
+      force_telegram:
+        description: 'Force send telegram alert/briefing test (true/false)'
+        required: false
+        type: boolean
+        default: false
   repository_dispatch:
     types: [market_scan]
 
@@ -57,8 +62,11 @@ jobs:
       - name: Sync Google Sheet & Run Stock Market Screener
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FORCE_EMAIL: ${{ inputs.force_email || '' }}
+          FORCE_TELEGRAM: ${{ inputs.force_telegram || '' }}
         run: |
           python import_gsheet.py || echo "Warning: Google Sheet sync encountered an issue, proceeding with local stock list."
           python fast_runner.py

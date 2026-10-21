@@ -386,15 +386,21 @@ def format_telegram_briefing(briefing):
 
     return "\n".join(lines)
 
-def send_morning_briefing_to_telegram():
-    """Send pre-market AI briefing to Telegram."""
+def send_morning_briefing_to_telegram(force=False):
+    """Send pre-market AI briefing to Telegram. Max 1 briefing per day unless forced."""
     cfg = telegram_notifier.load_telegram_config()
     if not cfg.get("enabled") or not cfg.get("alert_morning_briefing"):
-        return {"status": "skipped", "message": "Morning briefing alerts disabled"}
+        return {"status": "skipped", "message": "Morning briefing alerts disabled in config"}
+
+    if not force and telegram_notifier.has_sent_briefing_today():
+        return {"status": "skipped", "message": "Morning briefing already sent today"}
 
     briefing = generate_ai_briefing()
     msg = format_telegram_briefing(briefing)
-    return telegram_notifier.send_telegram_message(msg)
+    res = telegram_notifier.send_telegram_message(msg)
+    if res and res.get("status") == "success":
+        telegram_notifier.mark_briefing_sent_today()
+    return res
 
 if __name__ == "__main__":
     generate_ai_briefing()

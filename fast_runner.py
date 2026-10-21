@@ -984,15 +984,20 @@ if __name__ == "__main__":
         try:
             import telegram_notifier
             t_cfg = telegram_notifier.load_telegram_config()
+            force_telegram = os.environ.get("FORCE_TELEGRAM", "").lower() in ["true", "1", "yes"]
             if t_cfg.get("enabled", True):
                 with open(analysis_json, 'r', encoding='utf-8') as f:
                     a_data = json.load(f)
                 with open(nifty250_json, 'r', encoding='utf-8') as f:
                     n_data = json.load(f)
                 combined_stocks = (a_data.get('all_stocks') or []) + (n_data.get('all_stocks') or [])
-                sent_t = telegram_notifier.send_breakout_notifications(combined_stocks)
+                sent_t = telegram_notifier.send_breakout_notifications(combined_stocks, force=force_telegram)
                 if sent_t > 0:
                     print(f"[{ist_str}] ⚡ Sent {sent_t} real-time Telegram breakout alerts.")
+                elif not force_telegram and not telegram_notifier.is_market_hours(ist_now):
+                    print(f"[{ist_str}] ℹ️ Telegram trigger alerts skipped (Outside market hours: 9:15 AM - 3:30 PM IST).")
+                else:
+                    print(f"[{ist_str}] ℹ️ No new high-conviction breakout triggers to alert.")
         except Exception as tg_err:
             print(f"Telegram alert notice: {tg_err}")
 
@@ -1000,12 +1005,12 @@ if __name__ == "__main__":
         try:
             import ai_briefing
             briefing = ai_briefing.generate_ai_briefing()
-            # If morning window (8:00 AM - 9:30 AM) on weekdays, dispatch morning briefing to Telegram
+            # If morning window (8:00 AM - 9:30 AM) on weekdays (or force), dispatch morning briefing to Telegram
             is_morning_window = ist_now.weekday() < 5 and ((ist_now.hour == 8) or (ist_now.hour == 9 and ist_now.minute <= 30))
-            if is_morning_window:
+            if is_morning_window or force_telegram:
                 t_cfg = telegram_notifier.load_telegram_config()
                 if t_cfg.get("enabled") and t_cfg.get("alert_morning_briefing"):
-                    res_briefing = ai_briefing.send_morning_briefing_to_telegram()
+                    res_briefing = ai_briefing.send_morning_briefing_to_telegram(force=force_telegram)
                     if res_briefing and res_briefing.get("status") == "success":
                         print(f"[{ist_str}] 🌅 Morning AI briefing dispatched to Telegram.")
                     else:

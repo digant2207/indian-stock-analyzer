@@ -41,7 +41,7 @@ def is_market_hours(dt=None):
 def is_morning_briefing_window(dt=None):
     """
     Check if current time is in the pre-market morning summary window:
-    Monday to Friday, 08:20 AM to 09:10 AM IST (centered around 8:30 AM).
+    Monday to Friday, 08:00 AM to 09:30 AM IST (covers 8:00 AM and 9:00 AM scans).
     """
     if dt is None:
         dt = datetime.datetime.now()
@@ -49,19 +49,19 @@ def is_morning_briefing_window(dt=None):
         return False
     
     t = dt.time()
-    briefing_start = datetime.time(8, 20)
-    briefing_end = datetime.time(9, 10)
+    briefing_start = datetime.time(8, 0)
+    briefing_end = datetime.time(9, 30)
     return briefing_start <= t <= briefing_end
 
 def load_telegram_config():
     """Load configuration from file or environment variables."""
     cfg = {
-        "enabled": False,
+        "enabled": True,
         "bot_token": os.environ.get("TELEGRAM_BOT_TOKEN", "").strip(),
         "chat_id": os.environ.get("TELEGRAM_CHAT_ID", "").strip(),
-        "alert_on_breakout": False,
-        "alert_on_spring": False,
-        "alert_morning_briefing": False
+        "alert_on_breakout": True,
+        "alert_on_spring": True,
+        "alert_morning_briefing": True
     }
     if os.path.exists(CONFIG_FILE):
         try:
@@ -70,11 +70,16 @@ def load_telegram_config():
                 cfg.update(saved)
         except Exception:
             pass
-    # Env vars populate token/chat if not already specified, but do not override explicit enabled=false
-    if not cfg.get("bot_token") and os.environ.get("TELEGRAM_BOT_TOKEN"):
+    # Environment variables populate or override token/chat_id if set (e.g. GitHub Actions secrets)
+    if os.environ.get("TELEGRAM_BOT_TOKEN"):
         cfg["bot_token"] = os.environ.get("TELEGRAM_BOT_TOKEN").strip()
-    if not cfg.get("chat_id") and os.environ.get("TELEGRAM_CHAT_ID"):
+    if os.environ.get("TELEGRAM_CHAT_ID"):
         cfg["chat_id"] = os.environ.get("TELEGRAM_CHAT_ID").strip()
+    # If environment variables provide credentials, ensure alerts are enabled
+    if os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"):
+        cfg["enabled"] = True
+        cfg["alert_on_breakout"] = True
+        cfg["alert_morning_briefing"] = True
     return cfg
 
 def save_telegram_config(cfg):
