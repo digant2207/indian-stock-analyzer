@@ -1,55 +1,55 @@
 {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22700,
-  "nifty_resistance": 23050,
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "nifty_support": 22850,
+  "nifty_resistance": 23200,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $99.22.",
-    "Universe breadth shows 34 advancing vs 140 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,050."
+    "US Markets closed up 0.28% with Brent Crude hovering around $99.26.",
+    "Universe breadth shows 99 advancing vs 75 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,200."
   ],
   "top_setups": [
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 348.85,
-      "trigger": 345.49,
-      "target1": 380.47,
-      "sl": 326.08,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9345.49 with Accumulation structure.",
-      "change_pct": 3.21
+      "current_price": 349.9,
+      "trigger": 356.21,
+      "target1": 387.02,
+      "sl": 323.18,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
+      "change_pct": 0.3
     },
     {
-      "symbol": "PNB",
-      "name": "Punjab National Bank",
-      "current_price": 121.9,
-      "trigger": 119.88,
-      "target1": 133.3,
-      "sl": 113.69,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9119.88 with Accumulation structure.",
-      "change_pct": 4.82
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 765.8,
+      "trigger": 777.7,
+      "target1": 837.22,
+      "sl": 714.38,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
+      "change_pct": 0.76
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 180.7,
-      "trigger": 181.08,
-      "target1": 193.6,
+      "current_price": 182.49,
+      "trigger": 183.36,
+      "target1": 197.89,
       "sl": 171.41,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9181.08 with Accumulation structure.",
-      "change_pct": 5.25
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9183.36 with Accumulation structure.",
+      "change_pct": 0.99
     }
   ],
-  "risk_warning": "Defensive alert on SJVN Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 03:31 AM",
+  "timestamp": "21 Oct 2026, 03:46 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22888.95,
-      "change_pct": -1.11,
-      "status": "down"
+      "price": 23033.8,
+      "change_pct": 0.63,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.22,
-      "change_pct": -4.28,
+      "price": 99.26,
+      "change_pct": -4.24,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.77,
-      "change_pct": -0.23,
+      "price": 94.73,
+      "change_pct": -0.28,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 34,
-    "declines": 140,
+    "advances": 99,
+    "declines": 75,
     "total": 175
   }
 }
