@@ -4,8 +4,8 @@
   "nifty_support": 22800,
   "nifty_resistance": 23150,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $98.80.",
-    "Universe breadth shows 31 advancing vs 143 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $98.98.",
+    "Universe breadth shows 28 advancing vs 147 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 182.2,
+      "current_price": 182.5,
       "trigger": 183.36,
-      "target1": 197.41,
-      "sl": 171.25,
+      "target1": 197.9,
+      "sl": 171.41,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9183.36 with Accumulation structure.",
-      "change_pct": 0.83
+      "change_pct": 1.0
     },
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 123.05,
+      "current_price": 122.95,
       "trigger": 125.47,
-      "target1": 136.3,
-      "sl": 113.51,
+      "target1": 136.15,
+      "sl": 113.45,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9125.47 with Accumulation structure.",
-      "change_pct": 0.94
+      "change_pct": 0.86
     }
   ],
-  "risk_warning": "Defensive alert on Tata Communications, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 05:15 AM",
+  "timestamp": "21 Oct 2026, 05:31 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22967.8,
-      "change_pct": 0.34,
+      "price": 22962.3,
+      "change_pct": 0.32,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74209.79,
-      "change_pct": 0.48,
+      "price": 74235.49,
+      "change_pct": 0.52,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.8,
-      "change_pct": -2.94,
+      "price": 98.98,
+      "change_pct": -2.76,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.54,
-      "change_pct": -0.47,
+      "price": 94.5,
+      "change_pct": -0.52,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 31,
-    "declines": 143,
+    "advances": 28,
+    "declines": 147,
     "total": 175
   }
 }
