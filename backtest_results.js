@@ -16,7 +16,7 @@ window.backtestData = {
       "symbol": "ACMESOLAR.NS",
       "total_trades": 15,
       "win_rate": 53.3,
-      "avg_return": 4.47,
+      "avg_return": 4.41,
       "total_wins": 8,
       "total_losses": 7
     },

@@ -4,30 +4,30 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $98.89.",
-    "Universe breadth shows 22 advancing vs 153 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $98.97.",
+    "Universe breadth shows 21 advancing vs 154 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2562.2,
+      "current_price": 2561.9,
       "trigger": 2526.74,
-      "target1": 2979.99,
-      "sl": 2261.39,
+      "target1": 2979.56,
+      "sl": 2261.19,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,526.74 with Accumulation structure.",
-      "change_pct": 2.49
+      "change_pct": 2.48
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 181.8,
+      "current_price": 181.65,
       "trigger": 183.36,
-      "target1": 196.76,
-      "sl": 171.03,
+      "target1": 196.52,
+      "sl": 170.94,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9183.36 with Accumulation structure.",
-      "change_pct": 0.61
+      "change_pct": 0.53
     },
     {
       "symbol": "PREMEXPLN",
@@ -40,21 +40,21 @@ window.AI_BRIEFING = {
       "change_pct": -0.35
     }
   ],
-  "risk_warning": "Defensive alert on IKIO Technologies Ltd, Vishal Mega Mart Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on IKIO Technologies Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 08:46 AM",
+  "timestamp": "21 Oct 2026, 08:50 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22684.95,
-      "change_pct": -0.89,
+      "price": 22676.65,
+      "change_pct": -0.93,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73379.3,
-      "change_pct": -0.64,
+      "price": 73416.21,
+      "change_pct": -0.59,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.89,
-      "change_pct": -2.85,
+      "price": 98.97,
+      "change_pct": -2.77,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.62,
-      "change_pct": -0.39,
+      "price": 94.65,
+      "change_pct": -0.36,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 22,
-    "declines": 153,
+    "advances": 21,
+    "declines": 154,
     "total": 175
   }
 };
