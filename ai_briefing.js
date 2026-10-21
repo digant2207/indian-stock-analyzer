@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $98.60.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $98.66.",
     "Universe breadth shows 21 advancing vs 154 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
@@ -12,49 +12,49 @@ window.AI_BRIEFING = {
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2556.1,
+      "current_price": 2558.5,
       "trigger": 2526.74,
-      "target1": 2971.15,
-      "sl": 2257.26,
+      "target1": 2974.62,
+      "sl": 2258.89,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,526.74 with Accumulation structure.",
-      "change_pct": 2.24
+      "change_pct": 2.34
     },
     {
       "symbol": "PREMEXPLN",
       "name": "Premier Explosives Ltd",
-      "current_price": 691.8,
+      "current_price": 690.95,
       "trigger": 696.31,
-      "target1": 703.52,
-      "sl": 683.36,
+      "target1": 702.42,
+      "sl": 682.69,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9696.31 with Accumulation structure.",
-      "change_pct": -0.15
+      "change_pct": -0.27
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 180.98,
+      "current_price": 181.0,
       "trigger": 183.36,
-      "target1": 195.45,
-      "sl": 170.56,
+      "target1": 195.48,
+      "sl": 170.57,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9183.36 with Accumulation structure.",
-      "change_pct": 0.15
+      "change_pct": 0.17
     }
   ],
   "risk_warning": "Defensive alert on IKIO Technologies Ltd, Vishal Mega Mart Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 07:45 AM",
+  "timestamp": "21 Oct 2026, 07:53 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22720.8,
-      "change_pct": -0.73,
+      "price": 22725.2,
+      "change_pct": -0.72,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73545.74,
-      "change_pct": -0.42,
+      "price": 73493.17,
+      "change_pct": -0.49,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.6,
-      "change_pct": -3.13,
+      "price": 98.66,
+      "change_pct": -3.07,
       "status": "down"
     },
     "USD/INR": {
