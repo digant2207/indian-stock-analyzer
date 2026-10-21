@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 22550,
-  "nifty_resistance": 22900,
+  "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $99.12.",
-    "Universe breadth shows 16 advancing vs 159 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
+    "US Markets closed up 0.28% with Brent Crude hovering around $98.64.",
+    "Universe breadth shows 21 advancing vs 154 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
   ],
   "top_setups": [
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2560.2,
+      "current_price": 2556.9,
       "trigger": 2526.74,
-      "target1": 2977.09,
-      "sl": 2260.04,
+      "target1": 2972.31,
+      "sl": 2257.81,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,526.74 with Accumulation structure.",
-      "change_pct": 2.41
+      "change_pct": 2.28
     },
     {
       "symbol": "PREMEXPLN",
       "name": "Premier Explosives Ltd",
-      "current_price": 691.1,
+      "current_price": 690.95,
       "trigger": 696.31,
-      "target1": 702.61,
-      "sl": 682.81,
+      "target1": 702.42,
+      "sl": 682.69,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9696.31 with Accumulation structure.",
-      "change_pct": -0.25
+      "change_pct": -0.27
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 180.45,
+      "current_price": 181.22,
       "trigger": 183.36,
-      "target1": 194.62,
-      "sl": 170.25,
+      "target1": 195.83,
+      "sl": 170.7,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9183.36 with Accumulation structure.",
-      "change_pct": -0.14
+      "change_pct": 0.29
     }
   ],
   "risk_warning": "Defensive alert on IKIO Technologies Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 07:16 AM",
+  "timestamp": "21 Oct 2026, 07:31 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22734.65,
-      "change_pct": -0.67,
+      "price": 22748.2,
+      "change_pct": -0.61,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73524.77,
-      "change_pct": -0.44,
+      "price": 73485.19,
+      "change_pct": -0.5,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.12,
-      "change_pct": -2.62,
+      "price": 98.64,
+      "change_pct": -3.09,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.68,
-      "change_pct": -0.33,
+      "price": 94.7,
+      "change_pct": -0.31,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 16,
-    "declines": 159,
+    "advances": 21,
+    "declines": 154,
     "total": 175
   }
 };
