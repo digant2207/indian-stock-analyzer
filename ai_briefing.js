@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_support": 22550,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $99.09.",
-    "Universe breadth shows 19 advancing vs 156 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed up 0.28% with Brent Crude hovering around $98.94.",
+    "Universe breadth shows 23 advancing vs 152 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2563.8,
+      "current_price": 2575.0,
       "trigger": 2526.74,
-      "target1": 2982.32,
-      "sl": 2262.46,
+      "target1": 2998.75,
+      "sl": 2269.9,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,526.74 with Accumulation structure.",
-      "change_pct": 2.55
+      "change_pct": 3.0
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 181.77,
+      "current_price": 182.0,
       "trigger": 183.36,
-      "target1": 196.71,
-      "sl": 171.01,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9183.36 with Accumulation structure.",
-      "change_pct": 0.59
+      "target1": 197.09,
+      "sl": 171.14,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9183.36 with Accumulation structure.",
+      "change_pct": 0.72
     },
     {
-      "symbol": "PREMEXPLN",
-      "name": "Premier Explosives Ltd",
-      "current_price": 691.5,
-      "trigger": 696.31,
-      "target1": 703.13,
-      "sl": 683.13,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9696.31 with Accumulation structure.",
-      "change_pct": -0.19
+      "symbol": "WIPRO",
+      "name": "Wipro Ltd",
+      "current_price": 188.3,
+      "trigger": 186.22,
+      "target1": 225.74,
+      "sl": 161.34,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9186.22 with Accumulation structure.",
+      "change_pct": 3.38
     }
   ],
   "risk_warning": "Defensive alert on IKIO Technologies Ltd, Sanstar Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 09:31 AM",
+  "timestamp": "21 Oct 2026, 09:46 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22671.1,
-      "change_pct": -0.95,
+      "price": 22738.45,
+      "change_pct": -0.66,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73299.9,
-      "change_pct": -0.75,
+      "price": 73293.18,
+      "change_pct": -0.76,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.09,
-      "change_pct": -2.65,
+      "price": 98.94,
+      "change_pct": -2.8,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.49,
-      "change_pct": -0.53,
+      "price": 94.43,
+      "change_pct": -0.6,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 19,
-    "declines": 156,
+    "advances": 23,
+    "declines": 152,
     "total": 175
   }
 };
