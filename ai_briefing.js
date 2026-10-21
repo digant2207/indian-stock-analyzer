@@ -1,12 +1,12 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22550,
-  "nifty_resistance": 22900,
+  "nifty_support": 22650,
+  "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $98.94.",
-    "Universe breadth shows 23 advancing vs 152 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
+    "US Markets closed up 0.28% with Brent Crude hovering around $99.49.",
+    "Universe breadth shows 26 advancing vs 149 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,000."
   ],
   "top_setups": [
     {
@@ -30,31 +30,31 @@ window.AI_BRIEFING = {
       "change_pct": 0.72
     },
     {
-      "symbol": "WIPRO",
-      "name": "Wipro Ltd",
-      "current_price": 188.3,
-      "trigger": 186.22,
-      "target1": 225.74,
-      "sl": 161.34,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9186.22 with Accumulation structure.",
-      "change_pct": 3.38
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 122.5,
+      "trigger": 125.47,
+      "target1": 135.46,
+      "sl": 113.17,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9125.47 with Accumulation structure.",
+      "change_pct": 0.49
     }
   ],
   "risk_warning": "Defensive alert on IKIO Technologies Ltd, Sanstar Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 09:46 AM",
+  "timestamp": "21 Oct 2026, 10:01 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22738.45,
-      "change_pct": -0.66,
+      "price": 22811.35,
+      "change_pct": -0.34,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73293.18,
-      "change_pct": -0.76,
+      "price": 73397.12,
+      "change_pct": -0.62,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.94,
-      "change_pct": -2.8,
+      "price": 99.49,
+      "change_pct": -2.26,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.43,
-      "change_pct": -0.6,
+      "price": 94.46,
+      "change_pct": -0.56,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 23,
-    "declines": 152,
+    "advances": 26,
+    "declines": 149,
     "total": 175
   }
 };
