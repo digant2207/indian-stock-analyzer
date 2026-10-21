@@ -4,8 +4,8 @@
   "nifty_support": 22650,
   "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $99.49.",
-    "Universe breadth shows 26 advancing vs 149 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $99.85.",
+    "Universe breadth shows 24 advancing vs 151 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,000."
   ],
   "top_setups": [
@@ -40,9 +40,9 @@
       "change_pct": 0.49
     }
   ],
-  "risk_warning": "Defensive alert on IKIO Technologies Ltd, Sanstar Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on IKIO Technologies Ltd, Jyoti CNC Automation Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 10:01 AM",
+  "timestamp": "21 Oct 2026, 10:15 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73397.12,
-      "change_pct": -0.62,
+      "price": 73709.69,
+      "change_pct": -0.19,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.49,
-      "change_pct": -2.26,
+      "price": 99.85,
+      "change_pct": -1.91,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.46,
-      "change_pct": -0.56,
+      "price": 94.45,
+      "change_pct": -0.57,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 26,
-    "declines": 149,
+    "advances": 24,
+    "declines": 151,
     "total": 175
   }
 }
