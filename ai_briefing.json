@@ -4,30 +4,30 @@
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $98.97.",
-    "Universe breadth shows 21 advancing vs 154 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $99.23.",
+    "Universe breadth shows 23 advancing vs 152 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2561.9,
+      "current_price": 2558.4,
       "trigger": 2526.74,
-      "target1": 2979.56,
-      "sl": 2261.19,
+      "target1": 2974.48,
+      "sl": 2258.83,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,526.74 with Accumulation structure.",
-      "change_pct": 2.48
+      "change_pct": 2.34
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 181.65,
+      "current_price": 181.73,
       "trigger": 183.36,
-      "target1": 196.52,
-      "sl": 170.94,
+      "target1": 196.65,
+      "sl": 170.99,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9183.36 with Accumulation structure.",
-      "change_pct": 0.53
+      "change_pct": 0.57
     },
     {
       "symbol": "PREMEXPLN",
@@ -40,21 +40,21 @@
       "change_pct": -0.35
     }
   ],
-  "risk_warning": "Defensive alert on IKIO Technologies Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on IKIO Technologies Ltd, Cochin Shipyard Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 08:50 AM",
+  "timestamp": "21 Oct 2026, 09:01 AM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22676.65,
-      "change_pct": -0.93,
+      "price": 22669.2,
+      "change_pct": -0.96,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73416.21,
-      "change_pct": -0.59,
+      "price": 73328.35,
+      "change_pct": -0.71,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.97,
-      "change_pct": -2.77,
+      "price": 99.23,
+      "change_pct": -2.51,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.65,
-      "change_pct": -0.36,
+      "price": 94.64,
+      "change_pct": -0.38,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 21,
-    "declines": 154,
+    "advances": 23,
+    "declines": 152,
     "total": 175
   }
 }
