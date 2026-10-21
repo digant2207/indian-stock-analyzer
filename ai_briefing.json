@@ -4,7 +4,7 @@
   "nifty_support": 22650,
   "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $97.78.",
+    "US Markets closed up 0.17% with Brent Crude hovering around $97.86.",
     "Universe breadth shows 24 advancing vs 151 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,000."
   ],
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on IKIO Technologies Ltd, Jyoti CNC Automation Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 12:47 PM",
+  "timestamp": "21 Oct 2026, 02:34 PM",
   "date_tag": "2026-10-21",
   "global_cues": {
     "Nifty 50": {
@@ -59,20 +59,20 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7712.57,
-      "change_pct": 0.28,
+      "price": 7725.35,
+      "change_pct": 0.17,
       "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26424.82,
-      "change_pct": -0.02,
-      "status": "down"
+      "price": 26585.74,
+      "change_pct": 0.61,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.78,
-      "change_pct": -3.94,
+      "price": 97.86,
+      "change_pct": -3.86,
       "status": "down"
     },
     "USD/INR": {
