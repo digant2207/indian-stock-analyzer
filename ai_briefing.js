@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22550,
-  "nifty_resistance": 22900,
+  "nifty_support": 22600,
+  "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $98.93.",
-    "Universe breadth shows 51 advancing vs 124 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.00.",
+    "Universe breadth shows 54 advancing vs 121 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,600 | Resistance cap at 22,950."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 792.0,
+      "current_price": 789.15,
       "trigger": 777.7,
-      "target1": 879.65,
-      "sl": 728.89,
+      "target1": 875.03,
+      "sl": 727.32,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 5.18
+      "change_pct": 4.8
     },
     {
       "symbol": "BAJAJHLDNG",
       "name": "Bajaj Holdings And Investment Ltd",
-      "current_price": 11257.0,
+      "current_price": 11296.0,
       "trigger": 11471.9,
-      "target1": 12169.23,
-      "sl": 10600.2,
+      "target1": 12225.0,
+      "sl": 10627.12,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b911,471.90 with Accumulation structure.",
-      "change_pct": 2.57
+      "change_pct": 2.92
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 182.39,
+      "current_price": 182.82,
       "trigger": 186.37,
-      "target1": 200.01,
-      "sl": 169.7,
+      "target1": 200.66,
+      "sl": 169.97,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": 0.21
+      "change_pct": 0.45
     }
   ],
   "risk_warning": "Defensive alert on KEI Industries Ltd, Mazagon Dock Shipbuilders Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 05:31 AM",
+  "timestamp": "22 Oct 2026, 05:45 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22726.25,
-      "change_pct": -0.37,
+      "price": 22776.1,
+      "change_pct": -0.15,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73461.98,
-      "change_pct": -0.34,
+      "price": 73513.09,
+      "change_pct": -0.27,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.93,
-      "change_pct": 1.83,
+      "price": 99.0,
+      "change_pct": 1.9,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.58,
-      "change_pct": -0.14,
+      "price": 94.57,
+      "change_pct": -0.16,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 51,
-    "declines": 124,
+    "advances": 54,
+    "declines": 121,
     "total": 175
   }
 };
