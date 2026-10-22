@@ -4,7 +4,7 @@
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $99.24.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.07.",
     "Universe breadth shows 47 advancing vs 125 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on KEI Industries Ltd, Jindal SAW Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 11:01 AM",
+  "timestamp": "22 Oct 2026, 11:16 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.24,
-      "change_pct": 2.15,
+      "price": 99.07,
+      "change_pct": 1.98,
       "status": "up"
     },
     "USD/INR": {
