@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $99.43.",
-    "Universe breadth shows 42 advancing vs 131 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.77.",
+    "Universe breadth shows 46 advancing vs 127 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 784.5,
+      "current_price": 782.3,
       "trigger": 777.7,
-      "target1": 867.6,
-      "sl": 724.67,
+      "target1": 864.14,
+      "sl": 723.38,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 4.18
+      "change_pct": 3.89
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 181.84,
+      "current_price": 182.85,
       "trigger": 186.37,
-      "target1": 199.19,
-      "sl": 169.35,
+      "target1": 200.71,
+      "sl": 169.99,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": -0.09
+      "change_pct": 0.47
     },
     {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 162.08,
-      "trigger": 165.73,
-      "target1": 171.8,
-      "sl": 155.08,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9165.73 with Accumulation structure.",
-      "change_pct": 3.78
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 122.5,
+      "trigger": 125.47,
+      "target1": 136.64,
+      "sl": 112.32,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9125.47 with Accumulation structure.",
+      "change_pct": 0.0
     }
   ],
   "risk_warning": "Defensive alert on KEI Industries Ltd, Jindal SAW Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 09:45 AM",
+  "timestamp": "22 Oct 2026, 10:01 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22666.55,
-      "change_pct": -0.63,
+      "price": 22687.65,
+      "change_pct": -0.54,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73306.41,
-      "change_pct": -0.55,
+      "price": 73288.51,
+      "change_pct": -0.57,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.43,
-      "change_pct": 2.35,
+      "price": 99.77,
+      "change_pct": 2.7,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.86,
-      "change_pct": 0.15,
+      "price": 94.81,
+      "change_pct": 0.1,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 42,
-    "declines": 131,
+    "advances": 46,
+    "declines": 127,
     "total": 175
   }
 };
