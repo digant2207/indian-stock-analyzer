@@ -1,60 +1,60 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_support": 22450,
+  "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $98.53.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $98.65.",
     "Universe breadth shows 21 advancing vs 154 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 182.6,
+      "current_price": 182.38,
       "trigger": 186.37,
-      "target1": 200.33,
-      "sl": 169.84,
+      "target1": 200.0,
+      "sl": 169.7,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": 0.33
+      "change_pct": 0.21
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 773.95,
+      "current_price": 769.95,
       "trigger": 777.7,
-      "target1": 851.35,
-      "sl": 718.22,
+      "target1": 845.43,
+      "sl": 715.6,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 2.78
+      "change_pct": 2.25
     },
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2575.5,
+      "current_price": 2562.7,
       "trigger": 2587.87,
-      "target1": 2974.53,
-      "sl": 2288.2,
+      "target1": 2956.36,
+      "sl": 2279.27,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b92,587.87 with Accumulation structure.",
-      "change_pct": 0.02
+      "change_pct": -0.48
     }
   ],
-  "risk_warning": "Defensive alert on KEI Industries Ltd, Garden Reach Shipbuilders & Enginers Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on KEI Industries Ltd, Mazagon Dock Shipbuilders Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 04:15 AM",
+  "timestamp": "22 Oct 2026, 04:31 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22660.2,
-      "change_pct": -0.66,
+      "price": 22626.5,
+      "change_pct": -0.81,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73239.88,
-      "change_pct": -0.64,
+      "price": 73342.82,
+      "change_pct": -0.5,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.53,
-      "change_pct": 1.42,
+      "price": 98.65,
+      "change_pct": 1.54,
       "status": "up"
     },
     "USD/INR": {
