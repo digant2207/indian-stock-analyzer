@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $99.77.",
-    "Universe breadth shows 37 advancing vs 138 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.97.",
+    "Universe breadth shows 40 advancing vs 134 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 785.2,
+      "current_price": 788.0,
       "trigger": 777.7,
-      "target1": 868.71,
-      "sl": 725.07,
+      "target1": 873.18,
+      "sl": 726.67,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 4.28
+      "change_pct": 4.65
     },
     {
       "symbol": "BAJAJHLDNG",
       "name": "Bajaj Holdings And Investment Ltd",
-      "current_price": 11205.0,
+      "current_price": 11198.0,
       "trigger": 11471.9,
-      "target1": 12096.85,
-      "sl": 10562.87,
+      "target1": 12087.28,
+      "sl": 10557.72,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b911,471.90 with Accumulation structure.",
-      "change_pct": 2.1
+      "change_pct": 2.03
     },
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 189.66,
+      "current_price": 189.64,
       "trigger": 190.13,
-      "target1": 231.38,
-      "sl": 159.62,
+      "target1": 231.35,
+      "sl": 159.61,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9190.13 with Accumulation structure.",
-      "change_pct": 0.26
+      "change_pct": 0.25
     }
   ],
-  "risk_warning": "Defensive alert on Jindal SAW Ltd, Shalby Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on KEI Industries Ltd, Jindal SAW Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 08:30 AM",
+  "timestamp": "22 Oct 2026, 08:45 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22639.2,
-      "change_pct": -0.75,
+      "price": 22625.45,
+      "change_pct": -0.81,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73165.05,
-      "change_pct": -0.74,
+      "price": 73241.12,
+      "change_pct": -0.64,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.77,
-      "change_pct": 2.7,
+      "price": 99.97,
+      "change_pct": 2.9,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.79,
-      "change_pct": 0.08,
+      "price": 94.84,
+      "change_pct": 0.13,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 37,
-    "declines": 138,
+    "advances": 40,
+    "declines": 134,
     "total": 175
   }
 };
