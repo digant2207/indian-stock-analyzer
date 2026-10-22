@@ -1,11 +1,11 @@
 {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22650,
   "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.17% with Brent Crude hovering around $97.86.",
-    "Universe breadth shows 24 advancing vs 151 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $98.43.",
+    "Universe breadth shows 31 advancing vs 144 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,000."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@
       "change_pct": 0.49
     }
   ],
-  "risk_warning": "Defensive alert on IKIO Technologies Ltd, Jyoti CNC Automation Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Jyoti CNC Automation Ltd, Cochin Shipyard Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Oct 2026, 02:34 PM",
-  "date_tag": "2026-10-21",
+  "timestamp": "22 Oct 2026, 03:30 AM",
+  "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7725.35,
-      "change_pct": 0.17,
+      "price": 7757.17,
+      "change_pct": 0.58,
       "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26585.74,
-      "change_pct": 0.61,
+      "price": 26702.86,
+      "change_pct": 1.05,
       "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.86,
-      "change_pct": -3.86,
+      "price": 98.43,
+      "change_pct": -3.3,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.45,
-      "change_pct": -0.57,
+      "price": 94.47,
+      "change_pct": -0.26,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 24,
-    "declines": 151,
+    "advances": 31,
+    "declines": 144,
     "total": 175
   }
 }
