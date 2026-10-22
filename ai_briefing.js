@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22450,
-  "nifty_resistance": 22800,
+  "nifty_support": 22500,
+  "nifty_resistance": 22850,
   "executive_bullets": [
     "US Markets closed up 0.58% with Brent Crude hovering around $99.87.",
-    "Universe breadth shows 41 advancing vs 133 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
+    "Universe breadth shows 42 advancing vs 132 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 786.35,
+      "current_price": 787.9,
       "trigger": 777.7,
-      "target1": 870.54,
-      "sl": 725.73,
+      "target1": 873.02,
+      "sl": 726.62,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 4.43
+      "change_pct": 4.63
     },
     {
-      "symbol": "WIPRO",
-      "name": "Wipro Ltd",
-      "current_price": 189.91,
-      "trigger": 190.13,
-      "target1": 231.74,
-      "sl": 159.79,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9190.13 with Accumulation structure.",
-      "change_pct": 0.39
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 181.82,
+      "trigger": 186.37,
+      "target1": 199.16,
+      "sl": 169.34,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
+      "change_pct": -0.1
     },
     {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 348.45,
-      "trigger": 356.21,
-      "target1": 384.85,
-      "sl": 322.24,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 1.29
+      "symbol": "BAJAJHLDNG",
+      "name": "Bajaj Holdings And Investment Ltd",
+      "current_price": 11235.0,
+      "trigger": 11471.9,
+      "target1": 12138.32,
+      "sl": 10584.61,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b911,471.90 with Accumulation structure.",
+      "change_pct": 2.37
     }
   ],
   "risk_warning": "Defensive alert on Jindal SAW Ltd, KEI Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 09:01 AM",
+  "timestamp": "22 Oct 2026, 09:05 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22630.1,
-      "change_pct": -0.79,
+      "price": 22673.5,
+      "change_pct": -0.6,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73181.73,
-      "change_pct": -0.72,
+      "price": 73247.77,
+      "change_pct": -0.63,
       "status": "down"
     },
     "S&P 500": {
@@ -77,14 +77,14 @@ window.AI_BRIEFING = {
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.91,
-      "change_pct": 0.2,
+      "price": 94.9,
+      "change_pct": 0.19,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 41,
-    "declines": 133,
+    "advances": 42,
+    "declines": 132,
     "total": 175
   }
 };
