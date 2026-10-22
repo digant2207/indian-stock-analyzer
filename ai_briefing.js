@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $99.25.",
-    "Universe breadth shows 34 advancing vs 141 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.51.",
+    "Universe breadth shows 33 advancing vs 142 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 778.1,
+      "current_price": 780.7,
       "trigger": 777.7,
-      "target1": 857.63,
-      "sl": 720.84,
+      "target1": 861.64,
+      "sl": 722.42,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 3.33
+      "change_pct": 3.68
     },
     {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 347.7,
-      "trigger": 356.21,
-      "target1": 383.66,
-      "sl": 321.81,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": -0.33
+      "symbol": "BAJAJHLDNG",
+      "name": "Bajaj Holdings And Investment Ltd",
+      "current_price": 11209.0,
+      "trigger": 11471.9,
+      "target1": 12102.33,
+      "sl": 10565.8,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b911,471.90 with Accumulation structure.",
+      "change_pct": 2.13
     },
     {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 36.95,
+      "current_price": 37.06,
       "trigger": 37.58,
-      "target1": 49.95,
-      "sl": 27.59,
+      "target1": 50.1,
+      "sl": 27.67,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b937.58 with Accumulation structure.",
-      "change_pct": -0.27
+      "change_pct": 0.03
     }
   ],
   "risk_warning": "Defensive alert on KEI Industries Ltd, Mazagon Dock Shipbuilders Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 07:01 AM",
+  "timestamp": "22 Oct 2026, 07:16 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22622.1,
-      "change_pct": -0.83,
+      "price": 22627.65,
+      "change_pct": -0.81,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73133.4,
-      "change_pct": -0.78,
+      "price": 73196.82,
+      "change_pct": -0.7,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.25,
-      "change_pct": 2.16,
+      "price": 99.51,
+      "change_pct": 2.43,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.74,
-      "change_pct": 0.02,
+      "price": 94.77,
+      "change_pct": 0.06,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 34,
-    "declines": 141,
+    "advances": 33,
+    "declines": 142,
     "total": 175
   }
 };
