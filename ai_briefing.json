@@ -4,57 +4,57 @@
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $99.93.",
-    "Universe breadth shows 39 advancing vs 134 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.87.",
+    "Universe breadth shows 41 advancing vs 133 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 784.85,
+      "current_price": 786.35,
       "trigger": 777.7,
-      "target1": 868.15,
-      "sl": 724.87,
+      "target1": 870.54,
+      "sl": 725.73,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 4.23
+      "change_pct": 4.43
     },
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 189.89,
+      "current_price": 189.91,
       "trigger": 190.13,
-      "target1": 231.71,
-      "sl": 159.78,
+      "target1": 231.74,
+      "sl": 159.79,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9190.13 with Accumulation structure.",
-      "change_pct": 0.38
+      "change_pct": 0.39
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 348.15,
+      "current_price": 348.45,
       "trigger": 356.21,
-      "target1": 384.41,
-      "sl": 322.04,
+      "target1": 384.85,
+      "sl": 322.24,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 1.21
+      "change_pct": 1.29
     }
   ],
   "risk_warning": "Defensive alert on Jindal SAW Ltd, KEI Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 08:53 AM",
+  "timestamp": "22 Oct 2026, 09:01 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22633.15,
-      "change_pct": -0.78,
+      "price": 22630.1,
+      "change_pct": -0.79,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73173.85,
-      "change_pct": -0.73,
+      "price": 73181.73,
+      "change_pct": -0.72,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.93,
-      "change_pct": 2.86,
+      "price": 99.87,
+      "change_pct": 2.8,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.9,
-      "change_pct": 0.19,
+      "price": 94.91,
+      "change_pct": 0.2,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 39,
-    "declines": 134,
+    "advances": 41,
+    "declines": 133,
     "total": 175
   }
 }
