@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22450,
-  "nifty_resistance": 22800,
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "nifty_support": 22500,
+  "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $97.15.",
-    "Universe breadth shows 17 advancing vs 158 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
+    "US Markets closed up 0.58% with Brent Crude hovering around $98.53.",
+    "Universe breadth shows 21 advancing vs 154 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 766.85,
-      "trigger": 777.7,
-      "target1": 840.95,
-      "sl": 713.5,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 1.84
-    },
-    {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 182.2,
+      "current_price": 182.6,
       "trigger": 186.37,
-      "target1": 199.72,
-      "sl": 169.58,
+      "target1": 200.33,
+      "sl": 169.84,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": 0.11
+      "change_pct": 0.33
+    },
+    {
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 773.95,
+      "trigger": 777.7,
+      "target1": 851.35,
+      "sl": 718.22,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
+      "change_pct": 2.78
     },
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2565.0,
+      "current_price": 2575.5,
       "trigger": 2587.87,
-      "target1": 2959.6,
-      "sl": 2280.89,
+      "target1": 2974.53,
+      "sl": 2288.2,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b92,587.87 with Accumulation structure.",
-      "change_pct": -0.39
+      "change_pct": 0.02
     }
   ],
-  "risk_warning": "Defensive alert on KEI Industries Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on KEI Industries Ltd, Garden Reach Shipbuilders & Enginers Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 04:01 AM",
+  "timestamp": "22 Oct 2026, 04:15 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22618.45,
-      "change_pct": -0.85,
+      "price": 22660.2,
+      "change_pct": -0.66,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73187.84,
-      "change_pct": -0.71,
+      "price": 73239.88,
+      "change_pct": -0.64,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.15,
-      "change_pct": -4.56,
-      "status": "down"
+      "price": 98.53,
+      "change_pct": 1.42,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.38,
-      "change_pct": -0.35,
+      "price": 94.33,
+      "change_pct": -0.4,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 17,
-    "declines": 158,
+    "advances": 21,
+    "declines": 154,
     "total": 175
   }
 };
