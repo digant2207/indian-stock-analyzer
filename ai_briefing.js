@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $99.36.",
-    "Universe breadth shows 35 advancing vs 140 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.42.",
+    "Universe breadth shows 27 advancing vs 148 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 782.9,
+      "current_price": 778.4,
       "trigger": 777.7,
-      "target1": 865.08,
-      "sl": 723.73,
+      "target1": 858.09,
+      "sl": 721.02,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 3.97
+      "change_pct": 3.37
     },
     {
       "symbol": "BAJAJHLDNG",
       "name": "Bajaj Holdings And Investment Ltd",
-      "current_price": 11272.0,
+      "current_price": 11259.0,
       "trigger": 11471.9,
-      "target1": 12190.53,
-      "sl": 10610.66,
+      "target1": 12172.06,
+      "sl": 10601.6,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b911,471.90 with Accumulation structure.",
-      "change_pct": 2.71
+      "change_pct": 2.59
     },
     {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
-      "current_price": 3854.2,
+      "current_price": 3851.7,
       "trigger": 3880.75,
-      "target1": 5094.42,
-      "sl": 2961.24,
+      "target1": 5091.04,
+      "sl": 2959.38,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b93,880.75 with Accumulation structure.",
-      "change_pct": 0.15
+      "change_pct": 0.08
     }
   ],
-  "risk_warning": "Defensive alert on KEI Industries Ltd, Garden Reach Shipbuilders & Enginers Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on KEI Industries Ltd, Mazagon Dock Shipbuilders Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 06:31 AM",
+  "timestamp": "22 Oct 2026, 06:45 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22638.75,
-      "change_pct": -0.76,
+      "price": 22606.85,
+      "change_pct": -0.9,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73310.22,
-      "change_pct": -0.54,
+      "price": 73234.89,
+      "change_pct": -0.64,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.36,
-      "change_pct": 2.27,
+      "price": 99.42,
+      "change_pct": 2.34,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.7,
-      "change_pct": -0.02,
+      "price": 94.68,
+      "change_pct": -0.04,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 35,
-    "declines": 140,
+    "advances": 27,
+    "declines": 148,
     "total": 175
   }
 };
