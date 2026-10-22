@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $99.87.",
-    "Universe breadth shows 42 advancing vs 132 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.83.",
+    "Universe breadth shows 46 advancing vs 128 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 787.9,
+      "current_price": 787.7,
       "trigger": 777.7,
-      "target1": 873.02,
-      "sl": 726.62,
+      "target1": 872.7,
+      "sl": 726.5,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 4.63
+      "change_pct": 4.61
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 181.82,
+      "current_price": 181.95,
       "trigger": 186.37,
-      "target1": 199.16,
-      "sl": 169.34,
+      "target1": 199.35,
+      "sl": 169.42,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": -0.1
+      "change_pct": -0.03
     },
     {
       "symbol": "BAJAJHLDNG",
       "name": "Bajaj Holdings And Investment Ltd",
-      "current_price": 11235.0,
+      "current_price": 11273.0,
       "trigger": 11471.9,
-      "target1": 12138.32,
-      "sl": 10584.61,
+      "target1": 12191.96,
+      "sl": 10611.35,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b911,471.90 with Accumulation structure.",
-      "change_pct": 2.37
+      "change_pct": 2.72
     }
   ],
   "risk_warning": "Defensive alert on Jindal SAW Ltd, KEI Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 09:05 AM",
+  "timestamp": "22 Oct 2026, 09:16 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22673.5,
-      "change_pct": -0.6,
+      "price": 22685.3,
+      "change_pct": -0.55,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73247.77,
-      "change_pct": -0.63,
+      "price": 73192.68,
+      "change_pct": -0.7,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.87,
-      "change_pct": 2.8,
+      "price": 99.83,
+      "change_pct": 2.76,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.9,
-      "change_pct": 0.19,
+      "price": 94.91,
+      "change_pct": 0.2,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 42,
-    "declines": 132,
+    "advances": 46,
+    "declines": 128,
     "total": 175
   }
 };
