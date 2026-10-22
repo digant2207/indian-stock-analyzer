@@ -4,20 +4,20 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed up 0.58% with Brent Crude hovering around $99.81.",
-    "Universe breadth shows 33 advancing vs 141 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.58% with Brent Crude hovering around $99.77.",
+    "Universe breadth shows 37 advancing vs 138 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 780.0,
+      "current_price": 785.2,
       "trigger": 777.7,
-      "target1": 860.56,
-      "sl": 722.0,
+      "target1": 868.71,
+      "sl": 725.07,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 3.59
+      "change_pct": 4.28
     },
     {
       "symbol": "BAJAJHLDNG",
@@ -32,29 +32,29 @@ window.AI_BRIEFING = {
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 189.47,
+      "current_price": 189.66,
       "trigger": 190.13,
-      "target1": 231.1,
-      "sl": 159.5,
+      "target1": 231.38,
+      "sl": 159.62,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9190.13 with Accumulation structure.",
-      "change_pct": 0.16
+      "change_pct": 0.26
     }
   ],
-  "risk_warning": "Defensive alert on Shalby Ltd, Jindal SAW Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Jindal SAW Ltd, Shalby Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "22 Oct 2026, 08:16 AM",
+  "timestamp": "22 Oct 2026, 08:30 AM",
   "date_tag": "2026-10-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22616.45,
-      "change_pct": -0.85,
+      "price": 22639.2,
+      "change_pct": -0.75,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73170.84,
-      "change_pct": -0.73,
+      "price": 73165.05,
+      "change_pct": -0.74,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.81,
-      "change_pct": 2.74,
+      "price": 99.77,
+      "change_pct": 2.7,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.82,
-      "change_pct": 0.11,
+      "price": 94.79,
+      "change_pct": 0.08,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 33,
-    "declines": 141,
+    "advances": 37,
+    "declines": 138,
     "total": 175
   }
 };
