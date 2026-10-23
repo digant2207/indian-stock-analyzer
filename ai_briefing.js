@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed down 1.21% with Brent Crude hovering around $100.83.",
-    "Universe breadth shows 5 advancing vs 170 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.21% with Brent Crude hovering around $100.93.",
+    "Universe breadth shows 4 advancing vs 171 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1224.1,
+      "current_price": 1216.0,
       "trigger": 1226.85,
-      "target1": 1368.08,
-      "sl": 1120.43,
+      "target1": 1356.36,
+      "sl": 1114.94,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
-      "change_pct": 4.65
+      "change_pct": 3.96
     },
     {
       "symbol": "PREMEXPLN",
       "name": "Premier Explosives Ltd",
-      "current_price": 689.6,
+      "current_price": 689.0,
       "trigger": 696.39,
-      "target1": 700.93,
-      "sl": 681.44,
+      "target1": 700.28,
+      "sl": 680.88,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
-      "change_pct": -0.42
+      "change_pct": -0.51
     },
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 190.19,
+      "current_price": 190.17,
       "trigger": 193.27,
-      "target1": 234.59,
-      "sl": 158.22,
+      "target1": 234.57,
+      "sl": 158.2,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9193.27 with Accumulation structure.",
-      "change_pct": -0.12
+      "change_pct": -0.13
     }
   ],
   "risk_warning": "Defensive alert on Symphony Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 06:31 AM",
+  "timestamp": "23 Oct 2026, 06:46 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22424.65,
-      "change_pct": -1.16,
+      "price": 22429.7,
+      "change_pct": -1.14,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72720.36,
-      "change_pct": -0.72,
+      "price": 72627.0,
+      "change_pct": -0.85,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.83,
-      "change_pct": 1.37,
+      "price": 100.93,
+      "change_pct": 1.47,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.95,
-      "change_pct": 0.68,
+      "price": 94.94,
+      "change_pct": 0.67,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 5,
-    "declines": 170,
+    "advances": 4,
+    "declines": 171,
     "total": 175
   }
 };
