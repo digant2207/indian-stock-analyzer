@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22300,
-  "nifty_resistance": 22700,
+  "nifty_support": 22250,
+  "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed down 1.21% with Brent Crude hovering around $100.29.",
-    "Universe breadth shows 8 advancing vs 166 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,700."
+    "US Markets closed down 1.21% with Brent Crude hovering around $100.37.",
+    "Universe breadth shows 10 advancing vs 164 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1248.2,
+      "current_price": 1236.7,
       "trigger": 1226.85,
-      "target1": 1404.8,
-      "sl": 1135.45,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
-      "change_pct": 6.71
+      "target1": 1386.96,
+      "sl": 1128.51,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
+      "change_pct": 5.73
     },
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 191.89,
+      "current_price": 191.26,
       "trigger": 193.27,
-      "target1": 236.99,
-      "sl": 159.41,
+      "target1": 236.1,
+      "sl": 158.98,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9193.27 with Accumulation structure.",
-      "change_pct": 0.78
+      "change_pct": 0.45
     },
     {
       "symbol": "PREMEXPLN",
       "name": "Premier Explosives Ltd",
-      "current_price": 690.0,
+      "current_price": 689.8,
       "trigger": 696.39,
-      "target1": 701.38,
-      "sl": 681.8,
+      "target1": 701.16,
+      "sl": 681.62,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
-      "change_pct": -0.36
+      "change_pct": -0.39
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Universus Photo Imagings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, NDR Auto Components Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 05:15 AM",
+  "timestamp": "23 Oct 2026, 05:31 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22503.6,
-      "change_pct": -0.81,
+      "price": 22438.2,
+      "change_pct": -1.1,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72911.01,
-      "change_pct": -0.46,
+      "price": 72841.28,
+      "change_pct": -0.56,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.29,
-      "change_pct": 0.82,
+      "price": 100.37,
+      "change_pct": 0.9,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.87,
-      "change_pct": 0.59,
+      "price": 94.88,
+      "change_pct": 0.6,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 8,
-    "declines": 166,
+    "advances": 10,
+    "declines": 164,
     "total": 175
   }
 };
