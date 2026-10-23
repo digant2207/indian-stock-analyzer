@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22350,
-  "nifty_resistance": 22700,
+  "nifty_support": 22400,
+  "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 1.21% with Brent Crude hovering around $101.21.",
-    "Universe breadth shows 14 advancing vs 160 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,350 | Resistance cap at 22,700."
+    "US Markets closed down 1.21% with Brent Crude hovering around $101.14.",
+    "Universe breadth shows 18 advancing vs 157 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1243.9,
+      "current_price": 1225.8,
       "trigger": 1226.85,
-      "target1": 1388.7,
-      "sl": 1139.64,
+      "target1": 1360.95,
+      "sl": 1128.49,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
-      "change_pct": 8.76
+      "change_pct": 7.18
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 777.0,
+      "current_price": 781.75,
       "trigger": 796.24,
-      "target1": 865.21,
-      "sl": 713.49,
+      "target1": 872.03,
+      "sl": 716.75,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
-      "change_pct": -0.68
+      "change_pct": -0.07
     },
     {
       "symbol": "PREMEXPLN",
       "name": "Premier Explosives Ltd",
-      "current_price": 687.55,
+      "current_price": 686.1,
       "trigger": 696.39,
-      "target1": 697.51,
-      "sl": 680.38,
-      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
-      "change_pct": -0.71
+      "target1": 696.37,
+      "sl": 678.71,
+      "rationale": "High Technical Score (25.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
+      "change_pct": -0.92
     }
   ],
-  "risk_warning": "Defensive alert on Jindal SAW Ltd, Symphony Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on NDR Auto Components Ltd, Jindal SAW Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 09:46 AM",
+  "timestamp": "23 Oct 2026, 10:01 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22516.4,
-      "change_pct": -0.75,
+      "price": 22600.0,
+      "change_pct": -0.39,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72904.2,
-      "change_pct": -0.47,
+      "price": 72832.18,
+      "change_pct": -0.57,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.21,
-      "change_pct": 1.75,
+      "price": 101.14,
+      "change_pct": 1.68,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.92,
-      "change_pct": 0.65,
+      "price": 94.94,
+      "change_pct": 0.67,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 14,
-    "declines": 160,
+    "advances": 18,
+    "declines": 157,
     "total": 175
   }
 };
