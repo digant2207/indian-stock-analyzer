@@ -1,60 +1,60 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_support": 22400,
+  "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 1.21% with Brent Crude hovering around $100.14.",
-    "Universe breadth shows 14 advancing vs 161 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed down 1.21% with Brent Crude hovering around $99.93.",
+    "Universe breadth shows 10 advancing vs 165 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1251.9,
+      "current_price": 1233.2,
       "trigger": 1226.85,
-      "target1": 1410.65,
-      "sl": 1137.6,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
-      "change_pct": 7.03
+      "target1": 1381.64,
+      "sl": 1126.32,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
+      "change_pct": 5.43
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 780.9,
+      "current_price": 778.2,
       "trigger": 796.24,
-      "target1": 870.8,
-      "sl": 716.17,
+      "target1": 866.92,
+      "sl": 714.32,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
-      "change_pct": -0.18
+      "change_pct": -0.52
     },
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 193.59,
+      "current_price": 192.5,
       "trigger": 193.27,
-      "target1": 239.44,
-      "sl": 160.58,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b9193.27 with Accumulation structure.",
-      "change_pct": 1.67
+      "target1": 237.87,
+      "sl": 159.84,
+      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9193.27 with Accumulation structure.",
+      "change_pct": 1.1
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 04:15 AM",
+  "timestamp": "23 Oct 2026, 04:31 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22676.55,
-      "change_pct": -0.05,
+      "price": 22601.25,
+      "change_pct": -0.38,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73517.12,
-      "change_pct": 0.37,
+      "price": 73442.67,
+      "change_pct": 0.26,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.14,
-      "change_pct": 0.67,
+      "price": 99.93,
+      "change_pct": 0.46,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.79,
-      "change_pct": 0.5,
+      "price": 94.86,
+      "change_pct": 0.59,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 14,
-    "declines": 161,
+    "advances": 10,
+    "declines": 165,
     "total": 175
   }
 }
