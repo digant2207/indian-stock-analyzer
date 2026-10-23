@@ -4,20 +4,20 @@ window.AI_BRIEFING = {
   "nifty_support": 22400,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 1.21% with Brent Crude hovering around $101.14.",
-    "Universe breadth shows 18 advancing vs 157 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.21% with Brent Crude hovering around $101.16.",
+    "Universe breadth shows 16 advancing vs 159 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1225.8,
+      "current_price": 1233.0,
       "trigger": 1226.85,
-      "target1": 1360.95,
-      "sl": 1128.49,
+      "target1": 1371.8,
+      "sl": 1133.06,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
-      "change_pct": 7.18
+      "change_pct": 7.81
     },
     {
       "symbol": "INDHOTEL",
@@ -32,17 +32,17 @@ window.AI_BRIEFING = {
     {
       "symbol": "PREMEXPLN",
       "name": "Premier Explosives Ltd",
-      "current_price": 686.1,
+      "current_price": 687.4,
       "trigger": 696.39,
-      "target1": 696.37,
-      "sl": 678.71,
-      "rationale": "High Technical Score (25.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
-      "change_pct": -0.92
+      "target1": 697.38,
+      "sl": 680.21,
+      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
+      "change_pct": -0.74
     }
   ],
-  "risk_warning": "Defensive alert on NDR Auto Components Ltd, Jindal SAW Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Jindal SAW Ltd, NDR Auto Components Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 10:01 AM",
+  "timestamp": "23 Oct 2026, 10:15 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72832.18,
-      "change_pct": -0.57,
+      "price": 73123.83,
+      "change_pct": -0.17,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.14,
-      "change_pct": 1.68,
+      "price": 101.16,
+      "change_pct": 1.7,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 18,
-    "declines": 157,
+    "advances": 16,
+    "declines": 159,
     "total": 175
   }
 };
