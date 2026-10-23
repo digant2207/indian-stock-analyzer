@@ -4,20 +4,20 @@
   "nifty_support": 22400,
   "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed down 1.21% with Brent Crude hovering around $100.27.",
-    "Universe breadth shows 16 advancing vs 159 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.21% with Brent Crude hovering around $100.36.",
+    "Universe breadth shows 18 advancing vs 157 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1234.0,
+      "current_price": 1233.1,
       "trigger": 1226.85,
-      "target1": 1373.33,
-      "sl": 1133.68,
+      "target1": 1371.96,
+      "sl": 1133.12,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
-      "change_pct": 7.9
+      "change_pct": 7.82
     },
     {
       "symbol": "PREMEXPLN",
@@ -32,29 +32,29 @@
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 190.17,
+      "current_price": 190.33,
       "trigger": 193.27,
-      "target1": 234.57,
-      "sl": 158.2,
+      "target1": 234.79,
+      "sl": 158.32,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9193.27 with Accumulation structure.",
-      "change_pct": -0.13
+      "change_pct": -0.04
     }
   ],
   "risk_warning": "Defensive alert on NDR Auto Components Ltd, Symphony Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 08:46 AM",
+  "timestamp": "23 Oct 2026, 08:48 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22562.05,
-      "change_pct": -0.55,
+      "price": 22556.2,
+      "change_pct": -0.58,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72993.17,
-      "change_pct": -0.35,
+      "price": 73050.05,
+      "change_pct": -0.27,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.27,
-      "change_pct": 0.8,
+      "price": 100.36,
+      "change_pct": 0.89,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 16,
-    "declines": 159,
+    "advances": 18,
+    "declines": 157,
     "total": 175
   }
 }
