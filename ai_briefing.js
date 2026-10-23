@@ -1,12 +1,12 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22200,
+  "nifty_support": 22250,
   "nifty_resistance": 22600,
   "executive_bullets": [
-    "US Markets closed down 1.21% with Brent Crude hovering around $100.53.",
-    "Universe breadth shows 5 advancing vs 170 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,200 | Resistance cap at 22,600."
+    "US Markets closed down 1.21% with Brent Crude hovering around $100.40.",
+    "Universe breadth shows 6 advancing vs 169 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
     {
@@ -30,31 +30,31 @@ window.AI_BRIEFING = {
       "change_pct": -0.56
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 772.9,
-      "trigger": 796.24,
-      "target1": 859.48,
-      "sl": 710.56,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
-      "change_pct": -1.2
+      "symbol": "WIPRO",
+      "name": "Wipro Ltd",
+      "current_price": 189.36,
+      "trigger": 193.27,
+      "target1": 233.44,
+      "sl": 157.62,
+      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9193.27 with Accumulation structure.",
+      "change_pct": -0.55
     }
   ],
-  "risk_warning": "Defensive alert on Symphony Ltd, HPL Electric & Power Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Symphony Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 07:45 AM",
+  "timestamp": "23 Oct 2026, 07:48 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22398.65,
-      "change_pct": -1.27,
+      "price": 22407.4,
+      "change_pct": -1.24,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72606.01,
-      "change_pct": -0.88,
+      "price": 72641.4,
+      "change_pct": -0.83,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.53,
-      "change_pct": 1.07,
+      "price": 100.4,
+      "change_pct": 0.93,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 94.93,
-      "change_pct": 0.66,
+      "change_pct": 0.65,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 5,
-    "declines": 170,
+    "advances": 6,
+    "declines": 169,
     "total": 175
   }
 };
