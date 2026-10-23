@@ -1,60 +1,60 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22200,
-  "nifty_resistance": 22550,
+  "nifty_support": 22250,
+  "nifty_resistance": 22600,
   "executive_bullets": [
     "US Markets closed down 1.21% with Brent Crude hovering around $100.83.",
-    "Universe breadth shows 5 advancing vs 169 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,200 | Resistance cap at 22,550."
+    "Universe breadth shows 7 advancing vs 167 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,250 | Resistance cap at 22,600."
   ],
   "top_setups": [
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1204.1,
+      "current_price": 1212.0,
       "trigger": 1226.85,
-      "target1": 1339.77,
-      "sl": 1106.42,
+      "target1": 1350.69,
+      "sl": 1112.14,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
-      "change_pct": 2.94
+      "change_pct": 3.62
     },
     {
       "symbol": "PREMEXPLN",
       "name": "Premier Explosives Ltd",
-      "current_price": 689.0,
+      "current_price": 688.7,
       "trigger": 696.39,
-      "target1": 700.28,
-      "sl": 680.88,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
-      "change_pct": -0.51
+      "target1": 699.97,
+      "sl": 680.59,
+      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
+      "change_pct": -0.55
     },
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "current_price": 188.8,
+      "current_price": 189.39,
       "trigger": 193.27,
-      "target1": 232.67,
-      "sl": 157.21,
+      "target1": 233.48,
+      "sl": 157.64,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9193.27 with Accumulation structure.",
-      "change_pct": -0.85
+      "change_pct": -0.54
     }
   ],
   "risk_warning": "Defensive alert on Symphony Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 07:15 AM",
+  "timestamp": "23 Oct 2026, 07:31 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22392.7,
-      "change_pct": -1.3,
+      "price": 22421.25,
+      "change_pct": -1.17,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72577.39,
-      "change_pct": -0.92,
+      "price": 72501.92,
+      "change_pct": -1.02,
       "status": "down"
     },
     "S&P 500": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 5,
-    "declines": 169,
+    "advances": 7,
+    "declines": 167,
     "total": 175
   }
 }
