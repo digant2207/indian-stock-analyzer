@@ -1,8 +1,8 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 26.3,
-  "overall_avg_return_per_trade": -2.31,
+  "overall_win_rate": 26.1,
+  "overall_avg_return_per_trade": -2.33,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -158,11 +158,11 @@
     },
     {
       "symbol": "CHEMCON.NS",
-      "total_trades": 15,
-      "win_rate": 60.0,
-      "avg_return": 4.17,
+      "total_trades": 16,
+      "win_rate": 56.2,
+      "avg_return": 3.58,
       "total_wins": 9,
-      "total_losses": 6
+      "total_losses": 7
     },
     {
       "symbol": "COCHINSHIP.NS",
