@@ -1,55 +1,55 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_support": 22600,
+  "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed down 1.21% with Brent Crude hovering around $100.26.",
-    "Universe breadth shows 33 advancing vs 140 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed down 1.21% with Brent Crude hovering around $100.04.",
+    "Universe breadth shows 40 advancing vs 132 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,600 | Resistance cap at 22,950."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 782.3,
-      "trigger": 777.7,
-      "target1": 864.14,
-      "sl": 723.38,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9777.70 with Accumulation structure.",
-      "change_pct": 3.89
+      "current_price": 786.45,
+      "trigger": 796.24,
+      "target1": 878.96,
+      "sl": 719.84,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
+      "change_pct": 0.53
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 182.85,
+      "current_price": 182.23,
       "trigger": 186.37,
-      "target1": 200.71,
-      "sl": 169.99,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": 0.47
+      "target1": 200.79,
+      "sl": 168.86,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
+      "change_pct": -0.34
     },
     {
-      "symbol": "PNB",
-      "name": "Punjab National Bank",
-      "current_price": 122.5,
-      "trigger": 125.47,
-      "target1": 136.64,
-      "sl": 112.32,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9125.47 with Accumulation structure.",
-      "change_pct": 0.0
+      "symbol": "MPHASIS",
+      "name": "Mphasis Ltd",
+      "current_price": 2582.2,
+      "trigger": 2587.87,
+      "target1": 2984.16,
+      "sl": 2292.79,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b92,587.87 with Accumulation structure.",
+      "change_pct": 0.28
     }
   ],
-  "risk_warning": "Defensive alert on KEI Industries Ltd, Jindal SAW Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 03:31 AM",
+  "timestamp": "23 Oct 2026, 03:46 AM",
   "date_tag": "2026-10-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22687.65,
-      "change_pct": -0.54,
-      "status": "down"
+      "price": 22762.15,
+      "change_pct": 0.33,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.26,
-      "change_pct": 3.2,
+      "price": 100.04,
+      "change_pct": 2.97,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.82,
-      "change_pct": 0.54,
+      "price": 94.83,
+      "change_pct": 0.55,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 33,
-    "declines": 140,
+    "advances": 40,
+    "declines": 132,
     "total": 175
   }
 };
