@@ -4,8 +4,8 @@
   "nifty_support": 22400,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.57% with Brent Crude hovering around $102.44.",
-    "Universe breadth shows 16 advancing vs 159 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.52% with Brent Crude hovering around $103.27.",
+    "Universe breadth shows 28 advancing vs 144 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,800."
   ],
   "top_setups": [
@@ -20,30 +20,30 @@
       "change_pct": 7.81
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 781.75,
-      "trigger": 796.24,
-      "target1": 872.03,
-      "sl": 716.75,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
-      "change_pct": -0.07
+      "symbol": "WIPRO",
+      "name": "Wipro Ltd",
+      "current_price": 189.84,
+      "trigger": 193.27,
+      "target1": 234.11,
+      "sl": 157.97,
+      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9193.27 with Accumulation structure.",
+      "change_pct": -0.3
     },
     {
-      "symbol": "PREMEXPLN",
-      "name": "Premier Explosives Ltd",
-      "current_price": 687.4,
-      "trigger": 696.39,
-      "target1": 697.38,
-      "sl": 680.21,
-      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
-      "change_pct": -0.74
+      "symbol": "MPHASIS",
+      "name": "Mphasis Ltd",
+      "current_price": 2480.0,
+      "trigger": 2606.6,
+      "target1": 2825.22,
+      "sl": 2231.44,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,606.60 with Accumulation structure.",
+      "change_pct": -0.78
     }
   ],
-  "risk_warning": "Defensive alert on Jindal SAW Ltd, NDR Auto Components Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Jindal SAW Ltd, Garden Reach Shipbuilders & Enginers Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Oct 2026, 02:20 PM",
-  "date_tag": "2026-10-23",
+  "timestamp": "24 Oct 2026, 07:30 AM",
+  "date_tag": "2026-10-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7619.75,
-      "change_pct": -0.57,
+      "price": 7623.68,
+      "change_pct": -0.52,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25964.74,
-      "change_pct": -0.17,
+      "price": 25955.34,
+      "change_pct": -0.21,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.44,
-      "change_pct": 2.99,
+      "price": 103.27,
+      "change_pct": 3.82,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.93,
-      "change_pct": 0.65,
+      "price": 94.94,
+      "change_pct": 0.24,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 16,
-    "declines": 159,
+    "advances": 28,
+    "declines": 144,
     "total": 175
   }
 }
