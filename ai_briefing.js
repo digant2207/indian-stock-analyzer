@@ -1,54 +1,54 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22400,
-  "nifty_resistance": 22800,
+  "nifty_support": 22300,
+  "nifty_resistance": 22650,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $100.99.",
-    "Universe breadth shows 16 advancing vs 159 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,800."
+    "US Markets closed down 0.52% with Brent Crude hovering around $100.79.",
+    "Universe breadth shows 21 advancing vs 153 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
   ],
   "top_setups": [
     {
-      "symbol": "CYIENT",
-      "name": "Cyient Ltd",
-      "current_price": 1233.0,
-      "trigger": 1226.85,
-      "target1": 1371.8,
-      "sl": 1133.06,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,226.85 with Accumulation structure.",
-      "change_pct": 7.81
+      "symbol": "JMA",
+      "name": "Jullundur Motor Agency (Delhi) Ltd",
+      "current_price": 82.08,
+      "trigger": 91.52,
+      "target1": 89.85,
+      "sl": 76.49,
+      "rationale": "High Technical Score (7.0/100), 0.0% to Buy Trigger \u20b991.52 with Accumulation structure.",
+      "change_pct": 2.03
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 781.75,
-      "trigger": 796.24,
-      "target1": 872.03,
-      "sl": 716.75,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
-      "change_pct": -0.07
+      "symbol": "KUANTUM",
+      "name": "Kuantum Papers Ltd",
+      "current_price": 66.2,
+      "trigger": 84.16,
+      "target1": 79.62,
+      "sl": 56.54,
+      "rationale": "High Technical Score (4.0/100), 0.0% to Buy Trigger \u20b984.16 with Accumulation structure.",
+      "change_pct": 0.2
     },
     {
-      "symbol": "PREMEXPLN",
-      "name": "Premier Explosives Ltd",
-      "current_price": 687.4,
-      "trigger": 696.39,
-      "target1": 697.38,
-      "sl": 680.21,
-      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b9696.39 with Accumulation structure.",
-      "change_pct": -0.74
+      "symbol": "ZENITHEXPO",
+      "name": "Zenith Exports Ltd",
+      "current_price": 183.01,
+      "trigger": 205.41,
+      "target1": 203.25,
+      "sl": 168.44,
+      "rationale": "High Technical Score (7.0/100), 0.0% to Buy Trigger \u20b9205.41 with Accumulation structure.",
+      "change_pct": 0.33
     }
   ],
-  "risk_warning": "Defensive alert on Jindal SAW Ltd, NDR Auto Components Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 03:31 AM",
+  "timestamp": "26 Oct 2026, 03:46 AM",
   "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22600.0,
-      "change_pct": -0.39,
+      "price": 22482.05,
+      "change_pct": -0.52,
       "status": "down"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.99,
-      "change_pct": -2.21,
+      "price": 100.79,
+      "change_pct": -2.4,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.94,
-      "change_pct": 0.24,
+      "price": 94.92,
+      "change_pct": 0.22,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 16,
-    "declines": 159,
+    "advances": 21,
+    "declines": 153,
     "total": 175
   }
 };

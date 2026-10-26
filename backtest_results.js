@@ -1,8 +1,8 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 26.1,
-  "overall_avg_return_per_trade": -2.33,
+  "overall_win_rate": 25.8,
+  "overall_avg_return_per_trade": -2.39,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -86,11 +86,11 @@ window.backtestData = {
     },
     {
       "symbol": "BANCOINDIA.NS",
-      "total_trades": 9,
-      "win_rate": 33.3,
-      "avg_return": -2.58,
+      "total_trades": 10,
+      "win_rate": 30.0,
+      "avg_return": -2.95,
       "total_wins": 3,
-      "total_losses": 6
+      "total_losses": 7
     },
     {
       "symbol": "BBL.NS",
@@ -158,19 +158,19 @@ window.backtestData = {
     },
     {
       "symbol": "CHEMCON.NS",
-      "total_trades": 16,
-      "win_rate": 56.2,
-      "avg_return": 3.55,
+      "total_trades": 17,
+      "win_rate": 52.9,
+      "avg_return": 3.05,
       "total_wins": 9,
-      "total_losses": 7
+      "total_losses": 8
     },
     {
       "symbol": "COCHINSHIP.NS",
-      "total_trades": 8,
+      "total_trades": 9,
       "win_rate": 0.0,
-      "avg_return": -7.7,
+      "avg_return": -8.1,
       "total_wins": 0,
-      "total_losses": 8
+      "total_losses": 9
     },
     {
       "symbol": "DCAL.NS",
