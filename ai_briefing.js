@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22450,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $100.98.",
-    "Universe breadth shows 115 advancing vs 58 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.52% with Brent Crude hovering around $101.06.",
+    "Universe breadth shows 110 advancing vs 63 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 781.0,
+      "current_price": 781.95,
       "trigger": 796.24,
-      "target1": 877.43,
-      "sl": 711.57,
+      "target1": 878.74,
+      "sl": 712.26,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
-      "change_pct": -0.1
+      "change_pct": 0.03
     },
     {
       "symbol": "BAJAJHLDNG",
       "name": "Bajaj Holdings And Investment Ltd",
-      "current_price": 11189.0,
+      "current_price": 11165.0,
       "trigger": 11442.84,
-      "target1": 12138.89,
-      "sl": 10505.08,
+      "target1": 12109.15,
+      "sl": 10485.21,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b911,442.84 with Accumulation structure.",
-      "change_pct": 0.13
+      "change_pct": -0.09
     },
     {
       "symbol": "CYIENT",
       "name": "Cyient Ltd",
-      "current_price": 1240.1,
+      "current_price": 1240.9,
       "trigger": 1270.54,
-      "target1": 1396.69,
-      "sl": 1127.36,
+      "target1": 1397.86,
+      "sl": 1127.89,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,270.54 with Accumulation structure.",
-      "change_pct": 0.58
+      "change_pct": 0.64
     }
   ],
   "risk_warning": "Defensive alert on Gujarat Ambuja Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 05:01 AM",
+  "timestamp": "26 Oct 2026, 05:16 AM",
   "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22640.8,
-      "change_pct": 0.18,
+      "price": 22613.6,
+      "change_pct": 0.06,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73353.01,
-      "change_pct": 0.31,
+      "price": 73274.75,
+      "change_pct": 0.21,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.98,
-      "change_pct": -2.22,
+      "price": 101.06,
+      "change_pct": -2.14,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.06,
-      "change_pct": 0.37,
+      "price": 95.07,
+      "change_pct": 0.38,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 115,
-    "declines": 58,
+    "advances": 110,
+    "declines": 63,
     "total": 175
   }
 };
