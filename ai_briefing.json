@@ -4,57 +4,57 @@
   "nifty_support": 22500,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $100.89.",
-    "Universe breadth shows 113 advancing vs 61 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.52% with Brent Crude hovering around $100.65.",
+    "Universe breadth shows 112 advancing vs 62 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 1969.9,
+      "current_price": 1970.1,
       "trigger": 1996.38,
-      "target1": 2153.32,
-      "sl": 1837.84,
+      "target1": 2153.6,
+      "sl": 1837.98,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,996.38 with Accumulation structure.",
-      "change_pct": 3.65
-    },
-    {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 164.98,
-      "trigger": 165.73,
-      "target1": 176.94,
-      "sl": 156.37,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9165.73 with Accumulation structure.",
-      "change_pct": 5.59
+      "change_pct": 3.66
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 790.55,
+      "current_price": 789.5,
       "trigger": 796.24,
-      "target1": 890.94,
-      "sl": 718.27,
+      "target1": 889.42,
+      "sl": 717.56,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
-      "change_pct": 1.13
+      "change_pct": 0.99
+    },
+    {
+      "symbol": "BAJAJHLDNG",
+      "name": "Bajaj Holdings And Investment Ltd",
+      "current_price": 11170.0,
+      "trigger": 11442.84,
+      "target1": 12115.3,
+      "sl": 10489.38,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b911,442.84 with Accumulation structure.",
+      "change_pct": -0.04
     }
   ],
   "risk_warning": "Defensive alert on Rajoo Engineers Ltd, Gujarat Ambuja Exports Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 08:46 AM",
+  "timestamp": "26 Oct 2026, 09:01 AM",
   "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22696.8,
-      "change_pct": 0.43,
+      "price": 22699.85,
+      "change_pct": 0.44,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73288.07,
-      "change_pct": 0.22,
+      "price": 73412.14,
+      "change_pct": 0.39,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.89,
-      "change_pct": -2.3,
+      "price": 100.65,
+      "change_pct": -2.54,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.23,
-      "change_pct": 0.55,
+      "price": 95.24,
+      "change_pct": 0.56,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 113,
-    "declines": 61,
+    "advances": 112,
+    "declines": 62,
     "total": 175
   }
 }
