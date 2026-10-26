@@ -4,7 +4,7 @@
   "nifty_support": 22400,
   "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $103.27.",
+    "US Markets closed down 0.52% with Brent Crude hovering around $100.99.",
     "Universe breadth shows 16 advancing vs 159 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,800."
   ],
@@ -42,8 +42,8 @@
   ],
   "risk_warning": "Defensive alert on Jindal SAW Ltd, NDR Auto Components Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Oct 2026, 07:43 AM",
-  "date_tag": "2026-10-25",
+  "timestamp": "26 Oct 2026, 03:31 AM",
+  "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -71,9 +71,9 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.27,
-      "change_pct": 3.82,
-      "status": "up"
+      "price": 100.99,
+      "change_pct": -2.21,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
