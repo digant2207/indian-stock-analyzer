@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22300,
-  "nifty_resistance": 22650,
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "nifty_support": 22450,
+  "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $100.94.",
-    "Universe breadth shows 55 advancing vs 115 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
+    "US Markets closed down 0.52% with Brent Crude hovering around $101.03.",
+    "Universe breadth shows 121 advancing vs 53 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 777.65,
-      "trigger": 796.24,
-      "target1": 872.86,
-      "sl": 709.1,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
-      "change_pct": -0.52
+      "symbol": "IPCALAB",
+      "name": "IPCA Laboratories",
+      "current_price": 1978.9,
+      "trigger": 2024.04,
+      "target1": 2136.82,
+      "sl": 1865.2,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,024.04 with Accumulation structure.",
+      "change_pct": 1.31
     },
     {
       "symbol": "BHARATCOAL",
       "name": "Bharat Coking Coal Ltd",
-      "current_price": 30.72,
+      "current_price": 30.84,
       "trigger": 33.74,
-      "target1": 33.75,
-      "sl": 28.54,
+      "target1": 33.86,
+      "sl": 28.67,
       "rationale": "High Technical Score (7.0/100), 0.0% to Buy Trigger \u20b933.74 with Accumulation structure.",
-      "change_pct": 3.23
+      "change_pct": 3.63
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 342.2,
+      "current_price": 341.4,
       "trigger": 356.21,
-      "target1": 376.97,
-      "sl": 317.17,
+      "target1": 375.99,
+      "sl": 316.5,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.38
+      "change_pct": 0.15
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Gujarat Ambuja Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 04:15 AM",
+  "timestamp": "26 Oct 2026, 04:31 AM",
   "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22483.75,
-      "change_pct": -0.51,
-      "status": "down"
+      "price": 22632.45,
+      "change_pct": 0.14,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72756.25,
-      "change_pct": -0.5,
+      "price": 72770.24,
+      "change_pct": -0.48,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.94,
-      "change_pct": -2.26,
+      "price": 101.03,
+      "change_pct": -2.17,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.96,
-      "change_pct": 0.27,
+      "price": 95.01,
+      "change_pct": 0.32,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 55,
-    "declines": 115,
+    "advances": 121,
+    "declines": 53,
     "total": 175
   }
 };
