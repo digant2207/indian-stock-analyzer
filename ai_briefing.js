@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22300,
   "nifty_resistance": 22650,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $103.27.",
-    "Universe breadth shows 34 advancing vs 139 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.52% with Brent Crude hovering around $100.94.",
+    "Universe breadth shows 55 advancing vs 115 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,300 | Resistance cap at 22,650."
   ],
   "top_setups": [
     {
-      "symbol": "IPCALAB",
-      "name": "IPCA Laboratories",
-      "current_price": 1981.7,
-      "trigger": 2024.04,
-      "target1": 2140.81,
-      "sl": 1867.14,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,024.04 with Accumulation structure.",
-      "change_pct": 1.45
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 777.65,
+      "trigger": 796.24,
+      "target1": 872.86,
+      "sl": 709.1,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
+      "change_pct": -0.52
     },
     {
       "symbol": "BHARATCOAL",
       "name": "Bharat Coking Coal Ltd",
-      "current_price": 31.33,
+      "current_price": 30.72,
       "trigger": 33.74,
-      "target1": 34.32,
-      "sl": 29.18,
+      "target1": 33.75,
+      "sl": 28.54,
       "rationale": "High Technical Score (7.0/100), 0.0% to Buy Trigger \u20b933.74 with Accumulation structure.",
-      "change_pct": 5.28
+      "change_pct": 3.23
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 340.25,
+      "current_price": 342.2,
       "trigger": 356.21,
-      "target1": 374.61,
-      "sl": 315.51,
+      "target1": 376.97,
+      "sl": 317.17,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": -0.19
+      "change_pct": 0.38
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 04:01 AM",
+  "timestamp": "26 Oct 2026, 04:15 AM",
   "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22470.15,
-      "change_pct": -0.57,
+      "price": 22483.75,
+      "change_pct": -0.51,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72843.06,
-      "change_pct": -0.38,
+      "price": 72756.25,
+      "change_pct": -0.5,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.27,
-      "change_pct": 3.82,
-      "status": "up"
+      "price": 100.94,
+      "change_pct": -2.26,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.91,
-      "change_pct": 0.21,
+      "price": 94.96,
+      "change_pct": 0.27,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 34,
-    "declines": 139,
+    "advances": 55,
+    "declines": 115,
     "total": 175
   }
 };
