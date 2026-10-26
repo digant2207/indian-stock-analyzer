@@ -2,59 +2,59 @@
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22550,
-  "nifty_resistance": 22900,
+  "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $101.00.",
-    "Universe breadth shows 108 advancing vs 67 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
+    "US Markets closed down 0.52% with Brent Crude hovering around $100.99.",
+    "Universe breadth shows 114 advancing vs 61 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
   ],
   "top_setups": [
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 1992.9,
+      "current_price": 1993.0,
       "trigger": 1996.38,
-      "target1": 2186.21,
-      "sl": 1853.71,
+      "target1": 2186.36,
+      "sl": 1853.78,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,996.38 with Accumulation structure.",
-      "change_pct": 4.86
+      "change_pct": 4.87
     },
     {
       "symbol": "ATHERENERG",
       "name": "Ather Energy Ltd",
-      "current_price": 1572.6,
+      "current_price": 1575.0,
       "trigger": 1553.9,
-      "target1": 1741.22,
-      "sl": 1451.19,
+      "target1": 1745.24,
+      "sl": 1452.42,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,553.90 with Accumulation structure.",
-      "change_pct": 13.96
+      "change_pct": 14.13
     },
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 163.94,
+      "current_price": 164.3,
       "trigger": 165.73,
-      "target1": 175.34,
-      "sl": 155.73,
+      "target1": 175.89,
+      "sl": 155.96,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9165.73 with Accumulation structure.",
-      "change_pct": 4.92
+      "change_pct": 5.15
     }
   ],
   "risk_warning": "Defensive alert on Premier Explosives Ltd, Rajoo Engineers Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 09:46 AM",
+  "timestamp": "26 Oct 2026, 10:01 AM",
   "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22717.05,
-      "change_pct": 0.52,
+      "price": 22753.2,
+      "change_pct": 0.68,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73429.72,
-      "change_pct": 0.42,
+      "price": 73454.1,
+      "change_pct": 0.45,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.0,
-      "change_pct": -2.2,
+      "price": 100.99,
+      "change_pct": -2.21,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.22,
-      "change_pct": 0.54,
+      "price": 95.19,
+      "change_pct": 0.51,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 108,
-    "declines": 67,
+    "advances": 114,
+    "declines": 61,
     "total": 175
   }
 }
