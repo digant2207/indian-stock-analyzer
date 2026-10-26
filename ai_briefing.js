@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 22550,
   "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $100.99.",
-    "Universe breadth shows 114 advancing vs 61 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.52% with Brent Crude hovering around $101.18.",
+    "Universe breadth shows 113 advancing vs 62 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
   ],
   "top_setups": [
@@ -32,17 +32,17 @@ window.AI_BRIEFING = {
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 164.3,
+      "current_price": 164.31,
       "trigger": 165.73,
-      "target1": 175.89,
+      "target1": 175.9,
       "sl": 155.96,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9165.73 with Accumulation structure.",
-      "change_pct": 5.15
+      "change_pct": 5.16
     }
   ],
-  "risk_warning": "Defensive alert on Premier Explosives Ltd, Rajoo Engineers Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Rajoo Engineers Ltd, Gujarat Ambuja Exports Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 10:01 AM",
+  "timestamp": "26 Oct 2026, 10:05 AM",
   "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73454.1,
-      "change_pct": 0.45,
+      "price": 73692.44,
+      "change_pct": 0.78,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.99,
-      "change_pct": -2.21,
+      "price": 101.18,
+      "change_pct": -2.02,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.19,
-      "change_pct": 0.51,
+      "price": 95.18,
+      "change_pct": 0.5,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 114,
-    "declines": 61,
+    "advances": 113,
+    "declines": 62,
     "total": 175
   }
 };
