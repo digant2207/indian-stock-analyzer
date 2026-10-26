@@ -1,61 +1,61 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22450,
-  "nifty_resistance": 22800,
+  "nifty_support": 22500,
+  "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed down 0.52% with Brent Crude hovering around $101.03.",
-    "Universe breadth shows 121 advancing vs 53 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
+    "US Markets closed down 0.52% with Brent Crude hovering around $101.00.",
+    "Universe breadth shows 123 advancing vs 50 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
-      "symbol": "IPCALAB",
-      "name": "IPCA Laboratories",
-      "current_price": 1978.9,
-      "trigger": 2024.04,
-      "target1": 2136.82,
-      "sl": 1865.2,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,024.04 with Accumulation structure.",
-      "change_pct": 1.31
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 780.0,
+      "trigger": 796.24,
+      "target1": 876.05,
+      "sl": 710.84,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9796.24 with Accumulation structure.",
+      "change_pct": -0.22
+    },
+    {
+      "symbol": "GAEL",
+      "name": "Gujarat Ambuja Exports Ltd",
+      "current_price": 141.34,
+      "trigger": 181.6,
+      "target1": 176.13,
+      "sl": 116.29,
+      "rationale": "High Technical Score (4.0/100), 0.0% to Buy Trigger \u20b9181.60 with Accumulation structure.",
+      "change_pct": -8.12
     },
     {
       "symbol": "BHARATCOAL",
       "name": "Bharat Coking Coal Ltd",
-      "current_price": 30.84,
+      "current_price": 30.9,
       "trigger": 33.74,
-      "target1": 33.86,
-      "sl": 28.67,
+      "target1": 33.91,
+      "sl": 28.73,
       "rationale": "High Technical Score (7.0/100), 0.0% to Buy Trigger \u20b933.74 with Accumulation structure.",
-      "change_pct": 3.63
-    },
-    {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 341.4,
-      "trigger": 356.21,
-      "target1": 375.99,
-      "sl": 316.5,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.15
+      "change_pct": 3.83
     }
   ],
   "risk_warning": "Defensive alert on Gujarat Ambuja Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 04:31 AM",
+  "timestamp": "26 Oct 2026, 04:46 AM",
   "date_tag": "2026-10-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22632.45,
-      "change_pct": 0.14,
+      "price": 22664.05,
+      "change_pct": 0.28,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72770.24,
-      "change_pct": -0.48,
-      "status": "down"
+      "price": 73268.02,
+      "change_pct": 0.2,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.03,
-      "change_pct": -2.17,
+      "price": 101.0,
+      "change_pct": -2.2,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.01,
-      "change_pct": 0.32,
+      "price": 95.1,
+      "change_pct": 0.41,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 121,
-    "declines": 53,
+    "advances": 123,
+    "declines": 50,
     "total": 175
   }
 }
