@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22550,
   "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed up 0.70% with Brent Crude hovering around $102.51.",
+    "US Markets closed up 0.70% with Brent Crude hovering around $101.14.",
     "Universe breadth shows 125 advancing vs 50 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Mazagon Dock Shipbuilders Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Oct 2026, 10:46 AM",
+  "timestamp": "27 Oct 2026, 11:01 AM",
   "date_tag": "2026-10-27",
   "global_cues": {
     "Nifty 50": {
@@ -71,9 +71,9 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.51,
-      "change_pct": 0.74,
-      "status": "up"
+      "price": 101.14,
+      "change_pct": -0.61,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
