@@ -1,59 +1,59 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22600,
-  "nifty_resistance": 22950,
+  "nifty_support": 22550,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.70% with Brent Crude hovering around $100.79.",
-    "Universe breadth shows 133 advancing vs 41 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,600 | Resistance cap at 22,950."
+    "US Markets closed up 0.70% with Brent Crude hovering around $100.77.",
+    "Universe breadth shows 125 advancing vs 50 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 857.0,
+      "current_price": 853.15,
       "trigger": 838.67,
-      "target1": 947.66,
-      "sl": 791.73,
+      "target1": 941.14,
+      "sl": 789.79,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 9.6
+      "change_pct": 9.11
     },
     {
       "symbol": "ATHERENERG",
       "name": "Ather Energy Ltd",
-      "current_price": 1694.0,
+      "current_price": 1679.8,
       "trigger": 1626.25,
-      "target1": 1975.68,
-      "sl": 1491.19,
+      "target1": 1950.66,
+      "sl": 1484.78,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,626.25 with Accumulation structure.",
-      "change_pct": 7.56
+      "change_pct": 6.65
     },
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 167.99,
+      "current_price": 167.24,
       "trigger": 168.84,
-      "target1": 182.95,
-      "sl": 157.22,
+      "target1": 181.74,
+      "sl": 156.8,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9168.84 with Accumulation structure.",
-      "change_pct": 2.24
+      "change_pct": 1.78
     }
   ],
   "risk_warning": "Defensive alert on REC Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Oct 2026, 05:31 AM",
+  "timestamp": "27 Oct 2026, 05:46 AM",
   "date_tag": "2026-10-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22765.6,
-      "change_pct": 0.05,
-      "status": "up"
+      "price": 22736.15,
+      "change_pct": -0.07,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73571.89,
+      "price": 73566.3,
       "change_pct": -0.05,
       "status": "down"
     },
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.79,
-      "change_pct": -0.95,
+      "price": 100.77,
+      "change_pct": -0.97,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.17,
-      "change_pct": 0.25,
+      "price": 95.11,
+      "change_pct": 0.18,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 133,
-    "declines": 41,
+    "advances": 125,
+    "declines": 50,
     "total": 175
   }
 };
