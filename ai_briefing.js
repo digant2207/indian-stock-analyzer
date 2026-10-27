@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 22550,
   "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed up 0.76% with Brent Crude hovering around $102.81.",
-    "Universe breadth shows 113 advancing vs 62 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.70% with Brent Crude hovering around $100.80.",
+    "Universe breadth shows 77 advancing vs 98 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
   ],
   "top_setups": [
@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Rajoo Engineers Ltd, Gujarat Ambuja Exports Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Oct 2026, 04:25 PM",
-  "date_tag": "2026-10-26",
+  "timestamp": "27 Oct 2026, 03:31 AM",
+  "date_tag": "2026-10-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7681.89,
-      "change_pct": 0.76,
+      "price": 7676.77,
+      "change_pct": 0.7,
       "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26215.34,
-      "change_pct": 1.0,
+      "price": 26169.38,
+      "change_pct": 0.82,
       "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.81,
-      "change_pct": -0.45,
+      "price": 100.8,
+      "change_pct": -2.39,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.18,
-      "change_pct": 0.49,
+      "price": 95.17,
+      "change_pct": 0.24,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 113,
-    "declines": 62,
+    "advances": 77,
+    "declines": 98,
     "total": 175
   }
 };
