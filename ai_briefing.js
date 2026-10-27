@@ -1,61 +1,61 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_support": 22550,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.70% with Brent Crude hovering around $100.85.",
-    "Universe breadth shows 86 advancing vs 86 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed up 0.70% with Brent Crude hovering around $101.76.",
+    "Universe breadth shows 134 advancing vs 41 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 791.0,
-      "trigger": 799.48,
-      "target1": 901.83,
-      "sl": 711.2,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9799.48 with Accumulation structure.",
-      "change_pct": -0.57
-    },
-    {
-      "symbol": "UNIONBANK",
-      "name": "Union Bank of India",
-      "current_price": 183.55,
-      "trigger": 186.37,
-      "target1": 201.75,
-      "sl": 170.45,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": 2.6
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 172.45,
+      "trigger": 168.84,
+      "target1": 190.5,
+      "sl": 159.45,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9168.84 with Accumulation structure.",
+      "change_pct": 4.95
     },
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 1985.3,
+      "current_price": 1997.0,
       "trigger": 2002.96,
-      "target1": 2186.31,
-      "sl": 1840.57,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,002.96 with Accumulation structure.",
-      "change_pct": -0.39
+      "target1": 2202.6,
+      "sl": 1848.97,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,002.96 with Accumulation structure.",
+      "change_pct": 0.2
+    },
+    {
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 796.55,
+      "trigger": 799.48,
+      "target1": 909.56,
+      "sl": 715.18,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9799.48 with Accumulation structure.",
+      "change_pct": 0.13
     }
   ],
-  "risk_warning": "Defensive alert on Jindal Poly Investment & Finance Co Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on REC Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Oct 2026, 03:46 AM",
+  "timestamp": "27 Oct 2026, 04:01 AM",
   "date_tag": "2026-10-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22674.85,
-      "change_pct": -0.34,
+      "price": 22735.3,
+      "change_pct": -0.08,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73606.75,
-      "change_pct": 0.66,
-      "status": "up"
+      "price": 73386.47,
+      "change_pct": -0.3,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.85,
-      "change_pct": -2.34,
+      "price": 101.76,
+      "change_pct": -1.46,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.09,
-      "change_pct": 0.16,
+      "price": 95.22,
+      "change_pct": 0.3,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 86,
-    "declines": 86,
+    "advances": 134,
+    "declines": 41,
     "total": 175
   }
 };
