@@ -1,55 +1,55 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22550,
-  "nifty_resistance": 22950,
+  "nifty_support": 22500,
+  "nifty_resistance": 22850,
   "executive_bullets": [
-    "US Markets closed up 0.70% with Brent Crude hovering around $100.80.",
-    "Universe breadth shows 77 advancing vs 98 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
+    "US Markets closed up 0.70% with Brent Crude hovering around $100.85.",
+    "Universe breadth shows 86 advancing vs 86 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
   ],
   "top_setups": [
     {
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 791.0,
+      "trigger": 799.48,
+      "target1": 901.83,
+      "sl": 711.2,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9799.48 with Accumulation structure.",
+      "change_pct": -0.57
+    },
+    {
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 183.55,
+      "trigger": 186.37,
+      "target1": 201.75,
+      "sl": 170.45,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
+      "change_pct": 2.6
+    },
+    {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 1993.0,
-      "trigger": 1996.38,
-      "target1": 2186.36,
-      "sl": 1853.78,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,996.38 with Accumulation structure.",
-      "change_pct": 4.87
-    },
-    {
-      "symbol": "ATHERENERG",
-      "name": "Ather Energy Ltd",
-      "current_price": 1575.0,
-      "trigger": 1553.9,
-      "target1": 1745.24,
-      "sl": 1452.42,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,553.90 with Accumulation structure.",
-      "change_pct": 14.13
-    },
-    {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 164.31,
-      "trigger": 165.73,
-      "target1": 175.9,
-      "sl": 155.96,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9165.73 with Accumulation structure.",
-      "change_pct": 5.16
+      "current_price": 1985.3,
+      "trigger": 2002.96,
+      "target1": 2186.31,
+      "sl": 1840.57,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,002.96 with Accumulation structure.",
+      "change_pct": -0.39
     }
   ],
-  "risk_warning": "Defensive alert on Rajoo Engineers Ltd, Gujarat Ambuja Exports Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Jindal Poly Investment & Finance Co Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Oct 2026, 03:31 AM",
+  "timestamp": "27 Oct 2026, 03:46 AM",
   "date_tag": "2026-10-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22753.2,
-      "change_pct": 0.68,
-      "status": "up"
+      "price": 22674.85,
+      "change_pct": -0.34,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.8,
-      "change_pct": -2.39,
+      "price": 100.85,
+      "change_pct": -2.34,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.17,
-      "change_pct": 0.24,
+      "price": 95.09,
+      "change_pct": 0.16,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 77,
-    "declines": 98,
+    "advances": 86,
+    "declines": 86,
     "total": 175
   }
 };
