@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.60% with Brent Crude hovering around $101.67.",
+    "US Markets closed up 0.60% with Brent Crude hovering around $101.60.",
     "Universe breadth shows 91 advancing vs 83 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on AWL Agri Business Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Oct 2026, 10:31 AM",
+  "timestamp": "28 Oct 2026, 10:33 AM",
   "date_tag": "2026-10-28",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.67,
-      "change_pct": 1.77,
+      "price": 101.6,
+      "change_pct": 1.7,
       "status": "up"
     },
     "USD/INR": {
