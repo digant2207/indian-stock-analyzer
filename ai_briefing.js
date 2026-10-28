@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22500,
-  "nifty_resistance": 22850,
+  "nifty_support": 22550,
+  "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.60% with Brent Crude hovering around $101.67.",
-    "Universe breadth shows 101 advancing vs 73 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,850."
+    "US Markets closed up 0.60% with Brent Crude hovering around $101.84.",
+    "Universe breadth shows 114 advancing vs 59 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
+      "symbol": "SONACOMS",
+      "name": "Sona BLW Precision",
+      "current_price": 875.0,
+      "trigger": 869.74,
+      "target1": 992.0,
+      "sl": 790.76,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9869.74 with Accumulation structure.",
+      "change_pct": 2.72
+    },
+    {
+      "symbol": "ORICONENT",
+      "name": "Oricon Enterprises Ltd",
+      "current_price": 57.41,
+      "trigger": 57.2,
+      "target1": 65.05,
+      "sl": 51.91,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b957.20 with Accumulation structure.",
+      "change_pct": 9.1
+    },
+    {
       "symbol": "LT",
       "name": "Larsen and Toubro Ltd",
-      "current_price": 3814.0,
+      "current_price": 3822.6,
       "trigger": 3865.92,
-      "target1": 3992.84,
-      "sl": 3685.23,
+      "target1": 4008.8,
+      "sl": 3688.53,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b93,865.92 with Accumulation structure.",
-      "change_pct": 4.06
-    },
-    {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 813.1,
-      "trigger": 816.91,
-      "target1": 945.34,
-      "sl": 717.89,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9816.91 with Accumulation structure.",
-      "change_pct": 0.03
-    },
-    {
-      "symbol": "UNIONBANK",
-      "name": "Union Bank of India",
-      "current_price": 181.93,
-      "trigger": 186.37,
-      "target1": 200.21,
-      "sl": 168.77,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": -1.45
+      "change_pct": 4.3
     }
   ],
-  "risk_warning": "Defensive alert on AWL Agri Business Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on AWL Agri Business Ltd, Cera Sanitaryware Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Oct 2026, 07:01 AM",
+  "timestamp": "28 Oct 2026, 07:15 AM",
   "date_tag": "2026-10-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22659.35,
-      "change_pct": -0.4,
+      "price": 22716.0,
+      "change_pct": -0.15,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73094.75,
-      "change_pct": -0.68,
+      "price": 73138.28,
+      "change_pct": -0.63,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.67,
-      "change_pct": 1.77,
+      "price": 101.84,
+      "change_pct": 1.94,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.19,
-      "change_pct": 0.01,
-      "status": "up"
+      "price": 95.18,
+      "change_pct": -0.01,
+      "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 101,
-    "declines": 73,
+    "advances": 114,
+    "declines": 59,
     "total": 175
   }
 };
