@@ -1,54 +1,54 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22550,
-  "nifty_resistance": 22950,
+  "nifty_support": 22400,
+  "nifty_resistance": 22750,
   "executive_bullets": [
-    "US Markets closed up 0.60% with Brent Crude hovering around $101.13.",
-    "Universe breadth shows 111 advancing vs 64 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,950."
+    "US Markets closed up 0.60% with Brent Crude hovering around $101.12.",
+    "Universe breadth shows 77 advancing vs 98 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,400 | Resistance cap at 22,750."
   ],
   "top_setups": [
     {
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 803.05,
+      "trigger": 816.91,
+      "target1": 931.32,
+      "sl": 710.7,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9816.91 with Accumulation structure.",
+      "change_pct": -1.21
+    },
+    {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 851.85,
-      "trigger": 838.67,
-      "target1": 938.96,
-      "sl": 789.13,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9838.67 with Accumulation structure.",
-      "change_pct": 8.95
+      "current_price": 859.1,
+      "trigger": 869.74,
+      "target1": 966.17,
+      "sl": 782.01,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9869.74 with Accumulation structure.",
+      "change_pct": 0.85
     },
     {
-      "symbol": "ATHERENERG",
-      "name": "Ather Energy Ltd",
-      "current_price": 1674.0,
-      "trigger": 1626.25,
-      "target1": 1940.52,
-      "sl": 1482.11,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,626.25 with Accumulation structure.",
-      "change_pct": 6.29
-    },
-    {
-      "symbol": "COFORGE",
-      "name": "Coforge Ltd",
-      "current_price": 1997.0,
-      "trigger": 2002.96,
-      "target1": 2202.6,
-      "sl": 1848.97,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,002.96 with Accumulation structure.",
-      "change_pct": 0.2
+      "symbol": "BSE",
+      "name": "BSE Ltd",
+      "current_price": 3439.7,
+      "trigger": 3473.93,
+      "target1": 3682.97,
+      "sl": 3264.54,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b93,473.93 with Accumulation structure.",
+      "change_pct": -0.04
     }
   ],
-  "risk_warning": "Defensive alert on Mazagon Dock Shipbuilders Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Oct 2026, 03:31 AM",
+  "timestamp": "28 Oct 2026, 03:45 AM",
   "date_tag": "2026-10-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22749.75,
-      "change_pct": -0.02,
+      "price": 22586.55,
+      "change_pct": -0.72,
       "status": "down"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.13,
-      "change_pct": -0.62,
+      "price": 101.12,
+      "change_pct": -0.63,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.02,
-      "change_pct": -0.18,
+      "price": 95.03,
+      "change_pct": -0.17,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 111,
-    "declines": 64,
+    "advances": 77,
+    "declines": 98,
     "total": 175
   }
 };
