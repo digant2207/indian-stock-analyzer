@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22550,
-  "nifty_resistance": 22900,
+  "nifty_support": 22600,
+  "nifty_resistance": 22950,
   "executive_bullets": [
-    "US Markets closed up 0.60% with Brent Crude hovering around $101.84.",
-    "Universe breadth shows 114 advancing vs 59 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
+    "US Markets closed up 0.60% with Brent Crude hovering around $101.91.",
+    "Universe breadth shows 130 advancing vs 45 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,600 | Resistance cap at 22,950."
   ],
   "top_setups": [
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 875.0,
+      "current_price": 880.5,
       "trigger": 869.74,
-      "target1": 992.0,
-      "sl": 790.76,
+      "target1": 1001.2,
+      "sl": 793.6,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9869.74 with Accumulation structure.",
-      "change_pct": 2.72
+      "change_pct": 3.36
     },
     {
       "symbol": "ORICONENT",
       "name": "Oricon Enterprises Ltd",
-      "current_price": 57.41,
+      "current_price": 57.2,
       "trigger": 57.2,
-      "target1": 65.05,
-      "sl": 51.91,
+      "target1": 64.68,
+      "sl": 51.82,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b957.20 with Accumulation structure.",
-      "change_pct": 9.1
+      "change_pct": 8.7
     },
     {
       "symbol": "LT",
       "name": "Larsen and Toubro Ltd",
-      "current_price": 3822.6,
+      "current_price": 3833.5,
       "trigger": 3865.92,
-      "target1": 4008.8,
-      "sl": 3688.53,
+      "target1": 4029.14,
+      "sl": 3692.64,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b93,865.92 with Accumulation structure.",
-      "change_pct": 4.3
+      "change_pct": 4.59
     }
   ],
   "risk_warning": "Defensive alert on AWL Agri Business Ltd, Cera Sanitaryware Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Oct 2026, 07:15 AM",
+  "timestamp": "28 Oct 2026, 07:31 AM",
   "date_tag": "2026-10-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22716.0,
-      "change_pct": -0.15,
-      "status": "down"
+      "price": 22774.25,
+      "change_pct": 0.11,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73138.28,
-      "change_pct": -0.63,
+      "price": 73322.23,
+      "change_pct": -0.38,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.84,
-      "change_pct": 1.94,
+      "price": 101.91,
+      "change_pct": 2.01,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.18,
-      "change_pct": -0.01,
+      "price": 95.14,
+      "change_pct": -0.05,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 114,
-    "declines": 59,
+    "advances": 130,
+    "declines": 45,
     "total": 175
   }
 };
