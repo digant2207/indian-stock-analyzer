@@ -1,59 +1,59 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 22500,
+  "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.60% with Brent Crude hovering around $101.68.",
-    "Universe breadth shows 93 advancing vs 81 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
+    "US Markets closed up 0.60% with Brent Crude hovering around $101.69.",
+    "Universe breadth shows 90 advancing vs 84 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 883.5,
+      "current_price": 880.0,
       "trigger": 869.74,
-      "target1": 1006.27,
-      "sl": 795.11,
+      "target1": 1000.36,
+      "sl": 793.34,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9869.74 with Accumulation structure.",
-      "change_pct": 3.72
+      "change_pct": 3.3
+    },
+    {
+      "symbol": "INTLCONV",
+      "name": "International Conveyors Ltd",
+      "current_price": 81.7,
+      "trigger": 82.46,
+      "target1": 87.13,
+      "sl": 77.79,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b982.46 with Accumulation structure.",
+      "change_pct": 3.25
     },
     {
       "symbol": "TATACONSUM",
       "name": "Tata Consumer Products Ltd",
-      "current_price": 1002.6,
+      "current_price": 995.2,
       "trigger": 1013.22,
-      "target1": 1072.58,
-      "sl": 952.21,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b91,013.22 with Accumulation structure.",
-      "change_pct": 0.26
-    },
-    {
-      "symbol": "KPITTECH",
-      "name": "KPIT Technologies",
-      "current_price": 550.05,
-      "trigger": 559.82,
-      "target1": 647.7,
-      "sl": 479.74,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9559.82 with Accumulation structure.",
-      "change_pct": 3.41
+      "target1": 1062.04,
+      "sl": 947.07,
+      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,013.22 with Accumulation structure.",
+      "change_pct": -0.48
     }
   ],
   "risk_warning": "Defensive alert on AWL Agri Business Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Oct 2026, 09:31 AM",
+  "timestamp": "28 Oct 2026, 09:46 AM",
   "date_tag": "2026-10-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22705.45,
+      "price": 22706.8,
       "change_pct": -0.19,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73289.27,
+      "price": 73291.55,
       "change_pct": -0.42,
       "status": "down"
     },
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.68,
-      "change_pct": 1.78,
+      "price": 101.69,
+      "change_pct": 1.79,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.23,
-      "change_pct": 0.05,
+      "price": 95.19,
+      "change_pct": 0.0,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 93,
-    "declines": 81,
+    "advances": 90,
+    "declines": 84,
     "total": 175
   }
 }
