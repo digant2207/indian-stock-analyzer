@@ -1,60 +1,60 @@
 {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 22350,
-  "nifty_resistance": 22750,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 22450,
+  "nifty_resistance": 22800,
   "executive_bullets": [
-    "US Markets closed up 0.60% with Brent Crude hovering around $99.90.",
-    "Universe breadth shows 80 advancing vs 95 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,350 | Resistance cap at 22,750."
+    "US Markets closed up 0.60% with Brent Crude hovering around $101.30.",
+    "Universe breadth shows 91 advancing vs 84 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,450 | Resistance cap at 22,800."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 803.55,
+      "current_price": 809.0,
       "trigger": 816.91,
-      "target1": 932.0,
-      "sl": 711.06,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9816.91 with Accumulation structure.",
-      "change_pct": -1.14
+      "target1": 939.55,
+      "sl": 715.01,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9816.91 with Accumulation structure.",
+      "change_pct": -0.47
+    },
+    {
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 182.3,
+      "trigger": 186.37,
+      "target1": 200.69,
+      "sl": 169.06,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
+      "change_pct": -1.25
     },
     {
       "symbol": "SONACOMS",
       "name": "Sona BLW Precision",
-      "current_price": 855.0,
+      "current_price": 861.3,
       "trigger": 869.74,
-      "target1": 959.73,
-      "sl": 779.6,
+      "target1": 969.67,
+      "sl": 783.27,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9869.74 with Accumulation structure.",
-      "change_pct": 0.37
-    },
-    {
-      "symbol": "BSE",
-      "name": "BSE Ltd",
-      "current_price": 3455.0,
-      "trigger": 3473.93,
-      "target1": 3704.86,
-      "sl": 3275.1,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b93,473.93 with Accumulation structure.",
-      "change_pct": 0.4
+      "change_pct": 1.11
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on AWL Agri Business Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Oct 2026, 04:01 AM",
+  "timestamp": "28 Oct 2026, 04:16 AM",
   "date_tag": "2026-10-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22549.0,
-      "change_pct": -0.88,
+      "price": 22632.8,
+      "change_pct": -0.51,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 72959.62,
-      "change_pct": -0.87,
+      "price": 72808.95,
+      "change_pct": -1.07,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.9,
-      "change_pct": -1.83,
-      "status": "down"
+      "price": 101.3,
+      "change_pct": 1.4,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.07,
-      "change_pct": -0.13,
+      "price": 95.14,
+      "change_pct": -0.05,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 80,
-    "declines": 95,
+    "advances": 91,
+    "declines": 84,
     "total": 175
   }
 }
