@@ -4,8 +4,8 @@
   "nifty_support": 22500,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.60% with Brent Crude hovering around $101.29.",
-    "Universe breadth shows 91 advancing vs 82 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.60% with Brent Crude hovering around $101.54.",
+    "Universe breadth shows 84 advancing vs 90 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
   ],
   "top_setups": [
@@ -32,17 +32,17 @@
     {
       "symbol": "INTLCONV",
       "name": "International Conveyors Ltd",
-      "current_price": 81.69,
+      "current_price": 81.52,
       "trigger": 82.46,
-      "target1": 87.12,
-      "sl": 77.78,
+      "target1": 86.88,
+      "sl": 77.66,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b982.46 with Accumulation structure.",
-      "change_pct": 3.24
+      "change_pct": 3.02
     }
   ],
   "risk_warning": "Defensive alert on AWL Agri Business Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "28 Oct 2026, 09:58 AM",
+  "timestamp": "28 Oct 2026, 10:01 AM",
   "date_tag": "2026-10-28",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73259.94,
-      "change_pct": -0.46,
+      "price": 73280.01,
+      "change_pct": -0.43,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.29,
-      "change_pct": 1.39,
+      "price": 101.54,
+      "change_pct": 1.64,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.22,
-      "change_pct": 0.04,
+      "price": 95.21,
+      "change_pct": 0.03,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 91,
-    "declines": 82,
+    "advances": 84,
+    "declines": 90,
     "total": 175
   }
 }
