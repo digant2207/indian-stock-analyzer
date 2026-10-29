@@ -5,56 +5,56 @@ window.AI_BRIEFING = {
   "nifty_resistance": 23100,
   "executive_bullets": [
     "US Markets closed up 0.28% with Brent Crude hovering around $101.44.",
-    "Universe breadth shows 112 advancing vs 63 declining stocks across 175 scanned equities.",
+    "Universe breadth shows 113 advancing vs 62 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1621.3,
+      "current_price": 1624.1,
       "trigger": 1586.17,
-      "target1": 1740.09,
-      "sl": 1535.77,
+      "target1": 1745.04,
+      "sl": 1537.02,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
-      "change_pct": 4.54
+      "change_pct": 4.72
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 348.55,
+      "current_price": 348.8,
       "trigger": 356.21,
-      "target1": 376.21,
-      "sl": 328.63,
+      "target1": 376.55,
+      "sl": 328.82,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.74
+      "change_pct": 0.81
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 810.9,
+      "current_price": 809.5,
       "trigger": 816.93,
-      "target1": 940.83,
-      "sl": 717.35,
+      "target1": 938.93,
+      "sl": 716.31,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 0.71
+      "change_pct": 0.53
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 08:31 AM",
+  "timestamp": "29 Oct 2026, 08:43 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22892.6,
+      "price": 22892.3,
       "change_pct": 0.85,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73850.14,
-      "change_pct": 0.82,
+      "price": 73926.89,
+      "change_pct": 0.93,
       "status": "up"
     },
     "S&P 500": {
@@ -77,14 +77,14 @@ window.AI_BRIEFING = {
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.29,
-      "change_pct": 0.11,
+      "price": 95.33,
+      "change_pct": 0.16,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 112,
-    "declines": 63,
+    "advances": 113,
+    "declines": 62,
     "total": 175
   }
 };
