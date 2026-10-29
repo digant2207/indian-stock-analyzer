@@ -4,20 +4,20 @@ window.AI_BRIEFING = {
   "nifty_support": 22750,
   "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.58.",
-    "Universe breadth shows 117 advancing vs 56 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.27.",
+    "Universe breadth shows 120 advancing vs 52 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1616.0,
+      "current_price": 1618.8,
       "trigger": 1586.17,
-      "target1": 1734.17,
-      "sl": 1530.92,
+      "target1": 1738.96,
+      "sl": 1532.28,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
-      "change_pct": 3.6
+      "change_pct": 3.78
     },
     {
       "symbol": "UNIONBANK",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Bajaj Holdings And Investment Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 10:01 AM",
+  "timestamp": "29 Oct 2026, 10:15 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74107.5,
-      "change_pct": 1.18,
+      "price": 74151.04,
+      "change_pct": 1.24,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.58,
-      "change_pct": -1.17,
+      "price": 101.27,
+      "change_pct": -1.47,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.24,
-      "change_pct": 0.06,
+      "price": 95.25,
+      "change_pct": 0.08,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 117,
-    "declines": 56,
+    "advances": 120,
+    "declines": 52,
     "total": 175
   }
 };
