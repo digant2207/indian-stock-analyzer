@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22750,
-  "nifty_resistance": 23150,
+  "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.28.",
-    "Universe breadth shows 114 advancing vs 61 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,150."
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.92.",
+    "Universe breadth shows 119 advancing vs 55 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1618.0,
+      "current_price": 1620.0,
       "trigger": 1586.17,
-      "target1": 1737.59,
-      "sl": 1531.89,
+      "target1": 1741.03,
+      "sl": 1532.86,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
-      "change_pct": 3.72
+      "change_pct": 3.85
     },
     {
-      "symbol": "NHPC",
-      "name": "NHPC Ltd",
-      "current_price": 77.01,
-      "trigger": 74.85,
-      "target1": 83.54,
-      "sl": 72.31,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b974.85 with Accumulation structure.",
-      "change_pct": 3.45
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 123.75,
+      "trigger": 125.47,
+      "target1": 134.1,
+      "sl": 116.3,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9125.47 with Accumulation structure.",
+      "change_pct": 2.86
     },
     {
-      "symbol": "CDSL",
-      "name": "Central Depository Services",
-      "current_price": 1279.0,
-      "trigger": 1309.11,
-      "target1": 1406.77,
-      "sl": 1187.01,
-      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
-      "change_pct": 3.81
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 352.0,
+      "trigger": 349.1,
+      "target1": 383.96,
+      "sl": 328.99,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9349.10 with Accumulation structure.",
+      "change_pct": 2.77
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Holdings And Investment Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 09:31 AM",
+  "timestamp": "29 Oct 2026, 09:46 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22943.9,
-      "change_pct": 1.08,
+      "price": 22940.75,
+      "change_pct": 1.07,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74101.79,
-      "change_pct": 1.17,
+      "price": 74124.75,
+      "change_pct": 1.2,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.28,
-      "change_pct": -1.46,
+      "price": 101.92,
+      "change_pct": -0.84,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.23,
-      "change_pct": 0.05,
+      "price": 95.22,
+      "change_pct": 0.04,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 114,
-    "declines": 61,
+    "advances": 119,
+    "declines": 55,
     "total": 175
   }
 };
