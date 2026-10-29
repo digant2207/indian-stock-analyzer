@@ -4,7 +4,7 @@
   "nifty_support": 22750,
   "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.53.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.28.",
     "Universe breadth shows 120 advancing vs 52 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on Bajaj Holdings And Investment Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 10:40 AM",
+  "timestamp": "29 Oct 2026, 10:46 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.53,
-      "change_pct": -1.22,
+      "price": 101.28,
+      "change_pct": -1.46,
       "status": "down"
     },
     "USD/INR": {
