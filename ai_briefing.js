@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22750,
   "nifty_resistance": 23150,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $100.92.",
-    "Universe breadth shows 115 advancing vs 58 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.28.",
+    "Universe breadth shows 114 advancing vs 61 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,150."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1624.6,
+      "current_price": 1618.0,
       "trigger": 1586.17,
-      "target1": 1748.97,
-      "sl": 1535.05,
-      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
-      "change_pct": 4.15
+      "target1": 1737.59,
+      "sl": 1531.89,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
+      "change_pct": 3.72
+    },
+    {
+      "symbol": "NHPC",
+      "name": "NHPC Ltd",
+      "current_price": 77.01,
+      "trigger": 74.85,
+      "target1": 83.54,
+      "sl": 72.31,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b974.85 with Accumulation structure.",
+      "change_pct": 3.45
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1280.6,
+      "current_price": 1279.0,
       "trigger": 1309.11,
-      "target1": 1408.71,
-      "sl": 1188.36,
+      "target1": 1406.77,
+      "sl": 1187.01,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
-      "change_pct": 3.94
-    },
-    {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 809.65,
-      "trigger": 816.93,
-      "target1": 939.13,
-      "sl": 716.42,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 0.55
+      "change_pct": 3.81
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 09:16 AM",
+  "timestamp": "29 Oct 2026, 09:31 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22942.45,
-      "change_pct": 1.07,
+      "price": 22943.9,
+      "change_pct": 1.08,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74085.58,
-      "change_pct": 1.15,
+      "price": 74101.79,
+      "change_pct": 1.17,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.92,
-      "change_pct": -1.81,
+      "price": 101.28,
+      "change_pct": -1.46,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 115,
-    "declines": 58,
+    "advances": 114,
+    "declines": 61,
     "total": 175
   }
 };
