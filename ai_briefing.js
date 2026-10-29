@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22650,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.24.",
-    "Universe breadth shows 106 advancing vs 69 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.20.",
+    "Universe breadth shows 104 advancing vs 70 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,050."
   ],
   "top_setups": [
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 348.4,
+      "current_price": 348.15,
       "trigger": 356.21,
-      "target1": 376.01,
-      "sl": 328.52,
+      "target1": 375.68,
+      "sl": 328.33,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.69
+      "change_pct": 0.62
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 810.9,
+      "current_price": 809.5,
       "trigger": 816.93,
-      "target1": 940.83,
-      "sl": 717.35,
+      "target1": 938.93,
+      "sl": 716.31,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 0.71
+      "change_pct": 0.53
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 184.8,
+      "current_price": 185.05,
       "trigger": 186.37,
-      "target1": 203.79,
-      "sl": 171.13,
+      "target1": 204.13,
+      "sl": 171.31,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": 0.99
+      "change_pct": 1.13
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 06:16 AM",
+  "timestamp": "29 Oct 2026, 06:31 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22851.25,
-      "change_pct": 0.67,
+      "price": 22847.9,
+      "change_pct": 0.66,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73806.11,
-      "change_pct": 0.76,
+      "price": 73815.77,
+      "change_pct": 0.78,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.24,
-      "change_pct": -1.5,
+      "price": 101.2,
+      "change_pct": -1.54,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 95.36,
-      "change_pct": 0.19,
+      "change_pct": 0.2,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 106,
-    "declines": 69,
+    "advances": 104,
+    "declines": 70,
     "total": 175
   }
 };
