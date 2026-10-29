@@ -1,60 +1,60 @@
 {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22500,
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "nifty_support": 22550,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $102.78.",
-    "Universe breadth shows 98 advancing vs 76 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.46.",
+    "Universe breadth shows 105 advancing vs 70 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,550 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 812.2,
+      "current_price": 810.4,
       "trigger": 816.93,
-      "target1": 942.61,
-      "sl": 718.3,
+      "target1": 940.15,
+      "sl": 716.98,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 0.87
+      "change_pct": 0.65
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 184.63,
+      "current_price": 185.59,
       "trigger": 186.37,
-      "target1": 203.56,
-      "sl": 171.0,
+      "target1": 204.87,
+      "sl": 171.71,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": 0.9
+      "change_pct": 1.43
     },
     {
       "symbol": "NYKAA",
       "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 346.3,
+      "current_price": 345.25,
       "trigger": 349.1,
-      "target1": 375.88,
-      "sl": 325.0,
+      "target1": 374.48,
+      "sl": 324.2,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9349.10 with Accumulation structure.",
-      "change_pct": 1.11
+      "change_pct": 0.8
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 04:01 AM",
+  "timestamp": "29 Oct 2026, 04:16 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22703.45,
-      "change_pct": 0.02,
+      "price": 22734.0,
+      "change_pct": 0.15,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73256.94,
-      "change_pct": 0.01,
+      "price": 73331.7,
+      "change_pct": 0.12,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.78,
-      "change_pct": 2.88,
-      "status": "up"
+      "price": 101.46,
+      "change_pct": -1.28,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.26,
-      "change_pct": 0.09,
+      "price": 95.24,
+      "change_pct": 0.07,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 98,
-    "declines": 76,
+    "advances": 105,
+    "declines": 70,
     "total": 175
   }
 }
