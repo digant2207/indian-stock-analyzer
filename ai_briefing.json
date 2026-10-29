@@ -2,59 +2,59 @@
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 22650,
-  "nifty_resistance": 23050,
+  "nifty_resistance": 23000,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.30.",
-    "Universe breadth shows 113 advancing vs 62 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,050."
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.20.",
+    "Universe breadth shows 119 advancing vs 55 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,000."
   ],
   "top_setups": [
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 348.55,
+      "current_price": 348.15,
       "trigger": 356.21,
-      "target1": 376.21,
-      "sl": 328.63,
+      "target1": 375.68,
+      "sl": 328.33,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.74
+      "change_pct": 0.62
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 809.15,
+      "current_price": 808.45,
       "trigger": 816.93,
-      "target1": 938.45,
-      "sl": 716.05,
+      "target1": 937.51,
+      "sl": 715.53,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 0.49
+      "change_pct": 0.4
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 186.33,
+      "current_price": 186.17,
       "trigger": 186.37,
-      "target1": 205.91,
-      "sl": 172.23,
+      "target1": 205.68,
+      "sl": 172.12,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
-      "change_pct": 1.83
+      "change_pct": 1.74
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 05:16 AM",
+  "timestamp": "29 Oct 2026, 05:31 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22855.85,
-      "change_pct": 0.69,
+      "price": 22837.05,
+      "change_pct": 0.61,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73860.3,
-      "change_pct": 0.84,
+      "price": 73806.13,
+      "change_pct": 0.76,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.3,
-      "change_pct": -1.44,
+      "price": 101.2,
+      "change_pct": -1.54,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.28,
+      "price": 95.29,
       "change_pct": 0.11,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 113,
-    "declines": 62,
+    "advances": 119,
+    "declines": 55,
     "total": 175
   }
 }
