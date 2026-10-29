@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22700,
   "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.44.",
-    "Universe breadth shows 113 advancing vs 62 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.62.",
+    "Universe breadth shows 111 advancing vs 64 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,700 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1624.1,
+      "current_price": 1623.6,
       "trigger": 1586.17,
-      "target1": 1745.04,
-      "sl": 1537.02,
+      "target1": 1744.15,
+      "sl": 1536.8,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
-      "change_pct": 4.72
+      "change_pct": 4.69
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 348.8,
+      "current_price": 349.0,
       "trigger": 356.21,
-      "target1": 376.55,
-      "sl": 328.82,
+      "target1": 376.81,
+      "sl": 328.97,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.81
+      "change_pct": 0.87
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 809.5,
+      "current_price": 809.4,
       "trigger": 816.93,
-      "target1": 938.93,
-      "sl": 716.31,
+      "target1": 938.79,
+      "sl": 716.24,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 0.53
+      "change_pct": 0.52
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 08:43 AM",
+  "timestamp": "29 Oct 2026, 08:45 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22892.3,
+      "price": 22892.6,
       "change_pct": 0.85,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73926.89,
-      "change_pct": 0.93,
+      "price": 73966.06,
+      "change_pct": 0.98,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.44,
-      "change_pct": -1.3,
+      "price": 101.62,
+      "change_pct": -1.13,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 113,
-    "declines": 62,
+    "advances": 111,
+    "declines": 64,
     "total": 175
   }
 };
