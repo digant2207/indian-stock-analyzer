@@ -4,58 +4,58 @@ window.AI_BRIEFING = {
   "nifty_support": 22500,
   "nifty_resistance": 22900,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.43.",
-    "Universe breadth shows 94 advancing vs 79 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $102.78.",
+    "Universe breadth shows 98 advancing vs 76 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,500 | Resistance cap at 22,900."
   ],
   "top_setups": [
     {
-      "symbol": "INTLCONV",
-      "name": "International Conveyors Ltd",
-      "current_price": 81.9,
-      "trigger": 82.46,
-      "target1": 87.42,
-      "sl": 77.93,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b982.46 with Accumulation structure.",
-      "change_pct": 3.5
-    },
-    {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 348.8,
-      "trigger": 356.21,
-      "target1": 376.55,
-      "sl": 328.82,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.81
-    },
-    {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 806.5,
+      "current_price": 812.2,
       "trigger": 816.93,
-      "target1": 934.89,
-      "sl": 714.06,
+      "target1": 942.61,
+      "sl": 718.3,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 0.16
+      "change_pct": 0.87
+    },
+    {
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 184.63,
+      "trigger": 186.37,
+      "target1": 203.56,
+      "sl": 171.0,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9186.37 with Accumulation structure.",
+      "change_pct": 0.9
+    },
+    {
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 346.3,
+      "trigger": 349.1,
+      "target1": 375.88,
+      "sl": 325.0,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9349.10 with Accumulation structure.",
+      "change_pct": 1.11
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 03:46 AM",
+  "timestamp": "29 Oct 2026, 04:01 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22705.0,
-      "change_pct": 0.03,
+      "price": 22703.45,
+      "change_pct": 0.02,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73246.03,
-      "change_pct": -0.48,
-      "status": "down"
+      "price": 73256.94,
+      "change_pct": 0.01,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.43,
-      "change_pct": 1.53,
+      "price": 102.78,
+      "change_pct": 2.88,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.21,
-      "change_pct": 0.04,
+      "price": 95.26,
+      "change_pct": 0.09,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 94,
-    "declines": 79,
+    "advances": 98,
+    "declines": 76,
     "total": 175
   }
 };
