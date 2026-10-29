@@ -4,30 +4,30 @@ window.AI_BRIEFING = {
   "nifty_support": 22650,
   "nifty_resistance": 23050,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.80.",
-    "Universe breadth shows 102 advancing vs 73 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.28% with Brent Crude hovering around $101.77.",
+    "Universe breadth shows 100 advancing vs 75 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,650 | Resistance cap at 23,050."
   ],
   "top_setups": [
     {
       "symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd",
-      "current_price": 1621.8,
+      "current_price": 1620.0,
       "trigger": 1586.17,
-      "target1": 1740.97,
-      "sl": 1535.99,
+      "target1": 1737.8,
+      "sl": 1535.18,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,586.17 with Accumulation structure.",
-      "change_pct": 4.57
+      "change_pct": 4.46
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 348.05,
+      "current_price": 348.1,
       "trigger": 356.21,
-      "target1": 375.55,
-      "sl": 328.25,
+      "target1": 375.62,
+      "sl": 328.29,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.59
+      "change_pct": 0.61
     },
     {
       "symbol": "INDHOTEL",
@@ -40,21 +40,21 @@ window.AI_BRIEFING = {
       "change_pct": 0.45
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Cera Sanitaryware Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 07:46 AM",
+  "timestamp": "29 Oct 2026, 08:01 AM",
   "date_tag": "2026-10-29",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22849.4,
-      "change_pct": 0.66,
+      "price": 22845.35,
+      "change_pct": 0.65,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 73757.52,
-      "change_pct": 0.7,
+      "price": 73832.8,
+      "change_pct": 0.8,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.8,
-      "change_pct": -0.95,
+      "price": 101.77,
+      "change_pct": -0.98,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.34,
-      "change_pct": 0.17,
+      "price": 95.29,
+      "change_pct": 0.12,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 73,
+    "advances": 100,
+    "declines": 75,
     "total": 175
   }
 };
