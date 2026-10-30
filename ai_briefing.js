@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22750,
+  "nifty_support": 22800,
   "nifty_resistance": 23150,
   "executive_bullets": [
-    "US Markets closed down 0.30% with Brent Crude hovering around $103.03.",
-    "Universe breadth shows 40 advancing vs 135 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,150."
+    "US Markets closed down 0.30% with Brent Crude hovering around $102.94.",
+    "Universe breadth shows 38 advancing vs 137 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
   ],
   "top_setups": [
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2044.3,
+      "current_price": 2042.5,
       "trigger": 2012.82,
-      "target1": 2216.61,
-      "sl": 1920.24,
+      "target1": 2213.78,
+      "sl": 1919.18,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,012.82 with Accumulation structure.",
-      "change_pct": 4.19
+      "change_pct": 4.1
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 816.75,
+      "current_price": 816.6,
       "trigger": 816.93,
-      "target1": 948.92,
-      "sl": 721.59,
+      "target1": 948.71,
+      "sl": 721.48,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 1.43
+      "change_pct": 1.42
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 186.21,
+      "current_price": 186.65,
       "trigger": 187.88,
-      "target1": 206.51,
-      "sl": 171.6,
+      "target1": 207.1,
+      "sl": 171.92,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9187.88 with Accumulation structure.",
-      "change_pct": -0.16
+      "change_pct": 0.08
     }
   ],
   "risk_warning": "Defensive alert on Onmobile Global Ltd, Suzlon Energy Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Oct 2026, 05:15 AM",
+  "timestamp": "30 Oct 2026, 05:31 AM",
   "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22952.75,
-      "change_pct": 0.07,
+      "price": 22964.9,
+      "change_pct": 0.12,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74150.23,
-      "change_pct": -0.0,
+      "price": 74221.35,
+      "change_pct": 0.09,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.03,
-      "change_pct": 1.01,
+      "price": 102.94,
+      "change_pct": 0.92,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.25,
-      "change_pct": 0.05,
+      "price": 95.26,
+      "change_pct": 0.06,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 40,
-    "declines": 135,
+    "advances": 38,
+    "declines": 137,
     "total": 175
   }
 };
