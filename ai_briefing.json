@@ -4,8 +4,8 @@
   "nifty_support": 22750,
   "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed up 0.28% with Brent Crude hovering around $101.28.",
-    "Universe breadth shows 120 advancing vs 52 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.30% with Brent Crude hovering around $103.36.",
+    "Universe breadth shows 114 advancing vs 61 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@
       "change_pct": 2.98
     }
   ],
-  "risk_warning": "Defensive alert on Bajaj Holdings And Investment Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Holdings And Investment Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "29 Oct 2026, 11:16 AM",
-  "date_tag": "2026-10-29",
+  "timestamp": "30 Oct 2026, 03:31 AM",
+  "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7743.98,
-      "change_pct": 0.28,
-      "status": "up"
+      "price": 7720.39,
+      "change_pct": -0.3,
+      "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 26549.85,
-      "change_pct": 0.27,
-      "status": "up"
+      "price": 26184.72,
+      "change_pct": -1.38,
+      "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 101.28,
-      "change_pct": -1.46,
-      "status": "down"
+      "price": 103.36,
+      "change_pct": 0.56,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.25,
-      "change_pct": 0.08,
+      "price": 95.21,
+      "change_pct": 0.0,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 120,
-    "declines": 52,
+    "advances": 114,
+    "declines": 61,
     "total": 175
   }
 }
