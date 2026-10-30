@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22800,
+  "nifty_support": 22850,
   "nifty_resistance": 23200,
   "executive_bullets": [
-    "US Markets closed down 0.30% with Brent Crude hovering around $103.71.",
-    "Universe breadth shows 44 advancing vs 131 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,200."
+    "US Markets closed down 0.30% with Brent Crude hovering around $103.85.",
+    "Universe breadth shows 35 advancing vs 139 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,200."
   ],
   "top_setups": [
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2045.0,
+      "current_price": 2052.3,
       "trigger": 2012.82,
-      "target1": 2217.71,
-      "sl": 1920.65,
+      "target1": 2229.34,
+      "sl": 1924.83,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,012.82 with Accumulation structure.",
-      "change_pct": 4.23
+      "change_pct": 4.6
     },
     {
       "symbol": "ATHERENERG",
       "name": "Ather Energy Ltd",
-      "current_price": 1758.4,
+      "current_price": 1757.0,
       "trigger": 1705.4,
-      "target1": 2165.62,
-      "sl": 1465.2,
+      "target1": 2163.44,
+      "sl": 1464.36,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,705.40 with Accumulation structure.",
-      "change_pct": 5.74
+      "change_pct": 5.65
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 817.2,
-      "trigger": 816.93,
-      "target1": 949.55,
-      "sl": 721.91,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 1.49
+      "current_price": 821.8,
+      "trigger": 817.98,
+      "target1": 952.47,
+      "sl": 727.72,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9817.98 with Accumulation structure.",
+      "change_pct": 1.46
     }
   ],
   "risk_warning": "Defensive alert on Suzlon Energy Ltd, Gujarat Mineral Development Corpn Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Oct 2026, 08:31 AM",
+  "timestamp": "30 Oct 2026, 08:46 AM",
   "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23004.35,
-      "change_pct": 0.29,
+      "price": 23030.35,
+      "change_pct": 0.41,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74436.22,
-      "change_pct": 0.38,
+      "price": 74377.98,
+      "change_pct": 0.31,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.71,
-      "change_pct": 1.68,
+      "price": 103.85,
+      "change_pct": 1.81,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.05,
-      "change_pct": -0.16,
+      "price": 94.99,
+      "change_pct": -0.23,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 44,
-    "declines": 131,
+    "advances": 35,
+    "declines": 139,
     "total": 175
   }
 };
