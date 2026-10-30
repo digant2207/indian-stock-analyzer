@@ -4,57 +4,57 @@
   "nifty_support": 22850,
   "nifty_resistance": 23200,
   "executive_bullets": [
-    "US Markets closed down 0.30% with Brent Crude hovering around $103.55.",
-    "Universe breadth shows 35 advancing vs 140 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.30% with Brent Crude hovering around $103.59.",
+    "Universe breadth shows 38 advancing vs 137 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,200."
   ],
   "top_setups": [
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2052.6,
+      "current_price": 2056.0,
       "trigger": 2012.82,
-      "target1": 2229.82,
-      "sl": 1925.0,
+      "target1": 2235.3,
+      "sl": 1926.91,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,012.82 with Accumulation structure.",
-      "change_pct": 4.62
+      "change_pct": 4.79
+    },
+    {
+      "symbol": "PERSISTENT",
+      "name": "Persistent Systems Ltd",
+      "current_price": 6019.0,
+      "trigger": 6090.16,
+      "target1": 6361.64,
+      "sl": 5772.3,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b96,090.16 with Accumulation structure.",
+      "change_pct": 2.36
     },
     {
       "symbol": "ATHERENERG",
       "name": "Ather Energy Ltd",
-      "current_price": 1769.0,
+      "current_price": 1760.0,
       "trigger": 1705.4,
-      "target1": 2182.23,
-      "sl": 1471.47,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,705.40 with Accumulation structure.",
-      "change_pct": 6.37
-    },
-    {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 819.25,
-      "trigger": 817.98,
-      "target1": 948.95,
-      "sl": 725.87,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9817.98 with Accumulation structure.",
-      "change_pct": 1.14
+      "target1": 2168.12,
+      "sl": 1466.15,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,705.40 with Accumulation structure.",
+      "change_pct": 5.83
     }
   ],
   "risk_warning": "Defensive alert on Suzlon Energy Ltd, Redington Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Oct 2026, 09:31 AM",
+  "timestamp": "30 Oct 2026, 09:46 AM",
   "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23032.5,
-      "change_pct": 0.42,
+      "price": 23010.0,
+      "change_pct": 0.32,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74537.43,
-      "change_pct": 0.52,
+      "price": 74476.92,
+      "change_pct": 0.44,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.55,
-      "change_pct": 1.52,
+      "price": 103.59,
+      "change_pct": 1.56,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.07,
-      "change_pct": -0.15,
+      "price": 95.03,
+      "change_pct": -0.19,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 35,
-    "declines": 140,
+    "advances": 38,
+    "declines": 137,
     "total": 175
   }
 }
