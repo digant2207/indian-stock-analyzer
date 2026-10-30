@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22800,
-  "nifty_resistance": 23150,
+  "nifty_support": 22750,
+  "nifty_resistance": 23100,
   "executive_bullets": [
-    "US Markets closed down 0.30% with Brent Crude hovering around $103.15.",
-    "Universe breadth shows 38 advancing vs 137 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
+    "US Markets closed down 0.30% with Brent Crude hovering around $103.14.",
+    "Universe breadth shows 30 advancing vs 145 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2033.3,
+      "current_price": 2035.9,
       "trigger": 2012.82,
-      "target1": 2199.48,
-      "sl": 1913.65,
+      "target1": 2203.49,
+      "sl": 1915.24,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,012.82 with Accumulation structure.",
-      "change_pct": 3.63
+      "change_pct": 3.77
     },
     {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 172.19,
-      "trigger": 174.75,
-      "target1": 191.43,
-      "sl": 158.34,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9174.75 with Accumulation structure.",
-      "change_pct": 4.29
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 184.89,
+      "trigger": 187.88,
+      "target1": 204.76,
+      "sl": 170.58,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9187.88 with Accumulation structure.",
+      "change_pct": -0.86
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 813.2,
-      "trigger": 816.93,
-      "target1": 943.99,
-      "sl": 719.03,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 0.99
+      "symbol": "MPHASIS",
+      "name": "Mphasis Ltd",
+      "current_price": 2577.8,
+      "trigger": 2623.64,
+      "target1": 2826.98,
+      "sl": 2398.39,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,623.64 with Accumulation structure.",
+      "change_pct": 0.64
     }
   ],
   "risk_warning": "Defensive alert on Suzlon Energy Ltd, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Oct 2026, 04:31 AM",
+  "timestamp": "30 Oct 2026, 04:45 AM",
   "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22964.9,
-      "change_pct": 0.12,
-      "status": "up"
+      "price": 22927.85,
+      "change_pct": -0.04,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74278.0,
-      "change_pct": 0.17,
+      "price": 74257.96,
+      "change_pct": 0.14,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.15,
-      "change_pct": 1.13,
+      "price": 103.14,
+      "change_pct": 1.12,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 38,
-    "declines": 137,
+    "advances": 30,
+    "declines": 145,
     "total": 175
   }
 };
