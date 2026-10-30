@@ -5,56 +5,56 @@ window.AI_BRIEFING = {
   "nifty_resistance": 23100,
   "executive_bullets": [
     "US Markets closed down 0.30% with Brent Crude hovering around $103.14.",
-    "Universe breadth shows 30 advancing vs 145 declining stocks across 175 scanned equities.",
+    "Universe breadth shows 31 advancing vs 143 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,100."
   ],
   "top_setups": [
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2035.9,
+      "current_price": 2048.3,
       "trigger": 2012.82,
-      "target1": 2203.49,
-      "sl": 1915.24,
+      "target1": 2222.95,
+      "sl": 1922.55,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,012.82 with Accumulation structure.",
-      "change_pct": 3.77
+      "change_pct": 4.4
+    },
+    {
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 812.85,
+      "trigger": 816.93,
+      "target1": 943.51,
+      "sl": 718.78,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
+      "change_pct": 0.95
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 184.89,
+      "current_price": 185.67,
       "trigger": 187.88,
-      "target1": 204.76,
-      "sl": 170.58,
+      "target1": 205.78,
+      "sl": 171.19,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9187.88 with Accumulation structure.",
-      "change_pct": -0.86
-    },
-    {
-      "symbol": "MPHASIS",
-      "name": "Mphasis Ltd",
-      "current_price": 2577.8,
-      "trigger": 2623.64,
-      "target1": 2826.98,
-      "sl": 2398.39,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b92,623.64 with Accumulation structure.",
-      "change_pct": 0.64
+      "change_pct": -0.45
     }
   ],
-  "risk_warning": "Defensive alert on Suzlon Energy Ltd, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Onmobile Global Ltd, Suzlon Energy Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Oct 2026, 04:45 AM",
+  "timestamp": "30 Oct 2026, 05:01 AM",
   "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22927.85,
-      "change_pct": -0.04,
+      "price": 22931.2,
+      "change_pct": -0.02,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74257.96,
-      "change_pct": 0.14,
+      "price": 74154.2,
+      "change_pct": 0.0,
       "status": "up"
     },
     "S&P 500": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 30,
-    "declines": 145,
+    "advances": 31,
+    "declines": 143,
     "total": 175
   }
 };
