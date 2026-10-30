@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 22900,
   "nifty_resistance": 23250,
   "executive_bullets": [
-    "US Markets closed down 0.30% with Brent Crude hovering around $102.70.",
-    "Universe breadth shows 53 advancing vs 121 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.30% with Brent Crude hovering around $102.93.",
+    "Universe breadth shows 55 advancing vs 120 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,900 | Resistance cap at 23,250."
   ],
   "top_setups": [
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2053.8,
+      "current_price": 2043.8,
       "trigger": 2012.82,
-      "target1": 2231.75,
-      "sl": 1925.68,
+      "target1": 2215.82,
+      "sl": 1919.94,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,012.82 with Accumulation structure.",
-      "change_pct": 4.68
+      "change_pct": 4.17
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 820.75,
+      "current_price": 821.2,
       "trigger": 816.93,
-      "target1": 954.57,
-      "sl": 724.4,
+      "target1": 955.21,
+      "sl": 724.71,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
-      "change_pct": 1.93
+      "change_pct": 1.99
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 187.07,
+      "current_price": 187.1,
       "trigger": 187.88,
-      "target1": 207.68,
-      "sl": 172.23,
+      "target1": 207.72,
+      "sl": 172.25,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9187.88 with Accumulation structure.",
-      "change_pct": 0.31
+      "change_pct": 0.32
     }
   ],
   "risk_warning": "Defensive alert on Suzlon Energy Ltd, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Oct 2026, 06:45 AM",
+  "timestamp": "30 Oct 2026, 07:01 AM",
   "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23082.35,
-      "change_pct": 0.63,
+      "price": 23086.55,
+      "change_pct": 0.65,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74685.63,
-      "change_pct": 0.72,
+      "price": 74641.49,
+      "change_pct": 0.66,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 102.7,
-      "change_pct": 0.69,
+      "price": 102.93,
+      "change_pct": 0.91,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.2,
-      "change_pct": -0.01,
+      "price": 95.18,
+      "change_pct": -0.03,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 53,
-    "declines": 121,
+    "advances": 55,
+    "declines": 120,
     "total": 175
   }
 };
