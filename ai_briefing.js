@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 22750,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 22800,
   "nifty_resistance": 23150,
   "executive_bullets": [
-    "US Markets closed down 0.30% with Brent Crude hovering around $103.41.",
-    "Universe breadth shows 67 advancing vs 105 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 22,750 | Resistance cap at 23,150."
+    "US Markets closed down 0.30% with Brent Crude hovering around $102.00.",
+    "Universe breadth shows 50 advancing vs 125 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 22,800 | Resistance cap at 23,150."
   ],
   "top_setups": [
     {
-      "symbol": "INTLCONV",
-      "name": "International Conveyors Ltd",
-      "current_price": 81.41,
-      "trigger": 82.46,
-      "target1": 86.72,
-      "sl": 77.58,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b982.46 with Accumulation structure.",
-      "change_pct": 2.88
-    },
-    {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 1996.9,
+      "current_price": 2039.7,
       "trigger": 2012.82,
-      "target1": 2146.41,
-      "sl": 1889.25,
+      "target1": 2209.39,
+      "sl": 1917.52,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,012.82 with Accumulation structure.",
-      "change_pct": 1.78
+      "change_pct": 3.96
     },
     {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 348.65,
-      "trigger": 356.21,
-      "target1": 375.53,
-      "sl": 329.3,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 0.26
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 821.3,
+      "trigger": 816.93,
+      "target1": 955.35,
+      "sl": 724.78,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9816.93 with Accumulation structure.",
+      "change_pct": 2.0
+    },
+    {
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 186.9,
+      "trigger": 187.88,
+      "target1": 207.45,
+      "sl": 172.11,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9187.88 with Accumulation structure.",
+      "change_pct": 0.21
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Oct 2026, 03:45 AM",
+  "timestamp": "30 Oct 2026, 04:01 AM",
   "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 22956.8,
-      "change_pct": 0.09,
+      "price": 22974.75,
+      "change_pct": 0.17,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 74151.04,
-      "change_pct": 1.24,
+      "price": 74237.51,
+      "change_pct": 0.12,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 103.41,
-      "change_pct": 0.61,
-      "status": "up"
+      "price": 102.0,
+      "change_pct": -0.76,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 95.22,
-      "change_pct": 0.01,
+      "price": 95.23,
+      "change_pct": 0.02,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 67,
-    "declines": 105,
+    "advances": 50,
+    "declines": 125,
     "total": 175
   }
 };
