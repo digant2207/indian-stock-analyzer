@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Redington Ltd, Suzlon Energy Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "30 Oct 2026, 11:01 AM",
+  "timestamp": "30 Oct 2026, 11:16 AM",
   "date_tag": "2026-10-30",
   "global_cues": {
     "Nifty 50": {
