@@ -5,7 +5,7 @@ window.AI_BRIEFING = {
   "nifty_resistance": 23250,
   "executive_bullets": [
     "US Markets closed down 1.82% with Brent Crude hovering around $104.12.",
-    "Universe breadth shows 69 advancing vs 103 declining stocks across 175 scanned equities.",
+    "Universe breadth shows 40 advancing vs 133 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 22,850 | Resistance cap at 23,250."
   ],
   "top_setups": [
@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Redington Ltd, Suzlon Energy Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "31 Oct 2026, 08:38 AM",
-  "date_tag": "2026-10-31",
+  "timestamp": "01 Nov 2026, 09:29 AM",
+  "date_tag": "2026-11-01",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 69,
-    "declines": 103,
+    "advances": 40,
+    "declines": 133,
     "total": 175
   }
 };
