@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23150,
-  "nifty_resistance": 23500,
+  "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed down 1.82% with Brent Crude hovering around $100.70.",
-    "Universe breadth shows 148 advancing vs 26 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "US Markets closed down 1.82% with Brent Crude hovering around $100.67.",
+    "Universe breadth shows 150 advancing vs 24 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2383.8,
+      "current_price": 2385.7,
       "trigger": 2364.72,
-      "target1": 2599.4,
-      "sl": 2228.57,
+      "target1": 2602.45,
+      "sl": 2229.64,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,364.72 with Accumulation structure.",
-      "change_pct": 3.7
+      "change_pct": 3.78
     },
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1256.4,
+      "current_price": 1256.7,
       "trigger": 1236.77,
-      "target1": 1351.69,
-      "sl": 1187.79,
+      "target1": 1352.19,
+      "sl": 1187.95,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,236.77 with Accumulation structure.",
-      "change_pct": 7.85
+      "change_pct": 7.88
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 134.68,
+      "current_price": 134.92,
       "trigger": 134.62,
-      "target1": 141.7,
-      "sl": 129.62,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9134.62 with Accumulation structure.",
-      "change_pct": 3.48
+      "target1": 142.1,
+      "sl": 129.75,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9134.62 with Accumulation structure.",
+      "change_pct": 3.67
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, Zee Entertainment Enterprises due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PB Fintech Ltd, Sigachi Industries Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Nov 2026, 06:31 AM",
+  "timestamp": "02 Nov 2026, 06:46 AM",
   "date_tag": "2026-11-02",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23315.5,
-      "change_pct": 1.14,
+      "price": 23341.55,
+      "change_pct": 1.25,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 75316.14,
-      "change_pct": 1.15,
+      "price": 75354.67,
+      "change_pct": 1.2,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.7,
-      "change_pct": -3.28,
+      "price": 100.67,
+      "change_pct": -3.31,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 148,
-    "declines": 26,
+    "advances": 150,
+    "declines": 24,
     "total": 175
   }
 };
