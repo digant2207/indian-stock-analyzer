@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23150,
-  "nifty_resistance": 23500,
+  "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed down 1.82% with Brent Crude hovering around $100.52.",
-    "Universe breadth shows 149 advancing vs 24 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "US Markets closed down 1.82% with Brent Crude hovering around $100.27.",
+    "Universe breadth shows 146 advancing vs 28 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
   "top_setups": [
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1254.9,
+      "current_price": 1256.9,
       "trigger": 1236.77,
-      "target1": 1349.19,
-      "sl": 1187.01,
+      "target1": 1352.53,
+      "sl": 1188.05,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,236.77 with Accumulation structure.",
-      "change_pct": 7.73
+      "change_pct": 7.9
+    },
+    {
+      "symbol": "GLENMARK",
+      "name": "Glenmark Pharmaceuticals",
+      "current_price": 2385.8,
+      "trigger": 2364.72,
+      "target1": 2602.61,
+      "sl": 2229.7,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,364.72 with Accumulation structure.",
+      "change_pct": 3.79
     },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 300.15,
+      "current_price": 300.3,
       "trigger": 294.99,
-      "target1": 375.52,
-      "sl": 245.89,
+      "target1": 375.75,
+      "sl": 245.98,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9294.99 with Accumulation structure.",
-      "change_pct": 4.8
-    },
-    {
-      "symbol": "DELHIVERY",
-      "name": "Delhivery",
-      "current_price": 419.5,
-      "trigger": 425.35,
-      "target1": 475.42,
-      "sl": 379.24,
-      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9425.35 with Accumulation structure.",
-      "change_pct": 8.68
+      "change_pct": 4.85
     }
   ],
   "risk_warning": "Defensive alert on Zenith Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Nov 2026, 05:31 AM",
+  "timestamp": "02 Nov 2026, 05:46 AM",
   "date_tag": "2026-11-02",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23330.7,
-      "change_pct": 1.2,
+      "price": 23339.15,
+      "change_pct": 1.24,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 75538.09,
-      "change_pct": 1.45,
+      "price": 75446.78,
+      "change_pct": 1.33,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.52,
-      "change_pct": -3.46,
+      "price": 100.27,
+      "change_pct": -3.7,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.84,
-      "change_pct": -0.33,
+      "price": 94.81,
+      "change_pct": -0.36,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 149,
-    "declines": 24,
+    "advances": 146,
+    "declines": 28,
     "total": 175
   }
 };
