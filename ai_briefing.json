@@ -4,57 +4,57 @@
   "nifty_support": 23050,
   "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 1.82% with Brent Crude hovering around $100.77.",
-    "Universe breadth shows 141 advancing vs 33 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.82% with Brent Crude hovering around $100.70.",
+    "Universe breadth shows 143 advancing vs 31 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2382.0,
+      "current_price": 2375.4,
       "trigger": 2364.72,
-      "target1": 2596.53,
-      "sl": 2227.54,
+      "target1": 2586.06,
+      "sl": 2223.72,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,364.72 with Accumulation structure.",
-      "change_pct": 3.62
+      "change_pct": 3.34
     },
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1250.5,
+      "current_price": 1254.2,
       "trigger": 1236.77,
-      "target1": 1341.92,
-      "sl": 1184.68,
+      "target1": 1348.02,
+      "sl": 1186.65,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,236.77 with Accumulation structure.",
-      "change_pct": 7.35
+      "change_pct": 7.67
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 133.55,
+      "current_price": 133.88,
       "trigger": 134.62,
-      "target1": 139.88,
-      "sl": 128.99,
+      "target1": 140.4,
+      "sl": 129.19,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9134.62 with Accumulation structure.",
-      "change_pct": 2.61
+      "change_pct": 2.87
     }
   ],
   "risk_warning": "Defensive alert on Sigachi Industries Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Nov 2026, 07:45 AM",
+  "timestamp": "02 Nov 2026, 08:01 AM",
   "date_tag": "2026-11-02",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23214.85,
-      "change_pct": 0.7,
+      "price": 23238.5,
+      "change_pct": 0.8,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 75230.28,
-      "change_pct": 1.04,
+      "price": 75034.92,
+      "change_pct": 0.77,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.77,
-      "change_pct": -3.22,
+      "price": 100.7,
+      "change_pct": -3.28,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.94,
-      "change_pct": -0.22,
+      "price": 95.01,
+      "change_pct": -0.14,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 141,
-    "declines": 33,
+    "advances": 143,
+    "declines": 31,
     "total": 175
   }
 }
