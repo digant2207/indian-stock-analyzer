@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23150,
-  "nifty_resistance": 23500,
+  "nifty_support": 23250,
+  "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed down 1.82% with Brent Crude hovering around $99.87.",
+    "US Markets closed down 1.82% with Brent Crude hovering around $99.56.",
     "Universe breadth shows 143 advancing vs 30 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,500."
+    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2388.5,
+      "current_price": 2382.0,
       "trigger": 2364.72,
-      "target1": 2606.95,
-      "sl": 2231.22,
+      "target1": 2596.53,
+      "sl": 2227.54,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,364.72 with Accumulation structure.",
-      "change_pct": 3.91
+      "change_pct": 3.62
     },
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1274.5,
+      "current_price": 1300.0,
       "trigger": 1236.77,
-      "target1": 1382.68,
-      "sl": 1196.61,
+      "target1": 1428.19,
+      "sl": 1207.7,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,236.77 with Accumulation structure.",
-      "change_pct": 9.41
+      "change_pct": 11.6
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 134.75,
+      "current_price": 134.59,
       "trigger": 134.62,
-      "target1": 141.82,
-      "sl": 129.66,
+      "target1": 141.55,
+      "sl": 129.58,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9134.62 with Accumulation structure.",
-      "change_pct": 3.53
+      "change_pct": 3.41
     }
   ],
-  "risk_warning": "Defensive alert on PB Fintech Ltd, Zee Entertainment Enterprises due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Zee Entertainment Enterprises, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Nov 2026, 09:45 AM",
+  "timestamp": "02 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-02",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23331.1,
-      "change_pct": 1.21,
+      "price": 23440.8,
+      "change_pct": 1.68,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 75326.15,
-      "change_pct": 1.16,
+      "price": 75330.15,
+      "change_pct": 1.17,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.87,
-      "change_pct": -4.08,
+      "price": 99.56,
+      "change_pct": -4.38,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.94,
-      "change_pct": -0.22,
+      "price": 94.9,
+      "change_pct": -0.27,
       "status": "down"
     }
   },
