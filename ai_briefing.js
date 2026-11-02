@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23100,
-  "nifty_resistance": 23450,
+  "nifty_support": 23050,
+  "nifty_resistance": 23400,
   "executive_bullets": [
-    "US Markets closed down 1.82% with Brent Crude hovering around $100.55.",
-    "Universe breadth shows 147 advancing vs 27 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,100 | Resistance cap at 23,450."
+    "US Markets closed down 1.82% with Brent Crude hovering around $100.77.",
+    "Universe breadth shows 141 advancing vs 33 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,400."
   ],
   "top_setups": [
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2369.2,
+      "current_price": 2382.0,
       "trigger": 2364.72,
-      "target1": 2576.34,
-      "sl": 2220.06,
+      "target1": 2596.53,
+      "sl": 2227.54,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,364.72 with Accumulation structure.",
-      "change_pct": 3.07
+      "change_pct": 3.62
     },
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1250.8,
+      "current_price": 1250.5,
       "trigger": 1236.77,
-      "target1": 1342.41,
-      "sl": 1184.84,
+      "target1": 1341.92,
+      "sl": 1184.68,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,236.77 with Accumulation structure.",
-      "change_pct": 7.37
+      "change_pct": 7.35
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 134.02,
+      "current_price": 133.55,
       "trigger": 134.62,
-      "target1": 140.62,
-      "sl": 129.27,
+      "target1": 139.88,
+      "sl": 128.99,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9134.62 with Accumulation structure.",
-      "change_pct": 2.97
+      "change_pct": 2.61
     }
   ],
   "risk_warning": "Defensive alert on Sigachi Industries Ltd, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Nov 2026, 07:31 AM",
+  "timestamp": "02 Nov 2026, 07:45 AM",
   "date_tag": "2026-11-02",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23279.6,
-      "change_pct": 0.98,
+      "price": 23214.85,
+      "change_pct": 0.7,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 75250.04,
-      "change_pct": 1.06,
+      "price": 75230.28,
+      "change_pct": 1.04,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.55,
-      "change_pct": -3.43,
+      "price": 100.77,
+      "change_pct": -3.22,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.84,
-      "change_pct": -0.33,
+      "price": 94.94,
+      "change_pct": -0.22,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 147,
-    "declines": 27,
+    "advances": 141,
+    "declines": 33,
     "total": 175
   }
 };
