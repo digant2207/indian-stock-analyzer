@@ -1,10 +1,10 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23150,
   "nifty_resistance": 23550,
   "executive_bullets": [
-    "US Markets closed down 1.82% with Brent Crude hovering around $104.12.",
+    "US Markets closed down 1.82% with Brent Crude hovering around $100.59.",
     "Universe breadth shows 151 advancing vs 23 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,150 | Resistance cap at 23,550."
   ],
@@ -12,49 +12,49 @@ window.AI_BRIEFING = {
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1251.4,
+      "current_price": 1252.0,
       "trigger": 1236.77,
-      "target1": 1343.4,
-      "sl": 1185.16,
+      "target1": 1344.38,
+      "sl": 1185.48,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,236.77 with Accumulation structure.",
-      "change_pct": 7.43
+      "change_pct": 7.48
     },
     {
       "symbol": "BOROLTD",
       "name": "Borosil Ltd",
-      "current_price": 299.8,
+      "current_price": 300.1,
       "trigger": 294.99,
-      "target1": 374.98,
-      "sl": 245.67,
+      "target1": 375.44,
+      "sl": 245.85,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9294.99 with Accumulation structure.",
-      "change_pct": 4.68
+      "change_pct": 4.78
     },
     {
       "symbol": "DELHIVERY",
       "name": "Delhivery",
-      "current_price": 418.8,
+      "current_price": 420.05,
       "trigger": 425.35,
-      "target1": 474.42,
-      "sl": 378.75,
+      "target1": 476.21,
+      "sl": 379.62,
       "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b9425.35 with Accumulation structure.",
-      "change_pct": 8.5
+      "change_pct": 8.82
     }
   ],
   "risk_warning": "Defensive alert on Zenith Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Nov 2026, 05:01 AM",
+  "timestamp": "02 Nov 2026, 05:16 AM",
   "date_tag": "2026-11-02",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23339.55,
-      "change_pct": 1.24,
+      "price": 23350.25,
+      "change_pct": 1.29,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 75422.6,
-      "change_pct": 1.29,
+      "price": 75485.64,
+      "change_pct": 1.38,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 104.12,
-      "change_pct": 2.08,
-      "status": "up"
+      "price": 100.59,
+      "change_pct": -3.39,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.86,
-      "change_pct": -0.31,
+      "price": 94.87,
+      "change_pct": -0.3,
       "status": "down"
     }
   },
