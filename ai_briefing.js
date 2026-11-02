@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 23050,
   "nifty_resistance": 23450,
   "executive_bullets": [
-    "US Markets closed down 1.82% with Brent Crude hovering around $100.45.",
-    "Universe breadth shows 144 advancing vs 30 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.82% with Brent Crude hovering around $100.39.",
+    "Universe breadth shows 146 advancing vs 28 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,050 | Resistance cap at 23,450."
   ],
   "top_setups": [
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2378.5,
+      "current_price": 2379.3,
       "trigger": 2364.72,
-      "target1": 2590.96,
-      "sl": 2225.53,
+      "target1": 2592.23,
+      "sl": 2225.99,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,364.72 with Accumulation structure.",
-      "change_pct": 3.47
+      "change_pct": 3.51
     },
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1253.3,
+      "current_price": 1255.3,
       "trigger": 1236.77,
-      "target1": 1346.53,
-      "sl": 1186.17,
+      "target1": 1349.85,
+      "sl": 1187.22,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,236.77 with Accumulation structure.",
-      "change_pct": 7.59
+      "change_pct": 7.76
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 133.9,
+      "current_price": 134.13,
       "trigger": 134.62,
-      "target1": 140.43,
-      "sl": 129.2,
+      "target1": 140.8,
+      "sl": 129.33,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9134.62 with Accumulation structure.",
-      "change_pct": 2.88
+      "change_pct": 3.06
     }
   ],
   "risk_warning": "Defensive alert on Sigachi Industries Ltd, Zee Entertainment Enterprises due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Nov 2026, 08:16 AM",
+  "timestamp": "02 Nov 2026, 08:31 AM",
   "date_tag": "2026-11-02",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23242.6,
-      "change_pct": 0.82,
+      "price": 23248.9,
+      "change_pct": 0.85,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 75083.59,
-      "change_pct": 0.84,
+      "price": 75092.2,
+      "change_pct": 0.85,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 100.45,
-      "change_pct": -3.52,
+      "price": 100.39,
+      "change_pct": -3.58,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.99,
-      "change_pct": -0.18,
+      "price": 94.96,
+      "change_pct": -0.2,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 144,
-    "declines": 30,
+    "advances": 146,
+    "declines": 28,
     "total": 175
   }
 };
