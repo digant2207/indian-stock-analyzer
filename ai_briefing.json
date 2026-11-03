@@ -4,57 +4,57 @@
   "nifty_support": 23450,
   "nifty_resistance": 23850,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $96.97.",
+    "US Markets closed down 0.51% with Brent Crude hovering around $96.46.",
     "Universe breadth shows 143 advancing vs 30 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,450 | Resistance cap at 23,850."
   ],
   "top_setups": [
     {
+      "symbol": "CDSL",
+      "name": "Central Depository Services",
+      "current_price": 1316.5,
+      "trigger": 1309.11,
+      "target1": 1453.98,
+      "sl": 1217.52,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
+      "change_pct": 5.15
+    },
+    {
       "symbol": "GRSE",
       "name": "Garden Reach Shipbuilders & Enginers Ltd",
-      "current_price": 2233.0,
+      "current_price": 2189.8,
       "trigger": 2177.05,
-      "target1": 2647.02,
-      "sl": 1934.9,
+      "target1": 2581.93,
+      "sl": 1907.46,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b92,177.05 with Accumulation structure.",
-      "change_pct": 9.1
+      "change_pct": 6.99
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 831.8,
+      "current_price": 832.7,
       "trigger": 826.05,
-      "target1": 955.82,
-      "sl": 742.5,
+      "target1": 957.11,
+      "sl": 743.12,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9826.05 with Accumulation structure.",
-      "change_pct": 2.48
-    },
-    {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 171.37,
-      "trigger": 174.75,
-      "target1": 190.65,
-      "sl": 157.49,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9174.75 with Accumulation structure.",
-      "change_pct": 0.52
+      "change_pct": 2.59
     }
   ],
   "risk_warning": "Defensive alert on Zenith Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 04:46 AM",
+  "timestamp": "03 Nov 2026, 05:01 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23637.7,
-      "change_pct": 0.84,
+      "price": 23656.5,
+      "change_pct": 0.92,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76411.71,
-      "change_pct": 0.95,
+      "price": 76449.26,
+      "change_pct": 1.0,
       "status": "up"
     },
     "S&P 500": {
@@ -65,20 +65,20 @@
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25164.36,
+      "price": 25164.31,
       "change_pct": -1.07,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.97,
-      "change_pct": -6.87,
+      "price": 96.46,
+      "change_pct": -7.36,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.82,
-      "change_pct": -0.09,
+      "price": 94.83,
+      "change_pct": -0.08,
       "status": "down"
     }
   },
