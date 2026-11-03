@@ -4,57 +4,57 @@
   "nifty_support": 23500,
   "nifty_resistance": 23900,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $98.15.",
-    "Universe breadth shows 104 advancing vs 68 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.51% with Brent Crude hovering around $97.96.",
+    "Universe breadth shows 99 advancing vs 75 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,500 | Resistance cap at 23,900."
   ],
   "top_setups": [
     {
+      "symbol": "BSE",
+      "name": "BSE Ltd",
+      "current_price": 3652.2,
+      "trigger": 3544.57,
+      "target1": 4082.9,
+      "sl": 3342.09,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,544.57 with Accumulation structure.",
+      "change_pct": 4.65
+    },
+    {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3496.7,
+      "current_price": 3491.5,
       "trigger": 3421.83,
-      "target1": 3892.32,
-      "sl": 3211.86,
+      "target1": 3883.1,
+      "sl": 3209.55,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,421.83 with Accumulation structure.",
-      "change_pct": 7.62
+      "change_pct": 7.46
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1320.5,
+      "current_price": 1318.7,
       "trigger": 1309.11,
-      "target1": 1459.86,
-      "sl": 1220.16,
+      "target1": 1457.2,
+      "sl": 1218.98,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
-      "change_pct": 5.47
-    },
-    {
-      "symbol": "RELIANCE",
-      "name": "Reliance Industries Ltd",
-      "current_price": 1291.8,
-      "trigger": 1306.5,
-      "target1": 1445.8,
-      "sl": 1180.92,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,306.50 with Accumulation structure.",
-      "change_pct": -0.63
+      "change_pct": 5.33
     }
   ],
   "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 09:16 AM",
+  "timestamp": "03 Nov 2026, 09:31 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23700.5,
-      "change_pct": 1.11,
+      "price": 23699.5,
+      "change_pct": 1.1,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76575.8,
-      "change_pct": 1.17,
+      "price": 76619.27,
+      "change_pct": 1.22,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.15,
-      "change_pct": 1.75,
+      "price": 97.96,
+      "change_pct": 1.56,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.77,
-      "change_pct": -0.14,
+      "price": 94.75,
+      "change_pct": -0.17,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 104,
-    "declines": 68,
+    "advances": 99,
+    "declines": 75,
     "total": 175
   }
 }
