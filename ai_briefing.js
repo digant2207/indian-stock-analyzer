@@ -4,21 +4,11 @@ window.AI_BRIEFING = {
   "nifty_support": 23600,
   "nifty_resistance": 24000,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $98.42.",
+    "US Markets closed down 0.51% with Brent Crude hovering around $98.49.",
     "Universe breadth shows 106 advancing vs 67 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,600 | Resistance cap at 24,000."
   ],
   "top_setups": [
-    {
-      "symbol": "GLENMARK",
-      "name": "Glenmark Pharmaceuticals",
-      "current_price": 2408.0,
-      "trigger": 2404.9,
-      "target1": 2668.74,
-      "sl": 2220.27,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,404.90 with Accumulation structure.",
-      "change_pct": 1.09
-    },
     {
       "symbol": "BSE",
       "name": "BSE Ltd",
@@ -28,6 +18,16 @@ window.AI_BRIEFING = {
       "sl": 3349.87,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,544.57 with Accumulation structure.",
       "change_pct": 5.03
+    },
+    {
+      "symbol": "GLENMARK",
+      "name": "Glenmark Pharmaceuticals",
+      "current_price": 2408.0,
+      "trigger": 2404.9,
+      "target1": 2668.74,
+      "sl": 2220.27,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,404.90 with Accumulation structure.",
+      "change_pct": 1.09
     },
     {
       "symbol": "MCX",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 11:33 AM",
+  "timestamp": "03 Nov 2026, 11:55 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.42,
-      "change_pct": 2.03,
+      "price": 98.49,
+      "change_pct": 2.1,
       "status": "up"
     },
     "USD/INR": {
