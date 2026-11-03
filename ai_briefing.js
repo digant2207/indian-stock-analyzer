@@ -4,21 +4,11 @@ window.AI_BRIEFING = {
   "nifty_support": 23550,
   "nifty_resistance": 23900,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $98.16.",
-    "Universe breadth shows 102 advancing vs 72 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.51% with Brent Crude hovering around $98.10.",
+    "Universe breadth shows 103 advancing vs 71 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,550 | Resistance cap at 23,900."
   ],
   "top_setups": [
-    {
-      "symbol": "BSE",
-      "name": "BSE Ltd",
-      "current_price": 3658.0,
-      "trigger": 3544.57,
-      "target1": 4092.09,
-      "sl": 3345.45,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,544.57 with Accumulation structure.",
-      "change_pct": 4.81
-    },
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
@@ -28,6 +18,16 @@ window.AI_BRIEFING = {
       "sl": 2219.96,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,404.90 with Accumulation structure.",
       "change_pct": 1.07
+    },
+    {
+      "symbol": "BSE",
+      "name": "BSE Ltd",
+      "current_price": 3658.0,
+      "trigger": 3544.57,
+      "target1": 4092.09,
+      "sl": 3345.45,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,544.57 with Accumulation structure.",
+      "change_pct": 4.81
     },
     {
       "symbol": "MCX",
@@ -40,9 +40,9 @@ window.AI_BRIEFING = {
       "change_pct": 7.69
     }
   ],
-  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 09:46 AM",
+  "timestamp": "03 Nov 2026, 09:48 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
@@ -53,7 +53,7 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76612.13,
+      "price": 76605.49,
       "change_pct": 1.21,
       "status": "up"
     },
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.16,
-      "change_pct": 1.76,
+      "price": 98.1,
+      "change_pct": 1.7,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.78,
-      "change_pct": -0.13,
+      "price": 94.81,
+      "change_pct": -0.1,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 72,
+    "advances": 103,
+    "declines": 71,
     "total": 175
   }
 };
