@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 23500,
+  "nifty_support": 23550,
   "nifty_resistance": 23900,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $97.96.",
-    "Universe breadth shows 99 advancing vs 75 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,500 | Resistance cap at 23,900."
+    "US Markets closed down 0.51% with Brent Crude hovering around $98.16.",
+    "Universe breadth shows 102 advancing vs 72 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,550 | Resistance cap at 23,900."
   ],
   "top_setups": [
     {
       "symbol": "BSE",
       "name": "BSE Ltd",
-      "current_price": 3652.2,
+      "current_price": 3658.0,
       "trigger": 3544.57,
-      "target1": 4082.9,
-      "sl": 3342.09,
+      "target1": 4092.09,
+      "sl": 3345.45,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,544.57 with Accumulation structure.",
-      "change_pct": 4.65
+      "change_pct": 4.81
+    },
+    {
+      "symbol": "GLENMARK",
+      "name": "Glenmark Pharmaceuticals",
+      "current_price": 2407.5,
+      "trigger": 2404.9,
+      "target1": 2667.97,
+      "sl": 2219.96,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,404.90 with Accumulation structure.",
+      "change_pct": 1.07
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3491.5,
+      "current_price": 3498.8,
       "trigger": 3421.83,
-      "target1": 3883.1,
-      "sl": 3209.55,
+      "target1": 3896.05,
+      "sl": 3212.78,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,421.83 with Accumulation structure.",
-      "change_pct": 7.46
-    },
-    {
-      "symbol": "CDSL",
-      "name": "Central Depository Services",
-      "current_price": 1318.7,
-      "trigger": 1309.11,
-      "target1": 1457.2,
-      "sl": 1218.98,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
-      "change_pct": 5.33
+      "change_pct": 7.69
     }
   ],
-  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Acme Solar Holdings Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 09:31 AM",
+  "timestamp": "03 Nov 2026, 09:46 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23699.5,
-      "change_pct": 1.1,
+      "price": 23731.85,
+      "change_pct": 1.24,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76619.27,
-      "change_pct": 1.22,
+      "price": 76612.13,
+      "change_pct": 1.21,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.96,
-      "change_pct": 1.56,
+      "price": 98.16,
+      "change_pct": 1.76,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.75,
-      "change_pct": -0.17,
+      "price": 94.78,
+      "change_pct": -0.13,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 99,
-    "declines": 75,
+    "advances": 102,
+    "declines": 72,
     "total": 175
   }
 };
