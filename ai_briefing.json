@@ -4,57 +4,57 @@
   "nifty_support": 23500,
   "nifty_resistance": 23850,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $98.47.",
-    "Universe breadth shows 122 advancing vs 51 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.51% with Brent Crude hovering around $98.30.",
+    "Universe breadth shows 125 advancing vs 49 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,500 | Resistance cap at 23,850."
   ],
   "top_setups": [
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1323.7,
+      "current_price": 1324.1,
       "trigger": 1309.11,
-      "target1": 1464.63,
-      "sl": 1222.23,
+      "target1": 1465.23,
+      "sl": 1222.49,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
-      "change_pct": 5.73
+      "change_pct": 5.76
     },
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1290.7,
+      "current_price": 1290.4,
       "trigger": 1306.5,
-      "target1": 1444.07,
-      "sl": 1180.27,
+      "target1": 1443.61,
+      "sl": 1180.09,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,306.50 with Accumulation structure.",
-      "change_pct": -0.72
+      "change_pct": -0.74
     },
     {
-      "symbol": "NDRAUTO",
-      "name": "NDR Auto Components Ltd",
-      "current_price": 731.15,
-      "trigger": 726.35,
-      "target1": 828.35,
-      "sl": 661.17,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9726.35 with Accumulation structure.",
-      "change_pct": 13.31
+      "symbol": "MCX",
+      "name": "Multi Commodity Exchange",
+      "current_price": 3464.9,
+      "trigger": 3421.83,
+      "target1": 3836.31,
+      "sl": 3197.48,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,421.83 with Accumulation structure.",
+      "change_pct": 6.65
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 07:15 AM",
+  "timestamp": "03 Nov 2026, 07:31 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23666.55,
-      "change_pct": 0.96,
+      "price": 23684.2,
+      "change_pct": 1.04,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76549.82,
-      "change_pct": 1.13,
+      "price": 76526.58,
+      "change_pct": 1.1,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.47,
-      "change_pct": 2.08,
+      "price": 98.3,
+      "change_pct": 1.91,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.87,
-      "change_pct": -0.04,
+      "price": 94.83,
+      "change_pct": -0.08,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 122,
-    "declines": 51,
+    "advances": 125,
+    "declines": 49,
     "total": 175
   }
 }
