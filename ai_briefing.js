@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 23450,
+  "nifty_support": 23500,
   "nifty_resistance": 23850,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $97.48.",
-    "Universe breadth shows 124 advancing vs 49 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,450 | Resistance cap at 23,850."
+    "US Markets closed down 0.51% with Brent Crude hovering around $98.05.",
+    "Universe breadth shows 125 advancing vs 49 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,500 | Resistance cap at 23,850."
   ],
   "top_setups": [
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1327.5,
+      "current_price": 1324.0,
       "trigger": 1309.11,
-      "target1": 1470.35,
-      "sl": 1224.65,
+      "target1": 1465.08,
+      "sl": 1222.43,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
-      "change_pct": 6.03
+      "change_pct": 5.75
+    },
+    {
+      "symbol": "NDRAUTO",
+      "name": "NDR Auto Components Ltd",
+      "current_price": 736.7,
+      "trigger": 726.35,
+      "target1": 837.42,
+      "sl": 664.18,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9726.35 with Accumulation structure.",
+      "change_pct": 14.17
     },
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "current_price": 1290.3,
+      "current_price": 1291.5,
       "trigger": 1306.5,
-      "target1": 1443.45,
-      "sl": 1180.03,
+      "target1": 1445.33,
+      "sl": 1180.74,
       "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b91,306.50 with Accumulation structure.",
-      "change_pct": -0.75
-    },
-    {
-      "symbol": "GRSE",
-      "name": "Garden Reach Shipbuilders & Enginers Ltd",
-      "current_price": 2179.0,
-      "trigger": 2177.05,
-      "target1": 2566.17,
-      "sl": 1900.24,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b92,177.05 with Accumulation structure.",
-      "change_pct": 6.46
+      "change_pct": -0.65
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 06:46 AM",
+  "timestamp": "03 Nov 2026, 07:01 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23650.55,
-      "change_pct": 0.89,
+      "price": 23674.45,
+      "change_pct": 1.0,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76661.79,
-      "change_pct": 1.28,
+      "price": 76500.98,
+      "change_pct": 1.07,
       "status": "up"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.48,
-      "change_pct": 1.06,
+      "price": 98.05,
+      "change_pct": 1.65,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.86,
-      "change_pct": -0.05,
+      "price": 94.85,
+      "change_pct": -0.06,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 124,
+    "advances": 125,
     "declines": 49,
     "total": 175
   }
