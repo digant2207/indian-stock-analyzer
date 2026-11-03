@@ -1,24 +1,24 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 25.7,
-  "overall_avg_return_per_trade": -2.42,
+  "overall_win_rate": 25.4,
+  "overall_avg_return_per_trade": -2.47,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
-      "total_trades": 12,
-      "win_rate": 41.7,
-      "avg_return": 1.39,
+      "total_trades": 13,
+      "win_rate": 38.5,
+      "avg_return": 0.82,
       "total_wins": 5,
-      "total_losses": 7
+      "total_losses": 8
     },
     {
       "symbol": "ACMESOLAR.NS",
-      "total_trades": 16,
-      "win_rate": 50.0,
-      "avg_return": 3.77,
+      "total_trades": 17,
+      "win_rate": 47.1,
+      "avg_return": 3.18,
       "total_wins": 8,
-      "total_losses": 8
+      "total_losses": 9
     },
     {
       "symbol": "ANANTRAJ.NS",
@@ -38,11 +38,11 @@ window.backtestData = {
     },
     {
       "symbol": "ATGL.NS",
-      "total_trades": 6,
+      "total_trades": 7,
       "win_rate": 0.0,
-      "avg_return": -5.98,
+      "avg_return": -5.87,
       "total_wins": 0,
-      "total_losses": 6
+      "total_losses": 7
     },
     {
       "symbol": "ATHERENERG.NS",
