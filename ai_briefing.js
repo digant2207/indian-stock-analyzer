@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 23600,
   "nifty_resistance": 24000,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $97.35.",
-    "Universe breadth shows 102 advancing vs 72 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.51% with Brent Crude hovering around $97.25.",
+    "Universe breadth shows 106 advancing vs 67 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,600 | Resistance cap at 24,000."
   ],
   "top_setups": [
@@ -40,9 +40,9 @@ window.AI_BRIEFING = {
       "change_pct": 7.42
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 10:01 AM",
+  "timestamp": "03 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76613.69,
-      "change_pct": 1.22,
+      "price": 76917.85,
+      "change_pct": 1.62,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.35,
-      "change_pct": 0.92,
+      "price": 97.25,
+      "change_pct": 0.82,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.73,
-      "change_pct": -0.18,
+      "price": 94.74,
+      "change_pct": -0.17,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 72,
+    "advances": 106,
+    "declines": 67,
     "total": 175
   }
 };
