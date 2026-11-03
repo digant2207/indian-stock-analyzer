@@ -1,54 +1,54 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23250,
-  "nifty_resistance": 23650,
+  "nifty_support": 23350,
+  "nifty_resistance": 23750,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $96.66.",
-    "Universe breadth shows 107 advancing vs 66 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
+    "US Markets closed down 0.51% with Brent Crude hovering around $96.63.",
+    "Universe breadth shows 131 advancing vs 42 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,350 | Resistance cap at 23,750."
   ],
   "top_setups": [
     {
-      "symbol": "GLENMARK",
-      "name": "Glenmark Pharmaceuticals",
-      "current_price": 2382.0,
-      "trigger": 2364.72,
-      "target1": 2596.53,
-      "sl": 2227.54,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,364.72 with Accumulation structure.",
-      "change_pct": 3.62
+      "symbol": "SUMMITSEC",
+      "name": "Summit Securities Ltd",
+      "current_price": 1379.0,
+      "trigger": 1378.75,
+      "target1": 1476.58,
+      "sl": 1308.75,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,378.75 with Accumulation structure.",
+      "change_pct": 2.94
     },
     {
-      "symbol": "RELIANCE",
-      "name": "Reliance Industries Ltd",
-      "current_price": 1300.0,
-      "trigger": 1236.77,
-      "target1": 1428.19,
-      "sl": 1207.7,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,236.77 with Accumulation structure.",
-      "change_pct": 11.6
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 826.15,
+      "trigger": 826.05,
+      "target1": 947.86,
+      "sl": 738.52,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9826.05 with Accumulation structure.",
+      "change_pct": 1.79
     },
     {
-      "symbol": "IOC",
-      "name": "Indian Oil Corporation Ltd",
-      "current_price": 134.59,
-      "trigger": 134.62,
-      "target1": 141.55,
-      "sl": 129.58,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9134.62 with Accumulation structure.",
-      "change_pct": 3.41
+      "symbol": "COFORGE",
+      "name": "Coforge Ltd",
+      "current_price": 2086.4,
+      "trigger": 2116.42,
+      "target1": 2313.27,
+      "sl": 1923.06,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b92,116.42 with Accumulation structure.",
+      "change_pct": -0.6
     }
   ],
-  "risk_warning": "Defensive alert on Zee Entertainment Enterprises, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Zenith Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 03:31 AM",
+  "timestamp": "03 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23440.8,
-      "change_pct": 1.68,
+      "price": 23538.95,
+      "change_pct": 0.42,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.66,
-      "change_pct": -7.16,
+      "price": 96.63,
+      "change_pct": -7.19,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.65,
-      "change_pct": -0.27,
+      "price": 94.63,
+      "change_pct": -0.29,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 107,
-    "declines": 66,
+    "advances": 131,
+    "declines": 42,
     "total": 175
   }
 }
