@@ -4,8 +4,8 @@
   "nifty_support": 23250,
   "nifty_resistance": 23650,
   "executive_bullets": [
-    "US Markets closed down 1.82% with Brent Crude hovering around $99.89.",
-    "Universe breadth shows 143 advancing vs 30 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.51% with Brent Crude hovering around $96.66.",
+    "Universe breadth shows 107 advancing vs 66 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,250 | Resistance cap at 23,650."
   ],
   "top_setups": [
@@ -42,8 +42,8 @@
   ],
   "risk_warning": "Defensive alert on Zee Entertainment Enterprises, PB Fintech Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "02 Nov 2026, 12:21 PM",
-  "date_tag": "2026-11-02",
+  "timestamp": "03 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7580.07,
-      "change_pct": -1.82,
+      "price": 7541.4,
+      "change_pct": -0.51,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25437.0,
-      "change_pct": -2.86,
+      "price": 25164.36,
+      "change_pct": -1.07,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 99.89,
-      "change_pct": -4.06,
+      "price": 96.66,
+      "change_pct": -7.16,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.9,
+      "price": 94.65,
       "change_pct": -0.27,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 143,
-    "declines": 30,
+    "advances": 107,
+    "declines": 66,
     "total": 175
   }
 }
