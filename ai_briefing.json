@@ -2,59 +2,59 @@
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 23450,
-  "nifty_resistance": 23850,
+  "nifty_resistance": 23800,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $97.01.",
-    "Universe breadth shows 139 advancing vs 34 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,450 | Resistance cap at 23,850."
+    "US Markets closed down 0.51% with Brent Crude hovering around $97.14.",
+    "Universe breadth shows 131 advancing vs 43 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,450 | Resistance cap at 23,800."
   ],
   "top_setups": [
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1320.9,
+      "current_price": 1319.9,
       "trigger": 1309.11,
-      "target1": 1460.45,
-      "sl": 1220.42,
+      "target1": 1458.97,
+      "sl": 1219.77,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
-      "change_pct": 5.5
+      "change_pct": 5.42
+    },
+    {
+      "symbol": "RELIANCE",
+      "name": "Reliance Industries Ltd",
+      "current_price": 1286.7,
+      "trigger": 1306.5,
+      "target1": 1437.85,
+      "sl": 1177.87,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b91,306.50 with Accumulation structure.",
+      "change_pct": -1.02
     },
     {
       "symbol": "GRSE",
       "name": "Garden Reach Shipbuilders & Enginers Ltd",
-      "current_price": 2211.0,
+      "current_price": 2200.0,
       "trigger": 2177.05,
-      "target1": 2613.49,
-      "sl": 1921.21,
+      "target1": 2597.02,
+      "sl": 1914.15,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b92,177.05 with Accumulation structure.",
-      "change_pct": 8.02
-    },
-    {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 833.0,
-      "trigger": 826.05,
-      "target1": 957.54,
-      "sl": 743.33,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9826.05 with Accumulation structure.",
-      "change_pct": 2.63
+      "change_pct": 7.48
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 05:31 AM",
+  "timestamp": "03 Nov 2026, 05:46 AM",
   "date_tag": "2026-11-03",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23663.9,
-      "change_pct": 0.95,
+      "price": 23634.9,
+      "change_pct": 0.83,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76483.64,
-      "change_pct": 1.04,
+      "price": 76507.84,
+      "change_pct": 1.08,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 97.01,
-      "change_pct": 0.57,
+      "price": 97.14,
+      "change_pct": 0.7,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.83,
-      "change_pct": -0.07,
+      "price": 94.81,
+      "change_pct": -0.1,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 139,
-    "declines": 34,
+    "advances": 131,
+    "declines": 43,
     "total": 175
   }
 }
