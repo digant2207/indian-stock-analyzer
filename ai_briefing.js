@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 23750,
   "nifty_resistance": 24150,
   "executive_bullets": [
-    "US Markets closed up 0.36% with Brent Crude hovering around $95.14.",
+    "US Markets closed up 0.36% with Brent Crude hovering around $95.28.",
     "Universe breadth shows 142 advancing vs 32 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,750 | Resistance cap at 24,150."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "04 Nov 2026, 11:48 AM",
+  "timestamp": "04 Nov 2026, 12:06 PM",
   "date_tag": "2026-11-04",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.14,
-      "change_pct": -0.99,
+      "price": 95.28,
+      "change_pct": -0.84,
       "status": "down"
     },
     "USD/INR": {
