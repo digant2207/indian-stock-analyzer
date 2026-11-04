@@ -1,60 +1,60 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23750,
+  "nifty_support": 23700,
   "nifty_resistance": 24100,
   "executive_bullets": [
-    "US Markets closed up 0.36% with Brent Crude hovering around $95.67.",
-    "Universe breadth shows 120 advancing vs 53 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,750 | Resistance cap at 24,100."
+    "US Markets closed up 0.36% with Brent Crude hovering around $95.43.",
+    "Universe breadth shows 136 advancing vs 38 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,700 | Resistance cap at 24,100."
   ],
   "top_setups": [
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5359.0,
+      "current_price": 5328.5,
       "trigger": 5422.82,
-      "target1": 5664.54,
-      "sl": 5139.01,
+      "target1": 5619.58,
+      "sl": 5118.92,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,422.82 with Accumulation structure.",
-      "change_pct": 1.11
+      "change_pct": 0.54
     },
     {
       "symbol": "INDHOTEL",
       "name": "Indian Hotels Co",
-      "current_price": 836.75,
+      "current_price": 839.8,
       "trigger": 840.23,
-      "target1": 945.72,
-      "sl": 758.29,
+      "target1": 949.99,
+      "sl": 760.46,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9840.23 with Accumulation structure.",
-      "change_pct": 0.08
+      "change_pct": 0.45
     },
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 171.96,
+      "current_price": 172.12,
       "trigger": 174.75,
-      "target1": 191.64,
-      "sl": 157.79,
+      "target1": 191.86,
+      "sl": 157.9,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9174.75 with Accumulation structure.",
-      "change_pct": 0.54
+      "change_pct": 0.64
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Zenith Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "04 Nov 2026, 04:01 AM",
+  "timestamp": "04 Nov 2026, 04:16 AM",
   "date_tag": "2026-11-04",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23918.7,
-      "change_pct": 0.45,
+      "price": 23912.1,
+      "change_pct": 0.43,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76944.28,
-      "change_pct": 0.03,
+      "price": 77310.88,
+      "change_pct": 0.51,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.67,
-      "change_pct": -0.82,
+      "price": 95.43,
+      "change_pct": -1.07,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.62,
-      "change_pct": -0.11,
+      "price": 94.64,
+      "change_pct": -0.08,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 120,
-    "declines": 53,
+    "advances": 136,
+    "declines": 38,
     "total": 175
   }
 }
