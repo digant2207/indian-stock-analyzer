@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23650,
+  "nifty_support": 23700,
   "nifty_resistance": 24050,
   "executive_bullets": [
-    "US Markets closed up 0.36% with Brent Crude hovering around $96.65.",
-    "Universe breadth shows 133 advancing vs 41 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,650 | Resistance cap at 24,050."
+    "US Markets closed up 0.36% with Brent Crude hovering around $96.27.",
+    "Universe breadth shows 136 advancing vs 38 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,700 | Resistance cap at 24,050."
   ],
   "top_setups": [
     {
+      "symbol": "NDRAUTO",
+      "name": "NDR Auto Components Ltd",
+      "current_price": 757.95,
+      "trigger": 726.35,
+      "target1": 873.77,
+      "sl": 674.56,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9726.35 with Accumulation structure.",
+      "change_pct": 9.9
+    },
+    {
       "symbol": "METROPOLIS",
       "name": "Metropolis Healthcare",
-      "current_price": 573.0,
+      "current_price": 575.1,
       "trigger": 573.39,
-      "target1": 636.64,
-      "sl": 527.18,
+      "target1": 639.78,
+      "sl": 528.53,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9573.39 with Accumulation structure.",
-      "change_pct": 0.76
+      "change_pct": 1.13
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 140.33,
+      "current_price": 140.38,
       "trigger": 139.36,
-      "target1": 153.09,
-      "sl": 131.14,
+      "target1": 153.17,
+      "sl": 131.17,
       "rationale": "High Technical Score (30.0/100), 0.0% to Buy Trigger \u20b9139.36 with Accumulation structure.",
-      "change_pct": 1.2
-    },
-    {
-      "symbol": "LUPIN",
-      "name": "Lupin Ltd",
-      "current_price": 2025.1,
-      "trigger": 2037.87,
-      "target1": 2133.32,
-      "sl": 1947.18,
-      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b92,037.87 with Accumulation structure.",
-      "change_pct": 1.43
+      "change_pct": 1.23
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "04 Nov 2026, 07:46 AM",
+  "timestamp": "04 Nov 2026, 08:01 AM",
   "date_tag": "2026-11-04",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23852.65,
-      "change_pct": 0.18,
+      "price": 23869.95,
+      "change_pct": 0.25,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76990.08,
-      "change_pct": 0.09,
+      "price": 77046.35,
+      "change_pct": 0.17,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.65,
-      "change_pct": 0.58,
+      "price": 96.27,
+      "change_pct": 0.19,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.84,
-      "change_pct": 0.12,
+      "price": 94.79,
+      "change_pct": 0.07,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 133,
-    "declines": 41,
+    "advances": 136,
+    "declines": 38,
     "total": 175
   }
 };
