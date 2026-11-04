@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23600,
+  "nifty_support": 23650,
   "nifty_resistance": 24000,
   "executive_bullets": [
-    "US Markets closed up 0.36% with Brent Crude hovering around $96.15.",
-    "Universe breadth shows 127 advancing vs 47 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,600 | Resistance cap at 24,000."
+    "US Markets closed up 0.36% with Brent Crude hovering around $95.93.",
+    "Universe breadth shows 129 advancing vs 44 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,650 | Resistance cap at 24,000."
   ],
   "top_setups": [
     {
       "symbol": "METROPOLIS",
       "name": "Metropolis Healthcare",
-      "current_price": 573.5,
+      "current_price": 571.2,
       "trigger": 573.39,
-      "target1": 637.38,
-      "sl": 527.5,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9573.39 with Accumulation structure.",
-      "change_pct": 0.84
+      "target1": 633.99,
+      "sl": 525.99,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9573.39 with Accumulation structure.",
+      "change_pct": 0.44
     },
     {
       "symbol": "INDRAMEDCO",
       "name": "Indraprastha Medical Corporation Ltd",
-      "current_price": 337.4,
+      "current_price": 336.2,
       "trigger": 342.93,
-      "target1": 375.16,
-      "sl": 310.21,
+      "target1": 373.23,
+      "sl": 309.54,
       "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b9342.93 with Accumulation structure.",
-      "change_pct": 8.61
+      "change_pct": 8.22
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 842.8,
-      "trigger": 840.23,
-      "target1": 954.26,
-      "sl": 762.55,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9840.23 with Accumulation structure.",
-      "change_pct": 0.81
+      "symbol": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
+      "current_price": 5320.5,
+      "trigger": 5422.82,
+      "target1": 5608.17,
+      "sl": 5113.38,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,422.82 with Accumulation structure.",
+      "change_pct": 0.39
     }
   ],
   "risk_warning": "Defensive alert on Zenith Exports Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "04 Nov 2026, 05:46 AM",
+  "timestamp": "04 Nov 2026, 06:01 AM",
   "date_tag": "2026-11-04",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23814.3,
-      "change_pct": 0.01,
+      "price": 23824.2,
+      "change_pct": 0.06,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 76922.75,
-      "change_pct": 0.01,
+      "price": 76944.0,
+      "change_pct": 0.03,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.15,
-      "change_pct": 0.06,
-      "status": "up"
+      "price": 95.93,
+      "change_pct": -0.17,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.79,
-      "change_pct": 0.07,
+      "price": 94.82,
+      "change_pct": 0.09,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 127,
-    "declines": 47,
+    "advances": 129,
+    "declines": 44,
     "total": 175
   }
 };
