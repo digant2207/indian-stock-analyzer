@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23750,
-  "nifty_resistance": 24100,
+  "nifty_resistance": 24150,
   "executive_bullets": [
-    "US Markets closed up 0.36% with Brent Crude hovering around $95.60.",
-    "Universe breadth shows 141 advancing vs 33 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,750 | Resistance cap at 24,100."
+    "US Markets closed up 0.36% with Brent Crude hovering around $95.65.",
+    "Universe breadth shows 142 advancing vs 32 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 23,750 | Resistance cap at 24,150."
   ],
   "top_setups": [
     {
       "symbol": "NDRAUTO",
       "name": "NDR Auto Components Ltd",
-      "current_price": 775.8,
+      "current_price": 772.85,
       "trigger": 748.14,
-      "target1": 920.77,
-      "sl": 671.42,
+      "target1": 915.84,
+      "sl": 669.89,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9748.14 with Accumulation structure.",
-      "change_pct": 4.47
+      "change_pct": 4.07
     },
     {
       "symbol": "METROPOLIS",
       "name": "Metropolis Healthcare",
-      "current_price": 580.35,
+      "current_price": 581.25,
       "trigger": 573.39,
-      "target1": 647.83,
-      "sl": 531.76,
+      "target1": 649.24,
+      "sl": 532.3,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9573.39 with Accumulation structure.",
-      "change_pct": 2.05
+      "change_pct": 2.21
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 736.4,
+      "current_price": 736.7,
       "trigger": 736.37,
-      "target1": 805.03,
-      "sl": 686.99,
+      "target1": 805.47,
+      "sl": 687.19,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9736.37 with Accumulation structure.",
-      "change_pct": 1.5
+      "change_pct": 1.54
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "04 Nov 2026, 09:31 AM",
+  "timestamp": "04 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-04",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23922.75,
-      "change_pct": 0.47,
+      "price": 23960.6,
+      "change_pct": 0.63,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 77226.77,
-      "change_pct": 0.4,
+      "price": 77301.4,
+      "change_pct": 0.5,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.6,
-      "change_pct": -0.51,
+      "price": 95.65,
+      "change_pct": -0.46,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 141,
-    "declines": 33,
+    "advances": 142,
+    "declines": 32,
     "total": 175
   }
 };
