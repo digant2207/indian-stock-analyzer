@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 23600,
   "nifty_resistance": 24000,
   "executive_bullets": [
-    "US Markets closed down 0.51% with Brent Crude hovering around $98.49.",
-    "Universe breadth shows 106 advancing vs 67 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.36% with Brent Crude hovering around $95.61.",
+    "Universe breadth shows 118 advancing vs 55 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,600 | Resistance cap at 24,000."
   ],
   "top_setups": [
@@ -20,16 +20,6 @@ window.AI_BRIEFING = {
       "change_pct": 5.03
     },
     {
-      "symbol": "GLENMARK",
-      "name": "Glenmark Pharmaceuticals",
-      "current_price": 2408.0,
-      "trigger": 2404.9,
-      "target1": 2668.74,
-      "sl": 2220.27,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b92,404.90 with Accumulation structure.",
-      "change_pct": 1.09
-    },
-    {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
       "current_price": 3490.1,
@@ -38,12 +28,22 @@ window.AI_BRIEFING = {
       "sl": 3208.93,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,421.83 with Accumulation structure.",
       "change_pct": 7.42
+    },
+    {
+      "symbol": "CDSL",
+      "name": "Central Depository Services",
+      "current_price": 1320.0,
+      "trigger": 1309.11,
+      "target1": 1459.12,
+      "sl": 1219.83,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
+      "change_pct": 5.43
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Zenith Exports Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on REC Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "03 Nov 2026, 11:55 AM",
-  "date_tag": "2026-11-03",
+  "timestamp": "04 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-04",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7541.4,
-      "change_pct": -0.51,
-      "status": "down"
+      "price": 7568.92,
+      "change_pct": 0.36,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25164.31,
-      "change_pct": -1.07,
-      "status": "down"
+      "price": 25372.01,
+      "change_pct": 0.83,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 98.49,
-      "change_pct": 2.1,
-      "status": "up"
+      "price": 95.61,
+      "change_pct": -0.88,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.74,
+      "price": 94.56,
       "change_pct": -0.17,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 106,
-    "declines": 67,
+    "advances": 118,
+    "declines": 55,
     "total": 175
   }
 };
