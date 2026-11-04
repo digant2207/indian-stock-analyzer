@@ -4,52 +4,52 @@ window.AI_BRIEFING = {
   "nifty_support": 23600,
   "nifty_resistance": 24000,
   "executive_bullets": [
-    "US Markets closed up 0.36% with Brent Crude hovering around $95.61.",
-    "Universe breadth shows 118 advancing vs 55 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.36% with Brent Crude hovering around $95.67.",
+    "Universe breadth shows 67 advancing vs 106 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,600 | Resistance cap at 24,000."
   ],
   "top_setups": [
     {
-      "symbol": "BSE",
-      "name": "BSE Ltd",
-      "current_price": 3665.7,
-      "trigger": 3544.57,
-      "target1": 4104.36,
-      "sl": 3349.87,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,544.57 with Accumulation structure.",
-      "change_pct": 5.03
+      "symbol": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
+      "current_price": 5350.0,
+      "trigger": 5422.82,
+      "target1": 5651.04,
+      "sl": 5133.25,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,422.82 with Accumulation structure.",
+      "change_pct": 0.94
     },
     {
-      "symbol": "MCX",
-      "name": "Multi Commodity Exchange",
-      "current_price": 3490.1,
-      "trigger": 3421.83,
-      "target1": 3880.62,
-      "sl": 3208.93,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,421.83 with Accumulation structure.",
-      "change_pct": 7.42
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 832.0,
+      "trigger": 840.23,
+      "target1": 939.2,
+      "sl": 754.82,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9840.23 with Accumulation structure.",
+      "change_pct": -0.48
     },
     {
-      "symbol": "CDSL",
-      "name": "Central Depository Services",
-      "current_price": 1320.0,
-      "trigger": 1309.11,
-      "target1": 1459.12,
-      "sl": 1219.83,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,309.11 with Accumulation structure.",
-      "change_pct": 5.43
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 170.48,
+      "trigger": 174.75,
+      "target1": 189.62,
+      "sl": 156.7,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9174.75 with Accumulation structure.",
+      "change_pct": -0.32
     }
   ],
-  "risk_warning": "Defensive alert on REC Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "04 Nov 2026, 03:31 AM",
+  "timestamp": "04 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-04",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23810.85,
-      "change_pct": 1.58,
-      "status": "up"
+      "price": 23798.8,
+      "change_pct": -0.05,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.61,
-      "change_pct": -0.88,
+      "price": 95.67,
+      "change_pct": -0.82,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.56,
-      "change_pct": -0.17,
+      "price": 94.54,
+      "change_pct": -0.19,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 118,
-    "declines": 55,
+    "advances": 67,
+    "declines": 106,
     "total": 175
   }
 };
