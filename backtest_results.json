@@ -1,24 +1,24 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 25.4,
-  "overall_avg_return_per_trade": -2.47,
+  "overall_win_rate": 25.0,
+  "overall_avg_return_per_trade": -2.53,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
-      "total_trades": 13,
-      "win_rate": 38.5,
-      "avg_return": 0.82,
+      "total_trades": 14,
+      "win_rate": 35.7,
+      "avg_return": 0.33,
       "total_wins": 5,
-      "total_losses": 8
+      "total_losses": 9
     },
     {
       "symbol": "ACMESOLAR.NS",
-      "total_trades": 17,
-      "win_rate": 47.1,
-      "avg_return": 3.18,
+      "total_trades": 18,
+      "win_rate": 44.4,
+      "avg_return": 2.69,
       "total_wins": 8,
-      "total_losses": 9
+      "total_losses": 10
     },
     {
       "symbol": "ANANTRAJ.NS",
@@ -158,11 +158,11 @@
     },
     {
       "symbol": "CHEMCON.NS",
-      "total_trades": 17,
-      "win_rate": 52.9,
-      "avg_return": 3.05,
+      "total_trades": 18,
+      "win_rate": 50.0,
+      "avg_return": 2.58,
       "total_wins": 9,
-      "total_losses": 8
+      "total_losses": 9
     },
     {
       "symbol": "COCHINSHIP.NS",
