@@ -1,60 +1,60 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23700,
+  "nifty_support": 23750,
   "nifty_resistance": 24100,
   "executive_bullets": [
-    "US Markets closed up 0.36% with Brent Crude hovering around $96.19.",
+    "US Markets closed up 0.36% with Brent Crude hovering around $95.60.",
     "Universe breadth shows 141 advancing vs 33 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,700 | Resistance cap at 24,100."
+    "Nifty 50 key pivot levels: Immediate Support at 23,750 | Resistance cap at 24,100."
   ],
   "top_setups": [
     {
+      "symbol": "NDRAUTO",
+      "name": "NDR Auto Components Ltd",
+      "current_price": 775.8,
+      "trigger": 748.14,
+      "target1": 920.77,
+      "sl": 671.42,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9748.14 with Accumulation structure.",
+      "change_pct": 4.47
+    },
+    {
       "symbol": "METROPOLIS",
       "name": "Metropolis Healthcare",
-      "current_price": 578.75,
+      "current_price": 580.35,
       "trigger": 573.39,
-      "target1": 645.35,
-      "sl": 530.8,
+      "target1": 647.83,
+      "sl": 531.76,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9573.39 with Accumulation structure.",
-      "change_pct": 1.77
+      "change_pct": 2.05
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 737.05,
+      "current_price": 736.4,
       "trigger": 736.37,
-      "target1": 805.99,
-      "sl": 687.41,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9736.37 with Accumulation structure.",
-      "change_pct": 1.59
-    },
-    {
-      "symbol": "IOC",
-      "name": "Indian Oil Corporation Ltd",
-      "current_price": 140.69,
-      "trigger": 139.36,
-      "target1": 153.69,
-      "sl": 131.33,
-      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9139.36 with Accumulation structure.",
-      "change_pct": 1.46
+      "target1": 805.03,
+      "sl": 686.99,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9736.37 with Accumulation structure.",
+      "change_pct": 1.5
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "04 Nov 2026, 09:16 AM",
+  "timestamp": "04 Nov 2026, 09:31 AM",
   "date_tag": "2026-11-04",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23911.25,
-      "change_pct": 0.42,
+      "price": 23922.75,
+      "change_pct": 0.47,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 77197.18,
-      "change_pct": 0.36,
+      "price": 77226.77,
+      "change_pct": 0.4,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 96.19,
-      "change_pct": 0.1,
-      "status": "up"
+      "price": 95.6,
+      "change_pct": -0.51,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.62,
-      "change_pct": -0.11,
+      "price": 94.64,
+      "change_pct": -0.09,
       "status": "down"
     }
   },
