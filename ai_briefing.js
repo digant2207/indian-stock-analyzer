@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 24350,
   "nifty_resistance": 24750,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $88.81.",
+    "US Markets closed up 1.58% with Brent Crude hovering around $89.00.",
     "Universe breadth shows 117 advancing vs 57 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,350 | Resistance cap at 24,750."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 11:26 AM",
+  "timestamp": "05 Nov 2026, 11:47 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.81,
-      "change_pct": 0.78,
+      "price": 89.0,
+      "change_pct": 1.0,
       "status": "up"
     },
     "USD/INR": {
