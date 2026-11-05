@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 24350,
   "nifty_resistance": 24750,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $88.22.",
-    "Universe breadth shows 116 advancing vs 55 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.58% with Brent Crude hovering around $88.39.",
+    "Universe breadth shows 116 advancing vs 58 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,350 | Resistance cap at 24,750."
   ],
   "top_setups": [
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5505.5,
+      "current_price": 5504.0,
       "trigger": 5426.5,
-      "target1": 5942.2,
-      "sl": 5191.07,
+      "target1": 5939.75,
+      "sl": 5190.26,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b95,426.50 with Accumulation structure.",
-      "change_pct": 1.96
+      "change_pct": 1.94
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 144.42,
+      "current_price": 144.32,
       "trigger": 142.74,
-      "target1": 162.37,
-      "sl": 131.49,
+      "target1": 162.21,
+      "sl": 131.44,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9142.74 with Accumulation structure.",
-      "change_pct": 1.68
+      "change_pct": 1.61
     },
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 716.65,
+      "current_price": 718.35,
       "trigger": 712.12,
-      "target1": 784.81,
-      "sl": 667.58,
+      "target1": 787.44,
+      "sl": 668.61,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9712.12 with Accumulation structure.",
-      "change_pct": 3.08
+      "change_pct": 3.32
     }
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 09:42 AM",
+  "timestamp": "05 Nov 2026, 09:46 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24545.6,
-      "change_pct": 2.44,
+      "price": 24542.2,
+      "change_pct": 2.43,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 79402.09,
-      "change_pct": 2.72,
+      "price": 79335.67,
+      "change_pct": 2.63,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.22,
-      "change_pct": 0.11,
+      "price": 88.39,
+      "change_pct": 0.31,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.52,
-      "change_pct": -0.24,
+      "price": 94.5,
+      "change_pct": -0.26,
       "status": "down"
     }
   },
   "market_breadth": {
     "advances": 116,
-    "declines": 55,
+    "declines": 58,
     "total": 175
   }
 };
