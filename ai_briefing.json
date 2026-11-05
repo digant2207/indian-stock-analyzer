@@ -4,57 +4,57 @@
   "nifty_support": 24200,
   "nifty_resistance": 24550,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $86.97.",
-    "Universe breadth shows 152 advancing vs 22 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.58% with Brent Crude hovering around $87.15.",
+    "Universe breadth shows 153 advancing vs 21 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,200 | Resistance cap at 24,550."
   ],
   "top_setups": [
     {
+      "symbol": "IOC",
+      "name": "Indian Oil Corporation Ltd",
+      "current_price": 145.8,
+      "trigger": 142.74,
+      "target1": 164.66,
+      "sl": 132.22,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9142.74 with Accumulation structure.",
+      "change_pct": 2.65
+    },
+    {
       "symbol": "BAJFINANCE",
       "name": "Bajaj Finance Ltd",
-      "current_price": 1044.2,
+      "current_price": 1041.95,
       "trigger": 998.97,
-      "target1": 1175.4,
-      "sl": 949.73,
+      "target1": 1171.58,
+      "sl": 948.62,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9998.97 with Accumulation structure.",
-      "change_pct": 5.05
+      "change_pct": 4.82
     },
     {
       "symbol": "BALKRISIND",
       "name": "Balkrishna Industries",
-      "current_price": 2401.7,
+      "current_price": 2400.2,
       "trigger": 2203.4,
-      "target1": 2728.29,
-      "sl": 2166.56,
+      "target1": 2725.49,
+      "sl": 2165.99,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,203.40 with Accumulation structure.",
-      "change_pct": 9.64
-    },
-    {
-      "symbol": "BSE",
-      "name": "BSE Ltd",
-      "current_price": 3782.0,
-      "trigger": 3685.26,
-      "target1": 4367.02,
-      "sl": 3360.78,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b93,685.26 with Accumulation structure.",
-      "change_pct": 5.01
+      "change_pct": 9.57
     }
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 05:31 AM",
+  "timestamp": "05 Nov 2026, 05:45 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24371.95,
-      "change_pct": 1.72,
+      "price": 24375.45,
+      "change_pct": 1.73,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 78697.97,
-      "change_pct": 1.81,
+      "price": 78745.09,
+      "change_pct": 1.87,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.97,
-      "change_pct": -1.31,
+      "price": 87.15,
+      "change_pct": -1.1,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.51,
-      "change_pct": -0.25,
+      "price": 94.53,
+      "change_pct": -0.24,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 152,
-    "declines": 22,
+    "advances": 153,
+    "declines": 21,
     "total": 175
   }
 }
