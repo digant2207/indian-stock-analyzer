@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24300,
-  "nifty_resistance": 24700,
+  "nifty_support": 24350,
+  "nifty_resistance": 24750,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $87.98.",
-    "Universe breadth shows 141 advancing vs 33 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,300 | Resistance cap at 24,700."
+    "US Markets closed up 1.58% with Brent Crude hovering around $87.90.",
+    "Universe breadth shows 142 advancing vs 32 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,350 | Resistance cap at 24,750."
   ],
   "top_setups": [
     {
       "symbol": "NDRAUTO",
       "name": "NDR Auto Components Ltd",
-      "current_price": 765.0,
+      "current_price": 762.95,
       "trigger": 748.14,
-      "target1": 902.88,
-      "sl": 665.73,
+      "target1": 899.53,
+      "sl": 664.61,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9748.14 with Accumulation structure.",
-      "change_pct": 3.02
+      "change_pct": 2.74
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 754.0,
+      "current_price": 756.45,
       "trigger": 742.78,
-      "target1": 835.69,
-      "sl": 695.18,
+      "target1": 839.62,
+      "sl": 696.57,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9742.78 with Accumulation structure.",
-      "change_pct": 2.35
+      "change_pct": 2.68
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 145.23,
+      "current_price": 145.3,
       "trigger": 142.74,
-      "target1": 163.71,
-      "sl": 131.93,
+      "target1": 163.82,
+      "sl": 131.96,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9142.74 with Accumulation structure.",
-      "change_pct": 2.25
+      "change_pct": 2.3
     }
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 08:01 AM",
+  "timestamp": "05 Nov 2026, 08:16 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24492.35,
-      "change_pct": 2.22,
+      "price": 24536.9,
+      "change_pct": 2.41,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 79088.09,
-      "change_pct": 2.31,
+      "price": 79148.43,
+      "change_pct": 2.39,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.98,
-      "change_pct": -0.16,
+      "price": 87.9,
+      "change_pct": -0.25,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 141,
-    "declines": 33,
+    "advances": 142,
+    "declines": 32,
     "total": 175
   }
 };
