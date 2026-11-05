@@ -1,54 +1,54 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 23750,
-  "nifty_resistance": 24150,
+  "nifty_support": 24150,
+  "nifty_resistance": 24550,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $87.08.",
-    "Universe breadth shows 131 advancing vs 42 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 23,750 | Resistance cap at 24,150."
+    "US Markets closed up 1.58% with Brent Crude hovering around $86.85.",
+    "Universe breadth shows 157 advancing vs 17 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,150 | Resistance cap at 24,550."
   ],
   "top_setups": [
     {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 736.7,
-      "trigger": 736.37,
-      "target1": 805.47,
-      "sl": 687.19,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9736.37 with Accumulation structure.",
-      "change_pct": 1.54
+      "symbol": "HEG",
+      "name": "HEG",
+      "current_price": 288.18,
+      "trigger": 256.98,
+      "target1": 371.38,
+      "sl": 228.27,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9256.98 with Accumulation structure.",
+      "change_pct": 19.75
     },
     {
-      "symbol": "IOC",
-      "name": "Indian Oil Corporation Ltd",
-      "current_price": 142.03,
-      "trigger": 139.36,
-      "target1": 155.97,
-      "sl": 131.99,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9139.36 with Accumulation structure.",
-      "change_pct": 2.42
+      "symbol": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
+      "current_price": 5496.0,
+      "trigger": 5426.5,
+      "target1": 5926.7,
+      "sl": 5185.9,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,426.50 with Accumulation structure.",
+      "change_pct": 1.79
     },
     {
-      "symbol": "BAJFINANCE",
-      "name": "Bajaj Finance Ltd",
-      "current_price": 994.0,
-      "trigger": 988.47,
-      "target1": 1085.8,
-      "sl": 927.9,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9988.47 with Accumulation structure.",
-      "change_pct": 2.47
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 856.0,
+      "trigger": 840.23,
+      "target1": 973.73,
+      "sl": 771.24,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9840.23 with Accumulation structure.",
+      "change_pct": 2.39
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Zenith Exports Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 03:31 AM",
+  "timestamp": "05 Nov 2026, 03:45 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 23960.6,
-      "change_pct": 0.63,
+      "price": 24337.1,
+      "change_pct": 1.57,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.08,
-      "change_pct": -9.38,
+      "price": 86.85,
+      "change_pct": -9.62,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.35,
-      "change_pct": -0.42,
+      "price": 94.37,
+      "change_pct": -0.4,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 131,
-    "declines": 42,
+    "advances": 157,
+    "declines": 17,
     "total": 175
   }
 }
