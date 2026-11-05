@@ -1,33 +1,33 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24250,
+  "nifty_support": 24300,
   "nifty_resistance": 24650,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $87.54.",
-    "Universe breadth shows 145 advancing vs 29 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,250 | Resistance cap at 24,650."
+    "US Markets closed up 1.58% with Brent Crude hovering around $87.90.",
+    "Universe breadth shows 141 advancing vs 32 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,300 | Resistance cap at 24,650."
   ],
   "top_setups": [
     {
       "symbol": "NDRAUTO",
       "name": "NDR Auto Components Ltd",
-      "current_price": 766.0,
+      "current_price": 765.9,
       "trigger": 748.14,
-      "target1": 904.52,
-      "sl": 666.27,
+      "target1": 904.36,
+      "sl": 666.21,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9748.14 with Accumulation structure.",
-      "change_pct": 3.15
+      "change_pct": 3.14
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 145.34,
+      "current_price": 145.44,
       "trigger": 142.74,
-      "target1": 163.89,
-      "sl": 131.98,
+      "target1": 164.06,
+      "sl": 132.04,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9142.74 with Accumulation structure.",
-      "change_pct": 2.33
+      "change_pct": 2.4
     },
     {
       "symbol": "BALKRISIND",
@@ -42,19 +42,19 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 07:31 AM",
+  "timestamp": "05 Nov 2026, 07:46 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24459.35,
-      "change_pct": 2.08,
+      "price": 24473.25,
+      "change_pct": 2.14,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 78960.82,
-      "change_pct": 2.15,
+      "price": 79041.4,
+      "change_pct": 2.25,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.54,
-      "change_pct": -0.66,
+      "price": 87.9,
+      "change_pct": -0.25,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.45,
-      "change_pct": -0.31,
+      "price": 94.48,
+      "change_pct": -0.29,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 145,
-    "declines": 29,
+    "advances": 141,
+    "declines": 32,
     "total": 175
   }
 };
