@@ -4,20 +4,30 @@ window.AI_BRIEFING = {
   "nifty_support": 24200,
   "nifty_resistance": 24600,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $87.14.",
-    "Universe breadth shows 154 advancing vs 20 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.58% with Brent Crude hovering around $86.92.",
+    "Universe breadth shows 155 advancing vs 19 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,200 | Resistance cap at 24,600."
   ],
   "top_setups": [
     {
       "symbol": "BALKRISIND",
       "name": "Balkrishna Industries",
-      "current_price": 2401.8,
+      "current_price": 2410.3,
       "trigger": 2203.4,
-      "target1": 2728.47,
-      "sl": 2166.59,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,203.40 with Accumulation structure.",
-      "change_pct": 9.65
+      "target1": 2744.37,
+      "sl": 2169.77,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,203.40 with Accumulation structure.",
+      "change_pct": 10.03
+    },
+    {
+      "symbol": "APOLLOTYRE",
+      "name": "Apollo Tyres Ltd",
+      "current_price": 430.5,
+      "trigger": 439.33,
+      "target1": 484.3,
+      "sl": 391.77,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9439.33 with Accumulation structure.",
+      "change_pct": 6.98
     },
     {
       "symbol": "HEG",
@@ -28,33 +38,23 @@ window.AI_BRIEFING = {
       "sl": 228.27,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9256.98 with Accumulation structure.",
       "change_pct": 19.75
-    },
-    {
-      "symbol": "NHPC",
-      "name": "NHPC Ltd",
-      "current_price": 80.85,
-      "trigger": 80.15,
-      "target1": 94.5,
-      "sl": 71.02,
-      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b980.15 with Accumulation structure.",
-      "change_pct": 3.01
     }
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 04:16 AM",
+  "timestamp": "05 Nov 2026, 04:31 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24396.8,
-      "change_pct": 1.82,
+      "price": 24405.25,
+      "change_pct": 1.86,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 78644.95,
-      "change_pct": 1.74,
+      "price": 78850.14,
+      "change_pct": 2.0,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.14,
-      "change_pct": -9.31,
+      "price": 86.92,
+      "change_pct": -9.54,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.48,
-      "change_pct": -0.29,
+      "price": 94.51,
+      "change_pct": -0.25,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 154,
-    "declines": 20,
+    "advances": 155,
+    "declines": 19,
     "total": 175
   }
 };
