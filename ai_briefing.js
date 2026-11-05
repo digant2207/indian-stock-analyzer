@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 24150,
   "nifty_resistance": 24550,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $86.85.",
-    "Universe breadth shows 157 advancing vs 17 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.58% with Brent Crude hovering around $86.79.",
+    "Universe breadth shows 155 advancing vs 19 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,150 | Resistance cap at 24,550."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@ window.AI_BRIEFING = {
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5496.0,
+      "current_price": 5481.0,
       "trigger": 5426.5,
-      "target1": 5926.7,
-      "sl": 5185.9,
+      "target1": 5902.45,
+      "sl": 5177.56,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,426.50 with Accumulation structure.",
-      "change_pct": 1.79
+      "change_pct": 1.51
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 856.0,
-      "trigger": 840.23,
-      "target1": 973.73,
-      "sl": 771.24,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9840.23 with Accumulation structure.",
-      "change_pct": 2.39
+      "symbol": "COFORGE",
+      "name": "Coforge Ltd",
+      "current_price": 2086.1,
+      "trigger": 2116.42,
+      "target1": 2326.14,
+      "sl": 1913.27,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,116.42 with Accumulation structure.",
+      "change_pct": 1.27
     }
   ],
-  "risk_warning": "Defensive alert on Zenith Exports Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PI Industries Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 03:45 AM",
+  "timestamp": "05 Nov 2026, 04:01 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24337.1,
-      "change_pct": 1.57,
+      "price": 24338.25,
+      "change_pct": 1.58,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 77301.4,
-      "change_pct": 0.5,
+      "price": 78708.57,
+      "change_pct": 1.82,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.85,
-      "change_pct": -9.62,
+      "price": 86.79,
+      "change_pct": -9.68,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.37,
-      "change_pct": -0.4,
+      "price": 94.54,
+      "change_pct": -0.22,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 157,
-    "declines": 17,
+    "advances": 155,
+    "declines": 19,
     "total": 175
   }
 };
