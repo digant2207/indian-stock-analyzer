@@ -4,31 +4,11 @@
   "nifty_support": 23750,
   "nifty_resistance": 24150,
   "executive_bullets": [
-    "US Markets closed up 0.36% with Brent Crude hovering around $95.28.",
-    "Universe breadth shows 142 advancing vs 32 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.58% with Brent Crude hovering around $87.08.",
+    "Universe breadth shows 131 advancing vs 42 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 23,750 | Resistance cap at 24,150."
   ],
   "top_setups": [
-    {
-      "symbol": "NDRAUTO",
-      "name": "NDR Auto Components Ltd",
-      "current_price": 772.85,
-      "trigger": 748.14,
-      "target1": 915.84,
-      "sl": 669.89,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9748.14 with Accumulation structure.",
-      "change_pct": 4.07
-    },
-    {
-      "symbol": "METROPOLIS",
-      "name": "Metropolis Healthcare",
-      "current_price": 581.25,
-      "trigger": 573.39,
-      "target1": 649.24,
-      "sl": 532.3,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9573.39 with Accumulation structure.",
-      "change_pct": 2.21
-    },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
@@ -38,12 +18,32 @@
       "sl": 687.19,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9736.37 with Accumulation structure.",
       "change_pct": 1.54
+    },
+    {
+      "symbol": "IOC",
+      "name": "Indian Oil Corporation Ltd",
+      "current_price": 142.03,
+      "trigger": 139.36,
+      "target1": 155.97,
+      "sl": 131.99,
+      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b9139.36 with Accumulation structure.",
+      "change_pct": 2.42
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "name": "Bajaj Finance Ltd",
+      "current_price": 994.0,
+      "trigger": 988.47,
+      "target1": 1085.8,
+      "sl": 927.9,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9988.47 with Accumulation structure.",
+      "change_pct": 2.47
     }
   ],
-  "risk_warning": "Defensive alert on Poonawalla Fincorp, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "04 Nov 2026, 12:06 PM",
-  "date_tag": "2026-11-04",
+  "timestamp": "05 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7568.92,
-      "change_pct": 0.36,
+      "price": 7688.62,
+      "change_pct": 1.58,
       "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25372.01,
-      "change_pct": 0.83,
+      "price": 25736.51,
+      "change_pct": 1.44,
       "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 95.28,
-      "change_pct": -0.84,
+      "price": 87.08,
+      "change_pct": -9.38,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.64,
-      "change_pct": -0.09,
+      "price": 94.35,
+      "change_pct": -0.42,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 142,
-    "declines": 32,
+    "advances": 131,
+    "declines": 42,
     "total": 175
   }
 }
