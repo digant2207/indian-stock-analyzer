@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 10:46 AM",
+  "timestamp": "05 Nov 2026, 11:01 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
