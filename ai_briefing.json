@@ -4,57 +4,57 @@
   "nifty_support": 24350,
   "nifty_resistance": 24750,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $88.14.",
-    "Universe breadth shows 119 advancing vs 55 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.58% with Brent Crude hovering around $88.22.",
+    "Universe breadth shows 116 advancing vs 55 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,350 | Resistance cap at 24,750."
   ],
   "top_setups": [
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5507.0,
+      "current_price": 5505.5,
       "trigger": 5426.5,
-      "target1": 5944.66,
-      "sl": 5191.88,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b95,426.50 with Accumulation structure.",
-      "change_pct": 1.99
+      "target1": 5942.2,
+      "sl": 5191.07,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b95,426.50 with Accumulation structure.",
+      "change_pct": 1.96
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 144.62,
+      "current_price": 144.42,
       "trigger": 142.74,
-      "target1": 162.7,
-      "sl": 131.6,
+      "target1": 162.37,
+      "sl": 131.49,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9142.74 with Accumulation structure.",
-      "change_pct": 1.82
+      "change_pct": 1.68
     },
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 718.4,
+      "current_price": 716.65,
       "trigger": 712.12,
-      "target1": 787.52,
-      "sl": 668.64,
+      "target1": 784.81,
+      "sl": 667.58,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9712.12 with Accumulation structure.",
-      "change_pct": 3.33
+      "change_pct": 3.08
     }
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 09:31 AM",
+  "timestamp": "05 Nov 2026, 09:42 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24535.6,
-      "change_pct": 2.4,
+      "price": 24545.6,
+      "change_pct": 2.44,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 79383.32,
-      "change_pct": 2.69,
+      "price": 79402.09,
+      "change_pct": 2.72,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.14,
-      "change_pct": 0.02,
+      "price": 88.22,
+      "change_pct": 0.11,
       "status": "up"
     },
     "USD/INR": {
@@ -83,7 +83,7 @@
     }
   },
   "market_breadth": {
-    "advances": 119,
+    "advances": 116,
     "declines": 55,
     "total": 175
   }
