@@ -1,33 +1,33 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24200,
-  "nifty_resistance": 24600,
+  "nifty_support": 24150,
+  "nifty_resistance": 24550,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $88.12.",
-    "Universe breadth shows 154 advancing vs 20 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,200 | Resistance cap at 24,600."
+    "US Markets closed up 1.58% with Brent Crude hovering around $86.83.",
+    "Universe breadth shows 153 advancing vs 21 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,150 | Resistance cap at 24,550."
   ],
   "top_setups": [
     {
       "symbol": "BAJFINANCE",
       "name": "Bajaj Finance Ltd",
-      "current_price": 1045.75,
+      "current_price": 1044.45,
       "trigger": 998.97,
-      "target1": 1178.05,
-      "sl": 950.49,
+      "target1": 1175.83,
+      "sl": 949.86,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9998.97 with Accumulation structure.",
-      "change_pct": 5.21
+      "change_pct": 5.08
     },
     {
       "symbol": "BALKRISIND",
       "name": "Balkrishna Industries",
-      "current_price": 2410.3,
+      "current_price": 2402.0,
       "trigger": 2203.4,
-      "target1": 2744.37,
-      "sl": 2169.77,
+      "target1": 2728.85,
+      "sl": 2166.67,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,203.40 with Accumulation structure.",
-      "change_pct": 10.03
+      "change_pct": 9.66
     },
     {
       "symbol": "HEG",
@@ -42,19 +42,19 @@
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 05:01 AM",
+  "timestamp": "05 Nov 2026, 05:16 AM",
   "date_tag": "2026-11-05",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24397.75,
-      "change_pct": 1.82,
+      "price": 24363.0,
+      "change_pct": 1.68,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 78806.95,
-      "change_pct": 1.95,
+      "price": 78841.84,
+      "change_pct": 1.99,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.12,
-      "change_pct": -8.29,
+      "price": 86.83,
+      "change_pct": -1.46,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 154,
-    "declines": 20,
+    "advances": 153,
+    "declines": 21,
     "total": 175
   }
 }
