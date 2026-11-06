@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 24700,
-  "nifty_resistance": 25100,
+  "nifty_support": 24750,
+  "nifty_resistance": 25150,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $89.14.",
-    "Universe breadth shows 56 advancing vs 117 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,700 | Resistance cap at 25,100."
+    "US Markets closed down 4.36% with Brent Crude hovering around $89.29.",
+    "Universe breadth shows 58 advancing vs 116 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,750 | Resistance cap at 25,150."
   ],
   "top_setups": [
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3517.9,
+      "current_price": 3530.1,
       "trigger": 3545.08,
-      "target1": 4044.98,
-      "sl": 3138.4,
+      "target1": 4063.93,
+      "sl": 3145.75,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,545.08 with Accumulation structure.",
-      "change_pct": 4.51
+      "change_pct": 4.88
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 784.45,
+      "current_price": 785.45,
       "trigger": 764.23,
-      "target1": 897.16,
-      "sl": 703.3,
+      "target1": 898.83,
+      "sl": 703.82,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9764.23 with Accumulation structure.",
-      "change_pct": 3.22
+      "change_pct": 3.35
     },
     {
       "symbol": "IKIO",
       "name": "IKIO Technologies Ltd",
-      "current_price": 200.64,
+      "current_price": 194.83,
       "trigger": 193.37,
-      "target1": 236.17,
-      "sl": 175.06,
+      "target1": 225.59,
+      "sl": 172.68,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9193.37 with Accumulation structure.",
-      "change_pct": 15.38
+      "change_pct": 12.04
     }
   ],
   "risk_warning": "Defensive alert on Astral Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 09:37 AM",
+  "timestamp": "06 Nov 2026, 09:46 AM",
   "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24918.2,
-      "change_pct": 1.56,
+      "price": 24938.9,
+      "change_pct": 1.64,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80645.18,
-      "change_pct": 1.68,
+      "price": 80649.01,
+      "change_pct": 1.69,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.14,
-      "change_pct": -1.52,
+      "price": 89.29,
+      "change_pct": -1.36,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.85,
-      "change_pct": -0.7,
+      "price": 93.93,
+      "change_pct": -0.62,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 56,
-    "declines": 117,
+    "advances": 58,
+    "declines": 116,
     "total": 175
   }
 };
