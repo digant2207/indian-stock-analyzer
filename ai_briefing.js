@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 24450,
-  "nifty_resistance": 24850,
+  "nifty_support": 24500,
+  "nifty_resistance": 24900,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $91.71.",
-    "Universe breadth shows 55 advancing vs 119 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,450 | Resistance cap at 24,850."
+    "US Markets closed down 4.36% with Brent Crude hovering around $90.52.",
+    "Universe breadth shows 61 advancing vs 112 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,500 | Resistance cap at 24,900."
   ],
   "top_setups": [
     {
-      "symbol": "IKIO",
-      "name": "IKIO Technologies Ltd",
-      "current_price": 199.19,
-      "trigger": 196.23,
-      "target1": 236.21,
-      "sl": 172.53,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9196.23 with Accumulation structure.",
-      "change_pct": 14.52
-    },
-    {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2592.3,
+      "current_price": 2607.0,
       "trigger": 2623.64,
-      "target1": 2750.12,
-      "sl": 2478.67,
+      "target1": 2770.61,
+      "sl": 2489.2,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,623.64 with Accumulation structure.",
-      "change_pct": 3.28
+      "change_pct": 3.86
     },
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2534.2,
+      "current_price": 2547.1,
       "trigger": 2521.83,
-      "target1": 2954.52,
-      "sl": 2231.57,
+      "target1": 2974.64,
+      "sl": 2239.27,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b92,521.83 with Accumulation structure.",
-      "change_pct": 1.18
+      "change_pct": 1.69
+    },
+    {
+      "symbol": "IKIO",
+      "name": "IKIO Technologies Ltd",
+      "current_price": 195.5,
+      "trigger": 196.23,
+      "target1": 229.83,
+      "sl": 170.78,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9196.23 with Accumulation structure.",
+      "change_pct": 12.4
     }
   ],
   "risk_warning": "Defensive alert on Astral Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 04:46 AM",
+  "timestamp": "06 Nov 2026, 05:01 AM",
   "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24641.55,
-      "change_pct": 0.43,
+      "price": 24685.2,
+      "change_pct": 0.61,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 79826.61,
-      "change_pct": 0.65,
+      "price": 79849.2,
+      "change_pct": 0.68,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.71,
-      "change_pct": 4.07,
+      "price": 90.52,
+      "change_pct": 2.72,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.39,
-      "change_pct": -0.13,
+      "price": 94.07,
+      "change_pct": -0.47,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 55,
-    "declines": 119,
+    "advances": 61,
+    "declines": 112,
     "total": 175
   }
 };
