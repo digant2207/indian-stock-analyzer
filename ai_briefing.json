@@ -1,55 +1,55 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 24350,
-  "nifty_resistance": 24750,
+  "nifty_support": 24200,
+  "nifty_resistance": 24600,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $91.33.",
-    "Universe breadth shows 125 advancing vs 49 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,350 | Resistance cap at 24,750."
+    "US Markets closed down 4.36% with Brent Crude hovering around $92.04.",
+    "Universe breadth shows 43 advancing vs 130 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,200 | Resistance cap at 24,600."
   ],
   "top_setups": [
     {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero Motocorp Ltd",
-      "current_price": 5514.0,
-      "trigger": 5426.5,
-      "target1": 5956.17,
-      "sl": 5195.64,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b95,426.50 with Accumulation structure.",
-      "change_pct": 2.12
+      "symbol": "HEG",
+      "name": "HEG",
+      "current_price": 295.42,
+      "trigger": 289.62,
+      "target1": 401.1,
+      "sl": 219.33,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9289.62 with Accumulation structure.",
+      "change_pct": 2.51
     },
     {
-      "symbol": "IOC",
-      "name": "Indian Oil Corporation Ltd",
-      "current_price": 144.5,
-      "trigger": 142.74,
-      "target1": 162.51,
-      "sl": 131.54,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9142.74 with Accumulation structure.",
-      "change_pct": 1.74
+      "symbol": "UNIVPHOTO",
+      "name": "Universus Photo Imagings Ltd",
+      "current_price": 497.15,
+      "trigger": 500.85,
+      "target1": 588.53,
+      "sl": 431.36,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9500.85 with Accumulation structure.",
+      "change_pct": 1.9
     },
     {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 760.0,
-      "trigger": 742.78,
-      "target1": 845.37,
-      "sl": 698.53,
-      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9742.78 with Accumulation structure.",
-      "change_pct": 3.16
+      "symbol": "ORICONENT",
+      "name": "Oricon Enterprises Ltd",
+      "current_price": 57.77,
+      "trigger": 58.82,
+      "target1": 69.22,
+      "sl": 49.52,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b958.82 with Accumulation structure.",
+      "change_pct": 0.38
     }
   ],
-  "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 03:31 AM",
+  "timestamp": "06 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24536.6,
-      "change_pct": 2.4,
-      "status": "up"
+      "price": 24404.0,
+      "change_pct": -0.54,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.33,
-      "change_pct": 3.64,
+      "price": 92.04,
+      "change_pct": 4.45,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.49,
-      "change_pct": -0.03,
+      "price": 94.43,
+      "change_pct": -0.09,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 125,
-    "declines": 49,
+    "advances": 43,
+    "declines": 130,
     "total": 175
   }
 }
