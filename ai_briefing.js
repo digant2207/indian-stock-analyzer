@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 24450,
   "nifty_resistance": 24850,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $91.83.",
+    "US Markets closed down 4.36% with Brent Crude hovering around $91.71.",
     "Universe breadth shows 55 advancing vs 119 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,450 | Resistance cap at 24,850."
   ],
   "top_setups": [
     {
+      "symbol": "IKIO",
+      "name": "IKIO Technologies Ltd",
+      "current_price": 199.19,
+      "trigger": 196.23,
+      "target1": 236.21,
+      "sl": 172.53,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9196.23 with Accumulation structure.",
+      "change_pct": 14.52
+    },
+    {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2607.1,
+      "current_price": 2592.3,
       "trigger": 2623.64,
-      "target1": 2770.76,
-      "sl": 2489.27,
+      "target1": 2750.12,
+      "sl": 2478.67,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,623.64 with Accumulation structure.",
-      "change_pct": 3.87
+      "change_pct": 3.28
     },
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2538.0,
+      "current_price": 2534.2,
       "trigger": 2521.83,
-      "target1": 2960.42,
-      "sl": 2233.86,
+      "target1": 2954.52,
+      "sl": 2231.57,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b92,521.83 with Accumulation structure.",
-      "change_pct": 1.33
-    },
-    {
-      "symbol": "IKIO",
-      "name": "IKIO Technologies Ltd",
-      "current_price": 195.5,
-      "trigger": 196.23,
-      "target1": 229.83,
-      "sl": 170.78,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9196.23 with Accumulation structure.",
-      "change_pct": 12.4
+      "change_pct": 1.18
     }
   ],
-  "risk_warning": "Defensive alert on Astral Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Astral Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 04:31 AM",
+  "timestamp": "06 Nov 2026, 04:46 AM",
   "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24634.1,
-      "change_pct": 0.4,
+      "price": 24641.55,
+      "change_pct": 0.43,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 79682.49,
-      "change_pct": 0.47,
+      "price": 79826.61,
+      "change_pct": 0.65,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.83,
-      "change_pct": 4.21,
+      "price": 91.71,
+      "change_pct": 4.07,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.41,
-      "change_pct": -0.11,
+      "price": 94.39,
+      "change_pct": -0.13,
       "status": "down"
     }
   },
