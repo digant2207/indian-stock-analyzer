@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 24550,
   "nifty_resistance": 24950,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $91.32.",
+    "US Markets closed down 4.36% with Brent Crude hovering around $91.47.",
     "Universe breadth shows 54 advancing vs 119 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,550 | Resistance cap at 24,950."
   ],
@@ -12,49 +12,49 @@ window.AI_BRIEFING = {
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 778.05,
+      "current_price": 778.7,
       "trigger": 764.23,
-      "target1": 886.62,
-      "sl": 699.88,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9764.23 with Accumulation structure.",
-      "change_pct": 2.37
+      "target1": 887.68,
+      "sl": 700.23,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9764.23 with Accumulation structure.",
+      "change_pct": 2.46
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3469.1,
+      "current_price": 3474.9,
       "trigger": 3545.08,
-      "target1": 3971.06,
-      "sl": 3107.69,
+      "target1": 3979.68,
+      "sl": 3111.45,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b93,545.08 with Accumulation structure.",
-      "change_pct": 3.06
+      "change_pct": 3.24
     },
     {
       "symbol": "IKIO",
       "name": "IKIO Technologies Ltd",
-      "current_price": 203.8,
+      "current_price": 202.41,
       "trigger": 196.23,
-      "target1": 244.38,
-      "sl": 174.58,
+      "target1": 241.9,
+      "sl": 173.98,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9196.23 with Accumulation structure.",
-      "change_pct": 17.17
+      "change_pct": 16.37
     }
   ],
   "risk_warning": "Defensive alert on Astral Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 07:46 AM",
+  "timestamp": "06 Nov 2026, 08:01 AM",
   "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24738.0,
+      "price": 24736.95,
       "change_pct": 0.82,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 79892.52,
-      "change_pct": 0.73,
+      "price": 80168.35,
+      "change_pct": 1.08,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.32,
-      "change_pct": 0.88,
+      "price": 91.47,
+      "change_pct": 1.05,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.09,
-      "change_pct": -0.45,
+      "price": 94.03,
+      "change_pct": -0.52,
       "status": "down"
     }
   },
