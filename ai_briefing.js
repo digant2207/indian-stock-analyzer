@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 24400,
   "nifty_resistance": 24800,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $91.54.",
-    "Universe breadth shows 47 advancing vs 127 declining stocks across 175 scanned equities.",
+    "US Markets closed down 4.36% with Brent Crude hovering around $91.65.",
+    "Universe breadth shows 54 advancing vs 120 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,400 | Resistance cap at 24,800."
   ],
   "top_setups": [
     {
       "symbol": "IKIO",
       "name": "IKIO Technologies Ltd",
-      "current_price": 201.75,
+      "current_price": 201.25,
       "trigger": 196.23,
-      "target1": 240.72,
-      "sl": 173.69,
+      "target1": 239.84,
+      "sl": 173.47,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9196.23 with Accumulation structure.",
-      "change_pct": 15.99
+      "change_pct": 15.7
     },
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2576.1,
+      "current_price": 2608.0,
       "trigger": 2521.83,
-      "target1": 3020.73,
-      "sl": 2255.97,
+      "target1": 3072.65,
+      "sl": 2273.45,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,521.83 with Accumulation structure.",
-      "change_pct": 2.85
+      "change_pct": 4.12
     },
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "current_price": 2579.7,
+      "current_price": 2586.1,
       "trigger": 2623.64,
-      "target1": 2733.43,
-      "sl": 2469.02,
+      "target1": 2741.8,
+      "sl": 2473.99,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,623.64 with Accumulation structure.",
-      "change_pct": 2.78
+      "change_pct": 3.03
     }
   ],
-  "risk_warning": "Defensive alert on Astral Ltd, Supreme Industries due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Astral Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 06:01 AM",
+  "timestamp": "06 Nov 2026, 06:15 AM",
   "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24593.85,
-      "change_pct": 0.23,
+      "price": 24613.35,
+      "change_pct": 0.31,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 79760.03,
-      "change_pct": 0.57,
+      "price": 79715.12,
+      "change_pct": 0.51,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.54,
-      "change_pct": 1.13,
+      "price": 91.65,
+      "change_pct": 1.25,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.15,
-      "change_pct": -0.39,
+      "price": 94.09,
+      "change_pct": -0.45,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 47,
-    "declines": 127,
+    "advances": 54,
+    "declines": 120,
     "total": 175
   }
 };
