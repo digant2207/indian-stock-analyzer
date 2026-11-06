@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 24350,
   "nifty_resistance": 24750,
   "executive_bullets": [
-    "US Markets closed up 1.58% with Brent Crude hovering around $89.66.",
-    "Universe breadth shows 117 advancing vs 57 declining stocks across 175 scanned equities.",
+    "US Markets closed down 4.36% with Brent Crude hovering around $91.33.",
+    "Universe breadth shows 125 advancing vs 49 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,350 | Resistance cap at 24,750."
   ],
   "top_setups": [
@@ -30,20 +30,20 @@ window.AI_BRIEFING = {
       "change_pct": 1.74
     },
     {
-      "symbol": "CAMS",
-      "name": "Computer Age Management Services Ltd",
-      "current_price": 715.35,
-      "trigger": 712.12,
-      "target1": 782.81,
-      "sl": 666.78,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9712.12 with Accumulation structure.",
-      "change_pct": 2.89
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "current_price": 760.0,
+      "trigger": 742.78,
+      "target1": 845.37,
+      "sl": 698.53,
+      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b9742.78 with Accumulation structure.",
+      "change_pct": 3.16
     }
   ],
   "risk_warning": "Defensive alert on PI Industries Ltd, Oil India Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "05 Nov 2026, 12:18 PM",
-  "date_tag": "2026-11-05",
+  "timestamp": "06 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7688.62,
-      "change_pct": 1.58,
-      "status": "up"
+      "price": 7353.73,
+      "change_pct": -4.36,
+      "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25736.51,
-      "change_pct": 1.44,
-      "status": "up"
+      "price": 24315.0,
+      "change_pct": -5.52,
+      "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.66,
-      "change_pct": 1.75,
+      "price": 91.33,
+      "change_pct": 3.64,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.47,
-      "change_pct": -0.29,
+      "price": 94.49,
+      "change_pct": -0.03,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 117,
-    "declines": 57,
+    "advances": 125,
+    "declines": 49,
     "total": 175
   }
 };
