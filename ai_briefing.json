@@ -4,8 +4,8 @@
   "nifty_support": 24850,
   "nifty_resistance": 25250,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $89.15.",
-    "Universe breadth shows 64 advancing vs 109 declining stocks across 175 scanned equities.",
+    "US Markets closed down 4.36% with Brent Crude hovering around $89.75.",
+    "Universe breadth shows 61 advancing vs 112 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,250."
   ],
   "top_setups": [
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on Astral Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 10:01 AM",
+  "timestamp": "06 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80771.17,
-      "change_pct": 1.84,
+      "price": 81028.02,
+      "change_pct": 2.17,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.15,
-      "change_pct": -1.51,
+      "price": 89.75,
+      "change_pct": -0.85,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.89,
-      "change_pct": -0.66,
+      "price": 93.91,
+      "change_pct": -0.64,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 64,
-    "declines": 109,
+    "advances": 61,
+    "declines": 112,
     "total": 175
   }
 }
