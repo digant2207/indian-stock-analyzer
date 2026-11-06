@@ -1,33 +1,33 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 24450,
-  "nifty_resistance": 24850,
+  "nifty_support": 24500,
+  "nifty_resistance": 24900,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $91.61.",
-    "Universe breadth shows 48 advancing vs 125 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,450 | Resistance cap at 24,850."
+    "US Markets closed down 4.36% with Brent Crude hovering around $91.50.",
+    "Universe breadth shows 48 advancing vs 126 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,500 | Resistance cap at 24,900."
   ],
   "top_setups": [
     {
       "symbol": "IKIO",
       "name": "IKIO Technologies Ltd",
-      "current_price": 204.62,
+      "current_price": 204.12,
       "trigger": 196.23,
-      "target1": 245.85,
-      "sl": 174.94,
+      "target1": 244.95,
+      "sl": 174.72,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9196.23 with Accumulation structure.",
-      "change_pct": 17.64
+      "change_pct": 17.35
     },
     {
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals",
-      "current_price": 2600.0,
+      "current_price": 2618.1,
       "trigger": 2521.83,
-      "target1": 3059.52,
-      "sl": 2269.15,
+      "target1": 3089.33,
+      "sl": 2278.82,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b92,521.83 with Accumulation structure.",
-      "change_pct": 3.8
+      "change_pct": 4.53
     },
     {
       "symbol": "HEG",
@@ -40,21 +40,21 @@ window.AI_BRIEFING = {
       "change_pct": 2.51
     }
   ],
-  "risk_warning": "Defensive alert on Astral Ltd, Supreme Industries due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Astral Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 06:46 AM",
+  "timestamp": "06 Nov 2026, 07:01 AM",
   "date_tag": "2026-11-06",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24654.65,
-      "change_pct": 0.48,
+      "price": 24696.35,
+      "change_pct": 0.65,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 79795.61,
-      "change_pct": 0.61,
+      "price": 79922.53,
+      "change_pct": 0.77,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.61,
-      "change_pct": 1.2,
+      "price": 91.5,
+      "change_pct": 1.08,
       "status": "up"
     },
     "USD/INR": {
@@ -84,7 +84,7 @@ window.AI_BRIEFING = {
   },
   "market_breadth": {
     "advances": 48,
-    "declines": 125,
+    "declines": 126,
     "total": 175
   }
 };
