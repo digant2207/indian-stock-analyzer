@@ -1,11 +1,11 @@
 {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 24850,
   "nifty_resistance": 25250,
   "executive_bullets": [
-    "US Markets closed down 4.36% with Brent Crude hovering around $90.82.",
-    "Universe breadth shows 61 advancing vs 112 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.31% with Brent Crude hovering around $90.83.",
+    "Universe breadth shows 60 advancing vs 113 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,250."
   ],
   "top_setups": [
@@ -42,8 +42,8 @@
   ],
   "risk_warning": "Defensive alert on Astral Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "06 Nov 2026, 12:04 PM",
-  "date_tag": "2026-11-06",
+  "timestamp": "07 Nov 2026, 09:00 AM",
+  "date_tag": "2026-11-07",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7353.73,
-      "change_pct": -4.36,
-      "status": "down"
+      "price": 7376.86,
+      "change_pct": 0.31,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 24315.0,
-      "change_pct": -5.52,
-      "status": "down"
+      "price": 24579.43,
+      "change_pct": 1.09,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.82,
-      "change_pct": 0.33,
+      "price": 90.83,
+      "change_pct": 0.34,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.9,
-      "change_pct": -0.65,
+      "price": 93.91,
+      "change_pct": -0.58,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 61,
-    "declines": 112,
+    "advances": 60,
+    "declines": 113,
     "total": 175
   }
 }
