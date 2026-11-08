@@ -2,59 +2,59 @@
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 24850,
-  "nifty_resistance": 25250,
+  "nifty_resistance": 25300,
   "executive_bullets": [
     "US Markets closed up 0.31% with Brent Crude hovering around $90.83.",
-    "Universe breadth shows 60 advancing vs 113 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,250."
+    "Universe breadth shows 0 advancing vs 2 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,300."
   ],
   "top_setups": [
-    {
-      "symbol": "MCX",
-      "name": "Multi Commodity Exchange",
-      "current_price": 3528.0,
-      "trigger": 3545.08,
-      "target1": 4060.65,
-      "sl": 3144.49,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,545.08 with Accumulation structure.",
-      "change_pct": 4.81
-    },
-    {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 788.25,
-      "trigger": 764.23,
-      "target1": 903.51,
-      "sl": 705.26,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9764.23 with Accumulation structure.",
-      "change_pct": 3.72
-    },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
       "current_price": 5513.0,
-      "trigger": 5541.57,
-      "target1": 6033.32,
-      "sl": 5138.37,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,541.57 with Accumulation structure.",
-      "change_pct": -0.02
+      "trigger": 5561.1,
+      "target1": 6091.33,
+      "sl": 5096.6,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
+      "change_pct": 0.0
+    },
+    {
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 174.41,
+      "trigger": 178.36,
+      "target1": 197.69,
+      "sl": 157.65,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9178.36 with Accumulation structure.",
+      "change_pct": 0.0
+    },
+    {
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 187.0,
+      "trigger": 189.28,
+      "target1": 196.42,
+      "sl": 180.22,
+      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b9189.28 with Accumulation structure.",
+      "change_pct": 0.0
     }
   ],
-  "risk_warning": "Defensive alert on Astral Ltd, Bajaj Housing Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Finance Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "07 Nov 2026, 09:00 AM",
-  "date_tag": "2026-11-07",
+  "timestamp": "08 Nov 2026, 09:18 AM",
+  "date_tag": "2026-11-08",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25030.35,
-      "change_pct": 2.01,
+      "price": 25074.5,
+      "change_pct": 0.18,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
       "price": 81028.02,
-      "change_pct": 2.17,
+      "change_pct": 0.0,
       "status": "up"
     },
     "S&P 500": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 60,
-    "declines": 113,
+    "advances": 0,
+    "declines": 2,
     "total": 175
   }
 }
