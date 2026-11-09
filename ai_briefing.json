@@ -4,57 +4,57 @@
   "nifty_support": 24750,
   "nifty_resistance": 25150,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $91.34.",
-    "Universe breadth shows 107 advancing vs 67 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.31% with Brent Crude hovering around $91.24.",
+    "Universe breadth shows 110 advancing vs 65 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,750 | Resistance cap at 25,150."
   ],
   "top_setups": [
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 217.0,
+      "current_price": 218.0,
       "trigger": 200.49,
-      "target1": 260.4,
-      "sl": 185.75,
+      "target1": 262.19,
+      "sl": 186.19,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 12.13
+      "change_pct": 12.65
     },
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 673.45,
+      "current_price": 674.7,
       "trigger": 631.06,
-      "target1": 775.52,
-      "sl": 599.96,
+      "target1": 777.76,
+      "sl": 600.5,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
-      "change_pct": 12.58
+      "change_pct": 12.79
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3552.8,
+      "current_price": 3565.3,
       "trigger": 3557.1,
-      "target1": 4165.05,
-      "sl": 3111.98,
+      "target1": 4183.67,
+      "sl": 3120.07,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,557.10 with Accumulation structure.",
-      "change_pct": 0.7
+      "change_pct": 1.06
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 04:31 AM",
+  "timestamp": "09 Nov 2026, 04:46 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24940.45,
-      "change_pct": -0.36,
+      "price": 24929.9,
+      "change_pct": -0.4,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80898.8,
-      "change_pct": -0.16,
+      "price": 80848.06,
+      "change_pct": -0.22,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.34,
-      "change_pct": 0.56,
+      "price": 91.24,
+      "change_pct": 0.45,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.83,
-      "change_pct": -0.67,
+      "price": 93.79,
+      "change_pct": -0.7,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 107,
-    "declines": 67,
+    "advances": 110,
+    "declines": 65,
     "total": 175
   }
 }
