@@ -4,57 +4,57 @@
   "nifty_support": 24800,
   "nifty_resistance": 25200,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $89.68.",
-    "Universe breadth shows 109 advancing vs 66 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.31% with Brent Crude hovering around $89.77.",
+    "Universe breadth shows 112 advancing vs 63 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,800 | Resistance cap at 25,200."
   ],
   "top_setups": [
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 796.35,
+      "current_price": 797.25,
       "trigger": 792.19,
-      "target1": 938.44,
-      "sl": 694.05,
+      "target1": 939.85,
+      "sl": 694.58,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9792.19 with Accumulation structure.",
-      "change_pct": 1.03
-    },
-    {
-      "symbol": "IOC",
-      "name": "Indian Oil Corporation Ltd",
-      "current_price": 147.45,
-      "trigger": 147.6,
-      "target1": 172.16,
-      "sl": 129.66,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9147.60 with Accumulation structure.",
-      "change_pct": 0.82
+      "change_pct": 1.14
     },
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 207.13,
+      "current_price": 210.16,
       "trigger": 200.49,
-      "target1": 243.28,
-      "sl": 181.1,
+      "target1": 248.43,
+      "sl": 182.6,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 7.03
+      "change_pct": 8.6
+    },
+    {
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 131.99,
+      "trigger": 127.18,
+      "target1": 143.39,
+      "sl": 123.78,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9127.18 with Accumulation structure.",
+      "change_pct": 4.3
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 09:01 AM",
+  "timestamp": "09 Nov 2026, 09:16 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24989.45,
-      "change_pct": -0.16,
+      "price": 25006.25,
+      "change_pct": -0.1,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80993.45,
-      "change_pct": -0.04,
+      "price": 81018.07,
+      "change_pct": -0.01,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.68,
-      "change_pct": -1.27,
+      "price": 89.77,
+      "change_pct": -1.17,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.95,
-      "change_pct": -0.54,
+      "price": 93.96,
+      "change_pct": -0.53,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 109,
-    "declines": 66,
+    "advances": 112,
+    "declines": 63,
     "total": 175
   }
 }
