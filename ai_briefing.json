@@ -4,57 +4,57 @@
   "nifty_support": 24700,
   "nifty_resistance": 25100,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $89.73.",
-    "Universe breadth shows 107 advancing vs 68 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.31% with Brent Crude hovering around $89.78.",
+    "Universe breadth shows 102 advancing vs 72 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,700 | Resistance cap at 25,100."
   ],
   "top_setups": [
     {
+      "symbol": "JMA",
+      "name": "Jullundur Motor Agency (Delhi) Ltd",
+      "current_price": 91.8,
+      "trigger": 89.18,
+      "target1": 103.15,
+      "sl": 83.63,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b989.18 with Accumulation structure.",
+      "change_pct": 10.01
+    },
+    {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 792.2,
+      "current_price": 791.5,
       "trigger": 792.19,
-      "target1": 931.98,
-      "sl": 691.56,
+      "target1": 930.9,
+      "sl": 691.13,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9792.19 with Accumulation structure.",
-      "change_pct": 0.5
+      "change_pct": 0.41
     },
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 210.31,
+      "current_price": 210.32,
       "trigger": 200.49,
-      "target1": 248.69,
+      "target1": 248.71,
       "sl": 182.68,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
       "change_pct": 8.68
-    },
-    {
-      "symbol": "JMA",
-      "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 92.5,
-      "trigger": 89.18,
-      "target1": 104.45,
-      "sl": 83.9,
-      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b989.18 with Accumulation structure.",
-      "change_pct": 10.84
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 07:45 AM",
+  "timestamp": "09 Nov 2026, 08:01 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24892.9,
-      "change_pct": -0.55,
+      "price": 24879.95,
+      "change_pct": -0.6,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80800.8,
-      "change_pct": -0.28,
+      "price": 80643.46,
+      "change_pct": -0.47,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.73,
-      "change_pct": -1.21,
+      "price": 89.78,
+      "change_pct": -1.16,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 107,
-    "declines": 68,
+    "advances": 102,
+    "declines": 72,
     "total": 175
   }
 }
