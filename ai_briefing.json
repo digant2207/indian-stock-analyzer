@@ -4,8 +4,8 @@
   "nifty_support": 24700,
   "nifty_resistance": 25100,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $89.63.",
-    "Universe breadth shows 107 advancing vs 68 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.31% with Brent Crude hovering around $90.20.",
+    "Universe breadth shows 108 advancing vs 64 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,700 | Resistance cap at 25,100."
   ],
   "top_setups": [
@@ -22,39 +22,39 @@
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 209.7,
+      "current_price": 211.65,
       "trigger": 200.49,
-      "target1": 247.64,
-      "sl": 182.38,
+      "target1": 251.0,
+      "sl": 183.32,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 8.36
+      "change_pct": 9.37
     },
     {
       "symbol": "OBEROIRLTY",
       "name": "Oberoi Realty Ltd",
-      "current_price": 1784.4,
+      "current_price": 1779.7,
       "trigger": 1763.62,
-      "target1": 2002.43,
-      "sl": 1627.42,
+      "target1": 1995.1,
+      "sl": 1624.61,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,763.62 with Accumulation structure.",
-      "change_pct": 2.61
+      "change_pct": 2.34
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 07:01 AM",
+  "timestamp": "09 Nov 2026, 07:16 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24877.1,
-      "change_pct": -0.61,
+      "price": 24909.1,
+      "change_pct": -0.48,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80748.0,
-      "change_pct": -0.35,
+      "price": 80652.27,
+      "change_pct": -0.46,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.63,
-      "change_pct": -1.32,
+      "price": 90.2,
+      "change_pct": -0.69,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.85,
-      "change_pct": -0.65,
+      "price": 93.95,
+      "change_pct": -0.54,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 107,
-    "declines": 68,
+    "advances": 108,
+    "declines": 64,
     "total": 175
   }
 }
