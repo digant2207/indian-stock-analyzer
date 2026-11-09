@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24800,
-  "nifty_resistance": 25200,
+  "nifty_support": 24750,
+  "nifty_resistance": 25150,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $91.15.",
-    "Universe breadth shows 99 advancing vs 72 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,800 | Resistance cap at 25,200."
+    "US Markets closed up 0.31% with Brent Crude hovering around $91.13.",
+    "Universe breadth shows 102 advancing vs 71 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,750 | Resistance cap at 25,150."
   ],
   "top_setups": [
     {
-      "symbol": "JMA",
-      "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 90.8,
-      "trigger": 89.18,
-      "target1": 101.31,
-      "sl": 83.23,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b989.18 with Accumulation structure.",
-      "change_pct": 8.81
-    },
-    {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 659.65,
+      "current_price": 658.1,
       "trigger": 631.06,
-      "target1": 751.16,
-      "sl": 593.76,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
-      "change_pct": 10.27
+      "target1": 748.47,
+      "sl": 593.04,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
+      "change_pct": 10.01
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3550.0,
+      "current_price": 3559.3,
       "trigger": 3557.1,
-      "target1": 4160.9,
-      "sl": 3110.15,
+      "target1": 4174.71,
+      "sl": 3116.2,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,557.10 with Accumulation structure.",
-      "change_pct": 0.62
+      "change_pct": 0.89
+    },
+    {
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 176.64,
+      "trigger": 178.36,
+      "target1": 200.66,
+      "sl": 159.35,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9178.36 with Accumulation structure.",
+      "change_pct": 1.28
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 03:46 AM",
+  "timestamp": "09 Nov 2026, 04:01 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24991.15,
-      "change_pct": -0.16,
+      "price": 24938.8,
+      "change_pct": -0.37,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81028.02,
-      "change_pct": 2.17,
+      "price": 81096.89,
+      "change_pct": 0.08,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.15,
-      "change_pct": 0.35,
+      "price": 91.13,
+      "change_pct": 0.33,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.69,
-      "change_pct": -0.81,
+      "price": 93.73,
+      "change_pct": -0.77,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 99,
-    "declines": 72,
+    "advances": 102,
+    "declines": 71,
     "total": 175
   }
 };
