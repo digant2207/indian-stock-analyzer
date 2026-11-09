@@ -1,8 +1,8 @@
 {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 24.9,
-  "overall_avg_return_per_trade": -2.56,
+  "overall_win_rate": 24.4,
+  "overall_avg_return_per_trade": -2.66,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -30,11 +30,11 @@
     },
     {
       "symbol": "ASIANTILES.NS",
-      "total_trades": 11,
-      "win_rate": 9.1,
-      "avg_return": -9.04,
-      "total_wins": 1,
-      "total_losses": 10
+      "total_trades": 9,
+      "win_rate": 0.0,
+      "avg_return": -11.24,
+      "total_wins": 0,
+      "total_losses": 9
     },
     {
       "symbol": "ATGL.NS",

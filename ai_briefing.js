@@ -4,58 +4,58 @@ window.AI_BRIEFING = {
   "nifty_support": 24800,
   "nifty_resistance": 25200,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $91.20.",
-    "Universe breadth shows 120 advancing vs 49 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.31% with Brent Crude hovering around $91.15.",
+    "Universe breadth shows 99 advancing vs 72 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,800 | Resistance cap at 25,200."
   ],
   "top_setups": [
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 90.18,
+      "current_price": 90.8,
       "trigger": 89.18,
-      "target1": 100.18,
-      "sl": 82.98,
+      "target1": 101.31,
+      "sl": 83.23,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b989.18 with Accumulation structure.",
-      "change_pct": 8.06
+      "change_pct": 8.81
     },
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 684.8,
+      "current_price": 659.65,
       "trigger": 631.06,
-      "target1": 796.0,
-      "sl": 604.74,
+      "target1": 751.16,
+      "sl": 593.76,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
-      "change_pct": 14.48
+      "change_pct": 10.27
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3557.0,
+      "current_price": 3550.0,
       "trigger": 3557.1,
-      "target1": 4171.29,
-      "sl": 3114.71,
+      "target1": 4160.9,
+      "sl": 3110.15,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,557.10 with Accumulation structure.",
-      "change_pct": 0.82
+      "change_pct": 0.62
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 03:31 AM",
+  "timestamp": "09 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24986.4,
-      "change_pct": -0.18,
+      "price": 24991.15,
+      "change_pct": -0.16,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80999.4,
-      "change_pct": -0.04,
-      "status": "down"
+      "price": 81028.02,
+      "change_pct": 2.17,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.2,
-      "change_pct": 0.41,
+      "price": 91.15,
+      "change_pct": 0.35,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.82,
-      "change_pct": -0.68,
+      "price": 93.69,
+      "change_pct": -0.81,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 120,
-    "declines": 49,
+    "advances": 99,
+    "declines": 72,
     "total": 175
   }
 };
