@@ -4,58 +4,58 @@ window.AI_BRIEFING = {
   "nifty_support": 24750,
   "nifty_resistance": 25150,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $91.13.",
-    "Universe breadth shows 102 advancing vs 71 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.31% with Brent Crude hovering around $91.34.",
+    "Universe breadth shows 100 advancing vs 74 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,750 | Resistance cap at 25,150."
   ],
   "top_setups": [
     {
+      "symbol": "SPARC",
+      "name": "Sun Pharma Advanced Research Co Ltd",
+      "current_price": 211.0,
+      "trigger": 200.49,
+      "target1": 249.88,
+      "sl": 183.01,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
+      "change_pct": 9.03
+    },
+    {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 658.1,
+      "current_price": 668.0,
       "trigger": 631.06,
-      "target1": 748.47,
-      "sl": 593.04,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
-      "change_pct": 10.01
+      "target1": 765.82,
+      "sl": 597.57,
+      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
+      "change_pct": 11.67
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3559.3,
+      "current_price": 3557.0,
       "trigger": 3557.1,
-      "target1": 4174.71,
-      "sl": 3116.2,
+      "target1": 4171.29,
+      "sl": 3114.71,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,557.10 with Accumulation structure.",
-      "change_pct": 0.89
-    },
-    {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 176.64,
-      "trigger": 178.36,
-      "target1": 200.66,
-      "sl": 159.35,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9178.36 with Accumulation structure.",
-      "change_pct": 1.28
+      "change_pct": 0.82
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 04:01 AM",
+  "timestamp": "09 Nov 2026, 04:15 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24938.8,
-      "change_pct": -0.37,
+      "price": 24950.7,
+      "change_pct": -0.32,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81096.89,
-      "change_pct": 0.08,
-      "status": "up"
+      "price": 80896.23,
+      "change_pct": -0.16,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.13,
-      "change_pct": 0.33,
+      "price": 91.34,
+      "change_pct": 0.56,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.73,
-      "change_pct": -0.77,
+      "price": 93.83,
+      "change_pct": -0.66,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 71,
+    "advances": 100,
+    "declines": 74,
     "total": 175
   }
 };
