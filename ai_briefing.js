@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 11:01 AM",
+  "timestamp": "09 Nov 2026, 11:16 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
