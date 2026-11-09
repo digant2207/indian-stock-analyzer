@@ -1,60 +1,60 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24750,
-  "nifty_resistance": 25150,
+  "nifty_support": 24800,
+  "nifty_resistance": 25200,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $89.68.",
-    "Universe breadth shows 109 advancing vs 66 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,750 | Resistance cap at 25,150."
+    "US Markets closed up 0.31% with Brent Crude hovering around $89.39.",
+    "Universe breadth shows 108 advancing vs 67 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,800 | Resistance cap at 25,200."
   ],
   "top_setups": [
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 92.0,
+      "current_price": 92.2,
       "trigger": 89.18,
-      "target1": 103.52,
-      "sl": 83.7,
+      "target1": 103.89,
+      "sl": 83.78,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b989.18 with Accumulation structure.",
-      "change_pct": 10.25
+      "change_pct": 10.49
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 794.35,
+      "current_price": 795.5,
       "trigger": 792.19,
-      "target1": 935.32,
-      "sl": 692.85,
+      "target1": 937.11,
+      "sl": 693.54,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9792.19 with Accumulation structure.",
-      "change_pct": 0.77
+      "change_pct": 0.92
     },
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "current_price": 147.8,
+      "current_price": 147.54,
       "trigger": 147.6,
-      "target1": 172.68,
-      "sl": 129.88,
+      "target1": 172.29,
+      "sl": 129.72,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9147.60 with Accumulation structure.",
-      "change_pct": 1.06
+      "change_pct": 0.88
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 08:31 AM",
+  "timestamp": "09 Nov 2026, 08:46 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24932.6,
-      "change_pct": -0.39,
+      "price": 24977.9,
+      "change_pct": -0.21,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80758.0,
-      "change_pct": -0.33,
+      "price": 80833.41,
+      "change_pct": -0.24,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.68,
-      "change_pct": -1.27,
+      "price": 89.39,
+      "change_pct": -1.59,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.01,
-      "change_pct": -0.48,
+      "price": 93.94,
+      "change_pct": -0.55,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 109,
-    "declines": 66,
+    "advances": 108,
+    "declines": 67,
     "total": 175
   }
 }
