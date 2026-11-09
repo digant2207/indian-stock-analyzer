@@ -1,60 +1,60 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24700,
-  "nifty_resistance": 25100,
+  "nifty_support": 24750,
+  "nifty_resistance": 25150,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $90.20.",
-    "Universe breadth shows 108 advancing vs 64 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,700 | Resistance cap at 25,100."
+    "US Markets closed up 0.31% with Brent Crude hovering around $89.91.",
+    "Universe breadth shows 110 advancing vs 65 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,750 | Resistance cap at 25,150."
   ],
   "top_setups": [
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 92.18,
+      "current_price": 91.5,
       "trigger": 89.18,
-      "target1": 103.86,
-      "sl": 83.77,
+      "target1": 102.6,
+      "sl": 83.51,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b989.18 with Accumulation structure.",
-      "change_pct": 10.46
+      "change_pct": 9.65
     },
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 211.65,
+      "current_price": 211.5,
       "trigger": 200.49,
-      "target1": 251.0,
-      "sl": 183.32,
+      "target1": 250.74,
+      "sl": 183.24,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 9.37
+      "change_pct": 9.29
     },
     {
       "symbol": "OBEROIRLTY",
       "name": "Oberoi Realty Ltd",
-      "current_price": 1779.7,
+      "current_price": 1780.0,
       "trigger": 1763.62,
-      "target1": 1995.1,
-      "sl": 1624.61,
+      "target1": 1995.56,
+      "sl": 1624.79,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,763.62 with Accumulation structure.",
-      "change_pct": 2.34
+      "change_pct": 2.36
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 07:16 AM",
+  "timestamp": "09 Nov 2026, 07:31 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24909.1,
-      "change_pct": -0.48,
+      "price": 24930.6,
+      "change_pct": -0.4,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80652.27,
-      "change_pct": -0.46,
+      "price": 80709.83,
+      "change_pct": -0.39,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.2,
-      "change_pct": -0.69,
+      "price": 89.91,
+      "change_pct": -1.01,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.95,
-      "change_pct": -0.54,
+      "price": 94.04,
+      "change_pct": -0.44,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 108,
-    "declines": 64,
+    "advances": 110,
+    "declines": 65,
     "total": 175
   }
 }
