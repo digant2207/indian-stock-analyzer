@@ -1,12 +1,12 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24750,
-  "nifty_resistance": 25150,
+  "nifty_support": 24700,
+  "nifty_resistance": 25100,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $89.83.",
-    "Universe breadth shows 113 advancing vs 62 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,750 | Resistance cap at 25,150."
+    "US Markets closed up 0.31% with Brent Crude hovering around $89.80.",
+    "Universe breadth shows 109 advancing vs 65 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,700 | Resistance cap at 25,100."
   ],
   "top_setups": [
     {
@@ -22,40 +22,40 @@ window.AI_BRIEFING = {
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 211.43,
+      "current_price": 210.53,
       "trigger": 200.49,
-      "target1": 250.62,
-      "sl": 183.21,
+      "target1": 249.07,
+      "sl": 182.78,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 9.25
+      "change_pct": 8.79
     },
     {
       "symbol": "OBEROIRLTY",
       "name": "Oberoi Realty Ltd",
-      "current_price": 1790.0,
+      "current_price": 1785.3,
       "trigger": 1763.62,
-      "target1": 2011.25,
-      "sl": 1630.7,
+      "target1": 2003.84,
+      "sl": 1627.95,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,763.62 with Accumulation structure.",
-      "change_pct": 2.93
+      "change_pct": 2.66
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 06:31 AM",
+  "timestamp": "09 Nov 2026, 06:46 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24928.7,
-      "change_pct": -0.41,
+      "price": 24915.3,
+      "change_pct": -0.46,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81024.21,
-      "change_pct": -0.0,
-      "status": "up"
+      "price": 80824.15,
+      "change_pct": -0.25,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.83,
-      "change_pct": -1.1,
+      "price": 89.8,
+      "change_pct": -1.13,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.85,
-      "change_pct": -0.65,
+      "price": 93.86,
+      "change_pct": -0.64,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 113,
-    "declines": 62,
+    "advances": 109,
+    "declines": 65,
     "total": 175
   }
 };
