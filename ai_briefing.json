@@ -1,60 +1,60 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24650,
-  "nifty_resistance": 25050,
+  "nifty_support": 24700,
+  "nifty_resistance": 25100,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $91.03.",
-    "Universe breadth shows 94 advancing vs 79 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,650 | Resistance cap at 25,050."
+    "US Markets closed up 0.31% with Brent Crude hovering around $90.46.",
+    "Universe breadth shows 106 advancing vs 67 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,700 | Resistance cap at 25,100."
   ],
   "top_setups": [
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 214.38,
+      "current_price": 214.7,
       "trigger": 200.49,
-      "target1": 255.77,
-      "sl": 184.58,
+      "target1": 256.33,
+      "sl": 184.73,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 10.78
+      "change_pct": 10.94
     },
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 685.65,
+      "current_price": 682.2,
       "trigger": 631.06,
-      "target1": 797.55,
-      "sl": 605.09,
+      "target1": 791.28,
+      "sl": 603.66,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
-      "change_pct": 14.62
+      "change_pct": 14.04
     },
     {
       "symbol": "DCAL",
       "name": "Dishman Carbogen Amcis Ltd",
-      "current_price": 169.57,
+      "current_price": 169.74,
       "trigger": 160.22,
-      "target1": 201.37,
-      "sl": 146.67,
+      "target1": 201.65,
+      "sl": 146.76,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9160.22 with Accumulation structure.",
-      "change_pct": 8.25
+      "change_pct": 8.36
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 05:16 AM",
+  "timestamp": "09 Nov 2026, 05:31 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24862.7,
-      "change_pct": -0.67,
+      "price": 24889.7,
+      "change_pct": -0.56,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80802.34,
-      "change_pct": -0.28,
+      "price": 80587.48,
+      "change_pct": -0.54,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.03,
-      "change_pct": 0.22,
-      "status": "up"
+      "price": 90.46,
+      "change_pct": -0.41,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.83,
-      "change_pct": -0.67,
+      "price": 93.84,
+      "change_pct": -0.66,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 94,
-    "declines": 79,
+    "advances": 106,
+    "declines": 67,
     "total": 175
   }
 }
