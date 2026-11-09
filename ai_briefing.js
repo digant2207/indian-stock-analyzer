@@ -5,56 +5,56 @@ window.AI_BRIEFING = {
   "nifty_resistance": 25200,
   "executive_bullets": [
     "US Markets closed up 0.31% with Brent Crude hovering around $90.01.",
-    "Universe breadth shows 110 advancing vs 64 declining stocks across 175 scanned equities.",
+    "Universe breadth shows 110 advancing vs 65 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,800 | Resistance cap at 25,200."
   ],
   "top_setups": [
     {
-      "symbol": "JMA",
-      "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 92.0,
-      "trigger": 89.18,
-      "target1": 103.52,
-      "sl": 83.7,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b989.18 with Accumulation structure.",
-      "change_pct": 10.25
-    },
-    {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 797.2,
+      "current_price": 797.8,
       "trigger": 792.19,
-      "target1": 939.77,
-      "sl": 694.55,
+      "target1": 940.71,
+      "sl": 694.9,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9792.19 with Accumulation structure.",
-      "change_pct": 1.14
+      "change_pct": 1.21
     },
     {
       "symbol": "ONGC",
       "name": "Oil and Natural Gas Corporation Ltd",
-      "current_price": 234.02,
+      "current_price": 233.71,
       "trigger": 235.47,
-      "target1": 247.6,
-      "sl": 224.25,
+      "target1": 247.18,
+      "sl": 224.01,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9235.47 with Accumulation structure.",
-      "change_pct": 0.98
+      "change_pct": 0.84
+    },
+    {
+      "symbol": "SPARC",
+      "name": "Sun Pharma Advanced Research Co Ltd",
+      "current_price": 211.68,
+      "trigger": 200.49,
+      "target1": 251.05,
+      "sl": 183.33,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
+      "change_pct": 9.38
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 09:31 AM",
+  "timestamp": "09 Nov 2026, 09:46 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24995.65,
-      "change_pct": -0.14,
+      "price": 25003.65,
+      "change_pct": -0.11,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81097.4,
-      "change_pct": 0.09,
+      "price": 81051.72,
+      "change_pct": 0.03,
       "status": "up"
     },
     "S&P 500": {
@@ -77,14 +77,14 @@ window.AI_BRIEFING = {
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.98,
-      "change_pct": -0.5,
+      "price": 93.97,
+      "change_pct": -0.51,
       "status": "down"
     }
   },
   "market_breadth": {
     "advances": 110,
-    "declines": 64,
+    "declines": 65,
     "total": 175
   }
 };
