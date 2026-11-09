@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 24750,
   "nifty_resistance": 25150,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $91.24.",
-    "Universe breadth shows 110 advancing vs 65 declining stocks across 175 scanned equities.",
+    "US Markets closed up 0.31% with Brent Crude hovering around $90.83.",
+    "Universe breadth shows 104 advancing vs 70 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,750 | Resistance cap at 25,150."
   ],
   "top_setups": [
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 218.0,
+      "current_price": 217.13,
       "trigger": 200.49,
-      "target1": 262.19,
-      "sl": 186.19,
+      "target1": 260.63,
+      "sl": 185.81,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 12.65
+      "change_pct": 12.2
     },
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 674.7,
+      "current_price": 682.35,
       "trigger": 631.06,
-      "target1": 777.76,
-      "sl": 600.5,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
-      "change_pct": 12.79
+      "target1": 791.55,
+      "sl": 603.73,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9631.06 with Accumulation structure.",
+      "change_pct": 14.07
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3565.3,
+      "current_price": 3563.0,
       "trigger": 3557.1,
-      "target1": 4183.67,
-      "sl": 3120.07,
+      "target1": 4180.23,
+      "sl": 3118.59,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,557.10 with Accumulation structure.",
-      "change_pct": 1.06
+      "change_pct": 0.99
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 04:46 AM",
+  "timestamp": "09 Nov 2026, 05:01 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 24929.9,
+      "price": 24931.35,
       "change_pct": -0.4,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 80848.06,
-      "change_pct": -0.22,
+      "price": 80809.75,
+      "change_pct": -0.27,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 91.24,
-      "change_pct": 0.45,
+      "price": 90.83,
+      "change_pct": 0.34,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.79,
-      "change_pct": -0.7,
+      "price": 93.82,
+      "change_pct": -0.68,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 110,
-    "declines": 65,
+    "advances": 104,
+    "declines": 70,
     "total": 175
   }
 };
