@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 24800,
-  "nifty_resistance": 25200,
+  "nifty_support": 24850,
+  "nifty_resistance": 25250,
   "executive_bullets": [
-    "US Markets closed up 0.31% with Brent Crude hovering around $90.01.",
-    "Universe breadth shows 110 advancing vs 65 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,800 | Resistance cap at 25,200."
+    "US Markets closed up 0.31% with Brent Crude hovering around $90.34.",
+    "Universe breadth shows 121 advancing vs 54 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,250."
   ],
   "top_setups": [
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 797.8,
+      "current_price": 798.15,
       "trigger": 792.19,
-      "target1": 940.71,
-      "sl": 694.9,
+      "target1": 941.26,
+      "sl": 695.11,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9792.19 with Accumulation structure.",
-      "change_pct": 1.21
+      "change_pct": 1.26
     },
     {
       "symbol": "ONGC",
       "name": "Oil and Natural Gas Corporation Ltd",
-      "current_price": 233.71,
+      "current_price": 233.5,
       "trigger": 235.47,
-      "target1": 247.18,
-      "sl": 224.01,
+      "target1": 246.9,
+      "sl": 223.85,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9235.47 with Accumulation structure.",
-      "change_pct": 0.84
+      "change_pct": 0.75
     },
     {
       "symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 211.68,
+      "current_price": 210.8,
       "trigger": 200.49,
-      "target1": 251.05,
-      "sl": 183.33,
+      "target1": 249.53,
+      "sl": 182.91,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 9.38
+      "change_pct": 8.93
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "09 Nov 2026, 09:46 AM",
+  "timestamp": "09 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-09",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25003.65,
-      "change_pct": -0.11,
-      "status": "down"
+      "price": 25044.65,
+      "change_pct": 0.06,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81051.72,
-      "change_pct": 0.03,
+      "price": 81065.26,
+      "change_pct": 0.05,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 90.01,
-      "change_pct": -0.9,
+      "price": 90.34,
+      "change_pct": -0.54,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.97,
-      "change_pct": -0.51,
+      "price": 93.92,
+      "change_pct": -0.57,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 110,
-    "declines": 65,
+    "advances": 121,
+    "declines": 54,
     "total": 175
   }
 };
