@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 24850,
   "nifty_resistance": 25250,
   "executive_bullets": [
-    "US Markets closed up 2.35% with Brent Crude hovering around $85.36.",
+    "US Markets closed up 2.35% with Brent Crude hovering around $85.17.",
     "Universe breadth shows 117 advancing vs 58 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,250."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "10 Nov 2026, 06:45 AM",
+  "timestamp": "10 Nov 2026, 07:01 AM",
   "date_tag": "2026-11-10",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.36,
-      "change_pct": -1.72,
+      "price": 85.17,
+      "change_pct": -1.93,
       "status": "down"
     },
     "USD/INR": {
