@@ -4,30 +4,30 @@
   "nifty_support": 25200,
   "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.66.",
-    "Universe breadth shows 142 advancing vs 32 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.76.",
+    "Universe breadth shows 148 advancing vs 27 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
   "top_setups": [
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 313.65,
+      "current_price": 314.2,
       "trigger": 309.42,
-      "target1": 406.24,
-      "sl": 246.98,
+      "target1": 407.03,
+      "sl": 247.36,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9309.42 with Accumulation structure.",
-      "change_pct": 4.78
+      "change_pct": 4.96
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1411.9,
+      "current_price": 1418.2,
       "trigger": 1362.78,
-      "target1": 1652.07,
-      "sl": 1238.98,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
-      "change_pct": 4.12
+      "target1": 1661.87,
+      "sl": 1242.76,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
+      "change_pct": 4.59
     },
     {
       "symbol": "JMA",
@@ -42,19 +42,19 @@
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 06:16 AM",
+  "timestamp": "11 Nov 2026, 06:31 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25381.75,
-      "change_pct": 1.35,
+      "price": 25390.75,
+      "change_pct": 1.38,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82320.87,
-      "change_pct": 1.5,
+      "price": 82384.68,
+      "change_pct": 1.58,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.66,
-      "change_pct": 0.72,
+      "price": 86.76,
+      "change_pct": 0.84,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.82,
-      "change_pct": -0.13,
+      "price": 93.79,
+      "change_pct": -0.16,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 142,
-    "declines": 32,
+    "advances": 148,
+    "declines": 27,
     "total": 175
   }
 }
