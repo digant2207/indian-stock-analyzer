@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25100,
-  "nifty_resistance": 25500,
+  "nifty_support": 25150,
+  "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.56.",
-    "Universe breadth shows 123 advancing vs 50 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.70.",
+    "Universe breadth shows 149 advancing vs 26 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 798.15,
-      "trigger": 792.19,
-      "target1": 941.26,
-      "sl": 695.11,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9792.19 with Accumulation structure.",
-      "change_pct": 1.26
+      "symbol": "MCX",
+      "name": "Multi Commodity Exchange",
+      "current_price": 3593.2,
+      "trigger": 3588.66,
+      "target1": 4252.99,
+      "sl": 3118.15,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,588.66 with Accumulation structure.",
+      "change_pct": 1.36
     },
     {
-      "symbol": "ONGC",
-      "name": "Oil and Natural Gas Corporation Ltd",
-      "current_price": 233.5,
-      "trigger": 235.47,
-      "target1": 246.9,
-      "sl": 223.85,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9235.47 with Accumulation structure.",
-      "change_pct": 0.75
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 358.7,
+      "trigger": 364.13,
+      "target1": 406.72,
+      "sl": 324.13,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9364.13 with Accumulation structure.",
+      "change_pct": -0.28
     },
     {
-      "symbol": "SPARC",
-      "name": "Sun Pharma Advanced Research Co Ltd",
-      "current_price": 210.8,
-      "trigger": 200.49,
-      "target1": 249.53,
-      "sl": 182.91,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9200.49 with Accumulation structure.",
-      "change_pct": 8.93
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 198.49,
+      "trigger": 197.98,
+      "target1": 218.24,
+      "sl": 184.27,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9197.98 with Accumulation structure.",
+      "change_pct": 0.76
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 03:46 AM",
+  "timestamp": "11 Nov 2026, 04:01 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25306.85,
-      "change_pct": 1.05,
+      "price": 25336.75,
+      "change_pct": 1.17,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81106.65,
-      "change_pct": 0.1,
+      "price": 82178.29,
+      "change_pct": 1.32,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.56,
-      "change_pct": -0.33,
+      "price": 86.7,
+      "change_pct": -0.17,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.7,
-      "change_pct": -0.26,
+      "price": 93.8,
+      "change_pct": -0.16,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 123,
-    "declines": 50,
+    "advances": 149,
+    "declines": 26,
     "total": 175
   }
 };
