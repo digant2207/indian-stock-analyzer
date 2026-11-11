@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25150,
-  "nifty_resistance": 25550,
+  "nifty_support": 25100,
+  "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.66.",
-    "Universe breadth shows 140 advancing vs 34 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.49.",
+    "Universe breadth shows 139 advancing vs 34 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
+      "symbol": "CAMS",
+      "name": "Computer Age Management Services Ltd",
+      "current_price": 736.05,
+      "trigger": 732.66,
+      "target1": 829.19,
+      "sl": 668.99,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9732.66 with Accumulation structure.",
+      "change_pct": 3.5
+    },
+    {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 312.6,
+      "current_price": 312.55,
       "trigger": 309.42,
-      "target1": 404.74,
-      "sl": 246.26,
+      "target1": 404.67,
+      "sl": 246.23,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9309.42 with Accumulation structure.",
-      "change_pct": 4.43
+      "change_pct": 4.41
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1417.0,
+      "current_price": 1411.8,
       "trigger": 1362.78,
-      "target1": 1659.99,
-      "sl": 1242.05,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
-      "change_pct": 4.5
-    },
-    {
-      "symbol": "JMA",
-      "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 94.5,
-      "trigger": 94.32,
-      "target1": 111.83,
-      "sl": 82.02,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b994.32 with Accumulation structure.",
-      "change_pct": 1.08
+      "target1": 1651.92,
+      "sl": 1238.92,
+      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
+      "change_pct": 4.12
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 06:45 AM",
+  "timestamp": "11 Nov 2026, 07:01 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25332.0,
-      "change_pct": 1.15,
+      "price": 25288.45,
+      "change_pct": 0.97,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82376.39,
-      "change_pct": 1.57,
+      "price": 82184.49,
+      "change_pct": 1.33,
       "status": "up"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.66,
-      "change_pct": 0.72,
+      "price": 86.49,
+      "change_pct": 0.52,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.79,
+      "price": 93.78,
       "change_pct": -0.17,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 140,
+    "advances": 139,
     "declines": 34,
     "total": 175
   }
