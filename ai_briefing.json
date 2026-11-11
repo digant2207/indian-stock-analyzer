@@ -1,60 +1,60 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25050,
-  "nifty_resistance": 25450,
+  "nifty_support": 25000,
+  "nifty_resistance": 25400,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.16.",
-    "Universe breadth shows 131 advancing vs 44 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.01.",
+    "Universe breadth shows 127 advancing vs 48 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,000 | Resistance cap at 25,400."
   ],
   "top_setups": [
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 360.8,
+      "current_price": 360.6,
       "trigger": 356.21,
-      "target1": 385.27,
-      "sl": 343.18,
+      "target1": 384.92,
+      "sl": 343.09,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 4.85
+      "change_pct": 4.8
+    },
+    {
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 201.31,
+      "trigger": 197.98,
+      "target1": 222.93,
+      "sl": 185.74,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9197.98 with Accumulation structure.",
+      "change_pct": 2.19
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 312.2,
+      "current_price": 311.65,
       "trigger": 309.42,
-      "target1": 404.17,
-      "sl": 245.98,
+      "target1": 403.39,
+      "sl": 245.6,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9309.42 with Accumulation structure.",
-      "change_pct": 4.29
-    },
-    {
-      "symbol": "CDSL",
-      "name": "Central Depository Services",
-      "current_price": 1416.4,
-      "trigger": 1362.78,
-      "target1": 1659.06,
-      "sl": 1241.69,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
-      "change_pct": 4.45
+      "change_pct": 4.11
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 09:01 AM",
+  "timestamp": "11 Nov 2026, 09:16 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25235.05,
-      "change_pct": 0.76,
+      "price": 25207.5,
+      "change_pct": 0.65,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81813.82,
-      "change_pct": 0.87,
+      "price": 81838.45,
+      "change_pct": 0.9,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.16,
-      "change_pct": 0.14,
-      "status": "up"
+      "price": 86.01,
+      "change_pct": -0.03,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.65,
-      "change_pct": -0.31,
+      "price": 93.7,
+      "change_pct": -0.27,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 131,
-    "declines": 44,
+    "advances": 127,
+    "declines": 48,
     "total": 175
   }
 }
