@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.65.",
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.70.",
     "Universe breadth shows 125 advancing vs 49 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 11:38 AM",
+  "timestamp": "11 Nov 2026, 11:52 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.65,
-      "change_pct": 0.71,
+      "price": 86.7,
+      "change_pct": 0.77,
       "status": "up"
     },
     "USD/INR": {
