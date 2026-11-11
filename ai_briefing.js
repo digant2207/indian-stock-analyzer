@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.62.",
-    "Universe breadth shows 124 advancing vs 50 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.91.",
+    "Universe breadth shows 125 advancing vs 49 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 10:01 AM",
+  "timestamp": "11 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81470.68,
-      "change_pct": 0.45,
+      "price": 81879.4,
+      "change_pct": 0.95,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.62,
-      "change_pct": 0.67,
+      "price": 86.91,
+      "change_pct": 1.01,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.69,
-      "change_pct": -0.27,
+      "price": 93.68,
+      "change_pct": -0.28,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 124,
-    "declines": 50,
+    "advances": 125,
+    "declines": 49,
     "total": 175
   }
 };
