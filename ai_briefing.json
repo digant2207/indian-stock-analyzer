@@ -1,12 +1,12 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 24850,
-  "nifty_resistance": 25250,
+  "nifty_support": 25100,
+  "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.51.",
-    "Universe breadth shows 117 advancing vs 58 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,250."
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.56.",
+    "Universe breadth shows 123 advancing vs 50 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
@@ -42,13 +42,13 @@
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 03:31 AM",
+  "timestamp": "11 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25044.65,
-      "change_pct": 0.06,
+      "price": 25306.85,
+      "change_pct": 1.05,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.51,
-      "change_pct": -0.39,
+      "price": 86.56,
+      "change_pct": -0.33,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.72,
-      "change_pct": -0.24,
+      "price": 93.7,
+      "change_pct": -0.26,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 117,
-    "declines": 58,
+    "advances": 123,
+    "declines": 50,
     "total": 175
   }
 }
