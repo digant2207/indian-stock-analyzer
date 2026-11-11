@@ -1,60 +1,60 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 24950,
-  "nifty_resistance": 25350,
+  "nifty_support": 25050,
+  "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.78.",
-    "Universe breadth shows 121 advancing vs 53 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.62.",
+    "Universe breadth shows 124 advancing vs 50 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 359.7,
+      "current_price": 361.6,
       "trigger": 356.21,
-      "target1": 383.36,
-      "sl": 342.66,
+      "target1": 386.67,
+      "sl": 343.55,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9356.21 with Accumulation structure.",
-      "change_pct": 4.53
+      "change_pct": 5.09
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 200.6,
+      "current_price": 202.19,
       "trigger": 197.98,
-      "target1": 221.73,
-      "sl": 185.39,
+      "target1": 224.43,
+      "sl": 186.18,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9197.98 with Accumulation structure.",
-      "change_pct": 1.83
+      "change_pct": 2.63
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 802.0,
+      "current_price": 806.6,
       "trigger": 803.5,
-      "target1": 966.53,
-      "sl": 683.54,
+      "target1": 973.38,
+      "sl": 686.52,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9803.50 with Accumulation structure.",
-      "change_pct": 0.48
+      "change_pct": 1.06
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 09:46 AM",
+  "timestamp": "11 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25130.0,
-      "change_pct": 0.34,
+      "price": 25255.05,
+      "change_pct": 0.84,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81548.2,
-      "change_pct": 0.54,
+      "price": 81470.68,
+      "change_pct": 0.45,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.78,
-      "change_pct": 0.86,
+      "price": 86.62,
+      "change_pct": 0.67,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.67,
-      "change_pct": -0.29,
+      "price": 93.69,
+      "change_pct": -0.27,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 121,
-    "declines": 53,
+    "advances": 124,
+    "declines": 50,
     "total": 175
   }
 }
