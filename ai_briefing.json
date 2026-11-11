@@ -1,60 +1,60 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25200,
-  "nifty_resistance": 25600,
+  "nifty_support": 25150,
+  "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.42.",
-    "Universe breadth shows 142 advancing vs 32 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.63.",
+    "Universe breadth shows 145 advancing vs 30 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 315.0,
+      "current_price": 313.75,
       "trigger": 309.42,
-      "target1": 408.19,
-      "sl": 247.91,
+      "target1": 406.39,
+      "sl": 247.05,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9309.42 with Accumulation structure.",
-      "change_pct": 5.23
-    },
-    {
-      "symbol": "PNB",
-      "name": "Punjab National Bank",
-      "current_price": 137.54,
-      "trigger": 132.83,
-      "target1": 155.45,
-      "sl": 124.64,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9132.83 with Accumulation structure.",
-      "change_pct": 4.06
+      "change_pct": 4.81
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1411.8,
+      "current_price": 1411.0,
       "trigger": 1362.78,
-      "target1": 1651.92,
-      "sl": 1238.92,
-      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
-      "change_pct": 4.12
+      "target1": 1650.68,
+      "sl": 1238.43,
+      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
+      "change_pct": 4.06
+    },
+    {
+      "symbol": "JMA",
+      "name": "Jullundur Motor Agency (Delhi) Ltd",
+      "current_price": 94.6,
+      "trigger": 94.32,
+      "target1": 111.99,
+      "sl": 82.08,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b994.32 with Accumulation structure.",
+      "change_pct": 1.19
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 05:46 AM",
+  "timestamp": "11 Nov 2026, 06:01 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25384.05,
-      "change_pct": 1.36,
+      "price": 25364.4,
+      "change_pct": 1.28,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82388.78,
-      "change_pct": 1.58,
+      "price": 82383.12,
+      "change_pct": 1.57,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.42,
-      "change_pct": 0.44,
+      "price": 86.63,
+      "change_pct": 0.69,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.72,
-      "change_pct": -0.24,
+      "price": 93.78,
+      "change_pct": -0.18,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 142,
-    "declines": 32,
+    "advances": 145,
+    "declines": 30,
     "total": 175
   }
 }
