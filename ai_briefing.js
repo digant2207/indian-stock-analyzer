@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.49.",
-    "Universe breadth shows 139 advancing vs 34 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.23.",
+    "Universe breadth shows 134 advancing vs 41 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 736.05,
+      "current_price": 732.3,
       "trigger": 732.66,
-      "target1": 829.19,
-      "sl": 668.99,
+      "target1": 823.49,
+      "sl": 666.65,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9732.66 with Accumulation structure.",
-      "change_pct": 3.5
+      "change_pct": 2.97
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 312.55,
+      "current_price": 312.25,
       "trigger": 309.42,
-      "target1": 404.67,
-      "sl": 246.23,
+      "target1": 404.24,
+      "sl": 246.02,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9309.42 with Accumulation structure.",
-      "change_pct": 4.41
+      "change_pct": 4.31
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1411.8,
+      "current_price": 1403.5,
       "trigger": 1362.78,
-      "target1": 1651.92,
-      "sl": 1238.92,
+      "target1": 1639.18,
+      "sl": 1233.81,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
-      "change_pct": 4.12
+      "change_pct": 3.5
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 07:01 AM",
+  "timestamp": "11 Nov 2026, 07:16 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25288.45,
+      "price": 25287.45,
       "change_pct": 0.97,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82184.49,
-      "change_pct": 1.33,
+      "price": 82043.85,
+      "change_pct": 1.16,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.49,
-      "change_pct": 0.52,
+      "price": 86.23,
+      "change_pct": 0.22,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.78,
-      "change_pct": -0.17,
+      "price": 93.8,
+      "change_pct": -0.16,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 139,
-    "declines": 34,
+    "advances": 134,
+    "declines": 41,
     "total": 175
   }
 };
