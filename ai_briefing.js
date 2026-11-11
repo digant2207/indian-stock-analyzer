@@ -1,10 +1,10 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 24850,
   "nifty_resistance": 25250,
   "executive_bullets": [
-    "US Markets closed up 2.35% with Brent Crude hovering around $85.23.",
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.51.",
     "Universe breadth shows 117 advancing vs 58 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,250."
   ],
@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "10 Nov 2026, 12:37 PM",
-  "date_tag": "2026-11-10",
+  "timestamp": "11 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,27 +59,27 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7549.94,
-      "change_pct": 2.35,
-      "status": "up"
+      "price": 7520.93,
+      "change_pct": -0.38,
+      "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25253.14,
-      "change_pct": 2.74,
-      "status": "up"
+      "price": 25065.88,
+      "change_pct": -0.74,
+      "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.23,
-      "change_pct": -1.87,
+      "price": 86.51,
+      "change_pct": -0.39,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.92,
-      "change_pct": 0.02,
-      "status": "up"
+      "price": 93.72,
+      "change_pct": -0.24,
+      "status": "down"
     }
   },
   "market_breadth": {
