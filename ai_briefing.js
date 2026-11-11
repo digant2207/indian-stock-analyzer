@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.15.",
-    "Universe breadth shows 138 advancing vs 37 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.16.",
+    "Universe breadth shows 135 advancing vs 40 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 733.55,
+      "current_price": 731.7,
       "trigger": 732.66,
-      "target1": 825.38,
-      "sl": 667.43,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9732.66 with Accumulation structure.",
-      "change_pct": 3.15
+      "target1": 822.58,
+      "sl": 666.26,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9732.66 with Accumulation structure.",
+      "change_pct": 2.89
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "name": "IDFC First Bank Ltd",
+      "current_price": 80.85,
+      "trigger": 80.55,
+      "target1": 91.06,
+      "sl": 73.5,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b980.55 with Accumulation structure.",
+      "change_pct": 3.83
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 312.45,
+      "current_price": 312.0,
       "trigger": 309.42,
-      "target1": 404.52,
-      "sl": 246.16,
+      "target1": 403.88,
+      "sl": 245.84,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9309.42 with Accumulation structure.",
-      "change_pct": 4.38
-    },
-    {
-      "symbol": "CDSL",
-      "name": "Central Depository Services",
-      "current_price": 1409.4,
-      "trigger": 1362.78,
-      "target1": 1648.21,
-      "sl": 1237.45,
-      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
-      "change_pct": 3.94
+      "change_pct": 4.23
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 07:31 AM",
+  "timestamp": "11 Nov 2026, 07:45 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25304.65,
-      "change_pct": 1.04,
+      "price": 25284.35,
+      "change_pct": 0.96,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82032.18,
-      "change_pct": 1.14,
+      "price": 82078.54,
+      "change_pct": 1.2,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.15,
-      "change_pct": 0.13,
+      "price": 86.16,
+      "change_pct": 0.14,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.73,
-      "change_pct": -0.23,
+      "price": 93.74,
+      "change_pct": -0.22,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 138,
-    "declines": 37,
+    "advances": 135,
+    "declines": 40,
     "total": 175
   }
 };
