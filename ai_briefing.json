@@ -4,57 +4,57 @@
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.23.",
-    "Universe breadth shows 134 advancing vs 41 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.15.",
+    "Universe breadth shows 138 advancing vs 37 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 732.3,
+      "current_price": 733.55,
       "trigger": 732.66,
-      "target1": 823.49,
-      "sl": 666.65,
+      "target1": 825.38,
+      "sl": 667.43,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9732.66 with Accumulation structure.",
-      "change_pct": 2.97
+      "change_pct": 3.15
     },
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 312.25,
+      "current_price": 312.45,
       "trigger": 309.42,
-      "target1": 404.24,
-      "sl": 246.02,
+      "target1": 404.52,
+      "sl": 246.16,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9309.42 with Accumulation structure.",
-      "change_pct": 4.31
+      "change_pct": 4.38
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1403.5,
+      "current_price": 1409.4,
       "trigger": 1362.78,
-      "target1": 1639.18,
-      "sl": 1233.81,
+      "target1": 1648.21,
+      "sl": 1237.45,
       "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b91,362.78 with Accumulation structure.",
-      "change_pct": 3.5
+      "change_pct": 3.94
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 07:16 AM",
+  "timestamp": "11 Nov 2026, 07:31 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25287.45,
-      "change_pct": 0.97,
+      "price": 25304.65,
+      "change_pct": 1.04,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82043.85,
-      "change_pct": 1.16,
+      "price": 82032.18,
+      "change_pct": 1.14,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.23,
-      "change_pct": 0.22,
+      "price": 86.15,
+      "change_pct": 0.13,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.8,
-      "change_pct": -0.16,
+      "price": 93.73,
+      "change_pct": -0.23,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 134,
-    "declines": 41,
+    "advances": 138,
+    "declines": 37,
     "total": 175
   }
 }
