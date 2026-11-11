@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.04.",
-    "Universe breadth shows 146 advancing vs 29 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.38% with Brent Crude hovering around $86.47.",
+    "Universe breadth shows 143 advancing vs 32 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
       "symbol": "ENGINERSIN",
       "name": "Engineers India Ltd",
-      "current_price": 312.8,
+      "current_price": 313.6,
       "trigger": 309.42,
-      "target1": 405.02,
-      "sl": 246.4,
+      "target1": 406.17,
+      "sl": 246.95,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9309.42 with Accumulation structure.",
-      "change_pct": 4.49
+      "change_pct": 4.76
+    },
+    {
+      "symbol": "IRCTC",
+      "name": "Indian Railway Ctrng nd Trsm Corp Ltd",
+      "current_price": 480.3,
+      "trigger": 479.31,
+      "target1": 520.65,
+      "sl": 451.25,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9479.31 with Accumulation structure.",
+      "change_pct": 4.42
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 95.25,
+      "current_price": 94.0,
       "trigger": 94.32,
-      "target1": 113.09,
-      "sl": 82.41,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b994.32 with Accumulation structure.",
-      "change_pct": 1.88
-    },
-    {
-      "symbol": "WAAREEENER",
-      "name": "Waaree Energies Ltd",
-      "current_price": 2578.8,
-      "trigger": 2581.45,
-      "target1": 2899.62,
-      "sl": 2347.81,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,581.45 with Accumulation structure.",
-      "change_pct": 5.52
+      "target1": 111.0,
+      "sl": 81.76,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b994.32 with Accumulation structure.",
+      "change_pct": 0.55
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 05:01 AM",
+  "timestamp": "11 Nov 2026, 05:16 AM",
   "date_tag": "2026-11-11",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25355.35,
-      "change_pct": 1.24,
+      "price": 25363.7,
+      "change_pct": 1.27,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82262.05,
-      "change_pct": 1.42,
+      "price": 82284.47,
+      "change_pct": 1.45,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.04,
-      "change_pct": -0.93,
-      "status": "down"
+      "price": 86.47,
+      "change_pct": 0.5,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.77,
-      "change_pct": -0.19,
+      "price": 93.7,
+      "change_pct": -0.26,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 146,
-    "declines": 29,
+    "advances": 143,
+    "declines": 32,
     "total": 175
   }
 };
