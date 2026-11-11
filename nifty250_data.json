@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "2026-11-11 04:46 PM IST",
+    "last_updated": "2026-11-11 04:53 PM IST",
     "total_stocks_scanned": 57,
     "strong_buys_count": 31,
     "swing_breakouts_count": 12,
@@ -21976,7 +21976,7 @@
       "macd_hist": 3.48,
       "vol_surge_ratio": 1.32,
       "pe_ratio": 8.37,
-      "forward_pe": 8.09,
+      "forward_pe": 8.2,
       "peg_ratio": 0.0,
       "pb_ratio": 2.41,
       "roe": 32.0,
@@ -41629,7 +41629,7 @@
       "macd_signal": 13.5,
       "macd_hist": -12.36,
       "vol_surge_ratio": 0.59,
-      "pe_ratio": 31.24,
+      "pe_ratio": 32.37,
       "forward_pe": 15.25,
       "peg_ratio": 93.13,
       "pb_ratio": 2.27,
