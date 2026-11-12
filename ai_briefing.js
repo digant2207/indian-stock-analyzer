@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $86.85.",
-    "Universe breadth shows 111 advancing vs 62 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $86.91.",
+    "Universe breadth shows 111 advancing vs 63 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "SAIL",
       "name": "Steel Authority of India",
-      "current_price": 180.29,
+      "current_price": 179.95,
       "trigger": 177.12,
-      "target1": 200.55,
-      "sl": 165.7,
+      "target1": 200.02,
+      "sl": 165.5,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9177.12 with Accumulation structure.",
-      "change_pct": 2.74
+      "change_pct": 2.55
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1452.4,
+      "current_price": 1452.1,
       "trigger": 1425.85,
-      "target1": 1733.67,
-      "sl": 1249.89,
+      "target1": 1733.2,
+      "sl": 1249.71,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.23
+      "change_pct": 3.21
     },
     {
       "symbol": "ONGC",
       "name": "Oil and Natural Gas Corporation Ltd",
-      "current_price": 224.96,
+      "current_price": 225.18,
       "trigger": 229.17,
-      "target1": 237.59,
-      "sl": 215.86,
+      "target1": 237.86,
+      "sl": 216.05,
       "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b9229.17 with Accumulation structure.",
-      "change_pct": -0.81
+      "change_pct": -0.71
     }
   ],
   "risk_warning": "Defensive alert on REC Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 07:46 AM",
+  "timestamp": "12 Nov 2026, 08:01 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25245.8,
-      "change_pct": -0.04,
+      "price": 25247.15,
+      "change_pct": -0.03,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81938.45,
-      "change_pct": 0.07,
+      "price": 81880.17,
+      "change_pct": 0.0,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.85,
-      "change_pct": 0.37,
+      "price": 86.91,
+      "change_pct": 0.44,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.93,
-      "change_pct": 0.01,
+      "price": 93.98,
+      "change_pct": 0.06,
       "status": "up"
     }
   },
   "market_breadth": {
     "advances": 111,
-    "declines": 62,
+    "declines": 63,
     "total": 175
   }
 };
