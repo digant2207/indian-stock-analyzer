@@ -1,11 +1,11 @@
 {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 0.38% with Brent Crude hovering around $86.70.",
-    "Universe breadth shows 125 advancing vs 49 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $85.56.",
+    "Universe breadth shows 114 advancing vs 60 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@
       "change_pct": 1.06
     }
   ],
-  "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "11 Nov 2026, 11:52 AM",
-  "date_tag": "2026-11-11",
+  "timestamp": "12 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7520.93,
-      "change_pct": -0.38,
-      "status": "down"
+      "price": 7619.38,
+      "change_pct": 1.31,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25065.87,
-      "change_pct": -0.74,
-      "status": "down"
+      "price": 25466.19,
+      "change_pct": 1.6,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.7,
-      "change_pct": 0.77,
-      "status": "up"
+      "price": 85.56,
+      "change_pct": -0.56,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.68,
-      "change_pct": -0.28,
+      "price": 93.75,
+      "change_pct": -0.19,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 125,
-    "declines": 49,
+    "advances": 114,
+    "declines": 60,
     "total": 175
   }
 }
