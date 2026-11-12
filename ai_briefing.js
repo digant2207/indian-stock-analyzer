@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $85.95.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $85.85.",
     "Universe breadth shows 104 advancing vs 68 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on REC Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 12:05 PM",
+  "timestamp": "12 Nov 2026, 12:40 PM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.95,
-      "change_pct": -0.67,
+      "price": 85.85,
+      "change_pct": -0.79,
       "status": "down"
     },
     "USD/INR": {
