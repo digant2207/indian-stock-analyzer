@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $85.53.",
-    "Universe breadth shows 134 advancing vs 41 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $85.63.",
+    "Universe breadth shows 132 advancing vs 42 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1450.4,
+      "current_price": 1455.6,
       "trigger": 1425.85,
-      "target1": 1730.56,
-      "sl": 1248.68,
+      "target1": 1738.65,
+      "sl": 1251.8,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.08
+      "change_pct": 3.45
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3633.8,
+      "current_price": 3627.9,
       "trigger": 3644.27,
-      "target1": 4349.61,
-      "sl": 3118.42,
+      "target1": 4341.24,
+      "sl": 3114.3,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,644.27 with Accumulation structure.",
-      "change_pct": 0.45
+      "change_pct": 0.28
     },
     {
       "symbol": "NYKAA",
       "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 359.65,
+      "current_price": 359.55,
       "trigger": 364.13,
-      "target1": 402.0,
-      "sl": 329.16,
+      "target1": 401.87,
+      "sl": 329.08,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9364.13 with Accumulation structure.",
-      "change_pct": 0.8
+      "change_pct": 0.77
     }
   ],
-  "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 05:16 AM",
+  "timestamp": "12 Nov 2026, 05:31 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25351.0,
-      "change_pct": 0.38,
+      "price": 25331.75,
+      "change_pct": 0.3,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82178.16,
-      "change_pct": 0.36,
+      "price": 82223.68,
+      "change_pct": 0.42,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.53,
-      "change_pct": -1.16,
+      "price": 85.63,
+      "change_pct": -1.04,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.67,
+      "price": 93.66,
       "change_pct": -0.28,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 134,
-    "declines": 41,
+    "advances": 132,
+    "declines": 42,
     "total": 175
   }
 };
