@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $85.61.",
-    "Universe breadth shows 125 advancing vs 49 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $85.57.",
+    "Universe breadth shows 119 advancing vs 56 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1451.8,
+      "current_price": 1452.0,
       "trigger": 1425.85,
-      "target1": 1732.73,
-      "sl": 1249.53,
+      "target1": 1733.04,
+      "sl": 1249.65,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.18
+      "change_pct": 3.2
     },
     {
       "symbol": "OBEROIRLTY",
       "name": "Oberoi Realty Ltd",
-      "current_price": 1823.9,
+      "current_price": 1823.2,
       "trigger": 1798.29,
-      "target1": 2090.31,
-      "sl": 1632.08,
+      "target1": 2089.24,
+      "sl": 1631.65,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,798.29 with Accumulation structure.",
-      "change_pct": 4.56
+      "change_pct": 4.52
     },
     {
       "symbol": "PRESTIGE",
       "name": "Prestige Estates Projects",
-      "current_price": 1681.0,
+      "current_price": 1683.3,
       "trigger": 1650.29,
-      "target1": 2053.14,
-      "sl": 1413.06,
+      "target1": 2056.54,
+      "sl": 1414.57,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b91,650.29 with Accumulation structure.",
-      "change_pct": 5.23
+      "change_pct": 5.37
     }
   ],
   "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 05:45 AM",
+  "timestamp": "12 Nov 2026, 06:01 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25295.1,
-      "change_pct": 0.16,
+      "price": 25282.0,
+      "change_pct": 0.11,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82180.74,
-      "change_pct": 0.37,
+      "price": 82061.41,
+      "change_pct": 0.22,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.61,
-      "change_pct": -1.06,
+      "price": 85.57,
+      "change_pct": -1.11,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 93.74,
-      "change_pct": -0.2,
+      "change_pct": -0.19,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 125,
-    "declines": 49,
+    "advances": 119,
+    "declines": 56,
     "total": 175
   }
 };
