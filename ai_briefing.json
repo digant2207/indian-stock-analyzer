@@ -4,57 +4,57 @@
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $85.31.",
-    "Universe breadth shows 138 advancing vs 37 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $86.53.",
+    "Universe breadth shows 130 advancing vs 45 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1450.6,
+      "current_price": 1445.0,
       "trigger": 1425.85,
-      "target1": 1730.87,
-      "sl": 1248.8,
+      "target1": 1722.22,
+      "sl": 1245.4,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.1
-    },
-    {
-      "symbol": "TATAPOWER",
-      "name": "Tata Power Company Ltd",
-      "current_price": 362.0,
-      "trigger": 370.94,
-      "target1": 397.29,
-      "sl": 336.59,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9370.94 with Accumulation structure.",
-      "change_pct": 0.56
+      "change_pct": 2.7
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3616.2,
+      "current_price": 3628.5,
       "trigger": 3644.27,
-      "target1": 4324.75,
-      "sl": 3106.05,
+      "target1": 4342.09,
+      "sl": 3114.72,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,644.27 with Accumulation structure.",
-      "change_pct": -0.04
+      "change_pct": 0.3
+    },
+    {
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 358.65,
+      "trigger": 364.13,
+      "target1": 400.74,
+      "sl": 328.35,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9364.13 with Accumulation structure.",
+      "change_pct": 0.52
     }
   ],
-  "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, REC Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 04:46 AM",
+  "timestamp": "12 Nov 2026, 05:01 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25346.8,
-      "change_pct": 0.36,
+      "price": 25337.75,
+      "change_pct": 0.33,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82316.7,
-      "change_pct": 0.53,
+      "price": 82222.41,
+      "change_pct": 0.42,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.31,
-      "change_pct": -0.85,
-      "status": "down"
+      "price": 86.53,
+      "change_pct": 0.57,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.66,
-      "change_pct": -0.28,
+      "price": 93.64,
+      "change_pct": -0.3,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 138,
-    "declines": 37,
+    "advances": 130,
+    "declines": 45,
     "total": 175
   }
 }
