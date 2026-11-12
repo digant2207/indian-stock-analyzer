@@ -4,58 +4,58 @@
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $87.19.",
-    "Universe breadth shows 98 advancing vs 76 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $86.69.",
+    "Universe breadth shows 100 advancing vs 75 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "SAIL",
       "name": "Steel Authority of India",
-      "current_price": 180.07,
+      "current_price": 179.81,
       "trigger": 177.12,
-      "target1": 200.2,
-      "sl": 165.57,
+      "target1": 199.8,
+      "sl": 165.42,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9177.12 with Accumulation structure.",
-      "change_pct": 2.62
+      "change_pct": 2.47
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1451.9,
+      "current_price": 1452.2,
       "trigger": 1425.85,
-      "target1": 1732.89,
-      "sl": 1249.59,
+      "target1": 1733.35,
+      "sl": 1249.77,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.19
+      "change_pct": 3.21
     },
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 742.25,
+      "current_price": 743.35,
       "trigger": 747.64,
-      "target1": 843.32,
-      "sl": 669.48,
+      "target1": 844.99,
+      "sl": 670.17,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9747.64 with Accumulation structure.",
-      "change_pct": 2.59
+      "change_pct": 2.74
     }
   ],
   "risk_warning": "Defensive alert on REC Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 08:46 AM",
+  "timestamp": "12 Nov 2026, 09:01 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25251.5,
-      "change_pct": -0.01,
+      "price": 25245.05,
+      "change_pct": -0.04,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81875.78,
-      "change_pct": -0.0,
-      "status": "up"
+      "price": 81871.77,
+      "change_pct": -0.01,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.19,
-      "change_pct": 0.76,
+      "price": 86.69,
+      "change_pct": 0.18,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 93.95,
-      "change_pct": 0.03,
+      "change_pct": 0.02,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 98,
-    "declines": 76,
+    "advances": 100,
+    "declines": 75,
     "total": 175
   }
 }
