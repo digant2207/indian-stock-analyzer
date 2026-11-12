@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $86.44.",
-    "Universe breadth shows 112 advancing vs 63 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $86.71.",
+    "Universe breadth shows 111 advancing vs 64 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "SAIL",
       "name": "Steel Authority of India",
-      "current_price": 179.66,
+      "current_price": 179.63,
       "trigger": 177.12,
-      "target1": 199.56,
-      "sl": 165.33,
+      "target1": 199.52,
+      "sl": 165.31,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9177.12 with Accumulation structure.",
-      "change_pct": 2.38
+      "change_pct": 2.36
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1455.2,
+      "current_price": 1453.7,
       "trigger": 1425.85,
-      "target1": 1738.03,
-      "sl": 1251.56,
+      "target1": 1735.69,
+      "sl": 1250.67,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.43
+      "change_pct": 3.32
     },
     {
       "symbol": "OBEROIRLTY",
       "name": "Oberoi Realty Ltd",
-      "current_price": 1814.7,
+      "current_price": 1809.7,
       "trigger": 1798.29,
-      "target1": 2076.3,
-      "sl": 1626.35,
+      "target1": 2068.78,
+      "sl": 1623.17,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,798.29 with Accumulation structure.",
-      "change_pct": 4.04
+      "change_pct": 3.75
     }
   ],
-  "risk_warning": "Defensive alert on REC Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on REC Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 07:01 AM",
+  "timestamp": "12 Nov 2026, 07:16 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25232.85,
-      "change_pct": -0.09,
+      "price": 25238.9,
+      "change_pct": -0.06,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81785.44,
-      "change_pct": -0.11,
+      "price": 81866.87,
+      "change_pct": -0.02,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.44,
-      "change_pct": -0.1,
-      "status": "down"
+      "price": 86.71,
+      "change_pct": 0.21,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.8,
-      "change_pct": -0.14,
+      "price": 93.89,
+      "change_pct": -0.04,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 112,
-    "declines": 63,
+    "advances": 111,
+    "declines": 64,
     "total": 175
   }
 };
