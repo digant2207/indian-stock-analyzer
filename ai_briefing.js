@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 25050,
-  "nifty_resistance": 25500,
+  "nifty_support": 25000,
+  "nifty_resistance": 25400,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $86.29.",
-    "Universe breadth shows 113 advancing vs 61 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,500."
+    "US Markets closed up 1.31% with Brent Crude hovering around $86.26.",
+    "Universe breadth shows 106 advancing vs 69 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,000 | Resistance cap at 25,400."
   ],
   "top_setups": [
     {
+      "symbol": "SAIL",
+      "name": "Steel Authority of India",
+      "current_price": 179.66,
+      "trigger": 177.12,
+      "target1": 199.56,
+      "sl": 165.33,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9177.12 with Accumulation structure.",
+      "change_pct": 2.38
+    },
+    {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1454.0,
+      "current_price": 1451.2,
       "trigger": 1425.85,
-      "target1": 1736.16,
-      "sl": 1250.85,
+      "target1": 1731.8,
+      "sl": 1249.17,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.34
+      "change_pct": 3.14
     },
     {
       "symbol": "OBEROIRLTY",
       "name": "Oberoi Realty Ltd",
-      "current_price": 1823.2,
+      "current_price": 1818.0,
       "trigger": 1798.29,
-      "target1": 2089.24,
-      "sl": 1631.65,
+      "target1": 2081.3,
+      "sl": 1628.42,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,798.29 with Accumulation structure.",
-      "change_pct": 4.52
-    },
-    {
-      "symbol": "PRESTIGE",
-      "name": "Prestige Estates Projects",
-      "current_price": 1686.1,
-      "trigger": 1650.29,
-      "target1": 2060.69,
-      "sl": 1416.4,
-      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,650.29 with Accumulation structure.",
-      "change_pct": 5.55
+      "change_pct": 4.23
     }
   ],
-  "risk_warning": "Defensive alert on REC Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Power Finance Corp, REC Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 06:31 AM",
+  "timestamp": "12 Nov 2026, 06:46 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25272.95,
-      "change_pct": 0.07,
-      "status": "up"
+      "price": 25222.8,
+      "change_pct": -0.13,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81991.75,
-      "change_pct": 0.14,
+      "price": 81965.3,
+      "change_pct": 0.1,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.29,
-      "change_pct": -0.28,
+      "price": 86.26,
+      "change_pct": -0.31,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.73,
-      "change_pct": -0.21,
+      "price": 93.74,
+      "change_pct": -0.2,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 113,
-    "declines": 61,
+    "advances": 106,
+    "declines": 69,
     "total": 175
   }
 };
