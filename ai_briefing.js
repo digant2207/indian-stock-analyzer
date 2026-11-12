@@ -4,58 +4,58 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $86.69.",
-    "Universe breadth shows 100 advancing vs 75 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $86.64.",
+    "Universe breadth shows 99 advancing vs 75 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "SAIL",
       "name": "Steel Authority of India",
-      "current_price": 179.81,
+      "current_price": 179.41,
       "trigger": 177.12,
-      "target1": 199.8,
-      "sl": 165.42,
+      "target1": 199.18,
+      "sl": 165.18,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9177.12 with Accumulation structure.",
-      "change_pct": 2.47
+      "change_pct": 2.24
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1452.2,
+      "current_price": 1455.7,
       "trigger": 1425.85,
-      "target1": 1733.35,
-      "sl": 1249.77,
+      "target1": 1738.81,
+      "sl": 1251.86,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.21
+      "change_pct": 3.46
     },
     {
-      "symbol": "CAMS",
-      "name": "Computer Age Management Services Ltd",
-      "current_price": 743.35,
-      "trigger": 747.64,
-      "target1": 844.99,
-      "sl": 670.17,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9747.64 with Accumulation structure.",
-      "change_pct": 2.74
+      "symbol": "ONGC",
+      "name": "Oil and Natural Gas Corporation Ltd",
+      "current_price": 224.98,
+      "trigger": 229.17,
+      "target1": 237.62,
+      "sl": 215.88,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9229.17 with Accumulation structure.",
+      "change_pct": -0.8
     }
   ],
   "risk_warning": "Defensive alert on REC Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 09:01 AM",
+  "timestamp": "12 Nov 2026, 09:16 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25245.05,
-      "change_pct": -0.04,
+      "price": 25250.5,
+      "change_pct": -0.02,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81871.77,
-      "change_pct": -0.01,
-      "status": "down"
+      "price": 81878.05,
+      "change_pct": -0.0,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,19 +71,19 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.69,
-      "change_pct": 0.18,
+      "price": 86.64,
+      "change_pct": 0.13,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.95,
-      "change_pct": 0.02,
+      "price": 94.02,
+      "change_pct": 0.1,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 100,
+    "advances": 99,
     "declines": 75,
     "total": 175
   }
