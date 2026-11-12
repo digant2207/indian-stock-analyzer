@@ -4,58 +4,58 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $86.91.",
-    "Universe breadth shows 111 advancing vs 63 declining stocks across 175 scanned equities.",
+    "US Markets closed up 1.31% with Brent Crude hovering around $87.19.",
+    "Universe breadth shows 108 advancing vs 66 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "SAIL",
       "name": "Steel Authority of India",
-      "current_price": 179.95,
+      "current_price": 179.77,
       "trigger": 177.12,
-      "target1": 200.02,
-      "sl": 165.5,
+      "target1": 199.73,
+      "sl": 165.4,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9177.12 with Accumulation structure.",
-      "change_pct": 2.55
+      "change_pct": 2.44
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1452.1,
+      "current_price": 1450.8,
       "trigger": 1425.85,
-      "target1": 1733.2,
-      "sl": 1249.71,
+      "target1": 1731.18,
+      "sl": 1248.93,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.21
+      "change_pct": 3.11
     },
     {
-      "symbol": "ONGC",
-      "name": "Oil and Natural Gas Corporation Ltd",
-      "current_price": 225.18,
-      "trigger": 229.17,
-      "target1": 237.86,
-      "sl": 216.05,
-      "rationale": "High Technical Score (28.0/100), 0.0% to Buy Trigger \u20b9229.17 with Accumulation structure.",
-      "change_pct": -0.71
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 143.4,
+      "trigger": 139.28,
+      "target1": 169.35,
+      "sl": 124.72,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9139.28 with Accumulation structure.",
+      "change_pct": 3.55
     }
   ],
-  "risk_warning": "Defensive alert on REC Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on REC Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 08:01 AM",
+  "timestamp": "12 Nov 2026, 08:16 AM",
   "date_tag": "2026-11-12",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25247.15,
+      "price": 25246.7,
       "change_pct": -0.03,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81880.17,
-      "change_pct": 0.0,
-      "status": "up"
+      "price": 81856.37,
+      "change_pct": -0.03,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.91,
-      "change_pct": 0.44,
+      "price": 87.19,
+      "change_pct": 0.76,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.98,
-      "change_pct": 0.06,
+      "price": 93.94,
+      "change_pct": 0.01,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 111,
-    "declines": 63,
+    "advances": 108,
+    "declines": 66,
     "total": 175
   }
 };
