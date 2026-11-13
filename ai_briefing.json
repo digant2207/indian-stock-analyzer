@@ -1,60 +1,60 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 24900,
-  "nifty_resistance": 25300,
+  "nifty_support": 24950,
+  "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.70.",
-    "Universe breadth shows 53 advancing vs 121 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,900 | Resistance cap at 25,300."
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.58.",
+    "Universe breadth shows 57 advancing vs 118 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
   "top_setups": [
     {
-      "symbol": "FIEMIND",
-      "name": "Fiem Industries Ltd",
-      "current_price": 2125.1,
-      "trigger": 1973.94,
-      "target1": 2608.9,
-      "sl": 1776.77,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
-      "change_pct": 9.34
-    },
-    {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 39.65,
+      "current_price": 39.69,
       "trigger": 38.07,
-      "target1": 47.89,
-      "sl": 33.71,
+      "target1": 47.97,
+      "sl": 33.73,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
-      "change_pct": 13.12
+      "change_pct": 13.24
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 103.02,
+      "current_price": 103.24,
       "trigger": 96.91,
-      "target1": 130.98,
-      "sl": 82.89,
+      "target1": 131.34,
+      "sl": 83.01,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 7.8
+      "change_pct": 8.03
+    },
+    {
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 143.29,
+      "trigger": 144.09,
+      "target1": 172.61,
+      "sl": 122.18,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9144.09 with Accumulation structure.",
+      "change_pct": 1.06
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 09:31 AM",
+  "timestamp": "13 Nov 2026, 09:46 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25102.55,
-      "change_pct": -0.78,
+      "price": 25139.25,
+      "change_pct": -0.63,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81496.75,
-      "change_pct": -0.51,
+      "price": 81478.64,
+      "change_pct": -0.53,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.7,
-      "change_pct": -0.05,
+      "price": 88.58,
+      "change_pct": -0.18,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.23,
-      "change_pct": 0.57,
+      "price": 94.24,
+      "change_pct": 0.58,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 53,
-    "declines": 121,
+    "advances": 57,
+    "declines": 118,
     "total": 175
   }
 }
