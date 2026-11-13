@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 24950,
   "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.61.",
-    "Universe breadth shows 56 advancing vs 119 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.41.",
+    "Universe breadth shows 55 advancing vs 117 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
   "top_setups": [
     {
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 365.2,
+      "trigger": 364.13,
+      "target1": 398.34,
+      "sl": 341.34,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9364.13 with Accumulation structure.",
+      "change_pct": 1.36
+    },
+    {
+      "symbol": "FIEMIND",
+      "name": "Fiem Industries Ltd",
+      "current_price": 2122.0,
+      "trigger": 1973.94,
+      "target1": 2603.9,
+      "sl": 1775.03,
+      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
+      "change_pct": 9.18
+    },
+    {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 40.06,
+      "current_price": 40.95,
       "trigger": 38.07,
-      "target1": 48.65,
-      "sl": 33.88,
+      "target1": 50.29,
+      "sl": 34.22,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
-      "change_pct": 14.29
-    },
-    {
-      "symbol": "JMA",
-      "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 103.53,
-      "trigger": 96.91,
-      "target1": 131.81,
-      "sl": 83.17,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 8.33
-    },
-    {
-      "symbol": "PNB",
-      "name": "Punjab National Bank",
-      "current_price": 143.29,
-      "trigger": 144.09,
-      "target1": 172.61,
-      "sl": 122.18,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9144.09 with Accumulation structure.",
-      "change_pct": 1.06
+      "change_pct": 16.83
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 09:49 AM",
+  "timestamp": "13 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25139.25,
-      "change_pct": -0.63,
+      "price": 25144.3,
+      "change_pct": -0.61,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81474.08,
-      "change_pct": -0.53,
+      "price": 81509.38,
+      "change_pct": -0.49,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.61,
-      "change_pct": -0.15,
+      "price": 88.41,
+      "change_pct": -0.37,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.25,
-      "change_pct": 0.59,
+      "price": 94.24,
+      "change_pct": 0.58,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 56,
-    "declines": 119,
+    "advances": 55,
+    "declines": 117,
     "total": 175
   }
 };
