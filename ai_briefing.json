@@ -4,30 +4,30 @@
   "nifty_support": 24950,
   "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.58.",
-    "Universe breadth shows 57 advancing vs 118 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.61.",
+    "Universe breadth shows 56 advancing vs 119 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
   "top_setups": [
     {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 39.69,
+      "current_price": 40.06,
       "trigger": 38.07,
-      "target1": 47.97,
-      "sl": 33.73,
+      "target1": 48.65,
+      "sl": 33.88,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
-      "change_pct": 13.24
+      "change_pct": 14.29
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 103.24,
+      "current_price": 103.53,
       "trigger": 96.91,
-      "target1": 131.34,
-      "sl": 83.01,
+      "target1": 131.81,
+      "sl": 83.17,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 8.03
+      "change_pct": 8.33
     },
     {
       "symbol": "PNB",
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 09:46 AM",
+  "timestamp": "13 Nov 2026, 09:49 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
@@ -53,7 +53,7 @@
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81478.64,
+      "price": 81474.08,
       "change_pct": -0.53,
       "status": "down"
     },
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.58,
-      "change_pct": -0.18,
+      "price": 88.61,
+      "change_pct": -0.15,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.24,
-      "change_pct": 0.58,
+      "price": 94.25,
+      "change_pct": 0.59,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 57,
-    "declines": 118,
+    "advances": 56,
+    "declines": 119,
     "total": 175
   }
 }
