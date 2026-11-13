@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 24900,
-  "nifty_resistance": 25300,
+  "nifty_support": 24850,
+  "nifty_resistance": 25250,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.63.",
-    "Universe breadth shows 51 advancing vs 123 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,900 | Resistance cap at 25,300."
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.96.",
+    "Universe breadth shows 49 advancing vs 126 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,850 | Resistance cap at 25,250."
   ],
   "top_setups": [
     {
-      "symbol": "DHANBANK",
-      "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 39.2,
-      "trigger": 38.07,
-      "target1": 47.07,
-      "sl": 33.53,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
-      "change_pct": 11.84
-    },
-    {
-      "symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
-      "current_price": 150.31,
-      "trigger": 150.5,
-      "target1": 179.15,
-      "sl": 129.55,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9150.50 with Accumulation structure.",
-      "change_pct": 9.38
-    },
-    {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 103.03,
+      "current_price": 103.04,
       "trigger": 96.91,
-      "target1": 129.33,
-      "sl": 84.09,
+      "target1": 131.01,
+      "sl": 82.9,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 8.08
+      "change_pct": 7.82
+    },
+    {
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 143.4,
+      "trigger": 144.09,
+      "target1": 172.78,
+      "sl": 122.25,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9144.09 with Accumulation structure.",
+      "change_pct": 1.14
+    },
+    {
+      "symbol": "DHANBANK",
+      "name": "Dhanlaxmi Bank Ltd",
+      "current_price": 38.92,
+      "trigger": 38.07,
+      "target1": 46.57,
+      "sl": 33.41,
+      "rationale": "High Technical Score (41.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
+      "change_pct": 11.04
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 08:31 AM",
+  "timestamp": "13 Nov 2026, 08:46 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25093.75,
-      "change_pct": -0.81,
+      "price": 25069.25,
+      "change_pct": -0.91,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81451.64,
-      "change_pct": -0.56,
+      "price": 81400.72,
+      "change_pct": -0.62,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.63,
-      "change_pct": -0.12,
-      "status": "down"
+      "price": 88.96,
+      "change_pct": 0.25,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.24,
-      "change_pct": 0.57,
+      "price": 94.26,
+      "change_pct": 0.6,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 51,
-    "declines": 123,
+    "advances": 49,
+    "declines": 126,
     "total": 175
   }
 };
