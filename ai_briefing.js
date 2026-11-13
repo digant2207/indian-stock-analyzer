@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed up 1.31% with Brent Crude hovering around $85.85.",
-    "Universe breadth shows 104 advancing vs 68 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.16.",
+    "Universe breadth shows 111 advancing vs 62 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on REC Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "12 Nov 2026, 12:40 PM",
-  "date_tag": "2026-11-12",
+  "timestamp": "13 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7619.38,
-      "change_pct": 1.31,
-      "status": "up"
+      "price": 7592.4,
+      "change_pct": -0.35,
+      "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25466.19,
-      "change_pct": 1.6,
-      "status": "up"
+      "price": 25366.09,
+      "change_pct": -0.39,
+      "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.85,
-      "change_pct": -0.79,
-      "status": "down"
+      "price": 88.16,
+      "change_pct": 1.88,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 94.04,
-      "change_pct": 0.12,
+      "change_pct": 0.37,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 104,
-    "declines": 68,
+    "advances": 111,
+    "declines": 62,
     "total": 175
   }
 };
