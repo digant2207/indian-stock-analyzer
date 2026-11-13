@@ -4,56 +4,56 @@ window.AI_BRIEFING = {
   "nifty_support": 24900,
   "nifty_resistance": 25300,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.82.",
-    "Universe breadth shows 56 advancing vs 116 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.34.",
+    "Universe breadth shows 60 advancing vs 115 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,900 | Resistance cap at 25,300."
   ],
   "top_setups": [
     {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 39.54,
+      "current_price": 39.38,
       "trigger": 38.07,
-      "target1": 47.69,
-      "sl": 33.67,
+      "target1": 47.4,
+      "sl": 33.6,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
-      "change_pct": 12.81
+      "change_pct": 12.35
     },
     {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 151.51,
+      "current_price": 151.06,
       "trigger": 150.5,
-      "target1": 181.21,
-      "sl": 130.12,
+      "target1": 180.44,
+      "sl": 129.91,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9150.50 with Accumulation structure.",
-      "change_pct": 10.25
+      "change_pct": 9.93
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 102.98,
+      "current_price": 103.0,
       "trigger": 96.91,
-      "target1": 129.25,
-      "sl": 84.07,
+      "target1": 129.28,
+      "sl": 84.08,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 8.02
+      "change_pct": 8.05
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 07:45 AM",
+  "timestamp": "13 Nov 2026, 08:01 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25113.9,
-      "change_pct": -0.73,
+      "price": 25112.6,
+      "change_pct": -0.74,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81461.89,
+      "price": 81460.4,
       "change_pct": -0.55,
       "status": "down"
     },
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.82,
-      "change_pct": 0.09,
-      "status": "up"
+      "price": 88.34,
+      "change_pct": -0.45,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 94.21,
-      "change_pct": 0.54,
+      "change_pct": 0.55,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 56,
-    "declines": 116,
+    "advances": 60,
+    "declines": 115,
     "total": 175
   }
 };
