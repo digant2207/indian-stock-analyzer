@@ -4,58 +4,58 @@
   "nifty_support": 24950,
   "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.18.",
-    "Universe breadth shows 47 advancing vs 126 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.21.",
+    "Universe breadth shows 56 advancing vs 119 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
   "top_setups": [
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 101.0,
+      "current_price": 102.95,
       "trigger": 96.91,
-      "target1": 125.9,
-      "sl": 83.07,
+      "target1": 129.19,
+      "sl": 84.05,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 5.95
+      "change_pct": 7.99
     },
     {
-      "symbol": "MCX",
-      "name": "Multi Commodity Exchange",
-      "current_price": 3619.4,
-      "trigger": 3652.29,
-      "target1": 4302.05,
-      "sl": 3127.89,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,652.29 with Accumulation structure.",
-      "change_pct": -0.15
+      "symbol": "FIEMIND",
+      "name": "Fiem Industries Ltd",
+      "current_price": 2117.2,
+      "trigger": 1973.94,
+      "target1": 2585.4,
+      "sl": 1780.1,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
+      "change_pct": 9.53
     },
     {
-      "symbol": "NYKAA",
-      "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 358.0,
-      "trigger": 364.13,
-      "target1": 388.82,
-      "sl": 335.81,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9364.13 with Accumulation structure.",
-      "change_pct": -0.64
+      "symbol": "SHARDAMOTR",
+      "name": "Sharda Motor Industries Ltd",
+      "current_price": 1010.0,
+      "trigger": 925.85,
+      "target1": 1210.17,
+      "sl": 865.88,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9925.85 with Accumulation structure.",
+      "change_pct": 11.74
     }
   ],
-  "risk_warning": "Defensive alert on L&T Finance Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 03:46 AM",
+  "timestamp": "13 Nov 2026, 04:01 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25128.1,
-      "change_pct": -0.68,
+      "price": 25129.3,
+      "change_pct": -0.67,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81911.01,
-      "change_pct": 0.04,
-      "status": "up"
+      "price": 81468.26,
+      "change_pct": -0.54,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.18,
-      "change_pct": 1.91,
+      "price": 88.21,
+      "change_pct": 1.94,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.08,
-      "change_pct": 0.41,
+      "price": 94.13,
+      "change_pct": 0.46,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 47,
-    "declines": 126,
+    "advances": 56,
+    "declines": 119,
     "total": 175
   }
 }
