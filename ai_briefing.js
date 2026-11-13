@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 24950,
   "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.38.",
-    "Universe breadth shows 77 advancing vs 98 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.57.",
+    "Universe breadth shows 72 advancing vs 102 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
   "top_setups": [
     {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 175.7,
-      "trigger": 175.86,
-      "target1": 196.27,
-      "sl": 160.89,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9175.86 with Accumulation structure.",
-      "change_pct": 4.86
-    },
-    {
       "symbol": "JAMNAAUTO",
       "name": "Jamna Auto Industries Ltd",
-      "current_price": 151.81,
+      "current_price": 152.05,
       "trigger": 150.5,
-      "target1": 181.73,
-      "sl": 130.27,
+      "target1": 182.15,
+      "sl": 130.38,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9150.50 with Accumulation structure.",
-      "change_pct": 10.47
+      "change_pct": 10.65
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 102.1,
+      "current_price": 102.97,
       "trigger": 96.91,
-      "target1": 127.75,
-      "sl": 83.63,
+      "target1": 129.23,
+      "sl": 84.06,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 7.1
+      "change_pct": 8.01
+    },
+    {
+      "symbol": "FIEMIND",
+      "name": "Fiem Industries Ltd",
+      "current_price": 2115.6,
+      "trigger": 1973.94,
+      "target1": 2582.77,
+      "sl": 1779.24,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
+      "change_pct": 9.45
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 06:01 AM",
+  "timestamp": "13 Nov 2026, 06:16 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25172.25,
-      "change_pct": -0.5,
+      "price": 25158.1,
+      "change_pct": -0.56,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81610.21,
-      "change_pct": -0.37,
+      "price": 81641.54,
+      "change_pct": -0.33,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.38,
-      "change_pct": -0.41,
+      "price": 88.57,
+      "change_pct": -0.19,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.21,
-      "change_pct": 0.54,
+      "price": 94.25,
+      "change_pct": 0.59,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 77,
-    "declines": 98,
+    "advances": 72,
+    "declines": 102,
     "total": 175
   }
 };
