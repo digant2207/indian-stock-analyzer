@@ -4,45 +4,45 @@ window.AI_BRIEFING = {
   "nifty_support": 24950,
   "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.41.",
-    "Universe breadth shows 55 advancing vs 117 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.04.",
+    "Universe breadth shows 57 advancing vs 116 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
   "top_setups": [
     {
-      "symbol": "NYKAA",
-      "name": "Fsn E-Commerce Ventures Ltd",
-      "current_price": 365.2,
-      "trigger": 364.13,
-      "target1": 398.34,
-      "sl": 341.34,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9364.13 with Accumulation structure.",
-      "change_pct": 1.36
-    },
-    {
-      "symbol": "FIEMIND",
-      "name": "Fiem Industries Ltd",
-      "current_price": 2122.0,
-      "trigger": 1973.94,
-      "target1": 2603.9,
-      "sl": 1775.03,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b91,973.94 with Accumulation structure.",
-      "change_pct": 9.18
-    },
-    {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 40.95,
+      "current_price": 40.24,
       "trigger": 38.07,
-      "target1": 50.29,
-      "sl": 34.22,
+      "target1": 48.98,
+      "sl": 33.95,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
-      "change_pct": 16.83
+      "change_pct": 14.81
+    },
+    {
+      "symbol": "JMA",
+      "name": "Jullundur Motor Agency (Delhi) Ltd",
+      "current_price": 103.95,
+      "trigger": 96.91,
+      "target1": 132.5,
+      "sl": 83.39,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
+      "change_pct": 8.77
+    },
+    {
+      "symbol": "MFSL",
+      "name": "Max Financial Services",
+      "current_price": 1401.1,
+      "trigger": 1381.87,
+      "target1": 1640.1,
+      "sl": 1229.02,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,381.87 with Accumulation structure.",
+      "change_pct": 1.9
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 10:01 AM",
+  "timestamp": "13 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81509.38,
-      "change_pct": -0.49,
+      "price": 81592.45,
+      "change_pct": -0.39,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.41,
-      "change_pct": -0.37,
+      "price": 88.04,
+      "change_pct": -0.79,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.24,
-      "change_pct": 0.58,
+      "price": 94.23,
+      "change_pct": 0.57,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 55,
-    "declines": 117,
+    "advances": 57,
+    "declines": 116,
     "total": 175
   }
 };
