@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 24900,
   "nifty_resistance": 25300,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $89.10.",
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.71.",
     "Universe breadth shows 49 advancing vs 126 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,900 | Resistance cap at 25,300."
   ],
@@ -12,49 +12,49 @@ window.AI_BRIEFING = {
     {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 39.35,
+      "current_price": 39.4,
       "trigger": 38.07,
-      "target1": 47.35,
-      "sl": 33.59,
+      "target1": 47.44,
+      "sl": 33.61,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
-      "change_pct": 12.27
+      "change_pct": 12.41
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 103.01,
+      "current_price": 103.31,
       "trigger": 96.91,
-      "target1": 130.97,
-      "sl": 82.88,
+      "target1": 131.45,
+      "sl": 83.05,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 7.78
+      "change_pct": 8.1
     },
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 143.72,
+      "current_price": 143.62,
       "trigger": 144.09,
-      "target1": 173.27,
-      "sl": 122.44,
+      "target1": 173.12,
+      "sl": 122.38,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9144.09 with Accumulation structure.",
-      "change_pct": 1.36
+      "change_pct": 1.29
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 09:01 AM",
+  "timestamp": "13 Nov 2026, 09:15 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25091.05,
-      "change_pct": -0.82,
+      "price": 25112.15,
+      "change_pct": -0.74,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81335.05,
-      "change_pct": -0.7,
+      "price": 81413.17,
+      "change_pct": -0.61,
       "status": "down"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.1,
-      "change_pct": 0.41,
-      "status": "up"
+      "price": 88.71,
+      "change_pct": -0.03,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.24,
-      "change_pct": 0.57,
+      "price": 94.26,
+      "change_pct": 0.6,
       "status": "up"
     }
   },
