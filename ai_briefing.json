@@ -1,55 +1,55 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25100,
-  "nifty_resistance": 25500,
+  "nifty_support": 24950,
+  "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.16.",
-    "Universe breadth shows 111 advancing vs 62 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
+    "US Markets closed down 0.35% with Brent Crude hovering around $88.18.",
+    "Universe breadth shows 47 advancing vs 126 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
   "top_setups": [
     {
-      "symbol": "SAIL",
-      "name": "Steel Authority of India",
-      "current_price": 177.7,
-      "trigger": 177.12,
-      "target1": 196.58,
-      "sl": 164.11,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9177.12 with Accumulation structure.",
-      "change_pct": 1.27
+      "symbol": "JMA",
+      "name": "Jullundur Motor Agency (Delhi) Ltd",
+      "current_price": 101.0,
+      "trigger": 96.91,
+      "target1": 125.9,
+      "sl": 83.07,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
+      "change_pct": 5.95
     },
     {
-      "symbol": "CDSL",
-      "name": "Central Depository Services",
-      "current_price": 1455.0,
-      "trigger": 1425.85,
-      "target1": 1737.71,
-      "sl": 1251.45,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,425.85 with Accumulation structure.",
-      "change_pct": 3.41
+      "symbol": "MCX",
+      "name": "Multi Commodity Exchange",
+      "current_price": 3619.4,
+      "trigger": 3652.29,
+      "target1": 4302.05,
+      "sl": 3127.89,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,652.29 with Accumulation structure.",
+      "change_pct": -0.15
     },
     {
-      "symbol": "ONGC",
-      "name": "Oil and Natural Gas Corporation Ltd",
-      "current_price": 224.5,
-      "trigger": 229.17,
-      "target1": 237.06,
-      "sl": 215.46,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9229.17 with Accumulation structure.",
-      "change_pct": -1.01
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 358.0,
+      "trigger": 364.13,
+      "target1": 388.82,
+      "sl": 335.81,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9364.13 with Accumulation structure.",
+      "change_pct": -0.64
     }
   ],
-  "risk_warning": "Defensive alert on REC Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on L&T Finance Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 03:31 AM",
+  "timestamp": "13 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-13",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25299.35,
-      "change_pct": 0.18,
-      "status": "up"
+      "price": 25128.1,
+      "change_pct": -0.68,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.16,
-      "change_pct": 1.88,
+      "price": 88.18,
+      "change_pct": 1.91,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.04,
-      "change_pct": 0.37,
+      "price": 94.08,
+      "change_pct": 0.41,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 111,
-    "declines": 62,
+    "advances": 47,
+    "declines": 126,
     "total": 175
   }
 }
