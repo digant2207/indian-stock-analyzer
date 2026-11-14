@@ -4,7 +4,7 @@
   "nifty_support": 24950,
   "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $88.63.",
+    "US Markets closed down 0.40% with Brent Crude hovering around $88.56.",
     "Universe breadth shows 57 advancing vs 116 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
@@ -42,8 +42,8 @@
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "13 Nov 2026, 12:10 PM",
-  "date_tag": "2026-11-13",
+  "timestamp": "14 Nov 2026, 09:13 AM",
+  "date_tag": "2026-11-14",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,26 +59,26 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7592.4,
-      "change_pct": -0.35,
+      "price": 7561.67,
+      "change_pct": -0.4,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 25366.09,
-      "change_pct": -0.39,
+      "price": 25136.27,
+      "change_pct": -0.91,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.63,
-      "change_pct": -0.12,
+      "price": 88.56,
+      "change_pct": -0.2,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.22,
-      "change_pct": 0.56,
+      "price": 94.24,
+      "change_pct": 0.22,
       "status": "up"
     }
   },
