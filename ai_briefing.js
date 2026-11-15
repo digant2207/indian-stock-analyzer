@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "14 Nov 2026, 09:13 AM",
-  "date_tag": "2026-11-14",
+  "timestamp": "15 Nov 2026, 09:42 AM",
+  "date_tag": "2026-11-15",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
