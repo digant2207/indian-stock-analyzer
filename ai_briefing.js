@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Kaynes Technology India, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 11:01 AM",
+  "timestamp": "16 Nov 2026, 11:15 AM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
