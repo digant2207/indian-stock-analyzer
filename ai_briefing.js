@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 0.40% with Brent Crude hovering around $89.08.",
-    "Universe breadth shows 52 advancing vs 121 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.40% with Brent Crude hovering around $88.70.",
+    "Universe breadth shows 54 advancing vs 120 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "INDRAMEDCO",
       "name": "Indraprastha Medical Corporation Ltd",
-      "current_price": 348.5,
+      "current_price": 349.4,
       "trigger": 343.99,
-      "target1": 394.49,
-      "sl": 315.38,
+      "target1": 395.84,
+      "sl": 315.96,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9343.99 with Accumulation structure.",
-      "change_pct": 5.56
+      "change_pct": 5.83
     },
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1484.0,
+      "current_price": 1491.9,
       "trigger": 1508.01,
-      "target1": 1566.12,
-      "sl": 1424.87,
+      "target1": 1577.96,
+      "sl": 1429.93,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 5.24
+      "change_pct": 5.8
     },
     {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 42.08,
+      "current_price": 42.48,
       "trigger": 42.07,
-      "target1": 54.26,
-      "sl": 33.31,
+      "target1": 54.94,
+      "sl": 33.51,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b942.07 with Accumulation structure.",
-      "change_pct": 4.57
+      "change_pct": 5.57
     }
   ],
-  "risk_warning": "Defensive alert on Kaynes Technology India, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Kaynes Technology India, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 07:31 AM",
+  "timestamp": "16 Nov 2026, 07:45 AM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25258.8,
-      "change_pct": 0.46,
+      "price": 25265.45,
+      "change_pct": 0.48,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82069.52,
-      "change_pct": 0.58,
+      "price": 82041.25,
+      "change_pct": 0.55,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.08,
-      "change_pct": 0.59,
+      "price": 88.7,
+      "change_pct": 0.16,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.02,
+      "price": 94.01,
       "change_pct": -0.02,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 52,
-    "declines": 121,
+    "advances": 54,
+    "declines": 120,
     "total": 175
   }
 };
