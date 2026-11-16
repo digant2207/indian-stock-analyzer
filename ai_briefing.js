@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25050,
-  "nifty_resistance": 25450,
+  "nifty_support": 25100,
+  "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.40% with Brent Crude hovering around $87.94.",
-    "Universe breadth shows 42 advancing vs 132 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
+    "US Markets closed down 0.40% with Brent Crude hovering around $88.44.",
+    "Universe breadth shows 49 advancing vs 124 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 43.06,
+      "current_price": 42.41,
       "trigger": 42.07,
-      "target1": 55.93,
-      "sl": 33.79,
+      "target1": 54.82,
+      "sl": 33.48,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b942.07 with Accumulation structure.",
-      "change_pct": 7.01
+      "change_pct": 5.39
     },
     {
       "symbol": "NATCOPHARM",
       "name": "Natco Pharma Ltd",
-      "current_price": 841.45,
+      "current_price": 827.4,
       "trigger": 831.66,
-      "target1": 898.77,
-      "sl": 800.18,
-      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9831.66 with Accumulation structure.",
-      "change_pct": 3.83
+      "target1": 875.16,
+      "sl": 793.01,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b9831.66 with Accumulation structure.",
+      "change_pct": 2.09
     },
     {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero Motocorp Ltd",
-      "current_price": 5433.0,
-      "trigger": 5561.1,
-      "target1": 5883.39,
-      "sl": 5108.72,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 0.89
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 367.7,
+      "trigger": 366.48,
+      "target1": 408.95,
+      "sl": 338.0,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9366.48 with Accumulation structure.",
+      "change_pct": 1.87
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Kaynes Technology India, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 04:01 AM",
+  "timestamp": "16 Nov 2026, 04:31 AM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25253.5,
-      "change_pct": 0.43,
+      "price": 25316.1,
+      "change_pct": 0.68,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82196.08,
-      "change_pct": 0.74,
+      "price": 82240.54,
+      "change_pct": 0.79,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.94,
-      "change_pct": -0.7,
+      "price": 88.44,
+      "change_pct": -0.14,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.17,
-      "change_pct": 0.14,
+      "price": 94.1,
+      "change_pct": 0.07,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 42,
-    "declines": 132,
+    "advances": 49,
+    "declines": 124,
     "total": 175
   }
 };
