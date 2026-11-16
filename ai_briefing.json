@@ -4,7 +4,7 @@
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.40% with Brent Crude hovering around $88.30.",
+    "US Markets closed down 0.40% with Brent Crude hovering around $88.42.",
     "Universe breadth shows 53 advancing vs 122 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
@@ -12,12 +12,12 @@
     {
       "symbol": "INDRAMEDCO",
       "name": "Indraprastha Medical Corporation Ltd",
-      "current_price": 353.05,
+      "current_price": 353.0,
       "trigger": 343.99,
-      "target1": 401.43,
-      "sl": 318.22,
+      "target1": 401.35,
+      "sl": 318.19,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9343.99 with Accumulation structure.",
-      "change_pct": 6.94
+      "change_pct": 6.92
     },
     {
       "symbol": "VIJAYA",
@@ -32,17 +32,17 @@
     {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 42.8,
+      "current_price": 42.84,
       "trigger": 42.07,
-      "target1": 55.48,
-      "sl": 33.67,
+      "target1": 55.55,
+      "sl": 33.69,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b942.07 with Accumulation structure.",
-      "change_pct": 6.36
+      "change_pct": 6.46
     }
   ],
   "risk_warning": "Defensive alert on Kaynes Technology India, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 09:59 AM",
+  "timestamp": "16 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81916.09,
-      "change_pct": 0.4,
+      "price": 81939.31,
+      "change_pct": 0.43,
       "status": "up"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.3,
-      "change_pct": -0.29,
+      "price": 88.42,
+      "change_pct": -0.16,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.93,
-      "change_pct": -0.11,
+      "price": 93.91,
+      "change_pct": -0.13,
       "status": "down"
     }
   },
