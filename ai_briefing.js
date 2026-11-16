@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.40% with Brent Crude hovering around $88.42.",
-    "Universe breadth shows 53 advancing vs 122 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.40% with Brent Crude hovering around $88.77.",
+    "Universe breadth shows 51 advancing vs 124 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
@@ -22,12 +22,12 @@ window.AI_BRIEFING = {
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1482.9,
+      "current_price": 1487.5,
       "trigger": 1508.01,
-      "target1": 1564.52,
-      "sl": 1424.14,
+      "target1": 1571.31,
+      "sl": 1427.16,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 5.16
+      "change_pct": 5.49
     },
     {
       "symbol": "DHANBANK",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Kaynes Technology India, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 10:01 AM",
+  "timestamp": "16 Nov 2026, 10:15 AM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81939.31,
-      "change_pct": 0.43,
+      "price": 82104.79,
+      "change_pct": 0.63,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.42,
-      "change_pct": -0.16,
-      "status": "down"
+      "price": 88.77,
+      "change_pct": 0.24,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.91,
-      "change_pct": -0.13,
+      "price": 93.92,
+      "change_pct": -0.12,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 53,
-    "declines": 122,
+    "advances": 51,
+    "declines": 124,
     "total": 175
   }
 };

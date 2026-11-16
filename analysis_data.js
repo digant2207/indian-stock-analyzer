@@ -1,17 +1,17 @@
 window.stockData = {
   "summary": {
-    "last_updated": "2026-11-16 03:31 PM IST",
+    "last_updated": "2026-11-16 03:45 PM IST",
     "total_stocks_scanned": 139,
-    "strong_buys_count": 45,
-    "swing_breakouts_count": 14,
+    "strong_buys_count": 47,
+    "swing_breakouts_count": 15,
     "intraday_setups_count": 7,
     "high_debt_warnings": 17,
-    "breakouts_done_today": 11,
-    "wyckoff_accumulation_count": 23,
+    "breakouts_done_today": 10,
+    "wyckoff_accumulation_count": 22,
     "wyckoff_markup_count": 0,
     "wyckoff_phase_c_springs": 0,
-    "wyckoff_phase_d_breakouts": 23,
-    "wyckoff_distribution_count": 31
+    "wyckoff_phase_d_breakouts": 22,
+    "wyckoff_distribution_count": 32
   },
   "top_15_stocks": [
     {
@@ -496,7 +496,7 @@ window.stockData = {
           "high": 5449.0,
           "low": 5324.0,
           "close": 5359.5,
-          "volume": 400118
+          "volume": 369238
         }
       ],
       "name": "Hero Motocorp Ltd",
@@ -517,7 +517,7 @@ window.stockData = {
       "macd_val": 53.0,
       "macd_signal": 39.08,
       "macd_hist": 13.92,
-      "vol_surge_ratio": 0.72,
+      "vol_surge_ratio": 0.66,
       "pe_ratio": 17.89,
       "forward_pe": 16.64,
       "peg_ratio": 0.0,
@@ -1077,7 +1077,7 @@ window.stockData = {
           "high": 360.0,
           "low": 325.95,
           "close": 353.0,
-          "volume": 5179416
+          "volume": 5179200
         }
       ],
       "name": "Indraprastha Medical Corporation Ltd",
@@ -1653,33 +1653,33 @@ window.stockData = {
           "open": 1418.0,
           "high": 1498.0,
           "low": 1395.0,
-          "close": 1482.9,
-          "volume": 825642
+          "close": 1487.5,
+          "volume": 825640
         }
       ],
       "name": "Vijaya Diagnostic Centre Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,250.72",
-      "current_price": 1482.9,
+      "current_price": 1487.5,
       "prev_close": 1410.1,
-      "day_change_pct": 5.16,
+      "day_change_pct": 5.49,
       "52w_high": 1593.6,
       "52w_low": 846.83,
-      "pct_from_52w_high": -6.95,
-      "pct_from_52w_low": 75.11,
-      "sma_20": 1426.04,
-      "sma_50": 1456.43,
-      "sma_200": 1254.24,
-      "rsi_14": 57.3,
-      "macd_val": 1.38,
-      "macd_signal": -2.2,
-      "macd_hist": 3.58,
+      "pct_from_52w_high": -6.66,
+      "pct_from_52w_low": 75.66,
+      "sma_20": 1426.27,
+      "sma_50": 1456.52,
+      "sma_200": 1254.27,
+      "rsi_14": 57.9,
+      "macd_val": 1.75,
+      "macd_signal": -2.13,
+      "macd_hist": 3.87,
       "vol_surge_ratio": 4.71,
-      "pe_ratio": 75.08,
-      "forward_pe": 52.57,
+      "pe_ratio": 75.32,
+      "forward_pe": 52.73,
       "peg_ratio": 0.0,
-      "pb_ratio": 14.43,
+      "pb_ratio": 14.48,
       "roe": 21.2,
       "profit_margins": 22.4,
       "operating_margins": 32.1,
@@ -1691,7 +1691,7 @@ window.stockData = {
       "q_pat_growth": 37.1,
       "free_cash_flow": 932610368.0,
       "target_mean_price": 1624.1,
-      "analyst_upside_pct": 9.5,
+      "analyst_upside_pct": 9.2,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 14.0,
       "promoter_holding": 53.5,
@@ -1723,9 +1723,9 @@ window.stockData = {
       "long_term_signal": "STRONG BUY",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "MOMENTUM SCALP BUY",
-      "swing_stoploss": 1424.14,
-      "swing_target_1": 1564.52,
-      "swing_target_2": 1620.01,
+      "swing_stoploss": 1427.16,
+      "swing_target_1": 1571.31,
+      "swing_target_2": 1628.29,
       "rationale": [
         "YoY Revenue up 26.7%",
         "YoY Profit up 37.1%",
@@ -1741,9 +1741,9 @@ window.stockData = {
       "wyckoff_creek": 1508.01,
       "wyckoff_ice": 1332.33,
       "wyckoff_breakout": 1508.01,
-      "wyckoff_dist_to_breakout_pct": 1.69,
+      "wyckoff_dist_to_breakout_pct": 1.38,
       "wyckoff_stoploss": 1538.17,
-      "wyckoff_stoploss_pct": -3.73,
+      "wyckoff_stoploss_pct": -3.41,
       "wyckoff_target_1": 1683.69,
       "wyckoff_target_2": 1859.37,
       "wyckoff_signal": "CLIMAX WATCH",
@@ -2235,7 +2235,7 @@ window.stockData = {
           "high": 43.8,
           "low": 40.82,
           "close": 42.84,
-          "volume": 95592128
+          "volume": 95592127
         }
       ],
       "name": "Dhanlaxmi Bank Ltd",
@@ -2814,31 +2814,31 @@ window.stockData = {
           "open": 1526.1,
           "high": 1536.0,
           "low": 1476.7,
-          "close": 1533.1,
-          "volume": 770796
+          "close": 1532.9,
+          "volume": 770786
         }
       ],
       "name": "Great Eastern Shipping Company Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,419.65",
-      "current_price": 1533.1,
+      "current_price": 1532.9,
       "prev_close": 1518.0,
-      "day_change_pct": 0.99,
+      "day_change_pct": 0.98,
       "52w_high": 1749.18,
       "52w_low": 1020.66,
-      "pct_from_52w_high": -12.35,
-      "pct_from_52w_low": 50.21,
-      "sma_20": 1504.59,
-      "sma_50": 1474.08,
+      "pct_from_52w_high": -12.36,
+      "pct_from_52w_low": 50.19,
+      "sma_20": 1504.58,
+      "sma_50": 1474.07,
       "sma_200": 1395.47,
-      "rsi_14": 55.4,
-      "macd_val": -1.92,
+      "rsi_14": 55.3,
+      "macd_val": -1.94,
       "macd_signal": 3.43,
-      "macd_hist": -5.35,
+      "macd_hist": -5.37,
       "vol_surge_ratio": 0.91,
       "pe_ratio": 4.94,
-      "forward_pe": 6.5,
+      "forward_pe": 6.49,
       "peg_ratio": 0.0,
       "pb_ratio": 1.15,
       "roe": 26.0,
@@ -2884,9 +2884,9 @@ window.stockData = {
       "long_term_signal": "STRONG BUY",
       "swing_signal": "RANGE CONSOLIDATION",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1356.69,
-      "swing_target_1": 1778.11,
-      "swing_target_2": 1944.72,
+      "swing_stoploss": 1356.51,
+      "swing_target_1": 1777.89,
+      "swing_target_2": 1944.48,
       "rationale": [
         "YoY Revenue up 46.9%",
         "YoY Profit up 118.8%",
@@ -2902,9 +2902,9 @@ window.stockData = {
       "wyckoff_creek": 1633.9,
       "wyckoff_ice": 1392.11,
       "wyckoff_breakout": 1633.9,
-      "wyckoff_dist_to_breakout_pct": 6.57,
+      "wyckoff_dist_to_breakout_pct": 6.59,
       "wyckoff_stoploss": 1364.27,
-      "wyckoff_stoploss_pct": 11.01,
+      "wyckoff_stoploss_pct": 11.0,
       "wyckoff_target_1": 1875.69,
       "wyckoff_target_2": 2117.48,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -3396,7 +3396,7 @@ window.stockData = {
           "high": 177.04,
           "low": 172.51,
           "close": 174.16,
-          "volume": 3215320
+          "volume": 3215220
         }
       ],
       "name": "ITC Hotels Ltd",
@@ -3975,30 +3975,30 @@ window.stockData = {
           "open": 105.0,
           "high": 106.0,
           "low": 103.0,
-          "close": 105.9,
-          "volume": 114220
+          "close": 105.78,
+          "volume": 114171
         }
       ],
       "name": "Jullundur Motor Agency (Delhi) Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b986.81",
-      "current_price": 105.9,
+      "current_price": 105.78,
       "prev_close": 103.95,
-      "day_change_pct": 1.88,
+      "day_change_pct": 1.76,
       "52w_high": 106.0,
       "52w_low": 67.89,
-      "pct_from_52w_high": -0.09,
-      "pct_from_52w_low": 55.99,
+      "pct_from_52w_high": -0.21,
+      "pct_from_52w_low": 55.81,
       "sma_20": 86.18,
       "sma_50": 87.99,
       "sma_200": 85.03,
-      "rsi_14": 81.1,
-      "macd_val": 3.51,
+      "rsi_14": 81.0,
+      "macd_val": 3.5,
       "macd_signal": 0.61,
       "macd_hist": 2.9,
       "vol_surge_ratio": 3.33,
-      "pe_ratio": 7.55,
+      "pe_ratio": 7.54,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 0.88,
@@ -4012,7 +4012,7 @@ window.stockData = {
       "q_sales_growth": 15.4,
       "q_pat_growth": 42.3,
       "free_cash_flow": 0.0,
-      "target_mean_price": 105.9,
+      "target_mean_price": 105.78,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 192.0,
@@ -4038,7 +4038,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "Weak Return on Capital (0.0% ROE)",
-        "RSI Overbought Warning (81.1)"
+        "RSI Overbought Warning (81.0)"
       ],
       "fundamental_score": 25.0,
       "technical_score": 46.0,
@@ -4046,9 +4046,9 @@ window.stockData = {
       "long_term_signal": "STRONG BUY",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "MOMENTUM SCALP BUY",
-      "swing_stoploss": 81.36,
-      "swing_target_1": 139.98,
-      "swing_target_2": 163.15,
+      "swing_stoploss": 81.29,
+      "swing_target_1": 139.79,
+      "swing_target_2": 162.92,
       "rationale": [
         "YoY Revenue up 15.4%",
         "YoY Profit up 42.3%",
@@ -4062,19 +4062,19 @@ window.stockData = {
       "wyckoff_phase": "Phase D",
       "wyckoff_structure": "Accumulation",
       "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 106.43,
+      "wyckoff_creek": 106.31,
       "wyckoff_ice": 76.29,
-      "wyckoff_breakout": 106.64,
+      "wyckoff_breakout": 106.52,
       "wyckoff_dist_to_breakout_pct": 0.7,
       "wyckoff_stoploss": 77.05,
-      "wyckoff_stoploss_pct": 27.24,
-      "wyckoff_target_1": 136.57,
-      "wyckoff_target_2": 166.71,
+      "wyckoff_stoploss_pct": 27.16,
+      "wyckoff_target_1": 136.33,
+      "wyckoff_target_2": 166.35,
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9106.43).",
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9106.31).",
         "Volume surge 3.3x confirms institutional demand absorption.",
-        "Cause of 30.14 pts horizontal accumulation ready to unlock upward effect."
+        "Cause of 30.02 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -4559,7 +4559,7 @@ window.stockData = {
           "high": 1347.3,
           "low": 1333.8,
           "close": 1344.8,
-          "volume": 8194587
+          "volume": 7653026
         }
       ],
       "name": "Reliance Industries Ltd",
@@ -4580,7 +4580,7 @@ window.stockData = {
       "macd_val": 35.04,
       "macd_signal": 22.44,
       "macd_hist": 12.6,
-      "vol_surge_ratio": 0.39,
+      "vol_surge_ratio": 0.36,
       "pe_ratio": 22.16,
       "forward_pe": 18.21,
       "peg_ratio": 0.82,
@@ -4655,587 +4655,6 @@ window.stockData = {
         "Last Point of Support (LPS) successfully holding above Creek (\u20b91353.4).",
         "Low-volume pullback demonstrates floating supply is exhausted.",
         "Prime Wyckoff low-risk entry before Phase E markup acceleration."
-      ]
-    },
-    {
-      "symbol": "BANCOINDIA.NS",
-      "clean_symbol": "BANCOINDIA",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 622.96,
-          "high": 622.96,
-          "low": 613.08,
-          "close": 614.81,
-          "volume": 55044
-        },
-        {
-          "time": "2026-08-20",
-          "open": 617.03,
-          "high": 624.78,
-          "low": 613.08,
-          "close": 617.48,
-          "volume": 95250
-        },
-        {
-          "time": "2026-08-21",
-          "open": 618.96,
-          "high": 622.12,
-          "low": 611.6,
-          "close": 615.75,
-          "volume": 113028
-        },
-        {
-          "time": "2026-08-24",
-          "open": 616.14,
-          "high": 622.96,
-          "low": 612.1,
-          "close": 615.85,
-          "volume": 76972
-        },
-        {
-          "time": "2026-08-25",
-          "open": 615.85,
-          "high": 617.67,
-          "low": 602.12,
-          "close": 608.89,
-          "volume": 164040
-        },
-        {
-          "time": "2026-08-26",
-          "open": 609.13,
-          "high": 621.77,
-          "low": 608.99,
-          "close": 619.85,
-          "volume": 63504
-        },
-        {
-          "time": "2026-08-27",
-          "open": 619.85,
-          "high": 622.66,
-          "low": 613.33,
-          "close": 615.7,
-          "volume": 54297
-        },
-        {
-          "time": "2026-08-28",
-          "open": 616.34,
-          "high": 622.46,
-          "low": 611.11,
-          "close": 616.44,
-          "volume": 55866
-        },
-        {
-          "time": "2026-08-31",
-          "open": 613.68,
-          "high": 623.84,
-          "low": 609.13,
-          "close": 617.43,
-          "volume": 90971
-        },
-        {
-          "time": "2026-09-01",
-          "open": 616.98,
-          "high": 621.92,
-          "low": 608.15,
-          "close": 612.24,
-          "volume": 84843
-        },
-        {
-          "time": "2026-09-02",
-          "open": 612.19,
-          "high": 613.08,
-          "low": 602.37,
-          "close": 605.78,
-          "volume": 81619
-        },
-        {
-          "time": "2026-09-03",
-          "open": 613.08,
-          "high": 614.07,
-          "low": 605.78,
-          "close": 609.04,
-          "volume": 66260
-        },
-        {
-          "time": "2026-09-04",
-          "open": 610.52,
-          "high": 621.08,
-          "low": 608.64,
-          "close": 615.55,
-          "volume": 77773
-        },
-        {
-          "time": "2026-09-07",
-          "open": 615.16,
-          "high": 622.96,
-          "low": 612.19,
-          "close": 618.96,
-          "volume": 82486
-        },
-        {
-          "time": "2026-09-08",
-          "open": 617.03,
-          "high": 623.65,
-          "low": 614.71,
-          "close": 620.29,
-          "volume": 76891
-        },
-        {
-          "time": "2026-09-09",
-          "open": 619.99,
-          "high": 640.73,
-          "low": 616.29,
-          "close": 627.05,
-          "volume": 222414
-        },
-        {
-          "time": "2026-09-10",
-          "open": 626.9,
-          "high": 631.15,
-          "low": 616.44,
-          "close": 619.5,
-          "volume": 103582
-        },
-        {
-          "time": "2026-09-11",
-          "open": 619.05,
-          "high": 619.05,
-          "low": 607.0,
-          "close": 615.0,
-          "volume": 105218
-        },
-        {
-          "time": "2026-09-15",
-          "open": 617.55,
-          "high": 622.85,
-          "low": 585.15,
-          "close": 587.65,
-          "volume": 144544
-        },
-        {
-          "time": "2026-09-16",
-          "open": 588.4,
-          "high": 598.95,
-          "low": 578.05,
-          "close": 593.15,
-          "volume": 144353
-        },
-        {
-          "time": "2026-09-17",
-          "open": 591.0,
-          "high": 597.1,
-          "low": 587.05,
-          "close": 593.05,
-          "volume": 68674
-        },
-        {
-          "time": "2026-09-18",
-          "open": 596.0,
-          "high": 608.65,
-          "low": 596.0,
-          "close": 604.0,
-          "volume": 92889
-        },
-        {
-          "time": "2026-09-21",
-          "open": 600.1,
-          "high": 605.85,
-          "low": 595.05,
-          "close": 599.3,
-          "volume": 59193
-        },
-        {
-          "time": "2026-09-22",
-          "open": 599.95,
-          "high": 608.7,
-          "low": 599.95,
-          "close": 605.65,
-          "volume": 55149
-        },
-        {
-          "time": "2026-09-23",
-          "open": 612.0,
-          "high": 618.2,
-          "low": 607.3,
-          "close": 611.75,
-          "volume": 59280
-        },
-        {
-          "time": "2026-09-24",
-          "open": 608.0,
-          "high": 612.35,
-          "low": 600.2,
-          "close": 602.35,
-          "volume": 54525
-        },
-        {
-          "time": "2026-09-25",
-          "open": 601.75,
-          "high": 608.45,
-          "low": 594.6,
-          "close": 599.85,
-          "volume": 44855
-        },
-        {
-          "time": "2026-09-28",
-          "open": 600.15,
-          "high": 605.0,
-          "low": 589.7,
-          "close": 594.2,
-          "volume": 67195
-        },
-        {
-          "time": "2026-09-29",
-          "open": 592.7,
-          "high": 599.9,
-          "low": 583.3,
-          "close": 595.65,
-          "volume": 64135
-        },
-        {
-          "time": "2026-09-30",
-          "open": 598.3,
-          "high": 617.45,
-          "low": 598.3,
-          "close": 606.3,
-          "volume": 110117
-        },
-        {
-          "time": "2026-10-01",
-          "open": 604.0,
-          "high": 604.0,
-          "low": 584.35,
-          "close": 589.85,
-          "volume": 78841
-        },
-        {
-          "time": "2026-10-05",
-          "open": 590.35,
-          "high": 597.8,
-          "low": 579.7,
-          "close": 589.8,
-          "volume": 79775
-        },
-        {
-          "time": "2026-10-06",
-          "open": 590.0,
-          "high": 604.6,
-          "low": 590.0,
-          "close": 602.65,
-          "volume": 54328
-        },
-        {
-          "time": "2026-10-07",
-          "open": 599.0,
-          "high": 605.0,
-          "low": 594.7,
-          "close": 600.2,
-          "volume": 61310
-        },
-        {
-          "time": "2026-10-08",
-          "open": 601.05,
-          "high": 605.35,
-          "low": 588.0,
-          "close": 588.9,
-          "volume": 55576
-        },
-        {
-          "time": "2026-10-09",
-          "open": 590.35,
-          "high": 596.95,
-          "low": 582.5,
-          "close": 590.8,
-          "volume": 41466
-        },
-        {
-          "time": "2026-10-12",
-          "open": 591.2,
-          "high": 601.15,
-          "low": 589.3,
-          "close": 593.2,
-          "volume": 60512
-        },
-        {
-          "time": "2026-10-13",
-          "open": 591.0,
-          "high": 594.9,
-          "low": 588.0,
-          "close": 590.25,
-          "volume": 43759
-        },
-        {
-          "time": "2026-10-14",
-          "open": 586.1,
-          "high": 604.0,
-          "low": 586.1,
-          "close": 600.85,
-          "volume": 59563
-        },
-        {
-          "time": "2026-10-15",
-          "open": 603.0,
-          "high": 607.0,
-          "low": 596.1,
-          "close": 602.15,
-          "volume": 54474
-        },
-        {
-          "time": "2026-10-16",
-          "open": 602.15,
-          "high": 607.45,
-          "low": 596.75,
-          "close": 604.55,
-          "volume": 45935
-        },
-        {
-          "time": "2026-10-19",
-          "open": 609.9,
-          "high": 609.9,
-          "low": 597.05,
-          "close": 601.25,
-          "volume": 51192
-        },
-        {
-          "time": "2026-10-21",
-          "open": 597.15,
-          "high": 599.8,
-          "low": 584.75,
-          "close": 590.15,
-          "volume": 108732
-        },
-        {
-          "time": "2026-10-22",
-          "open": 590.0,
-          "high": 590.0,
-          "low": 580.0,
-          "close": 582.8,
-          "volume": 44607
-        },
-        {
-          "time": "2026-10-23",
-          "open": 581.0,
-          "high": 582.2,
-          "low": 545.0,
-          "close": 558.4,
-          "volume": 195920
-        },
-        {
-          "time": "2026-10-26",
-          "open": 558.4,
-          "high": 572.1,
-          "low": 551.8,
-          "close": 560.05,
-          "volume": 83042
-        },
-        {
-          "time": "2026-10-27",
-          "open": 560.05,
-          "high": 587.0,
-          "low": 558.7,
-          "close": 584.6,
-          "volume": 88402
-        },
-        {
-          "time": "2026-10-28",
-          "open": 575.55,
-          "high": 591.95,
-          "low": 575.55,
-          "close": 589.15,
-          "volume": 49650
-        },
-        {
-          "time": "2026-10-29",
-          "open": 590.1,
-          "high": 594.2,
-          "low": 580.0,
-          "close": 583.55,
-          "volume": 38052
-        },
-        {
-          "time": "2026-10-30",
-          "open": 583.55,
-          "high": 583.6,
-          "low": 571.0,
-          "close": 573.7,
-          "volume": 45978
-        },
-        {
-          "time": "2026-11-02",
-          "open": 575.9,
-          "high": 599.0,
-          "low": 573.7,
-          "close": 590.6,
-          "volume": 53162
-        },
-        {
-          "time": "2026-11-03",
-          "open": 587.05,
-          "high": 601.0,
-          "low": 587.05,
-          "close": 593.85,
-          "volume": 52890
-        },
-        {
-          "time": "2026-11-04",
-          "open": 593.1,
-          "high": 610.0,
-          "low": 589.5,
-          "close": 609.1,
-          "volume": 61212
-        },
-        {
-          "time": "2026-11-05",
-          "open": 618.0,
-          "high": 629.8,
-          "low": 611.85,
-          "close": 618.8,
-          "volume": 121837
-        },
-        {
-          "time": "2026-11-06",
-          "open": 615.0,
-          "high": 625.95,
-          "low": 593.5,
-          "close": 598.2,
-          "volume": 114362
-        },
-        {
-          "time": "2026-11-09",
-          "open": 665.0,
-          "high": 693.7,
-          "low": 643.3,
-          "close": 659.15,
-          "volume": 3333934
-        },
-        {
-          "time": "2026-11-11",
-          "open": 660.4,
-          "high": 692.0,
-          "low": 660.4,
-          "close": 671.6,
-          "volume": 623514
-        },
-        {
-          "time": "2026-11-12",
-          "open": 677.3,
-          "high": 685.95,
-          "low": 672.0,
-          "close": 676.55,
-          "volume": 233357
-        },
-        {
-          "time": "2026-11-13",
-          "open": 675.1,
-          "high": 691.95,
-          "low": 670.3,
-          "close": 680.55,
-          "volume": 231156
-        },
-        {
-          "time": "2026-11-16",
-          "open": 680.2,
-          "high": 684.15,
-          "low": 665.55,
-          "close": 671.0,
-          "volume": 150281
-        }
-      ],
-      "name": "Banco Products (India) Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9618.48",
-      "current_price": 671.0,
-      "prev_close": 680.55,
-      "day_change_pct": -1.4,
-      "52w_high": 795.4,
-      "52w_low": 495.6,
-      "pct_from_52w_high": -15.64,
-      "pct_from_52w_low": 35.39,
-      "sma_20": 609.88,
-      "sma_50": 605.41,
-      "sma_200": 611.4,
-      "rsi_14": 66.9,
-      "macd_val": 19.54,
-      "macd_signal": 8.96,
-      "macd_hist": 10.58,
-      "vol_surge_ratio": 0.52,
-      "pe_ratio": 18.54,
-      "forward_pe": 0.0,
-      "peg_ratio": 0.0,
-      "pb_ratio": 5.16,
-      "roe": 29.8,
-      "profit_margins": 12.0,
-      "operating_margins": 15.4,
-      "debt_to_equity": 0.28,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 21.8,
-      "earnings_growth_yoy": 19.1,
-      "q_sales_growth": 21.8,
-      "q_pat_growth": 19.1,
-      "free_cash_flow": 4306935296.0,
-      "target_mean_price": 671.0,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 235.0,
-      "promoter_holding": 70.0,
-      "institutional_holding": 1.3,
-      "public_holding": 28.7,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 695.09,
-      "sell_trigger_level": 543.91,
-      "dist_from_prev_close": 2.14,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+21.8%)",
-        "Robust YoY Profit Expansion (+19.1%)",
-        "High Return on Equity (29.8% ROE)",
-        "Healthy Low Debt (D/E 0.28)",
-        "Trading Above 200-Day EMA Long-term Uptrend"
-      ],
-      "weaknesses": [
-        "No Major Red Flags Detected"
-      ],
-      "fundamental_score": 35.0,
-      "technical_score": 35.0,
-      "composite_score": 77,
-      "long_term_signal": "STRONG BUY",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 565.31,
-      "swing_target_1": 817.79,
-      "swing_target_2": 917.61,
-      "rationale": [
-        "YoY Revenue up 21.8%",
-        "YoY Profit up 19.1%",
-        "Above 200-day EMA long-term uptrend"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 235.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 695.09,
-      "wyckoff_ice": 543.91,
-      "wyckoff_breakout": 695.09,
-      "wyckoff_dist_to_breakout_pct": 3.59,
-      "wyckoff_stoploss": 533.03,
-      "wyckoff_stoploss_pct": 20.56,
-      "wyckoff_target_1": 846.27,
-      "wyckoff_target_2": 997.45,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b9543.91 (Ice) to \u20b9695.09 (Creek).",
-        "Consolidation inside 151.18 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -5719,33 +5138,33 @@ window.stockData = {
           "open": 2148.0,
           "high": 2235.0,
           "low": 2133.0,
-          "close": 2167.4,
-          "volume": 358429
+          "close": 2163.1,
+          "volume": 358428
         }
       ],
       "name": "Fiem Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b92,142.94",
-      "current_price": 2167.4,
+      "current_price": 2163.1,
       "prev_close": 2133.3,
-      "day_change_pct": 1.6,
+      "day_change_pct": 1.4,
       "52w_high": 2674.8,
       "52w_low": 1642.0,
-      "pct_from_52w_high": -18.97,
-      "pct_from_52w_low": 32.0,
-      "sma_20": 1850.64,
-      "sma_50": 1881.38,
-      "sma_200": 2120.08,
-      "rsi_14": 69.8,
-      "macd_val": 51.52,
-      "macd_signal": 3.84,
-      "macd_hist": 47.68,
+      "pct_from_52w_high": -19.13,
+      "pct_from_52w_low": 31.74,
+      "sma_20": 1850.43,
+      "sma_50": 1881.3,
+      "sma_200": 2120.06,
+      "rsi_14": 69.6,
+      "macd_val": 51.17,
+      "macd_signal": 3.77,
+      "macd_hist": 47.4,
       "vol_surge_ratio": 2.68,
-      "pe_ratio": 21.69,
-      "forward_pe": 16.25,
+      "pe_ratio": 21.65,
+      "forward_pe": 16.22,
       "peg_ratio": 0.0,
-      "pb_ratio": 4.7,
+      "pb_ratio": 4.69,
       "roe": 0.0,
       "profit_margins": 9.0,
       "operating_margins": 11.5,
@@ -5757,7 +5176,7 @@ window.stockData = {
       "q_pat_growth": 12.8,
       "free_cash_flow": 0.0,
       "target_mean_price": 2835.0,
-      "analyst_upside_pct": 30.8,
+      "analyst_upside_pct": 31.1,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 188.0,
       "promoter_holding": 54.5,
@@ -5788,9 +5207,9 @@ window.stockData = {
       "long_term_signal": "STRONG BUY",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "HIGH VOLATILITY BREAKOUT",
-      "swing_stoploss": 1766.87,
-      "swing_target_1": 2723.69,
-      "swing_target_2": 3101.97,
+      "swing_stoploss": 1764.24,
+      "swing_target_1": 2717.07,
+      "swing_target_2": 3093.76,
       "rationale": [
         "YoY Revenue up 18.5%",
         "YoY Profit up 12.8%",
@@ -5804,19 +5223,19 @@ window.stockData = {
       "wyckoff_phase": "Phase D",
       "wyckoff_structure": "Accumulation",
       "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 2178.24,
+      "wyckoff_creek": 2173.92,
       "wyckoff_ice": 1638.72,
-      "wyckoff_breakout": 2182.6,
+      "wyckoff_breakout": 2178.27,
       "wyckoff_dist_to_breakout_pct": 0.7,
       "wyckoff_stoploss": 1655.11,
-      "wyckoff_stoploss_pct": 23.64,
-      "wyckoff_target_1": 2717.76,
-      "wyckoff_target_2": 3257.28,
+      "wyckoff_stoploss_pct": 23.48,
+      "wyckoff_target_1": 2709.12,
+      "wyckoff_target_2": 3244.32,
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b92178.24).",
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b92173.92).",
         "Volume surge 2.7x confirms institutional demand absorption.",
-        "Cause of 539.52 pts horizontal accumulation ready to unlock upward effect."
+        "Cause of 535.2 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -6301,7 +5720,7 @@ window.stockData = {
           "high": 817.8,
           "low": 802.4,
           "close": 816.5,
-          "volume": 28810856
+          "volume": 27143063
         }
       ],
       "name": "HDFC Bank Ltd",
@@ -6322,7 +5741,7 @@ window.stockData = {
       "macd_val": 26.46,
       "macd_signal": 14.59,
       "macd_hist": 11.87,
-      "vol_surge_ratio": 0.74,
+      "vol_surge_ratio": 0.7,
       "pe_ratio": 17.85,
       "forward_pe": 13.04,
       "peg_ratio": 0.89,
@@ -6881,7 +6300,7 @@ window.stockData = {
           "high": 144.48,
           "low": 142.26,
           "close": 144.03,
-          "volume": 8152800
+          "volume": 7555389
         }
       ],
       "name": "Indian Oil Corporation Ltd",
@@ -6902,7 +6321,7 @@ window.stockData = {
       "macd_val": 3.79,
       "macd_signal": 2.68,
       "macd_hist": 1.12,
-      "vol_surge_ratio": 0.61,
+      "vol_surge_ratio": 0.56,
       "pe_ratio": 4.2,
       "forward_pe": 7.49,
       "peg_ratio": 0.0,
@@ -7461,7 +6880,7 @@ window.stockData = {
           "high": 226.99,
           "low": 223.0,
           "close": 226.99,
-          "volume": 10709693
+          "volume": 10243518
         }
       ],
       "name": "Oil and Natural Gas Corporation Ltd",
@@ -7482,7 +6901,7 @@ window.stockData = {
       "macd_val": 1.52,
       "macd_signal": 0.82,
       "macd_hist": 0.7,
-      "vol_surge_ratio": 0.82,
+      "vol_surge_ratio": 0.79,
       "pe_ratio": 5.77,
       "forward_pe": 5.49,
       "peg_ratio": 0.0,
@@ -8039,7 +7458,7 @@ window.stockData = {
           "high": 368.3,
           "low": 358.0,
           "close": 360.85,
-          "volume": 3488339
+          "volume": 3320457
         }
       ],
       "name": "Fsn E-Commerce Ventures Ltd",
@@ -8060,7 +7479,7 @@ window.stockData = {
       "macd_val": 6.97,
       "macd_signal": 5.49,
       "macd_hist": 1.48,
-      "vol_surge_ratio": 0.6,
+      "vol_surge_ratio": 0.57,
       "pe_ratio": 322.19,
       "forward_pe": 122.34,
       "peg_ratio": 0.0,
@@ -8133,6 +7552,586 @@ window.stockData = {
         "Last Point of Support (LPS) successfully holding above Creek (\u20b9367.43).",
         "Low-volume pullback demonstrates floating supply is exhausted.",
         "Prime Wyckoff low-risk entry before Phase E markup acceleration."
+      ]
+    },
+    {
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 1188.52,
+          "high": 1193.81,
+          "low": 1157.87,
+          "close": 1179.03,
+          "volume": 624925
+        },
+        {
+          "time": "2026-08-20",
+          "open": 1179.03,
+          "high": 1186.42,
+          "low": 1154.08,
+          "close": 1162.27,
+          "volume": 221286
+        },
+        {
+          "time": "2026-08-21",
+          "open": 1152.88,
+          "high": 1186.82,
+          "low": 1143.0,
+          "close": 1180.03,
+          "volume": 422951
+        },
+        {
+          "time": "2026-08-24",
+          "open": 1189.81,
+          "high": 1189.81,
+          "low": 1157.37,
+          "close": 1165.06,
+          "volume": 275755
+        },
+        {
+          "time": "2026-08-25",
+          "open": 1170.45,
+          "high": 1176.84,
+          "low": 1147.99,
+          "close": 1152.68,
+          "volume": 166212
+        },
+        {
+          "time": "2026-08-26",
+          "open": 1154.98,
+          "high": 1171.15,
+          "low": 1151.88,
+          "close": 1156.88,
+          "volume": 133478
+        },
+        {
+          "time": "2026-08-27",
+          "open": 1162.17,
+          "high": 1181.83,
+          "low": 1126.13,
+          "close": 1133.92,
+          "volume": 388332
+        },
+        {
+          "time": "2026-08-28",
+          "open": 1139.11,
+          "high": 1151.98,
+          "low": 1129.92,
+          "close": 1138.51,
+          "volume": 146229
+        },
+        {
+          "time": "2026-08-31",
+          "open": 1146.89,
+          "high": 1150.79,
+          "low": 1098.68,
+          "close": 1108.46,
+          "volume": 325647
+        },
+        {
+          "time": "2026-09-01",
+          "open": 1108.86,
+          "high": 1119.84,
+          "low": 1083.91,
+          "close": 1091.79,
+          "volume": 183768
+        },
+        {
+          "time": "2026-09-02",
+          "open": 1085.01,
+          "high": 1097.88,
+          "low": 1071.83,
+          "close": 1088.9,
+          "volume": 159180
+        },
+        {
+          "time": "2026-09-03",
+          "open": 1091.0,
+          "high": 1155.0,
+          "low": 1088.5,
+          "close": 1145.5,
+          "volume": 330531
+        },
+        {
+          "time": "2026-09-04",
+          "open": 1148.4,
+          "high": 1189.0,
+          "low": 1117.1,
+          "close": 1125.4,
+          "volume": 557111
+        },
+        {
+          "time": "2026-09-07",
+          "open": 1125.4,
+          "high": 1131.0,
+          "low": 1111.0,
+          "close": 1113.2,
+          "volume": 109007
+        },
+        {
+          "time": "2026-09-08",
+          "open": 1122.2,
+          "high": 1148.0,
+          "low": 1105.0,
+          "close": 1121.2,
+          "volume": 238203
+        },
+        {
+          "time": "2026-09-09",
+          "open": 1122.0,
+          "high": 1163.0,
+          "low": 1120.0,
+          "close": 1127.0,
+          "volume": 559419
+        },
+        {
+          "time": "2026-09-10",
+          "open": 1132.0,
+          "high": 1137.5,
+          "low": 1112.4,
+          "close": 1121.2,
+          "volume": 182048
+        },
+        {
+          "time": "2026-09-11",
+          "open": 1110.0,
+          "high": 1134.0,
+          "low": 1086.1,
+          "close": 1129.0,
+          "volume": 299344
+        },
+        {
+          "time": "2026-09-15",
+          "open": 1135.0,
+          "high": 1141.5,
+          "low": 1105.0,
+          "close": 1132.1,
+          "volume": 332640
+        },
+        {
+          "time": "2026-09-16",
+          "open": 1130.0,
+          "high": 1158.0,
+          "low": 1102.0,
+          "close": 1149.7,
+          "volume": 425403
+        },
+        {
+          "time": "2026-09-17",
+          "open": 1149.7,
+          "high": 1213.2,
+          "low": 1141.0,
+          "close": 1205.6,
+          "volume": 685925
+        },
+        {
+          "time": "2026-09-18",
+          "open": 1212.3,
+          "high": 1241.5,
+          "low": 1202.0,
+          "close": 1229.2,
+          "volume": 881443
+        },
+        {
+          "time": "2026-09-21",
+          "open": 1243.0,
+          "high": 1268.0,
+          "low": 1220.5,
+          "close": 1230.4,
+          "volume": 604926
+        },
+        {
+          "time": "2026-09-22",
+          "open": 1240.2,
+          "high": 1263.1,
+          "low": 1235.1,
+          "close": 1241.9,
+          "volume": 237158
+        },
+        {
+          "time": "2026-09-23",
+          "open": 1242.1,
+          "high": 1259.1,
+          "low": 1225.0,
+          "close": 1253.9,
+          "volume": 259422
+        },
+        {
+          "time": "2026-09-24",
+          "open": 1250.0,
+          "high": 1254.4,
+          "low": 1234.0,
+          "close": 1241.0,
+          "volume": 270648
+        },
+        {
+          "time": "2026-09-25",
+          "open": 1242.0,
+          "high": 1250.0,
+          "low": 1212.1,
+          "close": 1226.6,
+          "volume": 184368
+        },
+        {
+          "time": "2026-09-28",
+          "open": 1226.4,
+          "high": 1226.4,
+          "low": 1197.5,
+          "close": 1212.9,
+          "volume": 230428
+        },
+        {
+          "time": "2026-09-29",
+          "open": 1205.0,
+          "high": 1229.7,
+          "low": 1199.0,
+          "close": 1205.8,
+          "volume": 232653
+        },
+        {
+          "time": "2026-09-30",
+          "open": 1205.9,
+          "high": 1245.6,
+          "low": 1205.0,
+          "close": 1232.0,
+          "volume": 343169
+        },
+        {
+          "time": "2026-10-01",
+          "open": 1232.0,
+          "high": 1258.9,
+          "low": 1180.1,
+          "close": 1212.3,
+          "volume": 465866
+        },
+        {
+          "time": "2026-10-05",
+          "open": 1210.0,
+          "high": 1243.4,
+          "low": 1203.0,
+          "close": 1227.5,
+          "volume": 287382
+        },
+        {
+          "time": "2026-10-06",
+          "open": 1235.0,
+          "high": 1260.0,
+          "low": 1230.0,
+          "close": 1252.2,
+          "volume": 197550
+        },
+        {
+          "time": "2026-10-07",
+          "open": 1251.0,
+          "high": 1263.0,
+          "low": 1235.9,
+          "close": 1249.9,
+          "volume": 245926
+        },
+        {
+          "time": "2026-10-08",
+          "open": 1249.9,
+          "high": 1249.9,
+          "low": 1165.0,
+          "close": 1179.8,
+          "volume": 394361
+        },
+        {
+          "time": "2026-10-09",
+          "open": 1190.0,
+          "high": 1209.4,
+          "low": 1169.3,
+          "close": 1176.9,
+          "volume": 321543
+        },
+        {
+          "time": "2026-10-12",
+          "open": 1179.9,
+          "high": 1212.0,
+          "low": 1172.5,
+          "close": 1201.1,
+          "volume": 230661
+        },
+        {
+          "time": "2026-10-13",
+          "open": 1200.1,
+          "high": 1200.1,
+          "low": 1163.2,
+          "close": 1192.9,
+          "volume": 208568
+        },
+        {
+          "time": "2026-10-14",
+          "open": 1192.0,
+          "high": 1215.9,
+          "low": 1179.1,
+          "close": 1197.0,
+          "volume": 147011
+        },
+        {
+          "time": "2026-10-15",
+          "open": 1193.0,
+          "high": 1198.1,
+          "low": 1140.1,
+          "close": 1155.7,
+          "volume": 328708
+        },
+        {
+          "time": "2026-10-16",
+          "open": 1160.0,
+          "high": 1164.0,
+          "low": 1123.4,
+          "close": 1136.3,
+          "volume": 229256
+        },
+        {
+          "time": "2026-10-19",
+          "open": 1139.0,
+          "high": 1140.4,
+          "low": 1100.1,
+          "close": 1108.1,
+          "volume": 312883
+        },
+        {
+          "time": "2026-10-21",
+          "open": 1101.0,
+          "high": 1104.9,
+          "low": 1054.1,
+          "close": 1074.6,
+          "volume": 400480
+        },
+        {
+          "time": "2026-10-22",
+          "open": 1064.0,
+          "high": 1088.9,
+          "low": 1045.0,
+          "close": 1053.4,
+          "volume": 254165
+        },
+        {
+          "time": "2026-10-23",
+          "open": 1053.4,
+          "high": 1053.4,
+          "low": 991.2,
+          "close": 1000.1,
+          "volume": 434400
+        },
+        {
+          "time": "2026-10-26",
+          "open": 1000.0,
+          "high": 1015.0,
+          "low": 979.2,
+          "close": 1011.3,
+          "volume": 250656
+        },
+        {
+          "time": "2026-10-27",
+          "open": 1020.0,
+          "high": 1039.5,
+          "low": 1007.1,
+          "close": 1036.5,
+          "volume": 198247
+        },
+        {
+          "time": "2026-10-28",
+          "open": 1033.0,
+          "high": 1050.7,
+          "low": 1017.6,
+          "close": 1022.8,
+          "volume": 231898
+        },
+        {
+          "time": "2026-10-29",
+          "open": 1026.1,
+          "high": 1042.3,
+          "low": 1005.5,
+          "close": 1027.0,
+          "volume": 292089
+        },
+        {
+          "time": "2026-10-30",
+          "open": 1019.0,
+          "high": 1022.9,
+          "low": 991.0,
+          "close": 994.7,
+          "volume": 254543
+        },
+        {
+          "time": "2026-11-02",
+          "open": 992.0,
+          "high": 1044.0,
+          "low": 982.15,
+          "close": 1021.5,
+          "volume": 276132
+        },
+        {
+          "time": "2026-11-03",
+          "open": 1044.95,
+          "high": 1077.0,
+          "low": 1032.95,
+          "close": 1050.55,
+          "volume": 409095
+        },
+        {
+          "time": "2026-11-04",
+          "open": 1050.0,
+          "high": 1121.85,
+          "low": 1035.0,
+          "close": 1104.75,
+          "volume": 371992
+        },
+        {
+          "time": "2026-11-05",
+          "open": 1126.0,
+          "high": 1134.65,
+          "low": 1113.4,
+          "close": 1127.65,
+          "volume": 267567
+        },
+        {
+          "time": "2026-11-06",
+          "open": 1108.05,
+          "high": 1175.5,
+          "low": 1097.1,
+          "close": 1167.7,
+          "volume": 668505
+        },
+        {
+          "time": "2026-11-09",
+          "open": 1160.6,
+          "high": 1177.05,
+          "low": 1150.0,
+          "close": 1166.65,
+          "volume": 155303
+        },
+        {
+          "time": "2026-11-11",
+          "open": 1175.0,
+          "high": 1185.0,
+          "low": 1163.0,
+          "close": 1165.45,
+          "volume": 243916
+        },
+        {
+          "time": "2026-11-12",
+          "open": 1177.8,
+          "high": 1209.0,
+          "low": 1175.0,
+          "close": 1179.65,
+          "volume": 235903
+        },
+        {
+          "time": "2026-11-13",
+          "open": 1220.0,
+          "high": 1258.0,
+          "low": 1164.0,
+          "close": 1180.0,
+          "volume": 1496781
+        },
+        {
+          "time": "2026-11-16",
+          "open": 1179.7,
+          "high": 1196.85,
+          "low": 1160.4,
+          "close": 1176.3,
+          "volume": 239700
+        }
+      ],
+      "name": "Action Construction Equipment Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9989.18",
+      "current_price": 1176.3,
+      "prev_close": 1180.0,
+      "day_change_pct": -0.31,
+      "52w_high": 1268.0,
+      "52w_low": 743.73,
+      "pct_from_52w_high": -7.23,
+      "pct_from_52w_low": 58.16,
+      "sma_20": 1090.25,
+      "sma_50": 1147.66,
+      "sma_200": 990.71,
+      "rsi_14": 59.9,
+      "macd_val": 9.2,
+      "macd_signal": -8.48,
+      "macd_hist": 17.68,
+      "vol_surge_ratio": 0.66,
+      "pe_ratio": 27.4,
+      "forward_pe": 24.97,
+      "peg_ratio": 0.0,
+      "pb_ratio": 6.96,
+      "roe": 0.0,
+      "profit_margins": 12.8,
+      "operating_margins": 14.4,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "rev_growth_yoy": 20.5,
+      "earnings_growth_yoy": 22.3,
+      "q_sales_growth": 20.5,
+      "q_pat_growth": 22.3,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 1320.0,
+      "analyst_upside_pct": 12.2,
+      "recommendation_key": "None",
+      "dividend_yield": 17.0,
+      "promoter_holding": 66.8,
+      "institutional_holding": 8.4,
+      "public_holding": 24.8,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 1260.52,
+      "sell_trigger_level": 977.24,
+      "dist_from_prev_close": 6.82,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+20.5%)",
+        "Robust YoY Profit Expansion (+22.3%)",
+        "Zero Debt Balance Sheet",
+        "Trading Above 200-Day EMA Long-term Uptrend"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (0.0% ROE)"
+      ],
+      "fundamental_score": 25.0,
+      "technical_score": 35.0,
+      "composite_score": 72,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 988.62,
+      "swing_target_1": 1436.97,
+      "swing_target_2": 1614.23,
+      "rationale": [
+        "YoY Revenue up 20.5%",
+        "YoY Profit up 22.3%",
+        "Above 200-day EMA long-term uptrend"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 17.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 1260.52,
+      "wyckoff_ice": 977.24,
+      "wyckoff_breakout": 1260.52,
+      "wyckoff_dist_to_breakout_pct": 7.16,
+      "wyckoff_stoploss": 957.7,
+      "wyckoff_stoploss_pct": 18.58,
+      "wyckoff_target_1": 1543.8,
+      "wyckoff_target_2": 1827.08,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9977.24 (Ice) to \u20b91260.52 (Creek).",
+        "Consolidation inside 283.28 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -8614,30 +8613,30 @@ window.stockData = {
         {
           "time": "2026-11-16",
           "open": 319.4,
-          "high": 345.95,
+          "high": 346.95,
           "low": 316.0,
-          "close": 340.9,
-          "volume": 4781175
+          "close": 341.1,
+          "volume": 4781155
         }
       ],
       "name": "Borosil Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9247.70",
-      "current_price": 340.9,
+      "current_price": 341.1,
       "prev_close": 311.5,
-      "day_change_pct": 9.44,
-      "52w_high": 345.95,
+      "day_change_pct": 9.5,
+      "52w_high": 346.95,
       "52w_low": 213.73,
-      "pct_from_52w_high": -1.46,
-      "pct_from_52w_low": 59.5,
-      "sma_20": 281.99,
+      "pct_from_52w_high": -1.69,
+      "pct_from_52w_low": 59.59,
+      "sma_20": 282.0,
       "sma_50": 272.27,
       "sma_200": 248.1,
       "rsi_14": 73.1,
-      "macd_val": 16.12,
+      "macd_val": 16.13,
       "macd_signal": 10.98,
-      "macd_hist": 5.14,
+      "macd_hist": 5.15,
       "vol_surge_ratio": 2.74,
       "pe_ratio": 51.53,
       "forward_pe": 36.48,
@@ -8663,7 +8662,7 @@ window.stockData = {
       "pledged_pct": 0.0,
       "is_20d_high_breakout": 1,
       "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 1,
+      "is_52w_high_breakout": 0,
       "is_52w_low_breakdown": 0,
       "buy_trigger_level": 334.67,
       "sell_trigger_level": 227.49,
@@ -8685,12 +8684,11 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "HIGH VOLATILITY BREAKOUT",
-      "swing_stoploss": 257.52,
-      "swing_target_1": 456.7,
-      "swing_target_2": 535.45,
+      "swing_stoploss": 257.67,
+      "swing_target_1": 456.98,
+      "swing_target_2": 535.78,
       "rationale": [
         "YoY Profit up 39.8%",
-        "Trading near 52-Week High",
         "20-Day Range Breakout with 2.7x volume",
         "Above 200-day EMA long-term uptrend"
       ],
@@ -8699,19 +8697,19 @@ window.stockData = {
       "wyckoff_phase": "Phase D",
       "wyckoff_structure": "Accumulation",
       "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 342.6,
+      "wyckoff_creek": 342.81,
       "wyckoff_ice": 227.49,
-      "wyckoff_breakout": 343.29,
+      "wyckoff_breakout": 343.5,
       "wyckoff_dist_to_breakout_pct": 0.7,
       "wyckoff_stoploss": 229.76,
-      "wyckoff_stoploss_pct": 32.6,
-      "wyckoff_target_1": 457.71,
-      "wyckoff_target_2": 572.82,
+      "wyckoff_stoploss_pct": 32.64,
+      "wyckoff_target_1": 458.13,
+      "wyckoff_target_2": 573.45,
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9342.6).",
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9342.81).",
         "Volume surge 2.7x confirms institutional demand absorption.",
-        "Cause of 115.11 pts horizontal accumulation ready to unlock upward effect."
+        "Cause of 115.32 pts horizontal accumulation ready to unlock upward effect."
       ]
     }
   ],
@@ -9197,31 +9195,31 @@ window.stockData = {
           "open": 154.51,
           "high": 158.49,
           "low": 138.34,
-          "close": 138.8,
-          "volume": 2367881
+          "close": 139.23,
+          "volume": 2367684
         }
       ],
       "name": "Dishman Carbogen Amcis Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9177.05",
-      "current_price": 138.8,
+      "current_price": 139.23,
       "prev_close": 172.92,
-      "day_change_pct": -19.73,
+      "day_change_pct": -19.48,
       "52w_high": 274.3,
       "52w_low": 128.5,
-      "pct_from_52w_high": -49.4,
-      "pct_from_52w_low": 8.02,
-      "sma_20": 152.15,
-      "sma_50": 158.42,
+      "pct_from_52w_high": -49.24,
+      "pct_from_52w_low": 8.35,
+      "sma_20": 152.17,
+      "sma_50": 158.43,
       "sma_200": 176.39,
-      "rsi_14": 37.8,
-      "macd_val": 1.74,
-      "macd_signal": 0.35,
-      "macd_hist": 1.39,
+      "rsi_14": 38.0,
+      "macd_val": 1.77,
+      "macd_signal": 0.36,
+      "macd_hist": 1.41,
       "vol_surge_ratio": 7.82,
-      "pe_ratio": 134.76,
-      "forward_pe": 11.1,
+      "pe_ratio": 135.17,
+      "forward_pe": 11.14,
       "peg_ratio": 0.0,
       "pb_ratio": 0.33,
       "roe": 0.0,
@@ -9234,7 +9232,7 @@ window.stockData = {
       "q_sales_growth": -4.3,
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 138.8,
+      "target_mean_price": 139.23,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -9265,9 +9263,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 108.81,
-      "swing_target_1": 180.46,
-      "swing_target_2": 208.79,
+      "swing_stoploss": 109.37,
+      "swing_target_1": 180.71,
+      "swing_target_2": 208.91,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -9279,9 +9277,9 @@ window.stockData = {
       "wyckoff_creek": 176.89,
       "wyckoff_ice": 133.44,
       "wyckoff_breakout": 176.89,
-      "wyckoff_dist_to_breakout_pct": 27.44,
+      "wyckoff_dist_to_breakout_pct": 27.05,
       "wyckoff_stoploss": 130.77,
-      "wyckoff_stoploss_pct": 5.79,
+      "wyckoff_stoploss_pct": 6.08,
       "wyckoff_target_1": 220.34,
       "wyckoff_target_2": 263.79,
       "wyckoff_signal": "CLIMAX WATCH",
@@ -10347,30 +10345,30 @@ window.stockData = {
           "open": 65.46,
           "high": 66.54,
           "low": 64.0,
-          "close": 64.94,
-          "volume": 48954
+          "close": 64.25,
+          "volume": 48948
         }
       ],
       "name": "Kuantum Papers Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b978.20",
-      "current_price": 64.94,
+      "current_price": 64.25,
       "prev_close": 65.46,
-      "day_change_pct": -0.79,
+      "day_change_pct": -1.85,
       "52w_high": 101.81,
       "52w_low": 62.94,
-      "pct_from_52w_high": -36.21,
-      "pct_from_52w_low": 3.18,
-      "sma_20": 67.27,
-      "sma_50": 72.96,
+      "pct_from_52w_high": -36.89,
+      "pct_from_52w_low": 2.08,
+      "sma_20": 67.24,
+      "sma_50": 72.94,
       "sma_200": 76.29,
-      "rsi_14": 37.4,
-      "macd_val": -2.22,
-      "macd_signal": -2.37,
-      "macd_hist": 0.15,
+      "rsi_14": 36.0,
+      "macd_val": -2.27,
+      "macd_signal": -2.38,
+      "macd_hist": 0.11,
       "vol_surge_ratio": 0.4,
-      "pe_ratio": 17.36,
+      "pe_ratio": 17.18,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 0.46,
@@ -10384,7 +10382,7 @@ window.stockData = {
       "q_sales_growth": -0.2,
       "q_pat_growth": -60.6,
       "free_cash_flow": -1820249984.0,
-      "target_mean_price": 64.94,
+      "target_mean_price": 64.25,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 382.0,
@@ -10416,9 +10414,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 61.14,
-      "swing_target_1": 70.21,
-      "swing_target_2": 73.8,
+      "swing_stoploss": 60.31,
+      "swing_target_1": 69.72,
+      "swing_target_2": 73.45,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -10430,17 +10428,17 @@ window.stockData = {
       "wyckoff_structure": "Distribution",
       "wyckoff_event": "Range Cause Building (Absorption)",
       "wyckoff_creek": 76.91,
-      "wyckoff_ice": 63.64,
+      "wyckoff_ice": 62.96,
       "wyckoff_breakout": 76.91,
-      "wyckoff_dist_to_breakout_pct": 18.43,
-      "wyckoff_stoploss": 62.37,
-      "wyckoff_stoploss_pct": 3.96,
-      "wyckoff_target_1": 90.18,
-      "wyckoff_target_2": 103.45,
+      "wyckoff_dist_to_breakout_pct": 19.7,
+      "wyckoff_stoploss": 61.7,
+      "wyckoff_stoploss_pct": 3.97,
+      "wyckoff_target_1": 90.86,
+      "wyckoff_target_2": 104.81,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b963.64 (Ice) to \u20b976.91 (Creek).",
-        "Consolidation inside 13.27 pts horizontal range.",
+        "Phase B Cause Building inside Trading Range: \u20b962.96 (Ice) to \u20b976.91 (Creek).",
+        "Consolidation inside 13.95 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -10926,7 +10924,7 @@ window.stockData = {
           "high": 0.83,
           "low": 0.8,
           "close": 0.8,
-          "volume": 2535654
+          "volume": 2534204
         }
       ],
       "name": "Reliance Communications Ltd",
@@ -11500,7 +11498,7 @@ window.stockData = {
           "open": 6.18,
           "high": 6.39,
           "low": 6.18,
-          "close": 6.35,
+          "close": 6.26,
           "volume": 2589
         }
       ],
@@ -11508,20 +11506,20 @@ window.stockData = {
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b97.60",
-      "current_price": 6.35,
+      "current_price": 6.26,
       "prev_close": 6.3,
-      "day_change_pct": 0.79,
+      "day_change_pct": -0.63,
       "52w_high": 12.24,
       "52w_low": 5.95,
-      "pct_from_52w_high": -48.12,
-      "pct_from_52w_low": 6.72,
-      "sma_20": 6.59,
+      "pct_from_52w_high": -48.86,
+      "pct_from_52w_low": 5.21,
+      "sma_20": 6.58,
       "sma_50": 6.93,
       "sma_200": 7.75,
-      "rsi_14": 40.6,
-      "macd_val": -0.26,
+      "rsi_14": 37.8,
+      "macd_val": -0.27,
       "macd_signal": -0.25,
-      "macd_hist": -0.01,
+      "macd_hist": -0.02,
       "vol_surge_ratio": 0.19,
       "pe_ratio": 0.0,
       "forward_pe": 0.0,
@@ -11537,7 +11535,7 @@ window.stockData = {
       "q_sales_growth": -34.3,
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 6.35,
+      "target_mean_price": 6.26,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -11563,14 +11561,14 @@ window.stockData = {
         "Trading Below 200-Day EMA Trendline"
       ],
       "fundamental_score": 5.0,
-      "technical_score": 3.0,
-      "composite_score": 8,
+      "technical_score": 0.0,
+      "composite_score": 5,
       "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "NEUTRAL / WATCH",
+      "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 5.86,
-      "swing_target_1": 7.04,
-      "swing_target_2": 7.5,
+      "swing_stoploss": 5.76,
+      "swing_target_1": 6.95,
+      "swing_target_2": 7.42,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -11582,9 +11580,9 @@ window.stockData = {
       "wyckoff_creek": 7.77,
       "wyckoff_ice": 5.94,
       "wyckoff_breakout": 7.77,
-      "wyckoff_dist_to_breakout_pct": 22.36,
+      "wyckoff_dist_to_breakout_pct": 24.12,
       "wyckoff_stoploss": 5.82,
-      "wyckoff_stoploss_pct": 8.35,
+      "wyckoff_stoploss_pct": 7.03,
       "wyckoff_target_1": 9.6,
       "wyckoff_target_2": 11.43,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -12078,7 +12076,7 @@ window.stockData = {
           "high": 5449.0,
           "low": 5324.0,
           "close": 5359.5,
-          "volume": 400118
+          "volume": 369238
         }
       ],
       "name": "Hero Motocorp Ltd",
@@ -12099,7 +12097,7 @@ window.stockData = {
       "macd_val": 53.0,
       "macd_signal": 39.08,
       "macd_hist": 13.92,
-      "vol_surge_ratio": 0.72,
+      "vol_surge_ratio": 0.66,
       "pe_ratio": 17.89,
       "forward_pe": 16.64,
       "peg_ratio": 0.0,
@@ -12659,7 +12657,7 @@ window.stockData = {
           "high": 360.0,
           "low": 325.95,
           "close": 353.0,
-          "volume": 5179416
+          "volume": 5179200
         }
       ],
       "name": "Indraprastha Medical Corporation Ltd",
@@ -13235,33 +13233,33 @@ window.stockData = {
           "open": 1418.0,
           "high": 1498.0,
           "low": 1395.0,
-          "close": 1482.9,
-          "volume": 825642
+          "close": 1487.5,
+          "volume": 825640
         }
       ],
       "name": "Vijaya Diagnostic Centre Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,250.72",
-      "current_price": 1482.9,
+      "current_price": 1487.5,
       "prev_close": 1410.1,
-      "day_change_pct": 5.16,
+      "day_change_pct": 5.49,
       "52w_high": 1593.6,
       "52w_low": 846.83,
-      "pct_from_52w_high": -6.95,
-      "pct_from_52w_low": 75.11,
-      "sma_20": 1426.04,
-      "sma_50": 1456.43,
-      "sma_200": 1254.24,
-      "rsi_14": 57.3,
-      "macd_val": 1.38,
-      "macd_signal": -2.2,
-      "macd_hist": 3.58,
+      "pct_from_52w_high": -6.66,
+      "pct_from_52w_low": 75.66,
+      "sma_20": 1426.27,
+      "sma_50": 1456.52,
+      "sma_200": 1254.27,
+      "rsi_14": 57.9,
+      "macd_val": 1.75,
+      "macd_signal": -2.13,
+      "macd_hist": 3.87,
       "vol_surge_ratio": 4.71,
-      "pe_ratio": 75.08,
-      "forward_pe": 52.57,
+      "pe_ratio": 75.32,
+      "forward_pe": 52.73,
       "peg_ratio": 0.0,
-      "pb_ratio": 14.43,
+      "pb_ratio": 14.48,
       "roe": 21.2,
       "profit_margins": 22.4,
       "operating_margins": 32.1,
@@ -13273,7 +13271,7 @@ window.stockData = {
       "q_pat_growth": 37.1,
       "free_cash_flow": 932610368.0,
       "target_mean_price": 1624.1,
-      "analyst_upside_pct": 9.5,
+      "analyst_upside_pct": 9.2,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 14.0,
       "promoter_holding": 53.5,
@@ -13305,9 +13303,9 @@ window.stockData = {
       "long_term_signal": "STRONG BUY",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "MOMENTUM SCALP BUY",
-      "swing_stoploss": 1424.14,
-      "swing_target_1": 1564.52,
-      "swing_target_2": 1620.01,
+      "swing_stoploss": 1427.16,
+      "swing_target_1": 1571.31,
+      "swing_target_2": 1628.29,
       "rationale": [
         "YoY Revenue up 26.7%",
         "YoY Profit up 37.1%",
@@ -13323,9 +13321,9 @@ window.stockData = {
       "wyckoff_creek": 1508.01,
       "wyckoff_ice": 1332.33,
       "wyckoff_breakout": 1508.01,
-      "wyckoff_dist_to_breakout_pct": 1.69,
+      "wyckoff_dist_to_breakout_pct": 1.38,
       "wyckoff_stoploss": 1538.17,
-      "wyckoff_stoploss_pct": -3.73,
+      "wyckoff_stoploss_pct": -3.41,
       "wyckoff_target_1": 1683.69,
       "wyckoff_target_2": 1859.37,
       "wyckoff_signal": "CLIMAX WATCH",
@@ -13817,7 +13815,7 @@ window.stockData = {
           "high": 43.8,
           "low": 40.82,
           "close": 42.84,
-          "volume": 95592128
+          "volume": 95592127
         }
       ],
       "name": "Dhanlaxmi Bank Ltd",
@@ -14396,31 +14394,31 @@ window.stockData = {
           "open": 1526.1,
           "high": 1536.0,
           "low": 1476.7,
-          "close": 1533.1,
-          "volume": 770796
+          "close": 1532.9,
+          "volume": 770786
         }
       ],
       "name": "Great Eastern Shipping Company Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,419.65",
-      "current_price": 1533.1,
+      "current_price": 1532.9,
       "prev_close": 1518.0,
-      "day_change_pct": 0.99,
+      "day_change_pct": 0.98,
       "52w_high": 1749.18,
       "52w_low": 1020.66,
-      "pct_from_52w_high": -12.35,
-      "pct_from_52w_low": 50.21,
-      "sma_20": 1504.59,
-      "sma_50": 1474.08,
+      "pct_from_52w_high": -12.36,
+      "pct_from_52w_low": 50.19,
+      "sma_20": 1504.58,
+      "sma_50": 1474.07,
       "sma_200": 1395.47,
-      "rsi_14": 55.4,
-      "macd_val": -1.92,
+      "rsi_14": 55.3,
+      "macd_val": -1.94,
       "macd_signal": 3.43,
-      "macd_hist": -5.35,
+      "macd_hist": -5.37,
       "vol_surge_ratio": 0.91,
       "pe_ratio": 4.94,
-      "forward_pe": 6.5,
+      "forward_pe": 6.49,
       "peg_ratio": 0.0,
       "pb_ratio": 1.15,
       "roe": 26.0,
@@ -14466,9 +14464,9 @@ window.stockData = {
       "long_term_signal": "STRONG BUY",
       "swing_signal": "RANGE CONSOLIDATION",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1356.69,
-      "swing_target_1": 1778.11,
-      "swing_target_2": 1944.72,
+      "swing_stoploss": 1356.51,
+      "swing_target_1": 1777.89,
+      "swing_target_2": 1944.48,
       "rationale": [
         "YoY Revenue up 46.9%",
         "YoY Profit up 118.8%",
@@ -14484,9 +14482,9 @@ window.stockData = {
       "wyckoff_creek": 1633.9,
       "wyckoff_ice": 1392.11,
       "wyckoff_breakout": 1633.9,
-      "wyckoff_dist_to_breakout_pct": 6.57,
+      "wyckoff_dist_to_breakout_pct": 6.59,
       "wyckoff_stoploss": 1364.27,
-      "wyckoff_stoploss_pct": 11.01,
+      "wyckoff_stoploss_pct": 11.0,
       "wyckoff_target_1": 1875.69,
       "wyckoff_target_2": 2117.48,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -14978,7 +14976,7 @@ window.stockData = {
           "high": 177.04,
           "low": 172.51,
           "close": 174.16,
-          "volume": 3215320
+          "volume": 3215220
         }
       ],
       "name": "ITC Hotels Ltd",
@@ -15557,30 +15555,30 @@ window.stockData = {
           "open": 105.0,
           "high": 106.0,
           "low": 103.0,
-          "close": 105.9,
-          "volume": 114220
+          "close": 105.78,
+          "volume": 114171
         }
       ],
       "name": "Jullundur Motor Agency (Delhi) Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b986.81",
-      "current_price": 105.9,
+      "current_price": 105.78,
       "prev_close": 103.95,
-      "day_change_pct": 1.88,
+      "day_change_pct": 1.76,
       "52w_high": 106.0,
       "52w_low": 67.89,
-      "pct_from_52w_high": -0.09,
-      "pct_from_52w_low": 55.99,
+      "pct_from_52w_high": -0.21,
+      "pct_from_52w_low": 55.81,
       "sma_20": 86.18,
       "sma_50": 87.99,
       "sma_200": 85.03,
-      "rsi_14": 81.1,
-      "macd_val": 3.51,
+      "rsi_14": 81.0,
+      "macd_val": 3.5,
       "macd_signal": 0.61,
       "macd_hist": 2.9,
       "vol_surge_ratio": 3.33,
-      "pe_ratio": 7.55,
+      "pe_ratio": 7.54,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 0.88,
@@ -15594,7 +15592,7 @@ window.stockData = {
       "q_sales_growth": 15.4,
       "q_pat_growth": 42.3,
       "free_cash_flow": 0.0,
-      "target_mean_price": 105.9,
+      "target_mean_price": 105.78,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 192.0,
@@ -15620,7 +15618,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "Weak Return on Capital (0.0% ROE)",
-        "RSI Overbought Warning (81.1)"
+        "RSI Overbought Warning (81.0)"
       ],
       "fundamental_score": 25.0,
       "technical_score": 46.0,
@@ -15628,9 +15626,9 @@ window.stockData = {
       "long_term_signal": "STRONG BUY",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "MOMENTUM SCALP BUY",
-      "swing_stoploss": 81.36,
-      "swing_target_1": 139.98,
-      "swing_target_2": 163.15,
+      "swing_stoploss": 81.29,
+      "swing_target_1": 139.79,
+      "swing_target_2": 162.92,
       "rationale": [
         "YoY Revenue up 15.4%",
         "YoY Profit up 42.3%",
@@ -15644,19 +15642,19 @@ window.stockData = {
       "wyckoff_phase": "Phase D",
       "wyckoff_structure": "Accumulation",
       "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 106.43,
+      "wyckoff_creek": 106.31,
       "wyckoff_ice": 76.29,
-      "wyckoff_breakout": 106.64,
+      "wyckoff_breakout": 106.52,
       "wyckoff_dist_to_breakout_pct": 0.7,
       "wyckoff_stoploss": 77.05,
-      "wyckoff_stoploss_pct": 27.24,
-      "wyckoff_target_1": 136.57,
-      "wyckoff_target_2": 166.71,
+      "wyckoff_stoploss_pct": 27.16,
+      "wyckoff_target_1": 136.33,
+      "wyckoff_target_2": 166.35,
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9106.43).",
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9106.31).",
         "Volume surge 3.3x confirms institutional demand absorption.",
-        "Cause of 30.14 pts horizontal accumulation ready to unlock upward effect."
+        "Cause of 30.02 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -16141,7 +16139,7 @@ window.stockData = {
           "high": 1347.3,
           "low": 1333.8,
           "close": 1344.8,
-          "volume": 8194587
+          "volume": 7653026
         }
       ],
       "name": "Reliance Industries Ltd",
@@ -16162,7 +16160,7 @@ window.stockData = {
       "macd_val": 35.04,
       "macd_signal": 22.44,
       "macd_hist": 12.6,
-      "vol_surge_ratio": 0.39,
+      "vol_surge_ratio": 0.36,
       "pe_ratio": 22.16,
       "forward_pe": 18.21,
       "peg_ratio": 0.82,
@@ -16237,587 +16235,6 @@ window.stockData = {
         "Last Point of Support (LPS) successfully holding above Creek (\u20b91353.4).",
         "Low-volume pullback demonstrates floating supply is exhausted.",
         "Prime Wyckoff low-risk entry before Phase E markup acceleration."
-      ]
-    },
-    {
-      "symbol": "BANCOINDIA.NS",
-      "clean_symbol": "BANCOINDIA",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 622.96,
-          "high": 622.96,
-          "low": 613.08,
-          "close": 614.81,
-          "volume": 55044
-        },
-        {
-          "time": "2026-08-20",
-          "open": 617.03,
-          "high": 624.78,
-          "low": 613.08,
-          "close": 617.48,
-          "volume": 95250
-        },
-        {
-          "time": "2026-08-21",
-          "open": 618.96,
-          "high": 622.12,
-          "low": 611.6,
-          "close": 615.75,
-          "volume": 113028
-        },
-        {
-          "time": "2026-08-24",
-          "open": 616.14,
-          "high": 622.96,
-          "low": 612.1,
-          "close": 615.85,
-          "volume": 76972
-        },
-        {
-          "time": "2026-08-25",
-          "open": 615.85,
-          "high": 617.67,
-          "low": 602.12,
-          "close": 608.89,
-          "volume": 164040
-        },
-        {
-          "time": "2026-08-26",
-          "open": 609.13,
-          "high": 621.77,
-          "low": 608.99,
-          "close": 619.85,
-          "volume": 63504
-        },
-        {
-          "time": "2026-08-27",
-          "open": 619.85,
-          "high": 622.66,
-          "low": 613.33,
-          "close": 615.7,
-          "volume": 54297
-        },
-        {
-          "time": "2026-08-28",
-          "open": 616.34,
-          "high": 622.46,
-          "low": 611.11,
-          "close": 616.44,
-          "volume": 55866
-        },
-        {
-          "time": "2026-08-31",
-          "open": 613.68,
-          "high": 623.84,
-          "low": 609.13,
-          "close": 617.43,
-          "volume": 90971
-        },
-        {
-          "time": "2026-09-01",
-          "open": 616.98,
-          "high": 621.92,
-          "low": 608.15,
-          "close": 612.24,
-          "volume": 84843
-        },
-        {
-          "time": "2026-09-02",
-          "open": 612.19,
-          "high": 613.08,
-          "low": 602.37,
-          "close": 605.78,
-          "volume": 81619
-        },
-        {
-          "time": "2026-09-03",
-          "open": 613.08,
-          "high": 614.07,
-          "low": 605.78,
-          "close": 609.04,
-          "volume": 66260
-        },
-        {
-          "time": "2026-09-04",
-          "open": 610.52,
-          "high": 621.08,
-          "low": 608.64,
-          "close": 615.55,
-          "volume": 77773
-        },
-        {
-          "time": "2026-09-07",
-          "open": 615.16,
-          "high": 622.96,
-          "low": 612.19,
-          "close": 618.96,
-          "volume": 82486
-        },
-        {
-          "time": "2026-09-08",
-          "open": 617.03,
-          "high": 623.65,
-          "low": 614.71,
-          "close": 620.29,
-          "volume": 76891
-        },
-        {
-          "time": "2026-09-09",
-          "open": 619.99,
-          "high": 640.73,
-          "low": 616.29,
-          "close": 627.05,
-          "volume": 222414
-        },
-        {
-          "time": "2026-09-10",
-          "open": 626.9,
-          "high": 631.15,
-          "low": 616.44,
-          "close": 619.5,
-          "volume": 103582
-        },
-        {
-          "time": "2026-09-11",
-          "open": 619.05,
-          "high": 619.05,
-          "low": 607.0,
-          "close": 615.0,
-          "volume": 105218
-        },
-        {
-          "time": "2026-09-15",
-          "open": 617.55,
-          "high": 622.85,
-          "low": 585.15,
-          "close": 587.65,
-          "volume": 144544
-        },
-        {
-          "time": "2026-09-16",
-          "open": 588.4,
-          "high": 598.95,
-          "low": 578.05,
-          "close": 593.15,
-          "volume": 144353
-        },
-        {
-          "time": "2026-09-17",
-          "open": 591.0,
-          "high": 597.1,
-          "low": 587.05,
-          "close": 593.05,
-          "volume": 68674
-        },
-        {
-          "time": "2026-09-18",
-          "open": 596.0,
-          "high": 608.65,
-          "low": 596.0,
-          "close": 604.0,
-          "volume": 92889
-        },
-        {
-          "time": "2026-09-21",
-          "open": 600.1,
-          "high": 605.85,
-          "low": 595.05,
-          "close": 599.3,
-          "volume": 59193
-        },
-        {
-          "time": "2026-09-22",
-          "open": 599.95,
-          "high": 608.7,
-          "low": 599.95,
-          "close": 605.65,
-          "volume": 55149
-        },
-        {
-          "time": "2026-09-23",
-          "open": 612.0,
-          "high": 618.2,
-          "low": 607.3,
-          "close": 611.75,
-          "volume": 59280
-        },
-        {
-          "time": "2026-09-24",
-          "open": 608.0,
-          "high": 612.35,
-          "low": 600.2,
-          "close": 602.35,
-          "volume": 54525
-        },
-        {
-          "time": "2026-09-25",
-          "open": 601.75,
-          "high": 608.45,
-          "low": 594.6,
-          "close": 599.85,
-          "volume": 44855
-        },
-        {
-          "time": "2026-09-28",
-          "open": 600.15,
-          "high": 605.0,
-          "low": 589.7,
-          "close": 594.2,
-          "volume": 67195
-        },
-        {
-          "time": "2026-09-29",
-          "open": 592.7,
-          "high": 599.9,
-          "low": 583.3,
-          "close": 595.65,
-          "volume": 64135
-        },
-        {
-          "time": "2026-09-30",
-          "open": 598.3,
-          "high": 617.45,
-          "low": 598.3,
-          "close": 606.3,
-          "volume": 110117
-        },
-        {
-          "time": "2026-10-01",
-          "open": 604.0,
-          "high": 604.0,
-          "low": 584.35,
-          "close": 589.85,
-          "volume": 78841
-        },
-        {
-          "time": "2026-10-05",
-          "open": 590.35,
-          "high": 597.8,
-          "low": 579.7,
-          "close": 589.8,
-          "volume": 79775
-        },
-        {
-          "time": "2026-10-06",
-          "open": 590.0,
-          "high": 604.6,
-          "low": 590.0,
-          "close": 602.65,
-          "volume": 54328
-        },
-        {
-          "time": "2026-10-07",
-          "open": 599.0,
-          "high": 605.0,
-          "low": 594.7,
-          "close": 600.2,
-          "volume": 61310
-        },
-        {
-          "time": "2026-10-08",
-          "open": 601.05,
-          "high": 605.35,
-          "low": 588.0,
-          "close": 588.9,
-          "volume": 55576
-        },
-        {
-          "time": "2026-10-09",
-          "open": 590.35,
-          "high": 596.95,
-          "low": 582.5,
-          "close": 590.8,
-          "volume": 41466
-        },
-        {
-          "time": "2026-10-12",
-          "open": 591.2,
-          "high": 601.15,
-          "low": 589.3,
-          "close": 593.2,
-          "volume": 60512
-        },
-        {
-          "time": "2026-10-13",
-          "open": 591.0,
-          "high": 594.9,
-          "low": 588.0,
-          "close": 590.25,
-          "volume": 43759
-        },
-        {
-          "time": "2026-10-14",
-          "open": 586.1,
-          "high": 604.0,
-          "low": 586.1,
-          "close": 600.85,
-          "volume": 59563
-        },
-        {
-          "time": "2026-10-15",
-          "open": 603.0,
-          "high": 607.0,
-          "low": 596.1,
-          "close": 602.15,
-          "volume": 54474
-        },
-        {
-          "time": "2026-10-16",
-          "open": 602.15,
-          "high": 607.45,
-          "low": 596.75,
-          "close": 604.55,
-          "volume": 45935
-        },
-        {
-          "time": "2026-10-19",
-          "open": 609.9,
-          "high": 609.9,
-          "low": 597.05,
-          "close": 601.25,
-          "volume": 51192
-        },
-        {
-          "time": "2026-10-21",
-          "open": 597.15,
-          "high": 599.8,
-          "low": 584.75,
-          "close": 590.15,
-          "volume": 108732
-        },
-        {
-          "time": "2026-10-22",
-          "open": 590.0,
-          "high": 590.0,
-          "low": 580.0,
-          "close": 582.8,
-          "volume": 44607
-        },
-        {
-          "time": "2026-10-23",
-          "open": 581.0,
-          "high": 582.2,
-          "low": 545.0,
-          "close": 558.4,
-          "volume": 195920
-        },
-        {
-          "time": "2026-10-26",
-          "open": 558.4,
-          "high": 572.1,
-          "low": 551.8,
-          "close": 560.05,
-          "volume": 83042
-        },
-        {
-          "time": "2026-10-27",
-          "open": 560.05,
-          "high": 587.0,
-          "low": 558.7,
-          "close": 584.6,
-          "volume": 88402
-        },
-        {
-          "time": "2026-10-28",
-          "open": 575.55,
-          "high": 591.95,
-          "low": 575.55,
-          "close": 589.15,
-          "volume": 49650
-        },
-        {
-          "time": "2026-10-29",
-          "open": 590.1,
-          "high": 594.2,
-          "low": 580.0,
-          "close": 583.55,
-          "volume": 38052
-        },
-        {
-          "time": "2026-10-30",
-          "open": 583.55,
-          "high": 583.6,
-          "low": 571.0,
-          "close": 573.7,
-          "volume": 45978
-        },
-        {
-          "time": "2026-11-02",
-          "open": 575.9,
-          "high": 599.0,
-          "low": 573.7,
-          "close": 590.6,
-          "volume": 53162
-        },
-        {
-          "time": "2026-11-03",
-          "open": 587.05,
-          "high": 601.0,
-          "low": 587.05,
-          "close": 593.85,
-          "volume": 52890
-        },
-        {
-          "time": "2026-11-04",
-          "open": 593.1,
-          "high": 610.0,
-          "low": 589.5,
-          "close": 609.1,
-          "volume": 61212
-        },
-        {
-          "time": "2026-11-05",
-          "open": 618.0,
-          "high": 629.8,
-          "low": 611.85,
-          "close": 618.8,
-          "volume": 121837
-        },
-        {
-          "time": "2026-11-06",
-          "open": 615.0,
-          "high": 625.95,
-          "low": 593.5,
-          "close": 598.2,
-          "volume": 114362
-        },
-        {
-          "time": "2026-11-09",
-          "open": 665.0,
-          "high": 693.7,
-          "low": 643.3,
-          "close": 659.15,
-          "volume": 3333934
-        },
-        {
-          "time": "2026-11-11",
-          "open": 660.4,
-          "high": 692.0,
-          "low": 660.4,
-          "close": 671.6,
-          "volume": 623514
-        },
-        {
-          "time": "2026-11-12",
-          "open": 677.3,
-          "high": 685.95,
-          "low": 672.0,
-          "close": 676.55,
-          "volume": 233357
-        },
-        {
-          "time": "2026-11-13",
-          "open": 675.1,
-          "high": 691.95,
-          "low": 670.3,
-          "close": 680.55,
-          "volume": 231156
-        },
-        {
-          "time": "2026-11-16",
-          "open": 680.2,
-          "high": 684.15,
-          "low": 665.55,
-          "close": 671.0,
-          "volume": 150281
-        }
-      ],
-      "name": "Banco Products (India) Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9618.48",
-      "current_price": 671.0,
-      "prev_close": 680.55,
-      "day_change_pct": -1.4,
-      "52w_high": 795.4,
-      "52w_low": 495.6,
-      "pct_from_52w_high": -15.64,
-      "pct_from_52w_low": 35.39,
-      "sma_20": 609.88,
-      "sma_50": 605.41,
-      "sma_200": 611.4,
-      "rsi_14": 66.9,
-      "macd_val": 19.54,
-      "macd_signal": 8.96,
-      "macd_hist": 10.58,
-      "vol_surge_ratio": 0.52,
-      "pe_ratio": 18.54,
-      "forward_pe": 0.0,
-      "peg_ratio": 0.0,
-      "pb_ratio": 5.16,
-      "roe": 29.8,
-      "profit_margins": 12.0,
-      "operating_margins": 15.4,
-      "debt_to_equity": 0.28,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 21.8,
-      "earnings_growth_yoy": 19.1,
-      "q_sales_growth": 21.8,
-      "q_pat_growth": 19.1,
-      "free_cash_flow": 4306935296.0,
-      "target_mean_price": 671.0,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 235.0,
-      "promoter_holding": 70.0,
-      "institutional_holding": 1.3,
-      "public_holding": 28.7,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 695.09,
-      "sell_trigger_level": 543.91,
-      "dist_from_prev_close": 2.14,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+21.8%)",
-        "Robust YoY Profit Expansion (+19.1%)",
-        "High Return on Equity (29.8% ROE)",
-        "Healthy Low Debt (D/E 0.28)",
-        "Trading Above 200-Day EMA Long-term Uptrend"
-      ],
-      "weaknesses": [
-        "No Major Red Flags Detected"
-      ],
-      "fundamental_score": 35.0,
-      "technical_score": 35.0,
-      "composite_score": 77,
-      "long_term_signal": "STRONG BUY",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 565.31,
-      "swing_target_1": 817.79,
-      "swing_target_2": 917.61,
-      "rationale": [
-        "YoY Revenue up 21.8%",
-        "YoY Profit up 19.1%",
-        "Above 200-day EMA long-term uptrend"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 235.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 695.09,
-      "wyckoff_ice": 543.91,
-      "wyckoff_breakout": 695.09,
-      "wyckoff_dist_to_breakout_pct": 3.59,
-      "wyckoff_stoploss": 533.03,
-      "wyckoff_stoploss_pct": 20.56,
-      "wyckoff_target_1": 846.27,
-      "wyckoff_target_2": 997.45,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b9543.91 (Ice) to \u20b9695.09 (Creek).",
-        "Consolidation inside 151.18 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -17301,33 +16718,33 @@ window.stockData = {
           "open": 2148.0,
           "high": 2235.0,
           "low": 2133.0,
-          "close": 2167.4,
-          "volume": 358429
+          "close": 2163.1,
+          "volume": 358428
         }
       ],
       "name": "Fiem Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b92,142.94",
-      "current_price": 2167.4,
+      "current_price": 2163.1,
       "prev_close": 2133.3,
-      "day_change_pct": 1.6,
+      "day_change_pct": 1.4,
       "52w_high": 2674.8,
       "52w_low": 1642.0,
-      "pct_from_52w_high": -18.97,
-      "pct_from_52w_low": 32.0,
-      "sma_20": 1850.64,
-      "sma_50": 1881.38,
-      "sma_200": 2120.08,
-      "rsi_14": 69.8,
-      "macd_val": 51.52,
-      "macd_signal": 3.84,
-      "macd_hist": 47.68,
+      "pct_from_52w_high": -19.13,
+      "pct_from_52w_low": 31.74,
+      "sma_20": 1850.43,
+      "sma_50": 1881.3,
+      "sma_200": 2120.06,
+      "rsi_14": 69.6,
+      "macd_val": 51.17,
+      "macd_signal": 3.77,
+      "macd_hist": 47.4,
       "vol_surge_ratio": 2.68,
-      "pe_ratio": 21.69,
-      "forward_pe": 16.25,
+      "pe_ratio": 21.65,
+      "forward_pe": 16.22,
       "peg_ratio": 0.0,
-      "pb_ratio": 4.7,
+      "pb_ratio": 4.69,
       "roe": 0.0,
       "profit_margins": 9.0,
       "operating_margins": 11.5,
@@ -17339,7 +16756,7 @@ window.stockData = {
       "q_pat_growth": 12.8,
       "free_cash_flow": 0.0,
       "target_mean_price": 2835.0,
-      "analyst_upside_pct": 30.8,
+      "analyst_upside_pct": 31.1,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 188.0,
       "promoter_holding": 54.5,
@@ -17370,9 +16787,9 @@ window.stockData = {
       "long_term_signal": "STRONG BUY",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "HIGH VOLATILITY BREAKOUT",
-      "swing_stoploss": 1766.87,
-      "swing_target_1": 2723.69,
-      "swing_target_2": 3101.97,
+      "swing_stoploss": 1764.24,
+      "swing_target_1": 2717.07,
+      "swing_target_2": 3093.76,
       "rationale": [
         "YoY Revenue up 18.5%",
         "YoY Profit up 12.8%",
@@ -17386,19 +16803,19 @@ window.stockData = {
       "wyckoff_phase": "Phase D",
       "wyckoff_structure": "Accumulation",
       "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 2178.24,
+      "wyckoff_creek": 2173.92,
       "wyckoff_ice": 1638.72,
-      "wyckoff_breakout": 2182.6,
+      "wyckoff_breakout": 2178.27,
       "wyckoff_dist_to_breakout_pct": 0.7,
       "wyckoff_stoploss": 1655.11,
-      "wyckoff_stoploss_pct": 23.64,
-      "wyckoff_target_1": 2717.76,
-      "wyckoff_target_2": 3257.28,
+      "wyckoff_stoploss_pct": 23.48,
+      "wyckoff_target_1": 2709.12,
+      "wyckoff_target_2": 3244.32,
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b92178.24).",
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b92173.92).",
         "Volume surge 2.7x confirms institutional demand absorption.",
-        "Cause of 539.52 pts horizontal accumulation ready to unlock upward effect."
+        "Cause of 535.2 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -17883,7 +17300,7 @@ window.stockData = {
           "high": 817.8,
           "low": 802.4,
           "close": 816.5,
-          "volume": 28810856
+          "volume": 27143063
         }
       ],
       "name": "HDFC Bank Ltd",
@@ -17904,7 +17321,7 @@ window.stockData = {
       "macd_val": 26.46,
       "macd_signal": 14.59,
       "macd_hist": 11.87,
-      "vol_surge_ratio": 0.74,
+      "vol_surge_ratio": 0.7,
       "pe_ratio": 17.85,
       "forward_pe": 13.04,
       "peg_ratio": 0.89,
@@ -18463,7 +17880,7 @@ window.stockData = {
           "high": 144.48,
           "low": 142.26,
           "close": 144.03,
-          "volume": 8152800
+          "volume": 7555389
         }
       ],
       "name": "Indian Oil Corporation Ltd",
@@ -18484,7 +17901,7 @@ window.stockData = {
       "macd_val": 3.79,
       "macd_signal": 2.68,
       "macd_hist": 1.12,
-      "vol_surge_ratio": 0.61,
+      "vol_surge_ratio": 0.56,
       "pe_ratio": 4.2,
       "forward_pe": 7.49,
       "peg_ratio": 0.0,
@@ -19043,7 +18460,7 @@ window.stockData = {
           "high": 226.99,
           "low": 223.0,
           "close": 226.99,
-          "volume": 10709693
+          "volume": 10243518
         }
       ],
       "name": "Oil and Natural Gas Corporation Ltd",
@@ -19064,7 +18481,7 @@ window.stockData = {
       "macd_val": 1.52,
       "macd_signal": 0.82,
       "macd_hist": 0.7,
-      "vol_surge_ratio": 0.82,
+      "vol_surge_ratio": 0.79,
       "pe_ratio": 5.77,
       "forward_pe": 5.49,
       "peg_ratio": 0.0,
@@ -19621,7 +19038,7 @@ window.stockData = {
           "high": 368.3,
           "low": 358.0,
           "close": 360.85,
-          "volume": 3488339
+          "volume": 3320457
         }
       ],
       "name": "Fsn E-Commerce Ventures Ltd",
@@ -19642,7 +19059,7 @@ window.stockData = {
       "macd_val": 6.97,
       "macd_signal": 5.49,
       "macd_hist": 1.48,
-      "vol_surge_ratio": 0.6,
+      "vol_surge_ratio": 0.57,
       "pe_ratio": 322.19,
       "forward_pe": 122.34,
       "peg_ratio": 0.0,
@@ -19715,585 +19132,6 @@ window.stockData = {
         "Last Point of Support (LPS) successfully holding above Creek (\u20b9367.43).",
         "Low-volume pullback demonstrates floating supply is exhausted.",
         "Prime Wyckoff low-risk entry before Phase E markup acceleration."
-      ]
-    },
-    {
-      "symbol": "BOROLTD.NS",
-      "clean_symbol": "BOROLTD",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 250.45,
-          "high": 252.95,
-          "low": 245.58,
-          "close": 248.11,
-          "volume": 82607
-        },
-        {
-          "time": "2026-08-20",
-          "open": 251.28,
-          "high": 262.0,
-          "low": 251.27,
-          "close": 257.82,
-          "volume": 213495
-        },
-        {
-          "time": "2026-08-21",
-          "open": 258.0,
-          "high": 258.3,
-          "low": 249.0,
-          "close": 254.18,
-          "volume": 85268
-        },
-        {
-          "time": "2026-08-24",
-          "open": 252.56,
-          "high": 254.99,
-          "low": 248.12,
-          "close": 254.04,
-          "volume": 64936
-        },
-        {
-          "time": "2026-08-25",
-          "open": 253.0,
-          "high": 289.0,
-          "low": 253.0,
-          "close": 261.45,
-          "volume": 18593567
-        },
-        {
-          "time": "2026-08-26",
-          "open": 259.75,
-          "high": 266.0,
-          "low": 249.1,
-          "close": 255.35,
-          "volume": 1640304
-        },
-        {
-          "time": "2026-08-27",
-          "open": 252.42,
-          "high": 254.9,
-          "low": 241.25,
-          "close": 244.07,
-          "volume": 1072261
-        },
-        {
-          "time": "2026-08-28",
-          "open": 244.59,
-          "high": 251.84,
-          "low": 238.27,
-          "close": 239.81,
-          "volume": 651151
-        },
-        {
-          "time": "2026-08-31",
-          "open": 240.01,
-          "high": 249.3,
-          "low": 237.0,
-          "close": 245.86,
-          "volume": 476653
-        },
-        {
-          "time": "2026-09-01",
-          "open": 244.59,
-          "high": 247.43,
-          "low": 234.23,
-          "close": 241.85,
-          "volume": 602776
-        },
-        {
-          "time": "2026-09-02",
-          "open": 241.1,
-          "high": 253.77,
-          "low": 236.51,
-          "close": 249.92,
-          "volume": 310915
-        },
-        {
-          "time": "2026-09-03",
-          "open": 249.92,
-          "high": 252.8,
-          "low": 246.9,
-          "close": 248.63,
-          "volume": 156355
-        },
-        {
-          "time": "2026-09-04",
-          "open": 249.0,
-          "high": 260.0,
-          "low": 247.79,
-          "close": 258.96,
-          "volume": 265545
-        },
-        {
-          "time": "2026-09-07",
-          "open": 259.02,
-          "high": 262.0,
-          "low": 252.5,
-          "close": 254.24,
-          "volume": 123730
-        },
-        {
-          "time": "2026-09-08",
-          "open": 252.17,
-          "high": 257.4,
-          "low": 252.17,
-          "close": 255.54,
-          "volume": 95659
-        },
-        {
-          "time": "2026-09-09",
-          "open": 254.0,
-          "high": 256.7,
-          "low": 252.14,
-          "close": 255.46,
-          "volume": 73476
-        },
-        {
-          "time": "2026-09-10",
-          "open": 253.61,
-          "high": 274.86,
-          "low": 253.61,
-          "close": 263.78,
-          "volume": 1214319
-        },
-        {
-          "time": "2026-09-11",
-          "open": 262.88,
-          "high": 262.88,
-          "low": 255.4,
-          "close": 257.48,
-          "volume": 117326
-        },
-        {
-          "time": "2026-09-15",
-          "open": 256.01,
-          "high": 263.4,
-          "low": 247.14,
-          "close": 248.33,
-          "volume": 135344
-        },
-        {
-          "time": "2026-09-16",
-          "open": 248.33,
-          "high": 250.0,
-          "low": 240.64,
-          "close": 246.76,
-          "volume": 131207
-        },
-        {
-          "time": "2026-09-17",
-          "open": 248.3,
-          "high": 255.1,
-          "low": 246.84,
-          "close": 253.4,
-          "volume": 111949
-        },
-        {
-          "time": "2026-09-18",
-          "open": 256.25,
-          "high": 263.1,
-          "low": 252.6,
-          "close": 259.21,
-          "volume": 133921
-        },
-        {
-          "time": "2026-09-21",
-          "open": 260.0,
-          "high": 267.0,
-          "low": 255.76,
-          "close": 261.14,
-          "volume": 101036
-        },
-        {
-          "time": "2026-09-22",
-          "open": 260.0,
-          "high": 269.7,
-          "low": 259.62,
-          "close": 263.57,
-          "volume": 230571
-        },
-        {
-          "time": "2026-09-23",
-          "open": 264.4,
-          "high": 269.99,
-          "low": 262.0,
-          "close": 267.5,
-          "volume": 128862
-        },
-        {
-          "time": "2026-09-24",
-          "open": 263.0,
-          "high": 267.9,
-          "low": 258.0,
-          "close": 259.31,
-          "volume": 268071
-        },
-        {
-          "time": "2026-09-25",
-          "open": 260.6,
-          "high": 274.6,
-          "low": 258.92,
-          "close": 264.8,
-          "volume": 1348123
-        },
-        {
-          "time": "2026-09-28",
-          "open": 275.0,
-          "high": 283.76,
-          "low": 269.0,
-          "close": 280.8,
-          "volume": 1497356
-        },
-        {
-          "time": "2026-09-29",
-          "open": 281.0,
-          "high": 282.26,
-          "low": 272.01,
-          "close": 276.21,
-          "volume": 461628
-        },
-        {
-          "time": "2026-09-30",
-          "open": 282.0,
-          "high": 300.0,
-          "low": 279.41,
-          "close": 293.38,
-          "volume": 1096443
-        },
-        {
-          "time": "2026-10-01",
-          "open": 291.0,
-          "high": 291.0,
-          "low": 271.6,
-          "close": 280.2,
-          "volume": 560059
-        },
-        {
-          "time": "2026-10-05",
-          "open": 287.0,
-          "high": 294.4,
-          "low": 277.05,
-          "close": 278.35,
-          "volume": 257448
-        },
-        {
-          "time": "2026-10-06",
-          "open": 280.0,
-          "high": 289.0,
-          "low": 277.05,
-          "close": 286.85,
-          "volume": 212491
-        },
-        {
-          "time": "2026-10-07",
-          "open": 287.0,
-          "high": 290.7,
-          "low": 280.0,
-          "close": 281.15,
-          "volume": 197203
-        },
-        {
-          "time": "2026-10-08",
-          "open": 280.2,
-          "high": 282.45,
-          "low": 265.15,
-          "close": 269.15,
-          "volume": 213742
-        },
-        {
-          "time": "2026-10-09",
-          "open": 269.75,
-          "high": 276.0,
-          "low": 268.6,
-          "close": 270.2,
-          "volume": 97998
-        },
-        {
-          "time": "2026-10-12",
-          "open": 270.15,
-          "high": 273.05,
-          "low": 264.9,
-          "close": 270.4,
-          "volume": 90321
-        },
-        {
-          "time": "2026-10-13",
-          "open": 269.0,
-          "high": 285.0,
-          "low": 269.0,
-          "close": 273.8,
-          "volume": 530805
-        },
-        {
-          "time": "2026-10-14",
-          "open": 271.55,
-          "high": 280.0,
-          "low": 271.1,
-          "close": 274.65,
-          "volume": 168519
-        },
-        {
-          "time": "2026-10-15",
-          "open": 276.5,
-          "high": 277.05,
-          "low": 265.65,
-          "close": 270.3,
-          "volume": 137119
-        },
-        {
-          "time": "2026-10-16",
-          "open": 270.75,
-          "high": 273.15,
-          "low": 266.05,
-          "close": 270.9,
-          "volume": 72339
-        },
-        {
-          "time": "2026-10-19",
-          "open": 270.9,
-          "high": 280.8,
-          "low": 257.8,
-          "close": 262.9,
-          "volume": 542861
-        },
-        {
-          "time": "2026-10-21",
-          "open": 264.3,
-          "high": 264.9,
-          "low": 244.95,
-          "close": 248.7,
-          "volume": 358873
-        },
-        {
-          "time": "2026-10-22",
-          "open": 245.35,
-          "high": 250.5,
-          "low": 239.1,
-          "close": 241.15,
-          "volume": 127584
-        },
-        {
-          "time": "2026-10-23",
-          "open": 240.0,
-          "high": 240.55,
-          "low": 227.95,
-          "close": 235.85,
-          "volume": 172133
-        },
-        {
-          "time": "2026-10-26",
-          "open": 234.15,
-          "high": 240.9,
-          "low": 230.95,
-          "close": 237.35,
-          "volume": 164887
-        },
-        {
-          "time": "2026-10-27",
-          "open": 235.8,
-          "high": 245.1,
-          "low": 235.8,
-          "close": 241.7,
-          "volume": 63645
-        },
-        {
-          "time": "2026-10-28",
-          "open": 240.0,
-          "high": 244.75,
-          "low": 237.4,
-          "close": 241.05,
-          "volume": 105993
-        },
-        {
-          "time": "2026-10-29",
-          "open": 236.2,
-          "high": 241.75,
-          "low": 235.5,
-          "close": 238.7,
-          "volume": 130687
-        },
-        {
-          "time": "2026-10-30",
-          "open": 255.4,
-          "high": 286.4,
-          "low": 249.95,
-          "close": 286.4,
-          "volume": 15838011
-        },
-        {
-          "time": "2026-11-02",
-          "open": 292.15,
-          "high": 334.0,
-          "low": 282.0,
-          "close": 312.35,
-          "volume": 9354889
-        },
-        {
-          "time": "2026-11-03",
-          "open": 308.0,
-          "high": 315.75,
-          "low": 303.0,
-          "close": 306.15,
-          "volume": 1258180
-        },
-        {
-          "time": "2026-11-04",
-          "open": 312.3,
-          "high": 319.8,
-          "low": 302.2,
-          "close": 310.85,
-          "volume": 569225
-        },
-        {
-          "time": "2026-11-05",
-          "open": 320.2,
-          "high": 320.2,
-          "low": 303.65,
-          "close": 305.95,
-          "volume": 211953
-        },
-        {
-          "time": "2026-11-06",
-          "open": 304.0,
-          "high": 320.0,
-          "low": 301.7,
-          "close": 318.2,
-          "volume": 685309
-        },
-        {
-          "time": "2026-11-09",
-          "open": 314.0,
-          "high": 315.9,
-          "low": 307.95,
-          "close": 309.3,
-          "volume": 93410
-        },
-        {
-          "time": "2026-11-11",
-          "open": 310.0,
-          "high": 315.0,
-          "low": 308.0,
-          "close": 309.4,
-          "volume": 80834
-        },
-        {
-          "time": "2026-11-12",
-          "open": 311.0,
-          "high": 314.35,
-          "low": 308.3,
-          "close": 310.55,
-          "volume": 157333
-        },
-        {
-          "time": "2026-11-13",
-          "open": 310.0,
-          "high": 318.6,
-          "low": 305.5,
-          "close": 311.5,
-          "volume": 163424
-        },
-        {
-          "time": "2026-11-16",
-          "open": 319.4,
-          "high": 345.95,
-          "low": 316.0,
-          "close": 340.9,
-          "volume": 4781175
-        }
-      ],
-      "name": "Borosil Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9247.70",
-      "current_price": 340.9,
-      "prev_close": 311.5,
-      "day_change_pct": 9.44,
-      "52w_high": 345.95,
-      "52w_low": 213.73,
-      "pct_from_52w_high": -1.46,
-      "pct_from_52w_low": 59.5,
-      "sma_20": 281.99,
-      "sma_50": 272.27,
-      "sma_200": 248.1,
-      "rsi_14": 73.1,
-      "macd_val": 16.12,
-      "macd_signal": 10.98,
-      "macd_hist": 5.14,
-      "vol_surge_ratio": 2.74,
-      "pe_ratio": 51.53,
-      "forward_pe": 36.48,
-      "peg_ratio": 0.0,
-      "pb_ratio": 4.37,
-      "roe": 8.9,
-      "profit_margins": 6.4,
-      "operating_margins": 9.2,
-      "debt_to_equity": 0.21,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 8.7,
-      "earnings_growth_yoy": 39.8,
-      "q_sales_growth": 8.7,
-      "q_pat_growth": 39.8,
-      "free_cash_flow": -844710656.0,
-      "target_mean_price": 332.5,
-      "analyst_upside_pct": -2.5,
-      "recommendation_key": "Strong Buy",
-      "dividend_yield": 0.0,
-      "promoter_holding": 67.8,
-      "institutional_holding": 5.0,
-      "public_holding": 27.2,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 1,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 1,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 334.67,
-      "sell_trigger_level": 227.49,
-      "dist_from_prev_close": 7.44,
-      "is_breakout_done_today": 1,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Robust YoY Profit Expansion (+39.8%)",
-        "Healthy Low Debt (D/E 0.21)",
-        "Trading Above 200-Day EMA Long-term Uptrend",
-        "Breakout Momentum with 2.7x Volume Surge"
-      ],
-      "weaknesses": [
-        "RSI Overbought Warning (73.1)"
-      ],
-      "fundamental_score": 25.0,
-      "technical_score": 43.0,
-      "composite_score": 72,
-      "long_term_signal": "ACCUMULATE",
-      "swing_signal": "BREAKOUT BUY",
-      "intraday_signal": "HIGH VOLATILITY BREAKOUT",
-      "swing_stoploss": 257.52,
-      "swing_target_1": 456.7,
-      "swing_target_2": 535.45,
-      "rationale": [
-        "YoY Profit up 39.8%",
-        "Trading near 52-Week High",
-        "20-Day Range Breakout with 2.7x volume",
-        "Above 200-day EMA long-term uptrend"
-      ],
-      "corporate_actions": [],
-      "events": null,
-      "wyckoff_phase": "Phase D",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 342.6,
-      "wyckoff_ice": 227.49,
-      "wyckoff_breakout": 343.29,
-      "wyckoff_dist_to_breakout_pct": 0.7,
-      "wyckoff_stoploss": 229.76,
-      "wyckoff_stoploss_pct": 32.6,
-      "wyckoff_target_1": 457.71,
-      "wyckoff_target_2": 572.82,
-      "wyckoff_signal": "JAC BREAKOUT BUY",
-      "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9342.6).",
-        "Volume surge 2.7x confirms institutional demand absorption.",
-        "Cause of 115.11 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -20777,7 +19615,7 @@ window.stockData = {
           "open": 1179.7,
           "high": 1196.85,
           "low": 1160.4,
-          "close": 1174.0,
+          "close": 1176.3,
           "volume": 239700
         }
       ],
@@ -20785,25 +19623,25 @@ window.stockData = {
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9989.18",
-      "current_price": 1174.0,
+      "current_price": 1176.3,
       "prev_close": 1180.0,
-      "day_change_pct": -0.51,
+      "day_change_pct": -0.31,
       "52w_high": 1268.0,
       "52w_low": 743.73,
-      "pct_from_52w_high": -7.41,
-      "pct_from_52w_low": 57.85,
-      "sma_20": 1090.14,
-      "sma_50": 1147.61,
-      "sma_200": 990.7,
-      "rsi_14": 59.3,
-      "macd_val": 9.02,
-      "macd_signal": -8.51,
-      "macd_hist": 17.53,
+      "pct_from_52w_high": -7.23,
+      "pct_from_52w_low": 58.16,
+      "sma_20": 1090.25,
+      "sma_50": 1147.66,
+      "sma_200": 990.71,
+      "rsi_14": 59.9,
+      "macd_val": 9.2,
+      "macd_signal": -8.48,
+      "macd_hist": 17.68,
       "vol_surge_ratio": 0.66,
-      "pe_ratio": 27.35,
-      "forward_pe": 24.93,
+      "pe_ratio": 27.4,
+      "forward_pe": 24.97,
       "peg_ratio": 0.0,
-      "pb_ratio": 6.95,
+      "pb_ratio": 6.96,
       "roe": 0.0,
       "profit_margins": 12.8,
       "operating_margins": 14.4,
@@ -20815,7 +19653,7 @@ window.stockData = {
       "q_pat_growth": 22.3,
       "free_cash_flow": 0.0,
       "target_mean_price": 1320.0,
-      "analyst_upside_pct": 12.4,
+      "analyst_upside_pct": 12.2,
       "recommendation_key": "None",
       "dividend_yield": 17.0,
       "promoter_holding": 66.8,
@@ -20846,9 +19684,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 986.79,
-      "swing_target_1": 1434.02,
-      "swing_target_2": 1610.83,
+      "swing_stoploss": 988.62,
+      "swing_target_1": 1436.97,
+      "swing_target_2": 1614.23,
       "rationale": [
         "YoY Revenue up 20.5%",
         "YoY Profit up 22.3%",
@@ -20864,9 +19702,9 @@ window.stockData = {
       "wyckoff_creek": 1260.52,
       "wyckoff_ice": 977.24,
       "wyckoff_breakout": 1260.52,
-      "wyckoff_dist_to_breakout_pct": 7.37,
+      "wyckoff_dist_to_breakout_pct": 7.16,
       "wyckoff_stoploss": 957.7,
-      "wyckoff_stoploss_pct": 18.42,
+      "wyckoff_stoploss_pct": 18.58,
       "wyckoff_target_1": 1543.8,
       "wyckoff_target_2": 1827.08,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -20874,6 +19712,584 @@ window.stockData = {
         "Phase B Cause Building inside Trading Range: \u20b9977.24 (Ice) to \u20b91260.52 (Creek).",
         "Consolidation inside 283.28 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "BOROLTD.NS",
+      "clean_symbol": "BOROLTD",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 250.45,
+          "high": 252.95,
+          "low": 245.58,
+          "close": 248.11,
+          "volume": 82607
+        },
+        {
+          "time": "2026-08-20",
+          "open": 251.28,
+          "high": 262.0,
+          "low": 251.27,
+          "close": 257.82,
+          "volume": 213495
+        },
+        {
+          "time": "2026-08-21",
+          "open": 258.0,
+          "high": 258.3,
+          "low": 249.0,
+          "close": 254.18,
+          "volume": 85268
+        },
+        {
+          "time": "2026-08-24",
+          "open": 252.56,
+          "high": 254.99,
+          "low": 248.12,
+          "close": 254.04,
+          "volume": 64936
+        },
+        {
+          "time": "2026-08-25",
+          "open": 253.0,
+          "high": 289.0,
+          "low": 253.0,
+          "close": 261.45,
+          "volume": 18593567
+        },
+        {
+          "time": "2026-08-26",
+          "open": 259.75,
+          "high": 266.0,
+          "low": 249.1,
+          "close": 255.35,
+          "volume": 1640304
+        },
+        {
+          "time": "2026-08-27",
+          "open": 252.42,
+          "high": 254.9,
+          "low": 241.25,
+          "close": 244.07,
+          "volume": 1072261
+        },
+        {
+          "time": "2026-08-28",
+          "open": 244.59,
+          "high": 251.84,
+          "low": 238.27,
+          "close": 239.81,
+          "volume": 651151
+        },
+        {
+          "time": "2026-08-31",
+          "open": 240.01,
+          "high": 249.3,
+          "low": 237.0,
+          "close": 245.86,
+          "volume": 476653
+        },
+        {
+          "time": "2026-09-01",
+          "open": 244.59,
+          "high": 247.43,
+          "low": 234.23,
+          "close": 241.85,
+          "volume": 602776
+        },
+        {
+          "time": "2026-09-02",
+          "open": 241.1,
+          "high": 253.77,
+          "low": 236.51,
+          "close": 249.92,
+          "volume": 310915
+        },
+        {
+          "time": "2026-09-03",
+          "open": 249.92,
+          "high": 252.8,
+          "low": 246.9,
+          "close": 248.63,
+          "volume": 156355
+        },
+        {
+          "time": "2026-09-04",
+          "open": 249.0,
+          "high": 260.0,
+          "low": 247.79,
+          "close": 258.96,
+          "volume": 265545
+        },
+        {
+          "time": "2026-09-07",
+          "open": 259.02,
+          "high": 262.0,
+          "low": 252.5,
+          "close": 254.24,
+          "volume": 123730
+        },
+        {
+          "time": "2026-09-08",
+          "open": 252.17,
+          "high": 257.4,
+          "low": 252.17,
+          "close": 255.54,
+          "volume": 95659
+        },
+        {
+          "time": "2026-09-09",
+          "open": 254.0,
+          "high": 256.7,
+          "low": 252.14,
+          "close": 255.46,
+          "volume": 73476
+        },
+        {
+          "time": "2026-09-10",
+          "open": 253.61,
+          "high": 274.86,
+          "low": 253.61,
+          "close": 263.78,
+          "volume": 1214319
+        },
+        {
+          "time": "2026-09-11",
+          "open": 262.88,
+          "high": 262.88,
+          "low": 255.4,
+          "close": 257.48,
+          "volume": 117326
+        },
+        {
+          "time": "2026-09-15",
+          "open": 256.01,
+          "high": 263.4,
+          "low": 247.14,
+          "close": 248.33,
+          "volume": 135344
+        },
+        {
+          "time": "2026-09-16",
+          "open": 248.33,
+          "high": 250.0,
+          "low": 240.64,
+          "close": 246.76,
+          "volume": 131207
+        },
+        {
+          "time": "2026-09-17",
+          "open": 248.3,
+          "high": 255.1,
+          "low": 246.84,
+          "close": 253.4,
+          "volume": 111949
+        },
+        {
+          "time": "2026-09-18",
+          "open": 256.25,
+          "high": 263.1,
+          "low": 252.6,
+          "close": 259.21,
+          "volume": 133921
+        },
+        {
+          "time": "2026-09-21",
+          "open": 260.0,
+          "high": 267.0,
+          "low": 255.76,
+          "close": 261.14,
+          "volume": 101036
+        },
+        {
+          "time": "2026-09-22",
+          "open": 260.0,
+          "high": 269.7,
+          "low": 259.62,
+          "close": 263.57,
+          "volume": 230571
+        },
+        {
+          "time": "2026-09-23",
+          "open": 264.4,
+          "high": 269.99,
+          "low": 262.0,
+          "close": 267.5,
+          "volume": 128862
+        },
+        {
+          "time": "2026-09-24",
+          "open": 263.0,
+          "high": 267.9,
+          "low": 258.0,
+          "close": 259.31,
+          "volume": 268071
+        },
+        {
+          "time": "2026-09-25",
+          "open": 260.6,
+          "high": 274.6,
+          "low": 258.92,
+          "close": 264.8,
+          "volume": 1348123
+        },
+        {
+          "time": "2026-09-28",
+          "open": 275.0,
+          "high": 283.76,
+          "low": 269.0,
+          "close": 280.8,
+          "volume": 1497356
+        },
+        {
+          "time": "2026-09-29",
+          "open": 281.0,
+          "high": 282.26,
+          "low": 272.01,
+          "close": 276.21,
+          "volume": 461628
+        },
+        {
+          "time": "2026-09-30",
+          "open": 282.0,
+          "high": 300.0,
+          "low": 279.41,
+          "close": 293.38,
+          "volume": 1096443
+        },
+        {
+          "time": "2026-10-01",
+          "open": 291.0,
+          "high": 291.0,
+          "low": 271.6,
+          "close": 280.2,
+          "volume": 560059
+        },
+        {
+          "time": "2026-10-05",
+          "open": 287.0,
+          "high": 294.4,
+          "low": 277.05,
+          "close": 278.35,
+          "volume": 257448
+        },
+        {
+          "time": "2026-10-06",
+          "open": 280.0,
+          "high": 289.0,
+          "low": 277.05,
+          "close": 286.85,
+          "volume": 212491
+        },
+        {
+          "time": "2026-10-07",
+          "open": 287.0,
+          "high": 290.7,
+          "low": 280.0,
+          "close": 281.15,
+          "volume": 197203
+        },
+        {
+          "time": "2026-10-08",
+          "open": 280.2,
+          "high": 282.45,
+          "low": 265.15,
+          "close": 269.15,
+          "volume": 213742
+        },
+        {
+          "time": "2026-10-09",
+          "open": 269.75,
+          "high": 276.0,
+          "low": 268.6,
+          "close": 270.2,
+          "volume": 97998
+        },
+        {
+          "time": "2026-10-12",
+          "open": 270.15,
+          "high": 273.05,
+          "low": 264.9,
+          "close": 270.4,
+          "volume": 90321
+        },
+        {
+          "time": "2026-10-13",
+          "open": 269.0,
+          "high": 285.0,
+          "low": 269.0,
+          "close": 273.8,
+          "volume": 530805
+        },
+        {
+          "time": "2026-10-14",
+          "open": 271.55,
+          "high": 280.0,
+          "low": 271.1,
+          "close": 274.65,
+          "volume": 168519
+        },
+        {
+          "time": "2026-10-15",
+          "open": 276.5,
+          "high": 277.05,
+          "low": 265.65,
+          "close": 270.3,
+          "volume": 137119
+        },
+        {
+          "time": "2026-10-16",
+          "open": 270.75,
+          "high": 273.15,
+          "low": 266.05,
+          "close": 270.9,
+          "volume": 72339
+        },
+        {
+          "time": "2026-10-19",
+          "open": 270.9,
+          "high": 280.8,
+          "low": 257.8,
+          "close": 262.9,
+          "volume": 542861
+        },
+        {
+          "time": "2026-10-21",
+          "open": 264.3,
+          "high": 264.9,
+          "low": 244.95,
+          "close": 248.7,
+          "volume": 358873
+        },
+        {
+          "time": "2026-10-22",
+          "open": 245.35,
+          "high": 250.5,
+          "low": 239.1,
+          "close": 241.15,
+          "volume": 127584
+        },
+        {
+          "time": "2026-10-23",
+          "open": 240.0,
+          "high": 240.55,
+          "low": 227.95,
+          "close": 235.85,
+          "volume": 172133
+        },
+        {
+          "time": "2026-10-26",
+          "open": 234.15,
+          "high": 240.9,
+          "low": 230.95,
+          "close": 237.35,
+          "volume": 164887
+        },
+        {
+          "time": "2026-10-27",
+          "open": 235.8,
+          "high": 245.1,
+          "low": 235.8,
+          "close": 241.7,
+          "volume": 63645
+        },
+        {
+          "time": "2026-10-28",
+          "open": 240.0,
+          "high": 244.75,
+          "low": 237.4,
+          "close": 241.05,
+          "volume": 105993
+        },
+        {
+          "time": "2026-10-29",
+          "open": 236.2,
+          "high": 241.75,
+          "low": 235.5,
+          "close": 238.7,
+          "volume": 130687
+        },
+        {
+          "time": "2026-10-30",
+          "open": 255.4,
+          "high": 286.4,
+          "low": 249.95,
+          "close": 286.4,
+          "volume": 15838011
+        },
+        {
+          "time": "2026-11-02",
+          "open": 292.15,
+          "high": 334.0,
+          "low": 282.0,
+          "close": 312.35,
+          "volume": 9354889
+        },
+        {
+          "time": "2026-11-03",
+          "open": 308.0,
+          "high": 315.75,
+          "low": 303.0,
+          "close": 306.15,
+          "volume": 1258180
+        },
+        {
+          "time": "2026-11-04",
+          "open": 312.3,
+          "high": 319.8,
+          "low": 302.2,
+          "close": 310.85,
+          "volume": 569225
+        },
+        {
+          "time": "2026-11-05",
+          "open": 320.2,
+          "high": 320.2,
+          "low": 303.65,
+          "close": 305.95,
+          "volume": 211953
+        },
+        {
+          "time": "2026-11-06",
+          "open": 304.0,
+          "high": 320.0,
+          "low": 301.7,
+          "close": 318.2,
+          "volume": 685309
+        },
+        {
+          "time": "2026-11-09",
+          "open": 314.0,
+          "high": 315.9,
+          "low": 307.95,
+          "close": 309.3,
+          "volume": 93410
+        },
+        {
+          "time": "2026-11-11",
+          "open": 310.0,
+          "high": 315.0,
+          "low": 308.0,
+          "close": 309.4,
+          "volume": 80834
+        },
+        {
+          "time": "2026-11-12",
+          "open": 311.0,
+          "high": 314.35,
+          "low": 308.3,
+          "close": 310.55,
+          "volume": 157333
+        },
+        {
+          "time": "2026-11-13",
+          "open": 310.0,
+          "high": 318.6,
+          "low": 305.5,
+          "close": 311.5,
+          "volume": 163424
+        },
+        {
+          "time": "2026-11-16",
+          "open": 319.4,
+          "high": 346.95,
+          "low": 316.0,
+          "close": 341.1,
+          "volume": 4781155
+        }
+      ],
+      "name": "Borosil Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9247.70",
+      "current_price": 341.1,
+      "prev_close": 311.5,
+      "day_change_pct": 9.5,
+      "52w_high": 346.95,
+      "52w_low": 213.73,
+      "pct_from_52w_high": -1.69,
+      "pct_from_52w_low": 59.59,
+      "sma_20": 282.0,
+      "sma_50": 272.27,
+      "sma_200": 248.1,
+      "rsi_14": 73.1,
+      "macd_val": 16.13,
+      "macd_signal": 10.98,
+      "macd_hist": 5.15,
+      "vol_surge_ratio": 2.74,
+      "pe_ratio": 51.53,
+      "forward_pe": 36.48,
+      "peg_ratio": 0.0,
+      "pb_ratio": 4.37,
+      "roe": 8.9,
+      "profit_margins": 6.4,
+      "operating_margins": 9.2,
+      "debt_to_equity": 0.21,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 8.7,
+      "earnings_growth_yoy": 39.8,
+      "q_sales_growth": 8.7,
+      "q_pat_growth": 39.8,
+      "free_cash_flow": -844710656.0,
+      "target_mean_price": 332.5,
+      "analyst_upside_pct": -2.5,
+      "recommendation_key": "Strong Buy",
+      "dividend_yield": 0.0,
+      "promoter_holding": 67.8,
+      "institutional_holding": 5.0,
+      "public_holding": 27.2,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 1,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 334.67,
+      "sell_trigger_level": 227.49,
+      "dist_from_prev_close": 7.44,
+      "is_breakout_done_today": 1,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Robust YoY Profit Expansion (+39.8%)",
+        "Healthy Low Debt (D/E 0.21)",
+        "Trading Above 200-Day EMA Long-term Uptrend",
+        "Breakout Momentum with 2.7x Volume Surge"
+      ],
+      "weaknesses": [
+        "RSI Overbought Warning (73.1)"
+      ],
+      "fundamental_score": 25.0,
+      "technical_score": 43.0,
+      "composite_score": 72,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "BREAKOUT BUY",
+      "intraday_signal": "HIGH VOLATILITY BREAKOUT",
+      "swing_stoploss": 257.67,
+      "swing_target_1": 456.98,
+      "swing_target_2": 535.78,
+      "rationale": [
+        "YoY Profit up 39.8%",
+        "20-Day Range Breakout with 2.7x volume",
+        "Above 200-day EMA long-term uptrend"
+      ],
+      "corporate_actions": [],
+      "events": null,
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_creek": 342.81,
+      "wyckoff_ice": 227.49,
+      "wyckoff_breakout": 343.5,
+      "wyckoff_dist_to_breakout_pct": 0.7,
+      "wyckoff_stoploss": 229.76,
+      "wyckoff_stoploss_pct": 32.64,
+      "wyckoff_target_1": 458.13,
+      "wyckoff_target_2": 573.45,
+      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_rationale": [
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9342.81).",
+        "Volume surge 2.7x confirms institutional demand absorption.",
+        "Cause of 115.32 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -21357,30 +20773,30 @@ window.stockData = {
           "open": 125.0,
           "high": 128.88,
           "low": 121.71,
-          "close": 123.24,
-          "volume": 1113490
+          "close": 123.75,
+          "volume": 1113326
         }
       ],
       "name": "Jay Bharat Maruti Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9119.78",
-      "current_price": 123.24,
+      "current_price": 123.75,
       "prev_close": 124.53,
-      "day_change_pct": -1.04,
+      "day_change_pct": -0.63,
       "52w_high": 205.89,
       "52w_low": 73.75,
-      "pct_from_52w_high": -40.14,
-      "pct_from_52w_low": 67.11,
-      "sma_20": 120.67,
-      "sma_50": 120.79,
-      "sma_200": 119.68,
-      "rsi_14": 51.8,
-      "macd_val": 0.42,
-      "macd_signal": -0.28,
-      "macd_hist": 0.7,
+      "pct_from_52w_high": -39.9,
+      "pct_from_52w_low": 67.8,
+      "sma_20": 120.7,
+      "sma_50": 120.8,
+      "sma_200": 119.69,
+      "rsi_14": 52.5,
+      "macd_val": 0.46,
+      "macd_signal": -0.27,
+      "macd_hist": 0.73,
       "vol_surge_ratio": 1.37,
-      "pe_ratio": 8.78,
+      "pe_ratio": 8.82,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 1.8,
@@ -21394,7 +20810,7 @@ window.stockData = {
       "q_sales_growth": 41.3,
       "q_pat_growth": 74.1,
       "free_cash_flow": -149737248.0,
-      "target_mean_price": 123.24,
+      "target_mean_price": 123.75,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 56.0,
@@ -21424,11 +20840,11 @@ window.stockData = {
       "technical_score": 35.0,
       "composite_score": 72,
       "long_term_signal": "ACCUMULATE",
-      "swing_signal": "MOMENTUM BUY",
+      "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 109.96,
-      "swing_target_1": 141.68,
-      "swing_target_2": 154.22,
+      "swing_stoploss": 110.42,
+      "swing_target_1": 142.27,
+      "swing_target_2": 154.86,
       "rationale": [
         "YoY Revenue up 41.3%",
         "YoY Profit up 74.1%",
@@ -21444,15 +20860,596 @@ window.stockData = {
       "wyckoff_creek": 136.62,
       "wyckoff_ice": 110.54,
       "wyckoff_breakout": 136.62,
-      "wyckoff_dist_to_breakout_pct": 10.86,
+      "wyckoff_dist_to_breakout_pct": 10.4,
       "wyckoff_stoploss": 108.33,
-      "wyckoff_stoploss_pct": 12.1,
+      "wyckoff_stoploss_pct": 12.46,
       "wyckoff_target_1": 162.7,
       "wyckoff_target_2": 188.78,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
         "Phase B Cause Building inside Trading Range: \u20b9110.54 (Ice) to \u20b9136.62 (Creek).",
         "Consolidation inside 26.08 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "BANCOINDIA.NS",
+      "clean_symbol": "BANCOINDIA",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 622.96,
+          "high": 622.96,
+          "low": 613.08,
+          "close": 614.81,
+          "volume": 55044
+        },
+        {
+          "time": "2026-08-20",
+          "open": 617.03,
+          "high": 624.78,
+          "low": 613.08,
+          "close": 617.48,
+          "volume": 95250
+        },
+        {
+          "time": "2026-08-21",
+          "open": 618.96,
+          "high": 622.12,
+          "low": 611.6,
+          "close": 615.75,
+          "volume": 113028
+        },
+        {
+          "time": "2026-08-24",
+          "open": 616.14,
+          "high": 622.96,
+          "low": 612.1,
+          "close": 615.85,
+          "volume": 76972
+        },
+        {
+          "time": "2026-08-25",
+          "open": 615.85,
+          "high": 617.67,
+          "low": 602.12,
+          "close": 608.89,
+          "volume": 164040
+        },
+        {
+          "time": "2026-08-26",
+          "open": 609.13,
+          "high": 621.77,
+          "low": 608.99,
+          "close": 619.85,
+          "volume": 63504
+        },
+        {
+          "time": "2026-08-27",
+          "open": 619.85,
+          "high": 622.66,
+          "low": 613.33,
+          "close": 615.7,
+          "volume": 54297
+        },
+        {
+          "time": "2026-08-28",
+          "open": 616.34,
+          "high": 622.46,
+          "low": 611.11,
+          "close": 616.44,
+          "volume": 55866
+        },
+        {
+          "time": "2026-08-31",
+          "open": 613.68,
+          "high": 623.84,
+          "low": 609.13,
+          "close": 617.43,
+          "volume": 90971
+        },
+        {
+          "time": "2026-09-01",
+          "open": 616.98,
+          "high": 621.92,
+          "low": 608.15,
+          "close": 612.24,
+          "volume": 84843
+        },
+        {
+          "time": "2026-09-02",
+          "open": 612.19,
+          "high": 613.08,
+          "low": 602.37,
+          "close": 605.78,
+          "volume": 81619
+        },
+        {
+          "time": "2026-09-03",
+          "open": 613.08,
+          "high": 614.07,
+          "low": 605.78,
+          "close": 609.04,
+          "volume": 66260
+        },
+        {
+          "time": "2026-09-04",
+          "open": 610.52,
+          "high": 621.08,
+          "low": 608.64,
+          "close": 615.55,
+          "volume": 77773
+        },
+        {
+          "time": "2026-09-07",
+          "open": 615.16,
+          "high": 622.96,
+          "low": 612.19,
+          "close": 618.96,
+          "volume": 82486
+        },
+        {
+          "time": "2026-09-08",
+          "open": 617.03,
+          "high": 623.65,
+          "low": 614.71,
+          "close": 620.29,
+          "volume": 76891
+        },
+        {
+          "time": "2026-09-09",
+          "open": 619.99,
+          "high": 640.73,
+          "low": 616.29,
+          "close": 627.05,
+          "volume": 222414
+        },
+        {
+          "time": "2026-09-10",
+          "open": 626.9,
+          "high": 631.15,
+          "low": 616.44,
+          "close": 619.5,
+          "volume": 103582
+        },
+        {
+          "time": "2026-09-11",
+          "open": 619.05,
+          "high": 619.05,
+          "low": 607.0,
+          "close": 615.0,
+          "volume": 105218
+        },
+        {
+          "time": "2026-09-15",
+          "open": 617.55,
+          "high": 622.85,
+          "low": 585.15,
+          "close": 587.65,
+          "volume": 144544
+        },
+        {
+          "time": "2026-09-16",
+          "open": 588.4,
+          "high": 598.95,
+          "low": 578.05,
+          "close": 593.15,
+          "volume": 144353
+        },
+        {
+          "time": "2026-09-17",
+          "open": 591.0,
+          "high": 597.1,
+          "low": 587.05,
+          "close": 593.05,
+          "volume": 68674
+        },
+        {
+          "time": "2026-09-18",
+          "open": 596.0,
+          "high": 608.65,
+          "low": 596.0,
+          "close": 604.0,
+          "volume": 92889
+        },
+        {
+          "time": "2026-09-21",
+          "open": 600.1,
+          "high": 605.85,
+          "low": 595.05,
+          "close": 599.3,
+          "volume": 59193
+        },
+        {
+          "time": "2026-09-22",
+          "open": 599.95,
+          "high": 608.7,
+          "low": 599.95,
+          "close": 605.65,
+          "volume": 55149
+        },
+        {
+          "time": "2026-09-23",
+          "open": 612.0,
+          "high": 618.2,
+          "low": 607.3,
+          "close": 611.75,
+          "volume": 59280
+        },
+        {
+          "time": "2026-09-24",
+          "open": 608.0,
+          "high": 612.35,
+          "low": 600.2,
+          "close": 602.35,
+          "volume": 54525
+        },
+        {
+          "time": "2026-09-25",
+          "open": 601.75,
+          "high": 608.45,
+          "low": 594.6,
+          "close": 599.85,
+          "volume": 44855
+        },
+        {
+          "time": "2026-09-28",
+          "open": 600.15,
+          "high": 605.0,
+          "low": 589.7,
+          "close": 594.2,
+          "volume": 67195
+        },
+        {
+          "time": "2026-09-29",
+          "open": 592.7,
+          "high": 599.9,
+          "low": 583.3,
+          "close": 595.65,
+          "volume": 64135
+        },
+        {
+          "time": "2026-09-30",
+          "open": 598.3,
+          "high": 617.45,
+          "low": 598.3,
+          "close": 606.3,
+          "volume": 110117
+        },
+        {
+          "time": "2026-10-01",
+          "open": 604.0,
+          "high": 604.0,
+          "low": 584.35,
+          "close": 589.85,
+          "volume": 78841
+        },
+        {
+          "time": "2026-10-05",
+          "open": 590.35,
+          "high": 597.8,
+          "low": 579.7,
+          "close": 589.8,
+          "volume": 79775
+        },
+        {
+          "time": "2026-10-06",
+          "open": 590.0,
+          "high": 604.6,
+          "low": 590.0,
+          "close": 602.65,
+          "volume": 54328
+        },
+        {
+          "time": "2026-10-07",
+          "open": 599.0,
+          "high": 605.0,
+          "low": 594.7,
+          "close": 600.2,
+          "volume": 61310
+        },
+        {
+          "time": "2026-10-08",
+          "open": 601.05,
+          "high": 605.35,
+          "low": 588.0,
+          "close": 588.9,
+          "volume": 55576
+        },
+        {
+          "time": "2026-10-09",
+          "open": 590.35,
+          "high": 596.95,
+          "low": 582.5,
+          "close": 590.8,
+          "volume": 41466
+        },
+        {
+          "time": "2026-10-12",
+          "open": 591.2,
+          "high": 601.15,
+          "low": 589.3,
+          "close": 593.2,
+          "volume": 60512
+        },
+        {
+          "time": "2026-10-13",
+          "open": 591.0,
+          "high": 594.9,
+          "low": 588.0,
+          "close": 590.25,
+          "volume": 43759
+        },
+        {
+          "time": "2026-10-14",
+          "open": 586.1,
+          "high": 604.0,
+          "low": 586.1,
+          "close": 600.85,
+          "volume": 59563
+        },
+        {
+          "time": "2026-10-15",
+          "open": 603.0,
+          "high": 607.0,
+          "low": 596.1,
+          "close": 602.15,
+          "volume": 54474
+        },
+        {
+          "time": "2026-10-16",
+          "open": 602.15,
+          "high": 607.45,
+          "low": 596.75,
+          "close": 604.55,
+          "volume": 45935
+        },
+        {
+          "time": "2026-10-19",
+          "open": 609.9,
+          "high": 609.9,
+          "low": 597.05,
+          "close": 601.25,
+          "volume": 51192
+        },
+        {
+          "time": "2026-10-21",
+          "open": 597.15,
+          "high": 599.8,
+          "low": 584.75,
+          "close": 590.15,
+          "volume": 108732
+        },
+        {
+          "time": "2026-10-22",
+          "open": 590.0,
+          "high": 590.0,
+          "low": 580.0,
+          "close": 582.8,
+          "volume": 44607
+        },
+        {
+          "time": "2026-10-23",
+          "open": 581.0,
+          "high": 582.2,
+          "low": 545.0,
+          "close": 558.4,
+          "volume": 195920
+        },
+        {
+          "time": "2026-10-26",
+          "open": 558.4,
+          "high": 572.1,
+          "low": 551.8,
+          "close": 560.05,
+          "volume": 83042
+        },
+        {
+          "time": "2026-10-27",
+          "open": 560.05,
+          "high": 587.0,
+          "low": 558.7,
+          "close": 584.6,
+          "volume": 88402
+        },
+        {
+          "time": "2026-10-28",
+          "open": 575.55,
+          "high": 591.95,
+          "low": 575.55,
+          "close": 589.15,
+          "volume": 49650
+        },
+        {
+          "time": "2026-10-29",
+          "open": 590.1,
+          "high": 594.2,
+          "low": 580.0,
+          "close": 583.55,
+          "volume": 38052
+        },
+        {
+          "time": "2026-10-30",
+          "open": 583.55,
+          "high": 583.6,
+          "low": 571.0,
+          "close": 573.7,
+          "volume": 45978
+        },
+        {
+          "time": "2026-11-02",
+          "open": 575.9,
+          "high": 599.0,
+          "low": 573.7,
+          "close": 590.6,
+          "volume": 53162
+        },
+        {
+          "time": "2026-11-03",
+          "open": 587.05,
+          "high": 601.0,
+          "low": 587.05,
+          "close": 593.85,
+          "volume": 52890
+        },
+        {
+          "time": "2026-11-04",
+          "open": 593.1,
+          "high": 610.0,
+          "low": 589.5,
+          "close": 609.1,
+          "volume": 61212
+        },
+        {
+          "time": "2026-11-05",
+          "open": 618.0,
+          "high": 629.8,
+          "low": 611.85,
+          "close": 618.8,
+          "volume": 121837
+        },
+        {
+          "time": "2026-11-06",
+          "open": 615.0,
+          "high": 625.95,
+          "low": 593.5,
+          "close": 598.2,
+          "volume": 114362
+        },
+        {
+          "time": "2026-11-09",
+          "open": 665.0,
+          "high": 693.7,
+          "low": 643.3,
+          "close": 659.15,
+          "volume": 3333934
+        },
+        {
+          "time": "2026-11-11",
+          "open": 660.4,
+          "high": 692.0,
+          "low": 660.4,
+          "close": 671.6,
+          "volume": 623514
+        },
+        {
+          "time": "2026-11-12",
+          "open": 677.3,
+          "high": 685.95,
+          "low": 672.0,
+          "close": 676.55,
+          "volume": 233357
+        },
+        {
+          "time": "2026-11-13",
+          "open": 675.1,
+          "high": 691.95,
+          "low": 670.3,
+          "close": 680.55,
+          "volume": 231156
+        },
+        {
+          "time": "2026-11-16",
+          "open": 680.2,
+          "high": 684.15,
+          "low": 665.55,
+          "close": 673.9,
+          "volume": 148817
+        }
+      ],
+      "name": "Banco Products (India) Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9618.48",
+      "current_price": 673.9,
+      "prev_close": 680.55,
+      "day_change_pct": -0.98,
+      "52w_high": 795.4,
+      "52w_low": 495.6,
+      "pct_from_52w_high": -15.28,
+      "pct_from_52w_low": 35.98,
+      "sma_20": 610.02,
+      "sma_50": 605.46,
+      "sma_200": 611.42,
+      "rsi_14": 68.1,
+      "macd_val": 19.77,
+      "macd_signal": 9.0,
+      "macd_hist": 10.77,
+      "vol_surge_ratio": 0.52,
+      "pe_ratio": 18.62,
+      "forward_pe": 0.0,
+      "peg_ratio": 0.0,
+      "pb_ratio": 5.18,
+      "roe": 29.8,
+      "profit_margins": 12.0,
+      "operating_margins": 15.4,
+      "debt_to_equity": 0.28,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 21.8,
+      "earnings_growth_yoy": 19.1,
+      "q_sales_growth": 21.8,
+      "q_pat_growth": 19.1,
+      "free_cash_flow": 4306935296.0,
+      "target_mean_price": 673.9,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 235.0,
+      "promoter_holding": 70.0,
+      "institutional_holding": 1.3,
+      "public_holding": 28.7,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 695.09,
+      "sell_trigger_level": 543.91,
+      "dist_from_prev_close": 2.14,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+21.8%)",
+        "Robust YoY Profit Expansion (+19.1%)",
+        "High Return on Equity (29.8% ROE)",
+        "Healthy Low Debt (D/E 0.28)",
+        "Trading Above 200-Day EMA Long-term Uptrend"
+      ],
+      "weaknesses": [
+        "No Major Red Flags Detected"
+      ],
+      "fundamental_score": 35.0,
+      "technical_score": 29.0,
+      "composite_score": 71,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 567.49,
+      "swing_target_1": 821.7,
+      "swing_target_2": 922.2,
+      "rationale": [
+        "YoY Revenue up 21.8%",
+        "YoY Profit up 19.1%",
+        "Above 200-day EMA long-term uptrend"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 235.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 695.09,
+      "wyckoff_ice": 543.91,
+      "wyckoff_breakout": 695.09,
+      "wyckoff_dist_to_breakout_pct": 3.14,
+      "wyckoff_stoploss": 533.03,
+      "wyckoff_stoploss_pct": 20.9,
+      "wyckoff_target_1": 846.27,
+      "wyckoff_target_2": 997.45,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9543.91 (Ice) to \u20b9695.09 (Creek).",
+        "Consolidation inside 151.18 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -21938,7 +21935,7 @@ window.stockData = {
           "high": 156.0,
           "low": 140.46,
           "close": 144.07,
-          "volume": 8229568
+          "volume": 8229518
         }
       ],
       "name": "Jamna Auto Industries Ltd",
@@ -22514,7 +22511,7 @@ window.stockData = {
           "high": 730.0,
           "low": 718.55,
           "close": 723.3,
-          "volume": 977181
+          "volume": 967941
         }
       ],
       "name": "Computer Age Management Services Ltd",
@@ -23089,33 +23086,33 @@ window.stockData = {
           "open": 315.0,
           "high": 315.0,
           "low": 307.3,
-          "close": 312.8,
-          "volume": 2092358
+          "close": 312.05,
+          "volume": 2092331
         }
       ],
       "name": "Engineers India Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9238.81",
-      "current_price": 312.8,
+      "current_price": 312.05,
       "prev_close": 312.45,
-      "day_change_pct": 0.11,
+      "day_change_pct": -0.13,
       "52w_high": 323.65,
       "52w_low": 160.22,
-      "pct_from_52w_high": -3.35,
-      "pct_from_52w_low": 95.23,
-      "sma_20": 277.9,
-      "sma_50": 283.17,
+      "pct_from_52w_high": -3.58,
+      "pct_from_52w_low": 94.76,
+      "sma_20": 277.86,
+      "sma_50": 283.16,
       "sma_200": 236.71,
-      "rsi_14": 64.6,
-      "macd_val": 9.26,
-      "macd_signal": 4.38,
-      "macd_hist": 4.88,
+      "rsi_14": 64.2,
+      "macd_val": 9.2,
+      "macd_signal": 4.37,
+      "macd_hist": 4.84,
       "vol_surge_ratio": 0.4,
-      "pe_ratio": 19.6,
-      "forward_pe": 22.03,
+      "pe_ratio": 19.55,
+      "forward_pe": 21.98,
       "peg_ratio": 0.0,
-      "pb_ratio": 5.26,
+      "pb_ratio": 5.25,
       "roe": 29.7,
       "profit_margins": 23.7,
       "operating_margins": 20.8,
@@ -23127,7 +23124,7 @@ window.stockData = {
       "q_pat_growth": 134.9,
       "free_cash_flow": 6736415232.0,
       "target_mean_price": 322.67,
-      "analyst_upside_pct": 3.2,
+      "analyst_upside_pct": 3.4,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 208.0,
       "promoter_holding": 51.4,
@@ -23158,9 +23155,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 251.06,
-      "swing_target_1": 398.55,
-      "swing_target_2": 456.86,
+      "swing_stoploss": 250.47,
+      "swing_target_1": 397.58,
+      "swing_target_2": 455.74,
       "rationale": [
         "YoY Profit up 134.9%",
         "Above 200-day EMA long-term uptrend"
@@ -23175,9 +23172,9 @@ window.stockData = {
       "wyckoff_creek": 324.3,
       "wyckoff_ice": 235.1,
       "wyckoff_breakout": 324.3,
-      "wyckoff_dist_to_breakout_pct": 3.68,
+      "wyckoff_dist_to_breakout_pct": 3.93,
       "wyckoff_stoploss": 230.4,
-      "wyckoff_stoploss_pct": 26.34,
+      "wyckoff_stoploss_pct": 26.17,
       "wyckoff_target_1": 413.5,
       "wyckoff_target_2": 502.7,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -23668,33 +23665,33 @@ window.stockData = {
           "open": 730.0,
           "high": 730.0,
           "low": 711.1,
-          "close": 711.1,
-          "volume": 13095
+          "close": 713.05,
+          "volume": 13083
         }
       ],
       "name": "NDR Auto Components Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9755.52",
-      "current_price": 711.1,
+      "current_price": 713.05,
       "prev_close": 730.4,
-      "day_change_pct": -2.64,
+      "day_change_pct": -2.38,
       "52w_high": 926.46,
       "52w_low": 602.13,
-      "pct_from_52w_high": -23.25,
-      "pct_from_52w_low": 18.1,
-      "sma_20": 700.18,
-      "sma_50": 707.25,
-      "sma_200": 753.8,
-      "rsi_14": 49.5,
-      "macd_val": 10.52,
-      "macd_signal": 5.94,
-      "macd_hist": 4.58,
+      "pct_from_52w_high": -23.03,
+      "pct_from_52w_low": 18.42,
+      "sma_20": 700.27,
+      "sma_50": 707.29,
+      "sma_200": 753.81,
+      "rsi_14": 49.9,
+      "macd_val": 10.68,
+      "macd_signal": 5.97,
+      "macd_hist": 4.7,
       "vol_surge_ratio": 0.44,
-      "pe_ratio": 24.22,
+      "pe_ratio": 24.29,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 4.4,
+      "pb_ratio": 4.41,
       "roe": 19.4,
       "profit_margins": 7.7,
       "operating_margins": 8.3,
@@ -23705,7 +23702,7 @@ window.stockData = {
       "q_sales_growth": 22.0,
       "q_pat_growth": 33.3,
       "free_cash_flow": -45267248.0,
-      "target_mean_price": 711.1,
+      "target_mean_price": 713.05,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 55.0,
@@ -23737,9 +23734,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 599.87,
-      "swing_target_1": 865.58,
-      "swing_target_2": 970.63,
+      "swing_stoploss": 601.87,
+      "swing_target_1": 867.47,
+      "swing_target_2": 972.47,
       "rationale": [
         "YoY Revenue up 22.0%",
         "YoY Profit up 33.3%"
@@ -23754,9 +23751,9 @@ window.stockData = {
       "wyckoff_creek": 800.6,
       "wyckoff_ice": 605.84,
       "wyckoff_breakout": 800.6,
-      "wyckoff_dist_to_breakout_pct": 12.59,
+      "wyckoff_dist_to_breakout_pct": 12.28,
       "wyckoff_stoploss": 593.72,
-      "wyckoff_stoploss_pct": 16.51,
+      "wyckoff_stoploss_pct": 16.74,
       "wyckoff_target_1": 995.36,
       "wyckoff_target_2": 1190.12,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -24247,33 +24244,33 @@ window.stockData = {
           "open": 5752.8,
           "high": 5891.4,
           "low": 5689.0,
-          "close": 5775.9,
-          "volume": 9809
+          "close": 5765.7,
+          "volume": 9694
         }
       ],
       "name": "Lumax Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b95,454.35",
-      "current_price": 5775.9,
+      "current_price": 5765.7,
       "prev_close": 5692.5,
-      "day_change_pct": 1.47,
+      "day_change_pct": 1.29,
       "52w_high": 6868.72,
       "52w_low": 4464.44,
-      "pct_from_52w_high": -15.91,
-      "pct_from_52w_low": 29.38,
-      "sma_20": 5333.24,
-      "sma_50": 5568.99,
-      "sma_200": 5427.28,
-      "rsi_14": 65.3,
-      "macd_val": 50.27,
-      "macd_signal": -32.97,
-      "macd_hist": 83.24,
-      "vol_surge_ratio": 0.62,
-      "pe_ratio": 26.5,
-      "forward_pe": 17.28,
+      "pct_from_52w_high": -16.06,
+      "pct_from_52w_low": 29.15,
+      "sma_20": 5332.73,
+      "sma_50": 5568.78,
+      "sma_200": 5427.22,
+      "rsi_14": 65.0,
+      "macd_val": 49.46,
+      "macd_signal": -33.13,
+      "macd_hist": 82.59,
+      "vol_surge_ratio": 0.61,
+      "pe_ratio": 26.46,
+      "forward_pe": 17.25,
       "peg_ratio": 0.0,
-      "pb_ratio": 5.57,
+      "pb_ratio": 5.56,
       "roe": 22.8,
       "profit_margins": 4.2,
       "operating_margins": 6.4,
@@ -24285,7 +24282,7 @@ window.stockData = {
       "q_pat_growth": 45.9,
       "free_cash_flow": -366983264.0,
       "target_mean_price": 7042.67,
-      "analyst_upside_pct": 21.9,
+      "analyst_upside_pct": 22.1,
       "recommendation_key": "None",
       "dividend_yield": 97.0,
       "promoter_holding": 76.1,
@@ -24316,9 +24313,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 5091.24,
-      "swing_target_1": 6726.81,
-      "swing_target_2": 7373.44,
+      "swing_stoploss": 5084.3,
+      "swing_target_1": 6712.08,
+      "swing_target_2": 7355.63,
       "rationale": [
         "YoY Revenue up 33.0%",
         "YoY Profit up 45.9%",
@@ -24332,597 +24329,19 @@ window.stockData = {
       "wyckoff_phase": "Phase D",
       "wyckoff_structure": "Accumulation",
       "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 5804.78,
+      "wyckoff_creek": 5794.53,
       "wyckoff_ice": 4774.93,
-      "wyckoff_breakout": 5816.39,
+      "wyckoff_breakout": 5806.12,
       "wyckoff_dist_to_breakout_pct": 0.7,
       "wyckoff_stoploss": 4822.68,
-      "wyckoff_stoploss_pct": 16.5,
-      "wyckoff_target_1": 6834.63,
-      "wyckoff_target_2": 7864.48,
+      "wyckoff_stoploss_pct": 16.36,
+      "wyckoff_target_1": 6814.13,
+      "wyckoff_target_2": 7833.73,
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b95804.78).",
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b95794.53).",
         "Volume surge 0.6x confirms institutional demand absorption.",
-        "Cause of 1029.85 pts horizontal accumulation ready to unlock upward effect."
-      ]
-    },
-    {
-      "symbol": "GPPL.NS",
-      "clean_symbol": "GPPL",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 153.39,
-          "high": 158.39,
-          "low": 153.01,
-          "close": 157.41,
-          "volume": 3619269
-        },
-        {
-          "time": "2026-08-20",
-          "open": 158.24,
-          "high": 160.41,
-          "low": 156.49,
-          "close": 157.11,
-          "volume": 1659212
-        },
-        {
-          "time": "2026-08-21",
-          "open": 157.09,
-          "high": 157.52,
-          "low": 155.38,
-          "close": 155.9,
-          "volume": 942245
-        },
-        {
-          "time": "2026-08-24",
-          "open": 155.9,
-          "high": 159.19,
-          "low": 155.38,
-          "close": 155.79,
-          "volume": 2007508
-        },
-        {
-          "time": "2026-08-25",
-          "open": 157.29,
-          "high": 157.66,
-          "low": 155.35,
-          "close": 156.82,
-          "volume": 1164173
-        },
-        {
-          "time": "2026-08-26",
-          "open": 158.46,
-          "high": 165.68,
-          "low": 158.34,
-          "close": 161.54,
-          "volume": 7853635
-        },
-        {
-          "time": "2026-08-27",
-          "open": 163.01,
-          "high": 164.37,
-          "low": 160.56,
-          "close": 161.2,
-          "volume": 1964090
-        },
-        {
-          "time": "2026-08-28",
-          "open": 161.63,
-          "high": 161.63,
-          "low": 159.58,
-          "close": 160.87,
-          "volume": 1092016
-        },
-        {
-          "time": "2026-08-31",
-          "open": 160.87,
-          "high": 163.2,
-          "low": 159.09,
-          "close": 159.73,
-          "volume": 3304295
-        },
-        {
-          "time": "2026-09-01",
-          "open": 161.01,
-          "high": 162.72,
-          "low": 160.15,
-          "close": 161.12,
-          "volume": 2611554
-        },
-        {
-          "time": "2026-09-02",
-          "open": 159.55,
-          "high": 162.58,
-          "low": 159.14,
-          "close": 161.54,
-          "volume": 2172344
-        },
-        {
-          "time": "2026-09-03",
-          "open": 161.25,
-          "high": 165.42,
-          "low": 161.25,
-          "close": 162.51,
-          "volume": 2505934
-        },
-        {
-          "time": "2026-09-04",
-          "open": 162.58,
-          "high": 162.9,
-          "low": 157.97,
-          "close": 158.77,
-          "volume": 1293533
-        },
-        {
-          "time": "2026-09-07",
-          "open": 158.56,
-          "high": 159.82,
-          "low": 157.56,
-          "close": 158.14,
-          "volume": 738209
-        },
-        {
-          "time": "2026-09-08",
-          "open": 158.06,
-          "high": 160.08,
-          "low": 156.74,
-          "close": 157.74,
-          "volume": 560277
-        },
-        {
-          "time": "2026-09-09",
-          "open": 157.74,
-          "high": 161.3,
-          "low": 155.22,
-          "close": 155.79,
-          "volume": 1549197
-        },
-        {
-          "time": "2026-09-10",
-          "open": 156.35,
-          "high": 160.45,
-          "low": 156.35,
-          "close": 159.4,
-          "volume": 1620378
-        },
-        {
-          "time": "2026-09-11",
-          "open": 157.17,
-          "high": 160.71,
-          "low": 157.08,
-          "close": 158.47,
-          "volume": 1544847
-        },
-        {
-          "time": "2026-09-15",
-          "open": 159.63,
-          "high": 162.58,
-          "low": 157.96,
-          "close": 158.33,
-          "volume": 3555183
-        },
-        {
-          "time": "2026-09-16",
-          "open": 159.29,
-          "high": 160.42,
-          "low": 155.55,
-          "close": 159.37,
-          "volume": 1409967
-        },
-        {
-          "time": "2026-09-17",
-          "open": 159.14,
-          "high": 160.61,
-          "low": 158.64,
-          "close": 159.72,
-          "volume": 1050527
-        },
-        {
-          "time": "2026-09-18",
-          "open": 160.02,
-          "high": 160.32,
-          "low": 155.55,
-          "close": 157.52,
-          "volume": 1713766
-        },
-        {
-          "time": "2026-09-21",
-          "open": 157.52,
-          "high": 162.28,
-          "low": 157.42,
-          "close": 162.08,
-          "volume": 1724551
-        },
-        {
-          "time": "2026-09-22",
-          "open": 162.97,
-          "high": 164.0,
-          "low": 160.71,
-          "close": 161.51,
-          "volume": 819136
-        },
-        {
-          "time": "2026-09-23",
-          "open": 162.31,
-          "high": 163.41,
-          "low": 160.81,
-          "close": 161.22,
-          "volume": 658410
-        },
-        {
-          "time": "2026-09-24",
-          "open": 160.61,
-          "high": 162.96,
-          "low": 159.14,
-          "close": 160.39,
-          "volume": 1245571
-        },
-        {
-          "time": "2026-09-25",
-          "open": 159.86,
-          "high": 162.09,
-          "low": 157.77,
-          "close": 160.32,
-          "volume": 1328565
-        },
-        {
-          "time": "2026-09-28",
-          "open": 160.3,
-          "high": 160.51,
-          "low": 156.78,
-          "close": 157.06,
-          "volume": 845144
-        },
-        {
-          "time": "2026-09-29",
-          "open": 156.78,
-          "high": 158.61,
-          "low": 154.87,
-          "close": 157.7,
-          "volume": 1153476
-        },
-        {
-          "time": "2026-09-30",
-          "open": 157.7,
-          "high": 164.38,
-          "low": 156.78,
-          "close": 163.8,
-          "volume": 1900735
-        },
-        {
-          "time": "2026-10-01",
-          "open": 163.8,
-          "high": 166.9,
-          "low": 159.83,
-          "close": 162.95,
-          "volume": 1997403
-        },
-        {
-          "time": "2026-10-05",
-          "open": 163.76,
-          "high": 166.01,
-          "low": 162.62,
-          "close": 164.64,
-          "volume": 1069321
-        },
-        {
-          "time": "2026-10-06",
-          "open": 165.45,
-          "high": 167.98,
-          "low": 163.75,
-          "close": 165.24,
-          "volume": 1125256
-        },
-        {
-          "time": "2026-10-07",
-          "open": 165.03,
-          "high": 170.93,
-          "low": 163.44,
-          "close": 169.41,
-          "volume": 2205709
-        },
-        {
-          "time": "2026-10-08",
-          "open": 170.44,
-          "high": 171.68,
-          "low": 162.84,
-          "close": 163.7,
-          "volume": 2201234
-        },
-        {
-          "time": "2026-10-09",
-          "open": 163.7,
-          "high": 168.18,
-          "low": 163.14,
-          "close": 164.93,
-          "volume": 803344
-        },
-        {
-          "time": "2026-10-12",
-          "open": 164.93,
-          "high": 170.88,
-          "low": 164.93,
-          "close": 170.04,
-          "volume": 1594878
-        },
-        {
-          "time": "2026-10-13",
-          "open": 171.72,
-          "high": 172.99,
-          "low": 167.67,
-          "close": 168.62,
-          "volume": 959330
-        },
-        {
-          "time": "2026-10-14",
-          "open": 168.47,
-          "high": 175.51,
-          "low": 168.05,
-          "close": 172.43,
-          "volume": 2310397
-        },
-        {
-          "time": "2026-10-15",
-          "open": 171.42,
-          "high": 171.83,
-          "low": 164.1,
-          "close": 165.12,
-          "volume": 1265085
-        },
-        {
-          "time": "2026-10-16",
-          "open": 165.28,
-          "high": 166.33,
-          "low": 162.62,
-          "close": 163.35,
-          "volume": 899522
-        },
-        {
-          "time": "2026-10-19",
-          "open": 164.05,
-          "high": 165.62,
-          "low": 162.48,
-          "close": 163.15,
-          "volume": 521431
-        },
-        {
-          "time": "2026-10-21",
-          "open": 163.12,
-          "high": 165.38,
-          "low": 159.25,
-          "close": 160.89,
-          "volume": 778474
-        },
-        {
-          "time": "2026-10-22",
-          "open": 159.09,
-          "high": 160.28,
-          "low": 157.05,
-          "close": 157.88,
-          "volume": 917387
-        },
-        {
-          "time": "2026-10-23",
-          "open": 157.29,
-          "high": 157.88,
-          "low": 152.56,
-          "close": 154.3,
-          "volume": 1040244
-        },
-        {
-          "time": "2026-10-26",
-          "open": 153.24,
-          "high": 157.52,
-          "low": 151.8,
-          "close": 155.38,
-          "volume": 547891
-        },
-        {
-          "time": "2026-10-27",
-          "open": 156.45,
-          "high": 158.93,
-          "low": 155.38,
-          "close": 157.41,
-          "volume": 566220
-        },
-        {
-          "time": "2026-10-28",
-          "open": 156.24,
-          "high": 158.32,
-          "low": 155.21,
-          "close": 157.33,
-          "volume": 311174
-        },
-        {
-          "time": "2026-10-29",
-          "open": 157.17,
-          "high": 160.2,
-          "low": 156.19,
-          "close": 159.67,
-          "volume": 421516
-        },
-        {
-          "time": "2026-10-30",
-          "open": 159.67,
-          "high": 159.72,
-          "low": 154.76,
-          "close": 156.28,
-          "volume": 1015229
-        },
-        {
-          "time": "2026-11-02",
-          "open": 157.17,
-          "high": 160.01,
-          "low": 156.8,
-          "close": 159.61,
-          "volume": 503366
-        },
-        {
-          "time": "2026-11-03",
-          "open": 160.19,
-          "high": 161.21,
-          "low": 158.7,
-          "close": 160.44,
-          "volume": 800642
-        },
-        {
-          "time": "2026-11-04",
-          "open": 161.59,
-          "high": 162.97,
-          "low": 159.54,
-          "close": 162.07,
-          "volume": 614386
-        },
-        {
-          "time": "2026-11-05",
-          "open": 164.54,
-          "high": 164.73,
-          "low": 156.99,
-          "close": 158.43,
-          "volume": 2917158
-        },
-        {
-          "time": "2026-11-06",
-          "open": 158.45,
-          "high": 165.92,
-          "low": 157.66,
-          "close": 163.55,
-          "volume": 2495580
-        },
-        {
-          "time": "2026-11-09",
-          "open": 165.51,
-          "high": 168.47,
-          "low": 164.54,
-          "close": 167.57,
-          "volume": 1247717
-        },
-        {
-          "time": "2026-11-11",
-          "open": 169.26,
-          "high": 170.34,
-          "low": 166.31,
-          "close": 166.83,
-          "volume": 1782341
-        },
-        {
-          "time": "2026-11-12",
-          "open": 168.0,
-          "high": 171.59,
-          "low": 167.0,
-          "close": 167.56,
-          "volume": 615652
-        },
-        {
-          "time": "2026-11-13",
-          "open": 167.0,
-          "high": 177.4,
-          "low": 167.0,
-          "close": 173.59,
-          "volume": 3615948
-        },
-        {
-          "time": "2026-11-16",
-          "open": 174.0,
-          "high": 177.35,
-          "low": 172.01,
-          "close": 175.85,
-          "volume": 1179914
-        }
-      ],
-      "name": "Gujarat Pipavav Port Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9159.80",
-      "current_price": 175.85,
-      "prev_close": 173.59,
-      "day_change_pct": 1.3,
-      "52w_high": 190.74,
-      "52w_low": 134.94,
-      "pct_from_52w_high": -7.81,
-      "pct_from_52w_low": 30.32,
-      "sma_20": 162.06,
-      "sma_50": 161.99,
-      "sma_200": 153.53,
-      "rsi_14": 67.9,
-      "macd_val": 2.62,
-      "macd_signal": 0.95,
-      "macd_hist": 1.67,
-      "vol_surge_ratio": 1.04,
-      "pe_ratio": 15.43,
-      "forward_pe": 14.57,
-      "peg_ratio": 0.0,
-      "pb_ratio": 3.47,
-      "roe": 22.7,
-      "profit_margins": 42.9,
-      "operating_margins": 53.7,
-      "debt_to_equity": 0.01,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 13.3,
-      "earnings_growth_yoy": -4.8,
-      "q_sales_growth": 13.3,
-      "q_pat_growth": -4.8,
-      "free_cash_flow": 3479953664.0,
-      "target_mean_price": 184.75,
-      "analyst_upside_pct": 5.1,
-      "recommendation_key": "Buy",
-      "dividend_yield": 346.0,
-      "promoter_holding": 44.0,
-      "institutional_holding": 25.7,
-      "public_holding": 30.3,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 177.75,
-      "sell_trigger_level": 151.5,
-      "dist_from_prev_close": 2.4,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "High Return on Equity (22.7% ROE)",
-        "Healthy Low Debt (D/E 0.01)",
-        "Trading Above 200-Day EMA Long-term Uptrend"
-      ],
-      "weaknesses": [
-        "Earnings De-growth YoY (-4.8%)"
-      ],
-      "fundamental_score": 21.0,
-      "technical_score": 38.0,
-      "composite_score": 69,
-      "long_term_signal": "ACCUMULATE",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 159.84,
-      "swing_target_1": 198.08,
-      "swing_target_2": 213.2,
-      "rationale": [
-        "YoY Revenue up 13.3%",
-        "Above 200-day EMA long-term uptrend"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 346.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase D",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Last Point of Support (LPS / Backup)",
-      "wyckoff_creek": 177.75,
-      "wyckoff_ice": 151.5,
-      "wyckoff_breakout": 178.64,
-      "wyckoff_dist_to_breakout_pct": 1.59,
-      "wyckoff_stoploss": 154.53,
-      "wyckoff_stoploss_pct": 12.12,
-      "wyckoff_target_1": 204.0,
-      "wyckoff_target_2": 230.25,
-      "wyckoff_signal": "LPS PULLBACK BUY",
-      "wyckoff_rationale": [
-        "Last Point of Support (LPS) successfully holding above Creek (\u20b9177.75).",
-        "Low-volume pullback demonstrates floating supply is exhausted.",
-        "Prime Wyckoff low-risk entry before Phase E markup acceleration."
+        "Cause of 1019.6 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -25406,33 +24825,33 @@ window.stockData = {
           "open": 966.35,
           "high": 996.4,
           "low": 936.5,
-          "close": 936.75,
-          "volume": 519595
+          "close": 944.75,
+          "volume": 519586
         }
       ],
       "name": "Sharda Motor Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9869.05",
-      "current_price": 936.75,
+      "current_price": 944.75,
       "prev_close": 964.75,
-      "day_change_pct": -2.9,
+      "day_change_pct": -2.07,
       "52w_high": 1024.95,
       "52w_low": 685.24,
-      "pct_from_52w_high": -8.61,
-      "pct_from_52w_low": 36.7,
-      "sma_20": 858.57,
-      "sma_50": 894.08,
-      "sma_200": 854.99,
-      "rsi_14": 60.7,
-      "macd_val": 9.89,
-      "macd_signal": -4.53,
-      "macd_hist": 14.42,
+      "pct_from_52w_high": -7.82,
+      "pct_from_52w_low": 37.87,
+      "sma_20": 858.97,
+      "sma_50": 894.24,
+      "sma_200": 855.03,
+      "rsi_14": 62.4,
+      "macd_val": 10.52,
+      "macd_signal": -4.41,
+      "macd_hist": 14.93,
       "vol_surge_ratio": 1.8,
-      "pe_ratio": 16.2,
-      "forward_pe": 12.74,
+      "pe_ratio": 16.34,
+      "forward_pe": 12.85,
       "peg_ratio": 0.0,
-      "pb_ratio": 4.09,
+      "pb_ratio": 4.13,
       "roe": 0.0,
       "profit_margins": 9.1,
       "operating_margins": 9.8,
@@ -25444,7 +24863,7 @@ window.stockData = {
       "q_pat_growth": -13.4,
       "free_cash_flow": 0.0,
       "target_mean_price": 1340.0,
-      "analyst_upside_pct": 43.0,
+      "analyst_upside_pct": 41.8,
       "recommendation_key": "None",
       "dividend_yield": 207.0,
       "promoter_holding": 64.8,
@@ -25475,9 +24894,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 815.07,
-      "swing_target_1": 1105.76,
-      "swing_target_2": 1220.68,
+      "swing_stoploss": 820.6,
+      "swing_target_1": 1117.18,
+      "swing_target_2": 1234.43,
       "rationale": [
         "YoY Revenue up 33.7%",
         "Above 200-day EMA long-term uptrend"
@@ -25492,9 +24911,9 @@ window.stockData = {
       "wyckoff_creek": 1026.45,
       "wyckoff_ice": 788.52,
       "wyckoff_breakout": 1026.45,
-      "wyckoff_dist_to_breakout_pct": 9.58,
+      "wyckoff_dist_to_breakout_pct": 8.65,
       "wyckoff_stoploss": 772.75,
-      "wyckoff_stoploss_pct": 17.51,
+      "wyckoff_stoploss_pct": 18.21,
       "wyckoff_target_1": 1264.38,
       "wyckoff_target_2": 1502.31,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -25986,7 +25405,7 @@ window.stockData = {
           "high": 316.2,
           "low": 306.25,
           "close": 308.75,
-          "volume": 1111093
+          "volume": 1111053
         }
       ],
       "name": "Transformers and Rectifiers (India) Ltd",
@@ -26566,33 +25985,33 @@ window.stockData = {
           "open": 2722.0,
           "high": 2739.4,
           "low": 2639.5,
-          "close": 2670.0,
-          "volume": 23563
+          "close": 2676.2,
+          "volume": 23561
         }
       ],
       "name": "Bharat Bijlee Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b92,519.15",
-      "current_price": 2670.0,
+      "current_price": 2676.2,
       "prev_close": 2722.9,
-      "day_change_pct": -1.94,
+      "day_change_pct": -1.72,
       "52w_high": 3227.85,
       "52w_low": 2009.0,
-      "pct_from_52w_high": -17.28,
-      "pct_from_52w_low": 32.9,
-      "sma_20": 2493.54,
-      "sma_50": 2322.93,
-      "sma_200": 2500.52,
-      "rsi_14": 62.4,
-      "macd_val": 109.03,
-      "macd_signal": 85.67,
-      "macd_hist": 23.36,
+      "pct_from_52w_high": -17.09,
+      "pct_from_52w_low": 33.21,
+      "sma_20": 2493.85,
+      "sma_50": 2323.05,
+      "sma_200": 2500.55,
+      "rsi_14": 62.9,
+      "macd_val": 109.52,
+      "macd_signal": 85.76,
+      "macd_hist": 23.76,
       "vol_surge_ratio": 0.32,
-      "pe_ratio": 23.28,
-      "forward_pe": 62.84,
+      "pe_ratio": 23.33,
+      "forward_pe": 62.98,
       "peg_ratio": 0.0,
-      "pb_ratio": 1.3,
+      "pb_ratio": 1.31,
       "roe": 5.8,
       "profit_margins": 5.0,
       "operating_margins": 5.9,
@@ -26603,7 +26022,7 @@ window.stockData = {
       "q_sales_growth": 55.5,
       "q_pat_growth": 63.1,
       "free_cash_flow": -2018274944.0,
-      "target_mean_price": 2670.0,
+      "target_mean_price": 2676.2,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 129.0,
@@ -26635,9 +26054,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 2326.68,
-      "swing_target_1": 3146.83,
-      "swing_target_2": 3471.08,
+      "swing_stoploss": 2331.79,
+      "swing_target_1": 3154.54,
+      "swing_target_2": 3479.82,
       "rationale": [
         "YoY Revenue up 55.5%",
         "YoY Profit up 63.1%",
@@ -26653,15 +26072,591 @@ window.stockData = {
       "wyckoff_creek": 2794.58,
       "wyckoff_ice": 2211.77,
       "wyckoff_breakout": 2794.58,
-      "wyckoff_dist_to_breakout_pct": 4.67,
+      "wyckoff_dist_to_breakout_pct": 4.42,
       "wyckoff_stoploss": 2167.53,
-      "wyckoff_stoploss_pct": 18.82,
+      "wyckoff_stoploss_pct": 19.01,
       "wyckoff_target_1": 3377.39,
       "wyckoff_target_2": 3960.2,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
         "Phase B Cause Building inside Trading Range: \u20b92211.77 (Ice) to \u20b92794.58 (Creek).",
         "Consolidation inside 582.81 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "IKIO.NS",
+      "clean_symbol": "IKIO",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 196.65,
+          "high": 198.0,
+          "low": 194.35,
+          "close": 195.17,
+          "volume": 79152
+        },
+        {
+          "time": "2026-08-20",
+          "open": 195.5,
+          "high": 198.8,
+          "low": 194.36,
+          "close": 195.7,
+          "volume": 97159
+        },
+        {
+          "time": "2026-08-21",
+          "open": 195.45,
+          "high": 197.44,
+          "low": 188.56,
+          "close": 191.66,
+          "volume": 205762
+        },
+        {
+          "time": "2026-08-24",
+          "open": 191.26,
+          "high": 196.83,
+          "low": 191.26,
+          "close": 194.05,
+          "volume": 82267
+        },
+        {
+          "time": "2026-08-25",
+          "open": 194.05,
+          "high": 194.39,
+          "low": 189.0,
+          "close": 191.63,
+          "volume": 73619
+        },
+        {
+          "time": "2026-08-26",
+          "open": 192.8,
+          "high": 195.0,
+          "low": 191.05,
+          "close": 192.08,
+          "volume": 77786
+        },
+        {
+          "time": "2026-08-27",
+          "open": 191.3,
+          "high": 193.2,
+          "low": 185.0,
+          "close": 186.14,
+          "volume": 119881
+        },
+        {
+          "time": "2026-08-28",
+          "open": 186.14,
+          "high": 217.7,
+          "low": 186.14,
+          "close": 213.72,
+          "volume": 6393359
+        },
+        {
+          "time": "2026-08-31",
+          "open": 213.72,
+          "high": 223.39,
+          "low": 210.13,
+          "close": 215.48,
+          "volume": 1279645
+        },
+        {
+          "time": "2026-09-01",
+          "open": 215.48,
+          "high": 216.93,
+          "low": 206.1,
+          "close": 207.53,
+          "volume": 215560
+        },
+        {
+          "time": "2026-09-02",
+          "open": 204.5,
+          "high": 213.0,
+          "low": 203.0,
+          "close": 206.14,
+          "volume": 375682
+        },
+        {
+          "time": "2026-09-03",
+          "open": 206.0,
+          "high": 209.9,
+          "low": 206.0,
+          "close": 208.31,
+          "volume": 140015
+        },
+        {
+          "time": "2026-09-04",
+          "open": 209.99,
+          "high": 222.0,
+          "low": 209.2,
+          "close": 212.34,
+          "volume": 831128
+        },
+        {
+          "time": "2026-09-07",
+          "open": 212.34,
+          "high": 212.34,
+          "low": 201.5,
+          "close": 202.98,
+          "volume": 279865
+        },
+        {
+          "time": "2026-09-08",
+          "open": 202.0,
+          "high": 226.78,
+          "low": 201.98,
+          "close": 219.73,
+          "volume": 2263360
+        },
+        {
+          "time": "2026-09-09",
+          "open": 219.73,
+          "high": 228.78,
+          "low": 218.12,
+          "close": 219.94,
+          "volume": 697005
+        },
+        {
+          "time": "2026-09-10",
+          "open": 220.4,
+          "high": 235.0,
+          "low": 220.4,
+          "close": 231.73,
+          "volume": 2436372
+        },
+        {
+          "time": "2026-09-11",
+          "open": 234.0,
+          "high": 238.8,
+          "low": 221.42,
+          "close": 223.87,
+          "volume": 1450380
+        },
+        {
+          "time": "2026-09-15",
+          "open": 223.85,
+          "high": 223.87,
+          "low": 210.0,
+          "close": 211.06,
+          "volume": 350513
+        },
+        {
+          "time": "2026-09-16",
+          "open": 211.06,
+          "high": 213.0,
+          "low": 199.19,
+          "close": 202.78,
+          "volume": 500954
+        },
+        {
+          "time": "2026-09-17",
+          "open": 201.9,
+          "high": 207.89,
+          "low": 201.9,
+          "close": 205.83,
+          "volume": 193161
+        },
+        {
+          "time": "2026-09-18",
+          "open": 206.62,
+          "high": 217.9,
+          "low": 205.68,
+          "close": 210.25,
+          "volume": 516858
+        },
+        {
+          "time": "2026-09-21",
+          "open": 210.97,
+          "high": 215.78,
+          "low": 210.01,
+          "close": 211.68,
+          "volume": 182568
+        },
+        {
+          "time": "2026-09-22",
+          "open": 213.68,
+          "high": 216.8,
+          "low": 203.83,
+          "close": 205.98,
+          "volume": 266100
+        },
+        {
+          "time": "2026-09-23",
+          "open": 206.8,
+          "high": 212.0,
+          "low": 205.42,
+          "close": 207.89,
+          "volume": 188483
+        },
+        {
+          "time": "2026-09-24",
+          "open": 207.89,
+          "high": 208.0,
+          "low": 202.75,
+          "close": 205.03,
+          "volume": 115942
+        },
+        {
+          "time": "2026-09-25",
+          "open": 205.03,
+          "high": 206.5,
+          "low": 201.4,
+          "close": 205.43,
+          "volume": 149515
+        },
+        {
+          "time": "2026-09-28",
+          "open": 206.6,
+          "high": 208.57,
+          "low": 199.0,
+          "close": 199.62,
+          "volume": 113100
+        },
+        {
+          "time": "2026-09-29",
+          "open": 199.4,
+          "high": 200.34,
+          "low": 194.31,
+          "close": 197.3,
+          "volume": 153590
+        },
+        {
+          "time": "2026-09-30",
+          "open": 198.75,
+          "high": 204.38,
+          "low": 195.22,
+          "close": 196.85,
+          "volume": 144490
+        },
+        {
+          "time": "2026-10-01",
+          "open": 196.85,
+          "high": 199.85,
+          "low": 186.77,
+          "close": 190.96,
+          "volume": 133638
+        },
+        {
+          "time": "2026-10-05",
+          "open": 195.0,
+          "high": 200.0,
+          "low": 190.21,
+          "close": 192.22,
+          "volume": 91418
+        },
+        {
+          "time": "2026-10-06",
+          "open": 192.0,
+          "high": 198.2,
+          "low": 192.0,
+          "close": 195.87,
+          "volume": 80513
+        },
+        {
+          "time": "2026-10-07",
+          "open": 194.99,
+          "high": 195.84,
+          "low": 188.25,
+          "close": 191.05,
+          "volume": 128405
+        },
+        {
+          "time": "2026-10-08",
+          "open": 192.0,
+          "high": 192.98,
+          "low": 180.0,
+          "close": 181.05,
+          "volume": 210057
+        },
+        {
+          "time": "2026-10-09",
+          "open": 181.05,
+          "high": 185.56,
+          "low": 176.28,
+          "close": 179.27,
+          "volume": 193297
+        },
+        {
+          "time": "2026-10-12",
+          "open": 179.3,
+          "high": 186.89,
+          "low": 179.3,
+          "close": 184.09,
+          "volume": 97845
+        },
+        {
+          "time": "2026-10-13",
+          "open": 185.44,
+          "high": 185.44,
+          "low": 179.05,
+          "close": 184.19,
+          "volume": 73557
+        },
+        {
+          "time": "2026-10-14",
+          "open": 183.95,
+          "high": 192.0,
+          "low": 182.93,
+          "close": 185.53,
+          "volume": 114013
+        },
+        {
+          "time": "2026-10-15",
+          "open": 185.53,
+          "high": 186.19,
+          "low": 180.36,
+          "close": 181.71,
+          "volume": 79009
+        },
+        {
+          "time": "2026-10-16",
+          "open": 179.8,
+          "high": 186.88,
+          "low": 179.8,
+          "close": 185.27,
+          "volume": 80370
+        },
+        {
+          "time": "2026-10-19",
+          "open": 186.47,
+          "high": 186.47,
+          "low": 179.5,
+          "close": 180.47,
+          "volume": 54984
+        },
+        {
+          "time": "2026-10-21",
+          "open": 180.0,
+          "high": 180.47,
+          "low": 166.0,
+          "close": 167.57,
+          "volume": 259397
+        },
+        {
+          "time": "2026-10-22",
+          "open": 167.46,
+          "high": 173.32,
+          "low": 165.5,
+          "close": 168.94,
+          "volume": 144746
+        },
+        {
+          "time": "2026-10-23",
+          "open": 170.12,
+          "high": 170.12,
+          "low": 159.11,
+          "close": 167.28,
+          "volume": 195362
+        },
+        {
+          "time": "2026-10-26",
+          "open": 167.28,
+          "high": 167.63,
+          "low": 162.0,
+          "close": 163.78,
+          "volume": 76106
+        },
+        {
+          "time": "2026-10-27",
+          "open": 162.39,
+          "high": 170.31,
+          "low": 162.39,
+          "close": 166.12,
+          "volume": 91487
+        },
+        {
+          "time": "2026-10-28",
+          "open": 166.95,
+          "high": 167.18,
+          "low": 161.43,
+          "close": 165.82,
+          "volume": 68051
+        },
+        {
+          "time": "2026-10-29",
+          "open": 165.0,
+          "high": 168.5,
+          "low": 163.29,
+          "close": 167.48,
+          "volume": 49149
+        },
+        {
+          "time": "2026-10-30",
+          "open": 167.48,
+          "high": 170.01,
+          "low": 159.2,
+          "close": 161.01,
+          "volume": 86315
+        },
+        {
+          "time": "2026-11-02",
+          "open": 161.01,
+          "high": 169.5,
+          "low": 159.7,
+          "close": 168.0,
+          "volume": 84225
+        },
+        {
+          "time": "2026-11-03",
+          "open": 169.38,
+          "high": 171.05,
+          "low": 165.4,
+          "close": 166.72,
+          "volume": 49378
+        },
+        {
+          "time": "2026-11-04",
+          "open": 166.0,
+          "high": 174.4,
+          "low": 165.51,
+          "close": 173.94,
+          "volume": 109368
+        },
+        {
+          "time": "2026-11-05",
+          "open": 175.6,
+          "high": 178.7,
+          "low": 170.0,
+          "close": 173.9,
+          "volume": 207540
+        },
+        {
+          "time": "2026-11-06",
+          "open": 177.7,
+          "high": 208.68,
+          "low": 173.9,
+          "close": 196.69,
+          "volume": 19075884
+        },
+        {
+          "time": "2026-11-09",
+          "open": 200.0,
+          "high": 204.72,
+          "low": 196.01,
+          "close": 198.1,
+          "volume": 400129
+        },
+        {
+          "time": "2026-11-11",
+          "open": 198.1,
+          "high": 201.0,
+          "low": 195.0,
+          "close": 196.13,
+          "volume": 178079
+        },
+        {
+          "time": "2026-11-12",
+          "open": 199.94,
+          "high": 199.94,
+          "low": 194.11,
+          "close": 196.42,
+          "volume": 136326
+        },
+        {
+          "time": "2026-11-13",
+          "open": 196.45,
+          "high": 197.95,
+          "low": 191.2,
+          "close": 192.5,
+          "volume": 109613
+        },
+        {
+          "time": "2026-11-16",
+          "open": 192.5,
+          "high": 196.79,
+          "low": 187.17,
+          "close": 192.83,
+          "volume": 133634
+        }
+      ],
+      "name": "IKIO Technologies Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9170.09",
+      "current_price": 192.83,
+      "prev_close": 192.5,
+      "day_change_pct": 0.17,
+      "52w_high": 238.8,
+      "52w_low": 103.53,
+      "pct_from_52w_high": -19.25,
+      "pct_from_52w_low": 86.26,
+      "sma_20": 177.45,
+      "sma_50": 191.99,
+      "sma_200": 170.35,
+      "rsi_14": 57.9,
+      "macd_val": 1.82,
+      "macd_signal": -2.01,
+      "macd_hist": 3.83,
+      "vol_surge_ratio": 0.12,
+      "pe_ratio": 29.9,
+      "forward_pe": 0.0,
+      "peg_ratio": 0.0,
+      "pb_ratio": 2.39,
+      "roe": 8.6,
+      "profit_margins": 7.0,
+      "operating_margins": 9.7,
+      "debt_to_equity": 0.14,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 27.1,
+      "earnings_growth_yoy": 9.2,
+      "q_sales_growth": 27.1,
+      "q_pat_growth": 9.2,
+      "free_cash_flow": -1149544960.0,
+      "target_mean_price": 192.83,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 0.0,
+      "promoter_holding": 73.8,
+      "institutional_holding": 0.9,
+      "public_holding": 25.3,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 209.1,
+      "sell_trigger_level": 158.79,
+      "dist_from_prev_close": 8.62,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+27.1%)",
+        "Healthy Low Debt (D/E 0.14)",
+        "Trading Above 200-Day EMA Long-term Uptrend"
+      ],
+      "weaknesses": [
+        "No Major Red Flags Detected"
+      ],
+      "fundamental_score": 25.0,
+      "technical_score": 35.0,
+      "composite_score": 67,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 154.91,
+      "swing_target_1": 245.49,
+      "swing_target_2": 281.3,
+      "rationale": [
+        "YoY Revenue up 27.1%",
+        "Above 200-day EMA long-term uptrend"
+      ],
+      "corporate_actions": [],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 209.1,
+      "wyckoff_ice": 158.79,
+      "wyckoff_breakout": 209.1,
+      "wyckoff_dist_to_breakout_pct": 8.44,
+      "wyckoff_stoploss": 155.61,
+      "wyckoff_stoploss_pct": 19.3,
+      "wyckoff_target_1": 259.41,
+      "wyckoff_target_2": 309.72,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9158.79 (Ice) to \u20b9209.1 (Creek).",
+        "Consolidation inside 50.31 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -27147,7 +27142,7 @@ window.stockData = {
           "high": 329.15,
           "low": 317.5,
           "close": 318.95,
-          "volume": 3477362
+          "volume": 3392361
         }
       ],
       "name": "National Aluminium Co Ltd",
@@ -27168,7 +27163,7 @@ window.stockData = {
       "macd_val": -0.66,
       "macd_signal": -3.1,
       "macd_hist": 2.44,
-      "vol_surge_ratio": 0.62,
+      "vol_surge_ratio": 0.61,
       "pe_ratio": 8.19,
       "forward_pe": 8.04,
       "peg_ratio": 0.0,
@@ -27726,7 +27721,7 @@ window.stockData = {
           "high": 205.84,
           "low": 194.11,
           "close": 195.84,
-          "volume": 1075167
+          "volume": 1075157
         }
       ],
       "name": "Sun Pharma Advanced Research Co Ltd",
@@ -28303,7 +28298,7 @@ window.stockData = {
           "high": 146.85,
           "low": 143.01,
           "close": 144.59,
-          "volume": 48440425
+          "volume": 48122410
         }
       ],
       "name": "Punjab National Bank",
@@ -28324,7 +28319,7 @@ window.stockData = {
       "macd_val": 6.23,
       "macd_signal": 3.98,
       "macd_hist": 2.25,
-      "vol_surge_ratio": 1.43,
+      "vol_surge_ratio": 1.42,
       "pe_ratio": 7.28,
       "forward_pe": 7.81,
       "peg_ratio": 0.0,
@@ -28881,7 +28876,7 @@ window.stockData = {
           "high": 133.89,
           "low": 131.11,
           "close": 132.4,
-          "volume": 19840196
+          "volume": 19334076
         }
       ],
       "name": "Canara Bank Ltd",
@@ -28902,7 +28897,7 @@ window.stockData = {
       "macd_val": 2.72,
       "macd_signal": 1.01,
       "macd_hist": 1.71,
-      "vol_surge_ratio": 0.76,
+      "vol_surge_ratio": 0.74,
       "pe_ratio": 5.89,
       "forward_pe": 5.53,
       "peg_ratio": 0.0,
@@ -28972,7 +28967,7 @@ window.stockData = {
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
         "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9133.57).",
-        "Volume surge 0.8x confirms institutional demand absorption.",
+        "Volume surge 0.7x confirms institutional demand absorption.",
         "Cause of 19.17 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
@@ -29457,33 +29452,33 @@ window.stockData = {
           "open": 1271.5,
           "high": 1290.0,
           "low": 1266.2,
-          "close": 1283.0,
-          "volume": 213887
+          "close": 1276.8,
+          "volume": 213884
         }
       ],
       "name": "Rainbow Children's Medicare Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,320.62",
-      "current_price": 1283.0,
+      "current_price": 1276.8,
       "prev_close": 1271.5,
-      "day_change_pct": 0.9,
+      "day_change_pct": 0.42,
       "52w_high": 1610.0,
       "52w_low": 1081.46,
-      "pct_from_52w_high": -20.31,
-      "pct_from_52w_low": 18.64,
-      "sma_20": 1235.93,
-      "sma_50": 1315.05,
-      "sma_200": 1319.78,
-      "rsi_14": 53.5,
-      "macd_val": -3.78,
-      "macd_signal": -17.04,
-      "macd_hist": 13.26,
+      "pct_from_52w_high": -20.7,
+      "pct_from_52w_low": 18.06,
+      "sma_20": 1235.62,
+      "sma_50": 1314.92,
+      "sma_200": 1319.75,
+      "rsi_14": 52.3,
+      "macd_val": -4.27,
+      "macd_signal": -17.14,
+      "macd_hist": 12.86,
       "vol_surge_ratio": 1.73,
-      "pe_ratio": 44.55,
-      "forward_pe": 33.7,
+      "pe_ratio": 44.33,
+      "forward_pe": 33.53,
       "peg_ratio": 0.0,
-      "pb_ratio": 7.59,
+      "pb_ratio": 7.55,
       "roe": 18.3,
       "profit_margins": 15.2,
       "operating_margins": 22.3,
@@ -29495,7 +29490,7 @@ window.stockData = {
       "q_pat_growth": 9.3,
       "free_cash_flow": 1318404992.0,
       "target_mean_price": 1649.0,
-      "analyst_upside_pct": 28.5,
+      "analyst_upside_pct": 29.2,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 28.0,
       "promoter_holding": 52.3,
@@ -29524,9 +29519,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1195.57,
-      "swing_target_1": 1404.43,
-      "swing_target_2": 1486.99,
+      "swing_stoploss": 1190.51,
+      "swing_target_1": 1396.65,
+      "swing_target_2": 1478.14,
       "rationale": [
         "YoY Revenue up 23.2%"
       ],
@@ -29540,9 +29535,9 @@ window.stockData = {
       "wyckoff_creek": 1302.1,
       "wyckoff_ice": 1149.6,
       "wyckoff_breakout": 1302.1,
-      "wyckoff_dist_to_breakout_pct": 1.49,
+      "wyckoff_dist_to_breakout_pct": 1.98,
       "wyckoff_stoploss": 1126.61,
-      "wyckoff_stoploss_pct": 12.19,
+      "wyckoff_stoploss_pct": 11.76,
       "wyckoff_target_1": 1454.6,
       "wyckoff_target_2": 1607.1,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -30033,28 +30028,28 @@ window.stockData = {
           "open": 5005.0,
           "high": 5175.0,
           "low": 4931.0,
-          "close": 5033.0,
-          "volume": 44329
+          "close": 4992.7,
+          "volume": 44328
         }
       ],
       "name": "Cera Sanitaryware Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b95,438.06",
-      "current_price": 5033.0,
+      "current_price": 4992.7,
       "prev_close": 5001.6,
-      "day_change_pct": 0.63,
+      "day_change_pct": -0.18,
       "52w_high": 6663.07,
       "52w_low": 4398.0,
-      "pct_from_52w_high": -24.46,
-      "pct_from_52w_low": 14.44,
-      "sma_20": 4728.04,
-      "sma_50": 5115.83,
-      "sma_200": 5406.76,
-      "rsi_14": 58.5,
-      "macd_val": -37.08,
-      "macd_signal": -116.69,
-      "macd_hist": 79.61,
+      "pct_from_52w_high": -25.07,
+      "pct_from_52w_low": 13.52,
+      "sma_20": 4726.02,
+      "sma_50": 5115.03,
+      "sma_200": 5406.56,
+      "rsi_14": 56.5,
+      "macd_val": -40.29,
+      "macd_signal": -117.33,
+      "macd_hist": 77.04,
       "vol_surge_ratio": 2.04,
       "pe_ratio": 31.81,
       "forward_pe": 21.83,
@@ -30071,7 +30066,7 @@ window.stockData = {
       "q_pat_growth": -0.9,
       "free_cash_flow": 2244187392.0,
       "target_mean_price": 6646.67,
-      "analyst_upside_pct": 32.1,
+      "analyst_upside_pct": 33.1,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 150.0,
       "promoter_holding": 57.0,
@@ -30085,7 +30080,7 @@ window.stockData = {
       "buy_trigger_level": 5120.72,
       "sell_trigger_level": 4389.2,
       "dist_from_prev_close": 2.38,
-      "is_breakout_done_today": 1,
+      "is_breakout_done_today": 0,
       "upcoming_event_str": "None",
       "strengths": [
         "Strong YoY Sales Growth (+23.6%)",
@@ -30101,9 +30096,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 4455.16,
-      "swing_target_1": 5835.56,
-      "swing_target_2": 6381.3,
+      "swing_stoploss": 4425.94,
+      "swing_target_1": 5779.86,
+      "swing_target_2": 6315.13,
       "rationale": [
         "YoY Revenue up 23.6%"
       ],
@@ -30111,22 +30106,22 @@ window.stockData = {
         "Attractive Dividend Yield: 150.00%"
       ],
       "events": null,
-      "wyckoff_phase": "Phase D",
+      "wyckoff_phase": "Phase B",
       "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_event": "Range Cause Building (Absorption)",
       "wyckoff_creek": 5120.72,
       "wyckoff_ice": 4389.2,
-      "wyckoff_breakout": 5130.96,
-      "wyckoff_dist_to_breakout_pct": 1.95,
-      "wyckoff_stoploss": 4433.09,
-      "wyckoff_stoploss_pct": 11.92,
+      "wyckoff_breakout": 5120.72,
+      "wyckoff_dist_to_breakout_pct": 2.56,
+      "wyckoff_stoploss": 4301.42,
+      "wyckoff_stoploss_pct": 13.85,
       "wyckoff_target_1": 5852.24,
       "wyckoff_target_2": 6583.76,
-      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b95120.72).",
-        "Volume surge 2.0x confirms institutional demand absorption.",
-        "Cause of 731.52 pts horizontal accumulation ready to unlock upward effect."
+        "Phase B Cause Building inside Trading Range: \u20b94389.2 (Ice) to \u20b95120.72 (Creek).",
+        "Consolidation inside 731.52 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -30611,7 +30606,7 @@ window.stockData = {
           "high": 7955.5,
           "low": 7846.0,
           "close": 7955.5,
-          "volume": 210832
+          "volume": 206124
         }
       ],
       "name": "Polycab India Ltd",
@@ -30632,7 +30627,7 @@ window.stockData = {
       "macd_val": -59.44,
       "macd_signal": -101.27,
       "macd_hist": 41.83,
-      "vol_surge_ratio": 0.65,
+      "vol_surge_ratio": 0.63,
       "pe_ratio": 37.91,
       "forward_pe": 30.34,
       "peg_ratio": 0.0,
@@ -31189,33 +31184,33 @@ window.stockData = {
           "open": 1499.1,
           "high": 1516.7,
           "low": 1475.1,
-          "close": 1498.0,
-          "volume": 149561
+          "close": 1499.4,
+          "volume": 149496
         }
       ],
       "name": "Gravita India Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,611.43",
-      "current_price": 1498.0,
+      "current_price": 1499.4,
       "prev_close": 1497.9,
-      "day_change_pct": 0.01,
+      "day_change_pct": 0.1,
       "52w_high": 1903.23,
       "52w_low": 1260.03,
-      "pct_from_52w_high": -21.29,
-      "pct_from_52w_low": 18.89,
-      "sma_20": 1427.97,
-      "sma_50": 1502.79,
-      "sma_200": 1603.12,
-      "rsi_14": 55.1,
-      "macd_val": 6.09,
-      "macd_signal": -12.6,
-      "macd_hist": 18.69,
+      "pct_from_52w_high": -21.22,
+      "pct_from_52w_low": 19.0,
+      "sma_20": 1428.04,
+      "sma_50": 1502.81,
+      "sma_200": 1603.13,
+      "rsi_14": 55.3,
+      "macd_val": 6.2,
+      "macd_signal": -12.57,
+      "macd_hist": 18.78,
       "vol_surge_ratio": 0.76,
-      "pe_ratio": 27.42,
-      "forward_pe": 20.21,
+      "pe_ratio": 27.44,
+      "forward_pe": 20.22,
       "peg_ratio": 0.0,
-      "pb_ratio": 4.12,
+      "pb_ratio": 4.13,
       "roe": 16.2,
       "profit_margins": 7.8,
       "operating_margins": 8.9,
@@ -31227,7 +31222,7 @@ window.stockData = {
       "q_pat_growth": 6.3,
       "free_cash_flow": -5234574848.0,
       "target_mean_price": 1919.7,
-      "analyst_upside_pct": 28.2,
+      "analyst_upside_pct": 28.0,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 51.0,
       "promoter_holding": 59.3,
@@ -31256,9 +31251,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1321.63,
-      "swing_target_1": 1742.96,
-      "swing_target_2": 1909.54,
+      "swing_stoploss": 1322.82,
+      "swing_target_1": 1744.65,
+      "swing_target_2": 1911.42,
       "rationale": [
         "YoY Revenue up 37.8%"
       ],
@@ -31272,9 +31267,9 @@ window.stockData = {
       "wyckoff_creek": 1558.81,
       "wyckoff_ice": 1290.37,
       "wyckoff_breakout": 1558.81,
-      "wyckoff_dist_to_breakout_pct": 4.06,
+      "wyckoff_dist_to_breakout_pct": 3.96,
       "wyckoff_stoploss": 1264.56,
-      "wyckoff_stoploss_pct": 15.58,
+      "wyckoff_stoploss_pct": 15.66,
       "wyckoff_target_1": 1827.25,
       "wyckoff_target_2": 2095.69,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -31282,6 +31277,584 @@ window.stockData = {
         "Phase B Cause Building inside Trading Range: \u20b91290.37 (Ice) to \u20b91558.81 (Creek).",
         "Consolidation inside 268.44 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "GPPL.NS",
+      "clean_symbol": "GPPL",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 153.39,
+          "high": 158.39,
+          "low": 153.01,
+          "close": 157.41,
+          "volume": 3619269
+        },
+        {
+          "time": "2026-08-20",
+          "open": 158.24,
+          "high": 160.41,
+          "low": 156.49,
+          "close": 157.11,
+          "volume": 1659212
+        },
+        {
+          "time": "2026-08-21",
+          "open": 157.09,
+          "high": 157.52,
+          "low": 155.38,
+          "close": 155.9,
+          "volume": 942245
+        },
+        {
+          "time": "2026-08-24",
+          "open": 155.9,
+          "high": 159.19,
+          "low": 155.38,
+          "close": 155.79,
+          "volume": 2007508
+        },
+        {
+          "time": "2026-08-25",
+          "open": 157.29,
+          "high": 157.66,
+          "low": 155.35,
+          "close": 156.82,
+          "volume": 1164173
+        },
+        {
+          "time": "2026-08-26",
+          "open": 158.46,
+          "high": 165.68,
+          "low": 158.34,
+          "close": 161.54,
+          "volume": 7853635
+        },
+        {
+          "time": "2026-08-27",
+          "open": 163.01,
+          "high": 164.37,
+          "low": 160.56,
+          "close": 161.2,
+          "volume": 1964090
+        },
+        {
+          "time": "2026-08-28",
+          "open": 161.63,
+          "high": 161.63,
+          "low": 159.58,
+          "close": 160.87,
+          "volume": 1092016
+        },
+        {
+          "time": "2026-08-31",
+          "open": 160.87,
+          "high": 163.2,
+          "low": 159.09,
+          "close": 159.73,
+          "volume": 3304295
+        },
+        {
+          "time": "2026-09-01",
+          "open": 161.01,
+          "high": 162.72,
+          "low": 160.15,
+          "close": 161.12,
+          "volume": 2611554
+        },
+        {
+          "time": "2026-09-02",
+          "open": 159.55,
+          "high": 162.58,
+          "low": 159.14,
+          "close": 161.54,
+          "volume": 2172344
+        },
+        {
+          "time": "2026-09-03",
+          "open": 161.25,
+          "high": 165.42,
+          "low": 161.25,
+          "close": 162.51,
+          "volume": 2505934
+        },
+        {
+          "time": "2026-09-04",
+          "open": 162.58,
+          "high": 162.9,
+          "low": 157.97,
+          "close": 158.77,
+          "volume": 1293533
+        },
+        {
+          "time": "2026-09-07",
+          "open": 158.56,
+          "high": 159.82,
+          "low": 157.56,
+          "close": 158.14,
+          "volume": 738209
+        },
+        {
+          "time": "2026-09-08",
+          "open": 158.06,
+          "high": 160.08,
+          "low": 156.74,
+          "close": 157.74,
+          "volume": 560277
+        },
+        {
+          "time": "2026-09-09",
+          "open": 157.74,
+          "high": 161.3,
+          "low": 155.22,
+          "close": 155.79,
+          "volume": 1549197
+        },
+        {
+          "time": "2026-09-10",
+          "open": 156.35,
+          "high": 160.45,
+          "low": 156.35,
+          "close": 159.4,
+          "volume": 1620378
+        },
+        {
+          "time": "2026-09-11",
+          "open": 157.17,
+          "high": 160.71,
+          "low": 157.08,
+          "close": 158.47,
+          "volume": 1544847
+        },
+        {
+          "time": "2026-09-15",
+          "open": 159.63,
+          "high": 162.58,
+          "low": 157.96,
+          "close": 158.33,
+          "volume": 3555183
+        },
+        {
+          "time": "2026-09-16",
+          "open": 159.29,
+          "high": 160.42,
+          "low": 155.55,
+          "close": 159.37,
+          "volume": 1409967
+        },
+        {
+          "time": "2026-09-17",
+          "open": 159.14,
+          "high": 160.61,
+          "low": 158.64,
+          "close": 159.72,
+          "volume": 1050527
+        },
+        {
+          "time": "2026-09-18",
+          "open": 160.02,
+          "high": 160.32,
+          "low": 155.55,
+          "close": 157.52,
+          "volume": 1713766
+        },
+        {
+          "time": "2026-09-21",
+          "open": 157.52,
+          "high": 162.28,
+          "low": 157.42,
+          "close": 162.08,
+          "volume": 1724551
+        },
+        {
+          "time": "2026-09-22",
+          "open": 162.97,
+          "high": 164.0,
+          "low": 160.71,
+          "close": 161.51,
+          "volume": 819136
+        },
+        {
+          "time": "2026-09-23",
+          "open": 162.31,
+          "high": 163.41,
+          "low": 160.81,
+          "close": 161.22,
+          "volume": 658410
+        },
+        {
+          "time": "2026-09-24",
+          "open": 160.61,
+          "high": 162.96,
+          "low": 159.14,
+          "close": 160.39,
+          "volume": 1245571
+        },
+        {
+          "time": "2026-09-25",
+          "open": 159.86,
+          "high": 162.09,
+          "low": 157.77,
+          "close": 160.32,
+          "volume": 1328565
+        },
+        {
+          "time": "2026-09-28",
+          "open": 160.3,
+          "high": 160.51,
+          "low": 156.78,
+          "close": 157.06,
+          "volume": 845144
+        },
+        {
+          "time": "2026-09-29",
+          "open": 156.78,
+          "high": 158.61,
+          "low": 154.87,
+          "close": 157.7,
+          "volume": 1153476
+        },
+        {
+          "time": "2026-09-30",
+          "open": 157.7,
+          "high": 164.38,
+          "low": 156.78,
+          "close": 163.8,
+          "volume": 1900735
+        },
+        {
+          "time": "2026-10-01",
+          "open": 163.8,
+          "high": 166.9,
+          "low": 159.83,
+          "close": 162.95,
+          "volume": 1997403
+        },
+        {
+          "time": "2026-10-05",
+          "open": 163.76,
+          "high": 166.01,
+          "low": 162.62,
+          "close": 164.64,
+          "volume": 1069321
+        },
+        {
+          "time": "2026-10-06",
+          "open": 165.45,
+          "high": 167.98,
+          "low": 163.75,
+          "close": 165.24,
+          "volume": 1125256
+        },
+        {
+          "time": "2026-10-07",
+          "open": 165.03,
+          "high": 170.93,
+          "low": 163.44,
+          "close": 169.41,
+          "volume": 2205709
+        },
+        {
+          "time": "2026-10-08",
+          "open": 170.44,
+          "high": 171.68,
+          "low": 162.84,
+          "close": 163.7,
+          "volume": 2201234
+        },
+        {
+          "time": "2026-10-09",
+          "open": 163.7,
+          "high": 168.18,
+          "low": 163.14,
+          "close": 164.93,
+          "volume": 803344
+        },
+        {
+          "time": "2026-10-12",
+          "open": 164.93,
+          "high": 170.88,
+          "low": 164.93,
+          "close": 170.04,
+          "volume": 1594878
+        },
+        {
+          "time": "2026-10-13",
+          "open": 171.72,
+          "high": 172.99,
+          "low": 167.67,
+          "close": 168.62,
+          "volume": 959330
+        },
+        {
+          "time": "2026-10-14",
+          "open": 168.47,
+          "high": 175.51,
+          "low": 168.05,
+          "close": 172.43,
+          "volume": 2310397
+        },
+        {
+          "time": "2026-10-15",
+          "open": 171.42,
+          "high": 171.83,
+          "low": 164.1,
+          "close": 165.12,
+          "volume": 1265085
+        },
+        {
+          "time": "2026-10-16",
+          "open": 165.28,
+          "high": 166.33,
+          "low": 162.62,
+          "close": 163.35,
+          "volume": 899522
+        },
+        {
+          "time": "2026-10-19",
+          "open": 164.05,
+          "high": 165.62,
+          "low": 162.48,
+          "close": 163.15,
+          "volume": 521431
+        },
+        {
+          "time": "2026-10-21",
+          "open": 163.12,
+          "high": 165.38,
+          "low": 159.25,
+          "close": 160.89,
+          "volume": 778474
+        },
+        {
+          "time": "2026-10-22",
+          "open": 159.09,
+          "high": 160.28,
+          "low": 157.05,
+          "close": 157.88,
+          "volume": 917387
+        },
+        {
+          "time": "2026-10-23",
+          "open": 157.29,
+          "high": 157.88,
+          "low": 152.56,
+          "close": 154.3,
+          "volume": 1040244
+        },
+        {
+          "time": "2026-10-26",
+          "open": 153.24,
+          "high": 157.52,
+          "low": 151.8,
+          "close": 155.38,
+          "volume": 547891
+        },
+        {
+          "time": "2026-10-27",
+          "open": 156.45,
+          "high": 158.93,
+          "low": 155.38,
+          "close": 157.41,
+          "volume": 566220
+        },
+        {
+          "time": "2026-10-28",
+          "open": 156.24,
+          "high": 158.32,
+          "low": 155.21,
+          "close": 157.33,
+          "volume": 311174
+        },
+        {
+          "time": "2026-10-29",
+          "open": 157.17,
+          "high": 160.2,
+          "low": 156.19,
+          "close": 159.67,
+          "volume": 421516
+        },
+        {
+          "time": "2026-10-30",
+          "open": 159.67,
+          "high": 159.72,
+          "low": 154.76,
+          "close": 156.28,
+          "volume": 1015229
+        },
+        {
+          "time": "2026-11-02",
+          "open": 157.17,
+          "high": 160.01,
+          "low": 156.8,
+          "close": 159.61,
+          "volume": 503366
+        },
+        {
+          "time": "2026-11-03",
+          "open": 160.19,
+          "high": 161.21,
+          "low": 158.7,
+          "close": 160.44,
+          "volume": 800642
+        },
+        {
+          "time": "2026-11-04",
+          "open": 161.59,
+          "high": 162.97,
+          "low": 159.54,
+          "close": 162.07,
+          "volume": 614386
+        },
+        {
+          "time": "2026-11-05",
+          "open": 164.54,
+          "high": 164.73,
+          "low": 156.99,
+          "close": 158.43,
+          "volume": 2917158
+        },
+        {
+          "time": "2026-11-06",
+          "open": 158.45,
+          "high": 165.92,
+          "low": 157.66,
+          "close": 163.55,
+          "volume": 2495580
+        },
+        {
+          "time": "2026-11-09",
+          "open": 165.51,
+          "high": 168.47,
+          "low": 164.54,
+          "close": 167.57,
+          "volume": 1247717
+        },
+        {
+          "time": "2026-11-11",
+          "open": 169.26,
+          "high": 170.34,
+          "low": 166.31,
+          "close": 166.83,
+          "volume": 1782341
+        },
+        {
+          "time": "2026-11-12",
+          "open": 168.0,
+          "high": 171.59,
+          "low": 167.0,
+          "close": 167.56,
+          "volume": 615652
+        },
+        {
+          "time": "2026-11-13",
+          "open": 167.0,
+          "high": 177.4,
+          "low": 167.0,
+          "close": 173.59,
+          "volume": 3615948
+        },
+        {
+          "time": "2026-11-16",
+          "open": 174.0,
+          "high": 177.35,
+          "low": 172.01,
+          "close": 176.24,
+          "volume": 1179714
+        }
+      ],
+      "name": "Gujarat Pipavav Port Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9159.80",
+      "current_price": 176.24,
+      "prev_close": 173.59,
+      "day_change_pct": 1.53,
+      "52w_high": 190.74,
+      "52w_low": 134.94,
+      "pct_from_52w_high": -7.6,
+      "pct_from_52w_low": 30.61,
+      "sma_20": 162.08,
+      "sma_50": 162.0,
+      "sma_200": 153.53,
+      "rsi_14": 68.3,
+      "macd_val": 2.65,
+      "macd_signal": 0.96,
+      "macd_hist": 1.69,
+      "vol_surge_ratio": 1.04,
+      "pe_ratio": 15.46,
+      "forward_pe": 14.6,
+      "peg_ratio": 0.0,
+      "pb_ratio": 3.48,
+      "roe": 22.7,
+      "profit_margins": 42.9,
+      "operating_margins": 53.7,
+      "debt_to_equity": 0.01,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 13.3,
+      "earnings_growth_yoy": -4.8,
+      "q_sales_growth": 13.3,
+      "q_pat_growth": -4.8,
+      "free_cash_flow": 3479953664.0,
+      "target_mean_price": 184.75,
+      "analyst_upside_pct": 4.8,
+      "recommendation_key": "Buy",
+      "dividend_yield": 346.0,
+      "promoter_holding": 44.0,
+      "institutional_holding": 25.7,
+      "public_holding": 30.3,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 177.75,
+      "sell_trigger_level": 151.5,
+      "dist_from_prev_close": 2.4,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "High Return on Equity (22.7% ROE)",
+        "Healthy Low Debt (D/E 0.01)",
+        "Trading Above 200-Day EMA Long-term Uptrend"
+      ],
+      "weaknesses": [
+        "Earnings De-growth YoY (-4.8%)"
+      ],
+      "fundamental_score": 21.0,
+      "technical_score": 32.0,
+      "composite_score": 63,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 160.07,
+      "swing_target_1": 198.7,
+      "swing_target_2": 213.96,
+      "rationale": [
+        "YoY Revenue up 13.3%",
+        "Above 200-day EMA long-term uptrend"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 346.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Last Point of Support (LPS / Backup)",
+      "wyckoff_creek": 177.75,
+      "wyckoff_ice": 151.5,
+      "wyckoff_breakout": 178.64,
+      "wyckoff_dist_to_breakout_pct": 1.36,
+      "wyckoff_stoploss": 154.53,
+      "wyckoff_stoploss_pct": 12.32,
+      "wyckoff_target_1": 204.0,
+      "wyckoff_target_2": 230.25,
+      "wyckoff_signal": "LPS PULLBACK BUY",
+      "wyckoff_rationale": [
+        "Last Point of Support (LPS) successfully holding above Creek (\u20b9177.75).",
+        "Low-volume pullback demonstrates floating supply is exhausted.",
+        "Prime Wyckoff low-risk entry before Phase E markup acceleration."
       ]
     },
     {
@@ -31766,7 +32339,7 @@ window.stockData = {
           "high": 321.3,
           "low": 316.85,
           "close": 321.25,
-          "volume": 5830979
+          "volume": 5538771
         }
       ],
       "name": "NTPC Ltd",
@@ -31787,7 +32360,7 @@ window.stockData = {
       "macd_val": 2.51,
       "macd_signal": 0.78,
       "macd_hist": 1.74,
-      "vol_surge_ratio": 0.63,
+      "vol_surge_ratio": 0.6,
       "pe_ratio": 10.48,
       "forward_pe": 11.36,
       "peg_ratio": 0.0,
@@ -32345,7 +32918,7 @@ window.stockData = {
           "high": 1122.0,
           "low": 1098.7,
           "close": 1110.0,
-          "volume": 8545453
+          "volume": 8224916
         }
       ],
       "name": "Bajaj Finance Ltd",
@@ -32366,7 +32939,7 @@ window.stockData = {
       "macd_val": 34.7,
       "macd_signal": 15.56,
       "macd_hist": 19.14,
-      "vol_surge_ratio": 0.84,
+      "vol_surge_ratio": 0.81,
       "pe_ratio": 31.91,
       "forward_pe": 22.08,
       "peg_ratio": 0.0,
@@ -32442,6 +33015,583 @@ window.stockData = {
         "Last Point of Support (LPS) successfully holding above Creek (\u20b91122.58).",
         "Low-volume pullback demonstrates floating supply is exhausted.",
         "Prime Wyckoff low-risk entry before Phase E markup acceleration."
+      ]
+    },
+    {
+      "symbol": "GRSE.NS",
+      "clean_symbol": "GRSE",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 2681.3,
+          "high": 2698.25,
+          "low": 2622.47,
+          "close": 2630.75,
+          "volume": 479078
+        },
+        {
+          "time": "2026-08-20",
+          "open": 2643.41,
+          "high": 2648.0,
+          "low": 2604.52,
+          "close": 2610.3,
+          "volume": 279800
+        },
+        {
+          "time": "2026-08-21",
+          "open": 2606.51,
+          "high": 2652.28,
+          "low": 2585.48,
+          "close": 2594.05,
+          "volume": 363828
+        },
+        {
+          "time": "2026-08-24",
+          "open": 2606.51,
+          "high": 2654.98,
+          "low": 2581.59,
+          "close": 2588.67,
+          "volume": 489377
+        },
+        {
+          "time": "2026-08-25",
+          "open": 2584.88,
+          "high": 2614.49,
+          "low": 2569.62,
+          "close": 2600.03,
+          "volume": 344854
+        },
+        {
+          "time": "2026-08-26",
+          "open": 2610.4,
+          "high": 2669.43,
+          "low": 2593.55,
+          "close": 2622.77,
+          "volume": 737510
+        },
+        {
+          "time": "2026-08-27",
+          "open": 2631.44,
+          "high": 2658.27,
+          "low": 2624.96,
+          "close": 2635.43,
+          "volume": 384851
+        },
+        {
+          "time": "2026-08-28",
+          "open": 2634.43,
+          "high": 2642.41,
+          "low": 2599.63,
+          "close": 2605.42,
+          "volume": 199226
+        },
+        {
+          "time": "2026-08-31",
+          "open": 2604.62,
+          "high": 2604.62,
+          "low": 2535.82,
+          "close": 2558.15,
+          "volume": 393623
+        },
+        {
+          "time": "2026-09-01",
+          "open": 2556.66,
+          "high": 2563.74,
+          "low": 2506.4,
+          "close": 2522.95,
+          "volume": 327932
+        },
+        {
+          "time": "2026-09-02",
+          "open": 2515.78,
+          "high": 2527.74,
+          "low": 2479.88,
+          "close": 2487.96,
+          "volume": 273379
+        },
+        {
+          "time": "2026-09-03",
+          "open": 2499.82,
+          "high": 2529.24,
+          "low": 2493.84,
+          "close": 2502.61,
+          "volume": 270890
+        },
+        {
+          "time": "2026-09-04",
+          "open": 2510.69,
+          "high": 2557.06,
+          "low": 2510.69,
+          "close": 2525.95,
+          "volume": 299818
+        },
+        {
+          "time": "2026-09-07",
+          "open": 2522.76,
+          "high": 2535.22,
+          "low": 2494.84,
+          "close": 2499.42,
+          "volume": 215499
+        },
+        {
+          "time": "2026-09-08",
+          "open": 2510.79,
+          "high": 2561.54,
+          "low": 2504.81,
+          "close": 2518.47,
+          "volume": 348575
+        },
+        {
+          "time": "2026-09-09",
+          "open": 2518.47,
+          "high": 2545.99,
+          "low": 2480.98,
+          "close": 2486.76,
+          "volume": 237008
+        },
+        {
+          "time": "2026-09-10",
+          "open": 2490.85,
+          "high": 2501.42,
+          "low": 2412.07,
+          "close": 2428.33,
+          "volume": 370821
+        },
+        {
+          "time": "2026-09-11",
+          "open": 2411.08,
+          "high": 2442.19,
+          "low": 2352.94,
+          "close": 2420.55,
+          "volume": 460144
+        },
+        {
+          "time": "2026-09-15",
+          "open": 2427.53,
+          "high": 2430.62,
+          "low": 2343.27,
+          "close": 2352.05,
+          "volume": 270785
+        },
+        {
+          "time": "2026-09-16",
+          "open": 2363.21,
+          "high": 2363.21,
+          "low": 2283.44,
+          "close": 2307.97,
+          "volume": 428399
+        },
+        {
+          "time": "2026-09-17",
+          "open": 2313.16,
+          "high": 2365.11,
+          "low": 2313.06,
+          "close": 2333.1,
+          "volume": 269660
+        },
+        {
+          "time": "2026-09-18",
+          "open": 2349.0,
+          "high": 2430.0,
+          "low": 2345.0,
+          "close": 2411.8,
+          "volume": 531793
+        },
+        {
+          "time": "2026-09-21",
+          "open": 2408.0,
+          "high": 2418.8,
+          "low": 2366.1,
+          "close": 2372.2,
+          "volume": 180334
+        },
+        {
+          "time": "2026-09-22",
+          "open": 2390.2,
+          "high": 2459.2,
+          "low": 2386.9,
+          "close": 2399.7,
+          "volume": 584333
+        },
+        {
+          "time": "2026-09-23",
+          "open": 2407.0,
+          "high": 2415.3,
+          "low": 2376.0,
+          "close": 2380.6,
+          "volume": 190681
+        },
+        {
+          "time": "2026-09-24",
+          "open": 2365.0,
+          "high": 2369.3,
+          "low": 2333.5,
+          "close": 2344.0,
+          "volume": 197066
+        },
+        {
+          "time": "2026-09-25",
+          "open": 2344.1,
+          "high": 2355.0,
+          "low": 2303.0,
+          "close": 2319.0,
+          "volume": 252777
+        },
+        {
+          "time": "2026-09-28",
+          "open": 2316.0,
+          "high": 2316.0,
+          "low": 2236.8,
+          "close": 2245.3,
+          "volume": 389363
+        },
+        {
+          "time": "2026-09-29",
+          "open": 2234.0,
+          "high": 2242.7,
+          "low": 2191.9,
+          "close": 2206.1,
+          "volume": 428953
+        },
+        {
+          "time": "2026-09-30",
+          "open": 2215.0,
+          "high": 2235.1,
+          "low": 2175.0,
+          "close": 2181.9,
+          "volume": 377318
+        },
+        {
+          "time": "2026-10-01",
+          "open": 2170.0,
+          "high": 2173.0,
+          "low": 2077.0,
+          "close": 2111.1,
+          "volume": 571755
+        },
+        {
+          "time": "2026-10-05",
+          "open": 2122.0,
+          "high": 2158.8,
+          "low": 2103.5,
+          "close": 2110.4,
+          "volume": 365792
+        },
+        {
+          "time": "2026-10-06",
+          "open": 2120.0,
+          "high": 2143.6,
+          "low": 2109.1,
+          "close": 2137.3,
+          "volume": 287612
+        },
+        {
+          "time": "2026-10-07",
+          "open": 2130.0,
+          "high": 2130.1,
+          "low": 2092.0,
+          "close": 2102.0,
+          "volume": 279451
+        },
+        {
+          "time": "2026-10-08",
+          "open": 2102.0,
+          "high": 2105.0,
+          "low": 2008.6,
+          "close": 2014.0,
+          "volume": 516394
+        },
+        {
+          "time": "2026-10-09",
+          "open": 2033.1,
+          "high": 2072.0,
+          "low": 2000.0,
+          "close": 2046.0,
+          "volume": 428518
+        },
+        {
+          "time": "2026-10-12",
+          "open": 2062.0,
+          "high": 2142.9,
+          "low": 2058.6,
+          "close": 2081.9,
+          "volume": 551916
+        },
+        {
+          "time": "2026-10-13",
+          "open": 2094.0,
+          "high": 2148.0,
+          "low": 2058.0,
+          "close": 2140.5,
+          "volume": 538093
+        },
+        {
+          "time": "2026-10-14",
+          "open": 2138.1,
+          "high": 2172.7,
+          "low": 2118.1,
+          "close": 2140.9,
+          "volume": 282124
+        },
+        {
+          "time": "2026-10-15",
+          "open": 2128.0,
+          "high": 2142.0,
+          "low": 2094.0,
+          "close": 2102.4,
+          "volume": 377160
+        },
+        {
+          "time": "2026-10-16",
+          "open": 2114.0,
+          "high": 2134.0,
+          "low": 2103.4,
+          "close": 2120.2,
+          "volume": 220307
+        },
+        {
+          "time": "2026-10-19",
+          "open": 2118.0,
+          "high": 2119.4,
+          "low": 2082.9,
+          "close": 2085.8,
+          "volume": 207103
+        },
+        {
+          "time": "2026-10-21",
+          "open": 2090.0,
+          "high": 2100.9,
+          "low": 2010.0,
+          "close": 2024.1,
+          "volume": 286982
+        },
+        {
+          "time": "2026-10-22",
+          "open": 1977.0,
+          "high": 1977.4,
+          "low": 1866.1,
+          "close": 1955.8,
+          "volume": 1433526
+        },
+        {
+          "time": "2026-10-23",
+          "open": 1950.0,
+          "high": 1951.1,
+          "low": 1853.0,
+          "close": 1861.0,
+          "volume": 650226
+        },
+        {
+          "time": "2026-10-26",
+          "open": 1861.0,
+          "high": 1918.0,
+          "low": 1842.0,
+          "close": 1869.1,
+          "volume": 521183
+        },
+        {
+          "time": "2026-10-27",
+          "open": 1891.0,
+          "high": 1995.1,
+          "low": 1887.0,
+          "close": 1930.9,
+          "volume": 1043497
+        },
+        {
+          "time": "2026-10-28",
+          "open": 1913.8,
+          "high": 1920.5,
+          "low": 1880.1,
+          "close": 1897.6,
+          "volume": 318545
+        },
+        {
+          "time": "2026-10-29",
+          "open": 1898.8,
+          "high": 1928.3,
+          "low": 1890.5,
+          "close": 1923.2,
+          "volume": 283103
+        },
+        {
+          "time": "2026-10-30",
+          "open": 2011.3,
+          "high": 2027.9,
+          "low": 1917.6,
+          "close": 1943.7,
+          "volume": 1747020
+        },
+        {
+          "time": "2026-11-02",
+          "open": 1945.0,
+          "high": 2063.8,
+          "low": 1914.8,
+          "close": 2046.8,
+          "volume": 1140304
+        },
+        {
+          "time": "2026-11-03",
+          "open": 2085.6,
+          "high": 2235.0,
+          "low": 2050.6,
+          "close": 2131.0,
+          "volume": 4382427
+        },
+        {
+          "time": "2026-11-04",
+          "open": 2123.0,
+          "high": 2162.0,
+          "low": 2062.2,
+          "close": 2143.4,
+          "volume": 986436
+        },
+        {
+          "time": "2026-11-05",
+          "open": 2189.0,
+          "high": 2199.0,
+          "low": 2109.8,
+          "close": 2137.2,
+          "volume": 522583
+        },
+        {
+          "time": "2026-11-06",
+          "open": 2114.3,
+          "high": 2145.9,
+          "low": 2093.1,
+          "close": 2135.7,
+          "volume": 352048
+        },
+        {
+          "time": "2026-11-09",
+          "open": 2150.0,
+          "high": 2207.0,
+          "low": 2125.4,
+          "close": 2198.1,
+          "volume": 605104
+        },
+        {
+          "time": "2026-11-11",
+          "open": 2217.0,
+          "high": 2270.0,
+          "low": 2144.4,
+          "close": 2225.4,
+          "volume": 1414072
+        },
+        {
+          "time": "2026-11-12",
+          "open": 2230.5,
+          "high": 2274.2,
+          "low": 2195.5,
+          "close": 2211.5,
+          "volume": 834567
+        },
+        {
+          "time": "2026-11-13",
+          "open": 2209.9,
+          "high": 2211.0,
+          "low": 2175.0,
+          "close": 2184.8,
+          "volume": 315996
+        },
+        {
+          "time": "2026-11-16",
+          "open": 2184.8,
+          "high": 2185.4,
+          "low": 2121.2,
+          "close": 2130.3,
+          "volume": 265504
+        }
+      ],
+      "name": "Garden Reach Shipbuilders & Enginers Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b92,489.80",
+      "current_price": 2130.3,
+      "prev_close": 2184.8,
+      "day_change_pct": -2.49,
+      "52w_high": 3329.44,
+      "52w_low": 1842.0,
+      "pct_from_52w_high": -36.02,
+      "pct_from_52w_low": 15.65,
+      "sma_20": 2057.78,
+      "sma_50": 2197.32,
+      "sma_200": 2483.97,
+      "rsi_14": 50.3,
+      "macd_val": 5.35,
+      "macd_signal": -24.24,
+      "macd_hist": 29.59,
+      "vol_surge_ratio": 0.3,
+      "pe_ratio": 29.8,
+      "forward_pe": 25.42,
+      "peg_ratio": 0.0,
+      "pb_ratio": 8.43,
+      "roe": 31.5,
+      "profit_margins": 10.7,
+      "operating_margins": 10.8,
+      "debt_to_equity": 0.01,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 12.4,
+      "earnings_growth_yoy": 11.8,
+      "q_sales_growth": 12.4,
+      "q_pat_growth": 11.8,
+      "free_cash_flow": -2095968128.0,
+      "target_mean_price": 2873.62,
+      "analyst_upside_pct": 34.9,
+      "recommendation_key": "Buy",
+      "dividend_yield": 63.0,
+      "promoter_holding": 74.5,
+      "institutional_holding": 3.6,
+      "public_holding": 21.9,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 2278.75,
+      "sell_trigger_level": 1838.32,
+      "dist_from_prev_close": 4.3,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "High Return on Equity (31.5% ROE)",
+        "Healthy Low Debt (D/E 0.01)"
+      ],
+      "weaknesses": [
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 27.0,
+      "technical_score": 20.0,
+      "composite_score": 62,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 1826.17,
+      "swing_target_1": 2552.71,
+      "swing_target_2": 2839.94,
+      "rationale": [
+        "YoY Revenue up 12.4%",
+        "YoY Profit up 11.8%"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 63.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 2278.75,
+      "wyckoff_ice": 1838.32,
+      "wyckoff_breakout": 2278.75,
+      "wyckoff_dist_to_breakout_pct": 6.97,
+      "wyckoff_stoploss": 1801.55,
+      "wyckoff_stoploss_pct": 15.43,
+      "wyckoff_target_1": 2719.18,
+      "wyckoff_target_2": 3159.61,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b91838.32 (Ice) to \u20b92278.75 (Creek).",
+        "Consolidation inside 440.43 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -32925,33 +34075,33 @@ window.stockData = {
           "open": 1078.5,
           "high": 1080.6,
           "low": 1050.2,
-          "close": 1071.2,
-          "volume": 372325
+          "close": 1072.4,
+          "volume": 372306
         }
       ],
       "name": "Jyoti CNC Automation Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9836.32",
-      "current_price": 1071.2,
+      "current_price": 1072.4,
       "prev_close": 1073.1,
-      "day_change_pct": -0.18,
+      "day_change_pct": -0.07,
       "52w_high": 1134.6,
       "52w_low": 580.1,
-      "pct_from_52w_high": -5.59,
-      "pct_from_52w_low": 84.66,
-      "sma_20": 980.52,
-      "sma_50": 1008.84,
-      "sma_200": 837.47,
-      "rsi_14": 62.4,
-      "macd_val": 20.44,
-      "macd_signal": 5.6,
-      "macd_hist": 14.83,
+      "pct_from_52w_high": -5.48,
+      "pct_from_52w_low": 84.86,
+      "sma_20": 980.58,
+      "sma_50": 1008.86,
+      "sma_200": 837.48,
+      "rsi_14": 62.6,
+      "macd_val": 20.53,
+      "macd_signal": 5.62,
+      "macd_hist": 14.91,
       "vol_surge_ratio": 0.38,
-      "pe_ratio": 78.94,
-      "forward_pe": 43.11,
+      "pe_ratio": 79.03,
+      "forward_pe": 43.16,
       "peg_ratio": 0.0,
-      "pb_ratio": 11.4,
+      "pb_ratio": 11.41,
       "roe": 15.6,
       "profit_margins": 13.5,
       "operating_margins": 21.2,
@@ -32963,7 +34113,7 @@ window.stockData = {
       "q_pat_growth": -15.2,
       "free_cash_flow": -3576462592.0,
       "target_mean_price": 1130.25,
-      "analyst_upside_pct": 5.5,
+      "analyst_upside_pct": 5.4,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 0.0,
       "promoter_holding": 67.3,
@@ -32993,9 +34143,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 914.52,
-      "swing_target_1": 1288.81,
-      "swing_target_2": 1436.78,
+      "swing_stoploss": 915.44,
+      "swing_target_1": 1290.4,
+      "swing_target_2": 1438.65,
       "rationale": [
         "YoY Revenue up 18.5%",
         "Above 200-day EMA long-term uptrend"
@@ -33008,9 +34158,9 @@ window.stockData = {
       "wyckoff_creek": 1112.42,
       "wyckoff_ice": 870.06,
       "wyckoff_breakout": 1112.42,
-      "wyckoff_dist_to_breakout_pct": 3.85,
+      "wyckoff_dist_to_breakout_pct": 3.73,
       "wyckoff_stoploss": 852.66,
-      "wyckoff_stoploss_pct": 20.4,
+      "wyckoff_stoploss_pct": 20.49,
       "wyckoff_target_1": 1354.78,
       "wyckoff_target_2": 1597.14,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -33501,33 +34651,33 @@ window.stockData = {
           "open": 11193.0,
           "high": 11338.0,
           "low": 11169.0,
-          "close": 11297.0,
-          "volume": 18278
+          "close": 11319.0,
+          "volume": 18274
         }
       ],
       "name": "Bajaj Holdings And Investment Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b910,652.35",
-      "current_price": 11297.0,
+      "current_price": 11319.0,
       "prev_close": 11096.0,
-      "day_change_pct": 1.81,
+      "day_change_pct": 2.01,
       "52w_high": 12731.11,
       "52w_low": 8433.72,
-      "pct_from_52w_high": -11.26,
-      "pct_from_52w_low": 33.95,
-      "sma_20": 10884.1,
-      "sma_50": 10911.92,
-      "sma_200": 10541.01,
-      "rsi_14": 58.3,
-      "macd_val": 71.45,
-      "macd_signal": -10.99,
-      "macd_hist": 82.44,
+      "pct_from_52w_high": -11.09,
+      "pct_from_52w_low": 34.21,
+      "sma_20": 10885.2,
+      "sma_50": 10912.36,
+      "sma_200": 10541.12,
+      "rsi_14": 58.7,
+      "macd_val": 73.2,
+      "macd_signal": -10.64,
+      "macd_hist": 83.84,
       "vol_surge_ratio": 0.46,
-      "pe_ratio": 13.53,
+      "pe_ratio": 13.56,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 1.7,
+      "pb_ratio": 1.71,
       "roe": 11.6,
       "profit_margins": 948.6,
       "operating_margins": 80.1,
@@ -33538,7 +34688,7 @@ window.stockData = {
       "q_sales_growth": -55.2,
       "q_pat_growth": 27.8,
       "free_cash_flow": 2486087424.0,
-      "target_mean_price": 11297.0,
+      "target_mean_price": 11319.0,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 117.0,
@@ -33569,9 +34719,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 10201.65,
-      "swing_target_1": 12818.32,
-      "swing_target_2": 13852.82,
+      "swing_stoploss": 10218.01,
+      "swing_target_1": 12848.16,
+      "swing_target_2": 13887.99,
       "rationale": [
         "YoY Profit up 27.8%",
         "Above 200-day EMA long-term uptrend"
@@ -33586,9 +34736,9 @@ window.stockData = {
       "wyckoff_creek": 11447.85,
       "wyckoff_ice": 10010.94,
       "wyckoff_breakout": 11505.09,
-      "wyckoff_dist_to_breakout_pct": 1.84,
+      "wyckoff_dist_to_breakout_pct": 1.64,
       "wyckoff_stoploss": 10211.16,
-      "wyckoff_stoploss_pct": 9.61,
+      "wyckoff_stoploss_pct": 9.79,
       "wyckoff_target_1": 12884.76,
       "wyckoff_target_2": 14321.67,
       "wyckoff_signal": "LPS PULLBACK BUY",
@@ -34079,33 +35229,33 @@ window.stockData = {
           "open": 443.6,
           "high": 445.85,
           "low": 433.7,
-          "close": 443.8,
-          "volume": 349749
+          "close": 444.45,
+          "volume": 349735
         }
       ],
       "name": "Elecon Engineering Company Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9452.53",
-      "current_price": 443.8,
+      "current_price": 444.45,
       "prev_close": 444.0,
-      "day_change_pct": -0.05,
+      "day_change_pct": 0.1,
       "52w_high": 576.73,
       "52w_low": 350.62,
-      "pct_from_52w_high": -23.05,
-      "pct_from_52w_low": 26.58,
-      "sma_20": 436.12,
-      "sma_50": 436.76,
-      "sma_200": 451.9,
-      "rsi_14": 52.1,
-      "macd_val": 0.21,
-      "macd_signal": -1.42,
-      "macd_hist": 1.63,
+      "pct_from_52w_high": -22.94,
+      "pct_from_52w_low": 26.76,
+      "sma_20": 436.15,
+      "sma_50": 436.77,
+      "sma_200": 451.91,
+      "rsi_14": 52.3,
+      "macd_val": 0.27,
+      "macd_signal": -1.41,
+      "macd_hist": 1.68,
       "vol_surge_ratio": 0.52,
-      "pe_ratio": 40.68,
-      "forward_pe": 20.55,
+      "pe_ratio": 40.74,
+      "forward_pe": 20.58,
       "peg_ratio": 0.0,
-      "pb_ratio": 3.97,
+      "pb_ratio": 3.98,
       "roe": 10.3,
       "profit_margins": 10.0,
       "operating_margins": 16.8,
@@ -34117,7 +35267,7 @@ window.stockData = {
       "q_pat_growth": 9.7,
       "free_cash_flow": 1635299968.0,
       "target_mean_price": 600.0,
-      "analyst_upside_pct": 35.2,
+      "analyst_upside_pct": 35.0,
       "recommendation_key": "None",
       "dividend_yield": 45.0,
       "promoter_holding": 63.1,
@@ -34145,9 +35295,9 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 418.05,
-      "swing_target_1": 479.56,
-      "swing_target_2": 503.88,
+      "swing_stoploss": 418.57,
+      "swing_target_1": 480.39,
+      "swing_target_2": 504.83,
       "rationale": [
         "YoY Revenue up 10.5%"
       ],
@@ -34161,9 +35311,9 @@ window.stockData = {
       "wyckoff_creek": 510.07,
       "wyckoff_ice": 400.4,
       "wyckoff_breakout": 510.07,
-      "wyckoff_dist_to_breakout_pct": 14.93,
+      "wyckoff_dist_to_breakout_pct": 14.76,
       "wyckoff_stoploss": 392.39,
-      "wyckoff_stoploss_pct": 11.58,
+      "wyckoff_stoploss_pct": 11.71,
       "wyckoff_target_1": 619.74,
       "wyckoff_target_2": 729.41,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -35233,33 +36383,33 @@ window.stockData = {
           "open": 117.96,
           "high": 118.0,
           "low": 113.46,
-          "close": 118.0,
-          "volume": 45827
+          "close": 115.88,
+          "volume": 45815
         }
       ],
       "name": "Borosil Scientific Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9125.35",
-      "current_price": 118.0,
+      "current_price": 115.88,
       "prev_close": 116.45,
-      "day_change_pct": 1.33,
+      "day_change_pct": -0.49,
       "52w_high": 180.8,
       "52w_low": 96.64,
-      "pct_from_52w_high": -34.73,
-      "pct_from_52w_low": 22.1,
-      "sma_20": 107.87,
-      "sma_50": 114.1,
-      "sma_200": 125.51,
-      "rsi_14": 62.5,
-      "macd_val": 0.4,
-      "macd_signal": -1.49,
-      "macd_hist": 1.89,
+      "pct_from_52w_high": -35.91,
+      "pct_from_52w_low": 19.91,
+      "sma_20": 107.77,
+      "sma_50": 114.06,
+      "sma_200": 125.5,
+      "rsi_14": 59.3,
+      "macd_val": 0.23,
+      "macd_signal": -1.52,
+      "macd_hist": 1.76,
       "vol_surge_ratio": 0.6,
-      "pe_ratio": 23.0,
+      "pe_ratio": 22.59,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 2.31,
+      "pb_ratio": 2.27,
       "roe": 10.7,
       "profit_margins": 9.4,
       "operating_margins": 10.2,
@@ -35270,7 +36420,7 @@ window.stockData = {
       "q_sales_growth": 7.5,
       "q_pat_growth": 87.5,
       "free_cash_flow": 152828992.0,
-      "target_mean_price": 118.0,
+      "target_mean_price": 115.88,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -35300,30 +36450,30 @@ window.stockData = {
       "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 105.56,
-      "swing_target_1": 135.28,
-      "swing_target_2": 147.03,
+      "swing_stoploss": 104.18,
+      "swing_target_1": 132.14,
+      "swing_target_2": 143.19,
       "rationale": [
         "YoY Profit up 87.5%"
       ],
       "corporate_actions": [],
       "events": null,
-      "wyckoff_phase": "Phase D",
+      "wyckoff_phase": "Phase B",
       "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Last Point of Support (LPS / Backup)",
+      "wyckoff_event": "Range Cause Building (Absorption)",
       "wyckoff_creek": 119.16,
       "wyckoff_ice": 99.86,
-      "wyckoff_breakout": 119.76,
-      "wyckoff_dist_to_breakout_pct": 1.49,
-      "wyckoff_stoploss": 101.86,
-      "wyckoff_stoploss_pct": 13.68,
+      "wyckoff_breakout": 119.16,
+      "wyckoff_dist_to_breakout_pct": 2.83,
+      "wyckoff_stoploss": 97.86,
+      "wyckoff_stoploss_pct": 15.55,
       "wyckoff_target_1": 138.46,
       "wyckoff_target_2": 157.76,
-      "wyckoff_signal": "LPS PULLBACK BUY",
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
-        "Last Point of Support (LPS) successfully holding above Creek (\u20b9119.16).",
-        "Low-volume pullback demonstrates floating supply is exhausted.",
-        "Prime Wyckoff low-risk entry before Phase E markup acceleration."
+        "Phase B Cause Building inside Trading Range: \u20b999.86 (Ice) to \u20b9119.16 (Creek).",
+        "Consolidation inside 19.3 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -35808,7 +36958,7 @@ window.stockData = {
           "high": 306.2,
           "low": 280.25,
           "close": 283.2,
-          "volume": 1754738
+          "volume": 1754737
         }
       ],
       "name": "Kross Ltd",
@@ -36386,7 +37536,7 @@ window.stockData = {
           "high": 1117.5,
           "low": 1075.5,
           "close": 1117.5,
-          "volume": 1522609
+          "volume": 1430107
         }
       ],
       "name": "Tata Consumer Products Ltd",
@@ -36407,7 +37557,7 @@ window.stockData = {
       "macd_val": 30.32,
       "macd_signal": 21.93,
       "macd_hist": 8.39,
-      "vol_surge_ratio": 0.86,
+      "vol_surge_ratio": 0.81,
       "pe_ratio": 65.08,
       "forward_pe": 47.16,
       "peg_ratio": 0.55,
@@ -36480,585 +37630,8 @@ window.stockData = {
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
         "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b91123.09).",
-        "Volume surge 0.9x confirms institutional demand absorption.",
+        "Volume surge 0.8x confirms institutional demand absorption.",
         "Cause of 208.92 pts horizontal accumulation ready to unlock upward effect."
-      ]
-    },
-    {
-      "symbol": "RAJOOENG.NS",
-      "clean_symbol": "RAJOOENG",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 51.2,
-          "high": 51.36,
-          "low": 49.97,
-          "close": 50.84,
-          "volume": 125916
-        },
-        {
-          "time": "2026-08-20",
-          "open": 50.84,
-          "high": 50.97,
-          "low": 49.61,
-          "close": 50.12,
-          "volume": 193291
-        },
-        {
-          "time": "2026-08-21",
-          "open": 50.31,
-          "high": 50.86,
-          "low": 49.17,
-          "close": 50.22,
-          "volume": 186264
-        },
-        {
-          "time": "2026-08-24",
-          "open": 50.79,
-          "high": 50.79,
-          "low": 49.37,
-          "close": 49.79,
-          "volume": 157471
-        },
-        {
-          "time": "2026-08-25",
-          "open": 50.11,
-          "high": 50.11,
-          "low": 48.88,
-          "close": 49.4,
-          "volume": 109323
-        },
-        {
-          "time": "2026-08-26",
-          "open": 49.86,
-          "high": 50.25,
-          "low": 48.99,
-          "close": 49.26,
-          "volume": 100060
-        },
-        {
-          "time": "2026-08-27",
-          "open": 49.86,
-          "high": 50.15,
-          "low": 49.08,
-          "close": 49.36,
-          "volume": 86940
-        },
-        {
-          "time": "2026-08-28",
-          "open": 49.36,
-          "high": 49.86,
-          "low": 48.97,
-          "close": 49.14,
-          "volume": 90221
-        },
-        {
-          "time": "2026-08-31",
-          "open": 49.18,
-          "high": 50.86,
-          "low": 46.72,
-          "close": 47.96,
-          "volume": 352322
-        },
-        {
-          "time": "2026-09-01",
-          "open": 47.55,
-          "high": 49.66,
-          "low": 46.38,
-          "close": 49.32,
-          "volume": 365942
-        },
-        {
-          "time": "2026-09-02",
-          "open": 49.31,
-          "high": 49.31,
-          "low": 47.93,
-          "close": 48.54,
-          "volume": 79982
-        },
-        {
-          "time": "2026-09-03",
-          "open": 48.87,
-          "high": 49.37,
-          "low": 47.52,
-          "close": 49.01,
-          "volume": 164514
-        },
-        {
-          "time": "2026-09-04",
-          "open": 49.49,
-          "high": 51.45,
-          "low": 48.87,
-          "close": 51.45,
-          "volume": 412844
-        },
-        {
-          "time": "2026-09-07",
-          "open": 52.84,
-          "high": 54.01,
-          "low": 51.86,
-          "close": 54.01,
-          "volume": 496256
-        },
-        {
-          "time": "2026-09-08",
-          "open": 55.85,
-          "high": 56.65,
-          "low": 51.86,
-          "close": 53.55,
-          "volume": 403364
-        },
-        {
-          "time": "2026-09-09",
-          "open": 53.55,
-          "high": 56.2,
-          "low": 51.91,
-          "close": 55.75,
-          "volume": 449747
-        },
-        {
-          "time": "2026-09-10",
-          "open": 55.64,
-          "high": 56.85,
-          "low": 54.0,
-          "close": 54.74,
-          "volume": 176989
-        },
-        {
-          "time": "2026-09-11",
-          "open": 54.74,
-          "high": 56.0,
-          "low": 52.49,
-          "close": 55.04,
-          "volume": 253434
-        },
-        {
-          "time": "2026-09-15",
-          "open": 55.04,
-          "high": 55.95,
-          "low": 53.16,
-          "close": 53.81,
-          "volume": 169325
-        },
-        {
-          "time": "2026-09-16",
-          "open": 54.84,
-          "high": 54.84,
-          "low": 51.13,
-          "close": 52.12,
-          "volume": 169408
-        },
-        {
-          "time": "2026-09-17",
-          "open": 51.86,
-          "high": 54.05,
-          "low": 51.13,
-          "close": 53.16,
-          "volume": 196521
-        },
-        {
-          "time": "2026-09-18",
-          "open": 53.83,
-          "high": 54.03,
-          "low": 51.16,
-          "close": 52.85,
-          "volume": 145991
-        },
-        {
-          "time": "2026-09-21",
-          "open": 53.85,
-          "high": 55.44,
-          "low": 50.86,
-          "close": 55.08,
-          "volume": 578023
-        },
-        {
-          "time": "2026-09-22",
-          "open": 54.63,
-          "high": 55.5,
-          "low": 53.57,
-          "close": 54.31,
-          "volume": 133368
-        },
-        {
-          "time": "2026-09-23",
-          "open": 55.3,
-          "high": 55.8,
-          "low": 54.2,
-          "close": 55.25,
-          "volume": 236357
-        },
-        {
-          "time": "2026-09-24",
-          "open": 55.7,
-          "high": 55.7,
-          "low": 53.2,
-          "close": 54.81,
-          "volume": 214508
-        },
-        {
-          "time": "2026-09-25",
-          "open": 54.12,
-          "high": 54.95,
-          "low": 52.1,
-          "close": 53.08,
-          "volume": 273965
-        },
-        {
-          "time": "2026-09-28",
-          "open": 53.49,
-          "high": 55.0,
-          "low": 52.17,
-          "close": 53.68,
-          "volume": 275473
-        },
-        {
-          "time": "2026-09-29",
-          "open": 53.89,
-          "high": 54.4,
-          "low": 52.8,
-          "close": 53.32,
-          "volume": 110899
-        },
-        {
-          "time": "2026-09-30",
-          "open": 53.32,
-          "high": 54.5,
-          "low": 52.61,
-          "close": 53.43,
-          "volume": 208140
-        },
-        {
-          "time": "2026-10-01",
-          "open": 52.62,
-          "high": 54.5,
-          "low": 52.25,
-          "close": 53.21,
-          "volume": 194043
-        },
-        {
-          "time": "2026-10-05",
-          "open": 54.95,
-          "high": 56.25,
-          "low": 53.57,
-          "close": 54.97,
-          "volume": 581746
-        },
-        {
-          "time": "2026-10-06",
-          "open": 55.4,
-          "high": 57.5,
-          "low": 54.11,
-          "close": 56.95,
-          "volume": 838914
-        },
-        {
-          "time": "2026-10-07",
-          "open": 57.74,
-          "high": 62.9,
-          "low": 56.76,
-          "close": 62.37,
-          "volume": 2912369
-        },
-        {
-          "time": "2026-10-08",
-          "open": 63.9,
-          "high": 66.5,
-          "low": 58.8,
-          "close": 59.92,
-          "volume": 2689885
-        },
-        {
-          "time": "2026-10-09",
-          "open": 60.02,
-          "high": 60.99,
-          "low": 57.5,
-          "close": 59.45,
-          "volume": 939402
-        },
-        {
-          "time": "2026-10-12",
-          "open": 60.8,
-          "high": 63.23,
-          "low": 59.96,
-          "close": 62.2,
-          "volume": 819727
-        },
-        {
-          "time": "2026-10-13",
-          "open": 62.94,
-          "high": 62.94,
-          "low": 60.0,
-          "close": 61.14,
-          "volume": 383548
-        },
-        {
-          "time": "2026-10-14",
-          "open": 61.24,
-          "high": 62.4,
-          "low": 60.21,
-          "close": 60.88,
-          "volume": 315542
-        },
-        {
-          "time": "2026-10-15",
-          "open": 61.0,
-          "high": 61.55,
-          "low": 57.0,
-          "close": 58.51,
-          "volume": 452261
-        },
-        {
-          "time": "2026-10-16",
-          "open": 58.5,
-          "high": 61.27,
-          "low": 58.0,
-          "close": 60.06,
-          "volume": 348459
-        },
-        {
-          "time": "2026-10-19",
-          "open": 60.06,
-          "high": 60.5,
-          "low": 56.89,
-          "close": 59.95,
-          "volume": 594947
-        },
-        {
-          "time": "2026-10-21",
-          "open": 59.5,
-          "high": 59.51,
-          "low": 53.51,
-          "close": 56.36,
-          "volume": 753769
-        },
-        {
-          "time": "2026-10-22",
-          "open": 55.05,
-          "high": 57.8,
-          "low": 53.89,
-          "close": 57.37,
-          "volume": 400581
-        },
-        {
-          "time": "2026-10-23",
-          "open": 55.5,
-          "high": 59.5,
-          "low": 54.2,
-          "close": 57.43,
-          "volume": 670650
-        },
-        {
-          "time": "2026-10-26",
-          "open": 51.4,
-          "high": 52.84,
-          "low": 48.59,
-          "close": 52.02,
-          "volume": 1433205
-        },
-        {
-          "time": "2026-10-27",
-          "open": 51.66,
-          "high": 53.09,
-          "low": 50.27,
-          "close": 51.9,
-          "volume": 461511
-        },
-        {
-          "time": "2026-10-28",
-          "open": 51.9,
-          "high": 52.71,
-          "low": 50.98,
-          "close": 51.94,
-          "volume": 213233
-        },
-        {
-          "time": "2026-10-29",
-          "open": 52.8,
-          "high": 53.4,
-          "low": 51.5,
-          "close": 51.99,
-          "volume": 241413
-        },
-        {
-          "time": "2026-10-30",
-          "open": 51.99,
-          "high": 53.88,
-          "low": 50.69,
-          "close": 52.3,
-          "volume": 304643
-        },
-        {
-          "time": "2026-11-02",
-          "open": 52.0,
-          "high": 54.13,
-          "low": 50.62,
-          "close": 53.3,
-          "volume": 281759
-        },
-        {
-          "time": "2026-11-03",
-          "open": 53.7,
-          "high": 56.5,
-          "low": 53.06,
-          "close": 55.48,
-          "volume": 517307
-        },
-        {
-          "time": "2026-11-04",
-          "open": 55.48,
-          "high": 56.9,
-          "low": 54.26,
-          "close": 56.3,
-          "volume": 195099
-        },
-        {
-          "time": "2026-11-05",
-          "open": 56.9,
-          "high": 57.9,
-          "low": 55.05,
-          "close": 55.47,
-          "volume": 186807
-        },
-        {
-          "time": "2026-11-06",
-          "open": 55.89,
-          "high": 56.36,
-          "low": 54.26,
-          "close": 55.42,
-          "volume": 228336
-        },
-        {
-          "time": "2026-11-09",
-          "open": 57.0,
-          "high": 57.81,
-          "low": 55.5,
-          "close": 56.7,
-          "volume": 173680
-        },
-        {
-          "time": "2026-11-11",
-          "open": 56.75,
-          "high": 58.25,
-          "low": 55.17,
-          "close": 55.73,
-          "volume": 284048
-        },
-        {
-          "time": "2026-11-12",
-          "open": 56.34,
-          "high": 56.83,
-          "low": 54.51,
-          "close": 55.5,
-          "volume": 210273
-        },
-        {
-          "time": "2026-11-13",
-          "open": 54.95,
-          "high": 57.5,
-          "low": 54.6,
-          "close": 56.91,
-          "volume": 497398
-        },
-        {
-          "time": "2026-11-16",
-          "open": 56.13,
-          "high": 58.49,
-          "low": 55.0,
-          "close": 56.53,
-          "volume": 217662
-        }
-      ],
-      "name": "Rajoo Engineers Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b956.65",
-      "current_price": 56.53,
-      "prev_close": 56.91,
-      "day_change_pct": -0.67,
-      "52w_high": 83.57,
-      "52w_low": 45.88,
-      "pct_from_52w_high": -32.36,
-      "pct_from_52w_low": 23.21,
-      "sma_20": 55.43,
-      "sma_50": 55.3,
-      "sma_200": 56.41,
-      "rsi_14": 53.3,
-      "macd_val": 0.13,
-      "macd_signal": -0.04,
-      "macd_hist": 0.17,
-      "vol_surge_ratio": 0.53,
-      "pe_ratio": 23.65,
-      "forward_pe": 0.0,
-      "peg_ratio": 0.0,
-      "pb_ratio": 2.76,
-      "roe": 12.5,
-      "profit_margins": 11.2,
-      "operating_margins": 11.9,
-      "debt_to_equity": 0.06,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 10.5,
-      "earnings_growth_yoy": -39.5,
-      "q_sales_growth": 10.5,
-      "q_pat_growth": -39.5,
-      "free_cash_flow": -217705504.0,
-      "target_mean_price": 56.53,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 26.0,
-      "promoter_holding": 62.3,
-      "institutional_holding": 0.0,
-      "public_holding": 37.7,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 61.67,
-      "sell_trigger_level": 48.49,
-      "dist_from_prev_close": 8.36,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Healthy Low Debt (D/E 0.06)",
-        "Trading Above 200-Day EMA Long-term Uptrend"
-      ],
-      "weaknesses": [
-        "Earnings De-growth YoY (-39.5%)"
-      ],
-      "fundamental_score": 18.0,
-      "technical_score": 35.0,
-      "composite_score": 60,
-      "long_term_signal": "ACCUMULATE",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 51.49,
-      "swing_target_1": 63.53,
-      "swing_target_2": 68.28,
-      "rationale": [
-        "YoY Revenue up 10.5%",
-        "Above 200-day EMA long-term uptrend"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 26.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 61.67,
-      "wyckoff_ice": 48.49,
-      "wyckoff_breakout": 61.67,
-      "wyckoff_dist_to_breakout_pct": 9.09,
-      "wyckoff_stoploss": 47.52,
-      "wyckoff_stoploss_pct": 15.94,
-      "wyckoff_target_1": 74.85,
-      "wyckoff_target_2": 88.03,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b948.49 (Ice) to \u20b961.67 (Creek).",
-        "Consolidation inside 13.18 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -37543,7 +38116,7 @@ window.stockData = {
           "high": 2578.9,
           "low": 2420.8,
           "close": 2441.0,
-          "volume": 1048730
+          "volume": 1034454
         }
       ],
       "name": "Waaree Energies Ltd",
@@ -37564,7 +38137,7 @@ window.stockData = {
       "macd_val": 14.83,
       "macd_signal": -7.6,
       "macd_hist": 22.44,
-      "vol_surge_ratio": 1.12,
+      "vol_surge_ratio": 1.11,
       "pe_ratio": 19.05,
       "forward_pe": 15.78,
       "peg_ratio": 0.0,
@@ -37640,1155 +38213,579 @@ window.stockData = {
       ]
     },
     {
-      "symbol": "IKIO.NS",
-      "clean_symbol": "IKIO",
+      "symbol": "RAJOOENG.NS",
+      "clean_symbol": "RAJOOENG",
       "candles": [
         {
           "time": "2026-08-19",
-          "open": 196.65,
-          "high": 198.0,
-          "low": 194.35,
-          "close": 195.17,
-          "volume": 79152
+          "open": 51.2,
+          "high": 51.36,
+          "low": 49.97,
+          "close": 50.84,
+          "volume": 125916
         },
         {
           "time": "2026-08-20",
-          "open": 195.5,
-          "high": 198.8,
-          "low": 194.36,
-          "close": 195.7,
-          "volume": 97159
+          "open": 50.84,
+          "high": 50.97,
+          "low": 49.61,
+          "close": 50.12,
+          "volume": 193291
         },
         {
           "time": "2026-08-21",
-          "open": 195.45,
-          "high": 197.44,
-          "low": 188.56,
-          "close": 191.66,
-          "volume": 205762
+          "open": 50.31,
+          "high": 50.86,
+          "low": 49.17,
+          "close": 50.22,
+          "volume": 186264
         },
         {
           "time": "2026-08-24",
-          "open": 191.26,
-          "high": 196.83,
-          "low": 191.26,
-          "close": 194.05,
-          "volume": 82267
+          "open": 50.79,
+          "high": 50.79,
+          "low": 49.37,
+          "close": 49.79,
+          "volume": 157471
         },
         {
           "time": "2026-08-25",
-          "open": 194.05,
-          "high": 194.39,
-          "low": 189.0,
-          "close": 191.63,
-          "volume": 73619
+          "open": 50.11,
+          "high": 50.11,
+          "low": 48.88,
+          "close": 49.4,
+          "volume": 109323
         },
         {
           "time": "2026-08-26",
-          "open": 192.8,
-          "high": 195.0,
-          "low": 191.05,
-          "close": 192.08,
-          "volume": 77786
+          "open": 49.86,
+          "high": 50.25,
+          "low": 48.99,
+          "close": 49.26,
+          "volume": 100060
         },
         {
           "time": "2026-08-27",
-          "open": 191.3,
-          "high": 193.2,
-          "low": 185.0,
-          "close": 186.14,
-          "volume": 119881
+          "open": 49.86,
+          "high": 50.15,
+          "low": 49.08,
+          "close": 49.36,
+          "volume": 86940
         },
         {
           "time": "2026-08-28",
-          "open": 186.14,
-          "high": 217.7,
-          "low": 186.14,
-          "close": 213.72,
-          "volume": 6393359
+          "open": 49.36,
+          "high": 49.86,
+          "low": 48.97,
+          "close": 49.14,
+          "volume": 90221
         },
         {
           "time": "2026-08-31",
-          "open": 213.72,
-          "high": 223.39,
-          "low": 210.13,
-          "close": 215.48,
-          "volume": 1279645
+          "open": 49.18,
+          "high": 50.86,
+          "low": 46.72,
+          "close": 47.96,
+          "volume": 352322
         },
         {
           "time": "2026-09-01",
-          "open": 215.48,
-          "high": 216.93,
-          "low": 206.1,
-          "close": 207.53,
-          "volume": 215560
+          "open": 47.55,
+          "high": 49.66,
+          "low": 46.38,
+          "close": 49.32,
+          "volume": 365942
         },
         {
           "time": "2026-09-02",
-          "open": 204.5,
-          "high": 213.0,
-          "low": 203.0,
-          "close": 206.14,
-          "volume": 375682
+          "open": 49.31,
+          "high": 49.31,
+          "low": 47.93,
+          "close": 48.54,
+          "volume": 79982
         },
         {
           "time": "2026-09-03",
-          "open": 206.0,
-          "high": 209.9,
-          "low": 206.0,
-          "close": 208.31,
-          "volume": 140015
+          "open": 48.87,
+          "high": 49.37,
+          "low": 47.52,
+          "close": 49.01,
+          "volume": 164514
         },
         {
           "time": "2026-09-04",
-          "open": 209.99,
-          "high": 222.0,
-          "low": 209.2,
-          "close": 212.34,
-          "volume": 831128
+          "open": 49.49,
+          "high": 51.45,
+          "low": 48.87,
+          "close": 51.45,
+          "volume": 412844
         },
         {
           "time": "2026-09-07",
-          "open": 212.34,
-          "high": 212.34,
-          "low": 201.5,
-          "close": 202.98,
-          "volume": 279865
+          "open": 52.84,
+          "high": 54.01,
+          "low": 51.86,
+          "close": 54.01,
+          "volume": 496256
         },
         {
           "time": "2026-09-08",
-          "open": 202.0,
-          "high": 226.78,
-          "low": 201.98,
-          "close": 219.73,
-          "volume": 2263360
+          "open": 55.85,
+          "high": 56.65,
+          "low": 51.86,
+          "close": 53.55,
+          "volume": 403364
         },
         {
           "time": "2026-09-09",
-          "open": 219.73,
-          "high": 228.78,
-          "low": 218.12,
-          "close": 219.94,
-          "volume": 697005
+          "open": 53.55,
+          "high": 56.2,
+          "low": 51.91,
+          "close": 55.75,
+          "volume": 449747
         },
         {
           "time": "2026-09-10",
-          "open": 220.4,
-          "high": 235.0,
-          "low": 220.4,
-          "close": 231.73,
-          "volume": 2436372
+          "open": 55.64,
+          "high": 56.85,
+          "low": 54.0,
+          "close": 54.74,
+          "volume": 176989
         },
         {
           "time": "2026-09-11",
-          "open": 234.0,
-          "high": 238.8,
-          "low": 221.42,
-          "close": 223.87,
-          "volume": 1450380
+          "open": 54.74,
+          "high": 56.0,
+          "low": 52.49,
+          "close": 55.04,
+          "volume": 253434
         },
         {
           "time": "2026-09-15",
-          "open": 223.85,
-          "high": 223.87,
-          "low": 210.0,
-          "close": 211.06,
-          "volume": 350513
+          "open": 55.04,
+          "high": 55.95,
+          "low": 53.16,
+          "close": 53.81,
+          "volume": 169325
         },
         {
           "time": "2026-09-16",
-          "open": 211.06,
-          "high": 213.0,
-          "low": 199.19,
-          "close": 202.78,
-          "volume": 500954
+          "open": 54.84,
+          "high": 54.84,
+          "low": 51.13,
+          "close": 52.12,
+          "volume": 169408
         },
         {
           "time": "2026-09-17",
-          "open": 201.9,
-          "high": 207.89,
-          "low": 201.9,
-          "close": 205.83,
-          "volume": 193161
+          "open": 51.86,
+          "high": 54.05,
+          "low": 51.13,
+          "close": 53.16,
+          "volume": 196521
         },
         {
           "time": "2026-09-18",
-          "open": 206.62,
-          "high": 217.9,
-          "low": 205.68,
-          "close": 210.25,
-          "volume": 516858
+          "open": 53.83,
+          "high": 54.03,
+          "low": 51.16,
+          "close": 52.85,
+          "volume": 145991
         },
         {
           "time": "2026-09-21",
-          "open": 210.97,
-          "high": 215.78,
-          "low": 210.01,
-          "close": 211.68,
-          "volume": 182568
+          "open": 53.85,
+          "high": 55.44,
+          "low": 50.86,
+          "close": 55.08,
+          "volume": 578023
         },
         {
           "time": "2026-09-22",
-          "open": 213.68,
-          "high": 216.8,
-          "low": 203.83,
-          "close": 205.98,
-          "volume": 266100
+          "open": 54.63,
+          "high": 55.5,
+          "low": 53.57,
+          "close": 54.31,
+          "volume": 133368
         },
         {
           "time": "2026-09-23",
-          "open": 206.8,
-          "high": 212.0,
-          "low": 205.42,
-          "close": 207.89,
-          "volume": 188483
+          "open": 55.3,
+          "high": 55.8,
+          "low": 54.2,
+          "close": 55.25,
+          "volume": 236357
         },
         {
           "time": "2026-09-24",
-          "open": 207.89,
-          "high": 208.0,
-          "low": 202.75,
-          "close": 205.03,
-          "volume": 115942
+          "open": 55.7,
+          "high": 55.7,
+          "low": 53.2,
+          "close": 54.81,
+          "volume": 214508
         },
         {
           "time": "2026-09-25",
-          "open": 205.03,
-          "high": 206.5,
-          "low": 201.4,
-          "close": 205.43,
-          "volume": 149515
+          "open": 54.12,
+          "high": 54.95,
+          "low": 52.1,
+          "close": 53.08,
+          "volume": 273965
         },
         {
           "time": "2026-09-28",
-          "open": 206.6,
-          "high": 208.57,
-          "low": 199.0,
-          "close": 199.62,
-          "volume": 113100
+          "open": 53.49,
+          "high": 55.0,
+          "low": 52.17,
+          "close": 53.68,
+          "volume": 275473
         },
         {
           "time": "2026-09-29",
-          "open": 199.4,
-          "high": 200.34,
-          "low": 194.31,
-          "close": 197.3,
-          "volume": 153590
+          "open": 53.89,
+          "high": 54.4,
+          "low": 52.8,
+          "close": 53.32,
+          "volume": 110899
         },
         {
           "time": "2026-09-30",
-          "open": 198.75,
-          "high": 204.38,
-          "low": 195.22,
-          "close": 196.85,
-          "volume": 144490
+          "open": 53.32,
+          "high": 54.5,
+          "low": 52.61,
+          "close": 53.43,
+          "volume": 208140
         },
         {
           "time": "2026-10-01",
-          "open": 196.85,
-          "high": 199.85,
-          "low": 186.77,
-          "close": 190.96,
-          "volume": 133638
+          "open": 52.62,
+          "high": 54.5,
+          "low": 52.25,
+          "close": 53.21,
+          "volume": 194043
         },
         {
           "time": "2026-10-05",
-          "open": 195.0,
-          "high": 200.0,
-          "low": 190.21,
-          "close": 192.22,
-          "volume": 91418
+          "open": 54.95,
+          "high": 56.25,
+          "low": 53.57,
+          "close": 54.97,
+          "volume": 581746
         },
         {
           "time": "2026-10-06",
-          "open": 192.0,
-          "high": 198.2,
-          "low": 192.0,
-          "close": 195.87,
-          "volume": 80513
+          "open": 55.4,
+          "high": 57.5,
+          "low": 54.11,
+          "close": 56.95,
+          "volume": 838914
         },
         {
           "time": "2026-10-07",
-          "open": 194.99,
-          "high": 195.84,
-          "low": 188.25,
-          "close": 191.05,
-          "volume": 128405
+          "open": 57.74,
+          "high": 62.9,
+          "low": 56.76,
+          "close": 62.37,
+          "volume": 2912369
         },
         {
           "time": "2026-10-08",
-          "open": 192.0,
-          "high": 192.98,
-          "low": 180.0,
-          "close": 181.05,
-          "volume": 210057
+          "open": 63.9,
+          "high": 66.5,
+          "low": 58.8,
+          "close": 59.92,
+          "volume": 2689885
         },
         {
           "time": "2026-10-09",
-          "open": 181.05,
-          "high": 185.56,
-          "low": 176.28,
-          "close": 179.27,
-          "volume": 193297
+          "open": 60.02,
+          "high": 60.99,
+          "low": 57.5,
+          "close": 59.45,
+          "volume": 939402
         },
         {
           "time": "2026-10-12",
-          "open": 179.3,
-          "high": 186.89,
-          "low": 179.3,
-          "close": 184.09,
-          "volume": 97845
+          "open": 60.8,
+          "high": 63.23,
+          "low": 59.96,
+          "close": 62.2,
+          "volume": 819727
         },
         {
           "time": "2026-10-13",
-          "open": 185.44,
-          "high": 185.44,
-          "low": 179.05,
-          "close": 184.19,
-          "volume": 73557
+          "open": 62.94,
+          "high": 62.94,
+          "low": 60.0,
+          "close": 61.14,
+          "volume": 383548
         },
         {
           "time": "2026-10-14",
-          "open": 183.95,
-          "high": 192.0,
-          "low": 182.93,
-          "close": 185.53,
-          "volume": 114013
+          "open": 61.24,
+          "high": 62.4,
+          "low": 60.21,
+          "close": 60.88,
+          "volume": 315542
         },
         {
           "time": "2026-10-15",
-          "open": 185.53,
-          "high": 186.19,
-          "low": 180.36,
-          "close": 181.71,
-          "volume": 79009
+          "open": 61.0,
+          "high": 61.55,
+          "low": 57.0,
+          "close": 58.51,
+          "volume": 452261
         },
         {
           "time": "2026-10-16",
-          "open": 179.8,
-          "high": 186.88,
-          "low": 179.8,
-          "close": 185.27,
-          "volume": 80370
+          "open": 58.5,
+          "high": 61.27,
+          "low": 58.0,
+          "close": 60.06,
+          "volume": 348459
         },
         {
           "time": "2026-10-19",
-          "open": 186.47,
-          "high": 186.47,
-          "low": 179.5,
-          "close": 180.47,
-          "volume": 54984
+          "open": 60.06,
+          "high": 60.5,
+          "low": 56.89,
+          "close": 59.95,
+          "volume": 594947
         },
         {
           "time": "2026-10-21",
-          "open": 180.0,
-          "high": 180.47,
-          "low": 166.0,
-          "close": 167.57,
-          "volume": 259397
+          "open": 59.5,
+          "high": 59.51,
+          "low": 53.51,
+          "close": 56.36,
+          "volume": 753769
         },
         {
           "time": "2026-10-22",
-          "open": 167.46,
-          "high": 173.32,
-          "low": 165.5,
-          "close": 168.94,
-          "volume": 144746
+          "open": 55.05,
+          "high": 57.8,
+          "low": 53.89,
+          "close": 57.37,
+          "volume": 400581
         },
         {
           "time": "2026-10-23",
-          "open": 170.12,
-          "high": 170.12,
-          "low": 159.11,
-          "close": 167.28,
-          "volume": 195362
+          "open": 55.5,
+          "high": 59.5,
+          "low": 54.2,
+          "close": 57.43,
+          "volume": 670650
         },
         {
           "time": "2026-10-26",
-          "open": 167.28,
-          "high": 167.63,
-          "low": 162.0,
-          "close": 163.78,
-          "volume": 76106
+          "open": 51.4,
+          "high": 52.84,
+          "low": 48.59,
+          "close": 52.02,
+          "volume": 1433205
         },
         {
           "time": "2026-10-27",
-          "open": 162.39,
-          "high": 170.31,
-          "low": 162.39,
-          "close": 166.12,
-          "volume": 91487
+          "open": 51.66,
+          "high": 53.09,
+          "low": 50.27,
+          "close": 51.9,
+          "volume": 461511
         },
         {
           "time": "2026-10-28",
-          "open": 166.95,
-          "high": 167.18,
-          "low": 161.43,
-          "close": 165.82,
-          "volume": 68051
+          "open": 51.9,
+          "high": 52.71,
+          "low": 50.98,
+          "close": 51.94,
+          "volume": 213233
         },
         {
           "time": "2026-10-29",
-          "open": 165.0,
-          "high": 168.5,
-          "low": 163.29,
-          "close": 167.48,
-          "volume": 49149
+          "open": 52.8,
+          "high": 53.4,
+          "low": 51.5,
+          "close": 51.99,
+          "volume": 241413
         },
         {
           "time": "2026-10-30",
-          "open": 167.48,
-          "high": 170.01,
-          "low": 159.2,
-          "close": 161.01,
-          "volume": 86315
+          "open": 51.99,
+          "high": 53.88,
+          "low": 50.69,
+          "close": 52.3,
+          "volume": 304643
         },
         {
           "time": "2026-11-02",
-          "open": 161.01,
-          "high": 169.5,
-          "low": 159.7,
-          "close": 168.0,
-          "volume": 84225
+          "open": 52.0,
+          "high": 54.13,
+          "low": 50.62,
+          "close": 53.3,
+          "volume": 281759
         },
         {
           "time": "2026-11-03",
-          "open": 169.38,
-          "high": 171.05,
-          "low": 165.4,
-          "close": 166.72,
-          "volume": 49378
+          "open": 53.7,
+          "high": 56.5,
+          "low": 53.06,
+          "close": 55.48,
+          "volume": 517307
         },
         {
           "time": "2026-11-04",
-          "open": 166.0,
-          "high": 174.4,
-          "low": 165.51,
-          "close": 173.94,
-          "volume": 109368
+          "open": 55.48,
+          "high": 56.9,
+          "low": 54.26,
+          "close": 56.3,
+          "volume": 195099
         },
         {
           "time": "2026-11-05",
-          "open": 175.6,
-          "high": 178.7,
-          "low": 170.0,
-          "close": 173.9,
-          "volume": 207540
+          "open": 56.9,
+          "high": 57.9,
+          "low": 55.05,
+          "close": 55.47,
+          "volume": 186807
         },
         {
           "time": "2026-11-06",
-          "open": 177.7,
-          "high": 208.68,
-          "low": 173.9,
-          "close": 196.69,
-          "volume": 19075884
+          "open": 55.89,
+          "high": 56.36,
+          "low": 54.26,
+          "close": 55.42,
+          "volume": 228336
         },
         {
           "time": "2026-11-09",
-          "open": 200.0,
-          "high": 204.72,
-          "low": 196.01,
-          "close": 198.1,
-          "volume": 400129
+          "open": 57.0,
+          "high": 57.81,
+          "low": 55.5,
+          "close": 56.7,
+          "volume": 173680
         },
         {
           "time": "2026-11-11",
-          "open": 198.1,
-          "high": 201.0,
-          "low": 195.0,
-          "close": 196.13,
-          "volume": 178079
+          "open": 56.75,
+          "high": 58.25,
+          "low": 55.17,
+          "close": 55.73,
+          "volume": 284048
         },
         {
           "time": "2026-11-12",
-          "open": 199.94,
-          "high": 199.94,
-          "low": 194.11,
-          "close": 196.42,
-          "volume": 136326
+          "open": 56.34,
+          "high": 56.83,
+          "low": 54.51,
+          "close": 55.5,
+          "volume": 210273
         },
         {
           "time": "2026-11-13",
-          "open": 196.45,
-          "high": 197.95,
-          "low": 191.2,
-          "close": 192.5,
-          "volume": 109613
+          "open": 54.95,
+          "high": 57.5,
+          "low": 54.6,
+          "close": 56.91,
+          "volume": 497398
         },
         {
           "time": "2026-11-16",
-          "open": 192.5,
-          "high": 196.79,
-          "low": 187.17,
-          "close": 190.01,
-          "volume": 133635
+          "open": 56.13,
+          "high": 58.49,
+          "low": 55.0,
+          "close": 56.53,
+          "volume": 217456
         }
       ],
-      "name": "IKIO Technologies Ltd",
+      "name": "Rajoo Engineers Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9170.09",
-      "current_price": 190.01,
-      "prev_close": 192.5,
-      "day_change_pct": -1.29,
-      "52w_high": 238.8,
-      "52w_low": 103.53,
-      "pct_from_52w_high": -20.43,
-      "pct_from_52w_low": 83.53,
-      "sma_20": 177.31,
-      "sma_50": 191.94,
-      "sma_200": 170.34,
-      "rsi_14": 55.2,
-      "macd_val": 1.59,
-      "macd_signal": -2.05,
-      "macd_hist": 3.65,
-      "vol_surge_ratio": 0.12,
-      "pe_ratio": 29.46,
+      "tracking_notes": "Spark Sheet: \u20b956.65",
+      "current_price": 56.53,
+      "prev_close": 56.91,
+      "day_change_pct": -0.67,
+      "52w_high": 83.57,
+      "52w_low": 45.88,
+      "pct_from_52w_high": -32.36,
+      "pct_from_52w_low": 23.21,
+      "sma_20": 55.43,
+      "sma_50": 55.3,
+      "sma_200": 56.41,
+      "rsi_14": 53.3,
+      "macd_val": 0.13,
+      "macd_signal": -0.04,
+      "macd_hist": 0.17,
+      "vol_surge_ratio": 0.53,
+      "pe_ratio": 23.65,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 2.35,
-      "roe": 8.6,
-      "profit_margins": 7.0,
-      "operating_margins": 9.7,
-      "debt_to_equity": 0.14,
+      "pb_ratio": 2.76,
+      "roe": 12.5,
+      "profit_margins": 11.2,
+      "operating_margins": 11.9,
+      "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 27.1,
-      "earnings_growth_yoy": 9.2,
-      "q_sales_growth": 27.1,
-      "q_pat_growth": 9.2,
-      "free_cash_flow": -1149544960.0,
-      "target_mean_price": 190.01,
+      "rev_growth_yoy": 10.5,
+      "earnings_growth_yoy": -39.5,
+      "q_sales_growth": 10.5,
+      "q_pat_growth": -39.5,
+      "free_cash_flow": -217705504.0,
+      "target_mean_price": 56.53,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
-      "dividend_yield": 0.0,
-      "promoter_holding": 73.8,
-      "institutional_holding": 0.9,
-      "public_holding": 25.3,
+      "dividend_yield": 26.0,
+      "promoter_holding": 62.3,
+      "institutional_holding": 0.0,
+      "public_holding": 37.7,
       "pledged_pct": 0.0,
       "is_20d_high_breakout": 0,
       "is_20d_low_breakdown": 0,
       "is_52w_high_breakout": 0,
       "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 209.1,
-      "sell_trigger_level": 158.79,
-      "dist_from_prev_close": 8.62,
+      "buy_trigger_level": 61.67,
+      "sell_trigger_level": 48.49,
+      "dist_from_prev_close": 8.36,
       "is_breakout_done_today": 0,
       "upcoming_event_str": "None",
       "strengths": [
-        "Strong YoY Sales Growth (+27.1%)",
-        "Healthy Low Debt (D/E 0.14)",
+        "Healthy Low Debt (D/E 0.06)",
         "Trading Above 200-Day EMA Long-term Uptrend"
       ],
       "weaknesses": [
-        "No Major Red Flags Detected"
+        "Earnings De-growth YoY (-39.5%)"
       ],
-      "fundamental_score": 25.0,
-      "technical_score": 27.0,
-      "composite_score": 59,
-      "long_term_signal": "HOLD",
+      "fundamental_score": 18.0,
+      "technical_score": 35.0,
+      "composite_score": 60,
+      "long_term_signal": "ACCUMULATE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 152.56,
-      "swing_target_1": 242.03,
-      "swing_target_2": 277.4,
+      "swing_stoploss": 51.49,
+      "swing_target_1": 63.53,
+      "swing_target_2": 68.28,
       "rationale": [
-        "YoY Revenue up 27.1%",
+        "YoY Revenue up 10.5%",
         "Above 200-day EMA long-term uptrend"
       ],
-      "corporate_actions": [],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 209.1,
-      "wyckoff_ice": 158.79,
-      "wyckoff_breakout": 209.1,
-      "wyckoff_dist_to_breakout_pct": 10.05,
-      "wyckoff_stoploss": 155.61,
-      "wyckoff_stoploss_pct": 18.1,
-      "wyckoff_target_1": 259.41,
-      "wyckoff_target_2": 309.72,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b9158.79 (Ice) to \u20b9209.1 (Creek).",
-        "Consolidation inside 50.31 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
-      ]
-    },
-    {
-      "symbol": "GRSE.NS",
-      "clean_symbol": "GRSE",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 2681.3,
-          "high": 2698.25,
-          "low": 2622.47,
-          "close": 2630.75,
-          "volume": 479078
-        },
-        {
-          "time": "2026-08-20",
-          "open": 2643.41,
-          "high": 2648.0,
-          "low": 2604.52,
-          "close": 2610.3,
-          "volume": 279800
-        },
-        {
-          "time": "2026-08-21",
-          "open": 2606.51,
-          "high": 2652.28,
-          "low": 2585.48,
-          "close": 2594.05,
-          "volume": 363828
-        },
-        {
-          "time": "2026-08-24",
-          "open": 2606.51,
-          "high": 2654.98,
-          "low": 2581.59,
-          "close": 2588.67,
-          "volume": 489377
-        },
-        {
-          "time": "2026-08-25",
-          "open": 2584.88,
-          "high": 2614.49,
-          "low": 2569.62,
-          "close": 2600.03,
-          "volume": 344854
-        },
-        {
-          "time": "2026-08-26",
-          "open": 2610.4,
-          "high": 2669.43,
-          "low": 2593.55,
-          "close": 2622.77,
-          "volume": 737510
-        },
-        {
-          "time": "2026-08-27",
-          "open": 2631.44,
-          "high": 2658.27,
-          "low": 2624.96,
-          "close": 2635.43,
-          "volume": 384851
-        },
-        {
-          "time": "2026-08-28",
-          "open": 2634.43,
-          "high": 2642.41,
-          "low": 2599.63,
-          "close": 2605.42,
-          "volume": 199226
-        },
-        {
-          "time": "2026-08-31",
-          "open": 2604.62,
-          "high": 2604.62,
-          "low": 2535.82,
-          "close": 2558.15,
-          "volume": 393623
-        },
-        {
-          "time": "2026-09-01",
-          "open": 2556.66,
-          "high": 2563.74,
-          "low": 2506.4,
-          "close": 2522.95,
-          "volume": 327932
-        },
-        {
-          "time": "2026-09-02",
-          "open": 2515.78,
-          "high": 2527.74,
-          "low": 2479.88,
-          "close": 2487.96,
-          "volume": 273379
-        },
-        {
-          "time": "2026-09-03",
-          "open": 2499.82,
-          "high": 2529.24,
-          "low": 2493.84,
-          "close": 2502.61,
-          "volume": 270890
-        },
-        {
-          "time": "2026-09-04",
-          "open": 2510.69,
-          "high": 2557.06,
-          "low": 2510.69,
-          "close": 2525.95,
-          "volume": 299818
-        },
-        {
-          "time": "2026-09-07",
-          "open": 2522.76,
-          "high": 2535.22,
-          "low": 2494.84,
-          "close": 2499.42,
-          "volume": 215499
-        },
-        {
-          "time": "2026-09-08",
-          "open": 2510.79,
-          "high": 2561.54,
-          "low": 2504.81,
-          "close": 2518.47,
-          "volume": 348575
-        },
-        {
-          "time": "2026-09-09",
-          "open": 2518.47,
-          "high": 2545.99,
-          "low": 2480.98,
-          "close": 2486.76,
-          "volume": 237008
-        },
-        {
-          "time": "2026-09-10",
-          "open": 2490.85,
-          "high": 2501.42,
-          "low": 2412.07,
-          "close": 2428.33,
-          "volume": 370821
-        },
-        {
-          "time": "2026-09-11",
-          "open": 2411.08,
-          "high": 2442.19,
-          "low": 2352.94,
-          "close": 2420.55,
-          "volume": 460144
-        },
-        {
-          "time": "2026-09-15",
-          "open": 2427.53,
-          "high": 2430.62,
-          "low": 2343.27,
-          "close": 2352.05,
-          "volume": 270785
-        },
-        {
-          "time": "2026-09-16",
-          "open": 2363.21,
-          "high": 2363.21,
-          "low": 2283.44,
-          "close": 2307.97,
-          "volume": 428399
-        },
-        {
-          "time": "2026-09-17",
-          "open": 2313.16,
-          "high": 2365.11,
-          "low": 2313.06,
-          "close": 2333.1,
-          "volume": 269660
-        },
-        {
-          "time": "2026-09-18",
-          "open": 2349.0,
-          "high": 2430.0,
-          "low": 2345.0,
-          "close": 2411.8,
-          "volume": 531793
-        },
-        {
-          "time": "2026-09-21",
-          "open": 2408.0,
-          "high": 2418.8,
-          "low": 2366.1,
-          "close": 2372.2,
-          "volume": 180334
-        },
-        {
-          "time": "2026-09-22",
-          "open": 2390.2,
-          "high": 2459.2,
-          "low": 2386.9,
-          "close": 2399.7,
-          "volume": 584333
-        },
-        {
-          "time": "2026-09-23",
-          "open": 2407.0,
-          "high": 2415.3,
-          "low": 2376.0,
-          "close": 2380.6,
-          "volume": 190681
-        },
-        {
-          "time": "2026-09-24",
-          "open": 2365.0,
-          "high": 2369.3,
-          "low": 2333.5,
-          "close": 2344.0,
-          "volume": 197066
-        },
-        {
-          "time": "2026-09-25",
-          "open": 2344.1,
-          "high": 2355.0,
-          "low": 2303.0,
-          "close": 2319.0,
-          "volume": 252777
-        },
-        {
-          "time": "2026-09-28",
-          "open": 2316.0,
-          "high": 2316.0,
-          "low": 2236.8,
-          "close": 2245.3,
-          "volume": 389363
-        },
-        {
-          "time": "2026-09-29",
-          "open": 2234.0,
-          "high": 2242.7,
-          "low": 2191.9,
-          "close": 2206.1,
-          "volume": 428953
-        },
-        {
-          "time": "2026-09-30",
-          "open": 2215.0,
-          "high": 2235.1,
-          "low": 2175.0,
-          "close": 2181.9,
-          "volume": 377318
-        },
-        {
-          "time": "2026-10-01",
-          "open": 2170.0,
-          "high": 2173.0,
-          "low": 2077.0,
-          "close": 2111.1,
-          "volume": 571755
-        },
-        {
-          "time": "2026-10-05",
-          "open": 2122.0,
-          "high": 2158.8,
-          "low": 2103.5,
-          "close": 2110.4,
-          "volume": 365792
-        },
-        {
-          "time": "2026-10-06",
-          "open": 2120.0,
-          "high": 2143.6,
-          "low": 2109.1,
-          "close": 2137.3,
-          "volume": 287612
-        },
-        {
-          "time": "2026-10-07",
-          "open": 2130.0,
-          "high": 2130.1,
-          "low": 2092.0,
-          "close": 2102.0,
-          "volume": 279451
-        },
-        {
-          "time": "2026-10-08",
-          "open": 2102.0,
-          "high": 2105.0,
-          "low": 2008.6,
-          "close": 2014.0,
-          "volume": 516394
-        },
-        {
-          "time": "2026-10-09",
-          "open": 2033.1,
-          "high": 2072.0,
-          "low": 2000.0,
-          "close": 2046.0,
-          "volume": 428518
-        },
-        {
-          "time": "2026-10-12",
-          "open": 2062.0,
-          "high": 2142.9,
-          "low": 2058.6,
-          "close": 2081.9,
-          "volume": 551916
-        },
-        {
-          "time": "2026-10-13",
-          "open": 2094.0,
-          "high": 2148.0,
-          "low": 2058.0,
-          "close": 2140.5,
-          "volume": 538093
-        },
-        {
-          "time": "2026-10-14",
-          "open": 2138.1,
-          "high": 2172.7,
-          "low": 2118.1,
-          "close": 2140.9,
-          "volume": 282124
-        },
-        {
-          "time": "2026-10-15",
-          "open": 2128.0,
-          "high": 2142.0,
-          "low": 2094.0,
-          "close": 2102.4,
-          "volume": 377160
-        },
-        {
-          "time": "2026-10-16",
-          "open": 2114.0,
-          "high": 2134.0,
-          "low": 2103.4,
-          "close": 2120.2,
-          "volume": 220307
-        },
-        {
-          "time": "2026-10-19",
-          "open": 2118.0,
-          "high": 2119.4,
-          "low": 2082.9,
-          "close": 2085.8,
-          "volume": 207103
-        },
-        {
-          "time": "2026-10-21",
-          "open": 2090.0,
-          "high": 2100.9,
-          "low": 2010.0,
-          "close": 2024.1,
-          "volume": 286982
-        },
-        {
-          "time": "2026-10-22",
-          "open": 1977.0,
-          "high": 1977.4,
-          "low": 1866.1,
-          "close": 1955.8,
-          "volume": 1433526
-        },
-        {
-          "time": "2026-10-23",
-          "open": 1950.0,
-          "high": 1951.1,
-          "low": 1853.0,
-          "close": 1861.0,
-          "volume": 650226
-        },
-        {
-          "time": "2026-10-26",
-          "open": 1861.0,
-          "high": 1918.0,
-          "low": 1842.0,
-          "close": 1869.1,
-          "volume": 521183
-        },
-        {
-          "time": "2026-10-27",
-          "open": 1891.0,
-          "high": 1995.1,
-          "low": 1887.0,
-          "close": 1930.9,
-          "volume": 1043497
-        },
-        {
-          "time": "2026-10-28",
-          "open": 1913.8,
-          "high": 1920.5,
-          "low": 1880.1,
-          "close": 1897.6,
-          "volume": 318545
-        },
-        {
-          "time": "2026-10-29",
-          "open": 1898.8,
-          "high": 1928.3,
-          "low": 1890.5,
-          "close": 1923.2,
-          "volume": 283103
-        },
-        {
-          "time": "2026-10-30",
-          "open": 2011.3,
-          "high": 2027.9,
-          "low": 1917.6,
-          "close": 1943.7,
-          "volume": 1747020
-        },
-        {
-          "time": "2026-11-02",
-          "open": 1945.0,
-          "high": 2063.8,
-          "low": 1914.8,
-          "close": 2046.8,
-          "volume": 1140304
-        },
-        {
-          "time": "2026-11-03",
-          "open": 2085.6,
-          "high": 2235.0,
-          "low": 2050.6,
-          "close": 2131.0,
-          "volume": 4382427
-        },
-        {
-          "time": "2026-11-04",
-          "open": 2123.0,
-          "high": 2162.0,
-          "low": 2062.2,
-          "close": 2143.4,
-          "volume": 986436
-        },
-        {
-          "time": "2026-11-05",
-          "open": 2189.0,
-          "high": 2199.0,
-          "low": 2109.8,
-          "close": 2137.2,
-          "volume": 522583
-        },
-        {
-          "time": "2026-11-06",
-          "open": 2114.3,
-          "high": 2145.9,
-          "low": 2093.1,
-          "close": 2135.7,
-          "volume": 352048
-        },
-        {
-          "time": "2026-11-09",
-          "open": 2150.0,
-          "high": 2207.0,
-          "low": 2125.4,
-          "close": 2198.1,
-          "volume": 605104
-        },
-        {
-          "time": "2026-11-11",
-          "open": 2217.0,
-          "high": 2270.0,
-          "low": 2144.4,
-          "close": 2225.4,
-          "volume": 1414072
-        },
-        {
-          "time": "2026-11-12",
-          "open": 2230.5,
-          "high": 2274.2,
-          "low": 2195.5,
-          "close": 2211.5,
-          "volume": 834567
-        },
-        {
-          "time": "2026-11-13",
-          "open": 2209.9,
-          "high": 2211.0,
-          "low": 2175.0,
-          "close": 2184.8,
-          "volume": 315996
-        },
-        {
-          "time": "2026-11-16",
-          "open": 2184.8,
-          "high": 2185.4,
-          "low": 2123.2,
-          "close": 2124.9,
-          "volume": 265524
-        }
-      ],
-      "name": "Garden Reach Shipbuilders & Enginers Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b92,489.80",
-      "current_price": 2124.9,
-      "prev_close": 2184.8,
-      "day_change_pct": -2.74,
-      "52w_high": 3329.44,
-      "52w_low": 1842.0,
-      "pct_from_52w_high": -36.18,
-      "pct_from_52w_low": 15.36,
-      "sma_20": 2057.51,
-      "sma_50": 2197.21,
-      "sma_200": 2483.95,
-      "rsi_14": 49.8,
-      "macd_val": 4.92,
-      "macd_signal": -24.32,
-      "macd_hist": 29.24,
-      "vol_surge_ratio": 0.3,
-      "pe_ratio": 29.73,
-      "forward_pe": 25.36,
-      "peg_ratio": 0.0,
-      "pb_ratio": 8.4,
-      "roe": 31.5,
-      "profit_margins": 10.7,
-      "operating_margins": 10.8,
-      "debt_to_equity": 0.01,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 12.4,
-      "earnings_growth_yoy": 11.8,
-      "q_sales_growth": 12.4,
-      "q_pat_growth": 11.8,
-      "free_cash_flow": -2095968128.0,
-      "target_mean_price": 2873.62,
-      "analyst_upside_pct": 35.2,
-      "recommendation_key": "Buy",
-      "dividend_yield": 63.0,
-      "promoter_holding": 74.5,
-      "institutional_holding": 3.6,
-      "public_holding": 21.9,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 2278.75,
-      "sell_trigger_level": 1838.32,
-      "dist_from_prev_close": 4.3,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "High Return on Equity (31.5% ROE)",
-        "Healthy Low Debt (D/E 0.01)"
-      ],
-      "weaknesses": [
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 27.0,
-      "technical_score": 17.0,
-      "composite_score": 59,
-      "long_term_signal": "HOLD",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1821.13,
-      "swing_target_1": 2546.8,
-      "swing_target_2": 2833.7,
-      "rationale": [
-        "YoY Revenue up 12.4%",
-        "YoY Profit up 11.8%"
-      ],
       "corporate_actions": [
-        "Attractive Dividend Yield: 63.00%"
+        "Attractive Dividend Yield: 26.00%"
       ],
       "events": null,
       "wyckoff_phase": "Phase B",
       "wyckoff_structure": "Accumulation",
       "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 2278.75,
-      "wyckoff_ice": 1838.32,
-      "wyckoff_breakout": 2278.75,
-      "wyckoff_dist_to_breakout_pct": 7.24,
-      "wyckoff_stoploss": 1801.55,
-      "wyckoff_stoploss_pct": 15.22,
-      "wyckoff_target_1": 2719.18,
-      "wyckoff_target_2": 3159.61,
+      "wyckoff_creek": 61.67,
+      "wyckoff_ice": 48.49,
+      "wyckoff_breakout": 61.67,
+      "wyckoff_dist_to_breakout_pct": 9.09,
+      "wyckoff_stoploss": 47.52,
+      "wyckoff_stoploss_pct": 15.94,
+      "wyckoff_target_1": 74.85,
+      "wyckoff_target_2": 88.03,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b91838.32 (Ice) to \u20b92278.75 (Creek).",
-        "Consolidation inside 440.43 pts horizontal range.",
+        "Phase B Cause Building inside Trading Range: \u20b948.49 (Ice) to \u20b961.67 (Creek).",
+        "Consolidation inside 13.18 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -39274,7 +39271,7 @@ window.stockData = {
           "high": 4165.9,
           "low": 4115.0,
           "close": 4140.0,
-          "volume": 1177239
+          "volume": 1136716
         }
       ],
       "name": "Larsen and Toubro Ltd",
@@ -39295,7 +39292,7 @@ window.stockData = {
       "macd_val": 108.33,
       "macd_signal": 72.46,
       "macd_hist": 35.87,
-      "vol_surge_ratio": 0.49,
+      "vol_surge_ratio": 0.47,
       "pe_ratio": 31.89,
       "forward_pe": 22.98,
       "peg_ratio": 1.06,
@@ -39853,30 +39850,30 @@ window.stockData = {
           "open": 58.22,
           "high": 58.22,
           "low": 56.08,
-          "close": 57.9,
-          "volume": 627160
+          "close": 57.45,
+          "volume": 626952
         }
       ],
       "name": "Oricon Enterprises Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b959.33",
-      "current_price": 57.9,
+      "current_price": 57.45,
       "prev_close": 58.22,
-      "day_change_pct": -0.55,
+      "day_change_pct": -1.32,
       "52w_high": 72.84,
       "52w_low": 44.62,
-      "pct_from_52w_high": -20.51,
-      "pct_from_52w_low": 29.76,
-      "sma_20": 54.27,
-      "sma_50": 53.0,
+      "pct_from_52w_high": -21.13,
+      "pct_from_52w_low": 28.75,
+      "sma_20": 54.25,
+      "sma_50": 52.99,
       "sma_200": 59.12,
-      "rsi_14": 62.1,
-      "macd_val": 1.15,
+      "rsi_14": 60.3,
+      "macd_val": 1.11,
       "macd_signal": 0.9,
-      "macd_hist": 0.25,
+      "macd_hist": 0.22,
       "vol_surge_ratio": 1.64,
-      "pe_ratio": 66.55,
+      "pe_ratio": 66.03,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 0.7,
@@ -39890,7 +39887,7 @@ window.stockData = {
       "q_sales_growth": 94.3,
       "q_pat_growth": 48.2,
       "free_cash_flow": -1339536768.0,
-      "target_mean_price": 57.9,
+      "target_mean_price": 57.45,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 34.0,
@@ -39922,9 +39919,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 53.66,
-      "swing_target_1": 63.79,
-      "swing_target_2": 67.8,
+      "swing_stoploss": 53.31,
+      "swing_target_1": 63.19,
+      "swing_target_2": 67.1,
       "rationale": [
         "YoY Revenue up 94.3%",
         "YoY Profit up 48.2%"
@@ -39939,9 +39936,9 @@ window.stockData = {
       "wyckoff_creek": 58.82,
       "wyckoff_ice": 44.53,
       "wyckoff_breakout": 58.82,
-      "wyckoff_dist_to_breakout_pct": 1.59,
+      "wyckoff_dist_to_breakout_pct": 2.38,
       "wyckoff_stoploss": 43.64,
-      "wyckoff_stoploss_pct": 24.63,
+      "wyckoff_stoploss_pct": 24.04,
       "wyckoff_target_1": 73.11,
       "wyckoff_target_2": 87.4,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -40433,7 +40430,7 @@ window.stockData = {
           "high": 96.76,
           "low": 94.27,
           "close": 94.9,
-          "volume": 6247794
+          "volume": 6102389
         }
       ],
       "name": "Vishal Mega Mart Ltd",
@@ -40454,7 +40451,7 @@ window.stockData = {
       "macd_val": -0.5,
       "macd_signal": -1.72,
       "macd_hist": 1.22,
-      "vol_surge_ratio": 0.62,
+      "vol_surge_ratio": 0.61,
       "pe_ratio": 49.95,
       "forward_pe": 35.92,
       "peg_ratio": 0.0,
@@ -41004,34 +41001,34 @@ window.stockData = {
           "time": "2026-11-16",
           "open": 544.0,
           "high": 546.25,
-          "low": 510.0,
-          "close": 514.75,
-          "volume": 925404
+          "low": 509.85,
+          "close": 512.95,
+          "volume": 925385
         }
       ],
       "name": "Blue Jet Healthcare Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9489.96",
-      "current_price": 514.75,
+      "current_price": 512.95,
       "prev_close": 539.35,
-      "day_change_pct": -4.56,
+      "day_change_pct": -4.89,
       "52w_high": 646.45,
       "52w_low": 324.32,
-      "pct_from_52w_high": -20.37,
-      "pct_from_52w_low": 58.72,
-      "sma_20": 515.95,
-      "sma_50": 539.5,
-      "sma_200": 489.68,
-      "rsi_14": 45.8,
-      "macd_val": 0.84,
-      "macd_signal": -2.68,
-      "macd_hist": 3.52,
+      "pct_from_52w_high": -20.65,
+      "pct_from_52w_low": 58.16,
+      "sma_20": 515.86,
+      "sma_50": 539.46,
+      "sma_200": 489.67,
+      "rsi_14": 45.3,
+      "macd_val": 0.7,
+      "macd_signal": -2.7,
+      "macd_hist": 3.4,
       "vol_surge_ratio": 0.93,
-      "pe_ratio": 32.11,
-      "forward_pe": 26.4,
+      "pe_ratio": 32.0,
+      "forward_pe": 26.31,
       "peg_ratio": 0.0,
-      "pb_ratio": 4.2,
+      "pb_ratio": 4.19,
       "roe": 16.1,
       "profit_margins": 26.0,
       "operating_margins": 28.6,
@@ -41043,7 +41040,7 @@ window.stockData = {
       "q_pat_growth": 81.4,
       "free_cash_flow": -1703893760.0,
       "target_mean_price": 563.0,
-      "analyst_upside_pct": 9.4,
+      "analyst_upside_pct": 9.8,
       "recommendation_key": "Hold",
       "dividend_yield": 22.0,
       "promoter_holding": 76.0,
@@ -41074,9 +41071,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 449.99,
-      "swing_target_1": 604.69,
-      "swing_target_2": 665.86,
+      "swing_stoploss": 448.03,
+      "swing_target_1": 603.11,
+      "swing_target_2": 664.42,
       "rationale": [
         "YoY Revenue up 127.1%",
         "YoY Profit up 81.4%",
@@ -41092,9 +41089,9 @@ window.stockData = {
       "wyckoff_creek": 604.16,
       "wyckoff_ice": 461.28,
       "wyckoff_breakout": 604.16,
-      "wyckoff_dist_to_breakout_pct": 17.37,
+      "wyckoff_dist_to_breakout_pct": 17.78,
       "wyckoff_stoploss": 452.05,
-      "wyckoff_stoploss_pct": 12.18,
+      "wyckoff_stoploss_pct": 11.87,
       "wyckoff_target_1": 747.04,
       "wyckoff_target_2": 889.92,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -41586,7 +41583,7 @@ window.stockData = {
           "high": 2839.0,
           "low": 2744.2,
           "close": 2777.0,
-          "volume": 689250
+          "volume": 679430
         }
       ],
       "name": "Muthoot Finance Ltd",
@@ -41607,7 +41604,7 @@ window.stockData = {
       "macd_val": 57.07,
       "macd_signal": 14.61,
       "macd_hist": 42.46,
-      "vol_surge_ratio": 0.79,
+      "vol_surge_ratio": 0.78,
       "pe_ratio": 9.14,
       "forward_pe": 8.38,
       "peg_ratio": 0.0,
@@ -42165,30 +42162,30 @@ window.stockData = {
           "open": 47.61,
           "high": 48.1,
           "low": 47.02,
-          "close": 47.15,
-          "volume": 619179
+          "close": 47.47,
+          "volume": 618679
         }
       ],
       "name": "DCW Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b946.36",
-      "current_price": 47.15,
+      "current_price": 47.47,
       "prev_close": 47.97,
-      "day_change_pct": -1.71,
+      "day_change_pct": -1.04,
       "52w_high": 71.05,
       "52w_low": 36.95,
-      "pct_from_52w_high": -33.64,
-      "pct_from_52w_low": 27.6,
-      "sma_20": 44.62,
-      "sma_50": 45.52,
+      "pct_from_52w_high": -33.19,
+      "pct_from_52w_low": 28.47,
+      "sma_20": 44.63,
+      "sma_50": 45.53,
       "sma_200": 46.17,
-      "rsi_14": 57.2,
-      "macd_val": 0.79,
+      "rsi_14": 58.8,
+      "macd_val": 0.82,
       "macd_signal": 0.34,
-      "macd_hist": 0.45,
+      "macd_hist": 0.47,
       "vol_surge_ratio": 0.6,
-      "pe_ratio": 20.5,
+      "pe_ratio": 20.64,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 1.25,
@@ -42202,7 +42199,7 @@ window.stockData = {
       "q_sales_growth": 22.9,
       "q_pat_growth": -25.5,
       "free_cash_flow": 1111965184.0,
-      "target_mean_price": 47.15,
+      "target_mean_price": 47.47,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 63.0,
@@ -42234,9 +42231,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 42.25,
-      "swing_target_1": 53.95,
-      "swing_target_2": 58.58,
+      "swing_stoploss": 42.52,
+      "swing_target_1": 54.34,
+      "swing_target_2": 59.01,
       "rationale": [
         "YoY Revenue up 22.9%",
         "Above 200-day EMA long-term uptrend"
@@ -42251,9 +42248,9 @@ window.stockData = {
       "wyckoff_creek": 48.9,
       "wyckoff_ice": 38.42,
       "wyckoff_breakout": 48.9,
-      "wyckoff_dist_to_breakout_pct": 3.71,
+      "wyckoff_dist_to_breakout_pct": 3.01,
       "wyckoff_stoploss": 37.65,
-      "wyckoff_stoploss_pct": 20.15,
+      "wyckoff_stoploss_pct": 20.69,
       "wyckoff_target_1": 59.38,
       "wyckoff_target_2": 69.86,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -42744,31 +42741,31 @@ window.stockData = {
           "open": 373.0,
           "high": 373.9,
           "low": 363.1,
-          "close": 365.7,
-          "volume": 1069647
+          "close": 365.5,
+          "volume": 1069642
         }
       ],
       "name": "Exide Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9377.80",
-      "current_price": 365.7,
+      "current_price": 365.5,
       "prev_close": 373.0,
-      "day_change_pct": -1.96,
+      "day_change_pct": -2.01,
       "52w_high": 496.4,
       "52w_low": 285.63,
-      "pct_from_52w_high": -26.33,
-      "pct_from_52w_low": 28.03,
-      "sma_20": 356.83,
+      "pct_from_52w_high": -26.37,
+      "pct_from_52w_low": 27.96,
+      "sma_20": 356.82,
       "sma_50": 390.16,
       "sma_200": 377.03,
-      "rsi_14": 47.0,
-      "macd_val": -4.31,
+      "rsi_14": 46.9,
+      "macd_val": -4.33,
       "macd_signal": -9.48,
-      "macd_hist": 5.16,
+      "macd_hist": 5.15,
       "vol_surge_ratio": 0.37,
-      "pe_ratio": 29.71,
-      "forward_pe": 19.19,
+      "pe_ratio": 29.69,
+      "forward_pe": 19.18,
       "peg_ratio": 0.0,
       "pb_ratio": 2.24,
       "roe": 7.3,
@@ -42813,9 +42810,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 320.08,
-      "swing_target_1": 429.06,
-      "swing_target_2": 472.15,
+      "swing_stoploss": 319.89,
+      "swing_target_1": 428.84,
+      "swing_target_2": 471.91,
       "rationale": [
         "YoY Revenue up 21.2%",
         "YoY Profit up 66.8%"
@@ -42830,9 +42827,9 @@ window.stockData = {
       "wyckoff_creek": 401.5,
       "wyckoff_ice": 327.99,
       "wyckoff_breakout": 401.5,
-      "wyckoff_dist_to_breakout_pct": 9.79,
+      "wyckoff_dist_to_breakout_pct": 9.85,
       "wyckoff_stoploss": 321.43,
-      "wyckoff_stoploss_pct": 12.11,
+      "wyckoff_stoploss_pct": 12.06,
       "wyckoff_target_1": 475.01,
       "wyckoff_target_2": 548.52,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -43324,7 +43321,7 @@ window.stockData = {
           "high": 283.6,
           "low": 274.75,
           "close": 279.0,
-          "volume": 2951911
+          "volume": 2869086
         }
       ],
       "name": "L&T Finance Ltd",
@@ -43345,7 +43342,7 @@ window.stockData = {
       "macd_val": 2.36,
       "macd_signal": -2.17,
       "macd_hist": 4.53,
-      "vol_surge_ratio": 0.55,
+      "vol_surge_ratio": 0.53,
       "pe_ratio": 20.47,
       "forward_pe": 14.76,
       "peg_ratio": 0.0,
@@ -43903,7 +43900,7 @@ window.stockData = {
           "high": 683.4,
           "low": 639.05,
           "close": 645.9,
-          "volume": 136756
+          "volume": 136755
         }
       ],
       "name": "Savita Oil Technologies Ltd",
@@ -44484,7 +44481,7 @@ window.stockData = {
           "high": 197.83,
           "low": 192.0,
           "close": 193.54,
-          "volume": 7049810
+          "volume": 6752735
         }
       ],
       "name": "Wipro Ltd",
@@ -44505,7 +44502,7 @@ window.stockData = {
       "macd_val": 5.92,
       "macd_signal": 6.55,
       "macd_hist": -0.63,
-      "vol_surge_ratio": 0.35,
+      "vol_surge_ratio": 0.34,
       "pe_ratio": 15.2,
       "forward_pe": 13.94,
       "peg_ratio": 1.88,
@@ -45059,33 +45056,33 @@ window.stockData = {
           "open": 198.0,
           "high": 204.54,
           "low": 198.0,
-          "close": 198.6,
-          "volume": 14858
+          "close": 199.68,
+          "volume": 14856
         }
       ],
       "name": "Chemcon Speciality Chemicals Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9183.48",
-      "current_price": 198.6,
+      "current_price": 199.68,
       "prev_close": 202.58,
-      "day_change_pct": -1.96,
+      "day_change_pct": -1.43,
       "52w_high": 235.0,
       "52w_low": 121.0,
-      "pct_from_52w_high": -15.49,
-      "pct_from_52w_low": 64.13,
-      "sma_20": 197.18,
-      "sma_50": 208.71,
-      "sma_200": 181.5,
-      "rsi_14": 47.7,
-      "macd_val": -2.76,
-      "macd_signal": -4.24,
-      "macd_hist": 1.47,
+      "pct_from_52w_high": -15.03,
+      "pct_from_52w_low": 65.02,
+      "sma_20": 197.23,
+      "sma_50": 208.73,
+      "sma_200": 181.51,
+      "rsi_14": 48.7,
+      "macd_val": -2.68,
+      "macd_signal": -4.22,
+      "macd_hist": 1.54,
       "vol_surge_ratio": 0.45,
-      "pe_ratio": 24.28,
+      "pe_ratio": 24.41,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 1.52,
+      "pb_ratio": 1.53,
       "roe": 6.0,
       "profit_margins": 11.3,
       "operating_margins": 10.9,
@@ -45096,7 +45093,7 @@ window.stockData = {
       "q_sales_growth": 21.8,
       "q_pat_growth": 30.6,
       "free_cash_flow": 390945248.0,
-      "target_mean_price": 198.6,
+      "target_mean_price": 199.68,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 642.0,
@@ -45128,9 +45125,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 182.11,
-      "swing_target_1": 221.5,
-      "swing_target_2": 237.07,
+      "swing_stoploss": 183.01,
+      "swing_target_1": 222.84,
+      "swing_target_2": 238.58,
       "rationale": [
         "YoY Revenue up 21.8%",
         "YoY Profit up 30.6%",
@@ -45146,9 +45143,9 @@ window.stockData = {
       "wyckoff_creek": 226.39,
       "wyckoff_ice": 179.64,
       "wyckoff_breakout": 226.39,
-      "wyckoff_dist_to_breakout_pct": 13.99,
+      "wyckoff_dist_to_breakout_pct": 13.38,
       "wyckoff_stoploss": 176.05,
-      "wyckoff_stoploss_pct": 11.35,
+      "wyckoff_stoploss_pct": 11.83,
       "wyckoff_target_1": 273.14,
       "wyckoff_target_2": 319.89,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -46216,7 +46213,7 @@ window.stockData = {
           "high": 18.06,
           "low": 17.35,
           "close": 18.02,
-          "volume": 191744531
+          "volume": 188088907
         }
       ],
       "name": "Yes Bank Ltd",
@@ -46237,7 +46234,7 @@ window.stockData = {
       "macd_val": -0.58,
       "macd_signal": -1.02,
       "macd_hist": 0.45,
-      "vol_surge_ratio": 1.08,
+      "vol_surge_ratio": 1.06,
       "pe_ratio": 13.65,
       "forward_pe": 10.24,
       "peg_ratio": 0.0,
@@ -46792,7 +46789,7 @@ window.stockData = {
           "high": 51.5,
           "low": 48.6,
           "close": 49.45,
-          "volume": 20304339
+          "volume": 20304338
         }
       ],
       "name": "Fineotex Chemical Ltd",
@@ -47372,30 +47369,30 @@ window.stockData = {
           "open": 1449.2,
           "high": 1449.2,
           "low": 1420.0,
-          "close": 1420.3,
-          "volume": 1351
+          "close": 1423.9,
+          "volume": 1350
         }
       ],
       "name": "Summit Securities Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,518.84",
-      "current_price": 1420.3,
+      "current_price": 1423.9,
       "prev_close": 1449.2,
-      "day_change_pct": -1.99,
+      "day_change_pct": -1.75,
       "52w_high": 2238.5,
       "52w_low": 1242.0,
-      "pct_from_52w_high": -36.55,
-      "pct_from_52w_low": 14.36,
-      "sma_20": 1347.24,
-      "sma_50": 1361.57,
-      "sma_200": 1516.58,
-      "rsi_14": 59.9,
-      "macd_val": 18.82,
-      "macd_signal": 3.93,
-      "macd_hist": 14.89,
+      "pct_from_52w_high": -36.39,
+      "pct_from_52w_low": 14.65,
+      "sma_20": 1347.42,
+      "sma_50": 1361.64,
+      "sma_200": 1516.6,
+      "rsi_14": 60.6,
+      "macd_val": 19.11,
+      "macd_signal": 3.98,
+      "macd_hist": 15.12,
       "vol_surge_ratio": 0.51,
-      "pe_ratio": 12.29,
+      "pe_ratio": 12.32,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 0.2,
@@ -47409,7 +47406,7 @@ window.stockData = {
       "q_sales_growth": 8.9,
       "q_pat_growth": 6.9,
       "free_cash_flow": 959158272.0,
-      "target_mean_price": 1420.3,
+      "target_mean_price": 1423.9,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -47439,9 +47436,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1295.2,
-      "swing_target_1": 1594.04,
-      "swing_target_2": 1712.19,
+      "swing_stoploss": 1297.95,
+      "swing_target_1": 1598.83,
+      "swing_target_2": 1717.78,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -47453,9 +47450,9 @@ window.stockData = {
       "wyckoff_creek": 1503.0,
       "wyckoff_ice": 1239.52,
       "wyckoff_breakout": 1503.0,
-      "wyckoff_dist_to_breakout_pct": 5.82,
+      "wyckoff_dist_to_breakout_pct": 5.56,
       "wyckoff_stoploss": 1214.73,
-      "wyckoff_stoploss_pct": 14.47,
+      "wyckoff_stoploss_pct": 14.69,
       "wyckoff_target_1": 1766.48,
       "wyckoff_target_2": 2029.96,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -47946,33 +47943,33 @@ window.stockData = {
           "open": 1952.0,
           "high": 1977.5,
           "low": 1892.5,
-          "close": 1901.0,
-          "volume": 64319
+          "close": 1900.0,
+          "volume": 64315
         }
       ],
       "name": "INOX India Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,670.78",
-      "current_price": 1901.0,
+      "current_price": 1900.0,
       "prev_close": 1961.9,
-      "day_change_pct": -3.1,
+      "day_change_pct": -3.16,
       "52w_high": 2339.5,
       "52w_low": 1066.92,
-      "pct_from_52w_high": -18.74,
-      "pct_from_52w_low": 78.18,
-      "sma_20": 1918.67,
-      "sma_50": 2034.24,
+      "pct_from_52w_high": -18.79,
+      "pct_from_52w_low": 78.08,
+      "sma_20": 1918.62,
+      "sma_50": 2034.22,
       "sma_200": 1674.24,
-      "rsi_14": 44.8,
-      "macd_val": -24.99,
-      "macd_signal": -34.0,
-      "macd_hist": 9.01,
+      "rsi_14": 44.7,
+      "macd_val": -25.07,
+      "macd_signal": -34.01,
+      "macd_hist": 8.95,
       "vol_surge_ratio": 0.45,
-      "pe_ratio": 66.4,
-      "forward_pe": 41.36,
+      "pe_ratio": 66.36,
+      "forward_pe": 41.33,
       "peg_ratio": 0.0,
-      "pb_ratio": 14.08,
+      "pb_ratio": 14.07,
       "roe": 23.6,
       "profit_margins": 15.2,
       "operating_margins": 17.9,
@@ -47984,7 +47981,7 @@ window.stockData = {
       "q_pat_growth": 9.4,
       "free_cash_flow": 1183520896.0,
       "target_mean_price": 2270.0,
-      "analyst_upside_pct": 19.4,
+      "analyst_upside_pct": 19.5,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 10.0,
       "promoter_holding": 74.9,
@@ -48015,9 +48012,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1785.67,
-      "swing_target_1": 2061.18,
-      "swing_target_2": 2170.11,
+      "swing_stoploss": 1784.62,
+      "swing_target_1": 2060.26,
+      "swing_target_2": 2169.23,
       "rationale": [
         "YoY Revenue up 27.4%",
         "Above 200-day EMA long-term uptrend"
@@ -48032,9 +48029,9 @@ window.stockData = {
       "wyckoff_creek": 2079.15,
       "wyckoff_ice": 1802.39,
       "wyckoff_breakout": 2079.15,
-      "wyckoff_dist_to_breakout_pct": 9.37,
+      "wyckoff_dist_to_breakout_pct": 9.43,
       "wyckoff_stoploss": 1766.34,
-      "wyckoff_stoploss_pct": 7.08,
+      "wyckoff_stoploss_pct": 7.03,
       "wyckoff_target_1": 2355.91,
       "wyckoff_target_2": 2632.67,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -48526,7 +48523,7 @@ window.stockData = {
           "high": 2.77,
           "low": 2.59,
           "close": 2.63,
-          "volume": 6987683
+          "volume": 6977683
         }
       ],
       "name": "Sadhana Nitro Chem Ltd",
@@ -48547,7 +48544,7 @@ window.stockData = {
       "macd_val": 0.02,
       "macd_signal": -0.05,
       "macd_hist": 0.06,
-      "vol_surge_ratio": 2.16,
+      "vol_surge_ratio": 2.15,
       "pe_ratio": 0.0,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
@@ -49102,7 +49099,7 @@ window.stockData = {
           "high": 441.65,
           "low": 434.9,
           "close": 440.45,
-          "volume": 1113154
+          "volume": 1068389
         }
       ],
       "name": "Delhivery",
@@ -49123,7 +49120,7 @@ window.stockData = {
       "macd_val": 7.42,
       "macd_signal": 1.75,
       "macd_hist": 5.68,
-      "vol_surge_ratio": 0.35,
+      "vol_surge_ratio": 0.33,
       "pe_ratio": 182.0,
       "forward_pe": 42.41,
       "peg_ratio": 0.0,
@@ -49677,7 +49674,7 @@ window.stockData = {
           "high": 4830.5,
           "low": 4756.6,
           "close": 4789.0,
-          "volume": 459436
+          "volume": 445991
         }
       ],
       "name": "Hindustan Aeronautics Ltd",
@@ -49698,7 +49695,7 @@ window.stockData = {
       "macd_val": 15.47,
       "macd_signal": 32.5,
       "macd_hist": -17.04,
-      "vol_surge_ratio": 0.52,
+      "vol_surge_ratio": 0.5,
       "pe_ratio": 33.41,
       "forward_pe": 27.67,
       "peg_ratio": 0.0,
@@ -50256,28 +50253,28 @@ window.stockData = {
           "open": 263.0,
           "high": 263.01,
           "low": 253.3,
-          "close": 260.01,
-          "volume": 1764405
+          "close": 260.66,
+          "volume": 1764377
         }
       ],
       "name": "Jindal SAW Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9240.91",
-      "current_price": 260.01,
+      "current_price": 260.66,
       "prev_close": 261.45,
-      "day_change_pct": -0.55,
+      "day_change_pct": -0.3,
       "52w_high": 320.0,
       "52w_low": 151.6,
-      "pct_from_52w_high": -18.75,
-      "pct_from_52w_low": 71.51,
-      "sma_20": 253.01,
-      "sma_50": 275.54,
+      "pct_from_52w_high": -18.54,
+      "pct_from_52w_low": 71.94,
+      "sma_20": 253.04,
+      "sma_50": 275.55,
       "sma_200": 240.79,
-      "rsi_14": 50.2,
-      "macd_val": -5.18,
-      "macd_signal": -7.89,
-      "macd_hist": 2.71,
+      "rsi_14": 50.6,
+      "macd_val": -5.13,
+      "macd_signal": -7.88,
+      "macd_hist": 2.75,
       "vol_surge_ratio": 1.01,
       "pe_ratio": 30.34,
       "forward_pe": 11.21,
@@ -50294,7 +50291,7 @@ window.stockData = {
       "q_pat_growth": -68.9,
       "free_cash_flow": 15487107072.0,
       "target_mean_price": 405.0,
-      "analyst_upside_pct": 55.8,
+      "analyst_upside_pct": 55.4,
       "recommendation_key": "None",
       "dividend_yield": 77.0,
       "promoter_holding": 63.6,
@@ -50324,9 +50321,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 236.09,
-      "swing_target_1": 293.24,
-      "swing_target_2": 315.83,
+      "swing_stoploss": 236.57,
+      "swing_target_1": 294.12,
+      "swing_target_2": 316.87,
       "rationale": [
         "Above 200-day EMA long-term uptrend"
       ],
@@ -50340,9 +50337,9 @@ window.stockData = {
       "wyckoff_creek": 313.12,
       "wyckoff_ice": 226.6,
       "wyckoff_breakout": 313.12,
-      "wyckoff_dist_to_breakout_pct": 20.43,
+      "wyckoff_dist_to_breakout_pct": 20.13,
       "wyckoff_stoploss": 222.07,
-      "wyckoff_stoploss_pct": 14.59,
+      "wyckoff_stoploss_pct": 14.8,
       "wyckoff_target_1": 399.64,
       "wyckoff_target_2": 486.16,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -50834,7 +50831,7 @@ window.stockData = {
           "high": 228.82,
           "low": 225.6,
           "close": 226.0,
-          "volume": 8141627
+          "volume": 7702989
         }
       ],
       "name": "Jio Financial Services Ltd",
@@ -50855,7 +50852,7 @@ window.stockData = {
       "macd_val": 2.77,
       "macd_signal": 0.59,
       "macd_hist": 2.18,
-      "vol_surge_ratio": 0.56,
+      "vol_surge_ratio": 0.53,
       "pe_ratio": 85.93,
       "forward_pe": 48.85,
       "peg_ratio": 0.0,
@@ -51412,7 +51409,7 @@ window.stockData = {
           "high": 550.0,
           "low": 538.7,
           "close": 543.3,
-          "volume": 25544
+          "volume": 25543
         }
       ],
       "name": "Symphony Ltd",
@@ -51991,7 +51988,7 @@ window.stockData = {
           "high": 137.62,
           "low": 129.35,
           "close": 131.78,
-          "volume": 5205193
+          "volume": 5204390
         }
       ],
       "name": "Edelweiss Financial Services Ltd",
@@ -52571,28 +52568,28 @@ window.stockData = {
           "open": 262.01,
           "high": 267.9,
           "low": 253.01,
-          "close": 254.0,
-          "volume": 87703
+          "close": 254.06,
+          "volume": 87695
         }
       ],
       "name": "HPL Electric & Power Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9320.82",
-      "current_price": 254.0,
+      "current_price": 254.06,
       "prev_close": 263.64,
-      "day_change_pct": -3.66,
+      "day_change_pct": -3.63,
       "52w_high": 478.17,
       "52w_low": 223.6,
-      "pct_from_52w_high": -46.88,
-      "pct_from_52w_low": 13.6,
+      "pct_from_52w_high": -46.87,
+      "pct_from_52w_low": 13.62,
       "sma_20": 246.64,
       "sma_50": 265.59,
       "sma_200": 319.47,
       "rsi_14": 48.7,
       "macd_val": -1.0,
-      "macd_signal": -4.85,
-      "macd_hist": 3.84,
+      "macd_signal": -4.84,
+      "macd_hist": 3.85,
       "vol_surge_ratio": 0.54,
       "pe_ratio": 17.69,
       "forward_pe": 13.44,
@@ -52637,9 +52634,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 218.46,
-      "swing_target_1": 303.36,
-      "swing_target_2": 336.93,
+      "swing_stoploss": 218.51,
+      "swing_target_1": 303.43,
+      "swing_target_2": 337.0,
       "rationale": [
         "YoY Revenue up 40.0%"
       ],
@@ -52653,9 +52650,9 @@ window.stockData = {
       "wyckoff_creek": 279.16,
       "wyckoff_ice": 223.15,
       "wyckoff_breakout": 279.16,
-      "wyckoff_dist_to_breakout_pct": 9.91,
+      "wyckoff_dist_to_breakout_pct": 9.88,
       "wyckoff_stoploss": 218.69,
-      "wyckoff_stoploss_pct": 13.9,
+      "wyckoff_stoploss_pct": 13.92,
       "wyckoff_target_1": 335.17,
       "wyckoff_target_2": 391.18,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -52663,6 +52660,584 @@ window.stockData = {
         "Phase B Cause Building inside Trading Range: \u20b9223.15 (Ice) to \u20b9279.16 (Creek).",
         "Consolidation inside 56.01 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "NATCOPHARM.NS",
+      "clean_symbol": "NATCOPHARM",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 897.44,
+          "high": 914.46,
+          "low": 881.52,
+          "close": 885.36,
+          "volume": 318070
+        },
+        {
+          "time": "2026-08-20",
+          "open": 890.5,
+          "high": 895.35,
+          "low": 874.55,
+          "close": 877.5,
+          "volume": 275997
+        },
+        {
+          "time": "2026-08-21",
+          "open": 879.3,
+          "high": 900.0,
+          "low": 879.0,
+          "close": 882.4,
+          "volume": 363713
+        },
+        {
+          "time": "2026-08-24",
+          "open": 884.0,
+          "high": 892.35,
+          "low": 877.5,
+          "close": 884.05,
+          "volume": 317429
+        },
+        {
+          "time": "2026-08-25",
+          "open": 884.0,
+          "high": 885.05,
+          "low": 865.0,
+          "close": 866.25,
+          "volume": 443465
+        },
+        {
+          "time": "2026-08-26",
+          "open": 877.0,
+          "high": 879.9,
+          "low": 858.0,
+          "close": 863.4,
+          "volume": 371204
+        },
+        {
+          "time": "2026-08-27",
+          "open": 868.0,
+          "high": 869.9,
+          "low": 853.0,
+          "close": 857.6,
+          "volume": 279220
+        },
+        {
+          "time": "2026-08-28",
+          "open": 857.8,
+          "high": 861.0,
+          "low": 844.85,
+          "close": 853.8,
+          "volume": 402204
+        },
+        {
+          "time": "2026-08-31",
+          "open": 853.3,
+          "high": 863.4,
+          "low": 835.5,
+          "close": 841.5,
+          "volume": 412911
+        },
+        {
+          "time": "2026-09-01",
+          "open": 841.5,
+          "high": 853.75,
+          "low": 837.4,
+          "close": 849.2,
+          "volume": 241430
+        },
+        {
+          "time": "2026-09-02",
+          "open": 848.0,
+          "high": 857.35,
+          "low": 833.5,
+          "close": 843.25,
+          "volume": 472795
+        },
+        {
+          "time": "2026-09-03",
+          "open": 843.3,
+          "high": 849.95,
+          "low": 835.8,
+          "close": 838.3,
+          "volume": 217962
+        },
+        {
+          "time": "2026-09-04",
+          "open": 839.0,
+          "high": 841.8,
+          "low": 826.5,
+          "close": 828.65,
+          "volume": 445370
+        },
+        {
+          "time": "2026-09-07",
+          "open": 829.0,
+          "high": 841.5,
+          "low": 828.0,
+          "close": 838.3,
+          "volume": 301243
+        },
+        {
+          "time": "2026-09-08",
+          "open": 838.3,
+          "high": 846.85,
+          "low": 823.4,
+          "close": 825.75,
+          "volume": 302502
+        },
+        {
+          "time": "2026-09-09",
+          "open": 827.9,
+          "high": 838.9,
+          "low": 815.2,
+          "close": 826.3,
+          "volume": 537495
+        },
+        {
+          "time": "2026-09-10",
+          "open": 825.55,
+          "high": 832.15,
+          "low": 816.0,
+          "close": 818.65,
+          "volume": 236487
+        },
+        {
+          "time": "2026-09-11",
+          "open": 816.1,
+          "high": 821.45,
+          "low": 801.4,
+          "close": 815.35,
+          "volume": 567956
+        },
+        {
+          "time": "2026-09-15",
+          "open": 816.95,
+          "high": 831.45,
+          "low": 812.3,
+          "close": 819.15,
+          "volume": 434634
+        },
+        {
+          "time": "2026-09-16",
+          "open": 813.1,
+          "high": 828.75,
+          "low": 801.0,
+          "close": 813.3,
+          "volume": 492595
+        },
+        {
+          "time": "2026-09-17",
+          "open": 813.35,
+          "high": 820.0,
+          "low": 805.75,
+          "close": 818.25,
+          "volume": 340518
+        },
+        {
+          "time": "2026-09-18",
+          "open": 819.0,
+          "high": 822.65,
+          "low": 806.9,
+          "close": 813.4,
+          "volume": 489351
+        },
+        {
+          "time": "2026-09-21",
+          "open": 810.54,
+          "high": 812.28,
+          "low": 799.49,
+          "close": 809.65,
+          "volume": 455052
+        },
+        {
+          "time": "2026-09-22",
+          "open": 812.63,
+          "high": 813.32,
+          "low": 799.54,
+          "close": 808.41,
+          "volume": 624442
+        },
+        {
+          "time": "2026-09-23",
+          "open": 808.51,
+          "high": 833.16,
+          "low": 804.4,
+          "close": 830.78,
+          "volume": 656163
+        },
+        {
+          "time": "2026-09-24",
+          "open": 828.2,
+          "high": 848.04,
+          "low": 825.47,
+          "close": 835.14,
+          "volume": 528619
+        },
+        {
+          "time": "2026-09-25",
+          "open": 837.13,
+          "high": 843.18,
+          "low": 827.46,
+          "close": 832.46,
+          "volume": 373018
+        },
+        {
+          "time": "2026-09-28",
+          "open": 833.95,
+          "high": 850.86,
+          "low": 816.3,
+          "close": 821.8,
+          "volume": 506201
+        },
+        {
+          "time": "2026-09-29",
+          "open": 825.67,
+          "high": 844.07,
+          "low": 821.01,
+          "close": 836.23,
+          "volume": 641581
+        },
+        {
+          "time": "2026-09-30",
+          "open": 838.12,
+          "high": 842.09,
+          "low": 814.41,
+          "close": 820.76,
+          "volume": 620084
+        },
+        {
+          "time": "2026-10-01",
+          "open": 814.95,
+          "high": 827.1,
+          "low": 804.0,
+          "close": 821.3,
+          "volume": 717435
+        },
+        {
+          "time": "2026-10-05",
+          "open": 825.0,
+          "high": 827.45,
+          "low": 801.4,
+          "close": 821.5,
+          "volume": 571712
+        },
+        {
+          "time": "2026-10-06",
+          "open": 824.7,
+          "high": 827.0,
+          "low": 815.35,
+          "close": 823.65,
+          "volume": 225113
+        },
+        {
+          "time": "2026-10-07",
+          "open": 822.0,
+          "high": 826.05,
+          "low": 808.0,
+          "close": 810.1,
+          "volume": 499574
+        },
+        {
+          "time": "2026-10-08",
+          "open": 812.95,
+          "high": 819.0,
+          "low": 792.1,
+          "close": 795.4,
+          "volume": 312124
+        },
+        {
+          "time": "2026-10-09",
+          "open": 795.4,
+          "high": 801.7,
+          "low": 787.45,
+          "close": 789.4,
+          "volume": 233109
+        },
+        {
+          "time": "2026-10-12",
+          "open": 789.4,
+          "high": 804.75,
+          "low": 789.4,
+          "close": 800.55,
+          "volume": 501242
+        },
+        {
+          "time": "2026-10-13",
+          "open": 800.55,
+          "high": 802.65,
+          "low": 787.2,
+          "close": 789.15,
+          "volume": 277749
+        },
+        {
+          "time": "2026-10-14",
+          "open": 789.15,
+          "high": 794.0,
+          "low": 781.0,
+          "close": 782.65,
+          "volume": 465448
+        },
+        {
+          "time": "2026-10-15",
+          "open": 784.0,
+          "high": 787.6,
+          "low": 779.0,
+          "close": 784.95,
+          "volume": 297976
+        },
+        {
+          "time": "2026-10-16",
+          "open": 786.95,
+          "high": 788.5,
+          "low": 780.95,
+          "close": 785.05,
+          "volume": 497871
+        },
+        {
+          "time": "2026-10-19",
+          "open": 785.05,
+          "high": 809.8,
+          "low": 779.5,
+          "close": 800.85,
+          "volume": 768065
+        },
+        {
+          "time": "2026-10-21",
+          "open": 799.0,
+          "high": 800.65,
+          "low": 780.0,
+          "close": 784.45,
+          "volume": 480152
+        },
+        {
+          "time": "2026-10-22",
+          "open": 780.0,
+          "high": 789.0,
+          "low": 773.6,
+          "close": 785.15,
+          "volume": 699649
+        },
+        {
+          "time": "2026-10-23",
+          "open": 785.0,
+          "high": 797.45,
+          "low": 778.0,
+          "close": 791.85,
+          "volume": 569535
+        },
+        {
+          "time": "2026-10-26",
+          "open": 788.3,
+          "high": 796.05,
+          "low": 782.6,
+          "close": 790.2,
+          "volume": 405226
+        },
+        {
+          "time": "2026-10-27",
+          "open": 785.5,
+          "high": 798.85,
+          "low": 785.5,
+          "close": 794.55,
+          "volume": 433459
+        },
+        {
+          "time": "2026-10-28",
+          "open": 785.0,
+          "high": 802.0,
+          "low": 779.05,
+          "close": 793.0,
+          "volume": 843955
+        },
+        {
+          "time": "2026-10-29",
+          "open": 793.0,
+          "high": 799.45,
+          "low": 785.9,
+          "close": 787.55,
+          "volume": 227663
+        },
+        {
+          "time": "2026-10-30",
+          "open": 792.05,
+          "high": 800.9,
+          "low": 779.5,
+          "close": 782.4,
+          "volume": 321547
+        },
+        {
+          "time": "2026-11-02",
+          "open": 790.05,
+          "high": 791.75,
+          "low": 780.95,
+          "close": 785.75,
+          "volume": 200990
+        },
+        {
+          "time": "2026-11-03",
+          "open": 794.9,
+          "high": 794.9,
+          "low": 779.2,
+          "close": 781.6,
+          "volume": 321319
+        },
+        {
+          "time": "2026-11-04",
+          "open": 781.7,
+          "high": 797.8,
+          "low": 781.7,
+          "close": 788.75,
+          "volume": 320958
+        },
+        {
+          "time": "2026-11-05",
+          "open": 797.0,
+          "high": 809.9,
+          "low": 789.65,
+          "close": 796.6,
+          "volume": 633832
+        },
+        {
+          "time": "2026-11-06",
+          "open": 799.0,
+          "high": 821.15,
+          "low": 795.05,
+          "close": 807.0,
+          "volume": 712913
+        },
+        {
+          "time": "2026-11-09",
+          "open": 806.95,
+          "high": 822.8,
+          "low": 802.0,
+          "close": 804.35,
+          "volume": 469465
+        },
+        {
+          "time": "2026-11-11",
+          "open": 818.0,
+          "high": 818.5,
+          "low": 807.1,
+          "close": 808.95,
+          "volume": 617468
+        },
+        {
+          "time": "2026-11-12",
+          "open": 809.9,
+          "high": 830.0,
+          "low": 806.55,
+          "close": 808.8,
+          "volume": 646359
+        },
+        {
+          "time": "2026-11-13",
+          "open": 810.0,
+          "high": 819.25,
+          "low": 780.0,
+          "close": 810.45,
+          "volume": 3103919
+        },
+        {
+          "time": "2026-11-16",
+          "open": 825.0,
+          "high": 881.8,
+          "low": 809.15,
+          "close": 828.65,
+          "volume": 4490795
+        }
+      ],
+      "name": "Natco Pharma Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9919.26",
+      "current_price": 828.65,
+      "prev_close": 810.45,
+      "day_change_pct": 2.25,
+      "52w_high": 1224.74,
+      "52w_low": 773.6,
+      "pct_from_52w_high": -32.34,
+      "pct_from_52w_low": 7.12,
+      "sma_20": 795.8,
+      "sma_50": 808.57,
+      "sma_200": 924.78,
+      "rsi_14": 64.8,
+      "macd_val": 1.16,
+      "macd_signal": -4.25,
+      "macd_hist": 5.41,
+      "vol_surge_ratio": 5.36,
+      "pe_ratio": 13.08,
+      "forward_pe": 17.71,
+      "peg_ratio": 0.0,
+      "pb_ratio": 1.61,
+      "roe": 0.0,
+      "profit_margins": 32.8,
+      "operating_margins": 24.6,
+      "debt_to_equity": 0.08,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": -44.7,
+      "earnings_growth_yoy": -57.0,
+      "q_sales_growth": -44.7,
+      "q_pat_growth": -57.0,
+      "free_cash_flow": 0.0,
+      "target_mean_price": 994.89,
+      "analyst_upside_pct": 20.1,
+      "recommendation_key": "Hold",
+      "dividend_yield": 73.0,
+      "promoter_holding": 47.6,
+      "institutional_holding": 15.7,
+      "public_holding": 36.7,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 831.66,
+      "sell_trigger_level": 772.05,
+      "dist_from_prev_close": 2.62,
+      "is_breakout_done_today": 1,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Healthy Low Debt (D/E 0.08)"
+      ],
+      "weaknesses": [
+        "Revenue Contracting YoY (-44.7%)",
+        "Earnings De-growth YoY (-57.0%)",
+        "Weak Return on Capital (0.0% ROE)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 5.0,
+      "technical_score": 32.0,
+      "composite_score": 52,
+      "long_term_signal": "HOLD",
+      "swing_signal": "BREAKOUT BUY",
+      "intraday_signal": "MOMENTUM SCALP BUY",
+      "swing_stoploss": 793.7,
+      "swing_target_1": 877.19,
+      "swing_target_2": 910.19,
+      "rationale": [
+        "Consolidation phase with neutral momentum"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 73.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase D",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
+      "wyckoff_creek": 832.79,
+      "wyckoff_ice": 772.05,
+      "wyckoff_breakout": 834.46,
+      "wyckoff_dist_to_breakout_pct": 0.7,
+      "wyckoff_stoploss": 779.77,
+      "wyckoff_stoploss_pct": 5.9,
+      "wyckoff_target_1": 893.53,
+      "wyckoff_target_2": 954.27,
+      "wyckoff_signal": "JAC BREAKOUT BUY",
+      "wyckoff_rationale": [
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9832.79).",
+        "Volume surge 5.4x confirms institutional demand absorption.",
+        "Cause of 60.74 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -53147,7 +53722,7 @@ window.stockData = {
           "high": 578.65,
           "low": 568.95,
           "close": 573.0,
-          "volume": 586824
+          "volume": 580148
         }
       ],
       "name": "SBI Cards and Payment Services Ltd",
@@ -53168,7 +53743,7 @@ window.stockData = {
       "macd_val": 0.2,
       "macd_signal": -6.0,
       "macd_hist": 6.2,
-      "vol_surge_ratio": 0.49,
+      "vol_surge_ratio": 0.48,
       "pe_ratio": 20.91,
       "forward_pe": 15.98,
       "peg_ratio": 0.0,
@@ -53726,7 +54301,7 @@ window.stockData = {
           "high": 109.11,
           "low": 105.21,
           "close": 105.83,
-          "volume": 795300
+          "volume": 795260
         }
       ],
       "name": "Rashtriya Chemicals and Fertilizers Ltd",
@@ -54301,33 +54876,33 @@ window.stockData = {
           "open": 81.46,
           "high": 82.1,
           "low": 80.81,
-          "close": 81.86,
-          "volume": 2426718
+          "close": 81.95,
+          "volume": 2426709
         }
       ],
       "name": "Bajaj Housing Finance Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b984.99",
-      "current_price": 81.86,
+      "current_price": 81.95,
       "prev_close": 81.46,
-      "day_change_pct": 0.49,
+      "day_change_pct": 0.6,
       "52w_high": 107.95,
       "52w_low": 72.65,
-      "pct_from_52w_high": -24.17,
-      "pct_from_52w_low": 12.68,
-      "sma_20": 80.26,
+      "pct_from_52w_high": -24.09,
+      "pct_from_52w_low": 12.8,
+      "sma_20": 80.27,
       "sma_50": 81.98,
       "sma_200": 84.93,
-      "rsi_14": 52.5,
-      "macd_val": -0.04,
-      "macd_signal": -0.48,
-      "macd_hist": 0.44,
+      "rsi_14": 52.8,
+      "macd_val": -0.03,
+      "macd_signal": -0.47,
+      "macd_hist": 0.45,
       "vol_surge_ratio": 0.73,
-      "pe_ratio": 24.29,
-      "forward_pe": 18.78,
+      "pe_ratio": 24.32,
+      "forward_pe": 18.8,
       "peg_ratio": 0.0,
-      "pb_ratio": 2.83,
+      "pb_ratio": 2.84,
       "roe": 12.4,
       "profit_margins": 63.3,
       "operating_margins": 80.4,
@@ -54339,7 +54914,7 @@ window.stockData = {
       "q_pat_growth": 18.2,
       "free_cash_flow": 0.0,
       "target_mean_price": 92.24,
-      "analyst_upside_pct": 12.7,
+      "analyst_upside_pct": 12.6,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
       "promoter_holding": 86.7,
@@ -54369,9 +54944,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 76.22,
-      "swing_target_1": 89.69,
-      "swing_target_2": 95.02,
+      "swing_stoploss": 76.3,
+      "swing_target_1": 89.8,
+      "swing_target_2": 95.14,
       "rationale": [
         "YoY Revenue up 17.6%",
         "YoY Profit up 18.2%",
@@ -54385,9 +54960,9 @@ window.stockData = {
       "wyckoff_creek": 86.48,
       "wyckoff_ice": 75.85,
       "wyckoff_breakout": 86.48,
-      "wyckoff_dist_to_breakout_pct": 5.64,
+      "wyckoff_dist_to_breakout_pct": 5.53,
       "wyckoff_stoploss": 74.33,
-      "wyckoff_stoploss_pct": 9.2,
+      "wyckoff_stoploss_pct": 9.3,
       "wyckoff_target_1": 97.11,
       "wyckoff_target_2": 107.74,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -54395,584 +54970,6 @@ window.stockData = {
         "Phase B Cause Building inside Trading Range: \u20b975.85 (Ice) to \u20b986.48 (Creek).",
         "Consolidation inside 10.63 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
-      ]
-    },
-    {
-      "symbol": "NATCOPHARM.NS",
-      "clean_symbol": "NATCOPHARM",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 897.44,
-          "high": 914.46,
-          "low": 881.52,
-          "close": 885.36,
-          "volume": 318070
-        },
-        {
-          "time": "2026-08-20",
-          "open": 890.5,
-          "high": 895.35,
-          "low": 874.55,
-          "close": 877.5,
-          "volume": 275997
-        },
-        {
-          "time": "2026-08-21",
-          "open": 879.3,
-          "high": 900.0,
-          "low": 879.0,
-          "close": 882.4,
-          "volume": 363713
-        },
-        {
-          "time": "2026-08-24",
-          "open": 884.0,
-          "high": 892.35,
-          "low": 877.5,
-          "close": 884.05,
-          "volume": 317429
-        },
-        {
-          "time": "2026-08-25",
-          "open": 884.0,
-          "high": 885.05,
-          "low": 865.0,
-          "close": 866.25,
-          "volume": 443465
-        },
-        {
-          "time": "2026-08-26",
-          "open": 877.0,
-          "high": 879.9,
-          "low": 858.0,
-          "close": 863.4,
-          "volume": 371204
-        },
-        {
-          "time": "2026-08-27",
-          "open": 868.0,
-          "high": 869.9,
-          "low": 853.0,
-          "close": 857.6,
-          "volume": 279220
-        },
-        {
-          "time": "2026-08-28",
-          "open": 857.8,
-          "high": 861.0,
-          "low": 844.85,
-          "close": 853.8,
-          "volume": 402204
-        },
-        {
-          "time": "2026-08-31",
-          "open": 853.3,
-          "high": 863.4,
-          "low": 835.5,
-          "close": 841.5,
-          "volume": 412911
-        },
-        {
-          "time": "2026-09-01",
-          "open": 841.5,
-          "high": 853.75,
-          "low": 837.4,
-          "close": 849.2,
-          "volume": 241430
-        },
-        {
-          "time": "2026-09-02",
-          "open": 848.0,
-          "high": 857.35,
-          "low": 833.5,
-          "close": 843.25,
-          "volume": 472795
-        },
-        {
-          "time": "2026-09-03",
-          "open": 843.3,
-          "high": 849.95,
-          "low": 835.8,
-          "close": 838.3,
-          "volume": 217962
-        },
-        {
-          "time": "2026-09-04",
-          "open": 839.0,
-          "high": 841.8,
-          "low": 826.5,
-          "close": 828.65,
-          "volume": 445370
-        },
-        {
-          "time": "2026-09-07",
-          "open": 829.0,
-          "high": 841.5,
-          "low": 828.0,
-          "close": 838.3,
-          "volume": 301243
-        },
-        {
-          "time": "2026-09-08",
-          "open": 838.3,
-          "high": 846.85,
-          "low": 823.4,
-          "close": 825.75,
-          "volume": 302502
-        },
-        {
-          "time": "2026-09-09",
-          "open": 827.9,
-          "high": 838.9,
-          "low": 815.2,
-          "close": 826.3,
-          "volume": 537495
-        },
-        {
-          "time": "2026-09-10",
-          "open": 825.55,
-          "high": 832.15,
-          "low": 816.0,
-          "close": 818.65,
-          "volume": 236487
-        },
-        {
-          "time": "2026-09-11",
-          "open": 816.1,
-          "high": 821.45,
-          "low": 801.4,
-          "close": 815.35,
-          "volume": 567956
-        },
-        {
-          "time": "2026-09-15",
-          "open": 816.95,
-          "high": 831.45,
-          "low": 812.3,
-          "close": 819.15,
-          "volume": 434634
-        },
-        {
-          "time": "2026-09-16",
-          "open": 813.1,
-          "high": 828.75,
-          "low": 801.0,
-          "close": 813.3,
-          "volume": 492595
-        },
-        {
-          "time": "2026-09-17",
-          "open": 813.35,
-          "high": 820.0,
-          "low": 805.75,
-          "close": 818.25,
-          "volume": 340518
-        },
-        {
-          "time": "2026-09-18",
-          "open": 819.0,
-          "high": 822.65,
-          "low": 806.9,
-          "close": 813.4,
-          "volume": 489351
-        },
-        {
-          "time": "2026-09-21",
-          "open": 810.54,
-          "high": 812.28,
-          "low": 799.49,
-          "close": 809.65,
-          "volume": 455052
-        },
-        {
-          "time": "2026-09-22",
-          "open": 812.63,
-          "high": 813.32,
-          "low": 799.54,
-          "close": 808.41,
-          "volume": 624442
-        },
-        {
-          "time": "2026-09-23",
-          "open": 808.51,
-          "high": 833.16,
-          "low": 804.4,
-          "close": 830.78,
-          "volume": 656163
-        },
-        {
-          "time": "2026-09-24",
-          "open": 828.2,
-          "high": 848.04,
-          "low": 825.47,
-          "close": 835.14,
-          "volume": 528619
-        },
-        {
-          "time": "2026-09-25",
-          "open": 837.13,
-          "high": 843.18,
-          "low": 827.46,
-          "close": 832.46,
-          "volume": 373018
-        },
-        {
-          "time": "2026-09-28",
-          "open": 833.95,
-          "high": 850.86,
-          "low": 816.3,
-          "close": 821.8,
-          "volume": 506201
-        },
-        {
-          "time": "2026-09-29",
-          "open": 825.67,
-          "high": 844.07,
-          "low": 821.01,
-          "close": 836.23,
-          "volume": 641581
-        },
-        {
-          "time": "2026-09-30",
-          "open": 838.12,
-          "high": 842.09,
-          "low": 814.41,
-          "close": 820.76,
-          "volume": 620084
-        },
-        {
-          "time": "2026-10-01",
-          "open": 814.95,
-          "high": 827.1,
-          "low": 804.0,
-          "close": 821.3,
-          "volume": 717435
-        },
-        {
-          "time": "2026-10-05",
-          "open": 825.0,
-          "high": 827.45,
-          "low": 801.4,
-          "close": 821.5,
-          "volume": 571712
-        },
-        {
-          "time": "2026-10-06",
-          "open": 824.7,
-          "high": 827.0,
-          "low": 815.35,
-          "close": 823.65,
-          "volume": 225113
-        },
-        {
-          "time": "2026-10-07",
-          "open": 822.0,
-          "high": 826.05,
-          "low": 808.0,
-          "close": 810.1,
-          "volume": 499574
-        },
-        {
-          "time": "2026-10-08",
-          "open": 812.95,
-          "high": 819.0,
-          "low": 792.1,
-          "close": 795.4,
-          "volume": 312124
-        },
-        {
-          "time": "2026-10-09",
-          "open": 795.4,
-          "high": 801.7,
-          "low": 787.45,
-          "close": 789.4,
-          "volume": 233109
-        },
-        {
-          "time": "2026-10-12",
-          "open": 789.4,
-          "high": 804.75,
-          "low": 789.4,
-          "close": 800.55,
-          "volume": 501242
-        },
-        {
-          "time": "2026-10-13",
-          "open": 800.55,
-          "high": 802.65,
-          "low": 787.2,
-          "close": 789.15,
-          "volume": 277749
-        },
-        {
-          "time": "2026-10-14",
-          "open": 789.15,
-          "high": 794.0,
-          "low": 781.0,
-          "close": 782.65,
-          "volume": 465448
-        },
-        {
-          "time": "2026-10-15",
-          "open": 784.0,
-          "high": 787.6,
-          "low": 779.0,
-          "close": 784.95,
-          "volume": 297976
-        },
-        {
-          "time": "2026-10-16",
-          "open": 786.95,
-          "high": 788.5,
-          "low": 780.95,
-          "close": 785.05,
-          "volume": 497871
-        },
-        {
-          "time": "2026-10-19",
-          "open": 785.05,
-          "high": 809.8,
-          "low": 779.5,
-          "close": 800.85,
-          "volume": 768065
-        },
-        {
-          "time": "2026-10-21",
-          "open": 799.0,
-          "high": 800.65,
-          "low": 780.0,
-          "close": 784.45,
-          "volume": 480152
-        },
-        {
-          "time": "2026-10-22",
-          "open": 780.0,
-          "high": 789.0,
-          "low": 773.6,
-          "close": 785.15,
-          "volume": 699649
-        },
-        {
-          "time": "2026-10-23",
-          "open": 785.0,
-          "high": 797.45,
-          "low": 778.0,
-          "close": 791.85,
-          "volume": 569535
-        },
-        {
-          "time": "2026-10-26",
-          "open": 788.3,
-          "high": 796.05,
-          "low": 782.6,
-          "close": 790.2,
-          "volume": 405226
-        },
-        {
-          "time": "2026-10-27",
-          "open": 785.5,
-          "high": 798.85,
-          "low": 785.5,
-          "close": 794.55,
-          "volume": 433459
-        },
-        {
-          "time": "2026-10-28",
-          "open": 785.0,
-          "high": 802.0,
-          "low": 779.05,
-          "close": 793.0,
-          "volume": 843955
-        },
-        {
-          "time": "2026-10-29",
-          "open": 793.0,
-          "high": 799.45,
-          "low": 785.9,
-          "close": 787.55,
-          "volume": 227663
-        },
-        {
-          "time": "2026-10-30",
-          "open": 792.05,
-          "high": 800.9,
-          "low": 779.5,
-          "close": 782.4,
-          "volume": 321547
-        },
-        {
-          "time": "2026-11-02",
-          "open": 790.05,
-          "high": 791.75,
-          "low": 780.95,
-          "close": 785.75,
-          "volume": 200990
-        },
-        {
-          "time": "2026-11-03",
-          "open": 794.9,
-          "high": 794.9,
-          "low": 779.2,
-          "close": 781.6,
-          "volume": 321319
-        },
-        {
-          "time": "2026-11-04",
-          "open": 781.7,
-          "high": 797.8,
-          "low": 781.7,
-          "close": 788.75,
-          "volume": 320958
-        },
-        {
-          "time": "2026-11-05",
-          "open": 797.0,
-          "high": 809.9,
-          "low": 789.65,
-          "close": 796.6,
-          "volume": 633832
-        },
-        {
-          "time": "2026-11-06",
-          "open": 799.0,
-          "high": 821.15,
-          "low": 795.05,
-          "close": 807.0,
-          "volume": 712913
-        },
-        {
-          "time": "2026-11-09",
-          "open": 806.95,
-          "high": 822.8,
-          "low": 802.0,
-          "close": 804.35,
-          "volume": 469465
-        },
-        {
-          "time": "2026-11-11",
-          "open": 818.0,
-          "high": 818.5,
-          "low": 807.1,
-          "close": 808.95,
-          "volume": 617468
-        },
-        {
-          "time": "2026-11-12",
-          "open": 809.9,
-          "high": 830.0,
-          "low": 806.55,
-          "close": 808.8,
-          "volume": 646359
-        },
-        {
-          "time": "2026-11-13",
-          "open": 810.0,
-          "high": 819.25,
-          "low": 780.0,
-          "close": 810.45,
-          "volume": 3103919
-        },
-        {
-          "time": "2026-11-16",
-          "open": 825.0,
-          "high": 881.8,
-          "low": 809.15,
-          "close": 828.9,
-          "volume": 4490850
-        }
-      ],
-      "name": "Natco Pharma Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9919.26",
-      "current_price": 828.9,
-      "prev_close": 810.45,
-      "day_change_pct": 2.28,
-      "52w_high": 1224.74,
-      "52w_low": 773.6,
-      "pct_from_52w_high": -32.32,
-      "pct_from_52w_low": 7.15,
-      "sma_20": 795.81,
-      "sma_50": 808.57,
-      "sma_200": 924.78,
-      "rsi_14": 64.9,
-      "macd_val": 1.18,
-      "macd_signal": -4.25,
-      "macd_hist": 5.43,
-      "vol_surge_ratio": 5.36,
-      "pe_ratio": 13.08,
-      "forward_pe": 17.72,
-      "peg_ratio": 0.0,
-      "pb_ratio": 1.61,
-      "roe": 0.0,
-      "profit_margins": 32.8,
-      "operating_margins": 24.6,
-      "debt_to_equity": 0.08,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": -44.7,
-      "earnings_growth_yoy": -57.0,
-      "q_sales_growth": -44.7,
-      "q_pat_growth": -57.0,
-      "free_cash_flow": 0.0,
-      "target_mean_price": 994.89,
-      "analyst_upside_pct": 20.0,
-      "recommendation_key": "Hold",
-      "dividend_yield": 73.0,
-      "promoter_holding": 47.6,
-      "institutional_holding": 15.7,
-      "public_holding": 36.7,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 831.66,
-      "sell_trigger_level": 772.05,
-      "dist_from_prev_close": 2.62,
-      "is_breakout_done_today": 1,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Healthy Low Debt (D/E 0.08)"
-      ],
-      "weaknesses": [
-        "Revenue Contracting YoY (-44.7%)",
-        "Earnings De-growth YoY (-57.0%)",
-        "Weak Return on Capital (0.0% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 5.0,
-      "technical_score": 32.0,
-      "composite_score": 49,
-      "long_term_signal": "HOLD",
-      "swing_signal": "BREAKOUT BUY",
-      "intraday_signal": "MOMENTUM SCALP BUY",
-      "swing_stoploss": 793.84,
-      "swing_target_1": 877.59,
-      "swing_target_2": 910.71,
-      "rationale": [
-        "Consolidation phase with neutral momentum"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 73.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase D",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 833.04,
-      "wyckoff_ice": 772.05,
-      "wyckoff_breakout": 834.71,
-      "wyckoff_dist_to_breakout_pct": 0.7,
-      "wyckoff_stoploss": 779.77,
-      "wyckoff_stoploss_pct": 5.93,
-      "wyckoff_target_1": 894.03,
-      "wyckoff_target_2": 955.02,
-      "wyckoff_signal": "JAC BREAKOUT BUY",
-      "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b9833.04).",
-        "Volume surge 5.4x confirms institutional demand absorption.",
-        "Cause of 60.99 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -55456,33 +55453,33 @@ window.stockData = {
           "open": 100.18,
           "high": 105.69,
           "low": 98.51,
-          "close": 99.06,
-          "volume": 724236
+          "close": 99.52,
+          "volume": 724167
         }
       ],
       "name": "Sanstar Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9100.74",
-      "current_price": 99.06,
+      "current_price": 99.52,
       "prev_close": 100.67,
-      "day_change_pct": -1.6,
+      "day_change_pct": -1.14,
       "52w_high": 137.49,
       "52w_low": 74.3,
-      "pct_from_52w_high": -27.95,
-      "pct_from_52w_low": 33.32,
-      "sma_20": 94.67,
-      "sma_50": 102.11,
+      "pct_from_52w_high": -27.62,
+      "pct_from_52w_low": 33.94,
+      "sma_20": 94.69,
+      "sma_50": 102.12,
       "sma_200": 100.81,
-      "rsi_14": 53.0,
-      "macd_val": -0.95,
-      "macd_signal": -2.16,
-      "macd_hist": 1.21,
+      "rsi_14": 53.9,
+      "macd_val": -0.91,
+      "macd_signal": -2.15,
+      "macd_hist": 1.24,
       "vol_surge_ratio": 3.28,
-      "pe_ratio": 41.27,
+      "pe_ratio": 41.47,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 2.13,
+      "pb_ratio": 2.14,
       "roe": 6.3,
       "profit_margins": 5.8,
       "operating_margins": 5.2,
@@ -55493,7 +55490,7 @@ window.stockData = {
       "q_sales_growth": 11.1,
       "q_pat_growth": 866.7,
       "free_cash_flow": -1065312512.0,
-      "target_mean_price": 99.06,
+      "target_mean_price": 99.52,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -55524,9 +55521,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 91.37,
-      "swing_target_1": 109.74,
-      "swing_target_2": 117.0,
+      "swing_stoploss": 91.7,
+      "swing_target_1": 110.38,
+      "swing_target_2": 117.77,
       "rationale": [
         "YoY Revenue up 11.1%",
         "YoY Profit up 866.7%"
@@ -55539,15 +55536,592 @@ window.stockData = {
       "wyckoff_creek": 102.2,
       "wyckoff_ice": 88.09,
       "wyckoff_breakout": 102.2,
-      "wyckoff_dist_to_breakout_pct": 3.17,
+      "wyckoff_dist_to_breakout_pct": 2.69,
       "wyckoff_stoploss": 86.33,
-      "wyckoff_stoploss_pct": 12.85,
+      "wyckoff_stoploss_pct": 13.25,
       "wyckoff_target_1": 116.31,
       "wyckoff_target_2": 130.42,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
         "Phase B Cause Building inside Trading Range: \u20b988.09 (Ice) to \u20b9102.2 (Creek).",
         "Consolidation inside 14.11 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "SPIC.NS",
+      "clean_symbol": "SPIC",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 64.69,
+          "high": 67.35,
+          "low": 64.37,
+          "close": 66.07,
+          "volume": 752272
+        },
+        {
+          "time": "2026-08-20",
+          "open": 66.31,
+          "high": 66.57,
+          "low": 65.73,
+          "close": 66.05,
+          "volume": 225701
+        },
+        {
+          "time": "2026-08-21",
+          "open": 66.02,
+          "high": 66.61,
+          "low": 65.64,
+          "close": 66.18,
+          "volume": 322996
+        },
+        {
+          "time": "2026-08-24",
+          "open": 66.49,
+          "high": 67.64,
+          "low": 66.0,
+          "close": 67.28,
+          "volume": 738090
+        },
+        {
+          "time": "2026-08-25",
+          "open": 67.96,
+          "high": 71.17,
+          "low": 67.77,
+          "close": 68.46,
+          "volume": 3056299
+        },
+        {
+          "time": "2026-08-26",
+          "open": 68.74,
+          "high": 68.93,
+          "low": 67.79,
+          "close": 68.23,
+          "volume": 339406
+        },
+        {
+          "time": "2026-08-27",
+          "open": 67.98,
+          "high": 68.54,
+          "low": 67.05,
+          "close": 67.44,
+          "volume": 314076
+        },
+        {
+          "time": "2026-08-28",
+          "open": 67.32,
+          "high": 67.48,
+          "low": 66.65,
+          "close": 67.08,
+          "volume": 214528
+        },
+        {
+          "time": "2026-08-31",
+          "open": 66.94,
+          "high": 67.08,
+          "low": 65.36,
+          "close": 65.77,
+          "volume": 271707
+        },
+        {
+          "time": "2026-09-01",
+          "open": 65.72,
+          "high": 67.51,
+          "low": 65.72,
+          "close": 66.86,
+          "volume": 377996
+        },
+        {
+          "time": "2026-09-02",
+          "open": 66.7,
+          "high": 67.77,
+          "low": 65.64,
+          "close": 67.08,
+          "volume": 471117
+        },
+        {
+          "time": "2026-09-03",
+          "open": 67.24,
+          "high": 69.81,
+          "low": 67.0,
+          "close": 69.06,
+          "volume": 1238148
+        },
+        {
+          "time": "2026-09-04",
+          "open": 69.08,
+          "high": 70.87,
+          "low": 68.93,
+          "close": 69.2,
+          "volume": 648651
+        },
+        {
+          "time": "2026-09-07",
+          "open": 68.93,
+          "high": 70.39,
+          "low": 68.45,
+          "close": 68.95,
+          "volume": 551519
+        },
+        {
+          "time": "2026-09-08",
+          "open": 68.86,
+          "high": 70.39,
+          "low": 68.53,
+          "close": 69.0,
+          "volume": 720567
+        },
+        {
+          "time": "2026-09-09",
+          "open": 69.0,
+          "high": 69.4,
+          "low": 67.91,
+          "close": 68.09,
+          "volume": 398972
+        },
+        {
+          "time": "2026-09-10",
+          "open": 68.06,
+          "high": 69.05,
+          "low": 66.76,
+          "close": 67.28,
+          "volume": 457757
+        },
+        {
+          "time": "2026-09-11",
+          "open": 66.51,
+          "high": 67.28,
+          "low": 66.18,
+          "close": 66.99,
+          "volume": 246359
+        },
+        {
+          "time": "2026-09-15",
+          "open": 66.99,
+          "high": 67.16,
+          "low": 65.05,
+          "close": 65.42,
+          "volume": 418875
+        },
+        {
+          "time": "2026-09-16",
+          "open": 65.43,
+          "high": 65.66,
+          "low": 63.2,
+          "close": 64.88,
+          "volume": 460572
+        },
+        {
+          "time": "2026-09-17",
+          "open": 64.83,
+          "high": 66.21,
+          "low": 64.18,
+          "close": 64.97,
+          "volume": 294399
+        },
+        {
+          "time": "2026-09-18",
+          "open": 65.34,
+          "high": 67.08,
+          "low": 65.29,
+          "close": 66.7,
+          "volume": 616680
+        },
+        {
+          "time": "2026-09-21",
+          "open": 67.15,
+          "high": 67.79,
+          "low": 66.31,
+          "close": 66.74,
+          "volume": 415696
+        },
+        {
+          "time": "2026-09-22",
+          "open": 66.8,
+          "high": 67.15,
+          "low": 65.86,
+          "close": 66.09,
+          "volume": 205502
+        },
+        {
+          "time": "2026-09-23",
+          "open": 66.01,
+          "high": 67.6,
+          "low": 65.75,
+          "close": 67.0,
+          "volume": 356978
+        },
+        {
+          "time": "2026-09-24",
+          "open": 66.7,
+          "high": 67.39,
+          "low": 65.1,
+          "close": 65.86,
+          "volume": 263877
+        },
+        {
+          "time": "2026-09-25",
+          "open": 65.35,
+          "high": 66.23,
+          "low": 64.61,
+          "close": 64.73,
+          "volume": 347792
+        },
+        {
+          "time": "2026-09-28",
+          "open": 64.35,
+          "high": 64.59,
+          "low": 62.4,
+          "close": 62.75,
+          "volume": 333575
+        },
+        {
+          "time": "2026-09-29",
+          "open": 62.53,
+          "high": 63.9,
+          "low": 62.06,
+          "close": 63.47,
+          "volume": 215758
+        },
+        {
+          "time": "2026-09-30",
+          "open": 63.47,
+          "high": 64.24,
+          "low": 63.43,
+          "close": 63.94,
+          "volume": 140574
+        },
+        {
+          "time": "2026-10-01",
+          "open": 63.7,
+          "high": 63.7,
+          "low": 61.5,
+          "close": 62.23,
+          "volume": 234104
+        },
+        {
+          "time": "2026-10-05",
+          "open": 62.05,
+          "high": 63.72,
+          "low": 61.44,
+          "close": 62.19,
+          "volume": 238526
+        },
+        {
+          "time": "2026-10-06",
+          "open": 62.42,
+          "high": 63.46,
+          "low": 62.11,
+          "close": 63.05,
+          "volume": 243856
+        },
+        {
+          "time": "2026-10-07",
+          "open": 63.25,
+          "high": 63.79,
+          "low": 62.56,
+          "close": 63.06,
+          "volume": 186038
+        },
+        {
+          "time": "2026-10-08",
+          "open": 63.99,
+          "high": 63.99,
+          "low": 61.3,
+          "close": 61.77,
+          "volume": 185128
+        },
+        {
+          "time": "2026-10-09",
+          "open": 62.13,
+          "high": 62.13,
+          "low": 60.6,
+          "close": 61.15,
+          "volume": 219823
+        },
+        {
+          "time": "2026-10-12",
+          "open": 61.16,
+          "high": 62.4,
+          "low": 59.3,
+          "close": 59.98,
+          "volume": 251069
+        },
+        {
+          "time": "2026-10-13",
+          "open": 60.03,
+          "high": 60.7,
+          "low": 59.1,
+          "close": 60.51,
+          "volume": 304610
+        },
+        {
+          "time": "2026-10-14",
+          "open": 60.28,
+          "high": 61.99,
+          "low": 60.12,
+          "close": 61.25,
+          "volume": 201640
+        },
+        {
+          "time": "2026-10-15",
+          "open": 61.2,
+          "high": 61.44,
+          "low": 60.1,
+          "close": 60.28,
+          "volume": 182919
+        },
+        {
+          "time": "2026-10-16",
+          "open": 60.56,
+          "high": 61.32,
+          "low": 59.88,
+          "close": 60.49,
+          "volume": 220297
+        },
+        {
+          "time": "2026-10-19",
+          "open": 60.3,
+          "high": 60.57,
+          "low": 58.2,
+          "close": 58.4,
+          "volume": 433437
+        },
+        {
+          "time": "2026-10-21",
+          "open": 58.87,
+          "high": 58.87,
+          "low": 56.32,
+          "close": 56.86,
+          "volume": 334179
+        },
+        {
+          "time": "2026-10-22",
+          "open": 56.05,
+          "high": 56.86,
+          "low": 55.37,
+          "close": 56.47,
+          "volume": 470377
+        },
+        {
+          "time": "2026-10-23",
+          "open": 56.01,
+          "high": 57.5,
+          "low": 54.13,
+          "close": 55.43,
+          "volume": 510825
+        },
+        {
+          "time": "2026-10-26",
+          "open": 54.76,
+          "high": 55.7,
+          "low": 53.83,
+          "close": 55.01,
+          "volume": 309789
+        },
+        {
+          "time": "2026-10-27",
+          "open": 55.5,
+          "high": 57.33,
+          "low": 55.02,
+          "close": 56.99,
+          "volume": 226659
+        },
+        {
+          "time": "2026-10-28",
+          "open": 56.87,
+          "high": 57.18,
+          "low": 56.0,
+          "close": 56.74,
+          "volume": 149823
+        },
+        {
+          "time": "2026-10-29",
+          "open": 57.0,
+          "high": 57.39,
+          "low": 56.25,
+          "close": 57.03,
+          "volume": 137682
+        },
+        {
+          "time": "2026-10-30",
+          "open": 56.9,
+          "high": 56.9,
+          "low": 55.13,
+          "close": 55.66,
+          "volume": 166482
+        },
+        {
+          "time": "2026-11-02",
+          "open": 55.68,
+          "high": 57.69,
+          "low": 55.61,
+          "close": 57.5,
+          "volume": 177080
+        },
+        {
+          "time": "2026-11-03",
+          "open": 57.7,
+          "high": 58.51,
+          "low": 57.28,
+          "close": 57.53,
+          "volume": 167850
+        },
+        {
+          "time": "2026-11-04",
+          "open": 57.53,
+          "high": 59.48,
+          "low": 57.29,
+          "close": 59.16,
+          "volume": 192348
+        },
+        {
+          "time": "2026-11-05",
+          "open": 60.02,
+          "high": 62.0,
+          "low": 59.01,
+          "close": 59.57,
+          "volume": 359676
+        },
+        {
+          "time": "2026-11-06",
+          "open": 59.4,
+          "high": 59.4,
+          "low": 58.37,
+          "close": 58.97,
+          "volume": 152738
+        },
+        {
+          "time": "2026-11-09",
+          "open": 59.61,
+          "high": 60.39,
+          "low": 58.56,
+          "close": 59.42,
+          "volume": 146189
+        },
+        {
+          "time": "2026-11-11",
+          "open": 60.04,
+          "high": 62.62,
+          "low": 59.75,
+          "close": 61.46,
+          "volume": 713097
+        },
+        {
+          "time": "2026-11-12",
+          "open": 61.5,
+          "high": 61.75,
+          "low": 60.2,
+          "close": 60.55,
+          "volume": 233908
+        },
+        {
+          "time": "2026-11-13",
+          "open": 60.55,
+          "high": 61.99,
+          "low": 60.17,
+          "close": 61.2,
+          "volume": 299129
+        },
+        {
+          "time": "2026-11-16",
+          "open": 61.0,
+          "high": 61.05,
+          "low": 59.66,
+          "close": 60.2,
+          "volume": 161241
+        }
+      ],
+      "name": "Southern Petrochemical Industries CorpLd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b966.83",
+      "current_price": 60.2,
+      "prev_close": 61.2,
+      "day_change_pct": -1.63,
+      "52w_high": 91.15,
+      "52w_low": 53.5,
+      "pct_from_52w_high": -33.96,
+      "pct_from_52w_low": 12.52,
+      "sma_20": 58.23,
+      "sma_50": 62.17,
+      "sma_200": 65.12,
+      "rsi_14": 51.4,
+      "macd_val": -0.25,
+      "macd_signal": -0.91,
+      "macd_hist": 0.66,
+      "vol_surge_ratio": 0.58,
+      "pe_ratio": 6.42,
+      "forward_pe": 0.0,
+      "peg_ratio": 0.0,
+      "pb_ratio": 0.85,
+      "roe": 13.9,
+      "profit_margins": 6.0,
+      "operating_margins": 6.6,
+      "debt_to_equity": 0.49,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 22.3,
+      "earnings_growth_yoy": -23.3,
+      "q_sales_growth": 22.3,
+      "q_pat_growth": -23.3,
+      "free_cash_flow": -5749600256.0,
+      "target_mean_price": 60.2,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 327.0,
+      "promoter_holding": 0.0,
+      "institutional_holding": 0.3,
+      "public_holding": 99.7,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 62.75,
+      "sell_trigger_level": 53.72,
+      "dist_from_prev_close": 2.53,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+22.3%)",
+        "Healthy Low Debt (D/E 0.49)"
+      ],
+      "weaknesses": [
+        "Earnings De-growth YoY (-23.3%)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 22.0,
+      "technical_score": 20.0,
+      "composite_score": 49,
+      "long_term_signal": "HOLD",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 55.48,
+      "swing_target_1": 66.75,
+      "swing_target_2": 71.2,
+      "rationale": [
+        "YoY Revenue up 22.3%"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 327.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 62.75,
+      "wyckoff_ice": 53.72,
+      "wyckoff_breakout": 62.75,
+      "wyckoff_dist_to_breakout_pct": 4.24,
+      "wyckoff_stoploss": 52.65,
+      "wyckoff_stoploss_pct": 12.54,
+      "wyckoff_target_1": 71.78,
+      "wyckoff_target_2": 80.81,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b953.72 (Ice) to \u20b962.75 (Creek).",
+        "Consolidation inside 9.03 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -56033,7 +56607,7 @@ window.stockData = {
           "high": 38.27,
           "low": 36.93,
           "close": 37.43,
-          "volume": 47425930
+          "volume": 45996172
         }
       ],
       "name": "Suzlon Energy Ltd",
@@ -56054,7 +56628,7 @@ window.stockData = {
       "macd_val": -0.56,
       "macd_signal": -0.88,
       "macd_hist": 0.32,
-      "vol_surge_ratio": 0.56,
+      "vol_surge_ratio": 0.54,
       "pe_ratio": 22.82,
       "forward_pe": 18.37,
       "peg_ratio": 0.35,
@@ -56124,6 +56698,584 @@ window.stockData = {
       "wyckoff_rationale": [
         "Phase B Cause Building inside Trading Range: \u20b933.08 (Ice) to \u20b942.08 (Creek).",
         "Consolidation inside 9.0 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "GSFC.NS",
+      "clean_symbol": "GSFC",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 155.5,
+          "high": 159.13,
+          "low": 154.58,
+          "close": 156.93,
+          "volume": 1602786
+        },
+        {
+          "time": "2026-08-20",
+          "open": 157.34,
+          "high": 158.46,
+          "low": 155.25,
+          "close": 155.6,
+          "volume": 1010861
+        },
+        {
+          "time": "2026-08-21",
+          "open": 155.88,
+          "high": 155.96,
+          "low": 153.13,
+          "close": 153.3,
+          "volume": 909286
+        },
+        {
+          "time": "2026-08-24",
+          "open": 153.95,
+          "high": 156.61,
+          "low": 153.95,
+          "close": 154.67,
+          "volume": 923884
+        },
+        {
+          "time": "2026-08-25",
+          "open": 155.39,
+          "high": 157.8,
+          "low": 153.67,
+          "close": 154.2,
+          "volume": 3644998
+        },
+        {
+          "time": "2026-08-26",
+          "open": 154.84,
+          "high": 155.79,
+          "low": 154.26,
+          "close": 155.08,
+          "volume": 616096
+        },
+        {
+          "time": "2026-08-27",
+          "open": 155.0,
+          "high": 155.5,
+          "low": 153.39,
+          "close": 154.2,
+          "volume": 492991
+        },
+        {
+          "time": "2026-08-28",
+          "open": 154.43,
+          "high": 155.98,
+          "low": 152.69,
+          "close": 153.05,
+          "volume": 729308
+        },
+        {
+          "time": "2026-08-31",
+          "open": 153.55,
+          "high": 153.81,
+          "low": 150.91,
+          "close": 153.22,
+          "volume": 778578
+        },
+        {
+          "time": "2026-09-01",
+          "open": 153.07,
+          "high": 155.18,
+          "low": 152.64,
+          "close": 153.8,
+          "volume": 833892
+        },
+        {
+          "time": "2026-09-02",
+          "open": 153.07,
+          "high": 155.25,
+          "low": 152.4,
+          "close": 154.96,
+          "volume": 787261
+        },
+        {
+          "time": "2026-09-03",
+          "open": 156.17,
+          "high": 158.03,
+          "low": 155.12,
+          "close": 156.81,
+          "volume": 1747248
+        },
+        {
+          "time": "2026-09-04",
+          "open": 157.66,
+          "high": 160.68,
+          "low": 156.97,
+          "close": 157.8,
+          "volume": 1107016
+        },
+        {
+          "time": "2026-09-07",
+          "open": 158.21,
+          "high": 158.64,
+          "low": 156.49,
+          "close": 156.97,
+          "volume": 947889
+        },
+        {
+          "time": "2026-09-08",
+          "open": 157.14,
+          "high": 157.27,
+          "low": 155.42,
+          "close": 155.8,
+          "volume": 877506
+        },
+        {
+          "time": "2026-09-09",
+          "open": 155.88,
+          "high": 156.71,
+          "low": 154.5,
+          "close": 155.04,
+          "volume": 1931299
+        },
+        {
+          "time": "2026-09-10",
+          "open": 155.01,
+          "high": 156.85,
+          "low": 154.14,
+          "close": 155.38,
+          "volume": 1757556
+        },
+        {
+          "time": "2026-09-11",
+          "open": 154.91,
+          "high": 156.8,
+          "low": 152.85,
+          "close": 155.95,
+          "volume": 1425671
+        },
+        {
+          "time": "2026-09-15",
+          "open": 155.8,
+          "high": 156.5,
+          "low": 150.85,
+          "close": 151.55,
+          "volume": 1068484
+        },
+        {
+          "time": "2026-09-16",
+          "open": 151.85,
+          "high": 152.24,
+          "low": 147.15,
+          "close": 149.16,
+          "volume": 1062067
+        },
+        {
+          "time": "2026-09-17",
+          "open": 149.0,
+          "high": 154.3,
+          "low": 148.6,
+          "close": 152.27,
+          "volume": 1244753
+        },
+        {
+          "time": "2026-09-18",
+          "open": 153.05,
+          "high": 153.72,
+          "low": 150.35,
+          "close": 151.92,
+          "volume": 1280620
+        },
+        {
+          "time": "2026-09-21",
+          "open": 152.49,
+          "high": 152.8,
+          "low": 150.57,
+          "close": 150.75,
+          "volume": 566471
+        },
+        {
+          "time": "2026-09-22",
+          "open": 151.36,
+          "high": 153.8,
+          "low": 151.0,
+          "close": 152.19,
+          "volume": 626935
+        },
+        {
+          "time": "2026-09-23",
+          "open": 152.79,
+          "high": 157.79,
+          "low": 151.81,
+          "close": 155.34,
+          "volume": 1011816
+        },
+        {
+          "time": "2026-09-24",
+          "open": 154.4,
+          "high": 155.92,
+          "low": 153.62,
+          "close": 155.35,
+          "volume": 657583
+        },
+        {
+          "time": "2026-09-25",
+          "open": 154.95,
+          "high": 157.52,
+          "low": 154.64,
+          "close": 156.8,
+          "volume": 735930
+        },
+        {
+          "time": "2026-09-28",
+          "open": 156.85,
+          "high": 156.85,
+          "low": 152.85,
+          "close": 153.04,
+          "volume": 683059
+        },
+        {
+          "time": "2026-09-29",
+          "open": 153.04,
+          "high": 153.12,
+          "low": 151.0,
+          "close": 151.65,
+          "volume": 493454
+        },
+        {
+          "time": "2026-09-30",
+          "open": 152.41,
+          "high": 154.0,
+          "low": 150.25,
+          "close": 150.79,
+          "volume": 768508
+        },
+        {
+          "time": "2026-10-01",
+          "open": 150.25,
+          "high": 150.25,
+          "low": 145.2,
+          "close": 146.9,
+          "volume": 1070806
+        },
+        {
+          "time": "2026-10-05",
+          "open": 147.59,
+          "high": 150.2,
+          "low": 147.0,
+          "close": 147.26,
+          "volume": 492857
+        },
+        {
+          "time": "2026-10-06",
+          "open": 148.0,
+          "high": 153.95,
+          "low": 148.0,
+          "close": 153.47,
+          "volume": 963097
+        },
+        {
+          "time": "2026-10-07",
+          "open": 152.89,
+          "high": 153.79,
+          "low": 149.2,
+          "close": 149.73,
+          "volume": 636088
+        },
+        {
+          "time": "2026-10-08",
+          "open": 149.79,
+          "high": 150.13,
+          "low": 146.01,
+          "close": 146.5,
+          "volume": 745300
+        },
+        {
+          "time": "2026-10-09",
+          "open": 147.01,
+          "high": 149.0,
+          "low": 146.11,
+          "close": 147.28,
+          "volume": 433474
+        },
+        {
+          "time": "2026-10-12",
+          "open": 149.7,
+          "high": 152.29,
+          "low": 147.38,
+          "close": 148.4,
+          "volume": 895218
+        },
+        {
+          "time": "2026-10-13",
+          "open": 148.4,
+          "high": 149.0,
+          "low": 145.51,
+          "close": 147.04,
+          "volume": 713461
+        },
+        {
+          "time": "2026-10-14",
+          "open": 148.0,
+          "high": 149.37,
+          "low": 147.21,
+          "close": 147.91,
+          "volume": 513317
+        },
+        {
+          "time": "2026-10-15",
+          "open": 148.0,
+          "high": 148.66,
+          "low": 146.36,
+          "close": 146.6,
+          "volume": 535738
+        },
+        {
+          "time": "2026-10-16",
+          "open": 146.3,
+          "high": 151.0,
+          "low": 145.21,
+          "close": 148.86,
+          "volume": 620699
+        },
+        {
+          "time": "2026-10-19",
+          "open": 147.79,
+          "high": 150.37,
+          "low": 147.55,
+          "close": 148.0,
+          "volume": 702168
+        },
+        {
+          "time": "2026-10-21",
+          "open": 148.0,
+          "high": 148.21,
+          "low": 140.49,
+          "close": 141.08,
+          "volume": 1093148
+        },
+        {
+          "time": "2026-10-22",
+          "open": 141.1,
+          "high": 141.8,
+          "low": 136.41,
+          "close": 137.2,
+          "volume": 975002
+        },
+        {
+          "time": "2026-10-23",
+          "open": 137.2,
+          "high": 137.44,
+          "low": 132.25,
+          "close": 135.02,
+          "volume": 1127171
+        },
+        {
+          "time": "2026-10-26",
+          "open": 134.91,
+          "high": 136.03,
+          "low": 132.41,
+          "close": 135.35,
+          "volume": 585617
+        },
+        {
+          "time": "2026-10-27",
+          "open": 135.35,
+          "high": 137.63,
+          "low": 134.83,
+          "close": 136.09,
+          "volume": 477967
+        },
+        {
+          "time": "2026-10-28",
+          "open": 135.5,
+          "high": 137.37,
+          "low": 134.76,
+          "close": 136.41,
+          "volume": 491960
+        },
+        {
+          "time": "2026-10-29",
+          "open": 137.7,
+          "high": 137.7,
+          "low": 135.66,
+          "close": 136.88,
+          "volume": 415619
+        },
+        {
+          "time": "2026-10-30",
+          "open": 136.2,
+          "high": 136.27,
+          "low": 132.63,
+          "close": 133.28,
+          "volume": 518358
+        },
+        {
+          "time": "2026-11-02",
+          "open": 134.3,
+          "high": 137.21,
+          "low": 133.64,
+          "close": 136.61,
+          "volume": 482923
+        },
+        {
+          "time": "2026-11-03",
+          "open": 136.81,
+          "high": 137.45,
+          "low": 134.8,
+          "close": 136.18,
+          "volume": 909950
+        },
+        {
+          "time": "2026-11-04",
+          "open": 136.18,
+          "high": 141.37,
+          "low": 135.0,
+          "close": 140.74,
+          "volume": 1086592
+        },
+        {
+          "time": "2026-11-05",
+          "open": 142.53,
+          "high": 143.95,
+          "low": 141.0,
+          "close": 141.54,
+          "volume": 530227
+        },
+        {
+          "time": "2026-11-06",
+          "open": 142.05,
+          "high": 142.21,
+          "low": 138.15,
+          "close": 139.4,
+          "volume": 385443
+        },
+        {
+          "time": "2026-11-09",
+          "open": 142.3,
+          "high": 142.74,
+          "low": 140.85,
+          "close": 142.2,
+          "volume": 303643
+        },
+        {
+          "time": "2026-11-11",
+          "open": 142.5,
+          "high": 153.87,
+          "low": 142.5,
+          "close": 146.86,
+          "volume": 5875280
+        },
+        {
+          "time": "2026-11-12",
+          "open": 148.7,
+          "high": 149.0,
+          "low": 146.05,
+          "close": 147.43,
+          "volume": 906583
+        },
+        {
+          "time": "2026-11-13",
+          "open": 147.39,
+          "high": 147.39,
+          "low": 144.38,
+          "close": 145.19,
+          "volume": 819634
+        },
+        {
+          "time": "2026-11-16",
+          "open": 145.11,
+          "high": 145.12,
+          "low": 142.22,
+          "close": 143.29,
+          "volume": 503550
+        }
+      ],
+      "name": "Gujarat State Fertilizers & Chemicls Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9160.88",
+      "current_price": 143.29,
+      "prev_close": 145.19,
+      "day_change_pct": -1.31,
+      "52w_high": 193.12,
+      "52w_low": 132.25,
+      "pct_from_52w_high": -25.8,
+      "pct_from_52w_low": 8.35,
+      "sma_20": 140.38,
+      "sma_50": 147.36,
+      "sma_200": 156.69,
+      "rsi_14": 50.0,
+      "macd_val": -0.67,
+      "macd_signal": -2.0,
+      "macd_hist": 1.32,
+      "vol_surge_ratio": 0.54,
+      "pe_ratio": 10.04,
+      "forward_pe": 9.81,
+      "peg_ratio": 0.0,
+      "pb_ratio": 0.44,
+      "roe": 4.5,
+      "profit_margins": 4.1,
+      "operating_margins": 3.2,
+      "debt_to_equity": 0.05,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 48.7,
+      "earnings_growth_yoy": -38.3,
+      "q_sales_growth": 48.7,
+      "q_pat_growth": -38.3,
+      "free_cash_flow": -7909337600.0,
+      "target_mean_price": 160.0,
+      "analyst_upside_pct": 11.7,
+      "recommendation_key": "Buy",
+      "dividend_yield": 344.0,
+      "promoter_holding": 42.9,
+      "institutional_holding": 12.0,
+      "public_holding": 45.1,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 154.18,
+      "sell_trigger_level": 131.99,
+      "dist_from_prev_close": 6.19,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+48.7%)",
+        "Healthy Low Debt (D/E 0.05)"
+      ],
+      "weaknesses": [
+        "Earnings De-growth YoY (-38.3%)",
+        "Weak Return on Capital (4.5% ROE)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 15.0,
+      "technical_score": 20.0,
+      "composite_score": 47,
+      "long_term_signal": "HOLD",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 131.72,
+      "swing_target_1": 159.36,
+      "swing_target_2": 170.28,
+      "rationale": [
+        "YoY Revenue up 48.7%"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 344.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 154.18,
+      "wyckoff_ice": 131.99,
+      "wyckoff_breakout": 154.18,
+      "wyckoff_dist_to_breakout_pct": 7.6,
+      "wyckoff_stoploss": 129.35,
+      "wyckoff_stoploss_pct": 9.73,
+      "wyckoff_target_1": 176.37,
+      "wyckoff_target_2": 198.56,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9131.99 (Ice) to \u20b9154.18 (Creek).",
+        "Consolidation inside 22.19 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -56609,7 +57761,7 @@ window.stockData = {
           "high": 874.05,
           "low": 790.85,
           "close": 874.05,
-          "volume": 358845
+          "volume": 358835
         }
       ],
       "name": "Sigma Advanced Systems Ltd",
@@ -57188,7 +58340,7 @@ window.stockData = {
           "high": 2021.5,
           "low": 1929.5,
           "close": 1939.6,
-          "volume": 4429831
+          "volume": 4417762
         }
       ],
       "name": "Ather Energy Ltd",
@@ -57281,583 +58433,6 @@ window.stockData = {
         "Last Point of Support (LPS) successfully holding above Creek (\u20b91961.92).",
         "Low-volume pullback demonstrates floating supply is exhausted.",
         "Prime Wyckoff low-risk entry before Phase E markup acceleration."
-      ]
-    },
-    {
-      "symbol": "GMDCLTD.NS",
-      "clean_symbol": "GMDCLTD",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 561.43,
-          "high": 563.69,
-          "low": 546.43,
-          "close": 548.35,
-          "volume": 910963
-        },
-        {
-          "time": "2026-08-20",
-          "open": 552.53,
-          "high": 557.44,
-          "low": 549.43,
-          "close": 552.48,
-          "volume": 738582
-        },
-        {
-          "time": "2026-08-21",
-          "open": 552.58,
-          "high": 576.66,
-          "low": 552.58,
-          "close": 560.39,
-          "volume": 2025953
-        },
-        {
-          "time": "2026-08-24",
-          "open": 564.23,
-          "high": 571.11,
-          "low": 558.82,
-          "close": 561.23,
-          "volume": 670794
-        },
-        {
-          "time": "2026-08-25",
-          "open": 564.67,
-          "high": 569.04,
-          "low": 553.61,
-          "close": 557.79,
-          "volume": 554608
-        },
-        {
-          "time": "2026-08-26",
-          "open": 561.38,
-          "high": 573.03,
-          "low": 557.94,
-          "close": 569.19,
-          "volume": 923022
-        },
-        {
-          "time": "2026-08-27",
-          "open": 569.19,
-          "high": 570.42,
-          "low": 556.46,
-          "close": 557.69,
-          "volume": 569849
-        },
-        {
-          "time": "2026-08-28",
-          "open": 557.44,
-          "high": 564.67,
-          "low": 556.07,
-          "close": 558.08,
-          "volume": 736396
-        },
-        {
-          "time": "2026-08-31",
-          "open": 558.08,
-          "high": 558.08,
-          "low": 547.51,
-          "close": 553.56,
-          "volume": 549539
-        },
-        {
-          "time": "2026-09-01",
-          "open": 555.18,
-          "high": 564.23,
-          "low": 549.38,
-          "close": 552.77,
-          "volume": 1018206
-        },
-        {
-          "time": "2026-09-02",
-          "open": 548.6,
-          "high": 553.36,
-          "low": 546.19,
-          "close": 548.25,
-          "volume": 395940
-        },
-        {
-          "time": "2026-09-03",
-          "open": 550.56,
-          "high": 558.97,
-          "low": 550.46,
-          "close": 556.31,
-          "volume": 594866
-        },
-        {
-          "time": "2026-09-04",
-          "open": 556.66,
-          "high": 561.13,
-          "low": 551.54,
-          "close": 553.46,
-          "volume": 503162
-        },
-        {
-          "time": "2026-09-07",
-          "open": 553.46,
-          "high": 555.13,
-          "low": 547.42,
-          "close": 548.2,
-          "volume": 357732
-        },
-        {
-          "time": "2026-09-08",
-          "open": 548.69,
-          "high": 566.39,
-          "low": 543.43,
-          "close": 559.26,
-          "volume": 1454970
-        },
-        {
-          "time": "2026-09-09",
-          "open": 562.06,
-          "high": 575.14,
-          "low": 560.34,
-          "close": 564.87,
-          "volume": 1869082
-        },
-        {
-          "time": "2026-09-10",
-          "open": 569.04,
-          "high": 590.87,
-          "low": 567.28,
-          "close": 570.62,
-          "volume": 4880225
-        },
-        {
-          "time": "2026-09-11",
-          "open": 568.11,
-          "high": 568.11,
-          "low": 559.51,
-          "close": 565.65,
-          "volume": 667017
-        },
-        {
-          "time": "2026-09-15",
-          "open": 567.28,
-          "high": 570.22,
-          "low": 542.7,
-          "close": 544.12,
-          "volume": 947898
-        },
-        {
-          "time": "2026-09-16",
-          "open": 544.12,
-          "high": 547.61,
-          "low": 526.03,
-          "close": 534.19,
-          "volume": 801915
-        },
-        {
-          "time": "2026-09-17",
-          "open": 534.19,
-          "high": 543.19,
-          "low": 534.19,
-          "close": 539.89,
-          "volume": 687557
-        },
-        {
-          "time": "2026-09-18",
-          "open": 541.71,
-          "high": 550.36,
-          "low": 541.71,
-          "close": 547.07,
-          "volume": 635840
-        },
-        {
-          "time": "2026-09-21",
-          "open": 549.04,
-          "high": 552.38,
-          "low": 543.88,
-          "close": 548.5,
-          "volume": 632829
-        },
-        {
-          "time": "2026-09-22",
-          "open": 552.72,
-          "high": 556.41,
-          "low": 547.61,
-          "close": 554.15,
-          "volume": 726787
-        },
-        {
-          "time": "2026-09-23",
-          "open": 557.0,
-          "high": 561.85,
-          "low": 554.7,
-          "close": 556.7,
-          "volume": 588607
-        },
-        {
-          "time": "2026-09-24",
-          "open": 551.0,
-          "high": 552.7,
-          "low": 541.0,
-          "close": 542.5,
-          "volume": 461347
-        },
-        {
-          "time": "2026-09-25",
-          "open": 542.0,
-          "high": 544.6,
-          "low": 534.0,
-          "close": 538.0,
-          "volume": 694551
-        },
-        {
-          "time": "2026-09-28",
-          "open": 535.15,
-          "high": 535.2,
-          "low": 521.0,
-          "close": 522.25,
-          "volume": 726751
-        },
-        {
-          "time": "2026-09-29",
-          "open": 521.0,
-          "high": 521.8,
-          "low": 510.05,
-          "close": 513.2,
-          "volume": 728657
-        },
-        {
-          "time": "2026-09-30",
-          "open": 515.0,
-          "high": 524.4,
-          "low": 506.0,
-          "close": 507.7,
-          "volume": 688502
-        },
-        {
-          "time": "2026-10-01",
-          "open": 505.4,
-          "high": 505.75,
-          "low": 479.8,
-          "close": 487.65,
-          "volume": 1342310
-        },
-        {
-          "time": "2026-10-05",
-          "open": 489.9,
-          "high": 499.9,
-          "low": 483.05,
-          "close": 487.35,
-          "volume": 756347
-        },
-        {
-          "time": "2026-10-06",
-          "open": 490.0,
-          "high": 498.9,
-          "low": 488.0,
-          "close": 491.55,
-          "volume": 816501
-        },
-        {
-          "time": "2026-10-07",
-          "open": 490.0,
-          "high": 491.55,
-          "low": 474.0,
-          "close": 477.1,
-          "volume": 1206725
-        },
-        {
-          "time": "2026-10-08",
-          "open": 477.9,
-          "high": 485.9,
-          "low": 462.1,
-          "close": 463.35,
-          "volume": 1009088
-        },
-        {
-          "time": "2026-10-09",
-          "open": 465.5,
-          "high": 471.25,
-          "low": 458.05,
-          "close": 462.15,
-          "volume": 694388
-        },
-        {
-          "time": "2026-10-12",
-          "open": 465.0,
-          "high": 478.9,
-          "low": 465.0,
-          "close": 468.35,
-          "volume": 629889
-        },
-        {
-          "time": "2026-10-13",
-          "open": 470.0,
-          "high": 481.0,
-          "low": 462.7,
-          "close": 480.15,
-          "volume": 1098862
-        },
-        {
-          "time": "2026-10-14",
-          "open": 479.3,
-          "high": 482.0,
-          "low": 474.05,
-          "close": 474.95,
-          "volume": 444262
-        },
-        {
-          "time": "2026-10-15",
-          "open": 474.5,
-          "high": 478.2,
-          "low": 466.0,
-          "close": 467.5,
-          "volume": 452787
-        },
-        {
-          "time": "2026-10-16",
-          "open": 468.15,
-          "high": 474.4,
-          "low": 462.05,
-          "close": 471.05,
-          "volume": 538816
-        },
-        {
-          "time": "2026-10-19",
-          "open": 471.45,
-          "high": 472.8,
-          "low": 456.0,
-          "close": 458.75,
-          "volume": 456655
-        },
-        {
-          "time": "2026-10-21",
-          "open": 455.1,
-          "high": 455.9,
-          "low": 441.35,
-          "close": 443.0,
-          "volume": 710396
-        },
-        {
-          "time": "2026-10-22",
-          "open": 441.0,
-          "high": 443.7,
-          "low": 431.6,
-          "close": 435.0,
-          "volume": 757116
-        },
-        {
-          "time": "2026-10-23",
-          "open": 435.0,
-          "high": 435.15,
-          "low": 416.4,
-          "close": 424.6,
-          "volume": 1164026
-        },
-        {
-          "time": "2026-10-26",
-          "open": 422.65,
-          "high": 431.0,
-          "low": 417.2,
-          "close": 428.95,
-          "volume": 770229
-        },
-        {
-          "time": "2026-10-27",
-          "open": 429.9,
-          "high": 442.65,
-          "low": 426.4,
-          "close": 439.65,
-          "volume": 555941
-        },
-        {
-          "time": "2026-10-28",
-          "open": 437.9,
-          "high": 441.85,
-          "low": 431.5,
-          "close": 436.35,
-          "volume": 497145
-        },
-        {
-          "time": "2026-10-29",
-          "open": 434.4,
-          "high": 440.6,
-          "low": 430.4,
-          "close": 438.75,
-          "volume": 461212
-        },
-        {
-          "time": "2026-10-30",
-          "open": 440.3,
-          "high": 441.1,
-          "low": 406.0,
-          "close": 411.65,
-          "volume": 3767534
-        },
-        {
-          "time": "2026-11-02",
-          "open": 412.0,
-          "high": 427.5,
-          "low": 394.55,
-          "close": 424.55,
-          "volume": 1852950
-        },
-        {
-          "time": "2026-11-03",
-          "open": 425.0,
-          "high": 438.7,
-          "low": 418.15,
-          "close": 425.6,
-          "volume": 919591
-        },
-        {
-          "time": "2026-11-04",
-          "open": 425.6,
-          "high": 477.7,
-          "low": 421.6,
-          "close": 469.2,
-          "volume": 26124029
-        },
-        {
-          "time": "2026-11-05",
-          "open": 477.0,
-          "high": 477.95,
-          "low": 465.1,
-          "close": 469.4,
-          "volume": 1596188
-        },
-        {
-          "time": "2026-11-06",
-          "open": 464.8,
-          "high": 465.8,
-          "low": 456.1,
-          "close": 463.7,
-          "volume": 651398
-        },
-        {
-          "time": "2026-11-09",
-          "open": 474.0,
-          "high": 481.75,
-          "low": 470.65,
-          "close": 478.25,
-          "volume": 934311
-        },
-        {
-          "time": "2026-11-11",
-          "open": 480.0,
-          "high": 507.0,
-          "low": 478.5,
-          "close": 495.65,
-          "volume": 2777916
-        },
-        {
-          "time": "2026-11-12",
-          "open": 495.65,
-          "high": 505.5,
-          "low": 487.7,
-          "close": 498.0,
-          "volume": 1014516
-        },
-        {
-          "time": "2026-11-13",
-          "open": 498.0,
-          "high": 498.55,
-          "low": 487.0,
-          "close": 488.3,
-          "volume": 584728
-        },
-        {
-          "time": "2026-11-16",
-          "open": 488.85,
-          "high": 489.0,
-          "low": 474.4,
-          "close": 476.4,
-          "volume": 515864
-        }
-      ],
-      "name": "Gujarat Mineral Development Corpn Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9576.85",
-      "current_price": 476.4,
-      "prev_close": 488.3,
-      "day_change_pct": -2.44,
-      "52w_high": 758.89,
-      "52w_low": 394.55,
-      "pct_from_52w_high": -37.22,
-      "pct_from_52w_low": 20.75,
-      "sma_20": 453.84,
-      "sma_50": 495.04,
-      "sma_200": 568.46,
-      "rsi_14": 51.7,
-      "macd_val": -0.66,
-      "macd_signal": -9.23,
-      "macd_hist": 8.57,
-      "vol_surge_ratio": 0.22,
-      "pe_ratio": 22.91,
-      "forward_pe": 13.97,
-      "peg_ratio": 0.0,
-      "pb_ratio": 2.14,
-      "roe": 9.6,
-      "profit_margins": 20.6,
-      "operating_margins": 16.2,
-      "debt_to_equity": 0.05,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 71.2,
-      "earnings_growth_yoy": -63.3,
-      "q_sales_growth": 71.2,
-      "q_pat_growth": -63.3,
-      "free_cash_flow": -3624075008.0,
-      "target_mean_price": 267.0,
-      "analyst_upside_pct": -44.0,
-      "recommendation_key": "None",
-      "dividend_yield": 195.0,
-      "promoter_holding": 74.1,
-      "institutional_holding": 2.5,
-      "public_holding": 23.4,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 508.01,
-      "sell_trigger_level": 393.76,
-      "dist_from_prev_close": 4.04,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+71.2%)",
-        "Healthy Low Debt (D/E 0.05)"
-      ],
-      "weaknesses": [
-        "Earnings De-growth YoY (-63.3%)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 19.0,
-      "technical_score": 20.0,
-      "composite_score": 46,
-      "long_term_signal": "HOLD",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 402.58,
-      "swing_target_1": 578.92,
-      "swing_target_2": 648.64,
-      "rationale": [
-        "YoY Revenue up 71.2%"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 195.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 508.01,
-      "wyckoff_ice": 393.76,
-      "wyckoff_breakout": 508.01,
-      "wyckoff_dist_to_breakout_pct": 6.64,
-      "wyckoff_stoploss": 385.88,
-      "wyckoff_stoploss_pct": 19.0,
-      "wyckoff_target_1": 622.26,
-      "wyckoff_target_2": 736.51,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b9393.76 (Ice) to \u20b9508.01 (Creek).",
-        "Consolidation inside 114.25 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -58342,7 +58917,7 @@ window.stockData = {
           "high": 286.0,
           "low": 271.3,
           "close": 279.25,
-          "volume": 2126213
+          "volume": 2126063
         }
       ],
       "name": "Genus Power Infrastructures Ltd",
@@ -58438,6 +59013,583 @@ window.stockData = {
         "Phase A Stopping Action: Climactic volume surge (2.3x vol).",
         "Automatic reaction establishes Trading Range between \u20b9251.85 and \u20b9302.8.",
         "Wait for Phase B cause development before initiating trades."
+      ]
+    },
+    {
+      "symbol": "GMDCLTD.NS",
+      "clean_symbol": "GMDCLTD",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 561.43,
+          "high": 563.69,
+          "low": 546.43,
+          "close": 548.35,
+          "volume": 910963
+        },
+        {
+          "time": "2026-08-20",
+          "open": 552.53,
+          "high": 557.44,
+          "low": 549.43,
+          "close": 552.48,
+          "volume": 738582
+        },
+        {
+          "time": "2026-08-21",
+          "open": 552.58,
+          "high": 576.66,
+          "low": 552.58,
+          "close": 560.39,
+          "volume": 2025953
+        },
+        {
+          "time": "2026-08-24",
+          "open": 564.23,
+          "high": 571.11,
+          "low": 558.82,
+          "close": 561.23,
+          "volume": 670794
+        },
+        {
+          "time": "2026-08-25",
+          "open": 564.67,
+          "high": 569.04,
+          "low": 553.61,
+          "close": 557.79,
+          "volume": 554608
+        },
+        {
+          "time": "2026-08-26",
+          "open": 561.38,
+          "high": 573.03,
+          "low": 557.94,
+          "close": 569.19,
+          "volume": 923022
+        },
+        {
+          "time": "2026-08-27",
+          "open": 569.19,
+          "high": 570.42,
+          "low": 556.46,
+          "close": 557.69,
+          "volume": 569849
+        },
+        {
+          "time": "2026-08-28",
+          "open": 557.44,
+          "high": 564.67,
+          "low": 556.07,
+          "close": 558.08,
+          "volume": 736396
+        },
+        {
+          "time": "2026-08-31",
+          "open": 558.08,
+          "high": 558.08,
+          "low": 547.51,
+          "close": 553.56,
+          "volume": 549539
+        },
+        {
+          "time": "2026-09-01",
+          "open": 555.18,
+          "high": 564.23,
+          "low": 549.38,
+          "close": 552.77,
+          "volume": 1018206
+        },
+        {
+          "time": "2026-09-02",
+          "open": 548.6,
+          "high": 553.36,
+          "low": 546.19,
+          "close": 548.25,
+          "volume": 395940
+        },
+        {
+          "time": "2026-09-03",
+          "open": 550.56,
+          "high": 558.97,
+          "low": 550.46,
+          "close": 556.31,
+          "volume": 594866
+        },
+        {
+          "time": "2026-09-04",
+          "open": 556.66,
+          "high": 561.13,
+          "low": 551.54,
+          "close": 553.46,
+          "volume": 503162
+        },
+        {
+          "time": "2026-09-07",
+          "open": 553.46,
+          "high": 555.13,
+          "low": 547.42,
+          "close": 548.2,
+          "volume": 357732
+        },
+        {
+          "time": "2026-09-08",
+          "open": 548.69,
+          "high": 566.39,
+          "low": 543.43,
+          "close": 559.26,
+          "volume": 1454970
+        },
+        {
+          "time": "2026-09-09",
+          "open": 562.06,
+          "high": 575.14,
+          "low": 560.34,
+          "close": 564.87,
+          "volume": 1869082
+        },
+        {
+          "time": "2026-09-10",
+          "open": 569.04,
+          "high": 590.87,
+          "low": 567.28,
+          "close": 570.62,
+          "volume": 4880225
+        },
+        {
+          "time": "2026-09-11",
+          "open": 568.11,
+          "high": 568.11,
+          "low": 559.51,
+          "close": 565.65,
+          "volume": 667017
+        },
+        {
+          "time": "2026-09-15",
+          "open": 567.28,
+          "high": 570.22,
+          "low": 542.7,
+          "close": 544.12,
+          "volume": 947898
+        },
+        {
+          "time": "2026-09-16",
+          "open": 544.12,
+          "high": 547.61,
+          "low": 526.03,
+          "close": 534.19,
+          "volume": 801915
+        },
+        {
+          "time": "2026-09-17",
+          "open": 534.19,
+          "high": 543.19,
+          "low": 534.19,
+          "close": 539.89,
+          "volume": 687557
+        },
+        {
+          "time": "2026-09-18",
+          "open": 541.71,
+          "high": 550.36,
+          "low": 541.71,
+          "close": 547.07,
+          "volume": 635840
+        },
+        {
+          "time": "2026-09-21",
+          "open": 549.04,
+          "high": 552.38,
+          "low": 543.88,
+          "close": 548.5,
+          "volume": 632829
+        },
+        {
+          "time": "2026-09-22",
+          "open": 552.72,
+          "high": 556.41,
+          "low": 547.61,
+          "close": 554.15,
+          "volume": 726787
+        },
+        {
+          "time": "2026-09-23",
+          "open": 557.0,
+          "high": 561.85,
+          "low": 554.7,
+          "close": 556.7,
+          "volume": 588607
+        },
+        {
+          "time": "2026-09-24",
+          "open": 551.0,
+          "high": 552.7,
+          "low": 541.0,
+          "close": 542.5,
+          "volume": 461347
+        },
+        {
+          "time": "2026-09-25",
+          "open": 542.0,
+          "high": 544.6,
+          "low": 534.0,
+          "close": 538.0,
+          "volume": 694551
+        },
+        {
+          "time": "2026-09-28",
+          "open": 535.15,
+          "high": 535.2,
+          "low": 521.0,
+          "close": 522.25,
+          "volume": 726751
+        },
+        {
+          "time": "2026-09-29",
+          "open": 521.0,
+          "high": 521.8,
+          "low": 510.05,
+          "close": 513.2,
+          "volume": 728657
+        },
+        {
+          "time": "2026-09-30",
+          "open": 515.0,
+          "high": 524.4,
+          "low": 506.0,
+          "close": 507.7,
+          "volume": 688502
+        },
+        {
+          "time": "2026-10-01",
+          "open": 505.4,
+          "high": 505.75,
+          "low": 479.8,
+          "close": 487.65,
+          "volume": 1342310
+        },
+        {
+          "time": "2026-10-05",
+          "open": 489.9,
+          "high": 499.9,
+          "low": 483.05,
+          "close": 487.35,
+          "volume": 756347
+        },
+        {
+          "time": "2026-10-06",
+          "open": 490.0,
+          "high": 498.9,
+          "low": 488.0,
+          "close": 491.55,
+          "volume": 816501
+        },
+        {
+          "time": "2026-10-07",
+          "open": 490.0,
+          "high": 491.55,
+          "low": 474.0,
+          "close": 477.1,
+          "volume": 1206725
+        },
+        {
+          "time": "2026-10-08",
+          "open": 477.9,
+          "high": 485.9,
+          "low": 462.1,
+          "close": 463.35,
+          "volume": 1009088
+        },
+        {
+          "time": "2026-10-09",
+          "open": 465.5,
+          "high": 471.25,
+          "low": 458.05,
+          "close": 462.15,
+          "volume": 694388
+        },
+        {
+          "time": "2026-10-12",
+          "open": 465.0,
+          "high": 478.9,
+          "low": 465.0,
+          "close": 468.35,
+          "volume": 629889
+        },
+        {
+          "time": "2026-10-13",
+          "open": 470.0,
+          "high": 481.0,
+          "low": 462.7,
+          "close": 480.15,
+          "volume": 1098862
+        },
+        {
+          "time": "2026-10-14",
+          "open": 479.3,
+          "high": 482.0,
+          "low": 474.05,
+          "close": 474.95,
+          "volume": 444262
+        },
+        {
+          "time": "2026-10-15",
+          "open": 474.5,
+          "high": 478.2,
+          "low": 466.0,
+          "close": 467.5,
+          "volume": 452787
+        },
+        {
+          "time": "2026-10-16",
+          "open": 468.15,
+          "high": 474.4,
+          "low": 462.05,
+          "close": 471.05,
+          "volume": 538816
+        },
+        {
+          "time": "2026-10-19",
+          "open": 471.45,
+          "high": 472.8,
+          "low": 456.0,
+          "close": 458.75,
+          "volume": 456655
+        },
+        {
+          "time": "2026-10-21",
+          "open": 455.1,
+          "high": 455.9,
+          "low": 441.35,
+          "close": 443.0,
+          "volume": 710396
+        },
+        {
+          "time": "2026-10-22",
+          "open": 441.0,
+          "high": 443.7,
+          "low": 431.6,
+          "close": 435.0,
+          "volume": 757116
+        },
+        {
+          "time": "2026-10-23",
+          "open": 435.0,
+          "high": 435.15,
+          "low": 416.4,
+          "close": 424.6,
+          "volume": 1164026
+        },
+        {
+          "time": "2026-10-26",
+          "open": 422.65,
+          "high": 431.0,
+          "low": 417.2,
+          "close": 428.95,
+          "volume": 770229
+        },
+        {
+          "time": "2026-10-27",
+          "open": 429.9,
+          "high": 442.65,
+          "low": 426.4,
+          "close": 439.65,
+          "volume": 555941
+        },
+        {
+          "time": "2026-10-28",
+          "open": 437.9,
+          "high": 441.85,
+          "low": 431.5,
+          "close": 436.35,
+          "volume": 497145
+        },
+        {
+          "time": "2026-10-29",
+          "open": 434.4,
+          "high": 440.6,
+          "low": 430.4,
+          "close": 438.75,
+          "volume": 461212
+        },
+        {
+          "time": "2026-10-30",
+          "open": 440.3,
+          "high": 441.1,
+          "low": 406.0,
+          "close": 411.65,
+          "volume": 3767534
+        },
+        {
+          "time": "2026-11-02",
+          "open": 412.0,
+          "high": 427.5,
+          "low": 394.55,
+          "close": 424.55,
+          "volume": 1852950
+        },
+        {
+          "time": "2026-11-03",
+          "open": 425.0,
+          "high": 438.7,
+          "low": 418.15,
+          "close": 425.6,
+          "volume": 919591
+        },
+        {
+          "time": "2026-11-04",
+          "open": 425.6,
+          "high": 477.7,
+          "low": 421.6,
+          "close": 469.2,
+          "volume": 26124029
+        },
+        {
+          "time": "2026-11-05",
+          "open": 477.0,
+          "high": 477.95,
+          "low": 465.1,
+          "close": 469.4,
+          "volume": 1596188
+        },
+        {
+          "time": "2026-11-06",
+          "open": 464.8,
+          "high": 465.8,
+          "low": 456.1,
+          "close": 463.7,
+          "volume": 651398
+        },
+        {
+          "time": "2026-11-09",
+          "open": 474.0,
+          "high": 481.75,
+          "low": 470.65,
+          "close": 478.25,
+          "volume": 934311
+        },
+        {
+          "time": "2026-11-11",
+          "open": 480.0,
+          "high": 507.0,
+          "low": 478.5,
+          "close": 495.65,
+          "volume": 2777916
+        },
+        {
+          "time": "2026-11-12",
+          "open": 495.65,
+          "high": 505.5,
+          "low": 487.7,
+          "close": 498.0,
+          "volume": 1014516
+        },
+        {
+          "time": "2026-11-13",
+          "open": 498.0,
+          "high": 498.55,
+          "low": 487.0,
+          "close": 488.3,
+          "volume": 584728
+        },
+        {
+          "time": "2026-11-16",
+          "open": 488.85,
+          "high": 489.0,
+          "low": 474.4,
+          "close": 477.15,
+          "volume": 515861
+        }
+      ],
+      "name": "Gujarat Mineral Development Corpn Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9576.85",
+      "current_price": 477.15,
+      "prev_close": 488.3,
+      "day_change_pct": -2.28,
+      "52w_high": 758.89,
+      "52w_low": 394.55,
+      "pct_from_52w_high": -37.13,
+      "pct_from_52w_low": 20.94,
+      "sma_20": 453.88,
+      "sma_50": 495.05,
+      "sma_200": 568.47,
+      "rsi_14": 51.9,
+      "macd_val": -0.6,
+      "macd_signal": -9.22,
+      "macd_hist": 8.62,
+      "vol_surge_ratio": 0.22,
+      "pe_ratio": 22.95,
+      "forward_pe": 13.99,
+      "peg_ratio": 0.0,
+      "pb_ratio": 2.14,
+      "roe": 9.6,
+      "profit_margins": 20.6,
+      "operating_margins": 16.2,
+      "debt_to_equity": 0.05,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": 71.2,
+      "earnings_growth_yoy": -63.3,
+      "q_sales_growth": 71.2,
+      "q_pat_growth": -63.3,
+      "free_cash_flow": -3624075008.0,
+      "target_mean_price": 267.0,
+      "analyst_upside_pct": -44.0,
+      "recommendation_key": "None",
+      "dividend_yield": 195.0,
+      "promoter_holding": 74.1,
+      "institutional_holding": 2.5,
+      "public_holding": 23.4,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 508.01,
+      "sell_trigger_level": 393.76,
+      "dist_from_prev_close": 4.04,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Strong YoY Sales Growth (+71.2%)",
+        "Healthy Low Debt (D/E 0.05)"
+      ],
+      "weaknesses": [
+        "Earnings De-growth YoY (-63.3%)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 19.0,
+      "technical_score": 20.0,
+      "composite_score": 46,
+      "long_term_signal": "HOLD",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 403.24,
+      "swing_target_1": 579.81,
+      "swing_target_2": 649.62,
+      "rationale": [
+        "YoY Revenue up 71.2%"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 195.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Accumulation",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 508.01,
+      "wyckoff_ice": 393.76,
+      "wyckoff_breakout": 508.01,
+      "wyckoff_dist_to_breakout_pct": 6.47,
+      "wyckoff_stoploss": 385.88,
+      "wyckoff_stoploss_pct": 19.13,
+      "wyckoff_target_1": 622.26,
+      "wyckoff_target_2": 736.51,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9393.76 (Ice) to \u20b9508.01 (Creek).",
+        "Consolidation inside 114.25 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -58922,7 +60074,7 @@ window.stockData = {
           "high": 28.87,
           "low": 27.83,
           "close": 28.16,
-          "volume": 1937390
+          "volume": 1937241
         }
       ],
       "name": "Sigachi Industries Ltd",
@@ -59014,583 +60166,6 @@ window.stockData = {
       "wyckoff_rationale": [
         "Phase B Cause Building inside Trading Range: \u20b924.05 (Ice) to \u20b929.16 (Creek).",
         "Consolidation inside 5.11 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
-      ]
-    },
-    {
-      "symbol": "SPIC.NS",
-      "clean_symbol": "SPIC",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 64.69,
-          "high": 67.35,
-          "low": 64.37,
-          "close": 66.07,
-          "volume": 752272
-        },
-        {
-          "time": "2026-08-20",
-          "open": 66.31,
-          "high": 66.57,
-          "low": 65.73,
-          "close": 66.05,
-          "volume": 225701
-        },
-        {
-          "time": "2026-08-21",
-          "open": 66.02,
-          "high": 66.61,
-          "low": 65.64,
-          "close": 66.18,
-          "volume": 322996
-        },
-        {
-          "time": "2026-08-24",
-          "open": 66.49,
-          "high": 67.64,
-          "low": 66.0,
-          "close": 67.28,
-          "volume": 738090
-        },
-        {
-          "time": "2026-08-25",
-          "open": 67.96,
-          "high": 71.17,
-          "low": 67.77,
-          "close": 68.46,
-          "volume": 3056299
-        },
-        {
-          "time": "2026-08-26",
-          "open": 68.74,
-          "high": 68.93,
-          "low": 67.79,
-          "close": 68.23,
-          "volume": 339406
-        },
-        {
-          "time": "2026-08-27",
-          "open": 67.98,
-          "high": 68.54,
-          "low": 67.05,
-          "close": 67.44,
-          "volume": 314076
-        },
-        {
-          "time": "2026-08-28",
-          "open": 67.32,
-          "high": 67.48,
-          "low": 66.65,
-          "close": 67.08,
-          "volume": 214528
-        },
-        {
-          "time": "2026-08-31",
-          "open": 66.94,
-          "high": 67.08,
-          "low": 65.36,
-          "close": 65.77,
-          "volume": 271707
-        },
-        {
-          "time": "2026-09-01",
-          "open": 65.72,
-          "high": 67.51,
-          "low": 65.72,
-          "close": 66.86,
-          "volume": 377996
-        },
-        {
-          "time": "2026-09-02",
-          "open": 66.7,
-          "high": 67.77,
-          "low": 65.64,
-          "close": 67.08,
-          "volume": 471117
-        },
-        {
-          "time": "2026-09-03",
-          "open": 67.24,
-          "high": 69.81,
-          "low": 67.0,
-          "close": 69.06,
-          "volume": 1238148
-        },
-        {
-          "time": "2026-09-04",
-          "open": 69.08,
-          "high": 70.87,
-          "low": 68.93,
-          "close": 69.2,
-          "volume": 648651
-        },
-        {
-          "time": "2026-09-07",
-          "open": 68.93,
-          "high": 70.39,
-          "low": 68.45,
-          "close": 68.95,
-          "volume": 551519
-        },
-        {
-          "time": "2026-09-08",
-          "open": 68.86,
-          "high": 70.39,
-          "low": 68.53,
-          "close": 69.0,
-          "volume": 720567
-        },
-        {
-          "time": "2026-09-09",
-          "open": 69.0,
-          "high": 69.4,
-          "low": 67.91,
-          "close": 68.09,
-          "volume": 398972
-        },
-        {
-          "time": "2026-09-10",
-          "open": 68.06,
-          "high": 69.05,
-          "low": 66.76,
-          "close": 67.28,
-          "volume": 457757
-        },
-        {
-          "time": "2026-09-11",
-          "open": 66.51,
-          "high": 67.28,
-          "low": 66.18,
-          "close": 66.99,
-          "volume": 246359
-        },
-        {
-          "time": "2026-09-15",
-          "open": 66.99,
-          "high": 67.16,
-          "low": 65.05,
-          "close": 65.42,
-          "volume": 418875
-        },
-        {
-          "time": "2026-09-16",
-          "open": 65.43,
-          "high": 65.66,
-          "low": 63.2,
-          "close": 64.88,
-          "volume": 460572
-        },
-        {
-          "time": "2026-09-17",
-          "open": 64.83,
-          "high": 66.21,
-          "low": 64.18,
-          "close": 64.97,
-          "volume": 294399
-        },
-        {
-          "time": "2026-09-18",
-          "open": 65.34,
-          "high": 67.08,
-          "low": 65.29,
-          "close": 66.7,
-          "volume": 616680
-        },
-        {
-          "time": "2026-09-21",
-          "open": 67.15,
-          "high": 67.79,
-          "low": 66.31,
-          "close": 66.74,
-          "volume": 415696
-        },
-        {
-          "time": "2026-09-22",
-          "open": 66.8,
-          "high": 67.15,
-          "low": 65.86,
-          "close": 66.09,
-          "volume": 205502
-        },
-        {
-          "time": "2026-09-23",
-          "open": 66.01,
-          "high": 67.6,
-          "low": 65.75,
-          "close": 67.0,
-          "volume": 356978
-        },
-        {
-          "time": "2026-09-24",
-          "open": 66.7,
-          "high": 67.39,
-          "low": 65.1,
-          "close": 65.86,
-          "volume": 263877
-        },
-        {
-          "time": "2026-09-25",
-          "open": 65.35,
-          "high": 66.23,
-          "low": 64.61,
-          "close": 64.73,
-          "volume": 347792
-        },
-        {
-          "time": "2026-09-28",
-          "open": 64.35,
-          "high": 64.59,
-          "low": 62.4,
-          "close": 62.75,
-          "volume": 333575
-        },
-        {
-          "time": "2026-09-29",
-          "open": 62.53,
-          "high": 63.9,
-          "low": 62.06,
-          "close": 63.47,
-          "volume": 215758
-        },
-        {
-          "time": "2026-09-30",
-          "open": 63.47,
-          "high": 64.24,
-          "low": 63.43,
-          "close": 63.94,
-          "volume": 140574
-        },
-        {
-          "time": "2026-10-01",
-          "open": 63.7,
-          "high": 63.7,
-          "low": 61.5,
-          "close": 62.23,
-          "volume": 234104
-        },
-        {
-          "time": "2026-10-05",
-          "open": 62.05,
-          "high": 63.72,
-          "low": 61.44,
-          "close": 62.19,
-          "volume": 238526
-        },
-        {
-          "time": "2026-10-06",
-          "open": 62.42,
-          "high": 63.46,
-          "low": 62.11,
-          "close": 63.05,
-          "volume": 243856
-        },
-        {
-          "time": "2026-10-07",
-          "open": 63.25,
-          "high": 63.79,
-          "low": 62.56,
-          "close": 63.06,
-          "volume": 186038
-        },
-        {
-          "time": "2026-10-08",
-          "open": 63.99,
-          "high": 63.99,
-          "low": 61.3,
-          "close": 61.77,
-          "volume": 185128
-        },
-        {
-          "time": "2026-10-09",
-          "open": 62.13,
-          "high": 62.13,
-          "low": 60.6,
-          "close": 61.15,
-          "volume": 219823
-        },
-        {
-          "time": "2026-10-12",
-          "open": 61.16,
-          "high": 62.4,
-          "low": 59.3,
-          "close": 59.98,
-          "volume": 251069
-        },
-        {
-          "time": "2026-10-13",
-          "open": 60.03,
-          "high": 60.7,
-          "low": 59.1,
-          "close": 60.51,
-          "volume": 304610
-        },
-        {
-          "time": "2026-10-14",
-          "open": 60.28,
-          "high": 61.99,
-          "low": 60.12,
-          "close": 61.25,
-          "volume": 201640
-        },
-        {
-          "time": "2026-10-15",
-          "open": 61.2,
-          "high": 61.44,
-          "low": 60.1,
-          "close": 60.28,
-          "volume": 182919
-        },
-        {
-          "time": "2026-10-16",
-          "open": 60.56,
-          "high": 61.32,
-          "low": 59.88,
-          "close": 60.49,
-          "volume": 220297
-        },
-        {
-          "time": "2026-10-19",
-          "open": 60.3,
-          "high": 60.57,
-          "low": 58.2,
-          "close": 58.4,
-          "volume": 433437
-        },
-        {
-          "time": "2026-10-21",
-          "open": 58.87,
-          "high": 58.87,
-          "low": 56.32,
-          "close": 56.86,
-          "volume": 334179
-        },
-        {
-          "time": "2026-10-22",
-          "open": 56.05,
-          "high": 56.86,
-          "low": 55.37,
-          "close": 56.47,
-          "volume": 470377
-        },
-        {
-          "time": "2026-10-23",
-          "open": 56.01,
-          "high": 57.5,
-          "low": 54.13,
-          "close": 55.43,
-          "volume": 510825
-        },
-        {
-          "time": "2026-10-26",
-          "open": 54.76,
-          "high": 55.7,
-          "low": 53.83,
-          "close": 55.01,
-          "volume": 309789
-        },
-        {
-          "time": "2026-10-27",
-          "open": 55.5,
-          "high": 57.33,
-          "low": 55.02,
-          "close": 56.99,
-          "volume": 226659
-        },
-        {
-          "time": "2026-10-28",
-          "open": 56.87,
-          "high": 57.18,
-          "low": 56.0,
-          "close": 56.74,
-          "volume": 149823
-        },
-        {
-          "time": "2026-10-29",
-          "open": 57.0,
-          "high": 57.39,
-          "low": 56.25,
-          "close": 57.03,
-          "volume": 137682
-        },
-        {
-          "time": "2026-10-30",
-          "open": 56.9,
-          "high": 56.9,
-          "low": 55.13,
-          "close": 55.66,
-          "volume": 166482
-        },
-        {
-          "time": "2026-11-02",
-          "open": 55.68,
-          "high": 57.69,
-          "low": 55.61,
-          "close": 57.5,
-          "volume": 177080
-        },
-        {
-          "time": "2026-11-03",
-          "open": 57.7,
-          "high": 58.51,
-          "low": 57.28,
-          "close": 57.53,
-          "volume": 167850
-        },
-        {
-          "time": "2026-11-04",
-          "open": 57.53,
-          "high": 59.48,
-          "low": 57.29,
-          "close": 59.16,
-          "volume": 192348
-        },
-        {
-          "time": "2026-11-05",
-          "open": 60.02,
-          "high": 62.0,
-          "low": 59.01,
-          "close": 59.57,
-          "volume": 359676
-        },
-        {
-          "time": "2026-11-06",
-          "open": 59.4,
-          "high": 59.4,
-          "low": 58.37,
-          "close": 58.97,
-          "volume": 152738
-        },
-        {
-          "time": "2026-11-09",
-          "open": 59.61,
-          "high": 60.39,
-          "low": 58.56,
-          "close": 59.42,
-          "volume": 146189
-        },
-        {
-          "time": "2026-11-11",
-          "open": 60.04,
-          "high": 62.62,
-          "low": 59.75,
-          "close": 61.46,
-          "volume": 713097
-        },
-        {
-          "time": "2026-11-12",
-          "open": 61.5,
-          "high": 61.75,
-          "low": 60.2,
-          "close": 60.55,
-          "volume": 233908
-        },
-        {
-          "time": "2026-11-13",
-          "open": 60.55,
-          "high": 61.99,
-          "low": 60.17,
-          "close": 61.2,
-          "volume": 299129
-        },
-        {
-          "time": "2026-11-16",
-          "open": 61.0,
-          "high": 61.05,
-          "low": 59.66,
-          "close": 59.82,
-          "volume": 161386
-        }
-      ],
-      "name": "Southern Petrochemical Industries CorpLd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b966.83",
-      "current_price": 59.82,
-      "prev_close": 61.2,
-      "day_change_pct": -2.25,
-      "52w_high": 91.15,
-      "52w_low": 53.5,
-      "pct_from_52w_high": -34.37,
-      "pct_from_52w_low": 11.81,
-      "sma_20": 58.21,
-      "sma_50": 62.16,
-      "sma_200": 65.12,
-      "rsi_14": 49.9,
-      "macd_val": -0.28,
-      "macd_signal": -0.91,
-      "macd_hist": 0.64,
-      "vol_surge_ratio": 0.58,
-      "pe_ratio": 6.42,
-      "forward_pe": 0.0,
-      "peg_ratio": 0.0,
-      "pb_ratio": 0.85,
-      "roe": 13.9,
-      "profit_margins": 6.0,
-      "operating_margins": 6.6,
-      "debt_to_equity": 0.49,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 22.3,
-      "earnings_growth_yoy": -23.3,
-      "q_sales_growth": 22.3,
-      "q_pat_growth": -23.3,
-      "free_cash_flow": -5749600256.0,
-      "target_mean_price": 59.82,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 327.0,
-      "promoter_holding": 0.0,
-      "institutional_holding": 0.3,
-      "public_holding": 99.7,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 62.75,
-      "sell_trigger_level": 53.72,
-      "dist_from_prev_close": 2.53,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+22.3%)",
-        "Healthy Low Debt (D/E 0.49)"
-      ],
-      "weaknesses": [
-        "Earnings De-growth YoY (-23.3%)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 22.0,
-      "technical_score": 17.0,
-      "composite_score": 46,
-      "long_term_signal": "HOLD",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 55.16,
-      "swing_target_1": 66.29,
-      "swing_target_2": 70.69,
-      "rationale": [
-        "YoY Revenue up 22.3%"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 327.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 62.75,
-      "wyckoff_ice": 53.72,
-      "wyckoff_breakout": 62.75,
-      "wyckoff_dist_to_breakout_pct": 4.9,
-      "wyckoff_stoploss": 52.65,
-      "wyckoff_stoploss_pct": 11.99,
-      "wyckoff_target_1": 71.78,
-      "wyckoff_target_2": 80.81,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b953.72 (Ice) to \u20b962.75 (Creek).",
-        "Consolidation inside 9.03 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -60075,31 +60650,31 @@ window.stockData = {
           "open": 146.9,
           "high": 148.61,
           "low": 145.21,
-          "close": 146.9,
-          "volume": 247633
+          "close": 146.99,
+          "volume": 247622
         }
       ],
       "name": "Gujarat Ambuja Exports Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9154.32",
-      "current_price": 146.9,
+      "current_price": 146.99,
       "prev_close": 146.57,
-      "day_change_pct": 0.23,
+      "day_change_pct": 0.29,
       "52w_high": 184.66,
       "52w_low": 101.87,
-      "pct_from_52w_high": -20.45,
-      "pct_from_52w_low": 44.2,
+      "pct_from_52w_high": -20.4,
+      "pct_from_52w_low": 44.29,
       "sma_20": 151.12,
       "sma_50": 158.76,
       "sma_200": 154.17,
-      "rsi_14": 41.9,
-      "macd_val": -3.49,
-      "macd_signal": -3.72,
-      "macd_hist": 0.23,
+      "rsi_14": 42.0,
+      "macd_val": -3.48,
+      "macd_signal": -3.71,
+      "macd_hist": 0.24,
       "vol_surge_ratio": 0.32,
-      "pe_ratio": 13.21,
-      "forward_pe": 12.34,
+      "pe_ratio": 13.22,
+      "forward_pe": 12.35,
       "peg_ratio": 0.0,
       "pb_ratio": 1.88,
       "roe": 15.3,
@@ -60113,7 +60688,7 @@ window.stockData = {
       "q_pat_growth": 245.8,
       "free_cash_flow": -2335812608.0,
       "target_mean_price": 198.0,
-      "analyst_upside_pct": 34.8,
+      "analyst_upside_pct": 34.7,
       "recommendation_key": "None",
       "dividend_yield": 20.0,
       "promoter_holding": 71.4,
@@ -60143,9 +60718,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 137.01,
-      "swing_target_1": 160.63,
-      "swing_target_2": 169.97,
+      "swing_stoploss": 137.11,
+      "swing_target_1": 160.71,
+      "swing_target_2": 170.05,
       "rationale": [
         "YoY Profit up 245.8%"
       ],
@@ -60159,9 +60734,9 @@ window.stockData = {
       "wyckoff_creek": 180.1,
       "wyckoff_ice": 137.08,
       "wyckoff_breakout": 180.1,
-      "wyckoff_dist_to_breakout_pct": 22.6,
+      "wyckoff_dist_to_breakout_pct": 22.53,
       "wyckoff_stoploss": 134.34,
-      "wyckoff_stoploss_pct": 8.55,
+      "wyckoff_stoploss_pct": 8.61,
       "wyckoff_target_1": 223.12,
       "wyckoff_target_2": 266.14,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -60653,7 +61228,7 @@ window.stockData = {
           "high": 2354.9,
           "low": 2195.0,
           "close": 2207.5,
-          "volume": 90850
+          "volume": 90849
         }
       ],
       "name": "ZF Commercial Vehl Cntrl Sytm India Ltd",
@@ -61229,33 +61804,33 @@ window.stockData = {
           "open": 574.7,
           "high": 575.35,
           "low": 567.2,
-          "close": 570.95,
-          "volume": 265290
+          "close": 571.0,
+          "volume": 265276
         }
       ],
       "name": "Adani Total Gas Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9612.33",
-      "current_price": 570.95,
+      "current_price": 571.0,
       "prev_close": 575.4,
-      "day_change_pct": -0.77,
+      "day_change_pct": -0.76,
       "52w_high": 859.55,
       "52w_low": 462.64,
-      "pct_from_52w_high": -33.58,
-      "pct_from_52w_low": 23.41,
+      "pct_from_52w_high": -33.57,
+      "pct_from_52w_low": 23.42,
       "sma_20": 559.5,
       "sma_50": 582.31,
-      "sma_200": 612.84,
+      "sma_200": 612.85,
       "rsi_14": 50.0,
       "macd_val": -1.22,
       "macd_signal": -5.97,
       "macd_hist": 4.75,
       "vol_surge_ratio": 0.52,
-      "pe_ratio": 97.93,
+      "pe_ratio": 97.94,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 12.09,
+      "pb_ratio": 12.1,
       "roe": 13.3,
       "profit_margins": 9.5,
       "operating_margins": 13.9,
@@ -61266,7 +61841,7 @@ window.stockData = {
       "q_sales_growth": 33.9,
       "q_pat_growth": 6.0,
       "free_cash_flow": -1625587456.0,
-      "target_mean_price": 570.95,
+      "target_mean_price": 571.0,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 4.0,
@@ -61295,9 +61870,9 @@ window.stockData = {
       "long_term_signal": "HOLD",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 522.54,
-      "swing_target_1": 638.19,
-      "swing_target_2": 683.91,
+      "swing_stoploss": 522.59,
+      "swing_target_1": 638.24,
+      "swing_target_2": 683.97,
       "rationale": [
         "YoY Revenue up 33.9%"
       ],
@@ -61311,7 +61886,7 @@ window.stockData = {
       "wyckoff_creek": 595.69,
       "wyckoff_ice": 518.01,
       "wyckoff_breakout": 595.69,
-      "wyckoff_dist_to_breakout_pct": 4.33,
+      "wyckoff_dist_to_breakout_pct": 4.32,
       "wyckoff_stoploss": 507.65,
       "wyckoff_stoploss_pct": 11.09,
       "wyckoff_target_1": 673.37,
@@ -61805,7 +62380,7 @@ window.stockData = {
           "high": 446.9,
           "low": 435.7,
           "close": 441.4,
-          "volume": 1597354
+          "volume": 1570572
         }
       ],
       "name": "Oil India Ltd",
@@ -61826,7 +62401,7 @@ window.stockData = {
       "macd_val": -4.36,
       "macd_signal": -3.76,
       "macd_hist": -0.6,
-      "vol_surge_ratio": 0.83,
+      "vol_surge_ratio": 0.82,
       "pe_ratio": 7.78,
       "forward_pe": 6.67,
       "peg_ratio": 0.0,
@@ -61897,584 +62472,6 @@ window.stockData = {
       "wyckoff_rationale": [
         "Phase B Cause Building inside Trading Range: \u20b9426.84 (Ice) to \u20b9465.33 (Creek).",
         "Consolidation inside 38.49 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
-      ]
-    },
-    {
-      "symbol": "GSFC.NS",
-      "clean_symbol": "GSFC",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 155.5,
-          "high": 159.13,
-          "low": 154.58,
-          "close": 156.93,
-          "volume": 1602786
-        },
-        {
-          "time": "2026-08-20",
-          "open": 157.34,
-          "high": 158.46,
-          "low": 155.25,
-          "close": 155.6,
-          "volume": 1010861
-        },
-        {
-          "time": "2026-08-21",
-          "open": 155.88,
-          "high": 155.96,
-          "low": 153.13,
-          "close": 153.3,
-          "volume": 909286
-        },
-        {
-          "time": "2026-08-24",
-          "open": 153.95,
-          "high": 156.61,
-          "low": 153.95,
-          "close": 154.67,
-          "volume": 923884
-        },
-        {
-          "time": "2026-08-25",
-          "open": 155.39,
-          "high": 157.8,
-          "low": 153.67,
-          "close": 154.2,
-          "volume": 3644998
-        },
-        {
-          "time": "2026-08-26",
-          "open": 154.84,
-          "high": 155.79,
-          "low": 154.26,
-          "close": 155.08,
-          "volume": 616096
-        },
-        {
-          "time": "2026-08-27",
-          "open": 155.0,
-          "high": 155.5,
-          "low": 153.39,
-          "close": 154.2,
-          "volume": 492991
-        },
-        {
-          "time": "2026-08-28",
-          "open": 154.43,
-          "high": 155.98,
-          "low": 152.69,
-          "close": 153.05,
-          "volume": 729308
-        },
-        {
-          "time": "2026-08-31",
-          "open": 153.55,
-          "high": 153.81,
-          "low": 150.91,
-          "close": 153.22,
-          "volume": 778578
-        },
-        {
-          "time": "2026-09-01",
-          "open": 153.07,
-          "high": 155.18,
-          "low": 152.64,
-          "close": 153.8,
-          "volume": 833892
-        },
-        {
-          "time": "2026-09-02",
-          "open": 153.07,
-          "high": 155.25,
-          "low": 152.4,
-          "close": 154.96,
-          "volume": 787261
-        },
-        {
-          "time": "2026-09-03",
-          "open": 156.17,
-          "high": 158.03,
-          "low": 155.12,
-          "close": 156.81,
-          "volume": 1747248
-        },
-        {
-          "time": "2026-09-04",
-          "open": 157.66,
-          "high": 160.68,
-          "low": 156.97,
-          "close": 157.8,
-          "volume": 1107016
-        },
-        {
-          "time": "2026-09-07",
-          "open": 158.21,
-          "high": 158.64,
-          "low": 156.49,
-          "close": 156.97,
-          "volume": 947889
-        },
-        {
-          "time": "2026-09-08",
-          "open": 157.14,
-          "high": 157.27,
-          "low": 155.42,
-          "close": 155.8,
-          "volume": 877506
-        },
-        {
-          "time": "2026-09-09",
-          "open": 155.88,
-          "high": 156.71,
-          "low": 154.5,
-          "close": 155.04,
-          "volume": 1931299
-        },
-        {
-          "time": "2026-09-10",
-          "open": 155.01,
-          "high": 156.85,
-          "low": 154.14,
-          "close": 155.38,
-          "volume": 1757556
-        },
-        {
-          "time": "2026-09-11",
-          "open": 154.91,
-          "high": 156.8,
-          "low": 152.85,
-          "close": 155.95,
-          "volume": 1425671
-        },
-        {
-          "time": "2026-09-15",
-          "open": 155.8,
-          "high": 156.5,
-          "low": 150.85,
-          "close": 151.55,
-          "volume": 1068484
-        },
-        {
-          "time": "2026-09-16",
-          "open": 151.85,
-          "high": 152.24,
-          "low": 147.15,
-          "close": 149.16,
-          "volume": 1062067
-        },
-        {
-          "time": "2026-09-17",
-          "open": 149.0,
-          "high": 154.3,
-          "low": 148.6,
-          "close": 152.27,
-          "volume": 1244753
-        },
-        {
-          "time": "2026-09-18",
-          "open": 153.05,
-          "high": 153.72,
-          "low": 150.35,
-          "close": 151.92,
-          "volume": 1280620
-        },
-        {
-          "time": "2026-09-21",
-          "open": 152.49,
-          "high": 152.8,
-          "low": 150.57,
-          "close": 150.75,
-          "volume": 566471
-        },
-        {
-          "time": "2026-09-22",
-          "open": 151.36,
-          "high": 153.8,
-          "low": 151.0,
-          "close": 152.19,
-          "volume": 626935
-        },
-        {
-          "time": "2026-09-23",
-          "open": 152.79,
-          "high": 157.79,
-          "low": 151.81,
-          "close": 155.34,
-          "volume": 1011816
-        },
-        {
-          "time": "2026-09-24",
-          "open": 154.4,
-          "high": 155.92,
-          "low": 153.62,
-          "close": 155.35,
-          "volume": 657583
-        },
-        {
-          "time": "2026-09-25",
-          "open": 154.95,
-          "high": 157.52,
-          "low": 154.64,
-          "close": 156.8,
-          "volume": 735930
-        },
-        {
-          "time": "2026-09-28",
-          "open": 156.85,
-          "high": 156.85,
-          "low": 152.85,
-          "close": 153.04,
-          "volume": 683059
-        },
-        {
-          "time": "2026-09-29",
-          "open": 153.04,
-          "high": 153.12,
-          "low": 151.0,
-          "close": 151.65,
-          "volume": 493454
-        },
-        {
-          "time": "2026-09-30",
-          "open": 152.41,
-          "high": 154.0,
-          "low": 150.25,
-          "close": 150.79,
-          "volume": 768508
-        },
-        {
-          "time": "2026-10-01",
-          "open": 150.25,
-          "high": 150.25,
-          "low": 145.2,
-          "close": 146.9,
-          "volume": 1070806
-        },
-        {
-          "time": "2026-10-05",
-          "open": 147.59,
-          "high": 150.2,
-          "low": 147.0,
-          "close": 147.26,
-          "volume": 492857
-        },
-        {
-          "time": "2026-10-06",
-          "open": 148.0,
-          "high": 153.95,
-          "low": 148.0,
-          "close": 153.47,
-          "volume": 963097
-        },
-        {
-          "time": "2026-10-07",
-          "open": 152.89,
-          "high": 153.79,
-          "low": 149.2,
-          "close": 149.73,
-          "volume": 636088
-        },
-        {
-          "time": "2026-10-08",
-          "open": 149.79,
-          "high": 150.13,
-          "low": 146.01,
-          "close": 146.5,
-          "volume": 745300
-        },
-        {
-          "time": "2026-10-09",
-          "open": 147.01,
-          "high": 149.0,
-          "low": 146.11,
-          "close": 147.28,
-          "volume": 433474
-        },
-        {
-          "time": "2026-10-12",
-          "open": 149.7,
-          "high": 152.29,
-          "low": 147.38,
-          "close": 148.4,
-          "volume": 895218
-        },
-        {
-          "time": "2026-10-13",
-          "open": 148.4,
-          "high": 149.0,
-          "low": 145.51,
-          "close": 147.04,
-          "volume": 713461
-        },
-        {
-          "time": "2026-10-14",
-          "open": 148.0,
-          "high": 149.37,
-          "low": 147.21,
-          "close": 147.91,
-          "volume": 513317
-        },
-        {
-          "time": "2026-10-15",
-          "open": 148.0,
-          "high": 148.66,
-          "low": 146.36,
-          "close": 146.6,
-          "volume": 535738
-        },
-        {
-          "time": "2026-10-16",
-          "open": 146.3,
-          "high": 151.0,
-          "low": 145.21,
-          "close": 148.86,
-          "volume": 620699
-        },
-        {
-          "time": "2026-10-19",
-          "open": 147.79,
-          "high": 150.37,
-          "low": 147.55,
-          "close": 148.0,
-          "volume": 702168
-        },
-        {
-          "time": "2026-10-21",
-          "open": 148.0,
-          "high": 148.21,
-          "low": 140.49,
-          "close": 141.08,
-          "volume": 1093148
-        },
-        {
-          "time": "2026-10-22",
-          "open": 141.1,
-          "high": 141.8,
-          "low": 136.41,
-          "close": 137.2,
-          "volume": 975002
-        },
-        {
-          "time": "2026-10-23",
-          "open": 137.2,
-          "high": 137.44,
-          "low": 132.25,
-          "close": 135.02,
-          "volume": 1127171
-        },
-        {
-          "time": "2026-10-26",
-          "open": 134.91,
-          "high": 136.03,
-          "low": 132.41,
-          "close": 135.35,
-          "volume": 585617
-        },
-        {
-          "time": "2026-10-27",
-          "open": 135.35,
-          "high": 137.63,
-          "low": 134.83,
-          "close": 136.09,
-          "volume": 477967
-        },
-        {
-          "time": "2026-10-28",
-          "open": 135.5,
-          "high": 137.37,
-          "low": 134.76,
-          "close": 136.41,
-          "volume": 491960
-        },
-        {
-          "time": "2026-10-29",
-          "open": 137.7,
-          "high": 137.7,
-          "low": 135.66,
-          "close": 136.88,
-          "volume": 415619
-        },
-        {
-          "time": "2026-10-30",
-          "open": 136.2,
-          "high": 136.27,
-          "low": 132.63,
-          "close": 133.28,
-          "volume": 518358
-        },
-        {
-          "time": "2026-11-02",
-          "open": 134.3,
-          "high": 137.21,
-          "low": 133.64,
-          "close": 136.61,
-          "volume": 482923
-        },
-        {
-          "time": "2026-11-03",
-          "open": 136.81,
-          "high": 137.45,
-          "low": 134.8,
-          "close": 136.18,
-          "volume": 909950
-        },
-        {
-          "time": "2026-11-04",
-          "open": 136.18,
-          "high": 141.37,
-          "low": 135.0,
-          "close": 140.74,
-          "volume": 1086592
-        },
-        {
-          "time": "2026-11-05",
-          "open": 142.53,
-          "high": 143.95,
-          "low": 141.0,
-          "close": 141.54,
-          "volume": 530227
-        },
-        {
-          "time": "2026-11-06",
-          "open": 142.05,
-          "high": 142.21,
-          "low": 138.15,
-          "close": 139.4,
-          "volume": 385443
-        },
-        {
-          "time": "2026-11-09",
-          "open": 142.3,
-          "high": 142.74,
-          "low": 140.85,
-          "close": 142.2,
-          "volume": 303643
-        },
-        {
-          "time": "2026-11-11",
-          "open": 142.5,
-          "high": 153.87,
-          "low": 142.5,
-          "close": 146.86,
-          "volume": 5875280
-        },
-        {
-          "time": "2026-11-12",
-          "open": 148.7,
-          "high": 149.0,
-          "low": 146.05,
-          "close": 147.43,
-          "volume": 906583
-        },
-        {
-          "time": "2026-11-13",
-          "open": 147.39,
-          "high": 147.39,
-          "low": 144.38,
-          "close": 145.19,
-          "volume": 819634
-        },
-        {
-          "time": "2026-11-16",
-          "open": 145.11,
-          "high": 145.12,
-          "low": 142.22,
-          "close": 142.8,
-          "volume": 503620
-        }
-      ],
-      "name": "Gujarat State Fertilizers & Chemicls Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9160.88",
-      "current_price": 142.8,
-      "prev_close": 145.19,
-      "day_change_pct": -1.65,
-      "52w_high": 193.12,
-      "52w_low": 132.25,
-      "pct_from_52w_high": -26.06,
-      "pct_from_52w_low": 7.98,
-      "sma_20": 140.36,
-      "sma_50": 147.35,
-      "sma_200": 156.69,
-      "rsi_14": 49.2,
-      "macd_val": -0.71,
-      "macd_signal": -2.01,
-      "macd_hist": 1.29,
-      "vol_surge_ratio": 0.54,
-      "pe_ratio": 10.01,
-      "forward_pe": 9.78,
-      "peg_ratio": 0.0,
-      "pb_ratio": 0.44,
-      "roe": 4.5,
-      "profit_margins": 4.1,
-      "operating_margins": 3.2,
-      "debt_to_equity": 0.05,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": 48.7,
-      "earnings_growth_yoy": -38.3,
-      "q_sales_growth": 48.7,
-      "q_pat_growth": -38.3,
-      "free_cash_flow": -7909337600.0,
-      "target_mean_price": 160.0,
-      "analyst_upside_pct": 12.0,
-      "recommendation_key": "Buy",
-      "dividend_yield": 344.0,
-      "promoter_holding": 42.9,
-      "institutional_holding": 12.0,
-      "public_holding": 45.1,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 154.18,
-      "sell_trigger_level": 131.99,
-      "dist_from_prev_close": 6.19,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Strong YoY Sales Growth (+48.7%)",
-        "Healthy Low Debt (D/E 0.05)"
-      ],
-      "weaknesses": [
-        "Earnings De-growth YoY (-38.3%)",
-        "Weak Return on Capital (4.5% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 15.0,
-      "technical_score": 17.0,
-      "composite_score": 44,
-      "long_term_signal": "REDUCE",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 131.3,
-      "swing_target_1": 158.78,
-      "swing_target_2": 169.64,
-      "rationale": [
-        "YoY Revenue up 48.7%"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 344.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 154.18,
-      "wyckoff_ice": 131.99,
-      "wyckoff_breakout": 154.18,
-      "wyckoff_dist_to_breakout_pct": 7.97,
-      "wyckoff_stoploss": 129.35,
-      "wyckoff_stoploss_pct": 9.42,
-      "wyckoff_target_1": 176.37,
-      "wyckoff_target_2": 198.56,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b9131.99 (Ice) to \u20b9154.18 (Creek).",
-        "Consolidation inside 22.19 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -62960,7 +62957,7 @@ window.stockData = {
           "high": 83.65,
           "low": 81.22,
           "close": 82.11,
-          "volume": 10900848
+          "volume": 10817587
         }
       ],
       "name": "Indian Railway Finance Corp Ltd",
@@ -63538,7 +63535,7 @@ window.stockData = {
           "high": 1899.6,
           "low": 1858.1,
           "close": 1873.0,
-          "volume": 465188
+          "volume": 461781
         }
       ],
       "name": "Mazagon Dock Shipbuilders Ltd",
@@ -64115,33 +64112,33 @@ window.stockData = {
           "open": 243.05,
           "high": 248.0,
           "low": 241.86,
-          "close": 245.0,
-          "volume": 87246
+          "close": 246.33,
+          "volume": 87245
         }
       ],
       "name": "Ddev Plastiks Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9260.71",
-      "current_price": 245.0,
+      "current_price": 246.33,
       "prev_close": 244.51,
-      "day_change_pct": 0.2,
+      "day_change_pct": 0.74,
       "52w_high": 315.17,
       "52w_low": 184.24,
-      "pct_from_52w_high": -22.26,
-      "pct_from_52w_low": 32.98,
-      "sma_20": 250.03,
-      "sma_50": 254.25,
-      "sma_200": 259.41,
-      "rsi_14": 43.6,
-      "macd_val": -1.47,
-      "macd_signal": -1.39,
-      "macd_hist": -0.08,
+      "pct_from_52w_high": -21.84,
+      "pct_from_52w_low": 33.7,
+      "sma_20": 250.1,
+      "sma_50": 254.27,
+      "sma_200": 259.42,
+      "rsi_14": 44.9,
+      "macd_val": -1.36,
+      "macd_signal": -1.37,
+      "macd_hist": 0.0,
       "vol_surge_ratio": 1.16,
-      "pe_ratio": 11.88,
-      "forward_pe": 7.98,
+      "pe_ratio": 11.95,
+      "forward_pe": 8.02,
       "peg_ratio": 0.0,
-      "pb_ratio": 2.5,
+      "pb_ratio": 2.52,
       "roe": 0.0,
       "profit_margins": 6.7,
       "operating_margins": 9.0,
@@ -64153,7 +64150,7 @@ window.stockData = {
       "q_pat_growth": 22.2,
       "free_cash_flow": 0.0,
       "target_mean_price": 307.0,
-      "analyst_upside_pct": 25.3,
+      "analyst_upside_pct": 24.6,
       "recommendation_key": "None",
       "dividend_yield": 69.0,
       "promoter_holding": 82.2,
@@ -64184,9 +64181,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 229.13,
-      "swing_target_1": 267.04,
-      "swing_target_2": 282.03,
+      "swing_stoploss": 230.65,
+      "swing_target_1": 268.1,
+      "swing_target_2": 282.91,
       "rationale": [
         "YoY Revenue up 28.6%",
         "YoY Profit up 22.2%"
@@ -64201,9 +64198,9 @@ window.stockData = {
       "wyckoff_creek": 265.48,
       "wyckoff_ice": 237.57,
       "wyckoff_breakout": 265.48,
-      "wyckoff_dist_to_breakout_pct": 8.36,
+      "wyckoff_dist_to_breakout_pct": 7.77,
       "wyckoff_stoploss": 232.82,
-      "wyckoff_stoploss_pct": 4.97,
+      "wyckoff_stoploss_pct": 5.48,
       "wyckoff_target_1": 293.39,
       "wyckoff_target_2": 321.3,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -64694,31 +64691,31 @@ window.stockData = {
           "open": 315.0,
           "high": 315.0,
           "low": 307.0,
-          "close": 308.35,
-          "volume": 247858
+          "close": 308.5,
+          "volume": 247846
         }
       ],
       "name": "Happiest Minds Technologies Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9364.98",
-      "current_price": 308.35,
+      "current_price": 308.5,
       "prev_close": 313.45,
-      "day_change_pct": -1.63,
+      "day_change_pct": -1.58,
       "52w_high": 509.98,
       "52w_low": 292.26,
-      "pct_from_52w_high": -39.54,
-      "pct_from_52w_low": 5.51,
-      "sma_20": 309.22,
+      "pct_from_52w_high": -39.51,
+      "pct_from_52w_low": 5.56,
+      "sma_20": 309.23,
       "sma_50": 315.17,
       "sma_200": 358.75,
-      "rsi_14": 46.1,
-      "macd_val": -1.38,
+      "rsi_14": 46.2,
+      "macd_val": -1.37,
       "macd_signal": -3.17,
-      "macd_hist": 1.79,
+      "macd_hist": 1.8,
       "vol_surge_ratio": 0.57,
-      "pe_ratio": 20.11,
-      "forward_pe": 14.54,
+      "pe_ratio": 20.12,
+      "forward_pe": 14.55,
       "peg_ratio": 0.0,
       "pb_ratio": 2.6,
       "roe": 13.5,
@@ -64732,7 +64729,7 @@ window.stockData = {
       "q_pat_growth": 14.8,
       "free_cash_flow": -302724992.0,
       "target_mean_price": 411.0,
-      "analyst_upside_pct": 33.3,
+      "analyst_upside_pct": 33.2,
       "recommendation_key": "Buy",
       "dividend_yield": 214.0,
       "promoter_holding": 46.0,
@@ -64760,9 +64757,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 290.8,
-      "swing_target_1": 332.73,
-      "swing_target_2": 349.3,
+      "swing_stoploss": 290.95,
+      "swing_target_1": 332.87,
+      "swing_target_2": 349.45,
       "rationale": [
         "YoY Revenue up 12.5%",
         "YoY Profit up 14.8%"
@@ -64777,9 +64774,9 @@ window.stockData = {
       "wyckoff_creek": 346.93,
       "wyckoff_ice": 291.68,
       "wyckoff_breakout": 346.93,
-      "wyckoff_dist_to_breakout_pct": 12.51,
+      "wyckoff_dist_to_breakout_pct": 12.46,
       "wyckoff_stoploss": 285.85,
-      "wyckoff_stoploss_pct": 7.3,
+      "wyckoff_stoploss_pct": 7.34,
       "wyckoff_target_1": 402.18,
       "wyckoff_target_2": 457.43,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -65271,7 +65268,7 @@ window.stockData = {
           "high": 26.18,
           "low": 25.1,
           "close": 25.21,
-          "volume": 980204
+          "volume": 980054
         }
       ],
       "name": "Mahanagar Telephone Nigam Ltd",
@@ -65845,33 +65842,33 @@ window.stockData = {
           "open": 1252.4,
           "high": 1262.5,
           "low": 1201.0,
-          "close": 1217.9,
-          "volume": 38043
+          "close": 1212.0,
+          "volume": 38041
         }
       ],
       "name": "Rane (Madras) Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91,017.52",
-      "current_price": 1217.9,
+      "current_price": 1212.0,
       "prev_close": 1246.2,
-      "day_change_pct": -2.27,
+      "day_change_pct": -2.74,
       "52w_high": 1440.0,
       "52w_low": 599.85,
-      "pct_from_52w_high": -15.42,
-      "pct_from_52w_low": 103.03,
-      "sma_20": 1238.36,
-      "sma_50": 1287.45,
-      "sma_200": 1013.35,
-      "rsi_14": 44.7,
-      "macd_val": -8.66,
-      "macd_signal": -9.18,
-      "macd_hist": 0.52,
+      "pct_from_52w_high": -15.83,
+      "pct_from_52w_low": 102.05,
+      "sma_20": 1238.06,
+      "sma_50": 1287.34,
+      "sma_200": 1013.32,
+      "rsi_14": 44.0,
+      "macd_val": -9.13,
+      "macd_signal": -9.27,
+      "macd_hist": 0.14,
       "vol_surge_ratio": 0.98,
-      "pe_ratio": 7.93,
+      "pe_ratio": 7.9,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 3.16,
+      "pb_ratio": 3.15,
       "roe": 48.7,
       "profit_margins": 9.8,
       "operating_margins": 5.3,
@@ -65882,7 +65879,7 @@ window.stockData = {
       "q_sales_growth": 34.6,
       "q_pat_growth": 1421.2,
       "free_cash_flow": -2560387584.0,
-      "target_mean_price": 1217.9,
+      "target_mean_price": 1212.0,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 128.0,
@@ -65914,9 +65911,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1124.25,
-      "swing_target_1": 1347.97,
-      "swing_target_2": 1436.43,
+      "swing_stoploss": 1117.49,
+      "swing_target_1": 1343.27,
+      "swing_target_2": 1432.53,
       "rationale": [
         "YoY Revenue up 34.6%",
         "YoY Profit up 1421.2%",
@@ -65933,9 +65930,9 @@ window.stockData = {
       "wyckoff_creek": 1390.78,
       "wyckoff_ice": 1123.05,
       "wyckoff_breakout": 1390.78,
-      "wyckoff_dist_to_breakout_pct": 14.19,
+      "wyckoff_dist_to_breakout_pct": 14.75,
       "wyckoff_stoploss": 1100.59,
-      "wyckoff_stoploss_pct": 9.63,
+      "wyckoff_stoploss_pct": 9.19,
       "wyckoff_target_1": 1658.51,
       "wyckoff_target_2": 1926.24,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -66426,33 +66423,33 @@ window.stockData = {
           "open": 414.35,
           "high": 414.35,
           "low": 401.85,
-          "close": 403.25,
-          "volume": 333928
+          "close": 402.4,
+          "volume": 333927
         }
       ],
       "name": "Acme Solar Holdings Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9333.25",
-      "current_price": 403.25,
+      "current_price": 402.4,
       "prev_close": 414.35,
-      "day_change_pct": -2.68,
+      "day_change_pct": -2.88,
       "52w_high": 476.9,
       "52w_low": 195.73,
-      "pct_from_52w_high": -15.44,
-      "pct_from_52w_low": 106.02,
-      "sma_20": 406.98,
-      "sma_50": 417.72,
-      "sma_200": 334.86,
-      "rsi_14": 46.7,
-      "macd_val": -1.13,
-      "macd_signal": -1.73,
-      "macd_hist": 0.6,
+      "pct_from_52w_high": -15.62,
+      "pct_from_52w_low": 105.59,
+      "sma_20": 406.93,
+      "sma_50": 417.7,
+      "sma_200": 334.85,
+      "rsi_14": 46.4,
+      "macd_val": -1.2,
+      "macd_signal": -1.74,
+      "macd_hist": 0.54,
       "vol_surge_ratio": 0.36,
-      "pe_ratio": 34.88,
-      "forward_pe": 15.51,
+      "pe_ratio": 34.81,
+      "forward_pe": 15.47,
       "peg_ratio": 0.0,
-      "pb_ratio": 3.24,
+      "pb_ratio": 3.23,
       "roe": 11.5,
       "profit_margins": 27.1,
       "operating_margins": 68.7,
@@ -66464,7 +66461,7 @@ window.stockData = {
       "q_pat_growth": 99.5,
       "free_cash_flow": -88721080320.0,
       "target_mean_price": 482.29,
-      "analyst_upside_pct": 19.6,
+      "analyst_upside_pct": 19.9,
       "recommendation_key": "Buy",
       "dividend_yield": 5.0,
       "promoter_holding": 71.6,
@@ -66494,9 +66491,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 383.93,
-      "swing_target_1": 430.08,
-      "swing_target_2": 448.32,
+      "swing_stoploss": 382.88,
+      "swing_target_1": 429.51,
+      "swing_target_2": 447.95,
       "rationale": [
         "YoY Revenue up 89.6%",
         "YoY Profit up 99.5%",
@@ -66513,9 +66510,9 @@ window.stockData = {
       "wyckoff_creek": 432.86,
       "wyckoff_ice": 365.57,
       "wyckoff_breakout": 432.86,
-      "wyckoff_dist_to_breakout_pct": 7.34,
+      "wyckoff_dist_to_breakout_pct": 7.57,
       "wyckoff_stoploss": 358.26,
-      "wyckoff_stoploss_pct": 11.16,
+      "wyckoff_stoploss_pct": 10.97,
       "wyckoff_target_1": 500.15,
       "wyckoff_target_2": 567.44,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -67007,7 +67004,7 @@ window.stockData = {
           "high": 69.85,
           "low": 68.3,
           "close": 68.92,
-          "volume": 12355098
+          "volume": 12000670
         }
       ],
       "name": "NMDC Ltd",
@@ -67028,7 +67025,7 @@ window.stockData = {
       "macd_val": -0.95,
       "macd_signal": -1.47,
       "macd_hist": 0.52,
-      "vol_surge_ratio": 0.72,
+      "vol_surge_ratio": 0.7,
       "pe_ratio": 8.15,
       "forward_pe": 6.77,
       "peg_ratio": 0.0,
@@ -67584,7 +67581,7 @@ window.stockData = {
           "high": 40.56,
           "low": 39.31,
           "close": 39.95,
-          "volume": 3331837
+          "volume": 3330357
         }
       ],
       "name": "NMDC Steel Ltd",
@@ -68159,7 +68156,7 @@ window.stockData = {
           "high": 77.73,
           "low": 76.0,
           "close": 76.8,
-          "volume": 253020
+          "volume": 252903
         }
       ],
       "name": "PNB Gilts Ltd",
@@ -68736,7 +68733,7 @@ window.stockData = {
           "high": 199.9,
           "low": 193.58,
           "close": 194.36,
-          "volume": 6261306
+          "volume": 6238157
         }
       ],
       "name": "Rail Vikas Nigam Ltd",
@@ -69314,7 +69311,7 @@ window.stockData = {
           "high": 57.53,
           "low": 56.04,
           "close": 56.58,
-          "volume": 1973596
+          "volume": 1973579
         }
       ],
       "name": "SJVN Ltd",
@@ -69892,9 +69889,9 @@ window.stockData = {
           "time": "2026-11-16",
           "open": 1015.0,
           "high": 1024.7,
-          "low": 980.1,
+          "low": 979.7,
           "close": 986.1,
-          "volume": 148814
+          "volume": 148808
         }
       ],
       "name": "Strides Pharma Science Ltd",
@@ -70469,28 +70466,28 @@ window.stockData = {
           "open": 84.8,
           "high": 84.81,
           "low": 81.0,
-          "close": 83.29,
-          "volume": 2694880
+          "close": 83.42,
+          "volume": 2694865
         }
       ],
       "name": "Delta Corp Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b965.83",
-      "current_price": 83.29,
+      "current_price": 83.42,
       "prev_close": 84.36,
-      "day_change_pct": -1.27,
+      "day_change_pct": -1.11,
       "52w_high": 88.6,
       "52w_low": 47.9,
-      "pct_from_52w_high": -5.99,
-      "pct_from_52w_low": 73.88,
-      "sma_20": 76.72,
-      "sma_50": 71.64,
+      "pct_from_52w_high": -5.85,
+      "pct_from_52w_low": 74.15,
+      "sma_20": 76.73,
+      "sma_50": 71.65,
       "sma_200": 65.55,
-      "rsi_14": 61.9,
-      "macd_val": 2.61,
+      "rsi_14": 62.2,
+      "macd_val": 2.62,
       "macd_signal": 1.87,
-      "macd_hist": 0.74,
+      "macd_hist": 0.75,
       "vol_surge_ratio": 0.62,
       "pe_ratio": 0.0,
       "forward_pe": 0.0,
@@ -70506,7 +70503,7 @@ window.stockData = {
       "q_sales_growth": -12.8,
       "q_pat_growth": 0.0,
       "free_cash_flow": 3708712448.0,
-      "target_mean_price": 83.29,
+      "target_mean_price": 83.42,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 59.0,
@@ -70537,9 +70534,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 70.57,
-      "swing_target_1": 100.95,
-      "swing_target_2": 112.96,
+      "swing_stoploss": 70.67,
+      "swing_target_1": 101.13,
+      "swing_target_2": 113.17,
       "rationale": [
         "Above 200-day EMA long-term uptrend"
       ],
@@ -70553,9 +70550,9 @@ window.stockData = {
       "wyckoff_creek": 88.68,
       "wyckoff_ice": 69.51,
       "wyckoff_breakout": 88.68,
-      "wyckoff_dist_to_breakout_pct": 6.47,
+      "wyckoff_dist_to_breakout_pct": 6.31,
       "wyckoff_stoploss": 68.12,
-      "wyckoff_stoploss_pct": 18.21,
+      "wyckoff_stoploss_pct": 18.34,
       "wyckoff_target_1": 107.85,
       "wyckoff_target_2": 127.02,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -71046,31 +71043,31 @@ window.stockData = {
           "open": 164.99,
           "high": 165.88,
           "low": 162.8,
-          "close": 165.06,
-          "volume": 1547069
+          "close": 165.21,
+          "volume": 1547065
         }
       ],
       "name": "AWL Agri Business Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9189.20",
-      "current_price": 165.06,
+      "current_price": 165.21,
       "prev_close": 163.99,
-      "day_change_pct": 0.65,
+      "day_change_pct": 0.74,
       "52w_high": 281.43,
       "52w_low": 159.65,
-      "pct_from_52w_high": -41.35,
-      "pct_from_52w_low": 3.39,
-      "sma_20": 170.09,
+      "pct_from_52w_high": -41.3,
+      "pct_from_52w_low": 3.48,
+      "sma_20": 170.1,
       "sma_50": 178.74,
       "sma_200": 188.38,
-      "rsi_14": 37.9,
-      "macd_val": -4.32,
+      "rsi_14": 38.2,
+      "macd_val": -4.31,
       "macd_signal": -4.49,
-      "macd_hist": 0.17,
+      "macd_hist": 0.18,
       "vol_surge_ratio": 0.66,
-      "pe_ratio": 18.53,
-      "forward_pe": 15.68,
+      "pe_ratio": 18.54,
+      "forward_pe": 15.69,
       "peg_ratio": 0.0,
       "pb_ratio": 1.96,
       "roe": 11.1,
@@ -71084,7 +71081,7 @@ window.stockData = {
       "q_pat_growth": -2.1,
       "free_cash_flow": -33258688512.0,
       "target_mean_price": 255.67,
-      "analyst_upside_pct": 54.9,
+      "analyst_upside_pct": 54.8,
       "recommendation_key": "None",
       "dividend_yield": 61.0,
       "promoter_holding": 69.2,
@@ -71114,9 +71111,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 156.62,
-      "swing_target_1": 176.78,
-      "swing_target_2": 184.75,
+      "swing_stoploss": 156.78,
+      "swing_target_1": 176.92,
+      "swing_target_2": 184.88,
       "rationale": [
         "YoY Revenue up 26.1%"
       ],
@@ -71130,9 +71127,9 @@ window.stockData = {
       "wyckoff_creek": 198.9,
       "wyckoff_ice": 159.33,
       "wyckoff_breakout": 198.9,
-      "wyckoff_dist_to_breakout_pct": 20.5,
+      "wyckoff_dist_to_breakout_pct": 20.39,
       "wyckoff_stoploss": 156.14,
-      "wyckoff_stoploss_pct": 5.4,
+      "wyckoff_stoploss_pct": 5.49,
       "wyckoff_target_1": 238.47,
       "wyckoff_target_2": 278.04,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -71623,33 +71620,33 @@ window.stockData = {
           "open": 799.0,
           "high": 799.25,
           "low": 773.7,
-          "close": 778.1,
-          "volume": 712554
+          "close": 780.45,
+          "volume": 712552
         }
       ],
       "name": "HBL Engineering Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9747.94",
-      "current_price": 778.1,
+      "current_price": 780.45,
       "prev_close": 799.55,
-      "day_change_pct": -2.68,
+      "day_change_pct": -2.39,
       "52w_high": 1050.82,
       "52w_low": 612.15,
-      "pct_from_52w_high": -25.95,
-      "pct_from_52w_low": 27.11,
-      "sma_20": 805.63,
-      "sma_50": 766.3,
-      "sma_200": 747.57,
-      "rsi_14": 47.1,
-      "macd_val": 11.47,
-      "macd_signal": 16.42,
-      "macd_hist": -4.95,
+      "pct_from_52w_high": -25.73,
+      "pct_from_52w_low": 27.49,
+      "sma_20": 805.75,
+      "sma_50": 766.35,
+      "sma_200": 747.58,
+      "rsi_14": 47.5,
+      "macd_val": 11.66,
+      "macd_signal": 16.45,
+      "macd_hist": -4.8,
       "vol_surge_ratio": 0.2,
-      "pe_ratio": 36.77,
+      "pe_ratio": 36.88,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 8.66,
+      "pb_ratio": 8.69,
       "roe": 26.2,
       "profit_margins": 19.6,
       "operating_margins": 23.5,
@@ -71660,7 +71657,7 @@ window.stockData = {
       "q_sales_growth": -28.7,
       "q_pat_growth": -50.2,
       "free_cash_flow": 3008312576.0,
-      "target_mean_price": 778.1,
+      "target_mean_price": 780.45,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 38.0,
@@ -71692,9 +71689,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "RANGE CONSOLIDATION",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 724.31,
-      "swing_target_1": 852.81,
-      "swing_target_2": 903.6,
+      "swing_stoploss": 727.41,
+      "swing_target_1": 854.12,
+      "swing_target_2": 904.21,
       "rationale": [
         "Above 200-day EMA long-term uptrend"
       ],
@@ -71708,9 +71705,9 @@ window.stockData = {
       "wyckoff_creek": 866.73,
       "wyckoff_ice": 700.6,
       "wyckoff_breakout": 866.73,
-      "wyckoff_dist_to_breakout_pct": 11.39,
+      "wyckoff_dist_to_breakout_pct": 11.06,
       "wyckoff_stoploss": 686.59,
-      "wyckoff_stoploss_pct": 11.76,
+      "wyckoff_stoploss_pct": 12.03,
       "wyckoff_target_1": 1032.86,
       "wyckoff_target_2": 1198.99,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -72202,7 +72199,7 @@ window.stockData = {
           "high": 54.4,
           "low": 52.51,
           "close": 54.06,
-          "volume": 63117
+          "volume": 63102
         }
       ],
       "name": "Onmobile Global Ltd",
@@ -72776,33 +72773,33 @@ window.stockData = {
           "open": 1.56,
           "high": 1.6,
           "low": 1.55,
-          "close": 1.6,
-          "volume": 338565
+          "close": 1.57,
+          "volume": 338375
         }
       ],
       "name": "Reliance Home Finance Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b92.03",
-      "current_price": 1.6,
+      "current_price": 1.57,
       "prev_close": 1.53,
-      "day_change_pct": 4.58,
+      "day_change_pct": 2.61,
       "52w_high": 3.52,
       "52w_low": 1.11,
-      "pct_from_52w_high": -54.55,
-      "pct_from_52w_low": 44.14,
-      "sma_20": 1.38,
+      "pct_from_52w_high": -55.4,
+      "pct_from_52w_low": 41.44,
+      "sma_20": 1.37,
       "sma_50": 1.56,
       "sma_200": 2.06,
-      "rsi_14": 62.3,
+      "rsi_14": 60.4,
       "macd_val": -0.01,
       "macd_signal": -0.05,
       "macd_hist": 0.04,
       "vol_surge_ratio": 0.77,
-      "pe_ratio": 3.33,
+      "pe_ratio": 3.27,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": -2.08,
+      "pb_ratio": -2.04,
       "roe": 0.0,
       "profit_margins": 0.0,
       "operating_margins": 608.3,
@@ -72813,7 +72810,7 @@ window.stockData = {
       "q_sales_growth": 0.0,
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 1.6,
+      "target_mean_price": 1.57,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -72843,9 +72840,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1.29,
-      "swing_target_1": 2.03,
-      "swing_target_2": 2.32,
+      "swing_stoploss": 1.27,
+      "swing_target_1": 1.98,
+      "swing_target_2": 2.27,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -72854,19 +72851,19 @@ window.stockData = {
       "wyckoff_phase": "Phase D",
       "wyckoff_structure": "Accumulation",
       "wyckoff_event": "Jump Across Creek (Sign of Strength)",
-      "wyckoff_creek": 1.61,
+      "wyckoff_creek": 1.58,
       "wyckoff_ice": 1.11,
-      "wyckoff_breakout": 1.61,
-      "wyckoff_dist_to_breakout_pct": 0.63,
+      "wyckoff_breakout": 1.58,
+      "wyckoff_dist_to_breakout_pct": 0.64,
       "wyckoff_stoploss": 1.12,
-      "wyckoff_stoploss_pct": 30.0,
-      "wyckoff_target_1": 2.11,
-      "wyckoff_target_2": 2.61,
+      "wyckoff_stoploss_pct": 28.66,
+      "wyckoff_target_1": 2.05,
+      "wyckoff_target_2": 2.52,
       "wyckoff_signal": "JAC BREAKOUT BUY",
       "wyckoff_rationale": [
-        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b91.61).",
+        "Jump Across the Creek (JAC / SOS) breaking through Creek resistance (\u20b91.58).",
         "Volume surge 0.8x confirms institutional demand absorption.",
-        "Cause of 0.5 pts horizontal accumulation ready to unlock upward effect."
+        "Cause of 0.47 pts horizontal accumulation ready to unlock upward effect."
       ]
     },
     {
@@ -73350,31 +73347,31 @@ window.stockData = {
           "open": 478.55,
           "high": 478.55,
           "low": 461.0,
-          "close": 462.6,
-          "volume": 1329987
+          "close": 462.8,
+          "volume": 1329982
         }
       ],
       "name": "Anant Raj Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9538.88",
-      "current_price": 462.6,
+      "current_price": 462.8,
       "prev_close": 478.55,
-      "day_change_pct": -3.33,
+      "day_change_pct": -3.29,
       "52w_high": 649.0,
       "52w_low": 402.34,
-      "pct_from_52w_high": -28.72,
-      "pct_from_52w_low": 14.98,
-      "sma_20": 466.08,
+      "pct_from_52w_high": -28.69,
+      "pct_from_52w_low": 15.03,
+      "sma_20": 466.09,
       "sma_50": 545.27,
       "sma_200": 538.15,
       "rsi_14": 39.6,
-      "macd_val": -22.85,
+      "macd_val": -22.84,
       "macd_signal": -29.17,
-      "macd_hist": 6.32,
+      "macd_hist": 6.34,
       "vol_surge_ratio": 0.64,
-      "pe_ratio": 27.47,
-      "forward_pe": 16.32,
+      "pe_ratio": 27.48,
+      "forward_pe": 16.33,
       "peg_ratio": 0.0,
       "pb_ratio": 2.75,
       "roe": 11.4,
@@ -73388,7 +73385,7 @@ window.stockData = {
       "q_pat_growth": 8.5,
       "free_cash_flow": -6680099840.0,
       "target_mean_price": 665.0,
-      "analyst_upside_pct": 43.8,
+      "analyst_upside_pct": 43.7,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 21.0,
       "promoter_holding": 62.3,
@@ -73416,9 +73413,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 430.51,
-      "swing_target_1": 507.17,
-      "swing_target_2": 537.48,
+      "swing_stoploss": 430.7,
+      "swing_target_1": 507.38,
+      "swing_target_2": 537.7,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -73432,9 +73429,9 @@ window.stockData = {
       "wyckoff_creek": 558.26,
       "wyckoff_ice": 437.57,
       "wyckoff_breakout": 558.26,
-      "wyckoff_dist_to_breakout_pct": 20.68,
+      "wyckoff_dist_to_breakout_pct": 20.63,
       "wyckoff_stoploss": 428.82,
-      "wyckoff_stoploss_pct": 7.3,
+      "wyckoff_stoploss_pct": 7.34,
       "wyckoff_target_1": 678.95,
       "wyckoff_target_2": 799.64,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -73926,7 +73923,7 @@ window.stockData = {
           "high": 457.0,
           "low": 449.0,
           "close": 451.65,
-          "volume": 776350
+          "volume": 776330
         }
       ],
       "name": "Indian Railway Ctrng nd Trsm Corp Ltd",
@@ -74503,7 +74500,7 @@ window.stockData = {
           "high": 349.65,
           "low": 343.1,
           "close": 345.5,
-          "volume": 6737758
+          "volume": 6653411
         }
       ],
       "name": "Tata Power Company Ltd",
@@ -74524,7 +74521,7 @@ window.stockData = {
       "macd_val": -0.27,
       "macd_signal": -0.47,
       "macd_hist": 0.21,
-      "vol_surge_ratio": 1.09,
+      "vol_surge_ratio": 1.08,
       "pe_ratio": 25.67,
       "forward_pe": 20.64,
       "peg_ratio": 0.0,
@@ -75081,28 +75078,28 @@ window.stockData = {
           "open": 13.42,
           "high": 13.84,
           "low": 13.4,
-          "close": 13.75,
-          "volume": 21143
+          "close": 13.64,
+          "volume": 21112
         }
       ],
       "name": "Virinchi Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b916.30",
-      "current_price": 13.75,
+      "current_price": 13.64,
       "prev_close": 13.64,
-      "day_change_pct": 0.81,
+      "day_change_pct": 0.0,
       "52w_high": 27.37,
       "52w_low": 11.82,
-      "pct_from_52w_high": -49.76,
-      "pct_from_52w_low": 16.33,
+      "pct_from_52w_high": -50.16,
+      "pct_from_52w_low": 15.4,
       "sma_20": 13.23,
       "sma_50": 13.52,
       "sma_200": 16.25,
-      "rsi_14": 53.0,
-      "macd_val": 0.16,
+      "rsi_14": 51.9,
+      "macd_val": 0.15,
       "macd_signal": 0.04,
-      "macd_hist": 0.12,
+      "macd_hist": 0.11,
       "vol_surge_ratio": 0.4,
       "pe_ratio": 0.0,
       "forward_pe": 0.0,
@@ -75118,7 +75115,7 @@ window.stockData = {
       "q_sales_growth": 20.4,
       "q_pat_growth": 0.0,
       "free_cash_flow": -252479120.0,
-      "target_mean_price": 13.75,
+      "target_mean_price": 13.64,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -75148,9 +75145,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 11.74,
-      "swing_target_1": 16.54,
-      "swing_target_2": 18.44,
+      "swing_stoploss": 11.64,
+      "swing_target_1": 16.42,
+      "swing_target_2": 18.31,
       "rationale": [
         "YoY Revenue up 20.4%"
       ],
@@ -75162,9 +75159,9 @@ window.stockData = {
       "wyckoff_creek": 15.01,
       "wyckoff_ice": 11.8,
       "wyckoff_breakout": 15.01,
-      "wyckoff_dist_to_breakout_pct": 9.16,
+      "wyckoff_dist_to_breakout_pct": 10.04,
       "wyckoff_stoploss": 11.56,
-      "wyckoff_stoploss_pct": 15.93,
+      "wyckoff_stoploss_pct": 15.25,
       "wyckoff_target_1": 18.22,
       "wyckoff_target_2": 21.43,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -75656,7 +75653,7 @@ window.stockData = {
           "high": 0.27,
           "low": 0.26,
           "close": 0.27,
-          "volume": 249812
+          "volume": 249811
         }
       ],
       "name": "Shrenik Ltd",
@@ -75746,583 +75743,6 @@ window.stockData = {
       "wyckoff_rationale": [
         "Phase B Cause Building inside Trading Range: \u20b90.19 (Ice) to \u20b90.29 (Creek).",
         "Consolidation inside 0.1 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
-      ]
-    },
-    {
-      "symbol": "SAKSOFT.NS",
-      "clean_symbol": "SAKSOFT",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 167.39,
-          "high": 167.39,
-          "low": 162.5,
-          "close": 163.75,
-          "volume": 245358
-        },
-        {
-          "time": "2026-08-20",
-          "open": 163.39,
-          "high": 167.56,
-          "low": 162.69,
-          "close": 163.11,
-          "volume": 270696
-        },
-        {
-          "time": "2026-08-21",
-          "open": 164.37,
-          "high": 165.19,
-          "low": 162.41,
-          "close": 162.91,
-          "volume": 151961
-        },
-        {
-          "time": "2026-08-24",
-          "open": 163.39,
-          "high": 165.17,
-          "low": 160.89,
-          "close": 161.52,
-          "volume": 366366
-        },
-        {
-          "time": "2026-08-25",
-          "open": 162.64,
-          "high": 162.64,
-          "low": 158.4,
-          "close": 158.99,
-          "volume": 237329
-        },
-        {
-          "time": "2026-08-26",
-          "open": 159.34,
-          "high": 162.45,
-          "low": 159.05,
-          "close": 160.76,
-          "volume": 138451
-        },
-        {
-          "time": "2026-08-27",
-          "open": 159.8,
-          "high": 161.04,
-          "low": 155.91,
-          "close": 157.19,
-          "volume": 127771
-        },
-        {
-          "time": "2026-08-28",
-          "open": 157.86,
-          "high": 162.23,
-          "low": 157.27,
-          "close": 160.04,
-          "volume": 539331
-        },
-        {
-          "time": "2026-08-31",
-          "open": 159.6,
-          "high": 159.6,
-          "low": 154.34,
-          "close": 154.77,
-          "volume": 279505
-        },
-        {
-          "time": "2026-09-01",
-          "open": 154.91,
-          "high": 156.41,
-          "low": 152.64,
-          "close": 153.64,
-          "volume": 217740
-        },
-        {
-          "time": "2026-09-02",
-          "open": 153.64,
-          "high": 153.86,
-          "low": 148.77,
-          "close": 149.82,
-          "volume": 387000
-        },
-        {
-          "time": "2026-09-03",
-          "open": 151.43,
-          "high": 154.25,
-          "low": 149.49,
-          "close": 153.11,
-          "volume": 259461
-        },
-        {
-          "time": "2026-09-04",
-          "open": 153.11,
-          "high": 155.81,
-          "low": 152.44,
-          "close": 154.0,
-          "volume": 179015
-        },
-        {
-          "time": "2026-09-07",
-          "open": 154.45,
-          "high": 154.46,
-          "low": 150.1,
-          "close": 151.2,
-          "volume": 199363
-        },
-        {
-          "time": "2026-09-08",
-          "open": 149.96,
-          "high": 151.41,
-          "low": 148.64,
-          "close": 149.42,
-          "volume": 215339
-        },
-        {
-          "time": "2026-09-09",
-          "open": 149.42,
-          "high": 151.93,
-          "low": 146.75,
-          "close": 150.84,
-          "volume": 243104
-        },
-        {
-          "time": "2026-09-10",
-          "open": 150.85,
-          "high": 150.97,
-          "low": 144.88,
-          "close": 146.32,
-          "volume": 236398
-        },
-        {
-          "time": "2026-09-11",
-          "open": 146.24,
-          "high": 146.95,
-          "low": 144.46,
-          "close": 145.94,
-          "volume": 211197
-        },
-        {
-          "time": "2026-09-15",
-          "open": 145.95,
-          "high": 150.41,
-          "low": 140.47,
-          "close": 141.72,
-          "volume": 505365
-        },
-        {
-          "time": "2026-09-16",
-          "open": 141.76,
-          "high": 142.67,
-          "low": 137.1,
-          "close": 140.65,
-          "volume": 225685
-        },
-        {
-          "time": "2026-09-17",
-          "open": 140.65,
-          "high": 143.31,
-          "low": 140.18,
-          "close": 142.38,
-          "volume": 179023
-        },
-        {
-          "time": "2026-09-18",
-          "open": 142.56,
-          "high": 143.11,
-          "low": 139.67,
-          "close": 140.61,
-          "volume": 197325
-        },
-        {
-          "time": "2026-09-21",
-          "open": 140.61,
-          "high": 147.45,
-          "low": 138.26,
-          "close": 146.07,
-          "volume": 765678
-        },
-        {
-          "time": "2026-09-22",
-          "open": 146.45,
-          "high": 146.45,
-          "low": 143.2,
-          "close": 143.82,
-          "volume": 221274
-        },
-        {
-          "time": "2026-09-23",
-          "open": 144.46,
-          "high": 148.45,
-          "low": 143.82,
-          "close": 147.24,
-          "volume": 212364
-        },
-        {
-          "time": "2026-09-24",
-          "open": 145.06,
-          "high": 147.99,
-          "low": 142.36,
-          "close": 142.99,
-          "volume": 188469
-        },
-        {
-          "time": "2026-09-25",
-          "open": 141.94,
-          "high": 142.54,
-          "low": 140.62,
-          "close": 140.99,
-          "volume": 115426
-        },
-        {
-          "time": "2026-09-28",
-          "open": 141.94,
-          "high": 143.46,
-          "low": 140.47,
-          "close": 141.28,
-          "volume": 166026
-        },
-        {
-          "time": "2026-09-29",
-          "open": 141.97,
-          "high": 142.15,
-          "low": 138.48,
-          "close": 139.26,
-          "volume": 179876
-        },
-        {
-          "time": "2026-09-30",
-          "open": 139.48,
-          "high": 143.13,
-          "low": 136.1,
-          "close": 138.91,
-          "volume": 169137
-        },
-        {
-          "time": "2026-10-01",
-          "open": 139.38,
-          "high": 141.44,
-          "low": 134.58,
-          "close": 138.81,
-          "volume": 241189
-        },
-        {
-          "time": "2026-10-05",
-          "open": 139.13,
-          "high": 143.46,
-          "low": 138.04,
-          "close": 140.19,
-          "volume": 259830
-        },
-        {
-          "time": "2026-10-06",
-          "open": 139.87,
-          "high": 143.46,
-          "low": 139.78,
-          "close": 142.2,
-          "volume": 112706
-        },
-        {
-          "time": "2026-10-07",
-          "open": 142.2,
-          "high": 142.2,
-          "low": 136.79,
-          "close": 138.56,
-          "volume": 207978
-        },
-        {
-          "time": "2026-10-08",
-          "open": 137.99,
-          "high": 141.22,
-          "low": 129.51,
-          "close": 132.3,
-          "volume": 354513
-        },
-        {
-          "time": "2026-10-09",
-          "open": 131.56,
-          "high": 144.46,
-          "low": 131.56,
-          "close": 138.27,
-          "volume": 1913238
-        },
-        {
-          "time": "2026-10-12",
-          "open": 138.27,
-          "high": 140.59,
-          "low": 135.59,
-          "close": 136.67,
-          "volume": 208473
-        },
-        {
-          "time": "2026-10-13",
-          "open": 137.39,
-          "high": 142.16,
-          "low": 136.5,
-          "close": 140.14,
-          "volume": 468986
-        },
-        {
-          "time": "2026-10-14",
-          "open": 140.14,
-          "high": 143.16,
-          "low": 139.0,
-          "close": 139.97,
-          "volume": 210391
-        },
-        {
-          "time": "2026-10-15",
-          "open": 141.19,
-          "high": 146.45,
-          "low": 138.6,
-          "close": 139.5,
-          "volume": 574773
-        },
-        {
-          "time": "2026-10-16",
-          "open": 140.32,
-          "high": 146.95,
-          "low": 138.68,
-          "close": 145.78,
-          "volume": 546748
-        },
-        {
-          "time": "2026-10-19",
-          "open": 144.66,
-          "high": 144.69,
-          "low": 137.75,
-          "close": 139.27,
-          "volume": 340815
-        },
-        {
-          "time": "2026-10-21",
-          "open": 139.27,
-          "high": 140.7,
-          "low": 134.59,
-          "close": 136.47,
-          "volume": 178053
-        },
-        {
-          "time": "2026-10-22",
-          "open": 135.99,
-          "high": 139.48,
-          "low": 134.77,
-          "close": 137.56,
-          "volume": 288940
-        },
-        {
-          "time": "2026-10-23",
-          "open": 138.32,
-          "high": 143.16,
-          "low": 130.76,
-          "close": 131.95,
-          "volume": 286098
-        },
-        {
-          "time": "2026-10-26",
-          "open": 131.65,
-          "high": 132.25,
-          "low": 128.52,
-          "close": 130.79,
-          "volume": 244616
-        },
-        {
-          "time": "2026-10-27",
-          "open": 130.51,
-          "high": 134.61,
-          "low": 130.32,
-          "close": 132.43,
-          "volume": 148501
-        },
-        {
-          "time": "2026-10-28",
-          "open": 131.02,
-          "high": 132.5,
-          "low": 129.52,
-          "close": 131.59,
-          "volume": 162767
-        },
-        {
-          "time": "2026-10-29",
-          "open": 131.7,
-          "high": 133.5,
-          "low": 130.65,
-          "close": 132.66,
-          "volume": 128068
-        },
-        {
-          "time": "2026-10-30",
-          "open": 132.66,
-          "high": 133.18,
-          "low": 126.92,
-          "close": 128.77,
-          "volume": 142606
-        },
-        {
-          "time": "2026-11-02",
-          "open": 129.41,
-          "high": 131.68,
-          "low": 125.78,
-          "close": 129.45,
-          "volume": 267356
-        },
-        {
-          "time": "2026-11-03",
-          "open": 130.51,
-          "high": 137.67,
-          "low": 130.51,
-          "close": 132.52,
-          "volume": 359682
-        },
-        {
-          "time": "2026-11-04",
-          "open": 132.52,
-          "high": 138.28,
-          "low": 125.33,
-          "close": 128.8,
-          "volume": 913909
-        },
-        {
-          "time": "2026-11-05",
-          "open": 129.06,
-          "high": 134.45,
-          "low": 128.82,
-          "close": 131.0,
-          "volume": 369582
-        },
-        {
-          "time": "2026-11-06",
-          "open": 133.11,
-          "high": 135.99,
-          "low": 130.62,
-          "close": 132.89,
-          "volume": 460990
-        },
-        {
-          "time": "2026-11-09",
-          "open": 132.7,
-          "high": 133.99,
-          "low": 131.41,
-          "close": 133.17,
-          "volume": 146080
-        },
-        {
-          "time": "2026-11-11",
-          "open": 133.2,
-          "high": 136.25,
-          "low": 133.2,
-          "close": 134.95,
-          "volume": 169502
-        },
-        {
-          "time": "2026-11-12",
-          "open": 136.5,
-          "high": 136.9,
-          "low": 134.81,
-          "close": 136.01,
-          "volume": 162614
-        },
-        {
-          "time": "2026-11-13",
-          "open": 135.0,
-          "high": 135.29,
-          "low": 133.5,
-          "close": 134.64,
-          "volume": 88138
-        },
-        {
-          "time": "2026-11-16",
-          "open": 135.0,
-          "high": 135.01,
-          "low": 131.5,
-          "close": 135.0,
-          "volume": 99246
-        }
-      ],
-      "name": "Saksoft Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9149.27",
-      "current_price": 135.0,
-      "prev_close": 134.64,
-      "day_change_pct": 0.27,
-      "52w_high": 221.42,
-      "52w_low": 106.83,
-      "pct_from_52w_high": -39.03,
-      "pct_from_52w_low": 26.37,
-      "sma_20": 133.78,
-      "sma_50": 139.38,
-      "sma_200": 148.12,
-      "rsi_14": 48.8,
-      "macd_val": -1.67,
-      "macd_signal": -2.62,
-      "macd_hist": 0.95,
-      "vol_surge_ratio": 0.36,
-      "pe_ratio": 13.98,
-      "forward_pe": 3.95,
-      "peg_ratio": 0.0,
-      "pb_ratio": 2.05,
-      "roe": 16.3,
-      "profit_margins": 12.7,
-      "operating_margins": 16.7,
-      "debt_to_equity": 0.04,
-      "debt_status": "Low Debt (Healthy)",
-      "rev_growth_yoy": -3.8,
-      "earnings_growth_yoy": -10.9,
-      "q_sales_growth": -3.8,
-      "q_pat_growth": -10.9,
-      "free_cash_flow": 734976128.0,
-      "target_mean_price": 135.0,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 74.0,
-      "promoter_holding": 71.1,
-      "institutional_holding": 0.3,
-      "public_holding": 28.6,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 147.24,
-      "sell_trigger_level": 125.08,
-      "dist_from_prev_close": 9.36,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Healthy Low Debt (D/E 0.04)"
-      ],
-      "weaknesses": [
-        "Revenue Contracting YoY (-3.8%)",
-        "Earnings De-growth YoY (-10.9%)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 12.0,
-      "technical_score": 17.0,
-      "composite_score": 36,
-      "long_term_signal": "REDUCE",
-      "swing_signal": "MOMENTUM BUY",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 128.97,
-      "swing_target_1": 143.37,
-      "swing_target_2": 149.06,
-      "rationale": [
-        "Consolidation phase with neutral momentum"
-      ],
-      "corporate_actions": [
-        "Attractive Dividend Yield: 74.00%"
-      ],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 147.24,
-      "wyckoff_ice": 125.08,
-      "wyckoff_breakout": 147.24,
-      "wyckoff_dist_to_breakout_pct": 9.07,
-      "wyckoff_stoploss": 122.58,
-      "wyckoff_stoploss_pct": 9.2,
-      "wyckoff_target_1": 169.4,
-      "wyckoff_target_2": 191.56,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b9125.08 (Ice) to \u20b9147.24 (Creek).",
-        "Consolidation inside 22.16 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -76807,33 +76227,33 @@ window.stockData = {
           "open": 10.79,
           "high": 10.79,
           "low": 10.16,
-          "close": 10.23,
-          "volume": 289204
+          "close": 10.29,
+          "volume": 289190
         }
       ],
       "name": "Sumeet Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b920.82",
-      "current_price": 10.23,
+      "current_price": 10.29,
       "prev_close": 10.61,
-      "day_change_pct": -3.58,
+      "day_change_pct": -3.02,
       "52w_high": 35.67,
       "52w_low": 9.05,
-      "pct_from_52w_high": -71.32,
-      "pct_from_52w_low": 13.04,
+      "pct_from_52w_high": -71.15,
+      "pct_from_52w_low": 13.7,
       "sma_20": 10.17,
       "sma_50": 10.69,
       "sma_200": 22.42,
-      "rsi_14": 44.9,
-      "macd_val": -0.13,
+      "rsi_14": 45.6,
+      "macd_val": -0.12,
       "macd_signal": -0.28,
       "macd_hist": 0.15,
       "vol_surge_ratio": 0.46,
-      "pe_ratio": 40.92,
+      "pe_ratio": 41.16,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 1.54,
+      "pb_ratio": 1.55,
       "roe": 5.2,
       "profit_margins": 1.4,
       "operating_margins": 2.4,
@@ -76844,7 +76264,7 @@ window.stockData = {
       "q_sales_growth": 35.2,
       "q_pat_growth": -56.5,
       "free_cash_flow": -1019995392.0,
-      "target_mean_price": 10.23,
+      "target_mean_price": 10.29,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -76876,9 +76296,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 8.46,
-      "swing_target_1": 12.69,
-      "swing_target_2": 14.37,
+      "swing_stoploss": 8.52,
+      "swing_target_1": 12.75,
+      "swing_target_2": 14.43,
       "rationale": [
         "YoY Revenue up 35.2%"
       ],
@@ -76890,9 +76310,9 @@ window.stockData = {
       "wyckoff_creek": 11.42,
       "wyckoff_ice": 9.03,
       "wyckoff_breakout": 11.42,
-      "wyckoff_dist_to_breakout_pct": 11.63,
+      "wyckoff_dist_to_breakout_pct": 10.98,
       "wyckoff_stoploss": 8.85,
-      "wyckoff_stoploss_pct": 13.49,
+      "wyckoff_stoploss_pct": 13.99,
       "wyckoff_target_1": 13.81,
       "wyckoff_target_2": 16.2,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -77384,7 +76804,7 @@ window.stockData = {
           "high": 937.55,
           "low": 908.05,
           "close": 911.3,
-          "volume": 3894
+          "volume": 3868
         }
       ],
       "name": "Jindal Poly Investment & Finance Co Ltd",
@@ -77405,7 +76825,7 @@ window.stockData = {
       "macd_val": -1.57,
       "macd_signal": -6.47,
       "macd_hist": 4.9,
-      "vol_surge_ratio": 1.39,
+      "vol_surge_ratio": 1.38,
       "pe_ratio": 1.18,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
@@ -77958,28 +77378,28 @@ window.stockData = {
           "open": 735.7,
           "high": 735.9,
           "low": 710.55,
-          "close": 714.15,
-          "volume": 71493
+          "close": 715.2,
+          "volume": 71473
         }
       ],
       "name": "Reliance Industrial Infrastructure Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9738.69",
-      "current_price": 714.15,
+      "current_price": 715.2,
       "prev_close": 732.1,
-      "day_change_pct": -2.45,
+      "day_change_pct": -2.31,
       "52w_high": 908.0,
       "52w_low": 614.55,
-      "pct_from_52w_high": -21.35,
-      "pct_from_52w_low": 16.21,
-      "sma_20": 700.26,
-      "sma_50": 702.52,
+      "pct_from_52w_high": -21.23,
+      "pct_from_52w_low": 16.38,
+      "sma_20": 700.31,
+      "sma_50": 702.54,
       "sma_200": 737.38,
-      "rsi_14": 53.3,
-      "macd_val": 5.68,
-      "macd_signal": 0.6,
-      "macd_hist": 5.08,
+      "rsi_14": 53.6,
+      "macd_val": 5.77,
+      "macd_signal": 0.62,
+      "macd_hist": 5.15,
       "vol_surge_ratio": 0.56,
       "pe_ratio": 90.99,
       "forward_pe": 86.06,
@@ -77995,7 +77415,7 @@ window.stockData = {
       "q_sales_growth": -31.4,
       "q_pat_growth": -8.9,
       "free_cash_flow": -1882412544.0,
-      "target_mean_price": 714.15,
+      "target_mean_price": 715.2,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 48.0,
@@ -78027,9 +77447,9 @@ window.stockData = {
       "long_term_signal": "REDUCE",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 655.71,
-      "swing_target_1": 795.31,
-      "swing_target_2": 850.5,
+      "swing_stoploss": 656.62,
+      "swing_target_1": 796.56,
+      "swing_target_2": 851.89,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -78043,9 +77463,9 @@ window.stockData = {
       "wyckoff_creek": 791.53,
       "wyckoff_ice": 651.99,
       "wyckoff_breakout": 791.53,
-      "wyckoff_dist_to_breakout_pct": 10.84,
+      "wyckoff_dist_to_breakout_pct": 10.67,
       "wyckoff_stoploss": 638.95,
-      "wyckoff_stoploss_pct": 10.53,
+      "wyckoff_stoploss_pct": 10.66,
       "wyckoff_target_1": 931.07,
       "wyckoff_target_2": 1070.61,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -78537,7 +77957,7 @@ window.stockData = {
           "high": 31.63,
           "low": 31.08,
           "close": 31.14,
-          "volume": 2010985
+          "volume": 2010970
         }
       ],
       "name": "Bharat Coking Coal Ltd",
@@ -79112,7 +78532,7 @@ window.stockData = {
           "high": 4490.0,
           "low": 4430.0,
           "close": 4445.0,
-          "volume": 578
+          "volume": 574
         }
       ],
       "name": "Kalyani Investment Company Ltd",
@@ -79204,6 +78624,580 @@ window.stockData = {
       "wyckoff_rationale": [
         "Phase B Cause Building inside Trading Range: \u20b94192.7 (Ice) to \u20b95103.29 (Creek).",
         "Consolidation inside 910.59 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+      ]
+    },
+    {
+      "symbol": "SHALBY.NS",
+      "clean_symbol": "SHALBY",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 152.0,
+          "high": 156.87,
+          "low": 152.0,
+          "close": 155.45,
+          "volume": 72181
+        },
+        {
+          "time": "2026-08-20",
+          "open": 155.36,
+          "high": 157.6,
+          "low": 153.2,
+          "close": 154.57,
+          "volume": 73225
+        },
+        {
+          "time": "2026-08-21",
+          "open": 153.7,
+          "high": 155.75,
+          "low": 151.83,
+          "close": 152.96,
+          "volume": 55754
+        },
+        {
+          "time": "2026-08-24",
+          "open": 153.84,
+          "high": 158.4,
+          "low": 153.71,
+          "close": 154.03,
+          "volume": 59122
+        },
+        {
+          "time": "2026-08-25",
+          "open": 153.0,
+          "high": 155.39,
+          "low": 151.5,
+          "close": 154.69,
+          "volume": 65824
+        },
+        {
+          "time": "2026-08-26",
+          "open": 154.04,
+          "high": 157.58,
+          "low": 153.17,
+          "close": 156.92,
+          "volume": 72774
+        },
+        {
+          "time": "2026-08-27",
+          "open": 156.92,
+          "high": 157.79,
+          "low": 153.5,
+          "close": 154.33,
+          "volume": 50336
+        },
+        {
+          "time": "2026-08-28",
+          "open": 155.43,
+          "high": 157.2,
+          "low": 152.5,
+          "close": 154.65,
+          "volume": 45656
+        },
+        {
+          "time": "2026-08-31",
+          "open": 154.42,
+          "high": 156.79,
+          "low": 153.02,
+          "close": 155.27,
+          "volume": 51062
+        },
+        {
+          "time": "2026-09-01",
+          "open": 153.55,
+          "high": 156.18,
+          "low": 151.45,
+          "close": 153.65,
+          "volume": 47389
+        },
+        {
+          "time": "2026-09-02",
+          "open": 154.25,
+          "high": 155.01,
+          "low": 148.22,
+          "close": 151.33,
+          "volume": 95389
+        },
+        {
+          "time": "2026-09-03",
+          "open": 152.0,
+          "high": 154.0,
+          "low": 151.93,
+          "close": 152.64,
+          "volume": 41367
+        },
+        {
+          "time": "2026-09-04",
+          "open": 152.65,
+          "high": 154.49,
+          "low": 152.0,
+          "close": 152.71,
+          "volume": 31700
+        },
+        {
+          "time": "2026-09-07",
+          "open": 152.51,
+          "high": 153.99,
+          "low": 151.0,
+          "close": 151.24,
+          "volume": 31659
+        },
+        {
+          "time": "2026-09-08",
+          "open": 152.04,
+          "high": 153.01,
+          "low": 149.2,
+          "close": 149.82,
+          "volume": 58413
+        },
+        {
+          "time": "2026-09-09",
+          "open": 149.82,
+          "high": 152.0,
+          "low": 147.6,
+          "close": 148.48,
+          "volume": 87527
+        },
+        {
+          "time": "2026-09-10",
+          "open": 148.99,
+          "high": 149.99,
+          "low": 145.25,
+          "close": 145.96,
+          "volume": 87771
+        },
+        {
+          "time": "2026-09-11",
+          "open": 145.25,
+          "high": 146.99,
+          "low": 141.7,
+          "close": 144.78,
+          "volume": 112748
+        },
+        {
+          "time": "2026-09-15",
+          "open": 144.78,
+          "high": 149.0,
+          "low": 136.35,
+          "close": 137.21,
+          "volume": 364825
+        },
+        {
+          "time": "2026-09-16",
+          "open": 137.21,
+          "high": 138.54,
+          "low": 131.81,
+          "close": 135.74,
+          "volume": 244848
+        },
+        {
+          "time": "2026-09-17",
+          "open": 135.0,
+          "high": 140.05,
+          "low": 135.0,
+          "close": 138.5,
+          "volume": 156178
+        },
+        {
+          "time": "2026-09-18",
+          "open": 138.0,
+          "high": 141.4,
+          "low": 133.92,
+          "close": 137.66,
+          "volume": 149630
+        },
+        {
+          "time": "2026-09-21",
+          "open": 138.0,
+          "high": 140.95,
+          "low": 136.35,
+          "close": 138.32,
+          "volume": 112394
+        },
+        {
+          "time": "2026-09-22",
+          "open": 138.75,
+          "high": 144.13,
+          "low": 136.1,
+          "close": 136.7,
+          "volume": 196871
+        },
+        {
+          "time": "2026-09-23",
+          "open": 136.35,
+          "high": 150.62,
+          "low": 136.0,
+          "close": 145.67,
+          "volume": 224182
+        },
+        {
+          "time": "2026-09-24",
+          "open": 145.5,
+          "high": 149.29,
+          "low": 142.81,
+          "close": 143.77,
+          "volume": 118942
+        },
+        {
+          "time": "2026-09-25",
+          "open": 143.0,
+          "high": 148.8,
+          "low": 143.0,
+          "close": 147.12,
+          "volume": 106923
+        },
+        {
+          "time": "2026-09-28",
+          "open": 146.5,
+          "high": 146.99,
+          "low": 142.15,
+          "close": 143.25,
+          "volume": 66372
+        },
+        {
+          "time": "2026-09-29",
+          "open": 143.73,
+          "high": 144.4,
+          "low": 141.0,
+          "close": 142.01,
+          "volume": 57757
+        },
+        {
+          "time": "2026-09-30",
+          "open": 142.0,
+          "high": 145.88,
+          "low": 135.0,
+          "close": 138.65,
+          "volume": 263673
+        },
+        {
+          "time": "2026-10-01",
+          "open": 137.53,
+          "high": 138.0,
+          "low": 129.41,
+          "close": 133.55,
+          "volume": 213871
+        },
+        {
+          "time": "2026-10-05",
+          "open": 133.0,
+          "high": 135.49,
+          "low": 132.51,
+          "close": 134.01,
+          "volume": 36205
+        },
+        {
+          "time": "2026-10-06",
+          "open": 134.0,
+          "high": 137.1,
+          "low": 133.61,
+          "close": 136.51,
+          "volume": 50727
+        },
+        {
+          "time": "2026-10-07",
+          "open": 136.3,
+          "high": 136.95,
+          "low": 134.15,
+          "close": 134.62,
+          "volume": 37417
+        },
+        {
+          "time": "2026-10-08",
+          "open": 134.62,
+          "high": 134.62,
+          "low": 130.02,
+          "close": 130.42,
+          "volume": 87980
+        },
+        {
+          "time": "2026-10-09",
+          "open": 131.0,
+          "high": 132.89,
+          "low": 129.9,
+          "close": 131.84,
+          "volume": 51038
+        },
+        {
+          "time": "2026-10-12",
+          "open": 131.6,
+          "high": 134.64,
+          "low": 131.01,
+          "close": 132.83,
+          "volume": 45155
+        },
+        {
+          "time": "2026-10-13",
+          "open": 132.64,
+          "high": 133.07,
+          "low": 129.0,
+          "close": 132.32,
+          "volume": 42496
+        },
+        {
+          "time": "2026-10-14",
+          "open": 132.32,
+          "high": 134.28,
+          "low": 132.15,
+          "close": 133.51,
+          "volume": 23691
+        },
+        {
+          "time": "2026-10-15",
+          "open": 133.51,
+          "high": 133.51,
+          "low": 130.16,
+          "close": 131.4,
+          "volume": 38102
+        },
+        {
+          "time": "2026-10-16",
+          "open": 132.5,
+          "high": 133.1,
+          "low": 128.4,
+          "close": 128.95,
+          "volume": 134761
+        },
+        {
+          "time": "2026-10-19",
+          "open": 128.95,
+          "high": 129.8,
+          "low": 126.0,
+          "close": 126.32,
+          "volume": 62336
+        },
+        {
+          "time": "2026-10-21",
+          "open": 127.98,
+          "high": 128.0,
+          "low": 120.0,
+          "close": 120.58,
+          "volume": 167255
+        },
+        {
+          "time": "2026-10-22",
+          "open": 120.58,
+          "high": 122.98,
+          "low": 114.2,
+          "close": 115.19,
+          "volume": 243009
+        },
+        {
+          "time": "2026-10-23",
+          "open": 115.9,
+          "high": 116.0,
+          "low": 110.61,
+          "close": 113.39,
+          "volume": 103861
+        },
+        {
+          "time": "2026-10-26",
+          "open": 114.5,
+          "high": 116.56,
+          "low": 112.0,
+          "close": 115.29,
+          "volume": 87159
+        },
+        {
+          "time": "2026-10-27",
+          "open": 114.32,
+          "high": 120.18,
+          "low": 114.32,
+          "close": 118.68,
+          "volume": 38452
+        },
+        {
+          "time": "2026-10-28",
+          "open": 118.68,
+          "high": 124.8,
+          "low": 117.01,
+          "close": 122.71,
+          "volume": 60904
+        },
+        {
+          "time": "2026-10-29",
+          "open": 123.2,
+          "high": 126.9,
+          "low": 120.5,
+          "close": 121.96,
+          "volume": 36969
+        },
+        {
+          "time": "2026-10-30",
+          "open": 121.5,
+          "high": 121.99,
+          "low": 119.84,
+          "close": 120.64,
+          "volume": 51699
+        },
+        {
+          "time": "2026-11-02",
+          "open": 120.76,
+          "high": 125.19,
+          "low": 119.15,
+          "close": 120.41,
+          "volume": 110407
+        },
+        {
+          "time": "2026-11-03",
+          "open": 120.9,
+          "high": 124.0,
+          "low": 119.0,
+          "close": 123.06,
+          "volume": 60885
+        },
+        {
+          "time": "2026-11-04",
+          "open": 122.06,
+          "high": 126.96,
+          "low": 119.41,
+          "close": 122.7,
+          "volume": 157727
+        },
+        {
+          "time": "2026-11-05",
+          "open": 126.25,
+          "high": 127.6,
+          "low": 121.11,
+          "close": 121.69,
+          "volume": 120604
+        },
+        {
+          "time": "2026-11-06",
+          "open": 120.0,
+          "high": 121.22,
+          "low": 118.35,
+          "close": 118.94,
+          "volume": 107444
+        },
+        {
+          "time": "2026-11-09",
+          "open": 122.0,
+          "high": 124.38,
+          "low": 119.26,
+          "close": 119.81,
+          "volume": 120347
+        },
+        {
+          "time": "2026-11-11",
+          "open": 121.99,
+          "high": 126.43,
+          "low": 120.09,
+          "close": 125.52,
+          "volume": 116657
+        },
+        {
+          "time": "2026-11-12",
+          "open": 124.0,
+          "high": 128.99,
+          "low": 124.0,
+          "close": 127.36,
+          "volume": 60867
+        },
+        {
+          "time": "2026-11-13",
+          "open": 127.49,
+          "high": 129.79,
+          "low": 123.0,
+          "close": 124.06,
+          "volume": 129072
+        },
+        {
+          "time": "2026-11-16",
+          "open": 123.62,
+          "high": 128.16,
+          "low": 121.2,
+          "close": 121.77,
+          "volume": 238633
+        }
+      ],
+      "name": "Shalby Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9154.20",
+      "current_price": 121.77,
+      "prev_close": 124.06,
+      "day_change_pct": -1.85,
+      "52w_high": 227.66,
+      "52w_low": 110.61,
+      "pct_from_52w_high": -46.51,
+      "pct_from_52w_low": 10.09,
+      "sma_20": 121.45,
+      "sma_50": 132.83,
+      "sma_200": 153.87,
+      "rsi_14": 43.4,
+      "macd_val": -2.65,
+      "macd_signal": -3.86,
+      "macd_hist": 1.2,
+      "vol_surge_ratio": 2.16,
+      "pe_ratio": 34.3,
+      "forward_pe": 12.95,
+      "peg_ratio": 0.0,
+      "pb_ratio": 1.35,
+      "roe": 3.8,
+      "profit_margins": 3.3,
+      "operating_margins": 6.3,
+      "debt_to_equity": 0.57,
+      "debt_status": "Moderate Debt",
+      "rev_growth_yoy": 9.7,
+      "earnings_growth_yoy": 0.0,
+      "q_sales_growth": 9.7,
+      "q_pat_growth": 0.0,
+      "free_cash_flow": -715260032.0,
+      "target_mean_price": 121.77,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 0.0,
+      "promoter_holding": 74.8,
+      "institutional_holding": 1.9,
+      "public_holding": 23.3,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 133.78,
+      "sell_trigger_level": 110.39,
+      "dist_from_prev_close": 7.83,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Stable Price Consolidation"
+      ],
+      "weaknesses": [
+        "Weak Return on Capital (3.8% ROE)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 6.0,
+      "technical_score": 21.0,
+      "composite_score": 34,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "MOMENTUM BUY",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 115.44,
+      "swing_target_1": 130.57,
+      "swing_target_2": 136.55,
+      "rationale": [
+        "Consolidation phase with neutral momentum"
+      ],
+      "corporate_actions": [],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 133.78,
+      "wyckoff_ice": 110.39,
+      "wyckoff_breakout": 133.78,
+      "wyckoff_dist_to_breakout_pct": 9.86,
+      "wyckoff_stoploss": 108.18,
+      "wyckoff_stoploss_pct": 11.16,
+      "wyckoff_target_1": 157.17,
+      "wyckoff_target_2": 180.56,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9110.39 (Ice) to \u20b9133.78 (Creek).",
+        "Consolidation inside 23.39 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -79689,7 +79683,7 @@ window.stockData = {
           "high": 1185.0,
           "low": 1145.3,
           "close": 1158.0,
-          "volume": 1343304
+          "volume": 1334996
         }
       ],
       "name": "Cochin Shipyard Ltd",
@@ -80264,7 +80258,7 @@ window.stockData = {
           "open": 1.51,
           "high": 1.58,
           "low": 1.45,
-          "close": 1.47,
+          "close": 1.49,
           "volume": 130674
         }
       ],
@@ -80272,17 +80266,17 @@ window.stockData = {
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b91.76",
-      "current_price": 1.47,
+      "current_price": 1.49,
       "prev_close": 1.51,
-      "day_change_pct": -2.65,
+      "day_change_pct": -1.32,
       "52w_high": 2.94,
       "52w_low": 1.21,
-      "pct_from_52w_high": -50.0,
-      "pct_from_52w_low": 21.49,
+      "pct_from_52w_high": -49.32,
+      "pct_from_52w_low": 23.14,
       "sma_20": 1.34,
       "sma_50": 1.42,
       "sma_200": 1.84,
-      "rsi_14": 60.6,
+      "rsi_14": 63.4,
       "macd_val": 0.0,
       "macd_signal": -0.03,
       "macd_hist": 0.03,
@@ -80301,7 +80295,7 @@ window.stockData = {
       "q_sales_growth": -13.5,
       "q_pat_growth": 0.0,
       "free_cash_flow": -56511248.0,
-      "target_mean_price": 1.47,
+      "target_mean_price": 1.49,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -80332,30 +80326,30 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 1.25,
-      "swing_target_1": 1.78,
-      "swing_target_2": 1.99,
+      "swing_stoploss": 1.26,
+      "swing_target_1": 1.81,
+      "swing_target_2": 2.03,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
       "corporate_actions": [],
       "events": null,
-      "wyckoff_phase": "Phase B",
+      "wyckoff_phase": "Phase D",
       "wyckoff_structure": "Accumulation",
-      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_event": "Last Point of Support (LPS / Backup)",
       "wyckoff_creek": 1.52,
       "wyckoff_ice": 1.21,
-      "wyckoff_breakout": 1.52,
-      "wyckoff_dist_to_breakout_pct": 3.4,
-      "wyckoff_stoploss": 1.19,
-      "wyckoff_stoploss_pct": 19.05,
+      "wyckoff_breakout": 1.53,
+      "wyckoff_dist_to_breakout_pct": 2.68,
+      "wyckoff_stoploss": 1.23,
+      "wyckoff_stoploss_pct": 17.45,
       "wyckoff_target_1": 1.83,
       "wyckoff_target_2": 2.14,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_signal": "LPS PULLBACK BUY",
       "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b91.21 (Ice) to \u20b91.52 (Creek).",
-        "Consolidation inside 0.31 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
+        "Last Point of Support (LPS) successfully holding above Creek (\u20b91.52).",
+        "Low-volume pullback demonstrates floating supply is exhausted.",
+        "Prime Wyckoff low-risk entry before Phase E markup acceleration."
       ]
     },
     {
@@ -80839,33 +80833,33 @@ window.stockData = {
           "open": 4.93,
           "high": 5.2,
           "low": 4.75,
-          "close": 4.91,
-          "volume": 62168
+          "close": 5.08,
+          "volume": 61952
         }
       ],
       "name": "Shyam Century Ferrous Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b95.11",
-      "current_price": 4.91,
+      "current_price": 5.08,
       "prev_close": 4.98,
-      "day_change_pct": -1.41,
+      "day_change_pct": 2.01,
       "52w_high": 7.15,
       "52w_low": 3.68,
-      "pct_from_52w_high": -31.33,
-      "pct_from_52w_low": 33.42,
+      "pct_from_52w_high": -28.95,
+      "pct_from_52w_low": 38.04,
       "sma_20": 4.74,
       "sma_50": 4.88,
       "sma_200": 5.11,
-      "rsi_14": 55.9,
-      "macd_val": 0.01,
-      "macd_signal": -0.04,
-      "macd_hist": 0.05,
+      "rsi_14": 65.0,
+      "macd_val": 0.03,
+      "macd_signal": -0.03,
+      "macd_hist": 0.06,
       "vol_surge_ratio": 1.4,
       "pe_ratio": 0.0,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 0.61,
+      "pb_ratio": 0.63,
       "roe": 0.0,
       "profit_margins": -69.7,
       "operating_margins": -200.4,
@@ -80876,7 +80870,7 @@ window.stockData = {
       "q_sales_growth": -97.7,
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 4.91,
+      "target_mean_price": 5.08,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -80907,9 +80901,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "BREAKOUT BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 4.42,
-      "swing_target_1": 5.59,
-      "swing_target_2": 6.06,
+      "swing_stoploss": 4.55,
+      "swing_target_1": 5.82,
+      "swing_target_2": 6.33,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -80921,9 +80915,9 @@ window.stockData = {
       "wyckoff_creek": 5.26,
       "wyckoff_ice": 4.24,
       "wyckoff_breakout": 5.26,
-      "wyckoff_dist_to_breakout_pct": 7.13,
+      "wyckoff_dist_to_breakout_pct": 3.54,
       "wyckoff_stoploss": 4.16,
-      "wyckoff_stoploss_pct": 15.27,
+      "wyckoff_stoploss_pct": 18.11,
       "wyckoff_target_1": 6.28,
       "wyckoff_target_2": 7.3,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -81414,31 +81408,31 @@ window.stockData = {
           "open": 25.78,
           "high": 25.94,
           "low": 25.41,
-          "close": 25.59,
-          "volume": 154105
+          "close": 25.54,
+          "volume": 153929
         }
       ],
       "name": "DEN Networks Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b927.40",
-      "current_price": 25.59,
+      "current_price": 25.54,
       "prev_close": 25.78,
-      "day_change_pct": -0.74,
+      "day_change_pct": -0.93,
       "52w_high": 34.39,
       "52w_low": 22.52,
-      "pct_from_52w_high": -25.59,
-      "pct_from_52w_low": 13.63,
+      "pct_from_52w_high": -25.73,
+      "pct_from_52w_low": 13.41,
       "sma_20": 25.37,
       "sma_50": 26.06,
       "sma_200": 27.38,
-      "rsi_14": 48.7,
+      "rsi_14": 48.4,
       "macd_val": 0.04,
       "macd_signal": -0.11,
-      "macd_hist": 0.15,
+      "macd_hist": 0.14,
       "vol_surge_ratio": 0.47,
-      "pe_ratio": 8.15,
-      "forward_pe": -24.37,
+      "pe_ratio": 8.13,
+      "forward_pe": -24.32,
       "peg_ratio": 0.0,
       "pb_ratio": 0.32,
       "roe": 3.9,
@@ -81451,7 +81445,7 @@ window.stockData = {
       "q_sales_growth": -3.7,
       "q_pat_growth": 2.7,
       "free_cash_flow": 428440000.0,
-      "target_mean_price": 25.59,
+      "target_mean_price": 25.54,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -81482,9 +81476,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 23.36,
-      "swing_target_1": 28.69,
-      "swing_target_2": 30.8,
+      "swing_stoploss": 23.31,
+      "swing_target_1": 28.64,
+      "swing_target_2": 30.75,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -81496,9 +81490,9 @@ window.stockData = {
       "wyckoff_creek": 27.55,
       "wyckoff_ice": 23.5,
       "wyckoff_breakout": 27.55,
-      "wyckoff_dist_to_breakout_pct": 7.66,
+      "wyckoff_dist_to_breakout_pct": 7.87,
       "wyckoff_stoploss": 23.03,
-      "wyckoff_stoploss_pct": 10.0,
+      "wyckoff_stoploss_pct": 9.83,
       "wyckoff_target_1": 31.6,
       "wyckoff_target_2": 35.65,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -81990,7 +81984,7 @@ window.stockData = {
           "high": 75.83,
           "low": 74.42,
           "close": 75.05,
-          "volume": 10170928
+          "volume": 10035866
         }
       ],
       "name": "NHPC Ltd",
@@ -82568,31 +82562,31 @@ window.stockData = {
           "open": 155.0,
           "high": 162.0,
           "low": 154.5,
-          "close": 160.0,
-          "volume": 222052
+          "close": 160.27,
+          "volume": 221978
         }
       ],
       "name": "Ncl Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9177.62",
-      "current_price": 160.0,
+      "current_price": 160.27,
       "prev_close": 167.44,
-      "day_change_pct": -4.44,
+      "day_change_pct": -4.28,
       "52w_high": 210.68,
       "52w_low": 145.84,
-      "pct_from_52w_high": -24.06,
-      "pct_from_52w_low": 9.71,
-      "sma_20": 164.56,
+      "pct_from_52w_high": -23.93,
+      "pct_from_52w_low": 9.89,
+      "sma_20": 164.57,
       "sma_50": 168.99,
       "sma_200": 175.67,
-      "rsi_14": 41.2,
-      "macd_val": -0.44,
+      "rsi_14": 41.5,
+      "macd_val": -0.42,
       "macd_signal": -0.98,
-      "macd_hist": 0.54,
-      "vol_surge_ratio": 2.2,
-      "pe_ratio": 6.09,
-      "forward_pe": 5.19,
+      "macd_hist": 0.55,
+      "vol_surge_ratio": 2.19,
+      "pe_ratio": 6.1,
+      "forward_pe": 5.2,
       "peg_ratio": 0.0,
       "pb_ratio": 0.77,
       "roe": 0.0,
@@ -82605,7 +82599,7 @@ window.stockData = {
       "q_sales_growth": 1.5,
       "q_pat_growth": -14.3,
       "free_cash_flow": 0.0,
-      "target_mean_price": 160.0,
+      "target_mean_price": 160.27,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 233.0,
@@ -82636,9 +82630,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 148.92,
-      "swing_target_1": 175.39,
-      "swing_target_2": 185.85,
+      "swing_stoploss": 149.25,
+      "swing_target_1": 175.58,
+      "swing_target_2": 185.98,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -82652,9 +82646,9 @@ window.stockData = {
       "wyckoff_creek": 175.34,
       "wyckoff_ice": 154.9,
       "wyckoff_breakout": 175.34,
-      "wyckoff_dist_to_breakout_pct": 9.59,
+      "wyckoff_dist_to_breakout_pct": 9.4,
       "wyckoff_stoploss": 151.8,
-      "wyckoff_stoploss_pct": 5.12,
+      "wyckoff_stoploss_pct": 5.28,
       "wyckoff_target_1": 195.78,
       "wyckoff_target_2": 216.22,
       "wyckoff_signal": "CLIMAX WATCH",
@@ -82662,6 +82656,583 @@ window.stockData = {
         "Phase A Stopping Action: Climactic volume surge (2.2x vol).",
         "Automatic reaction establishes Trading Range between \u20b9154.9 and \u20b9175.34.",
         "Wait for Phase B cause development before initiating trades."
+      ]
+    },
+    {
+      "symbol": "SAKSOFT.NS",
+      "clean_symbol": "SAKSOFT",
+      "candles": [
+        {
+          "time": "2026-08-19",
+          "open": 167.39,
+          "high": 167.39,
+          "low": 162.5,
+          "close": 163.75,
+          "volume": 245358
+        },
+        {
+          "time": "2026-08-20",
+          "open": 163.39,
+          "high": 167.56,
+          "low": 162.69,
+          "close": 163.11,
+          "volume": 270696
+        },
+        {
+          "time": "2026-08-21",
+          "open": 164.37,
+          "high": 165.19,
+          "low": 162.41,
+          "close": 162.91,
+          "volume": 151961
+        },
+        {
+          "time": "2026-08-24",
+          "open": 163.39,
+          "high": 165.17,
+          "low": 160.89,
+          "close": 161.52,
+          "volume": 366366
+        },
+        {
+          "time": "2026-08-25",
+          "open": 162.64,
+          "high": 162.64,
+          "low": 158.4,
+          "close": 158.99,
+          "volume": 237329
+        },
+        {
+          "time": "2026-08-26",
+          "open": 159.34,
+          "high": 162.45,
+          "low": 159.05,
+          "close": 160.76,
+          "volume": 138451
+        },
+        {
+          "time": "2026-08-27",
+          "open": 159.8,
+          "high": 161.04,
+          "low": 155.91,
+          "close": 157.19,
+          "volume": 127771
+        },
+        {
+          "time": "2026-08-28",
+          "open": 157.86,
+          "high": 162.23,
+          "low": 157.27,
+          "close": 160.04,
+          "volume": 539331
+        },
+        {
+          "time": "2026-08-31",
+          "open": 159.6,
+          "high": 159.6,
+          "low": 154.34,
+          "close": 154.77,
+          "volume": 279505
+        },
+        {
+          "time": "2026-09-01",
+          "open": 154.91,
+          "high": 156.41,
+          "low": 152.64,
+          "close": 153.64,
+          "volume": 217740
+        },
+        {
+          "time": "2026-09-02",
+          "open": 153.64,
+          "high": 153.86,
+          "low": 148.77,
+          "close": 149.82,
+          "volume": 387000
+        },
+        {
+          "time": "2026-09-03",
+          "open": 151.43,
+          "high": 154.25,
+          "low": 149.49,
+          "close": 153.11,
+          "volume": 259461
+        },
+        {
+          "time": "2026-09-04",
+          "open": 153.11,
+          "high": 155.81,
+          "low": 152.44,
+          "close": 154.0,
+          "volume": 179015
+        },
+        {
+          "time": "2026-09-07",
+          "open": 154.45,
+          "high": 154.46,
+          "low": 150.1,
+          "close": 151.2,
+          "volume": 199363
+        },
+        {
+          "time": "2026-09-08",
+          "open": 149.96,
+          "high": 151.41,
+          "low": 148.64,
+          "close": 149.42,
+          "volume": 215339
+        },
+        {
+          "time": "2026-09-09",
+          "open": 149.42,
+          "high": 151.93,
+          "low": 146.75,
+          "close": 150.84,
+          "volume": 243104
+        },
+        {
+          "time": "2026-09-10",
+          "open": 150.85,
+          "high": 150.97,
+          "low": 144.88,
+          "close": 146.32,
+          "volume": 236398
+        },
+        {
+          "time": "2026-09-11",
+          "open": 146.24,
+          "high": 146.95,
+          "low": 144.46,
+          "close": 145.94,
+          "volume": 211197
+        },
+        {
+          "time": "2026-09-15",
+          "open": 145.95,
+          "high": 150.41,
+          "low": 140.47,
+          "close": 141.72,
+          "volume": 505365
+        },
+        {
+          "time": "2026-09-16",
+          "open": 141.76,
+          "high": 142.67,
+          "low": 137.1,
+          "close": 140.65,
+          "volume": 225685
+        },
+        {
+          "time": "2026-09-17",
+          "open": 140.65,
+          "high": 143.31,
+          "low": 140.18,
+          "close": 142.38,
+          "volume": 179023
+        },
+        {
+          "time": "2026-09-18",
+          "open": 142.56,
+          "high": 143.11,
+          "low": 139.67,
+          "close": 140.61,
+          "volume": 197325
+        },
+        {
+          "time": "2026-09-21",
+          "open": 140.61,
+          "high": 147.45,
+          "low": 138.26,
+          "close": 146.07,
+          "volume": 765678
+        },
+        {
+          "time": "2026-09-22",
+          "open": 146.45,
+          "high": 146.45,
+          "low": 143.2,
+          "close": 143.82,
+          "volume": 221274
+        },
+        {
+          "time": "2026-09-23",
+          "open": 144.46,
+          "high": 148.45,
+          "low": 143.82,
+          "close": 147.24,
+          "volume": 212364
+        },
+        {
+          "time": "2026-09-24",
+          "open": 145.06,
+          "high": 147.99,
+          "low": 142.36,
+          "close": 142.99,
+          "volume": 188469
+        },
+        {
+          "time": "2026-09-25",
+          "open": 141.94,
+          "high": 142.54,
+          "low": 140.62,
+          "close": 140.99,
+          "volume": 115426
+        },
+        {
+          "time": "2026-09-28",
+          "open": 141.94,
+          "high": 143.46,
+          "low": 140.47,
+          "close": 141.28,
+          "volume": 166026
+        },
+        {
+          "time": "2026-09-29",
+          "open": 141.97,
+          "high": 142.15,
+          "low": 138.48,
+          "close": 139.26,
+          "volume": 179876
+        },
+        {
+          "time": "2026-09-30",
+          "open": 139.48,
+          "high": 143.13,
+          "low": 136.1,
+          "close": 138.91,
+          "volume": 169137
+        },
+        {
+          "time": "2026-10-01",
+          "open": 139.38,
+          "high": 141.44,
+          "low": 134.58,
+          "close": 138.81,
+          "volume": 241189
+        },
+        {
+          "time": "2026-10-05",
+          "open": 139.13,
+          "high": 143.46,
+          "low": 138.04,
+          "close": 140.19,
+          "volume": 259830
+        },
+        {
+          "time": "2026-10-06",
+          "open": 139.87,
+          "high": 143.46,
+          "low": 139.78,
+          "close": 142.2,
+          "volume": 112706
+        },
+        {
+          "time": "2026-10-07",
+          "open": 142.2,
+          "high": 142.2,
+          "low": 136.79,
+          "close": 138.56,
+          "volume": 207978
+        },
+        {
+          "time": "2026-10-08",
+          "open": 137.99,
+          "high": 141.22,
+          "low": 129.51,
+          "close": 132.3,
+          "volume": 354513
+        },
+        {
+          "time": "2026-10-09",
+          "open": 131.56,
+          "high": 144.46,
+          "low": 131.56,
+          "close": 138.27,
+          "volume": 1913238
+        },
+        {
+          "time": "2026-10-12",
+          "open": 138.27,
+          "high": 140.59,
+          "low": 135.59,
+          "close": 136.67,
+          "volume": 208473
+        },
+        {
+          "time": "2026-10-13",
+          "open": 137.39,
+          "high": 142.16,
+          "low": 136.5,
+          "close": 140.14,
+          "volume": 468986
+        },
+        {
+          "time": "2026-10-14",
+          "open": 140.14,
+          "high": 143.16,
+          "low": 139.0,
+          "close": 139.97,
+          "volume": 210391
+        },
+        {
+          "time": "2026-10-15",
+          "open": 141.19,
+          "high": 146.45,
+          "low": 138.6,
+          "close": 139.5,
+          "volume": 574773
+        },
+        {
+          "time": "2026-10-16",
+          "open": 140.32,
+          "high": 146.95,
+          "low": 138.68,
+          "close": 145.78,
+          "volume": 546748
+        },
+        {
+          "time": "2026-10-19",
+          "open": 144.66,
+          "high": 144.69,
+          "low": 137.75,
+          "close": 139.27,
+          "volume": 340815
+        },
+        {
+          "time": "2026-10-21",
+          "open": 139.27,
+          "high": 140.7,
+          "low": 134.59,
+          "close": 136.47,
+          "volume": 178053
+        },
+        {
+          "time": "2026-10-22",
+          "open": 135.99,
+          "high": 139.48,
+          "low": 134.77,
+          "close": 137.56,
+          "volume": 288940
+        },
+        {
+          "time": "2026-10-23",
+          "open": 138.32,
+          "high": 143.16,
+          "low": 130.76,
+          "close": 131.95,
+          "volume": 286098
+        },
+        {
+          "time": "2026-10-26",
+          "open": 131.65,
+          "high": 132.25,
+          "low": 128.52,
+          "close": 130.79,
+          "volume": 244616
+        },
+        {
+          "time": "2026-10-27",
+          "open": 130.51,
+          "high": 134.61,
+          "low": 130.32,
+          "close": 132.43,
+          "volume": 148501
+        },
+        {
+          "time": "2026-10-28",
+          "open": 131.02,
+          "high": 132.5,
+          "low": 129.52,
+          "close": 131.59,
+          "volume": 162767
+        },
+        {
+          "time": "2026-10-29",
+          "open": 131.7,
+          "high": 133.5,
+          "low": 130.65,
+          "close": 132.66,
+          "volume": 128068
+        },
+        {
+          "time": "2026-10-30",
+          "open": 132.66,
+          "high": 133.18,
+          "low": 126.92,
+          "close": 128.77,
+          "volume": 142606
+        },
+        {
+          "time": "2026-11-02",
+          "open": 129.41,
+          "high": 131.68,
+          "low": 125.78,
+          "close": 129.45,
+          "volume": 267356
+        },
+        {
+          "time": "2026-11-03",
+          "open": 130.51,
+          "high": 137.67,
+          "low": 130.51,
+          "close": 132.52,
+          "volume": 359682
+        },
+        {
+          "time": "2026-11-04",
+          "open": 132.52,
+          "high": 138.28,
+          "low": 125.33,
+          "close": 128.8,
+          "volume": 913909
+        },
+        {
+          "time": "2026-11-05",
+          "open": 129.06,
+          "high": 134.45,
+          "low": 128.82,
+          "close": 131.0,
+          "volume": 369582
+        },
+        {
+          "time": "2026-11-06",
+          "open": 133.11,
+          "high": 135.99,
+          "low": 130.62,
+          "close": 132.89,
+          "volume": 460990
+        },
+        {
+          "time": "2026-11-09",
+          "open": 132.7,
+          "high": 133.99,
+          "low": 131.41,
+          "close": 133.17,
+          "volume": 146080
+        },
+        {
+          "time": "2026-11-11",
+          "open": 133.2,
+          "high": 136.25,
+          "low": 133.2,
+          "close": 134.95,
+          "volume": 169502
+        },
+        {
+          "time": "2026-11-12",
+          "open": 136.5,
+          "high": 136.9,
+          "low": 134.81,
+          "close": 136.01,
+          "volume": 162614
+        },
+        {
+          "time": "2026-11-13",
+          "open": 135.0,
+          "high": 135.29,
+          "low": 133.5,
+          "close": 134.64,
+          "volume": 88138
+        },
+        {
+          "time": "2026-11-16",
+          "open": 135.0,
+          "high": 135.01,
+          "low": 131.5,
+          "close": 132.11,
+          "volume": 99235
+        }
+      ],
+      "name": "Saksoft Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Spark Sheet: \u20b9149.27",
+      "current_price": 132.11,
+      "prev_close": 134.64,
+      "day_change_pct": -1.88,
+      "52w_high": 221.42,
+      "52w_low": 106.83,
+      "pct_from_52w_high": -40.34,
+      "pct_from_52w_low": 23.66,
+      "sma_20": 133.64,
+      "sma_50": 139.32,
+      "sma_200": 148.11,
+      "rsi_14": 44.2,
+      "macd_val": -1.9,
+      "macd_signal": -2.66,
+      "macd_hist": 0.76,
+      "vol_surge_ratio": 0.36,
+      "pe_ratio": 13.68,
+      "forward_pe": 3.87,
+      "peg_ratio": 0.0,
+      "pb_ratio": 2.01,
+      "roe": 16.3,
+      "profit_margins": 12.7,
+      "operating_margins": 16.7,
+      "debt_to_equity": 0.04,
+      "debt_status": "Low Debt (Healthy)",
+      "rev_growth_yoy": -3.8,
+      "earnings_growth_yoy": -10.9,
+      "q_sales_growth": -3.8,
+      "q_pat_growth": -10.9,
+      "free_cash_flow": 734976128.0,
+      "target_mean_price": 132.11,
+      "analyst_upside_pct": 0.0,
+      "recommendation_key": "None",
+      "dividend_yield": 74.0,
+      "promoter_holding": 71.1,
+      "institutional_holding": 0.3,
+      "public_holding": 28.6,
+      "pledged_pct": 0.0,
+      "is_20d_high_breakout": 0,
+      "is_20d_low_breakdown": 0,
+      "is_52w_high_breakout": 0,
+      "is_52w_low_breakdown": 0,
+      "buy_trigger_level": 147.24,
+      "sell_trigger_level": 125.08,
+      "dist_from_prev_close": 9.36,
+      "is_breakout_done_today": 0,
+      "upcoming_event_str": "None",
+      "strengths": [
+        "Healthy Low Debt (D/E 0.04)"
+      ],
+      "weaknesses": [
+        "Revenue Contracting YoY (-3.8%)",
+        "Earnings De-growth YoY (-10.9%)",
+        "Trading Below 200-Day EMA Trendline"
+      ],
+      "fundamental_score": 12.0,
+      "technical_score": 9.0,
+      "composite_score": 28,
+      "long_term_signal": "EXIT / AVOID",
+      "swing_signal": "NEUTRAL / WATCH",
+      "intraday_signal": "NEUTRAL",
+      "swing_stoploss": 126.4,
+      "swing_target_1": 140.04,
+      "swing_target_2": 145.43,
+      "rationale": [
+        "Consolidation phase with neutral momentum"
+      ],
+      "corporate_actions": [
+        "Attractive Dividend Yield: 74.00%"
+      ],
+      "events": null,
+      "wyckoff_phase": "Phase B",
+      "wyckoff_structure": "Distribution",
+      "wyckoff_event": "Range Cause Building (Absorption)",
+      "wyckoff_creek": 147.24,
+      "wyckoff_ice": 125.08,
+      "wyckoff_breakout": 147.24,
+      "wyckoff_dist_to_breakout_pct": 11.45,
+      "wyckoff_stoploss": 122.58,
+      "wyckoff_stoploss_pct": 7.21,
+      "wyckoff_target_1": 169.4,
+      "wyckoff_target_2": 191.56,
+      "wyckoff_signal": "CAUSE BUILDING WATCH",
+      "wyckoff_rationale": [
+        "Phase B Cause Building inside Trading Range: \u20b9125.08 (Ice) to \u20b9147.24 (Creek).",
+        "Consolidation inside 22.16 pts horizontal range.",
+        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
     {
@@ -83145,33 +83716,33 @@ window.stockData = {
           "open": 445.0,
           "high": 447.5,
           "low": 436.75,
-          "close": 443.4,
-          "volume": 184834
+          "close": 441.7,
+          "volume": 184807
         }
       ],
       "name": "Sarda Energy & Minerals Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9514.59",
-      "current_price": 443.4,
+      "current_price": 441.7,
       "prev_close": 444.3,
-      "day_change_pct": -0.2,
+      "day_change_pct": -0.59,
       "52w_high": 621.62,
       "52w_low": 424.05,
-      "pct_from_52w_high": -28.67,
-      "pct_from_52w_low": 4.56,
-      "sma_20": 449.91,
-      "sma_50": 480.94,
-      "sma_200": 513.38,
-      "rsi_14": 41.3,
-      "macd_val": -11.1,
-      "macd_signal": -12.9,
-      "macd_hist": 1.8,
+      "pct_from_52w_high": -28.94,
+      "pct_from_52w_low": 4.16,
+      "sma_20": 449.82,
+      "sma_50": 480.9,
+      "sma_200": 513.37,
+      "rsi_14": 40.5,
+      "macd_val": -11.24,
+      "macd_signal": -12.93,
+      "macd_hist": 1.69,
       "vol_surge_ratio": 0.79,
-      "pe_ratio": 14.05,
-      "forward_pe": 9.37,
+      "pe_ratio": 14.0,
+      "forward_pe": 9.33,
       "peg_ratio": 0.0,
-      "pb_ratio": 1.94,
+      "pb_ratio": 1.93,
       "roe": 14.9,
       "profit_margins": 19.7,
       "operating_margins": 26.9,
@@ -83182,7 +83753,7 @@ window.stockData = {
       "q_sales_growth": -4.9,
       "q_pat_growth": -5.3,
       "free_cash_flow": 2609949952.0,
-      "target_mean_price": 443.4,
+      "target_mean_price": 441.7,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 45.0,
@@ -83213,9 +83784,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 419.52,
-      "swing_target_1": 476.57,
-      "swing_target_2": 499.13,
+      "swing_stoploss": 417.76,
+      "swing_target_1": 474.95,
+      "swing_target_2": 497.56,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -83229,9 +83800,9 @@ window.stockData = {
       "wyckoff_creek": 493.79,
       "wyckoff_ice": 423.2,
       "wyckoff_breakout": 493.79,
-      "wyckoff_dist_to_breakout_pct": 11.36,
+      "wyckoff_dist_to_breakout_pct": 11.79,
       "wyckoff_stoploss": 414.74,
-      "wyckoff_stoploss_pct": 6.46,
+      "wyckoff_stoploss_pct": 6.1,
       "wyckoff_target_1": 564.38,
       "wyckoff_target_2": 634.97,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -83723,7 +84294,7 @@ window.stockData = {
           "high": 1714.0,
           "low": 1675.0,
           "close": 1680.0,
-          "volume": 592573
+          "volume": 586923
         }
       ],
       "name": "PI Industries Ltd",
@@ -83744,7 +84315,7 @@ window.stockData = {
       "macd_val": -137.87,
       "macd_signal": -107.12,
       "macd_hist": -30.76,
-      "vol_surge_ratio": 0.54,
+      "vol_surge_ratio": 0.53,
       "pe_ratio": 29.03,
       "forward_pe": 15.82,
       "peg_ratio": 0.0,
@@ -84396,580 +84967,6 @@ window.stockData = {
       ]
     },
     {
-      "symbol": "SHALBY.NS",
-      "clean_symbol": "SHALBY",
-      "candles": [
-        {
-          "time": "2026-08-19",
-          "open": 152.0,
-          "high": 156.87,
-          "low": 152.0,
-          "close": 155.45,
-          "volume": 72181
-        },
-        {
-          "time": "2026-08-20",
-          "open": 155.36,
-          "high": 157.6,
-          "low": 153.2,
-          "close": 154.57,
-          "volume": 73225
-        },
-        {
-          "time": "2026-08-21",
-          "open": 153.7,
-          "high": 155.75,
-          "low": 151.83,
-          "close": 152.96,
-          "volume": 55754
-        },
-        {
-          "time": "2026-08-24",
-          "open": 153.84,
-          "high": 158.4,
-          "low": 153.71,
-          "close": 154.03,
-          "volume": 59122
-        },
-        {
-          "time": "2026-08-25",
-          "open": 153.0,
-          "high": 155.39,
-          "low": 151.5,
-          "close": 154.69,
-          "volume": 65824
-        },
-        {
-          "time": "2026-08-26",
-          "open": 154.04,
-          "high": 157.58,
-          "low": 153.17,
-          "close": 156.92,
-          "volume": 72774
-        },
-        {
-          "time": "2026-08-27",
-          "open": 156.92,
-          "high": 157.79,
-          "low": 153.5,
-          "close": 154.33,
-          "volume": 50336
-        },
-        {
-          "time": "2026-08-28",
-          "open": 155.43,
-          "high": 157.2,
-          "low": 152.5,
-          "close": 154.65,
-          "volume": 45656
-        },
-        {
-          "time": "2026-08-31",
-          "open": 154.42,
-          "high": 156.79,
-          "low": 153.02,
-          "close": 155.27,
-          "volume": 51062
-        },
-        {
-          "time": "2026-09-01",
-          "open": 153.55,
-          "high": 156.18,
-          "low": 151.45,
-          "close": 153.65,
-          "volume": 47389
-        },
-        {
-          "time": "2026-09-02",
-          "open": 154.25,
-          "high": 155.01,
-          "low": 148.22,
-          "close": 151.33,
-          "volume": 95389
-        },
-        {
-          "time": "2026-09-03",
-          "open": 152.0,
-          "high": 154.0,
-          "low": 151.93,
-          "close": 152.64,
-          "volume": 41367
-        },
-        {
-          "time": "2026-09-04",
-          "open": 152.65,
-          "high": 154.49,
-          "low": 152.0,
-          "close": 152.71,
-          "volume": 31700
-        },
-        {
-          "time": "2026-09-07",
-          "open": 152.51,
-          "high": 153.99,
-          "low": 151.0,
-          "close": 151.24,
-          "volume": 31659
-        },
-        {
-          "time": "2026-09-08",
-          "open": 152.04,
-          "high": 153.01,
-          "low": 149.2,
-          "close": 149.82,
-          "volume": 58413
-        },
-        {
-          "time": "2026-09-09",
-          "open": 149.82,
-          "high": 152.0,
-          "low": 147.6,
-          "close": 148.48,
-          "volume": 87527
-        },
-        {
-          "time": "2026-09-10",
-          "open": 148.99,
-          "high": 149.99,
-          "low": 145.25,
-          "close": 145.96,
-          "volume": 87771
-        },
-        {
-          "time": "2026-09-11",
-          "open": 145.25,
-          "high": 146.99,
-          "low": 141.7,
-          "close": 144.78,
-          "volume": 112748
-        },
-        {
-          "time": "2026-09-15",
-          "open": 144.78,
-          "high": 149.0,
-          "low": 136.35,
-          "close": 137.21,
-          "volume": 364825
-        },
-        {
-          "time": "2026-09-16",
-          "open": 137.21,
-          "high": 138.54,
-          "low": 131.81,
-          "close": 135.74,
-          "volume": 244848
-        },
-        {
-          "time": "2026-09-17",
-          "open": 135.0,
-          "high": 140.05,
-          "low": 135.0,
-          "close": 138.5,
-          "volume": 156178
-        },
-        {
-          "time": "2026-09-18",
-          "open": 138.0,
-          "high": 141.4,
-          "low": 133.92,
-          "close": 137.66,
-          "volume": 149630
-        },
-        {
-          "time": "2026-09-21",
-          "open": 138.0,
-          "high": 140.95,
-          "low": 136.35,
-          "close": 138.32,
-          "volume": 112394
-        },
-        {
-          "time": "2026-09-22",
-          "open": 138.75,
-          "high": 144.13,
-          "low": 136.1,
-          "close": 136.7,
-          "volume": 196871
-        },
-        {
-          "time": "2026-09-23",
-          "open": 136.35,
-          "high": 150.62,
-          "low": 136.0,
-          "close": 145.67,
-          "volume": 224182
-        },
-        {
-          "time": "2026-09-24",
-          "open": 145.5,
-          "high": 149.29,
-          "low": 142.81,
-          "close": 143.77,
-          "volume": 118942
-        },
-        {
-          "time": "2026-09-25",
-          "open": 143.0,
-          "high": 148.8,
-          "low": 143.0,
-          "close": 147.12,
-          "volume": 106923
-        },
-        {
-          "time": "2026-09-28",
-          "open": 146.5,
-          "high": 146.99,
-          "low": 142.15,
-          "close": 143.25,
-          "volume": 66372
-        },
-        {
-          "time": "2026-09-29",
-          "open": 143.73,
-          "high": 144.4,
-          "low": 141.0,
-          "close": 142.01,
-          "volume": 57757
-        },
-        {
-          "time": "2026-09-30",
-          "open": 142.0,
-          "high": 145.88,
-          "low": 135.0,
-          "close": 138.65,
-          "volume": 263673
-        },
-        {
-          "time": "2026-10-01",
-          "open": 137.53,
-          "high": 138.0,
-          "low": 129.41,
-          "close": 133.55,
-          "volume": 213871
-        },
-        {
-          "time": "2026-10-05",
-          "open": 133.0,
-          "high": 135.49,
-          "low": 132.51,
-          "close": 134.01,
-          "volume": 36205
-        },
-        {
-          "time": "2026-10-06",
-          "open": 134.0,
-          "high": 137.1,
-          "low": 133.61,
-          "close": 136.51,
-          "volume": 50727
-        },
-        {
-          "time": "2026-10-07",
-          "open": 136.3,
-          "high": 136.95,
-          "low": 134.15,
-          "close": 134.62,
-          "volume": 37417
-        },
-        {
-          "time": "2026-10-08",
-          "open": 134.62,
-          "high": 134.62,
-          "low": 130.02,
-          "close": 130.42,
-          "volume": 87980
-        },
-        {
-          "time": "2026-10-09",
-          "open": 131.0,
-          "high": 132.89,
-          "low": 129.9,
-          "close": 131.84,
-          "volume": 51038
-        },
-        {
-          "time": "2026-10-12",
-          "open": 131.6,
-          "high": 134.64,
-          "low": 131.01,
-          "close": 132.83,
-          "volume": 45155
-        },
-        {
-          "time": "2026-10-13",
-          "open": 132.64,
-          "high": 133.07,
-          "low": 129.0,
-          "close": 132.32,
-          "volume": 42496
-        },
-        {
-          "time": "2026-10-14",
-          "open": 132.32,
-          "high": 134.28,
-          "low": 132.15,
-          "close": 133.51,
-          "volume": 23691
-        },
-        {
-          "time": "2026-10-15",
-          "open": 133.51,
-          "high": 133.51,
-          "low": 130.16,
-          "close": 131.4,
-          "volume": 38102
-        },
-        {
-          "time": "2026-10-16",
-          "open": 132.5,
-          "high": 133.1,
-          "low": 128.4,
-          "close": 128.95,
-          "volume": 134761
-        },
-        {
-          "time": "2026-10-19",
-          "open": 128.95,
-          "high": 129.8,
-          "low": 126.0,
-          "close": 126.32,
-          "volume": 62336
-        },
-        {
-          "time": "2026-10-21",
-          "open": 127.98,
-          "high": 128.0,
-          "low": 120.0,
-          "close": 120.58,
-          "volume": 167255
-        },
-        {
-          "time": "2026-10-22",
-          "open": 120.58,
-          "high": 122.98,
-          "low": 114.2,
-          "close": 115.19,
-          "volume": 243009
-        },
-        {
-          "time": "2026-10-23",
-          "open": 115.9,
-          "high": 116.0,
-          "low": 110.61,
-          "close": 113.39,
-          "volume": 103861
-        },
-        {
-          "time": "2026-10-26",
-          "open": 114.5,
-          "high": 116.56,
-          "low": 112.0,
-          "close": 115.29,
-          "volume": 87159
-        },
-        {
-          "time": "2026-10-27",
-          "open": 114.32,
-          "high": 120.18,
-          "low": 114.32,
-          "close": 118.68,
-          "volume": 38452
-        },
-        {
-          "time": "2026-10-28",
-          "open": 118.68,
-          "high": 124.8,
-          "low": 117.01,
-          "close": 122.71,
-          "volume": 60904
-        },
-        {
-          "time": "2026-10-29",
-          "open": 123.2,
-          "high": 126.9,
-          "low": 120.5,
-          "close": 121.96,
-          "volume": 36969
-        },
-        {
-          "time": "2026-10-30",
-          "open": 121.5,
-          "high": 121.99,
-          "low": 119.84,
-          "close": 120.64,
-          "volume": 51699
-        },
-        {
-          "time": "2026-11-02",
-          "open": 120.76,
-          "high": 125.19,
-          "low": 119.15,
-          "close": 120.41,
-          "volume": 110407
-        },
-        {
-          "time": "2026-11-03",
-          "open": 120.9,
-          "high": 124.0,
-          "low": 119.0,
-          "close": 123.06,
-          "volume": 60885
-        },
-        {
-          "time": "2026-11-04",
-          "open": 122.06,
-          "high": 126.96,
-          "low": 119.41,
-          "close": 122.7,
-          "volume": 157727
-        },
-        {
-          "time": "2026-11-05",
-          "open": 126.25,
-          "high": 127.6,
-          "low": 121.11,
-          "close": 121.69,
-          "volume": 120604
-        },
-        {
-          "time": "2026-11-06",
-          "open": 120.0,
-          "high": 121.22,
-          "low": 118.35,
-          "close": 118.94,
-          "volume": 107444
-        },
-        {
-          "time": "2026-11-09",
-          "open": 122.0,
-          "high": 124.38,
-          "low": 119.26,
-          "close": 119.81,
-          "volume": 120347
-        },
-        {
-          "time": "2026-11-11",
-          "open": 121.99,
-          "high": 126.43,
-          "low": 120.09,
-          "close": 125.52,
-          "volume": 116657
-        },
-        {
-          "time": "2026-11-12",
-          "open": 124.0,
-          "high": 128.99,
-          "low": 124.0,
-          "close": 127.36,
-          "volume": 60867
-        },
-        {
-          "time": "2026-11-13",
-          "open": 127.49,
-          "high": 129.79,
-          "low": 123.0,
-          "close": 124.06,
-          "volume": 129072
-        },
-        {
-          "time": "2026-11-16",
-          "open": 123.62,
-          "high": 128.16,
-          "low": 121.2,
-          "close": 121.3,
-          "volume": 238634
-        }
-      ],
-      "name": "Shalby Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Spark Sheet: \u20b9154.20",
-      "current_price": 121.3,
-      "prev_close": 124.06,
-      "day_change_pct": -2.22,
-      "52w_high": 227.66,
-      "52w_low": 110.61,
-      "pct_from_52w_high": -46.72,
-      "pct_from_52w_low": 9.66,
-      "sma_20": 121.43,
-      "sma_50": 132.82,
-      "sma_200": 153.87,
-      "rsi_14": 42.8,
-      "macd_val": -2.69,
-      "macd_signal": -3.86,
-      "macd_hist": 1.17,
-      "vol_surge_ratio": 2.16,
-      "pe_ratio": 34.3,
-      "forward_pe": 12.95,
-      "peg_ratio": 0.0,
-      "pb_ratio": 1.35,
-      "roe": 3.8,
-      "profit_margins": 3.3,
-      "operating_margins": 6.3,
-      "debt_to_equity": 0.57,
-      "debt_status": "Moderate Debt",
-      "rev_growth_yoy": 9.7,
-      "earnings_growth_yoy": 0.0,
-      "q_sales_growth": 9.7,
-      "q_pat_growth": 0.0,
-      "free_cash_flow": -715260032.0,
-      "target_mean_price": 121.3,
-      "analyst_upside_pct": 0.0,
-      "recommendation_key": "None",
-      "dividend_yield": 0.0,
-      "promoter_holding": 74.8,
-      "institutional_holding": 1.9,
-      "public_holding": 23.3,
-      "pledged_pct": 0.0,
-      "is_20d_high_breakout": 0,
-      "is_20d_low_breakdown": 0,
-      "is_52w_high_breakout": 0,
-      "is_52w_low_breakdown": 0,
-      "buy_trigger_level": 133.78,
-      "sell_trigger_level": 110.39,
-      "dist_from_prev_close": 7.83,
-      "is_breakout_done_today": 0,
-      "upcoming_event_str": "None",
-      "strengths": [
-        "Stable Price Consolidation"
-      ],
-      "weaknesses": [
-        "Weak Return on Capital (3.8% ROE)",
-        "Trading Below 200-Day EMA Trendline"
-      ],
-      "fundamental_score": 6.0,
-      "technical_score": 13.0,
-      "composite_score": 26,
-      "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "NEUTRAL / WATCH",
-      "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 114.94,
-      "swing_target_1": 130.13,
-      "swing_target_2": 136.13,
-      "rationale": [
-        "Consolidation phase with neutral momentum"
-      ],
-      "corporate_actions": [],
-      "events": null,
-      "wyckoff_phase": "Phase B",
-      "wyckoff_structure": "Distribution",
-      "wyckoff_event": "Range Cause Building (Absorption)",
-      "wyckoff_creek": 133.78,
-      "wyckoff_ice": 110.39,
-      "wyckoff_breakout": 133.78,
-      "wyckoff_dist_to_breakout_pct": 10.29,
-      "wyckoff_stoploss": 108.18,
-      "wyckoff_stoploss_pct": 10.82,
-      "wyckoff_target_1": 157.17,
-      "wyckoff_target_2": 180.56,
-      "wyckoff_signal": "CAUSE BUILDING WATCH",
-      "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b9110.39 (Ice) to \u20b9133.78 (Creek).",
-        "Consolidation inside 23.39 pts horizontal range.",
-        "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
-      ]
-    },
-    {
       "symbol": "INTLCONV.NS",
       "clean_symbol": "INTLCONV",
       "candles": [
@@ -85451,7 +85448,7 @@ window.stockData = {
           "high": 76.5,
           "low": 74.86,
           "close": 75.41,
-          "volume": 45438
+          "volume": 45338
         }
       ],
       "name": "International Conveyors Ltd",
@@ -86028,31 +86025,31 @@ window.stockData = {
           "open": 61.61,
           "high": 63.58,
           "low": 60.35,
-          "close": 61.85,
-          "volume": 16621352
+          "close": 62.07,
+          "volume": 16621302
         }
       ],
       "name": "IFCI Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b967.85",
-      "current_price": 61.85,
+      "current_price": 62.07,
       "prev_close": 62.21,
-      "day_change_pct": -0.58,
+      "day_change_pct": -0.23,
       "52w_high": 107.5,
       "52w_low": 46.23,
-      "pct_from_52w_high": -42.47,
-      "pct_from_52w_low": 33.79,
-      "sma_20": 60.8,
-      "sma_50": 70.59,
+      "pct_from_52w_high": -42.26,
+      "pct_from_52w_low": 34.26,
+      "sma_20": 60.81,
+      "sma_50": 70.6,
       "sma_200": 67.92,
-      "rsi_14": 44.9,
-      "macd_val": -1.89,
-      "macd_signal": -2.89,
-      "macd_hist": 1.0,
+      "rsi_14": 45.5,
+      "macd_val": -1.87,
+      "macd_signal": -2.88,
+      "macd_hist": 1.01,
       "vol_surge_ratio": 0.97,
-      "pe_ratio": 92.31,
-      "forward_pe": 17.57,
+      "pe_ratio": 92.64,
+      "forward_pe": 17.63,
       "peg_ratio": 0.0,
       "pb_ratio": 1.83,
       "roe": 0.0,
@@ -86065,7 +86062,7 @@ window.stockData = {
       "q_sales_growth": -6.3,
       "q_pat_growth": -20.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 61.85,
+      "target_mean_price": 62.07,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -86097,9 +86094,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "MOMENTUM BUY",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 55.36,
-      "swing_target_1": 70.86,
-      "swing_target_2": 76.98,
+      "swing_stoploss": 55.55,
+      "swing_target_1": 71.13,
+      "swing_target_2": 77.28,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -86111,9 +86108,9 @@ window.stockData = {
       "wyckoff_creek": 70.03,
       "wyckoff_ice": 54.09,
       "wyckoff_breakout": 70.03,
-      "wyckoff_dist_to_breakout_pct": 13.23,
+      "wyckoff_dist_to_breakout_pct": 12.82,
       "wyckoff_stoploss": 53.01,
-      "wyckoff_stoploss_pct": 14.29,
+      "wyckoff_stoploss_pct": 14.6,
       "wyckoff_target_1": 85.97,
       "wyckoff_target_2": 101.91,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -86605,7 +86602,7 @@ window.stockData = {
           "high": 18.62,
           "low": 18.01,
           "close": 18.07,
-          "volume": 15893816
+          "volume": 15891316
         }
       ],
       "name": "Reliance Power Ltd",
@@ -87178,33 +87175,33 @@ window.stockData = {
           "open": 12.05,
           "high": 12.05,
           "low": 11.75,
-          "close": 11.9,
-          "volume": 5205648
+          "close": 11.86,
+          "volume": 5205598
         }
       ],
       "name": "Utkarsh Small Finance Bank Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b913.64",
-      "current_price": 11.9,
+      "current_price": 11.86,
       "prev_close": 11.99,
-      "day_change_pct": -0.75,
+      "day_change_pct": -1.08,
       "52w_high": 17.15,
       "52w_low": 10.12,
-      "pct_from_52w_high": -30.61,
-      "pct_from_52w_low": 17.59,
+      "pct_from_52w_high": -30.85,
+      "pct_from_52w_low": 17.19,
       "sma_20": 12.05,
       "sma_50": 13.28,
       "sma_200": 13.63,
-      "rsi_14": 40.6,
-      "macd_val": -0.38,
+      "rsi_14": 40.0,
+      "macd_val": -0.39,
       "macd_signal": -0.46,
       "macd_hist": 0.08,
       "vol_surge_ratio": 0.84,
       "pe_ratio": 0.0,
-      "forward_pe": 7.47,
+      "forward_pe": 7.44,
       "peg_ratio": 0.0,
-      "pb_ratio": 0.8,
+      "pb_ratio": 0.79,
       "roe": -26.3,
       "profit_margins": -65.2,
       "operating_margins": -83.0,
@@ -87216,7 +87213,7 @@ window.stockData = {
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
       "target_mean_price": 18.0,
-      "analyst_upside_pct": 51.3,
+      "analyst_upside_pct": 51.8,
       "recommendation_key": "Strong Buy",
       "dividend_yield": 0.0,
       "promoter_holding": 50.2,
@@ -87245,9 +87242,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 11.39,
-      "swing_target_1": 12.61,
-      "swing_target_2": 13.09,
+      "swing_stoploss": 11.35,
+      "swing_target_1": 12.57,
+      "swing_target_2": 13.05,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -87259,9 +87256,9 @@ window.stockData = {
       "wyckoff_creek": 13.74,
       "wyckoff_ice": 11.18,
       "wyckoff_breakout": 13.74,
-      "wyckoff_dist_to_breakout_pct": 15.46,
+      "wyckoff_dist_to_breakout_pct": 15.85,
       "wyckoff_stoploss": 10.96,
-      "wyckoff_stoploss_pct": 7.9,
+      "wyckoff_stoploss_pct": 7.59,
       "wyckoff_target_1": 16.3,
       "wyckoff_target_2": 18.86,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -87752,33 +87749,33 @@ window.stockData = {
           "open": 71.65,
           "high": 72.7,
           "low": 71.2,
-          "close": 71.6,
-          "volume": 8751
+          "close": 71.3,
+          "volume": 8750
         }
       ],
       "name": "Kokuyo Camlin Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b982.25",
-      "current_price": 71.6,
+      "current_price": 71.3,
       "prev_close": 71.87,
-      "day_change_pct": -0.38,
+      "day_change_pct": -0.79,
       "52w_high": 100.13,
       "52w_low": 67.9,
-      "pct_from_52w_high": -28.49,
-      "pct_from_52w_low": 5.45,
-      "sma_20": 72.37,
-      "sma_50": 74.6,
+      "pct_from_52w_high": -28.79,
+      "pct_from_52w_low": 5.01,
+      "sma_20": 72.36,
+      "sma_50": 74.59,
       "sma_200": 82.01,
-      "rsi_14": 41.5,
-      "macd_val": -0.68,
+      "rsi_14": 40.3,
+      "macd_val": -0.71,
       "macd_signal": -0.69,
-      "macd_hist": 0.0,
+      "macd_hist": -0.01,
       "vol_surge_ratio": 0.31,
-      "pe_ratio": 32.55,
+      "pe_ratio": 32.41,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
-      "pb_ratio": 2.15,
+      "pb_ratio": 2.14,
       "roe": 5.1,
       "profit_margins": 2.0,
       "operating_margins": 3.0,
@@ -87789,7 +87786,7 @@ window.stockData = {
       "q_sales_growth": 6.5,
       "q_pat_growth": -66.7,
       "free_cash_flow": 37812500.0,
-      "target_mean_price": 71.6,
+      "target_mean_price": 71.3,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 42.0,
@@ -87820,9 +87817,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "NEUTRAL / WATCH",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 67.72,
-      "swing_target_1": 76.99,
-      "swing_target_2": 80.65,
+      "swing_stoploss": 67.36,
+      "swing_target_1": 76.77,
+      "swing_target_2": 80.49,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -87836,9 +87833,9 @@ window.stockData = {
       "wyckoff_creek": 77.63,
       "wyckoff_ice": 67.76,
       "wyckoff_breakout": 77.63,
-      "wyckoff_dist_to_breakout_pct": 8.42,
+      "wyckoff_dist_to_breakout_pct": 8.88,
       "wyckoff_stoploss": 66.4,
-      "wyckoff_stoploss_pct": 7.26,
+      "wyckoff_stoploss_pct": 6.87,
       "wyckoff_target_1": 87.5,
       "wyckoff_target_2": 97.37,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -88329,28 +88326,28 @@ window.stockData = {
           "open": 577.0,
           "high": 578.05,
           "low": 550.0,
-          "close": 550.1,
-          "volume": 100232
+          "close": 554.4,
+          "volume": 100206
         }
       ],
       "name": "Premier Explosives Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9597.80",
-      "current_price": 550.1,
+      "current_price": 554.4,
       "prev_close": 578.05,
-      "day_change_pct": -4.84,
+      "day_change_pct": -4.09,
       "52w_high": 829.18,
       "52w_low": 378.12,
-      "pct_from_52w_high": -33.66,
-      "pct_from_52w_low": 45.48,
-      "sma_20": 589.87,
-      "sma_50": 641.96,
-      "sma_200": 598.5,
-      "rsi_14": 37.6,
-      "macd_val": -30.95,
-      "macd_signal": -32.89,
-      "macd_hist": 1.93,
+      "pct_from_52w_high": -33.14,
+      "pct_from_52w_low": 46.62,
+      "sma_20": 590.09,
+      "sma_50": 642.04,
+      "sma_200": 598.52,
+      "rsi_14": 38.5,
+      "macd_val": -30.61,
+      "macd_signal": -32.82,
+      "macd_hist": 2.21,
       "vol_surge_ratio": 0.33,
       "pe_ratio": 88.85,
       "forward_pe": 38.23,
@@ -88367,7 +88364,7 @@ window.stockData = {
       "q_pat_growth": -80.0,
       "free_cash_flow": 0.0,
       "target_mean_price": 636.5,
-      "analyst_upside_pct": 15.7,
+      "analyst_upside_pct": 14.8,
       "recommendation_key": "Underperform",
       "dividend_yield": 9.0,
       "promoter_holding": 48.5,
@@ -88398,9 +88395,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 482.87,
-      "swing_target_1": 643.48,
-      "swing_target_2": 706.97,
+      "swing_stoploss": 487.12,
+      "swing_target_1": 647.85,
+      "swing_target_2": 711.39,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -88414,9 +88411,9 @@ window.stockData = {
       "wyckoff_creek": 696.39,
       "wyckoff_ice": 499.5,
       "wyckoff_breakout": 696.39,
-      "wyckoff_dist_to_breakout_pct": 26.59,
+      "wyckoff_dist_to_breakout_pct": 25.61,
       "wyckoff_stoploss": 489.51,
-      "wyckoff_stoploss_pct": 11.01,
+      "wyckoff_stoploss_pct": 11.7,
       "wyckoff_target_1": 893.28,
       "wyckoff_target_2": 1090.17,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
@@ -88907,30 +88904,30 @@ window.stockData = {
           "open": 44.53,
           "high": 44.59,
           "low": 43.8,
-          "close": 44.0,
-          "volume": 458346
+          "close": 43.98,
+          "volume": 458246
         }
       ],
       "name": "Asian Granito India Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b957.77",
-      "current_price": 44.0,
+      "current_price": 43.98,
       "prev_close": 44.47,
-      "day_change_pct": -1.06,
+      "day_change_pct": -1.1,
       "52w_high": 79.06,
       "52w_low": 42.5,
-      "pct_from_52w_high": -44.35,
-      "pct_from_52w_low": 3.53,
+      "pct_from_52w_high": -44.37,
+      "pct_from_52w_low": 3.48,
       "sma_20": 46.01,
       "sma_50": 48.38,
       "sma_200": 57.57,
-      "rsi_14": 37.6,
+      "rsi_14": 37.5,
       "macd_val": -1.24,
       "macd_signal": -1.16,
-      "macd_hist": -0.08,
+      "macd_hist": -0.09,
       "vol_surge_ratio": 0.38,
-      "pe_ratio": 169.23,
+      "pe_ratio": 169.15,
       "forward_pe": 2.33,
       "peg_ratio": 0.0,
       "pb_ratio": 0.85,
@@ -88944,7 +88941,7 @@ window.stockData = {
       "q_sales_growth": 29.9,
       "q_pat_growth": -71.4,
       "free_cash_flow": -1633144576.0,
-      "target_mean_price": 44.0,
+      "target_mean_price": 43.98,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -88976,9 +88973,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 41.8,
-      "swing_target_1": 47.06,
-      "swing_target_2": 49.14,
+      "swing_stoploss": 41.77,
+      "swing_target_1": 47.05,
+      "swing_target_2": 49.13,
       "rationale": [
         "YoY Revenue up 29.9%"
       ],
@@ -88988,17 +88985,17 @@ window.stockData = {
       "wyckoff_structure": "Distribution",
       "wyckoff_event": "Range Cause Building (Absorption)",
       "wyckoff_creek": 55.32,
-      "wyckoff_ice": 43.12,
+      "wyckoff_ice": 43.1,
       "wyckoff_breakout": 55.32,
-      "wyckoff_dist_to_breakout_pct": 25.73,
-      "wyckoff_stoploss": 42.26,
-      "wyckoff_stoploss_pct": 3.95,
-      "wyckoff_target_1": 67.52,
-      "wyckoff_target_2": 79.72,
+      "wyckoff_dist_to_breakout_pct": 25.78,
+      "wyckoff_stoploss": 42.24,
+      "wyckoff_stoploss_pct": 3.96,
+      "wyckoff_target_1": 67.54,
+      "wyckoff_target_2": 79.76,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b943.12 (Ice) to \u20b955.32 (Creek).",
-        "Consolidation inside 12.2 pts horizontal range.",
+        "Phase B Cause Building inside Trading Range: \u20b943.1 (Ice) to \u20b955.32 (Creek).",
+        "Consolidation inside 12.22 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -89483,31 +89480,31 @@ window.stockData = {
           "open": 154.51,
           "high": 158.49,
           "low": 138.34,
-          "close": 138.8,
-          "volume": 2367881
+          "close": 139.23,
+          "volume": 2367684
         }
       ],
       "name": "Dishman Carbogen Amcis Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b9177.05",
-      "current_price": 138.8,
+      "current_price": 139.23,
       "prev_close": 172.92,
-      "day_change_pct": -19.73,
+      "day_change_pct": -19.48,
       "52w_high": 274.3,
       "52w_low": 128.5,
-      "pct_from_52w_high": -49.4,
-      "pct_from_52w_low": 8.02,
-      "sma_20": 152.15,
-      "sma_50": 158.42,
+      "pct_from_52w_high": -49.24,
+      "pct_from_52w_low": 8.35,
+      "sma_20": 152.17,
+      "sma_50": 158.43,
       "sma_200": 176.39,
-      "rsi_14": 37.8,
-      "macd_val": 1.74,
-      "macd_signal": 0.35,
-      "macd_hist": 1.39,
+      "rsi_14": 38.0,
+      "macd_val": 1.77,
+      "macd_signal": 0.36,
+      "macd_hist": 1.41,
       "vol_surge_ratio": 7.82,
-      "pe_ratio": 134.76,
-      "forward_pe": 11.1,
+      "pe_ratio": 135.17,
+      "forward_pe": 11.14,
       "peg_ratio": 0.0,
       "pb_ratio": 0.33,
       "roe": 0.0,
@@ -89520,7 +89517,7 @@ window.stockData = {
       "q_sales_growth": -4.3,
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 138.8,
+      "target_mean_price": 139.23,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -89551,9 +89548,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 108.81,
-      "swing_target_1": 180.46,
-      "swing_target_2": 208.79,
+      "swing_stoploss": 109.37,
+      "swing_target_1": 180.71,
+      "swing_target_2": 208.91,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -89565,9 +89562,9 @@ window.stockData = {
       "wyckoff_creek": 176.89,
       "wyckoff_ice": 133.44,
       "wyckoff_breakout": 176.89,
-      "wyckoff_dist_to_breakout_pct": 27.44,
+      "wyckoff_dist_to_breakout_pct": 27.05,
       "wyckoff_stoploss": 130.77,
-      "wyckoff_stoploss_pct": 5.79,
+      "wyckoff_stoploss_pct": 6.08,
       "wyckoff_target_1": 220.34,
       "wyckoff_target_2": 263.79,
       "wyckoff_signal": "CLIMAX WATCH",
@@ -90633,30 +90630,30 @@ window.stockData = {
           "open": 65.46,
           "high": 66.54,
           "low": 64.0,
-          "close": 64.94,
-          "volume": 48954
+          "close": 64.25,
+          "volume": 48948
         }
       ],
       "name": "Kuantum Papers Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b978.20",
-      "current_price": 64.94,
+      "current_price": 64.25,
       "prev_close": 65.46,
-      "day_change_pct": -0.79,
+      "day_change_pct": -1.85,
       "52w_high": 101.81,
       "52w_low": 62.94,
-      "pct_from_52w_high": -36.21,
-      "pct_from_52w_low": 3.18,
-      "sma_20": 67.27,
-      "sma_50": 72.96,
+      "pct_from_52w_high": -36.89,
+      "pct_from_52w_low": 2.08,
+      "sma_20": 67.24,
+      "sma_50": 72.94,
       "sma_200": 76.29,
-      "rsi_14": 37.4,
-      "macd_val": -2.22,
-      "macd_signal": -2.37,
-      "macd_hist": 0.15,
+      "rsi_14": 36.0,
+      "macd_val": -2.27,
+      "macd_signal": -2.38,
+      "macd_hist": 0.11,
       "vol_surge_ratio": 0.4,
-      "pe_ratio": 17.36,
+      "pe_ratio": 17.18,
       "forward_pe": 0.0,
       "peg_ratio": 0.0,
       "pb_ratio": 0.46,
@@ -90670,7 +90667,7 @@ window.stockData = {
       "q_sales_growth": -0.2,
       "q_pat_growth": -60.6,
       "free_cash_flow": -1820249984.0,
-      "target_mean_price": 64.94,
+      "target_mean_price": 64.25,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 382.0,
@@ -90702,9 +90699,9 @@ window.stockData = {
       "long_term_signal": "EXIT / AVOID",
       "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 61.14,
-      "swing_target_1": 70.21,
-      "swing_target_2": 73.8,
+      "swing_stoploss": 60.31,
+      "swing_target_1": 69.72,
+      "swing_target_2": 73.45,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -90716,17 +90713,17 @@ window.stockData = {
       "wyckoff_structure": "Distribution",
       "wyckoff_event": "Range Cause Building (Absorption)",
       "wyckoff_creek": 76.91,
-      "wyckoff_ice": 63.64,
+      "wyckoff_ice": 62.96,
       "wyckoff_breakout": 76.91,
-      "wyckoff_dist_to_breakout_pct": 18.43,
-      "wyckoff_stoploss": 62.37,
-      "wyckoff_stoploss_pct": 3.96,
-      "wyckoff_target_1": 90.18,
-      "wyckoff_target_2": 103.45,
+      "wyckoff_dist_to_breakout_pct": 19.7,
+      "wyckoff_stoploss": 61.7,
+      "wyckoff_stoploss_pct": 3.97,
+      "wyckoff_target_1": 90.86,
+      "wyckoff_target_2": 104.81,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
       "wyckoff_rationale": [
-        "Phase B Cause Building inside Trading Range: \u20b963.64 (Ice) to \u20b976.91 (Creek).",
-        "Consolidation inside 13.27 pts horizontal range.",
+        "Phase B Cause Building inside Trading Range: \u20b962.96 (Ice) to \u20b976.91 (Creek).",
+        "Consolidation inside 13.95 pts horizontal range.",
         "Smart money absorbing supply; wait for Phase C Spring or Phase D breakout."
       ]
     },
@@ -91212,7 +91209,7 @@ window.stockData = {
           "high": 0.83,
           "low": 0.8,
           "close": 0.8,
-          "volume": 2535654
+          "volume": 2534204
         }
       ],
       "name": "Reliance Communications Ltd",
@@ -91786,7 +91783,7 @@ window.stockData = {
           "open": 6.18,
           "high": 6.39,
           "low": 6.18,
-          "close": 6.35,
+          "close": 6.26,
           "volume": 2589
         }
       ],
@@ -91794,20 +91791,20 @@ window.stockData = {
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Spark Sheet: \u20b97.60",
-      "current_price": 6.35,
+      "current_price": 6.26,
       "prev_close": 6.3,
-      "day_change_pct": 0.79,
+      "day_change_pct": -0.63,
       "52w_high": 12.24,
       "52w_low": 5.95,
-      "pct_from_52w_high": -48.12,
-      "pct_from_52w_low": 6.72,
-      "sma_20": 6.59,
+      "pct_from_52w_high": -48.86,
+      "pct_from_52w_low": 5.21,
+      "sma_20": 6.58,
       "sma_50": 6.93,
       "sma_200": 7.75,
-      "rsi_14": 40.6,
-      "macd_val": -0.26,
+      "rsi_14": 37.8,
+      "macd_val": -0.27,
       "macd_signal": -0.25,
-      "macd_hist": -0.01,
+      "macd_hist": -0.02,
       "vol_surge_ratio": 0.19,
       "pe_ratio": 0.0,
       "forward_pe": 0.0,
@@ -91823,7 +91820,7 @@ window.stockData = {
       "q_sales_growth": -34.3,
       "q_pat_growth": 0.0,
       "free_cash_flow": 0.0,
-      "target_mean_price": 6.35,
+      "target_mean_price": 6.26,
       "analyst_upside_pct": 0.0,
       "recommendation_key": "None",
       "dividend_yield": 0.0,
@@ -91849,14 +91846,14 @@ window.stockData = {
         "Trading Below 200-Day EMA Trendline"
       ],
       "fundamental_score": 5.0,
-      "technical_score": 3.0,
-      "composite_score": 8,
+      "technical_score": 0.0,
+      "composite_score": 5,
       "long_term_signal": "EXIT / AVOID",
-      "swing_signal": "NEUTRAL / WATCH",
+      "swing_signal": "STOPLOSS / SELL",
       "intraday_signal": "NEUTRAL",
-      "swing_stoploss": 5.86,
-      "swing_target_1": 7.04,
-      "swing_target_2": 7.5,
+      "swing_stoploss": 5.76,
+      "swing_target_1": 6.95,
+      "swing_target_2": 7.42,
       "rationale": [
         "Consolidation phase with neutral momentum"
       ],
@@ -91868,9 +91865,9 @@ window.stockData = {
       "wyckoff_creek": 7.77,
       "wyckoff_ice": 5.94,
       "wyckoff_breakout": 7.77,
-      "wyckoff_dist_to_breakout_pct": 22.36,
+      "wyckoff_dist_to_breakout_pct": 24.12,
       "wyckoff_stoploss": 5.82,
-      "wyckoff_stoploss_pct": 8.35,
+      "wyckoff_stoploss_pct": 7.03,
       "wyckoff_target_1": 9.6,
       "wyckoff_target_2": 11.43,
       "wyckoff_signal": "CAUSE BUILDING WATCH",
