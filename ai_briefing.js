@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.40% with Brent Crude hovering around $87.87.",
+    "US Markets closed down 0.40% with Brent Crude hovering around $87.73.",
     "Universe breadth shows 51 advancing vs 124 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Kaynes Technology India, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 12:22 PM",
+  "timestamp": "16 Nov 2026, 12:43 PM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.87,
-      "change_pct": -0.78,
+      "price": 87.73,
+      "change_pct": -0.94,
       "status": "down"
     },
     "USD/INR": {
