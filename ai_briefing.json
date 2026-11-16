@@ -1,60 +1,60 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25100,
-  "nifty_resistance": 25500,
+  "nifty_support": 25050,
+  "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 0.40% with Brent Crude hovering around $89.36.",
-    "Universe breadth shows 58 advancing vs 117 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
+    "US Markets closed down 0.40% with Brent Crude hovering around $89.12.",
+    "Universe breadth shows 52 advancing vs 123 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "INDRAMEDCO",
       "name": "Indraprastha Medical Corporation Ltd",
-      "current_price": 350.35,
+      "current_price": 353.85,
       "trigger": 343.99,
-      "target1": 397.28,
-      "sl": 316.56,
+      "target1": 402.68,
+      "sl": 318.69,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9343.99 with Accumulation structure.",
-      "change_pct": 6.12
+      "change_pct": 7.18
     },
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1492.1,
+      "current_price": 1493.6,
       "trigger": 1508.01,
-      "target1": 1578.27,
-      "sl": 1430.06,
+      "target1": 1580.58,
+      "sl": 1430.98,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 5.82
+      "change_pct": 5.92
     },
     {
-      "symbol": "FIEMIND",
-      "name": "Fiem Industries Ltd",
-      "current_price": 2193.5,
-      "trigger": 2146.28,
-      "target1": 2764.36,
-      "sl": 1782.48,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b92,146.28 with Accumulation structure.",
-      "change_pct": 2.82
+      "symbol": "DHANBANK",
+      "name": "Dhanlaxmi Bank Ltd",
+      "current_price": 42.22,
+      "trigger": 42.07,
+      "target1": 54.49,
+      "sl": 33.38,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b942.07 with Accumulation structure.",
+      "change_pct": 4.92
     }
   ],
-  "risk_warning": "Defensive alert on Kaynes Technology India, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Kaynes Technology India, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 06:46 AM",
+  "timestamp": "16 Nov 2026, 07:01 AM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25292.95,
-      "change_pct": 0.59,
+      "price": 25260.25,
+      "change_pct": 0.46,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82043.94,
-      "change_pct": 0.55,
+      "price": 82158.96,
+      "change_pct": 0.69,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 89.36,
-      "change_pct": 0.9,
+      "price": 89.12,
+      "change_pct": 0.63,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.06,
-      "change_pct": 0.03,
+      "price": 94.08,
+      "change_pct": 0.05,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 58,
-    "declines": 117,
+    "advances": 52,
+    "declines": 123,
     "total": 175
   }
 }
