@@ -1,55 +1,55 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 24950,
-  "nifty_resistance": 25350,
+  "nifty_support": 25100,
+  "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.40% with Brent Crude hovering around $87.87.",
-    "Universe breadth shows 57 advancing vs 116 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
+    "US Markets closed down 0.40% with Brent Crude hovering around $87.90.",
+    "Universe breadth shows 62 advancing vs 110 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
-      "symbol": "DHANBANK",
-      "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 40.24,
-      "trigger": 38.07,
-      "target1": 48.98,
-      "sl": 33.95,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b938.07 with Accumulation structure.",
-      "change_pct": 14.81
+      "symbol": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
+      "current_price": 5425.5,
+      "trigger": 5561.1,
+      "target1": 5874.26,
+      "sl": 5102.39,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
+      "change_pct": 0.75
     },
     {
-      "symbol": "JMA",
-      "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 103.95,
-      "trigger": 96.91,
-      "target1": 132.5,
-      "sl": 83.39,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b996.91 with Accumulation structure.",
-      "change_pct": 8.77
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 204.95,
+      "trigger": 205.66,
+      "target1": 236.47,
+      "sl": 182.26,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9205.66 with Accumulation structure.",
+      "change_pct": 0.96
     },
     {
-      "symbol": "MFSL",
-      "name": "Max Financial Services",
-      "current_price": 1401.1,
-      "trigger": 1381.87,
-      "target1": 1640.1,
-      "sl": 1229.02,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,381.87 with Accumulation structure.",
-      "change_pct": 1.9
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 361.1,
+      "trigger": 366.48,
+      "target1": 399.39,
+      "sl": 333.53,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9366.48 with Accumulation structure.",
+      "change_pct": 0.04
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 03:31 AM",
+  "timestamp": "16 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25144.3,
-      "change_pct": -0.61,
-      "status": "down"
+      "price": 25293.55,
+      "change_pct": 0.59,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 87.87,
-      "change_pct": -0.78,
+      "price": 87.9,
+      "change_pct": -0.75,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.2,
-      "change_pct": 0.17,
+      "price": 94.16,
+      "change_pct": 0.13,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 57,
-    "declines": 116,
+    "advances": 62,
+    "declines": 110,
     "total": 175
   }
 }
