@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 0.40% with Brent Crude hovering around $88.71.",
-    "Universe breadth shows 50 advancing vs 125 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.40% with Brent Crude hovering around $89.03.",
+    "Universe breadth shows 52 advancing vs 123 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
-      "symbol": "VIJAYA",
-      "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1475.0,
-      "trigger": 1508.01,
-      "target1": 1553.3,
-      "sl": 1418.62,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 4.6
-    },
-    {
       "symbol": "INDRAMEDCO",
       "name": "Indraprastha Medical Corporation Ltd",
-      "current_price": 350.25,
+      "current_price": 349.05,
       "trigger": 343.99,
-      "target1": 397.13,
-      "sl": 316.5,
+      "target1": 395.32,
+      "sl": 315.74,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9343.99 with Accumulation structure.",
-      "change_pct": 6.09
+      "change_pct": 5.72
     },
     {
       "symbol": "DHANBANK",
       "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 42.25,
+      "current_price": 42.24,
       "trigger": 42.07,
-      "target1": 54.54,
-      "sl": 33.4,
+      "target1": 54.53,
+      "sl": 33.39,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b942.07 with Accumulation structure.",
-      "change_pct": 5.0
+      "change_pct": 4.97
+    },
+    {
+      "symbol": "FIEMIND",
+      "name": "Fiem Industries Ltd",
+      "current_price": 2186.9,
+      "trigger": 2146.28,
+      "target1": 2754.0,
+      "sl": 1778.58,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b92,146.28 with Accumulation structure.",
+      "change_pct": 2.51
     }
   ],
   "risk_warning": "Defensive alert on Kaynes Technology India, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "16 Nov 2026, 08:01 AM",
+  "timestamp": "16 Nov 2026, 08:16 AM",
   "date_tag": "2026-11-16",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25251.15,
-      "change_pct": 0.42,
+      "price": 25252.2,
+      "change_pct": 0.43,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82059.64,
-      "change_pct": 0.57,
+      "price": 82007.45,
+      "change_pct": 0.51,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 88.71,
-      "change_pct": 0.17,
+      "price": 89.03,
+      "change_pct": 0.53,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 94.02,
-      "change_pct": -0.02,
+      "price": 94.0,
+      "change_pct": -0.03,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 50,
-    "declines": 125,
+    "advances": 52,
+    "declines": 123,
     "total": 175
   }
 };
