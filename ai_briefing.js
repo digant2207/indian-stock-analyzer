@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25200,
   "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $85.58.",
+    "US Markets closed down 1.92% with Brent Crude hovering around $85.80.",
     "Universe breadth shows 80 advancing vs 95 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Saksoft Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 10:46 AM",
+  "timestamp": "17 Nov 2026, 10:56 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
@@ -71,9 +71,9 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.58,
-      "change_pct": -0.16,
-      "status": "down"
+      "price": 85.8,
+      "change_pct": 0.09,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
