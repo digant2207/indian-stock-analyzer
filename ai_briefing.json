@@ -4,57 +4,57 @@
   "nifty_support": 25200,
   "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $85.15.",
-    "Universe breadth shows 105 advancing vs 69 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.92% with Brent Crude hovering around $85.72.",
+    "Universe breadth shows 98 advancing vs 75 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
   "top_setups": [
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 710.75,
+      "current_price": 703.95,
       "trigger": 695.09,
-      "target1": 875.96,
-      "sl": 591.8,
+      "target1": 865.95,
+      "sl": 587.31,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 5.47
+      "change_pct": 4.46
     },
     {
-      "symbol": "DHANBANK",
-      "name": "Dhanlaxmi Bank Ltd",
-      "current_price": 43.07,
-      "trigger": 43.89,
-      "target1": 58.37,
-      "sl": 32.05,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b943.89 with Accumulation structure.",
-      "change_pct": 0.54
+      "symbol": "JMA",
+      "name": "Jullundur Motor Agency (Delhi) Ltd",
+      "current_price": 105.87,
+      "trigger": 106.21,
+      "target1": 139.93,
+      "sl": 81.35,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9106.21 with Accumulation structure.",
+      "change_pct": 1.85
     },
     {
-      "symbol": "INOXINDIA",
-      "name": "INOX India Ltd",
-      "current_price": 2031.3,
-      "trigger": 2079.15,
-      "target1": 2227.61,
-      "sl": 1889.96,
-      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b92,079.15 with Accumulation structure.",
-      "change_pct": 3.54
+      "symbol": "ANGELONE",
+      "name": "Angel One Ltd",
+      "current_price": 363.0,
+      "trigger": 355.46,
+      "target1": 455.88,
+      "sl": 296.13,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9355.46 with Accumulation structure.",
+      "change_pct": 4.27
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 04:46 AM",
+  "timestamp": "17 Nov 2026, 05:01 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25381.95,
-      "change_pct": 0.36,
+      "price": 25397.4,
+      "change_pct": 0.42,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82395.03,
-      "change_pct": 0.35,
+      "price": 82465.39,
+      "change_pct": 0.44,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.15,
-      "change_pct": -3.85,
+      "price": 85.72,
+      "change_pct": -3.21,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.64,
-      "change_pct": -0.63,
+      "price": 93.66,
+      "change_pct": -0.61,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 105,
-    "declines": 69,
+    "advances": 98,
+    "declines": 75,
     "total": 175
   }
 }
