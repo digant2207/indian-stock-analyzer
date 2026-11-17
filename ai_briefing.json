@@ -1,60 +1,60 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25250,
-  "nifty_resistance": 25650,
+  "nifty_support": 25300,
+  "nifty_resistance": 25700,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $85.00.",
-    "Universe breadth shows 97 advancing vs 77 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
+    "US Markets closed down 1.92% with Brent Crude hovering around $85.17.",
+    "Universe breadth shows 95 advancing vs 80 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,700."
   ],
   "top_setups": [
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 713.6,
+      "current_price": 716.3,
       "trigger": 695.09,
-      "target1": 880.21,
-      "sl": 593.64,
+      "target1": 884.27,
+      "sl": 595.36,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 5.89
+      "change_pct": 6.29
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 106.0,
+      "current_price": 106.2,
       "trigger": 106.21,
-      "target1": 140.13,
-      "sl": 81.43,
+      "target1": 140.44,
+      "sl": 81.55,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9106.21 with Accumulation structure.",
-      "change_pct": 1.97
+      "change_pct": 2.16
     },
     {
       "symbol": "ANGELONE",
       "name": "Angel One Ltd",
-      "current_price": 376.45,
+      "current_price": 378.4,
       "trigger": 355.46,
-      "target1": 475.89,
-      "sl": 304.86,
+      "target1": 478.89,
+      "sl": 306.05,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9355.46 with Accumulation structure.",
-      "change_pct": 8.13
+      "change_pct": 8.69
     }
   ],
   "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 06:16 AM",
+  "timestamp": "17 Nov 2026, 06:31 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25458.65,
-      "change_pct": 0.66,
+      "price": 25492.55,
+      "change_pct": 0.8,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82663.89,
-      "change_pct": 0.68,
+      "price": 82736.31,
+      "change_pct": 0.77,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.0,
-      "change_pct": -0.84,
+      "price": 85.17,
+      "change_pct": -0.64,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 97,
-    "declines": 77,
+    "advances": 95,
+    "declines": 80,
     "total": 175
   }
 }
