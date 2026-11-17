@@ -4,57 +4,57 @@
   "nifty_support": 25250,
   "nifty_resistance": 25650,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $84.91.",
-    "Universe breadth shows 93 advancing vs 82 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.92% with Brent Crude hovering around $85.00.",
+    "Universe breadth shows 97 advancing vs 77 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
   ],
   "top_setups": [
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 717.75,
+      "current_price": 713.6,
       "trigger": 695.09,
-      "target1": 886.47,
-      "sl": 596.27,
+      "target1": 880.21,
+      "sl": 593.64,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 6.51
+      "change_pct": 5.89
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 106.29,
+      "current_price": 106.0,
       "trigger": 106.21,
-      "target1": 140.58,
-      "sl": 81.6,
+      "target1": 140.13,
+      "sl": 81.43,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9106.21 with Accumulation structure.",
-      "change_pct": 2.25
+      "change_pct": 1.97
     },
     {
       "symbol": "ANGELONE",
       "name": "Angel One Ltd",
-      "current_price": 374.15,
+      "current_price": 376.45,
       "trigger": 355.46,
-      "target1": 472.37,
-      "sl": 303.43,
+      "target1": 475.89,
+      "sl": 304.86,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9355.46 with Accumulation structure.",
-      "change_pct": 7.47
+      "change_pct": 8.13
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 06:01 AM",
+  "timestamp": "17 Nov 2026, 06:16 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25438.2,
-      "change_pct": 0.58,
+      "price": 25458.65,
+      "change_pct": 0.66,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82642.09,
-      "change_pct": 0.65,
+      "price": 82663.89,
+      "change_pct": 0.68,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.91,
-      "change_pct": -0.94,
+      "price": 85.0,
+      "change_pct": -0.84,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.51,
-      "change_pct": -0.77,
+      "price": 93.56,
+      "change_pct": -0.72,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 93,
-    "declines": 82,
+    "advances": 97,
+    "declines": 77,
     "total": 175
   }
 }
