@@ -4,57 +4,57 @@
   "nifty_support": 25200,
   "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $85.70.",
-    "Universe breadth shows 79 advancing vs 95 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.92% with Brent Crude hovering around $86.06.",
+    "Universe breadth shows 79 advancing vs 94 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
   "top_setups": [
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 705.6,
+      "current_price": 699.25,
       "trigger": 695.09,
-      "target1": 868.36,
-      "sl": 588.41,
+      "target1": 859.15,
+      "sl": 584.12,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 4.7
+      "change_pct": 3.76
     },
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 177.95,
+      "current_price": 177.89,
       "trigger": 179.86,
-      "target1": 191.43,
-      "sl": 168.24,
+      "target1": 191.35,
+      "sl": 168.2,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9179.86 with Accumulation structure.",
-      "change_pct": 2.18
+      "change_pct": 2.14
     },
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 746.45,
+      "current_price": 746.05,
       "trigger": 758.01,
-      "target1": 848.58,
-      "sl": 672.92,
+      "target1": 848.01,
+      "sl": 672.64,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9758.01 with Accumulation structure.",
-      "change_pct": 3.2
+      "change_pct": 3.15
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Saksoft Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Saksoft Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 09:31 AM",
+  "timestamp": "17 Nov 2026, 09:46 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25409.35,
-      "change_pct": 0.47,
+      "price": 25413.0,
+      "change_pct": 0.48,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82695.26,
-      "change_pct": 0.72,
+      "price": 82622.95,
+      "change_pct": 0.63,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.7,
-      "change_pct": -0.02,
-      "status": "down"
+      "price": 86.06,
+      "change_pct": 0.4,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.48,
-      "change_pct": -0.8,
+      "price": 93.5,
+      "change_pct": -0.78,
       "status": "down"
     }
   },
   "market_breadth": {
     "advances": 79,
-    "declines": 95,
+    "declines": 94,
     "total": 175
   }
 }
