@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25250,
-  "nifty_resistance": 25650,
+  "nifty_support": 25200,
+  "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $84.92.",
-    "Universe breadth shows 71 advancing vs 104 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
+    "US Markets closed down 1.92% with Brent Crude hovering around $85.19.",
+    "Universe breadth shows 65 advancing vs 109 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
   "top_setups": [
     {
-      "symbol": "CAMS",
-      "name": "Computer Age Management Services Ltd",
-      "current_price": 759.15,
-      "trigger": 758.01,
-      "target1": 868.77,
-      "sl": 680.22,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9758.01 with Accumulation structure.",
-      "change_pct": 4.56
-    },
-    {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 709.6,
+      "current_price": 708.95,
       "trigger": 695.09,
-      "target1": 874.25,
-      "sl": 591.05,
+      "target1": 873.29,
+      "sl": 590.63,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 5.3
+      "change_pct": 5.2
+    },
+    {
+      "symbol": "CAMS",
+      "name": "Computer Age Management Services Ltd",
+      "current_price": 755.85,
+      "trigger": 758.01,
+      "target1": 863.73,
+      "sl": 678.18,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9758.01 with Accumulation structure.",
+      "change_pct": 4.1
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 106.8,
+      "current_price": 107.4,
       "trigger": 106.21,
-      "target1": 141.37,
-      "sl": 81.91,
+      "target1": 142.31,
+      "sl": 82.26,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9106.21 with Accumulation structure.",
-      "change_pct": 2.74
+      "change_pct": 3.32
     }
   ],
   "risk_warning": "Defensive alert on Saksoft Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 07:31 AM",
+  "timestamp": "17 Nov 2026, 07:46 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25443.7,
-      "change_pct": 0.6,
+      "price": 25398.3,
+      "change_pct": 0.42,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82770.11,
-      "change_pct": 0.81,
+      "price": 82731.54,
+      "change_pct": 0.76,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.92,
-      "change_pct": -0.93,
+      "price": 85.19,
+      "change_pct": -0.62,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 71,
-    "declines": 104,
+    "advances": 65,
+    "declines": 109,
     "total": 175
   }
 };
