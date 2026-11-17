@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25200,
   "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $85.77.",
+    "US Markets closed down 1.92% with Brent Crude hovering around $85.92.",
     "Universe breadth shows 80 advancing vs 95 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
@@ -30,19 +30,19 @@ window.AI_BRIEFING = {
       "change_pct": 2.1
     },
     {
-      "symbol": "IDFCFIRSTB",
-      "name": "IDFC First Bank Ltd",
-      "current_price": 83.59,
-      "trigger": 82.43,
-      "target1": 96.92,
-      "sl": 74.0,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b982.43 with Accumulation structure.",
-      "change_pct": 2.82
+      "symbol": "CAMS",
+      "name": "Computer Age Management Services Ltd",
+      "current_price": 744.0,
+      "trigger": 758.01,
+      "target1": 845.1,
+      "sl": 671.2,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9758.01 with Accumulation structure.",
+      "change_pct": 2.86
     }
   ],
   "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Saksoft Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 10:01 AM",
+  "timestamp": "17 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82582.42,
-      "change_pct": 0.58,
+      "price": 82532.19,
+      "change_pct": 0.52,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.77,
-      "change_pct": 0.06,
+      "price": 85.92,
+      "change_pct": 0.23,
       "status": "up"
     },
     "USD/INR": {
