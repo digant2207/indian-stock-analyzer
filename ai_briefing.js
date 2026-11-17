@@ -5,56 +5,56 @@ window.AI_BRIEFING = {
   "nifty_resistance": 25700,
   "executive_bullets": [
     "US Markets closed down 1.92% with Brent Crude hovering around $85.17.",
-    "Universe breadth shows 95 advancing vs 80 declining stocks across 175 scanned equities.",
+    "Universe breadth shows 88 advancing vs 86 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,700."
   ],
   "top_setups": [
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 716.3,
+      "current_price": 711.9,
       "trigger": 695.09,
-      "target1": 884.27,
-      "sl": 595.36,
+      "target1": 877.67,
+      "sl": 592.54,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 6.29
+      "change_pct": 5.64
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 106.2,
+      "current_price": 106.21,
       "trigger": 106.21,
-      "target1": 140.44,
+      "target1": 140.46,
       "sl": 81.55,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9106.21 with Accumulation structure.",
-      "change_pct": 2.16
+      "change_pct": 2.17
     },
     {
       "symbol": "ANGELONE",
       "name": "Angel One Ltd",
-      "current_price": 378.4,
+      "current_price": 377.15,
       "trigger": 355.46,
-      "target1": 478.89,
-      "sl": 306.05,
+      "target1": 476.96,
+      "sl": 305.28,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9355.46 with Accumulation structure.",
-      "change_pct": 8.69
+      "change_pct": 8.33
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Saksoft Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 06:31 AM",
+  "timestamp": "17 Nov 2026, 06:46 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25492.55,
+      "price": 25494.25,
       "change_pct": 0.8,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82736.31,
-      "change_pct": 0.77,
+      "price": 82857.64,
+      "change_pct": 0.92,
       "status": "up"
     },
     "S&P 500": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 95,
-    "declines": 80,
+    "advances": 88,
+    "declines": 86,
     "total": 175
   }
 };
