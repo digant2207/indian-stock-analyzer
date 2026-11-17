@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25250,
-  "nifty_resistance": 25650,
+  "nifty_support": 25200,
+  "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $85.76.",
-    "Universe breadth shows 81 advancing vs 94 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
+    "US Markets closed down 1.92% with Brent Crude hovering around $85.70.",
+    "Universe breadth shows 79 advancing vs 95 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
   "top_setups": [
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 705.15,
+      "current_price": 705.6,
       "trigger": 695.09,
-      "target1": 867.7,
-      "sl": 588.11,
+      "target1": 868.36,
+      "sl": 588.41,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 4.64
+      "change_pct": 4.7
     },
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 177.36,
+      "current_price": 177.95,
       "trigger": 179.86,
-      "target1": 190.63,
-      "sl": 167.81,
+      "target1": 191.43,
+      "sl": 168.24,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9179.86 with Accumulation structure.",
-      "change_pct": 1.84
+      "change_pct": 2.18
     },
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 747.05,
+      "current_price": 746.45,
       "trigger": 758.01,
-      "target1": 849.44,
-      "sl": 673.33,
+      "target1": 848.58,
+      "sl": 672.92,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9758.01 with Accumulation structure.",
-      "change_pct": 3.28
+      "change_pct": 3.2
     }
   ],
   "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Saksoft Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 09:16 AM",
+  "timestamp": "17 Nov 2026, 09:31 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25435.3,
-      "change_pct": 0.57,
+      "price": 25409.35,
+      "change_pct": 0.47,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82791.72,
-      "change_pct": 0.84,
+      "price": 82695.26,
+      "change_pct": 0.72,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.76,
-      "change_pct": 0.05,
-      "status": "up"
+      "price": 85.7,
+      "change_pct": -0.02,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.47,
-      "change_pct": -0.82,
+      "price": 93.48,
+      "change_pct": -0.8,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 81,
-    "declines": 94,
+    "advances": 79,
+    "declines": 95,
     "total": 175
   }
 };
