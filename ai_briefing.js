@@ -1,33 +1,33 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25200,
-  "nifty_resistance": 25600,
+  "nifty_support": 25250,
+  "nifty_resistance": 25650,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $85.19.",
-    "Universe breadth shows 65 advancing vs 110 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
+    "US Markets closed down 1.92% with Brent Crude hovering around $85.42.",
+    "Universe breadth shows 73 advancing vs 102 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
   ],
   "top_setups": [
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 706.0,
+      "current_price": 706.25,
       "trigger": 695.09,
-      "target1": 868.94,
-      "sl": 588.68,
+      "target1": 869.31,
+      "sl": 588.85,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 4.76
+      "change_pct": 4.8
     },
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 753.3,
+      "current_price": 752.55,
       "trigger": 758.01,
-      "target1": 859.88,
-      "sl": 676.57,
+      "target1": 858.75,
+      "sl": 676.09,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9758.01 with Accumulation structure.",
-      "change_pct": 3.75
+      "change_pct": 3.65
     },
     {
       "symbol": "JMA",
@@ -42,19 +42,19 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Saksoft Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 08:16 AM",
+  "timestamp": "17 Nov 2026, 08:31 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25414.6,
-      "change_pct": 0.49,
+      "price": 25455.15,
+      "change_pct": 0.65,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82552.47,
-      "change_pct": 0.55,
+      "price": 82659.88,
+      "change_pct": 0.68,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.19,
-      "change_pct": -0.62,
+      "price": 85.42,
+      "change_pct": -0.35,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.53,
-      "change_pct": -0.75,
+      "price": 93.46,
+      "change_pct": -0.83,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 65,
-    "declines": 110,
+    "advances": 73,
+    "declines": 102,
     "total": 175
   }
 };
