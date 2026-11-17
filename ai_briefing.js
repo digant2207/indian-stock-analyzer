@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25250,
   "nifty_resistance": 25650,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $84.81.",
-    "Universe breadth shows 75 advancing vs 100 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.92% with Brent Crude hovering around $84.92.",
+    "Universe breadth shows 71 advancing vs 104 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
   ],
   "top_setups": [
     {
       "symbol": "CAMS",
       "name": "Computer Age Management Services Ltd",
-      "current_price": 758.5,
+      "current_price": 759.15,
       "trigger": 758.01,
-      "target1": 867.77,
-      "sl": 679.83,
+      "target1": 868.77,
+      "sl": 680.22,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9758.01 with Accumulation structure.",
-      "change_pct": 4.47
+      "change_pct": 4.56
     },
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
-      "current_price": 707.5,
+      "current_price": 709.6,
       "trigger": 695.09,
-      "target1": 871.15,
-      "sl": 589.67,
+      "target1": 874.25,
+      "sl": 591.05,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
-      "change_pct": 4.99
+      "change_pct": 5.3
     },
     {
       "symbol": "JMA",
       "name": "Jullundur Motor Agency (Delhi) Ltd",
-      "current_price": 106.6,
+      "current_price": 106.8,
       "trigger": 106.21,
-      "target1": 141.06,
-      "sl": 81.79,
+      "target1": 141.37,
+      "sl": 81.91,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9106.21 with Accumulation structure.",
-      "change_pct": 2.55
+      "change_pct": 2.74
     }
   ],
   "risk_warning": "Defensive alert on Saksoft Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 07:16 AM",
+  "timestamp": "17 Nov 2026, 07:31 AM",
   "date_tag": "2026-11-17",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25459.95,
-      "change_pct": 0.67,
+      "price": 25443.7,
+      "change_pct": 0.6,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82870.25,
-      "change_pct": 0.93,
+      "price": 82770.11,
+      "change_pct": 0.81,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.81,
-      "change_pct": -1.06,
+      "price": 84.92,
+      "change_pct": -0.93,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.55,
-      "change_pct": -0.73,
+      "price": 93.56,
+      "change_pct": -0.72,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 75,
-    "declines": 100,
+    "advances": 71,
+    "declines": 104,
     "total": 175
   }
 };
