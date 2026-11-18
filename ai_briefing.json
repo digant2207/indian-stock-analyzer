@@ -4,11 +4,31 @@
   "nifty_support": 25200,
   "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 1.92% with Brent Crude hovering around $86.37.",
-    "Universe breadth shows 80 advancing vs 95 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.03% with Brent Crude hovering around $85.24.",
+    "Universe breadth shows 70 advancing vs 105 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
   "top_setups": [
+    {
+      "symbol": "MAXHEALTH",
+      "name": "Max Healthcare Institute",
+      "current_price": 1030.9,
+      "trigger": 1014.95,
+      "target1": 1223.91,
+      "sl": 891.93,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,014.95 with Accumulation structure.",
+      "change_pct": 2.08
+    },
+    {
+      "symbol": "ANGELONE",
+      "name": "Angel One Ltd",
+      "current_price": 349.8,
+      "trigger": 355.46,
+      "target1": 437.64,
+      "sl": 286.56,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9355.46 with Accumulation structure.",
+      "change_pct": 0.47
+    },
     {
       "symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd",
@@ -16,34 +36,14 @@
       "trigger": 695.09,
       "target1": 860.8,
       "sl": 584.91,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9695.09 with Accumulation structure.",
       "change_pct": 3.93
-    },
-    {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 177.81,
-      "trigger": 179.86,
-      "target1": 191.24,
-      "sl": 168.14,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9179.86 with Accumulation structure.",
-      "change_pct": 2.1
-    },
-    {
-      "symbol": "CAMS",
-      "name": "Computer Age Management Services Ltd",
-      "current_price": 744.0,
-      "trigger": 758.01,
-      "target1": 845.1,
-      "sl": 671.2,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9758.01 with Accumulation structure.",
-      "change_pct": 2.86
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Saksoft Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "17 Nov 2026, 01:21 PM",
-  "date_tag": "2026-11-17",
+  "timestamp": "18 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7416.59,
-      "change_pct": -1.92,
+      "price": 7340.53,
+      "change_pct": -1.03,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 24509.76,
-      "change_pct": -2.49,
+      "price": 24328.38,
+      "change_pct": -0.74,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.37,
-      "change_pct": 0.76,
-      "status": "up"
+      "price": 85.24,
+      "change_pct": -0.56,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.46,
-      "change_pct": -0.83,
+      "price": 93.38,
+      "change_pct": -0.62,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 80,
-    "declines": 95,
+    "advances": 70,
+    "declines": 105,
     "total": 175
   }
 }
