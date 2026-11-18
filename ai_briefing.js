@@ -1,59 +1,59 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25000,
-  "nifty_resistance": 25400,
+  "nifty_support": 24950,
+  "nifty_resistance": 25350,
   "executive_bullets": [
-    "US Markets closed down 1.03% with Brent Crude hovering around $84.16.",
-    "Universe breadth shows 38 advancing vs 137 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,000 | Resistance cap at 25,400."
+    "US Markets closed down 1.03% with Brent Crude hovering around $84.07.",
+    "Universe breadth shows 42 advancing vs 132 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 24,950 | Resistance cap at 25,350."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1523.8,
+      "current_price": 1510.2,
       "trigger": 1508.01,
-      "target1": 1636.03,
-      "sl": 1442.99,
+      "target1": 1614.15,
+      "sl": 1435.36,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 2.44
+      "change_pct": 1.53
     },
     {
       "symbol": "INOXINDIA",
       "name": "INOX India Ltd",
-      "current_price": 2073.4,
+      "current_price": 2074.9,
       "trigger": 2060.41,
-      "target1": 2296.91,
-      "sl": 1912.47,
+      "target1": 2299.42,
+      "sl": 1913.24,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b92,060.41 with Accumulation structure.",
-      "change_pct": 9.13
+      "change_pct": 9.21
     },
     {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 808.6,
-      "trigger": 822.64,
-      "target1": 989.49,
-      "sl": 678.36,
-      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9822.64 with Accumulation structure.",
-      "change_pct": -0.78
+      "symbol": "ORICONENT",
+      "name": "Oricon Enterprises Ltd",
+      "current_price": 57.54,
+      "trigger": 58.82,
+      "target1": 63.15,
+      "sl": 53.5,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b958.82 with Accumulation structure.",
+      "change_pct": 0.16
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Fineotex Chemical Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Nov 2026, 08:01 AM",
+  "timestamp": "18 Nov 2026, 08:16 AM",
   "date_tag": "2026-11-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25180.05,
-      "change_pct": -0.82,
+      "price": 25164.55,
+      "change_pct": -0.88,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81871.87,
+      "price": 81875.93,
       "change_pct": -0.8,
       "status": "down"
     },
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.16,
-      "change_pct": -2.15,
+      "price": 84.07,
+      "change_pct": -2.26,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.52,
+      "price": 93.53,
       "change_pct": -0.47,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 38,
-    "declines": 137,
+    "advances": 42,
+    "declines": 132,
     "total": 175
   }
 };
