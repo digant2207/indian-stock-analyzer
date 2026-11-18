@@ -1,61 +1,61 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25150,
-  "nifty_resistance": 25600,
+  "nifty_support": 25100,
+  "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 1.03% with Brent Crude hovering around $85.08.",
-    "Universe breadth shows 53 advancing vs 121 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,600."
+    "US Markets closed down 1.03% with Brent Crude hovering around $84.83.",
+    "Universe breadth shows 45 advancing vs 129 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
+      "symbol": "VIJAYA",
+      "name": "Vijaya Diagnostic Centre Ltd",
+      "current_price": 1475.7,
+      "trigger": 1508.01,
+      "target1": 1564.08,
+      "sl": 1412.07,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
+      "change_pct": -0.79
+    },
+    {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 366.45,
+      "current_price": 364.45,
       "trigger": 369.64,
-      "target1": 412.26,
-      "sl": 333.47,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b9369.64 with Accumulation structure.",
-      "change_pct": 0.18
+      "target1": 409.56,
+      "sl": 331.97,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9369.64 with Accumulation structure.",
+      "change_pct": -0.37
     },
     {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 178.29,
-      "trigger": 182.06,
-      "target1": 190.13,
-      "sl": 169.77,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9182.06 with Accumulation structure.",
-      "change_pct": 0.27
-    },
-    {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 896.3,
-      "trigger": 911.47,
-      "target1": 1014.29,
-      "sl": 811.35,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9911.47 with Accumulation structure.",
-      "change_pct": -0.58
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 207.21,
+      "trigger": 210.12,
+      "target1": 242.58,
+      "sl": 181.74,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9210.12 with Accumulation structure.",
+      "change_pct": -0.33
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Nov 2026, 03:46 AM",
+  "timestamp": "18 Nov 2026, 04:01 AM",
   "date_tag": "2026-11-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25373.55,
-      "change_pct": -0.05,
+      "price": 25319.6,
+      "change_pct": -0.27,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82532.19,
-      "change_pct": 0.52,
-      "status": "up"
+      "price": 82496.16,
+      "change_pct": -0.04,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.08,
-      "change_pct": -0.75,
+      "price": 84.83,
+      "change_pct": -1.04,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.32,
-      "change_pct": -0.69,
+      "price": 93.27,
+      "change_pct": -0.73,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 53,
-    "declines": 121,
+    "advances": 45,
+    "declines": 129,
     "total": 175
   }
 };
