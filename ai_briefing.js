@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 1.03% with Brent Crude hovering around $83.38.",
+    "US Markets closed down 1.03% with Brent Crude hovering around $83.22.",
     "Universe breadth shows 42 advancing vs 133 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Fineotex Chemical Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Nov 2026, 10:46 AM",
+  "timestamp": "18 Nov 2026, 11:01 AM",
   "date_tag": "2026-11-18",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.38,
-      "change_pct": -3.06,
+      "price": 83.22,
+      "change_pct": -3.24,
       "status": "down"
     },
     "USD/INR": {
