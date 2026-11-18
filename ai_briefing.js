@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25000,
-  "nifty_resistance": 25400,
+  "nifty_support": 25100,
+  "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 1.03% with Brent Crude hovering around $84.90.",
-    "Universe breadth shows 25 advancing vs 150 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,000 | Resistance cap at 25,400."
+    "US Markets closed down 1.03% with Brent Crude hovering around $84.98.",
+    "Universe breadth shows 42 advancing vs 132 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
       "symbol": "NDRAUTO",
       "name": "NDR Auto Components Ltd",
-      "current_price": 801.0,
+      "current_price": 798.45,
       "trigger": 800.6,
-      "target1": 962.63,
-      "sl": 684.63,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9800.60 with Accumulation structure.",
-      "change_pct": 12.33
+      "target1": 958.92,
+      "sl": 682.91,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9800.60 with Accumulation structure.",
+      "change_pct": 11.98
     },
     {
       "symbol": "INOXINDIA",
       "name": "INOX India Ltd",
-      "current_price": 2063.5,
+      "current_price": 2115.0,
       "trigger": 2060.41,
-      "target1": 2280.46,
-      "sl": 1907.29,
+      "target1": 2368.17,
+      "sl": 1932.72,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b92,060.41 with Accumulation structure.",
-      "change_pct": 8.61
+      "change_pct": 11.32
     },
     {
-      "symbol": "MCX",
-      "name": "Multi Commodity Exchange",
-      "current_price": 3726.9,
-      "trigger": 3780.15,
-      "target1": 4443.59,
-      "sl": 3210.88,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,780.15 with Accumulation structure.",
-      "change_pct": 0.58
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 362.7,
+      "trigger": 369.64,
+      "target1": 407.26,
+      "sl": 330.62,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9369.64 with Accumulation structure.",
+      "change_pct": -0.85
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Nov 2026, 04:16 AM",
+  "timestamp": "18 Nov 2026, 04:31 AM",
   "date_tag": "2026-11-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25220.45,
-      "change_pct": -0.66,
+      "price": 25294.0,
+      "change_pct": -0.37,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82309.38,
-      "change_pct": -0.27,
+      "price": 82013.66,
+      "change_pct": -0.63,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.9,
-      "change_pct": -0.96,
+      "price": 84.98,
+      "change_pct": -0.86,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.29,
-      "change_pct": -0.72,
+      "price": 93.3,
+      "change_pct": -0.7,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 25,
-    "declines": 150,
+    "advances": 42,
+    "declines": 132,
     "total": 175
   }
 };
