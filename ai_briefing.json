@@ -4,57 +4,57 @@
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 1.03% with Brent Crude hovering around $84.68.",
-    "Universe breadth shows 40 advancing vs 135 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.03% with Brent Crude hovering around $84.57.",
+    "Universe breadth shows 41 advancing vs 133 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
-      "symbol": "NDRAUTO",
-      "name": "NDR Auto Components Ltd",
-      "current_price": 787.0,
-      "trigger": 800.6,
-      "target1": 942.65,
-      "sl": 674.93,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9800.60 with Accumulation structure.",
-      "change_pct": 10.37
-    },
-    {
       "symbol": "INOXINDIA",
       "name": "INOX India Ltd",
-      "current_price": 2067.6,
+      "current_price": 2067.5,
       "trigger": 2060.41,
-      "target1": 2287.24,
-      "sl": 1909.46,
+      "target1": 2287.08,
+      "sl": 1909.4,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b92,060.41 with Accumulation structure.",
       "change_pct": 8.82
     },
     {
+      "symbol": "VIJAYA",
+      "name": "Vijaya Diagnostic Centre Ltd",
+      "current_price": 1508.5,
+      "trigger": 1508.01,
+      "target1": 1611.48,
+      "sl": 1434.35,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
+      "change_pct": 1.41
+    },
+    {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 363.65,
+      "current_price": 364.55,
       "trigger": 369.64,
-      "target1": 408.5,
-      "sl": 331.36,
+      "target1": 409.7,
+      "sl": 332.05,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9369.64 with Accumulation structure.",
-      "change_pct": -0.59
+      "change_pct": -0.34
     }
   ],
   "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Nov 2026, 06:15 AM",
+  "timestamp": "18 Nov 2026, 06:31 AM",
   "date_tag": "2026-11-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25243.2,
-      "change_pct": -0.57,
+      "price": 25251.05,
+      "change_pct": -0.54,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82178.02,
-      "change_pct": -0.43,
+      "price": 82080.35,
+      "change_pct": -0.55,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.68,
-      "change_pct": -1.55,
+      "price": 84.57,
+      "change_pct": -1.67,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 40,
-    "declines": 135,
+    "advances": 41,
+    "declines": 133,
     "total": 175
   }
 }
