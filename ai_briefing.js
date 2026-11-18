@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 1.03% with Brent Crude hovering around $84.74.",
-    "Universe breadth shows 44 advancing vs 131 declining stocks across 175 scanned equities.",
+    "US Markets closed down 1.03% with Brent Crude hovering around $84.68.",
+    "Universe breadth shows 40 advancing vs 135 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
     {
       "symbol": "NDRAUTO",
       "name": "NDR Auto Components Ltd",
-      "current_price": 784.0,
+      "current_price": 787.0,
       "trigger": 800.6,
-      "target1": 938.5,
-      "sl": 672.76,
+      "target1": 942.65,
+      "sl": 674.93,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9800.60 with Accumulation structure.",
-      "change_pct": 9.95
+      "change_pct": 10.37
     },
     {
       "symbol": "INOXINDIA",
       "name": "INOX India Ltd",
-      "current_price": 2075.4,
+      "current_price": 2067.6,
       "trigger": 2060.41,
-      "target1": 2300.26,
-      "sl": 1913.5,
+      "target1": 2287.24,
+      "sl": 1909.46,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b92,060.41 with Accumulation structure.",
-      "change_pct": 9.23
+      "change_pct": 8.82
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 362.9,
+      "current_price": 363.65,
       "trigger": 369.64,
-      "target1": 407.52,
-      "sl": 330.77,
+      "target1": 408.5,
+      "sl": 331.36,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9369.64 with Accumulation structure.",
-      "change_pct": -0.79
+      "change_pct": -0.59
     }
   ],
   "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Nov 2026, 06:01 AM",
+  "timestamp": "18 Nov 2026, 06:15 AM",
   "date_tag": "2026-11-18",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25265.0,
-      "change_pct": -0.48,
+      "price": 25243.2,
+      "change_pct": -0.57,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82096.0,
-      "change_pct": -0.53,
+      "price": 82178.02,
+      "change_pct": -0.43,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.74,
-      "change_pct": -1.48,
+      "price": 84.68,
+      "change_pct": -1.55,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.39,
-      "change_pct": -0.6,
+      "price": 93.38,
+      "change_pct": -0.62,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 44,
-    "declines": 131,
+    "advances": 40,
+    "declines": 135,
     "total": 175
   }
 };
