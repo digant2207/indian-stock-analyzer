@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.42.",
-    "Universe breadth shows 101 advancing vs 73 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.33.",
+    "Universe breadth shows 102 advancing vs 71 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 178.17,
+      "current_price": 178.11,
       "trigger": 177.75,
-      "target1": 203.76,
-      "sl": 159.75,
+      "target1": 203.67,
+      "sl": 159.71,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
-      "change_pct": 2.92
+      "change_pct": 2.89
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5505.0,
+      "current_price": 5520.0,
       "trigger": 5561.1,
-      "target1": 5959.92,
-      "sl": 5177.46,
+      "target1": 5980.33,
+      "sl": 5188.56,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 3.3
+      "change_pct": 3.58
     },
     {
       "symbol": "PNB",
       "name": "Punjab National Bank",
-      "current_price": 154.3,
+      "current_price": 154.49,
       "trigger": 152.9,
-      "target1": 197.09,
-      "sl": 123.49,
+      "target1": 197.36,
+      "sl": 123.62,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9152.90 with Accumulation structure.",
-      "change_pct": 3.16
+      "change_pct": 3.29
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 06:16 AM",
+  "timestamp": "19 Nov 2026, 06:31 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25337.6,
-      "change_pct": 0.43,
+      "price": 25371.0,
+      "change_pct": 0.57,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82332.55,
-      "change_pct": 0.37,
+      "price": 82376.45,
+      "change_pct": 0.42,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.42,
-      "change_pct": -1.01,
+      "price": 82.33,
+      "change_pct": -1.12,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.33,
-      "change_pct": -0.15,
+      "price": 93.31,
+      "change_pct": -0.18,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 101,
-    "declines": 73,
+    "advances": 102,
+    "declines": 71,
     "total": 175
   }
 };
