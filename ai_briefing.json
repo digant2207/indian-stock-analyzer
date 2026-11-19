@@ -4,57 +4,57 @@
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.19.",
-    "Universe breadth shows 93 advancing vs 81 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.25.",
+    "Universe breadth shows 101 advancing vs 73 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 177.79,
+      "current_price": 177.93,
       "trigger": 177.75,
-      "target1": 203.19,
-      "sl": 159.5,
+      "target1": 203.4,
+      "sl": 159.59,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
-      "change_pct": 2.7
+      "change_pct": 2.78
     },
     {
       "symbol": "VOLTAS",
       "name": "Voltas Ltd",
-      "current_price": 1208.3,
+      "current_price": 1211.8,
       "trigger": 1178.35,
-      "target1": 1390.19,
-      "sl": 1077.34,
+      "target1": 1395.67,
+      "sl": 1079.41,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,178.35 with Accumulation structure.",
-      "change_pct": 6.5
+      "change_pct": 6.8
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5489.5,
+      "current_price": 5482.0,
       "trigger": 5561.1,
-      "target1": 5939.25,
-      "sl": 5165.68,
+      "target1": 5929.41,
+      "sl": 5159.86,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 3.01
+      "change_pct": 2.87
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 05:31 AM",
+  "timestamp": "19 Nov 2026, 05:46 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25299.55,
-      "change_pct": 0.28,
+      "price": 25309.6,
+      "change_pct": 0.32,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82222.9,
-      "change_pct": 0.23,
+      "price": 82250.22,
+      "change_pct": 0.27,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.19,
-      "change_pct": -1.29,
+      "price": 82.25,
+      "change_pct": -1.21,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.43,
-      "change_pct": -0.05,
+      "price": 93.38,
+      "change_pct": -0.1,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 93,
-    "declines": 81,
+    "advances": 101,
+    "declines": 73,
     "total": 175
   }
 }
