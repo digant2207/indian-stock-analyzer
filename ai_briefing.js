@@ -1,61 +1,61 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 25050,
-  "nifty_resistance": 25450,
+  "nifty_support": 25100,
+  "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.09.",
-    "Universe breadth shows 98 advancing vs 77 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.17.",
+    "Universe breadth shows 102 advancing vs 72 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero Motocorp Ltd",
-      "current_price": 5427.0,
-      "trigger": 5561.1,
-      "target1": 5860.56,
-      "sl": 5114.84,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 1.84
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 360.65,
+      "trigger": 369.64,
+      "target1": 405.86,
+      "sl": 328.1,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9369.64 with Accumulation structure.",
+      "change_pct": 0.08
     },
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1519.1,
+      "current_price": 1515.9,
       "trigger": 1552.9,
-      "target1": 1653.53,
-      "sl": 1422.31,
+      "target1": 1648.9,
+      "sl": 1420.14,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,552.90 with Accumulation structure.",
-      "change_pct": -0.95
+      "change_pct": -1.15
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 209.04,
+      "current_price": 209.54,
       "trigger": 210.12,
-      "target1": 245.09,
-      "sl": 183.08,
+      "target1": 245.79,
+      "sl": 183.44,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9210.12 with Accumulation structure.",
-      "change_pct": 0.55
+      "change_pct": 0.79
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 04:16 AM",
+  "timestamp": "19 Nov 2026, 04:31 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25235.75,
-      "change_pct": 0.03,
+      "price": 25297.15,
+      "change_pct": 0.27,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 81761.71,
-      "change_pct": -0.33,
-      "status": "down"
+      "price": 82091.23,
+      "change_pct": 0.07,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.09,
-      "change_pct": -4.56,
+      "price": 82.17,
+      "change_pct": -4.46,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.47,
-      "change_pct": -0.0,
+      "price": 93.48,
+      "change_pct": 0.0,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 98,
-    "declines": 77,
+    "advances": 102,
+    "declines": 72,
     "total": 175
   }
 };
