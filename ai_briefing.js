@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.33.",
-    "Universe breadth shows 97 advancing vs 77 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.28.",
+    "Universe breadth shows 97 advancing vs 76 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
+      "symbol": "IDFCFIRSTB",
+      "name": "IDFC First Bank Ltd",
+      "current_price": 85.73,
+      "trigger": 84.09,
+      "target1": 100.66,
+      "sl": 74.98,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b984.09 with Accumulation structure.",
+      "change_pct": 3.98
+    },
+    {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 178.23,
+      "current_price": 178.35,
       "trigger": 177.75,
-      "target1": 203.84,
-      "sl": 159.79,
+      "target1": 204.02,
+      "sl": 159.87,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
-      "change_pct": 2.96
+      "change_pct": 3.03
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5500.0,
+      "current_price": 5509.0,
       "trigger": 5561.1,
-      "target1": 5953.21,
-      "sl": 5173.69,
+      "target1": 5965.32,
+      "sl": 5180.45,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 3.21
-    },
-    {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 181.97,
-      "trigger": 182.06,
-      "target1": 195.64,
-      "sl": 172.13,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9182.06 with Accumulation structure.",
-      "change_pct": 2.34
+      "change_pct": 3.38
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Tata Communications, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 07:46 AM",
+  "timestamp": "19 Nov 2026, 08:01 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25356.5,
-      "change_pct": 0.51,
+      "price": 25366.05,
+      "change_pct": 0.55,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82518.42,
-      "change_pct": 0.59,
+      "price": 82452.4,
+      "change_pct": 0.51,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.33,
-      "change_pct": -1.12,
+      "price": 82.28,
+      "change_pct": -1.18,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.32,
-      "change_pct": -0.16,
+      "price": 93.23,
+      "change_pct": -0.26,
       "status": "down"
     }
   },
   "market_breadth": {
     "advances": 97,
-    "declines": 77,
+    "declines": 76,
     "total": 175
   }
 };
