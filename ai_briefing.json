@@ -1,60 +1,60 @@
 {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 25050,
-  "nifty_resistance": 25450,
+  "nifty_support": 25100,
+  "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $83.26.",
-    "Universe breadth shows 92 advancing vs 83 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.27.",
+    "Universe breadth shows 93 advancing vs 81 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 179.05,
+      "current_price": 178.31,
       "trigger": 177.75,
-      "target1": 205.07,
-      "sl": 160.32,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
-      "change_pct": 3.43
+      "target1": 203.96,
+      "sl": 159.84,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
+      "change_pct": 3.0
     },
     {
       "symbol": "VOLTAS",
       "name": "Voltas Ltd",
-      "current_price": 1199.0,
+      "current_price": 1205.8,
       "trigger": 1178.35,
-      "target1": 1375.82,
-      "sl": 1071.69,
-      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b91,178.35 with Accumulation structure.",
-      "change_pct": 5.68
+      "target1": 1386.3,
+      "sl": 1075.84,
+      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b91,178.35 with Accumulation structure.",
+      "change_pct": 6.28
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5426.0,
+      "current_price": 5474.0,
       "trigger": 5561.1,
-      "target1": 5859.37,
-      "sl": 5113.98,
+      "target1": 5919.03,
+      "sl": 5153.58,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 1.82
+      "change_pct": 2.72
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 05:01 AM",
+  "timestamp": "19 Nov 2026, 05:16 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25245.65,
-      "change_pct": 0.07,
+      "price": 25289.25,
+      "change_pct": 0.24,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82278.61,
-      "change_pct": 0.3,
+      "price": 82133.16,
+      "change_pct": 0.12,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.26,
-      "change_pct": -3.2,
+      "price": 82.27,
+      "change_pct": -1.19,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.48,
-      "change_pct": 0.01,
-      "status": "up"
+      "price": 93.44,
+      "change_pct": -0.04,
+      "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 92,
-    "declines": 83,
+    "advances": 93,
+    "declines": 81,
     "total": 175
   }
 }
