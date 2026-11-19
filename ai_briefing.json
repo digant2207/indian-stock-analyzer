@@ -4,57 +4,57 @@
   "nifty_support": 25200,
   "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.29.",
-    "Universe breadth shows 101 advancing vs 73 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.20.",
+    "Universe breadth shows 99 advancing vs 75 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 178.54,
+      "current_price": 178.36,
       "trigger": 177.75,
-      "target1": 204.3,
-      "sl": 159.99,
+      "target1": 204.04,
+      "sl": 159.87,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
-      "change_pct": 3.14
+      "change_pct": 3.03
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5511.0,
+      "current_price": 5517.5,
       "trigger": 5561.1,
-      "target1": 5968.04,
-      "sl": 5181.93,
+      "target1": 5976.9,
+      "sl": 5186.73,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 3.42
+      "change_pct": 3.54
     },
     {
-      "symbol": "ITCHOTELS",
-      "name": "ITCHOTELS",
-      "current_price": 182.06,
-      "trigger": 182.06,
-      "target1": 195.78,
-      "sl": 172.18,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9182.06 with Accumulation structure.",
-      "change_pct": 2.39
+      "symbol": "IDFCFIRSTB",
+      "name": "IDFC First Bank Ltd",
+      "current_price": 86.46,
+      "trigger": 84.09,
+      "target1": 101.76,
+      "sl": 75.45,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b984.09 with Accumulation structure.",
+      "change_pct": 4.86
     }
   ],
-  "risk_warning": "Defensive alert on Tata Communications, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 08:15 AM",
+  "timestamp": "19 Nov 2026, 08:31 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25390.4,
-      "change_pct": 0.64,
+      "price": 25412.35,
+      "change_pct": 0.73,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82503.06,
-      "change_pct": 0.57,
+      "price": 82589.99,
+      "change_pct": 0.68,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.29,
-      "change_pct": -1.17,
+      "price": 82.2,
+      "change_pct": -1.27,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.18,
-      "change_pct": -0.32,
+      "price": 93.21,
+      "change_pct": -0.28,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 101,
-    "declines": 73,
+    "advances": 99,
+    "declines": 75,
     "total": 175
   }
 }
