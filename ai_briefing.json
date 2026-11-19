@@ -4,57 +4,57 @@
   "nifty_support": 25100,
   "nifty_resistance": 25500,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.17.",
-    "Universe breadth shows 102 advancing vs 72 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.09.",
+    "Universe breadth shows 109 advancing vs 66 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,100 | Resistance cap at 25,500."
   ],
   "top_setups": [
     {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 360.65,
-      "trigger": 369.64,
-      "target1": 405.86,
-      "sl": 328.1,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9369.64 with Accumulation structure.",
-      "change_pct": 0.08
-    },
-    {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1515.9,
+      "current_price": 1515.2,
       "trigger": 1552.9,
-      "target1": 1648.9,
-      "sl": 1420.14,
+      "target1": 1647.9,
+      "sl": 1419.66,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,552.90 with Accumulation structure.",
-      "change_pct": -1.15
+      "change_pct": -1.2
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 209.54,
+      "current_price": 209.89,
       "trigger": 210.12,
-      "target1": 245.79,
-      "sl": 183.44,
+      "target1": 246.28,
+      "sl": 183.69,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9210.12 with Accumulation structure.",
-      "change_pct": 0.79
+      "change_pct": 0.96
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "current_price": 811.55,
+      "trigger": 822.64,
+      "target1": 973.69,
+      "sl": 694.81,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9822.64 with Accumulation structure.",
+      "change_pct": 0.42
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 04:31 AM",
+  "timestamp": "19 Nov 2026, 04:46 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25297.15,
-      "change_pct": 0.27,
+      "price": 25293.7,
+      "change_pct": 0.26,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82091.23,
-      "change_pct": 0.07,
+      "price": 82297.8,
+      "change_pct": 0.32,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.17,
-      "change_pct": -4.46,
+      "price": 82.09,
+      "change_pct": -4.56,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.48,
-      "change_pct": 0.0,
+      "price": 93.47,
+      "change_pct": -0.0,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 102,
-    "declines": 72,
+    "advances": 109,
+    "declines": 66,
     "total": 175
   }
 }
