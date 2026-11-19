@@ -2,11 +2,11 @@
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 25250,
-  "nifty_resistance": 25700,
+  "nifty_resistance": 25650,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.53.",
-    "Universe breadth shows 116 advancing vs 58 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,700."
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.56.",
+    "Universe breadth shows 111 advancing vs 62 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
   ],
   "top_setups": [
     {
@@ -20,41 +20,41 @@
       "change_pct": 2.73
     },
     {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 178.47,
-      "trigger": 178.76,
-      "target1": 204.61,
-      "sl": 159.65,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9178.76 with Accumulation structure.",
-      "change_pct": 2.15
-    },
-    {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5523.5,
+      "current_price": 5525.5,
       "trigger": 5561.1,
-      "target1": 5924.75,
-      "sl": 5234.6,
+      "target1": 5927.58,
+      "sl": 5236.01,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 5.15
+      "change_pct": 5.19
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "name": "IDFC First Bank Ltd",
+      "current_price": 86.45,
+      "trigger": 84.09,
+      "target1": 101.74,
+      "sl": 75.44,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b984.09 with Accumulation structure.",
+      "change_pct": 4.85
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 09:01 AM",
+  "timestamp": "19 Nov 2026, 09:15 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25471.6,
-      "change_pct": 0.97,
+      "price": 25457.25,
+      "change_pct": 0.91,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82734.09,
-      "change_pct": 0.86,
+      "price": 82855.89,
+      "change_pct": 1.0,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.53,
-      "change_pct": -0.88,
+      "price": 82.56,
+      "change_pct": -0.84,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.28,
-      "change_pct": -0.21,
+      "price": 93.3,
+      "change_pct": -0.19,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 116,
-    "declines": 58,
+    "advances": 111,
+    "declines": 62,
     "total": 175
   }
 }
