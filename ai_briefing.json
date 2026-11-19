@@ -1,54 +1,54 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25050,
-  "nifty_resistance": 25450,
+  "nifty_support": 25000,
+  "nifty_resistance": 25400,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $81.86.",
-    "Universe breadth shows 50 advancing vs 125 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
+    "US Markets closed down 0.23% with Brent Crude hovering around $81.89.",
+    "Universe breadth shows 54 advancing vs 121 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,000 | Resistance cap at 25,400."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1533.6,
-      "trigger": 1508.01,
-      "target1": 1652.67,
-      "sl": 1447.87,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,508.01 with Accumulation structure.",
-      "change_pct": 4.51
+      "current_price": 1537.1,
+      "trigger": 1552.9,
+      "target1": 1680.52,
+      "sl": 1433.83,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,552.90 with Accumulation structure.",
+      "change_pct": 0.23
     },
     {
-      "symbol": "INOXINDIA",
-      "name": "INOX India Ltd",
-      "current_price": 2123.2,
-      "trigger": 2060.41,
-      "target1": 2384.94,
-      "sl": 1934.75,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b92,060.41 with Accumulation structure.",
-      "change_pct": 7.81
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 207.7,
+      "trigger": 210.12,
+      "target1": 243.25,
+      "sl": 182.11,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9210.12 with Accumulation structure.",
+      "change_pct": -0.1
     },
     {
-      "symbol": "PNBGILTS",
-      "name": "PNB Gilts Ltd",
-      "current_price": 80.34,
-      "trigger": 81.98,
-      "target1": 86.0,
-      "sl": 76.27,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b981.98 with Accumulation structure.",
-      "change_pct": 1.81
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "current_price": 807.35,
+      "trigger": 822.64,
+      "target1": 968.64,
+      "sl": 691.22,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9822.64 with Accumulation structure.",
+      "change_pct": -0.1
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Fineotex Chemical Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 03:31 AM",
+  "timestamp": "19 Nov 2026, 03:45 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25227.95,
-      "change_pct": -0.63,
+      "price": 25190.9,
+      "change_pct": -0.15,
       "status": "down"
     },
     "Sensex": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 81.86,
-      "change_pct": -4.83,
+      "price": 81.89,
+      "change_pct": -4.79,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.43,
-      "change_pct": -0.05,
+      "price": 93.41,
+      "change_pct": -0.07,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 50,
-    "declines": 125,
+    "advances": 54,
+    "declines": 121,
     "total": 175
   }
 }
