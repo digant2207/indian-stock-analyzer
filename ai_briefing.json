@@ -4,57 +4,57 @@
   "nifty_support": 25300,
   "nifty_resistance": 25700,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.24.",
-    "Universe breadth shows 119 advancing vs 55 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.28.",
+    "Universe breadth shows 115 advancing vs 58 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,700."
   ],
   "top_setups": [
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5536.0,
+      "current_price": 5556.0,
       "trigger": 5561.1,
-      "target1": 5942.53,
-      "sl": 5243.3,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 5.39
+      "target1": 5971.56,
+      "sl": 5256.8,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
+      "change_pct": 5.77
     },
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 183.6,
+      "current_price": 183.32,
       "trigger": 182.06,
-      "target1": 197.68,
-      "sl": 173.46,
+      "target1": 197.22,
+      "sl": 173.31,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b9182.06 with Accumulation structure.",
-      "change_pct": 3.64
+      "change_pct": 3.48
     },
     {
       "symbol": "IDFCFIRSTB",
       "name": "IDFC First Bank Ltd",
-      "current_price": 86.0,
+      "current_price": 86.05,
       "trigger": 84.09,
-      "target1": 101.06,
-      "sl": 75.15,
+      "target1": 101.14,
+      "sl": 75.19,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b984.09 with Accumulation structure.",
-      "change_pct": 4.31
+      "change_pct": 4.37
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 09:46 AM",
+  "timestamp": "19 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25503.7,
-      "change_pct": 1.09,
+      "price": 25514.3,
+      "change_pct": 1.14,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82821.99,
-      "change_pct": 0.96,
+      "price": 82905.35,
+      "change_pct": 1.06,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.24,
-      "change_pct": -1.23,
+      "price": 82.28,
+      "change_pct": -1.18,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.3,
-      "change_pct": -0.19,
+      "price": 93.28,
+      "change_pct": -0.21,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 119,
-    "declines": 55,
+    "advances": 115,
+    "declines": 58,
     "total": 175
   }
 }
