@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 25050,
   "nifty_resistance": 25450,
   "executive_bullets": [
-    "US Markets closed down 1.03% with Brent Crude hovering around $84.30.",
-    "Universe breadth shows 42 advancing vs 133 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $81.86.",
+    "Universe breadth shows 50 advancing vs 125 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,050 | Resistance cap at 25,450."
   ],
   "top_setups": [
@@ -30,20 +30,20 @@ window.AI_BRIEFING = {
       "change_pct": 7.81
     },
     {
-      "symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 174.72,
-      "trigger": 177.75,
-      "target1": 198.82,
-      "sl": 157.37,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
-      "change_pct": 0.93
+      "symbol": "PNBGILTS",
+      "name": "PNB Gilts Ltd",
+      "current_price": 80.34,
+      "trigger": 81.98,
+      "target1": 86.0,
+      "sl": 76.27,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b981.98 with Accumulation structure.",
+      "change_pct": 1.81
     }
   ],
   "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Fineotex Chemical Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "18 Nov 2026, 01:01 PM",
-  "date_tag": "2026-11-18",
+  "timestamp": "19 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7340.53,
-      "change_pct": -1.03,
+      "price": 7323.63,
+      "change_pct": -0.23,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 24328.38,
-      "change_pct": -0.74,
-      "status": "down"
+      "price": 24429.88,
+      "change_pct": 0.42,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.3,
-      "change_pct": -1.99,
+      "price": 81.86,
+      "change_pct": -4.83,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 93.43,
-      "change_pct": -0.57,
+      "change_pct": -0.05,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 42,
-    "declines": 133,
+    "advances": 50,
+    "declines": 125,
     "total": 175
   }
 };
