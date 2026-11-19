@@ -4,57 +4,57 @@
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.29.",
-    "Universe breadth shows 100 advancing vs 74 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.42.",
+    "Universe breadth shows 101 advancing vs 73 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 177.96,
+      "current_price": 178.17,
       "trigger": 177.75,
-      "target1": 203.44,
-      "sl": 159.61,
+      "target1": 203.76,
+      "sl": 159.75,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
-      "change_pct": 2.8
-    },
-    {
-      "symbol": "VOLTAS",
-      "name": "Voltas Ltd",
-      "current_price": 1209.1,
-      "trigger": 1178.35,
-      "target1": 1391.44,
-      "sl": 1077.82,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,178.35 with Accumulation structure.",
-      "change_pct": 6.57
+      "change_pct": 2.92
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5495.5,
+      "current_price": 5505.0,
       "trigger": 5561.1,
-      "target1": 5947.2,
-      "sl": 5170.27,
+      "target1": 5959.92,
+      "sl": 5177.46,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 3.12
+      "change_pct": 3.3
+    },
+    {
+      "symbol": "PNB",
+      "name": "Punjab National Bank",
+      "current_price": 154.3,
+      "trigger": 152.9,
+      "target1": 197.09,
+      "sl": 123.49,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9152.90 with Accumulation structure.",
+      "change_pct": 3.16
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 06:01 AM",
+  "timestamp": "19 Nov 2026, 06:16 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25329.1,
-      "change_pct": 0.4,
+      "price": 25337.6,
+      "change_pct": 0.43,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82285.58,
-      "change_pct": 0.31,
+      "price": 82332.55,
+      "change_pct": 0.37,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.29,
-      "change_pct": -1.17,
+      "price": 82.42,
+      "change_pct": -1.01,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.39,
-      "change_pct": -0.09,
+      "price": 93.33,
+      "change_pct": -0.15,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 100,
-    "declines": 74,
+    "advances": 101,
+    "declines": 73,
     "total": 175
   }
 }
