@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.49.",
-    "Universe breadth shows 101 advancing vs 72 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.47.",
+    "Universe breadth shows 96 advancing vs 78 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
       "symbol": "GPPL",
       "name": "Gujarat Pipavav Port Ltd",
-      "current_price": 178.69,
+      "current_price": 178.51,
       "trigger": 177.75,
-      "target1": 204.53,
-      "sl": 160.09,
+      "target1": 204.26,
+      "sl": 159.97,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9177.75 with Accumulation structure.",
-      "change_pct": 3.22
+      "change_pct": 3.12
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5507.0,
+      "current_price": 5509.5,
       "trigger": 5561.1,
-      "target1": 5962.62,
-      "sl": 5178.95,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 3.34
+      "target1": 5966.0,
+      "sl": 5180.82,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
+      "change_pct": 3.39
     },
     {
-      "symbol": "IDFCFIRSTB",
-      "name": "IDFC First Bank Ltd",
-      "current_price": 85.65,
-      "trigger": 84.09,
-      "target1": 100.54,
-      "sl": 74.93,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b984.09 with Accumulation structure.",
-      "change_pct": 3.88
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 182.05,
+      "trigger": 182.06,
+      "target1": 195.77,
+      "sl": 172.17,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9182.06 with Accumulation structure.",
+      "change_pct": 2.38
     }
   ],
   "risk_warning": "Defensive alert on Tata Communications, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 07:16 AM",
+  "timestamp": "19 Nov 2026, 07:31 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25357.2,
-      "change_pct": 0.51,
+      "price": 25371.55,
+      "change_pct": 0.57,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82487.17,
-      "change_pct": 0.56,
+      "price": 82477.86,
+      "change_pct": 0.54,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.49,
-      "change_pct": -0.92,
+      "price": 82.47,
+      "change_pct": -0.95,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.29,
-      "change_pct": -0.19,
+      "price": 93.35,
+      "change_pct": -0.13,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 101,
-    "declines": 72,
+    "advances": 96,
+    "declines": 78,
     "total": 175
   }
 };
