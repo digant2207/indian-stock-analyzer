@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25250,
   "nifty_resistance": 25650,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.56.",
-    "Universe breadth shows 111 advancing vs 62 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.77.",
+    "Universe breadth shows 113 advancing vs 60 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
   ],
   "top_setups": [
     {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 182.0,
-      "trigger": 182.06,
-      "target1": 195.11,
-      "sl": 172.56,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9182.06 with Accumulation structure.",
-      "change_pct": 2.73
+      "symbol": "GPPL",
+      "name": "Gujarat Pipavav Port Ltd",
+      "current_price": 178.55,
+      "trigger": 178.76,
+      "target1": 204.72,
+      "sl": 159.71,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9178.76 with Accumulation structure.",
+      "change_pct": 2.19
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5525.5,
+      "current_price": 5531.5,
       "trigger": 5561.1,
-      "target1": 5927.58,
-      "sl": 5236.01,
+      "target1": 5936.1,
+      "sl": 5240.19,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b95,561.10 with Accumulation structure.",
-      "change_pct": 5.19
+      "change_pct": 5.3
     },
     {
-      "symbol": "IDFCFIRSTB",
-      "name": "IDFC First Bank Ltd",
-      "current_price": 86.45,
-      "trigger": 84.09,
-      "target1": 101.74,
-      "sl": 75.44,
-      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b984.09 with Accumulation structure.",
-      "change_pct": 4.85
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 183.95,
+      "trigger": 182.06,
+      "target1": 198.26,
+      "sl": 173.65,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b9182.06 with Accumulation structure.",
+      "change_pct": 3.83
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 09:15 AM",
+  "timestamp": "19 Nov 2026, 09:31 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25457.25,
-      "change_pct": 0.91,
+      "price": 25455.3,
+      "change_pct": 0.9,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82855.89,
-      "change_pct": 1.0,
+      "price": 82807.32,
+      "change_pct": 0.95,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.56,
-      "change_pct": -0.84,
+      "price": 82.77,
+      "change_pct": -0.59,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.3,
-      "change_pct": -0.19,
+      "price": 93.23,
+      "change_pct": -0.26,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 111,
-    "declines": 62,
+    "advances": 113,
+    "declines": 60,
     "total": 175
   }
 };
