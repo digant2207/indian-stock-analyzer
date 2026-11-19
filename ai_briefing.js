@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 25300,
   "nifty_resistance": 25700,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $82.28.",
-    "Universe breadth shows 115 advancing vs 58 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.23% with Brent Crude hovering around $82.72.",
+    "Universe breadth shows 117 advancing vs 57 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,700."
   ],
   "top_setups": [
@@ -22,12 +22,12 @@ window.AI_BRIEFING = {
     {
       "symbol": "ITCHOTELS",
       "name": "ITC Hotels Ltd",
-      "current_price": 183.32,
+      "current_price": 183.66,
       "trigger": 182.06,
-      "target1": 197.22,
-      "sl": 173.31,
+      "target1": 197.78,
+      "sl": 173.5,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b9182.06 with Accumulation structure.",
-      "change_pct": 3.48
+      "change_pct": 3.67
     },
     {
       "symbol": "IDFCFIRSTB",
@@ -40,9 +40,9 @@ window.AI_BRIEFING = {
       "change_pct": 4.37
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 10:01 AM",
+  "timestamp": "19 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-19",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82905.35,
-      "change_pct": 1.06,
+      "price": 83021.75,
+      "change_pct": 1.21,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.28,
-      "change_pct": -1.18,
+      "price": 82.72,
+      "change_pct": -0.65,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.28,
-      "change_pct": -0.21,
+      "price": 93.29,
+      "change_pct": -0.2,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 115,
-    "declines": 58,
+    "advances": 117,
+    "declines": 57,
     "total": 175
   }
 };
