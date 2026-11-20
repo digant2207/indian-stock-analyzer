@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 10:16 AM",
+  "timestamp": "20 Nov 2026, 10:31 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
