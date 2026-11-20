@@ -1,11 +1,11 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 25300,
   "nifty_resistance": 25700,
   "executive_bullets": [
-    "US Markets closed down 0.23% with Brent Crude hovering around $83.25.",
-    "Universe breadth shows 117 advancing vs 57 declining stocks across 175 scanned equities.",
+    "US Markets closed down 2.02% with Brent Crude hovering around $82.77.",
+    "Universe breadth shows 95 advancing vs 79 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,700."
   ],
   "top_setups": [
@@ -40,10 +40,10 @@ window.AI_BRIEFING = {
       "change_pct": 4.37
     }
   ],
-  "risk_warning": "Defensive alert on Dishman Carbogen Amcis Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Housing Finance Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "19 Nov 2026, 01:00 PM",
-  "date_tag": "2026-11-19",
+  "timestamp": "20 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7323.63,
-      "change_pct": -0.23,
+      "price": 7175.83,
+      "change_pct": -2.02,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 24429.88,
-      "change_pct": 0.42,
-      "status": "up"
+      "price": 23879.2,
+      "change_pct": -2.25,
+      "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.25,
-      "change_pct": -0.01,
+      "price": 82.77,
+      "change_pct": -0.59,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.29,
-      "change_pct": -0.2,
+      "price": 93.19,
+      "change_pct": -0.29,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 117,
-    "declines": 57,
+    "advances": 95,
+    "declines": 79,
     "total": 175
   }
 };
