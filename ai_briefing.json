@@ -2,59 +2,59 @@
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 25550,
-  "nifty_resistance": 25950,
+  "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $81.48.",
-    "Universe breadth shows 72 advancing vs 103 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,550 | Resistance cap at 25,950."
+    "US Markets closed down 2.02% with Brent Crude hovering around $81.49.",
+    "Universe breadth shows 71 advancing vs 103 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,550 | Resistance cap at 26,000."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1574.4,
+      "current_price": 1580.7,
       "trigger": 1556.81,
-      "target1": 1745.99,
-      "sl": 1450.86,
+      "target1": 1756.31,
+      "sl": 1454.26,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,556.81 with Accumulation structure.",
-      "change_pct": 4.22
+      "change_pct": 4.64
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 847.8,
+      "current_price": 849.3,
       "trigger": 825.91,
-      "target1": 999.86,
-      "sl": 738.32,
+      "target1": 1001.95,
+      "sl": 739.39,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9825.91 with Accumulation structure.",
-      "change_pct": 3.16
+      "change_pct": 3.35
     },
     {
-      "symbol": "COFORGE",
-      "name": "Coforge Ltd",
-      "current_price": 2089.9,
-      "trigger": 2132.16,
-      "target1": 2186.14,
-      "sl": 2020.61,
-      "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
-      "change_pct": 2.4
+      "symbol": "UNIONBANK",
+      "name": "Union Bank of India",
+      "current_price": 217.05,
+      "trigger": 211.05,
+      "target1": 257.38,
+      "sl": 188.01,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9211.05 with Accumulation structure.",
+      "change_pct": 3.36
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, L&T Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 09:15 AM",
+  "timestamp": "20 Nov 2026, 09:31 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25737.8,
-      "change_pct": 0.88,
+      "price": 25773.5,
+      "change_pct": 1.02,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83866.46,
-      "change_pct": 1.02,
+      "price": 83779.9,
+      "change_pct": 0.91,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 81.48,
-      "change_pct": -2.08,
+      "price": 81.49,
+      "change_pct": -2.07,
       "status": "down"
     },
     "USD/INR": {
@@ -83,7 +83,7 @@
     }
   },
   "market_breadth": {
-    "advances": 72,
+    "advances": 71,
     "declines": 103,
     "total": 175
   }
