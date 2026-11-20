@@ -4,20 +4,20 @@ window.AI_BRIEFING = {
   "nifty_support": 25600,
   "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $80.92.",
-    "Universe breadth shows 72 advancing vs 102 declining stocks across 175 scanned equities.",
+    "US Markets closed down 2.02% with Brent Crude hovering around $81.06.",
+    "Universe breadth shows 76 advancing vs 97 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1556.3,
+      "current_price": 1572.3,
       "trigger": 1556.81,
-      "target1": 1717.05,
-      "sl": 1440.56,
+      "target1": 1742.57,
+      "sl": 1449.7,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,556.81 with Accumulation structure.",
-      "change_pct": 3.03
+      "change_pct": 4.08
     },
     {
       "symbol": "HDFCBANK",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 10:01 AM",
+  "timestamp": "20 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83980.04,
-      "change_pct": 1.15,
+      "price": 83919.71,
+      "change_pct": 1.08,
       "status": "up"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 80.92,
-      "change_pct": -2.75,
+      "price": 81.06,
+      "change_pct": -2.58,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 72,
-    "declines": 102,
+    "advances": 76,
+    "declines": 97,
     "total": 175
   }
 };
