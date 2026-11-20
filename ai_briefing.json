@@ -4,57 +4,57 @@
   "nifty_support": 25350,
   "nifty_resistance": 25750,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $83.03.",
-    "Universe breadth shows 73 advancing vs 99 declining stocks across 175 scanned equities.",
+    "US Markets closed down 2.02% with Brent Crude hovering around $82.84.",
+    "Universe breadth shows 74 advancing vs 100 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,350 | Resistance cap at 25,750."
   ],
   "top_setups": [
     {
+      "symbol": "VIJAYA",
+      "name": "Vijaya Diagnostic Centre Ltd",
+      "current_price": 1572.7,
+      "trigger": 1552.9,
+      "target1": 1737.91,
+      "sl": 1453.75,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,552.90 with Accumulation structure.",
+      "change_pct": 2.55
+    },
+    {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2173.9,
+      "current_price": 2145.9,
       "trigger": 2132.16,
-      "target1": 2322.44,
-      "sl": 2066.95,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
-      "change_pct": 6.1
+      "target1": 2273.61,
+      "sl": 2053.95,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
+      "change_pct": 4.73
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1076.8,
+      "current_price": 1074.15,
       "trigger": 1045.04,
-      "target1": 1300.14,
-      "sl": 916.0,
+      "target1": 1296.0,
+      "sl": 914.42,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,045.04 with Accumulation structure.",
-      "change_pct": 5.27
-    },
-    {
-      "symbol": "SIGACHI",
-      "name": "Sigachi Industries Ltd",
-      "current_price": 29.45,
-      "trigger": 29.3,
-      "target1": 32.95,
-      "sl": 26.93,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b929.30 with Accumulation structure.",
-      "change_pct": 4.03
+      "change_pct": 5.02
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 05:16 AM",
+  "timestamp": "20 Nov 2026, 05:31 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25549.55,
-      "change_pct": 0.14,
+      "price": 25544.25,
+      "change_pct": 0.12,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83083.37,
-      "change_pct": 0.07,
+      "price": 83170.76,
+      "change_pct": 0.18,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.03,
-      "change_pct": -0.22,
+      "price": 82.84,
+      "change_pct": -0.44,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.93,
-      "change_pct": -0.57,
+      "price": 93.03,
+      "change_pct": -0.46,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 73,
-    "declines": 99,
+    "advances": 74,
+    "declines": 100,
     "total": 175
   }
 }
