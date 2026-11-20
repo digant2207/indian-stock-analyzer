@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25500,
   "nifty_resistance": 25900,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $82.91.",
-    "Universe breadth shows 87 advancing vs 88 declining stocks across 175 scanned equities.",
+    "US Markets closed down 2.02% with Brent Crude hovering around $83.05.",
+    "Universe breadth shows 87 advancing vs 87 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,900."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1578.4,
+      "current_price": 1579.6,
       "trigger": 1552.9,
-      "target1": 1747.49,
-      "sl": 1456.66,
+      "target1": 1749.52,
+      "sl": 1457.26,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,552.90 with Accumulation structure.",
-      "change_pct": 2.92
+      "change_pct": 3.0
     },
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2122.6,
+      "current_price": 2118.7,
       "trigger": 2132.16,
-      "target1": 2235.0,
-      "sl": 2041.67,
+      "target1": 2228.78,
+      "sl": 2039.44,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
-      "change_pct": 3.59
+      "change_pct": 3.4
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1072.45,
+      "current_price": 1082.55,
       "trigger": 1045.04,
-      "target1": 1293.35,
-      "sl": 913.4,
+      "target1": 1309.19,
+      "sl": 919.37,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,045.04 with Accumulation structure.",
-      "change_pct": 4.85
+      "change_pct": 5.84
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 07:01 AM",
+  "timestamp": "20 Nov 2026, 07:16 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25691.05,
-      "change_pct": 0.69,
+      "price": 25714.4,
+      "change_pct": 0.78,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83509.99,
-      "change_pct": 0.59,
+      "price": 83629.2,
+      "change_pct": 0.73,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.91,
-      "change_pct": -0.36,
+      "price": 83.05,
+      "change_pct": -0.19,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.96,
-      "change_pct": -0.54,
+      "price": 92.98,
+      "change_pct": -0.52,
       "status": "down"
     }
   },
   "market_breadth": {
     "advances": 87,
-    "declines": 88,
+    "declines": 87,
     "total": 175
   }
 };
