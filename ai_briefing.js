@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25200,
-  "nifty_resistance": 25650,
+  "nifty_support": 25300,
+  "nifty_resistance": 25700,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $83.05.",
-    "Universe breadth shows 58 advancing vs 115 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,650."
+    "US Markets closed down 2.02% with Brent Crude hovering around $83.17.",
+    "Universe breadth shows 72 advancing vs 101 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,700."
   ],
   "top_setups": [
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5524.0,
+      "current_price": 5550.5,
       "trigger": 5583.78,
-      "target1": 5913.6,
-      "sl": 5243.49,
+      "target1": 5950.15,
+      "sl": 5262.75,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,583.78 with Accumulation structure.",
-      "change_pct": -0.58
+      "change_pct": -0.1
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 360.75,
+      "current_price": 363.4,
       "trigger": 369.64,
-      "target1": 406.54,
-      "sl": 327.78,
+      "target1": 409.77,
+      "sl": 330.02,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9369.64 with Accumulation structure.",
-      "change_pct": -1.03
+      "change_pct": -0.3
     },
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2105.0,
+      "current_price": 2096.3,
       "trigger": 2132.16,
-      "target1": 2207.62,
-      "sl": 2031.11,
+      "target1": 2194.81,
+      "sl": 2025.37,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
-      "change_pct": 2.73
+      "change_pct": 2.31
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 04:01 AM",
+  "timestamp": "20 Nov 2026, 04:16 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25426.95,
-      "change_pct": -0.34,
-      "status": "down"
+      "price": 25517.75,
+      "change_pct": 0.01,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82633.45,
-      "change_pct": -0.47,
+      "price": 82765.44,
+      "change_pct": -0.31,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.05,
-      "change_pct": -0.25,
+      "price": 83.17,
+      "change_pct": -0.11,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 93.15,
-      "change_pct": -0.34,
+      "price": 93.18,
+      "change_pct": -0.31,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 58,
-    "declines": 115,
+    "advances": 72,
+    "declines": 101,
     "total": 175
   }
 };
