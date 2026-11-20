@@ -2,59 +2,59 @@
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 25500,
-  "nifty_resistance": 25900,
+  "nifty_resistance": 25950,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $83.05.",
-    "Universe breadth shows 87 advancing vs 87 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,900."
+    "US Markets closed down 2.02% with Brent Crude hovering around $83.03.",
+    "Universe breadth shows 88 advancing vs 87 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,950."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1579.6,
+      "current_price": 1569.8,
       "trigger": 1552.9,
-      "target1": 1749.52,
-      "sl": 1457.26,
+      "target1": 1733.07,
+      "sl": 1452.24,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,552.90 with Accumulation structure.",
-      "change_pct": 3.0
+      "change_pct": 2.36
     },
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2118.7,
+      "current_price": 2112.2,
       "trigger": 2132.16,
-      "target1": 2228.78,
-      "sl": 2039.44,
+      "target1": 2218.6,
+      "sl": 2035.59,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
-      "change_pct": 3.4
+      "change_pct": 3.08
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1082.55,
+      "current_price": 1081.55,
       "trigger": 1045.04,
-      "target1": 1309.19,
-      "sl": 919.37,
+      "target1": 1307.61,
+      "sl": 918.79,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,045.04 with Accumulation structure.",
-      "change_pct": 5.84
+      "change_pct": 5.74
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 07:16 AM",
+  "timestamp": "20 Nov 2026, 07:31 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25714.4,
-      "change_pct": 0.78,
+      "price": 25721.45,
+      "change_pct": 0.81,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83629.2,
-      "change_pct": 0.73,
+      "price": 83707.99,
+      "change_pct": 0.83,
       "status": "up"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.05,
-      "change_pct": -0.19,
+      "price": 83.03,
+      "change_pct": -0.22,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.98,
-      "change_pct": -0.52,
+      "price": 92.94,
+      "change_pct": -0.56,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 87,
+    "advances": 88,
     "declines": 87,
     "total": 175
   }
