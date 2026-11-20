@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25500,
   "nifty_resistance": 25900,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $82.74.",
-    "Universe breadth shows 86 advancing vs 88 declining stocks across 175 scanned equities.",
+    "US Markets closed down 2.02% with Brent Crude hovering around $82.48.",
+    "Universe breadth shows 88 advancing vs 86 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,900."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1570.8,
+      "current_price": 1574.3,
       "trigger": 1552.9,
-      "target1": 1734.74,
-      "sl": 1452.76,
+      "target1": 1740.59,
+      "sl": 1454.57,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,552.90 with Accumulation structure.",
-      "change_pct": 2.43
+      "change_pct": 2.65
     },
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2111.9,
+      "current_price": 2103.6,
       "trigger": 2132.16,
-      "target1": 2218.14,
-      "sl": 2035.41,
+      "target1": 2205.52,
+      "sl": 2030.22,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
-      "change_pct": 3.07
+      "change_pct": 2.66
     },
     {
       "symbol": "MAXHEALTH",
       "name": "Max Healthcare Institute",
-      "current_price": 1080.7,
+      "current_price": 1085.85,
       "trigger": 1045.04,
-      "target1": 1306.27,
-      "sl": 918.29,
+      "target1": 1314.43,
+      "sl": 921.27,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,045.04 with Accumulation structure.",
-      "change_pct": 5.66
+      "change_pct": 6.16
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 07:46 AM",
+  "timestamp": "20 Nov 2026, 08:01 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25716.55,
-      "change_pct": 0.79,
+      "price": 25699.1,
+      "change_pct": 0.72,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83725.71,
-      "change_pct": 0.85,
+      "price": 83735.87,
+      "change_pct": 0.86,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.74,
-      "change_pct": -0.56,
+      "price": 82.48,
+      "change_pct": -0.88,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.84,
-      "change_pct": -0.67,
+      "price": 92.82,
+      "change_pct": -0.69,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 86,
-    "declines": 88,
+    "advances": 88,
+    "declines": 86,
     "total": 175
   }
 };
