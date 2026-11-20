@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25600,
   "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $81.19.",
-    "Universe breadth shows 76 advancing vs 97 declining stocks across 175 scanned equities.",
+    "US Markets closed down 2.02% with Brent Crude hovering around $80.92.",
+    "Universe breadth shows 72 advancing vs 102 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1572.8,
+      "current_price": 1556.3,
       "trigger": 1556.81,
-      "target1": 1743.39,
-      "sl": 1449.98,
+      "target1": 1717.05,
+      "sl": 1440.56,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,556.81 with Accumulation structure.",
-      "change_pct": 4.12
+      "change_pct": 3.03
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 849.05,
+      "current_price": 846.0,
       "trigger": 825.91,
-      "target1": 1001.6,
-      "sl": 739.21,
+      "target1": 997.36,
+      "sl": 737.02,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9825.91 with Accumulation structure.",
-      "change_pct": 3.32
+      "change_pct": 2.94
     },
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "current_price": 216.86,
+      "current_price": 218.85,
       "trigger": 211.05,
-      "target1": 257.1,
-      "sl": 187.89,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b9211.05 with Accumulation structure.",
-      "change_pct": 3.27
+      "target1": 260.03,
+      "sl": 189.2,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9211.05 with Accumulation structure.",
+      "change_pct": 4.21
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 09:46 AM",
+  "timestamp": "20 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25784.75,
-      "change_pct": 1.06,
+      "price": 25800.6,
+      "change_pct": 1.12,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83919.71,
-      "change_pct": 1.08,
+      "price": 83980.04,
+      "change_pct": 1.15,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 81.19,
-      "change_pct": -2.43,
+      "price": 80.92,
+      "change_pct": -2.75,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.65,
-      "change_pct": -0.87,
+      "price": 92.66,
+      "change_pct": -0.86,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 76,
-    "declines": 97,
+    "advances": 72,
+    "declines": 102,
     "total": 175
   }
 };
