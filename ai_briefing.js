@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25550,
   "nifty_resistance": 25950,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $82.67.",
-    "Universe breadth shows 82 advancing vs 90 declining stocks across 175 scanned equities.",
+    "US Markets closed down 2.02% with Brent Crude hovering around $82.32.",
+    "Universe breadth shows 85 advancing vs 89 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,550 | Resistance cap at 25,950."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1573.3,
+      "current_price": 1576.6,
       "trigger": 1552.9,
-      "target1": 1738.91,
-      "sl": 1454.06,
+      "target1": 1744.45,
+      "sl": 1455.75,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,552.90 with Accumulation structure.",
-      "change_pct": 2.59
+      "change_pct": 2.8
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "current_price": 847.6,
+      "trigger": 825.91,
+      "target1": 999.58,
+      "sl": 738.17,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9825.91 with Accumulation structure.",
+      "change_pct": 3.14
     },
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2110.1,
+      "current_price": 2105.4,
       "trigger": 2132.16,
-      "target1": 2215.37,
-      "sl": 2034.31,
+      "target1": 2208.22,
+      "sl": 2031.37,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
-      "change_pct": 2.98
-    },
-    {
-      "symbol": "MAXHEALTH",
-      "name": "Max Healthcare Institute",
-      "current_price": 1085.1,
-      "trigger": 1045.04,
-      "target1": 1313.24,
-      "sl": 920.84,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,045.04 with Accumulation structure.",
-      "change_pct": 6.09
+      "change_pct": 2.75
     }
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Acme Solar Holdings Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 08:16 AM",
+  "timestamp": "20 Nov 2026, 08:31 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25738.1,
-      "change_pct": 0.88,
+      "price": 25750.2,
+      "change_pct": 0.92,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83649.87,
-      "change_pct": 0.76,
+      "price": 83784.15,
+      "change_pct": 0.92,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.67,
-      "change_pct": -0.65,
+      "price": 82.32,
+      "change_pct": -1.07,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.88,
-      "change_pct": -0.62,
+      "price": 92.85,
+      "change_pct": -0.66,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 82,
-    "declines": 90,
+    "advances": 85,
+    "declines": 89,
     "total": 175
   }
 };
