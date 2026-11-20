@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25300,
+  "nifty_support": 25350,
   "nifty_resistance": 25750,
   "executive_bullets": [
-    "US Markets closed down 2.02% with Brent Crude hovering around $83.21.",
-    "Universe breadth shows 68 advancing vs 105 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,750."
+    "US Markets closed down 2.02% with Brent Crude hovering around $83.03.",
+    "Universe breadth shows 73 advancing vs 99 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,350 | Resistance cap at 25,750."
   ],
   "top_setups": [
     {
+      "symbol": "COFORGE",
+      "name": "Coforge Ltd",
+      "current_price": 2173.9,
+      "trigger": 2132.16,
+      "target1": 2322.44,
+      "sl": 2066.95,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,132.16 with Accumulation structure.",
+      "change_pct": 6.1
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "name": "Max Healthcare Institute",
+      "current_price": 1076.8,
+      "trigger": 1045.04,
+      "target1": 1300.14,
+      "sl": 916.0,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,045.04 with Accumulation structure.",
+      "change_pct": 5.27
+    },
+    {
       "symbol": "SIGACHI",
       "name": "Sigachi Industries Ltd",
-      "current_price": 29.55,
+      "current_price": 29.45,
       "trigger": 29.3,
-      "target1": 33.1,
-      "sl": 26.99,
+      "target1": 32.95,
+      "sl": 26.93,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b929.30 with Accumulation structure.",
-      "change_pct": 4.38
-    },
-    {
-      "symbol": "RAINBOW",
-      "name": "Rainbow Children's Medicare Ltd",
-      "current_price": 1272.8,
-      "trigger": 1302.1,
-      "target1": 1345.17,
-      "sl": 1220.7,
-      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,302.10 with Accumulation structure.",
-      "change_pct": 1.18
-    },
-    {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero Motocorp Ltd",
-      "current_price": 5578.5,
-      "trigger": 5583.78,
-      "target1": 5990.22,
-      "sl": 5282.06,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,583.78 with Accumulation structure.",
-      "change_pct": 0.4
+      "change_pct": 4.03
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "20 Nov 2026, 05:01 AM",
+  "timestamp": "20 Nov 2026, 05:16 AM",
   "date_tag": "2026-11-20",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25527.2,
-      "change_pct": 0.05,
+      "price": 25549.55,
+      "change_pct": 0.14,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83024.29,
-      "change_pct": 0.0,
+      "price": 83083.37,
+      "change_pct": 0.07,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.21,
-      "change_pct": -0.06,
+      "price": 83.03,
+      "change_pct": -0.22,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.96,
-      "change_pct": -0.54,
+      "price": 92.93,
+      "change_pct": -0.57,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 68,
-    "declines": 105,
+    "advances": 73,
+    "declines": 99,
     "total": 175
   }
 };
