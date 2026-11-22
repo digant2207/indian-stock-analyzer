@@ -4,7 +4,7 @@
   "nifty_support": 25600,
   "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.98.",
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.41.",
     "Universe breadth shows 76 advancing vs 98 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
   ],
@@ -42,8 +42,8 @@
   ],
   "risk_warning": "Defensive alert on Muthoot Finance Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "21 Nov 2026, 10:00 AM",
-  "date_tag": "2026-11-21",
+  "timestamp": "22 Nov 2026, 10:01 AM",
+  "date_tag": "2026-11-22",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.98,
-      "change_pct": 0.93,
+      "price": 83.41,
+      "change_pct": 0.24,
       "status": "up"
     },
     "USD/INR": {
