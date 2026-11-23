@@ -4,57 +4,57 @@
   "nifty_support": 25300,
   "nifty_resistance": 25700,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.19.",
-    "Universe breadth shows 45 advancing vs 130 declining stocks across 175 scanned equities.",
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.02.",
+    "Universe breadth shows 44 advancing vs 130 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,700."
   ],
   "top_setups": [
     {
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 367.0,
+      "trigger": 375.37,
+      "target1": 415.72,
+      "sl": 331.92,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9375.37 with Accumulation structure.",
+      "change_pct": -1.74
+    },
+    {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1588.9,
+      "current_price": 1577.0,
       "trigger": 1590.17,
-      "target1": 1795.42,
-      "sl": 1440.21,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": 1.06
+      "target1": 1777.22,
+      "sl": 1432.84,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
+      "change_pct": 0.3
     },
     {
       "symbol": "PERSISTENT",
       "name": "Persistent Systems Ltd",
-      "current_price": 6265.0,
+      "current_price": 6289.0,
       "trigger": 6252.48,
-      "target1": 6652.95,
-      "sl": 5985.68,
+      "target1": 6692.09,
+      "sl": 5998.77,
       "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b96,252.48 with Accumulation structure.",
-      "change_pct": 2.3
-    },
-    {
-      "symbol": "POLICYBZR",
-      "name": "PB Fintech Ltd",
-      "current_price": 1099.0,
-      "trigger": 1123.64,
-      "target1": 1304.62,
-      "sl": 950.95,
-      "rationale": "High Technical Score (27.0/100), 0.0% to Buy Trigger \u20b91,123.64 with Accumulation structure.",
-      "change_pct": 7.45
+      "change_pct": 2.69
     }
   ],
   "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 07:01 AM",
+  "timestamp": "23 Nov 2026, 07:16 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25510.95,
+      "price": 25510.55,
       "change_pct": -1.12,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82998.78,
-      "change_pct": -1.1,
+      "price": 82928.64,
+      "change_pct": -1.18,
       "status": "down"
     },
     "S&P 500": {
@@ -71,19 +71,19 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.19,
-      "change_pct": -0.94,
+      "price": 83.02,
+      "change_pct": -1.14,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.79,
-      "change_pct": -0.55,
+      "price": 92.87,
+      "change_pct": -0.46,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 45,
+    "advances": 44,
     "declines": 130,
     "total": 175
   }
