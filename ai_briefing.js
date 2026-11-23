@@ -1,54 +1,54 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25600,
-  "nifty_resistance": 26000,
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
+  "nifty_support": 25750,
+  "nifty_resistance": 26200,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.15.",
-    "Universe breadth shows 76 advancing vs 98 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.28.",
+    "Universe breadth shows 140 advancing vs 32 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,750 | Resistance cap at 26,200."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1572.3,
-      "trigger": 1556.81,
-      "target1": 1742.57,
-      "sl": 1449.7,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b91,556.81 with Accumulation structure.",
-      "change_pct": 4.08
+      "current_price": 1569.8,
+      "trigger": 1590.17,
+      "target1": 1766.43,
+      "sl": 1428.22,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
+      "change_pct": -0.16
     },
     {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 846.0,
-      "trigger": 825.91,
-      "target1": 997.36,
-      "sl": 737.02,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9825.91 with Accumulation structure.",
-      "change_pct": 2.94
+      "symbol": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
+      "current_price": 5542.0,
+      "trigger": 5607.19,
+      "target1": 5905.22,
+      "sl": 5280.48,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
+      "change_pct": 0.11
     },
     {
-      "symbol": "UNIONBANK",
-      "name": "Union Bank of India",
-      "current_price": 218.85,
-      "trigger": 211.05,
-      "target1": 260.03,
-      "sl": 189.2,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b9211.05 with Accumulation structure.",
-      "change_pct": 4.21
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 375.25,
+      "trigger": 375.37,
+      "target1": 426.59,
+      "sl": 338.29,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9375.37 with Accumulation structure.",
+      "change_pct": 0.47
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Dishman Carbogen Amcis Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 03:31 AM",
+  "timestamp": "23 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25800.6,
-      "change_pct": 1.12,
+      "price": 25974.1,
+      "change_pct": 0.67,
       "status": "up"
     },
     "Sensex": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.15,
-      "change_pct": -0.99,
+      "price": 83.28,
+      "change_pct": -0.83,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.44,
-      "change_pct": -0.92,
+      "price": 92.56,
+      "change_pct": -0.79,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 76,
-    "declines": 98,
+    "advances": 140,
+    "declines": 32,
     "total": 175
   }
 };
