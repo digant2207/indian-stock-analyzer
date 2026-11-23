@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.32.",
-    "Universe breadth shows 38 advancing vs 137 declining stocks across 175 scanned equities.",
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.12.",
+    "Universe breadth shows 36 advancing vs 138 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
@@ -22,12 +22,12 @@ window.AI_BRIEFING = {
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1562.0,
+      "current_price": 1572.6,
       "trigger": 1590.17,
-      "target1": 1754.96,
-      "sl": 1423.07,
+      "target1": 1770.61,
+      "sl": 1430.04,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": -0.66
+      "change_pct": 0.02
     },
     {
       "symbol": "COFORGE",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Saksoft Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 10:01 AM",
+  "timestamp": "23 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82454.24,
-      "change_pct": -1.75,
+      "price": 82435.99,
+      "change_pct": -1.77,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.32,
-      "change_pct": -0.79,
+      "price": 83.12,
+      "change_pct": -1.02,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 38,
-    "declines": 137,
+    "advances": 36,
+    "declines": 138,
     "total": 175
   }
 };
