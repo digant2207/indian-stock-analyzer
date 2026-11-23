@@ -1,33 +1,33 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25500,
+  "nifty_support": 25450,
   "nifty_resistance": 25900,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.22.",
-    "Universe breadth shows 56 advancing vs 119 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,900."
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.48.",
+    "Universe breadth shows 51 advancing vs 122 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,450 | Resistance cap at 25,900."
   ],
   "top_setups": [
     {
-      "symbol": "VIJAYA",
-      "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1587.8,
-      "trigger": 1590.17,
-      "target1": 1793.72,
-      "sl": 1439.54,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": 0.99
-    },
-    {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5500.5,
+      "current_price": 5512.5,
       "trigger": 5607.19,
-      "target1": 5850.92,
-      "sl": 5248.19,
+      "target1": 5866.21,
+      "sl": 5257.83,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
-      "change_pct": -0.64
+      "change_pct": -0.42
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 367.5,
+      "trigger": 375.37,
+      "target1": 416.34,
+      "sl": 332.33,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9375.37 with Accumulation structure.",
+      "change_pct": -1.61
     },
     {
       "symbol": "NYKAA",
@@ -42,20 +42,20 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 04:01 AM",
+  "timestamp": "23 Nov 2026, 04:16 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25693.05,
-      "change_pct": -0.42,
+      "price": 25671.75,
+      "change_pct": -0.5,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84552.23,
-      "change_pct": 0.75,
-      "status": "up"
+      "price": 83637.07,
+      "change_pct": -0.34,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.22,
-      "change_pct": -0.9,
+      "price": 83.48,
+      "change_pct": -0.6,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.84,
-      "change_pct": -0.49,
+      "price": 92.88,
+      "change_pct": -0.44,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 56,
-    "declines": 119,
+    "advances": 51,
+    "declines": 122,
     "total": 175
   }
 };
