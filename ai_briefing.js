@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25300,
-  "nifty_resistance": 25700,
+  "nifty_support": 25250,
+  "nifty_resistance": 25650,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.04.",
+    "US Markets closed down 3.70% with Brent Crude hovering around $82.98.",
     "Universe breadth shows 40 advancing vs 134 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,300 | Resistance cap at 25,700."
+    "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
   ],
   "top_setups": [
     {
-      "symbol": "VIJAYA",
-      "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1567.9,
-      "trigger": 1590.17,
-      "target1": 1763.62,
-      "sl": 1426.98,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": -0.28
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 366.3,
+      "trigger": 375.37,
+      "target1": 414.85,
+      "sl": 331.35,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9375.37 with Accumulation structure.",
+      "change_pct": -1.93
     },
     {
-      "symbol": "IDFCFIRSTB",
-      "name": "IDFC First Bank Ltd",
-      "current_price": 86.11,
-      "trigger": 87.78,
-      "target1": 101.44,
-      "sl": 75.08,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b987.78 with Accumulation structure.",
-      "change_pct": -1.32
+      "symbol": "VIJAYA",
+      "name": "Vijaya Diagnostic Centre Ltd",
+      "current_price": 1562.2,
+      "trigger": 1590.17,
+      "target1": 1755.25,
+      "sl": 1423.21,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
+      "change_pct": -0.64
     },
     {
       "symbol": "PERSISTENT",
       "name": "Persistent Systems Ltd",
-      "current_price": 6295.0,
+      "current_price": 6278.5,
       "trigger": 6252.48,
-      "target1": 6702.0,
-      "sl": 6001.96,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b96,252.48 with Accumulation structure.",
-      "change_pct": 2.79
+      "target1": 6674.87,
+      "sl": 5993.11,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b96,252.48 with Accumulation structure.",
+      "change_pct": 2.52
     }
   ],
   "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 07:31 AM",
+  "timestamp": "23 Nov 2026, 07:46 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25479.85,
-      "change_pct": -1.24,
+      "price": 25458.3,
+      "change_pct": -1.33,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82966.3,
-      "change_pct": -1.14,
+      "price": 82863.64,
+      "change_pct": -1.26,
       "status": "down"
     },
     "S&P 500": {
@@ -71,14 +71,14 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.04,
-      "change_pct": -1.12,
+      "price": 82.98,
+      "change_pct": -1.19,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.85,
-      "change_pct": -0.48,
+      "price": 92.89,
+      "change_pct": -0.43,
       "status": "down"
     }
   },
