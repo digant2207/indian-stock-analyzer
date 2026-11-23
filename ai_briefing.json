@@ -1,60 +1,60 @@
 {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25250,
-  "nifty_resistance": 25650,
+  "nifty_support": 25200,
+  "nifty_resistance": 25600,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $82.62.",
-    "Universe breadth shows 44 advancing vs 131 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,250 | Resistance cap at 25,650."
+    "US Markets closed down 3.70% with Brent Crude hovering around $82.64.",
+    "Universe breadth shows 41 advancing vs 134 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,200 | Resistance cap at 25,600."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1560.0,
+      "current_price": 1566.3,
       "trigger": 1590.17,
-      "target1": 1752.05,
-      "sl": 1421.72,
+      "target1": 1761.26,
+      "sl": 1425.93,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": -0.78
+      "change_pct": -0.38
+    },
+    {
+      "symbol": "COFORGE",
+      "name": "Coforge Ltd",
+      "current_price": 2150.0,
+      "trigger": 2182.16,
+      "target1": 2277.53,
+      "sl": 2058.18,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b92,182.16 with Accumulation structure.",
+      "change_pct": 3.03
     },
     {
       "symbol": "IDFCFIRSTB",
       "name": "IDFC First Bank Ltd",
-      "current_price": 86.35,
+      "current_price": 86.21,
       "trigger": 87.78,
-      "target1": 101.76,
-      "sl": 75.25,
+      "target1": 101.57,
+      "sl": 75.15,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b987.78 with Accumulation structure.",
-      "change_pct": -1.04
-    },
-    {
-      "symbol": "PERSISTENT",
-      "name": "Persistent Systems Ltd",
-      "current_price": 6334.5,
-      "trigger": 6252.48,
-      "target1": 6768.26,
-      "sl": 6022.19,
-      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b96,252.48 with Accumulation structure.",
-      "change_pct": 3.44
+      "change_pct": -1.2
     }
   ],
-  "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Saksoft Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 09:01 AM",
+  "timestamp": "23 Nov 2026, 09:16 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25461.5,
-      "change_pct": -1.31,
+      "price": 25412.75,
+      "change_pct": -1.5,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82658.21,
-      "change_pct": -1.5,
+      "price": 82781.38,
+      "change_pct": -1.36,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.62,
-      "change_pct": -1.62,
+      "price": 82.64,
+      "change_pct": -1.6,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.93,
-      "change_pct": -0.39,
+      "price": 92.97,
+      "change_pct": -0.35,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 44,
-    "declines": 131,
+    "advances": 41,
+    "declines": 134,
     "total": 175
   }
 }
