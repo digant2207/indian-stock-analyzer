@@ -2,59 +2,59 @@
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 25400,
-  "nifty_resistance": 25850,
+  "nifty_resistance": 25800,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.69.",
-    "Universe breadth shows 49 advancing vs 126 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,400 | Resistance cap at 25,850."
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.70.",
+    "Universe breadth shows 51 advancing vs 124 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,400 | Resistance cap at 25,800."
   ],
   "top_setups": [
     {
+      "symbol": "POLICYBZR",
+      "name": "PB Fintech Ltd",
+      "current_price": 1100.9,
+      "trigger": 1123.64,
+      "target1": 1307.3,
+      "sl": 952.29,
+      "rationale": "High Technical Score (23.0/100), 0.0% to Buy Trigger \u20b91,123.64 with Accumulation structure.",
+      "change_pct": 7.64
+    },
+    {
+      "symbol": "PRESTIGE",
+      "name": "Prestige Estates Projects",
+      "current_price": 1683.6,
+      "trigger": 1707.51,
+      "target1": 1845.38,
+      "sl": 1567.12,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,707.51 with Accumulation structure.",
+      "change_pct": 0.21
+    },
+    {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1595.3,
+      "current_price": 1595.9,
       "trigger": 1590.17,
-      "target1": 1805.39,
-      "sl": 1444.03,
+      "target1": 1806.33,
+      "sl": 1444.39,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": 1.46
-    },
-    {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero Motocorp Ltd",
-      "current_price": 5535.5,
-      "trigger": 5607.19,
-      "target1": 5896.45,
-      "sl": 5275.61,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
-      "change_pct": -0.01
-    },
-    {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 368.35,
-      "trigger": 375.37,
-      "target1": 417.42,
-      "sl": 333.02,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9375.37 with Accumulation structure.",
-      "change_pct": -1.38
+      "change_pct": 1.5
     }
   ],
   "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 05:46 AM",
+  "timestamp": "23 Nov 2026, 06:01 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25628.95,
-      "change_pct": -0.67,
+      "price": 25619.7,
+      "change_pct": -0.7,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83143.42,
-      "change_pct": -0.93,
+      "price": 83408.81,
+      "change_pct": -0.61,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.69,
-      "change_pct": -0.35,
+      "price": 83.7,
+      "change_pct": -0.33,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.84,
-      "change_pct": -0.49,
+      "price": 92.8,
+      "change_pct": -0.53,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 49,
-    "declines": 126,
+    "advances": 51,
+    "declines": 124,
     "total": 175
   }
 }
