@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25350,
-  "nifty_resistance": 25750,
+  "nifty_support": 25400,
+  "nifty_resistance": 25850,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.43.",
-    "Universe breadth shows 35 advancing vs 139 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,350 | Resistance cap at 25,750."
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.69.",
+    "Universe breadth shows 49 advancing vs 126 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,400 | Resistance cap at 25,850."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1591.8,
+      "current_price": 1595.3,
       "trigger": 1590.17,
-      "target1": 1799.92,
-      "sl": 1441.95,
+      "target1": 1805.39,
+      "sl": 1444.03,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": 1.24
+      "change_pct": 1.46
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5509.0,
+      "current_price": 5535.5,
       "trigger": 5607.19,
-      "target1": 5861.71,
-      "sl": 5255.05,
+      "target1": 5896.45,
+      "sl": 5275.61,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
-      "change_pct": -0.49
+      "change_pct": -0.01
     },
     {
       "symbol": "FEDERALBNK",
       "name": "Federal Bank Ltd",
-      "current_price": 366.55,
+      "current_price": 368.35,
       "trigger": 375.37,
-      "target1": 415.16,
-      "sl": 331.55,
+      "target1": 417.42,
+      "sl": 333.02,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9375.37 with Accumulation structure.",
-      "change_pct": -1.86
+      "change_pct": -1.38
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Indian Railway Finance Corp Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 05:31 AM",
+  "timestamp": "23 Nov 2026, 05:46 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25554.95,
-      "change_pct": -0.95,
+      "price": 25628.95,
+      "change_pct": -0.67,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83230.33,
-      "change_pct": -0.82,
+      "price": 83143.42,
+      "change_pct": -0.93,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.43,
-      "change_pct": -0.65,
+      "price": 83.69,
+      "change_pct": -0.35,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.89,
-      "change_pct": -0.43,
+      "price": 92.84,
+      "change_pct": -0.49,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 35,
-    "declines": 139,
+    "advances": 49,
+    "declines": 126,
     "total": 175
   }
 };
