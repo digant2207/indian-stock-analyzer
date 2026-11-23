@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25400,
-  "nifty_resistance": 25800,
+  "nifty_support": 25350,
+  "nifty_resistance": 25750,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.54.",
-    "Universe breadth shows 37 advancing vs 138 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,400 | Resistance cap at 25,800."
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.43.",
+    "Universe breadth shows 35 advancing vs 139 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,350 | Resistance cap at 25,750."
   ],
   "top_setups": [
     {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero Motocorp Ltd",
-      "current_price": 5504.0,
-      "trigger": 5607.19,
-      "target1": 5855.35,
-      "sl": 5251.03,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
-      "change_pct": -0.58
-    },
-    {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1599.6,
+      "current_price": 1591.8,
       "trigger": 1590.17,
-      "target1": 1812.16,
-      "sl": 1446.56,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": 1.74
+      "target1": 1799.92,
+      "sl": 1441.95,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
+      "change_pct": 1.24
     },
     {
-      "symbol": "INDHOTEL",
-      "name": "Indian Hotels Co",
-      "current_price": 909.15,
-      "trigger": 916.56,
-      "target1": 984.57,
-      "sl": 854.85,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9916.56 with Accumulation structure.",
-      "change_pct": -0.31
+      "symbol": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
+      "current_price": 5509.0,
+      "trigger": 5607.19,
+      "target1": 5861.71,
+      "sl": 5255.05,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
+      "change_pct": -0.49
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "name": "Federal Bank Ltd",
+      "current_price": 366.55,
+      "trigger": 375.37,
+      "target1": 415.16,
+      "sl": 331.55,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9375.37 with Accumulation structure.",
+      "change_pct": -1.86
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 05:16 AM",
+  "timestamp": "23 Nov 2026, 05:31 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25585.15,
-      "change_pct": -0.84,
+      "price": 25554.95,
+      "change_pct": -0.95,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83375.12,
-      "change_pct": -0.65,
+      "price": 83230.33,
+      "change_pct": -0.82,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.54,
-      "change_pct": -0.52,
+      "price": 83.43,
+      "change_pct": -0.65,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 37,
-    "declines": 138,
+    "advances": 35,
+    "declines": 139,
     "total": 175
   }
 };
