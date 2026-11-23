@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.09.",
-    "Universe breadth shows 39 advancing vs 136 declining stocks across 175 scanned equities.",
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.32.",
+    "Universe breadth shows 38 advancing vs 137 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
     {
+      "symbol": "PERSISTENT",
+      "name": "Persistent Systems Ltd",
+      "current_price": 6282.5,
+      "trigger": 6252.48,
+      "target1": 6681.41,
+      "sl": 5995.28,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b96,252.48 with Accumulation structure.",
+      "change_pct": 2.59
+    },
+    {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1578.0,
+      "current_price": 1562.0,
       "trigger": 1590.17,
-      "target1": 1778.73,
-      "sl": 1433.47,
+      "target1": 1754.96,
+      "sl": 1423.07,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": 0.36
+      "change_pct": -0.66
     },
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2149.3,
+      "current_price": 2142.3,
       "trigger": 2182.16,
-      "target1": 2276.31,
-      "sl": 2057.85,
-      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b92,182.16 with Accumulation structure.",
-      "change_pct": 3.0
-    },
-    {
-      "symbol": "PERSISTENT",
-      "name": "Persistent Systems Ltd",
-      "current_price": 6307.5,
-      "trigger": 6252.48,
-      "target1": 6722.77,
-      "sl": 6008.5,
-      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b96,252.48 with Accumulation structure.",
-      "change_pct": 3.0
+      "target1": 2264.2,
+      "sl": 2054.53,
+      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b92,182.16 with Accumulation structure.",
+      "change_pct": 2.66
     }
   ],
   "risk_warning": "Defensive alert on Saksoft Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 09:46 AM",
+  "timestamp": "23 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25366.4,
-      "change_pct": -1.68,
+      "price": 25349.65,
+      "change_pct": -1.75,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82487.3,
-      "change_pct": -1.71,
+      "price": 82454.24,
+      "change_pct": -1.75,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.09,
-      "change_pct": -1.06,
+      "price": 83.32,
+      "change_pct": -0.79,
       "status": "down"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 39,
-    "declines": 136,
+    "advances": 38,
+    "declines": 137,
     "total": 175
   }
 };
