@@ -1,60 +1,60 @@
 {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 25750,
-  "nifty_resistance": 26200,
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "nifty_support": 25500,
+  "nifty_resistance": 25900,
   "executive_bullets": [
-    "US Markets closed down 3.70% with Brent Crude hovering around $83.28.",
-    "Universe breadth shows 140 advancing vs 32 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,750 | Resistance cap at 26,200."
+    "US Markets closed down 3.70% with Brent Crude hovering around $83.22.",
+    "Universe breadth shows 56 advancing vs 119 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,900."
   ],
   "top_setups": [
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1569.8,
+      "current_price": 1587.8,
       "trigger": 1590.17,
-      "target1": 1766.43,
-      "sl": 1428.22,
+      "target1": 1793.72,
+      "sl": 1439.54,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": -0.16
+      "change_pct": 0.99
     },
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5542.0,
+      "current_price": 5500.5,
       "trigger": 5607.19,
-      "target1": 5905.22,
-      "sl": 5280.48,
+      "target1": 5850.92,
+      "sl": 5248.19,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
-      "change_pct": 0.11
+      "change_pct": -0.64
     },
     {
-      "symbol": "FEDERALBNK",
-      "name": "Federal Bank Ltd",
-      "current_price": 375.25,
-      "trigger": 375.37,
-      "target1": 426.59,
-      "sl": 338.29,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9375.37 with Accumulation structure.",
-      "change_pct": 0.47
+      "symbol": "NYKAA",
+      "name": "Fsn E-Commerce Ventures Ltd",
+      "current_price": 363.65,
+      "trigger": 369.04,
+      "target1": 380.45,
+      "sl": 351.56,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9369.04 with Accumulation structure.",
+      "change_pct": -0.1
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PNB Gilts Ltd, Power Finance Corp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 03:46 AM",
+  "timestamp": "23 Nov 2026, 04:01 AM",
   "date_tag": "2026-11-23",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25974.1,
-      "change_pct": 0.67,
-      "status": "up"
+      "price": 25693.05,
+      "change_pct": -0.42,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83919.71,
-      "change_pct": 1.08,
+      "price": 84552.23,
+      "change_pct": 0.75,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.28,
-      "change_pct": -0.83,
+      "price": 83.22,
+      "change_pct": -0.9,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.56,
-      "change_pct": -0.79,
+      "price": 92.84,
+      "change_pct": -0.49,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 140,
-    "declines": 32,
+    "advances": 56,
+    "declines": 119,
     "total": 175
   }
 }
