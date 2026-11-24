@@ -4,8 +4,8 @@
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed up 4.18% with Brent Crude hovering around $82.03.",
-    "Universe breadth shows 36 advancing vs 138 declining stocks across 175 scanned equities.",
+    "US Markets closed up 4.73% with Brent Crude hovering around $80.10.",
+    "Universe breadth shows 46 advancing vs 129 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
   "top_setups": [
@@ -20,16 +20,6 @@
       "change_pct": 2.59
     },
     {
-      "symbol": "VIJAYA",
-      "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1572.6,
-      "trigger": 1590.17,
-      "target1": 1770.61,
-      "sl": 1430.04,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": 0.02
-    },
-    {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
       "current_price": 2142.3,
@@ -38,12 +28,22 @@
       "sl": 2054.53,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b92,182.16 with Accumulation structure.",
       "change_pct": 2.66
+    },
+    {
+      "symbol": "DIXON",
+      "name": "Dixon Technologies India",
+      "current_price": 13390.0,
+      "trigger": 13246.44,
+      "target1": 14544.33,
+      "sl": 12558.88,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b913,246.44 with Accumulation structure.",
+      "change_pct": 2.06
     }
   ],
   "risk_warning": "Defensive alert on Saksoft Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "23 Nov 2026, 02:35 PM",
-  "date_tag": "2026-11-23",
+  "timestamp": "24 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-24",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,32 +59,32 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7199.42,
-      "change_pct": 4.18,
+      "price": 7237.17,
+      "change_pct": 4.73,
       "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 24010.56,
-      "change_pct": 6.16,
+      "price": 24089.56,
+      "change_pct": 6.51,
       "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.03,
-      "change_pct": -2.32,
+      "price": 80.1,
+      "change_pct": -4.62,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 92.9,
-      "change_pct": -0.42,
-      "status": "down"
+      "change_pct": 0.24,
+      "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 36,
-    "declines": 138,
+    "advances": 46,
+    "declines": 129,
     "total": 175
   }
 }
