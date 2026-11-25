@@ -2,59 +2,59 @@
   "stance": "DEFENSIVE CAUTION",
   "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
   "nifty_support": 25600,
-  "nifty_resistance": 26000,
+  "nifty_resistance": 26050,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $81.85.",
-    "Universe breadth shows 75 advancing vs 100 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
+    "US Markets closed down 0.50% with Brent Crude hovering around $81.69.",
+    "Universe breadth shows 77 advancing vs 98 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,050."
   ],
   "top_setups": [
     {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero Motocorp Ltd",
-      "current_price": 5750.0,
-      "trigger": 5607.19,
-      "target1": 6216.02,
-      "sl": 5414.46,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
-      "change_pct": 3.88
-    },
-    {
       "symbol": "APOLLOTYRE",
       "name": "Apollo Tyres Ltd",
-      "current_price": 436.0,
+      "current_price": 437.35,
       "trigger": 436.62,
-      "target1": 462.26,
-      "sl": 417.09,
+      "target1": 464.48,
+      "sl": 417.81,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9436.62 with Accumulation structure.",
-      "change_pct": 3.64
+      "change_pct": 3.96
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
+      "current_price": 5751.5,
+      "trigger": 5607.19,
+      "target1": 6218.51,
+      "sl": 5415.25,
+      "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
+      "change_pct": 3.91
     },
     {
       "symbol": "IDFCFIRSTB",
       "name": "IDFC First Bank Ltd",
-      "current_price": 87.1,
+      "current_price": 87.47,
       "trigger": 88.36,
-      "target1": 101.33,
-      "sl": 76.85,
+      "target1": 101.85,
+      "sl": 77.12,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b988.36 with Accumulation structure.",
-      "change_pct": 1.99
+      "change_pct": 2.42
     }
   ],
-  "risk_warning": "Defensive alert on Oracle Financial Services, National Aluminium Co Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Oracle Financial Services, Kaynes Technology India due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 09:46 AM",
+  "timestamp": "25 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25791.25,
-      "change_pct": 1.74,
+      "price": 25819.25,
+      "change_pct": 1.85,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83896.11,
-      "change_pct": 1.77,
+      "price": 83938.28,
+      "change_pct": 1.82,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 81.85,
-      "change_pct": -0.24,
+      "price": 81.69,
+      "change_pct": -0.44,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.28,
-      "change_pct": -0.69,
+      "price": 92.22,
+      "change_pct": -0.75,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 75,
-    "declines": 100,
+    "advances": 77,
+    "declines": 98,
     "total": 175
   }
 }
