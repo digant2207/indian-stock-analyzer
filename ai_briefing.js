@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25700,
   "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $81.01.",
-    "Universe breadth shows 96 advancing vs 74 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.50% with Brent Crude hovering around $80.57.",
+    "Universe breadth shows 94 advancing vs 80 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
     {
       "symbol": "LTF",
       "name": "L&T Finance Ltd",
-      "current_price": 291.09,
+      "current_price": 288.89,
       "trigger": 284.17,
-      "target1": 313.67,
-      "sl": 274.83,
+      "target1": 310.09,
+      "sl": 273.62,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9284.17 with Accumulation structure.",
-      "change_pct": 6.24
+      "change_pct": 5.43
     },
     {
       "symbol": "POLICYBZR",
       "name": "PB Fintech Ltd",
-      "current_price": 1126.0,
+      "current_price": 1127.2,
       "trigger": 1123.64,
-      "target1": 1332.43,
-      "sl": 977.37,
+      "target1": 1334.2,
+      "sl": 978.16,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,123.64 with Accumulation structure.",
-      "change_pct": 3.39
+      "change_pct": 3.5
     },
     {
       "symbol": "MFSL",
       "name": "Max Financial Services",
-      "current_price": 1478.6,
+      "current_price": 1477.0,
       "trigger": 1456.61,
-      "target1": 1763.59,
-      "sl": 1273.41,
+      "target1": 1761.37,
+      "sl": 1272.25,
       "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b91,456.61 with Accumulation structure.",
-      "change_pct": 3.26
+      "change_pct": 3.15
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Saksoft Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 06:31 AM",
+  "timestamp": "25 Nov 2026, 06:45 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25902.7,
-      "change_pct": 2.18,
+      "price": 25896.35,
+      "change_pct": 2.16,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84484.98,
-      "change_pct": 2.49,
+      "price": 84343.81,
+      "change_pct": 2.31,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 81.01,
-      "change_pct": -1.27,
+      "price": 80.57,
+      "change_pct": -1.8,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.51,
-      "change_pct": -0.43,
+      "price": 92.44,
+      "change_pct": -0.51,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 96,
-    "declines": 74,
+    "advances": 94,
+    "declines": 80,
     "total": 175
   }
 };
