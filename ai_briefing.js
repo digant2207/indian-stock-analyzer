@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
-  "stance": "BULLISH BIAS",
-  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 25650,
-  "nifty_resistance": 26050,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 25700,
+  "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $80.68.",
-    "Universe breadth shows 99 advancing vs 74 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,650 | Resistance cap at 26,050."
+    "US Markets closed down 0.50% with Brent Crude hovering around $80.62.",
+    "Universe breadth shows 93 advancing vs 81 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
     {
       "symbol": "LTF",
       "name": "L&T Finance Ltd",
-      "current_price": 287.04,
+      "current_price": 287.85,
       "trigger": 284.17,
-      "target1": 307.19,
-      "sl": 272.53,
+      "target1": 308.45,
+      "sl": 273.02,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9284.17 with Accumulation structure.",
-      "change_pct": 4.76
+      "change_pct": 5.05
     },
     {
       "symbol": "POLICYBZR",
       "name": "PB Fintech Ltd",
-      "current_price": 1127.7,
+      "current_price": 1130.6,
       "trigger": 1123.64,
-      "target1": 1334.94,
-      "sl": 978.49,
+      "target1": 1339.23,
+      "sl": 980.38,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,123.64 with Accumulation structure.",
-      "change_pct": 3.54
+      "change_pct": 3.81
     },
     {
       "symbol": "MFSL",
       "name": "Max Financial Services",
-      "current_price": 1494.8,
+      "current_price": 1485.0,
       "trigger": 1456.61,
-      "target1": 1786.41,
-      "sl": 1284.84,
-      "rationale": "High Technical Score (33.0/100), 0.0% to Buy Trigger \u20b91,456.61 with Accumulation structure.",
-      "change_pct": 4.39
+      "target1": 1772.52,
+      "sl": 1277.98,
+      "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b91,456.61 with Accumulation structure.",
+      "change_pct": 3.71
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 05:16 AM",
+  "timestamp": "25 Nov 2026, 05:31 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25839.8,
-      "change_pct": 1.93,
+      "price": 25893.85,
+      "change_pct": 2.15,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84010.15,
-      "change_pct": 1.91,
+      "price": 84115.51,
+      "change_pct": 2.04,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 80.68,
-      "change_pct": -1.67,
+      "price": 80.62,
+      "change_pct": -1.74,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.53,
-      "change_pct": -0.41,
+      "price": 92.46,
+      "change_pct": -0.49,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 99,
-    "declines": 74,
+    "advances": 93,
+    "declines": 81,
     "total": 175
   }
 };
