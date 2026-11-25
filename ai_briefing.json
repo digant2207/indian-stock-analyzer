@@ -1,55 +1,55 @@
 {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25150,
-  "nifty_resistance": 25550,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 25550,
+  "nifty_resistance": 25950,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $80.82.",
-    "Universe breadth shows 37 advancing vs 137 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
+    "US Markets closed down 0.50% with Brent Crude hovering around $80.89.",
+    "Universe breadth shows 143 advancing vs 29 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,550 | Resistance cap at 25,950."
   ],
   "top_setups": [
     {
-      "symbol": "PERSISTENT",
-      "name": "Persistent Systems Ltd",
-      "current_price": 6282.5,
-      "trigger": 6252.48,
-      "target1": 6681.41,
-      "sl": 5995.28,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b96,252.48 with Accumulation structure.",
-      "change_pct": 2.59
-    },
-    {
-      "symbol": "VIJAYA",
-      "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1572.6,
-      "trigger": 1590.17,
-      "target1": 1770.61,
-      "sl": 1430.04,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b91,590.17 with Accumulation structure.",
-      "change_pct": 0.02
+      "symbol": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
+      "current_price": 5602.5,
+      "trigger": 5607.19,
+      "target1": 5985.96,
+      "sl": 5326.41,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
+      "change_pct": 1.22
     },
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "current_price": 2142.3,
+      "current_price": 2164.3,
       "trigger": 2182.16,
-      "target1": 2264.2,
-      "sl": 2054.53,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b92,182.16 with Accumulation structure.",
-      "change_pct": 2.66
+      "target1": 2325.62,
+      "sl": 2048.15,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,182.16 with Accumulation structure.",
+      "change_pct": 1.03
+    },
+    {
+      "symbol": "RELIANCE",
+      "name": "Reliance Industries Ltd",
+      "current_price": 1365.8,
+      "trigger": 1392.78,
+      "target1": 1447.35,
+      "sl": 1307.08,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,392.78 with Accumulation structure.",
+      "change_pct": 1.1
     }
   ],
-  "risk_warning": "Defensive alert on Saksoft Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 03:31 AM",
+  "timestamp": "25 Nov 2026, 03:45 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25349.65,
-      "change_pct": -1.75,
-      "status": "down"
+      "price": 25734.95,
+      "change_pct": 1.52,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 80.82,
-      "change_pct": 0.81,
+      "price": 80.89,
+      "change_pct": 0.9,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.74,
-      "change_pct": -0.19,
+      "price": 92.7,
+      "change_pct": -0.23,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 37,
-    "declines": 137,
+    "advances": 143,
+    "declines": 29,
     "total": 175
   }
 }
