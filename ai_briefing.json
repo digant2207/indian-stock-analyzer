@@ -2,60 +2,60 @@
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
   "nifty_support": 25550,
-  "nifty_resistance": 25950,
+  "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $80.89.",
-    "Universe breadth shows 143 advancing vs 29 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,550 | Resistance cap at 25,950."
+    "US Markets closed down 0.50% with Brent Crude hovering around $80.72.",
+    "Universe breadth shows 109 advancing vs 66 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,550 | Resistance cap at 26,000."
   ],
   "top_setups": [
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5602.5,
+      "current_price": 5579.0,
       "trigger": 5607.19,
-      "target1": 5985.96,
-      "sl": 5326.41,
+      "target1": 5952.65,
+      "sl": 5309.97,
       "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
-      "change_pct": 1.22
+      "change_pct": 0.79
     },
     {
-      "symbol": "COFORGE",
-      "name": "Coforge Ltd",
-      "current_price": 2164.3,
-      "trigger": 2182.16,
-      "target1": 2325.62,
-      "sl": 2048.15,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b92,182.16 with Accumulation structure.",
-      "change_pct": 1.03
+      "symbol": "INDHOTEL",
+      "name": "Indian Hotels Co",
+      "current_price": 924.2,
+      "trigger": 919.69,
+      "target1": 991.65,
+      "sl": 875.64,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9919.69 with Accumulation structure.",
+      "change_pct": 2.01
     },
     {
-      "symbol": "RELIANCE",
-      "name": "Reliance Industries Ltd",
-      "current_price": 1365.8,
-      "trigger": 1392.78,
-      "target1": 1447.35,
-      "sl": 1307.08,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,392.78 with Accumulation structure.",
-      "change_pct": 1.1
+      "symbol": "VIJAYA",
+      "name": "Vijaya Diagnostic Centre Ltd",
+      "current_price": 1623.7,
+      "trigger": 1640.27,
+      "target1": 1865.37,
+      "sl": 1449.7,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b91,640.27 with Accumulation structure.",
+      "change_pct": 3.25
     }
   ],
-  "risk_warning": "Defensive alert on Muthoot Finance Ltd, Edelweiss Financial Services Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Muthoot Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 03:45 AM",
+  "timestamp": "25 Nov 2026, 04:01 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25734.95,
-      "change_pct": 1.52,
+      "price": 25778.45,
+      "change_pct": 1.69,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 82435.99,
-      "change_pct": -1.77,
-      "status": "down"
+      "price": 83823.18,
+      "change_pct": 1.68,
+      "status": "up"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 80.89,
-      "change_pct": 0.9,
+      "price": 80.72,
+      "change_pct": 0.69,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.7,
-      "change_pct": -0.23,
+      "price": 92.62,
+      "change_pct": -0.32,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 143,
-    "declines": 29,
+    "advances": 109,
+    "declines": 66,
     "total": 175
   }
 }
