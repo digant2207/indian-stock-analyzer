@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25150,
   "nifty_resistance": 25550,
   "executive_bullets": [
-    "US Markets closed down 0.35% with Brent Crude hovering around $81.41.",
+    "US Markets closed down 0.50% with Brent Crude hovering around $80.82.",
     "Universe breadth shows 37 advancing vs 137 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,150 | Resistance cap at 25,550."
   ],
@@ -42,8 +42,8 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Saksoft Ltd, Indian Railway Finance Corp Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "24 Nov 2026, 02:51 PM",
-  "date_tag": "2026-11-24",
+  "timestamp": "25 Nov 2026, 03:31 AM",
+  "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,27 +59,27 @@ window.AI_BRIEFING = {
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7211.82,
-      "change_pct": -0.35,
+      "price": 7201.09,
+      "change_pct": -0.5,
       "status": "down"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 23861.83,
-      "change_pct": -0.95,
+      "price": 23733.54,
+      "change_pct": -1.48,
       "status": "down"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 81.41,
-      "change_pct": 1.55,
+      "price": 80.82,
+      "change_pct": 0.81,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.9,
-      "change_pct": 0.24,
-      "status": "up"
+      "price": 92.74,
+      "change_pct": -0.19,
+      "status": "down"
     }
   },
   "market_breadth": {
