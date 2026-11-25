@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25600,
   "nifty_resistance": 26050,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $82.48.",
+    "US Markets closed down 0.50% with Brent Crude hovering around $82.47.",
     "Universe breadth shows 77 advancing vs 98 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,050."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, Kaynes Technology India due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 01:24 PM",
+  "timestamp": "25 Nov 2026, 01:48 PM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 82.48,
-      "change_pct": 0.52,
+      "price": 82.47,
+      "change_pct": 0.51,
       "status": "up"
     },
     "USD/INR": {
