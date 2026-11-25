@@ -1,60 +1,60 @@
 {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25600,
-  "nifty_resistance": 26000,
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "nifty_support": 25500,
+  "nifty_resistance": 25900,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $80.39.",
-    "Universe breadth shows 80 advancing vs 93 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
+    "US Markets closed down 0.50% with Brent Crude hovering around $80.59.",
+    "Universe breadth shows 71 advancing vs 102 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,900."
   ],
   "top_setups": [
     {
-      "symbol": "LTF",
-      "name": "L&T Finance Ltd",
-      "current_price": 286.5,
-      "trigger": 284.17,
-      "target1": 306.36,
-      "sl": 272.2,
-      "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9284.17 with Accumulation structure.",
-      "change_pct": 4.56
+      "symbol": "MFSL",
+      "name": "Max Financial Services",
+      "current_price": 1467.7,
+      "trigger": 1456.61,
+      "target1": 1748.63,
+      "sl": 1265.43,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,456.61 with Accumulation structure.",
+      "change_pct": 2.5
     },
     {
       "symbol": "VIJAYA",
       "name": "Vijaya Diagnostic Centre Ltd",
-      "current_price": 1621.3,
+      "current_price": 1625.3,
       "trigger": 1640.27,
-      "target1": 1861.62,
-      "sl": 1448.27,
+      "target1": 1867.87,
+      "sl": 1450.65,
       "rationale": "High Technical Score (36.0/100), 0.0% to Buy Trigger \u20b91,640.27 with Accumulation structure.",
-      "change_pct": 3.1
+      "change_pct": 3.35
     },
     {
-      "symbol": "POLICYBZR",
-      "name": "PB Fintech Ltd",
-      "current_price": 1122.4,
-      "trigger": 1123.64,
-      "target1": 1327.16,
-      "sl": 974.97,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,123.64 with Accumulation structure.",
-      "change_pct": 3.06
+      "symbol": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
+      "current_price": 185.79,
+      "trigger": 187.37,
+      "target1": 202.33,
+      "sl": 173.88,
+      "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9187.37 with Accumulation structure.",
+      "change_pct": 0.91
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Saksoft Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Kokuyo Camlin Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 07:16 AM",
+  "timestamp": "25 Nov 2026, 07:31 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25782.8,
-      "change_pct": 1.71,
+      "price": 25705.25,
+      "change_pct": 1.4,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84217.47,
-      "change_pct": 2.16,
+      "price": 83920.99,
+      "change_pct": 1.8,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 80.39,
-      "change_pct": -2.02,
+      "price": 80.59,
+      "change_pct": -1.78,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.4,
-      "change_pct": -0.55,
+      "price": 92.35,
+      "change_pct": -0.61,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 80,
-    "declines": 93,
+    "advances": 71,
+    "declines": 102,
     "total": 175
   }
 }
