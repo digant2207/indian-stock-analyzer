@@ -4,57 +4,57 @@
   "nifty_support": 25700,
   "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $80.62.",
-    "Universe breadth shows 93 advancing vs 81 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.50% with Brent Crude hovering around $80.61.",
+    "Universe breadth shows 88 advancing vs 85 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
     {
       "symbol": "LTF",
       "name": "L&T Finance Ltd",
-      "current_price": 287.85,
+      "current_price": 290.39,
       "trigger": 284.17,
-      "target1": 308.45,
-      "sl": 273.02,
+      "target1": 312.52,
+      "sl": 274.46,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9284.17 with Accumulation structure.",
-      "change_pct": 5.05
+      "change_pct": 5.98
     },
     {
       "symbol": "POLICYBZR",
       "name": "PB Fintech Ltd",
-      "current_price": 1130.6,
+      "current_price": 1131.1,
       "trigger": 1123.64,
-      "target1": 1339.23,
-      "sl": 980.38,
+      "target1": 1339.98,
+      "sl": 980.71,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,123.64 with Accumulation structure.",
-      "change_pct": 3.81
+      "change_pct": 3.86
     },
     {
       "symbol": "MFSL",
       "name": "Max Financial Services",
-      "current_price": 1485.0,
+      "current_price": 1484.0,
       "trigger": 1456.61,
-      "target1": 1772.52,
-      "sl": 1277.98,
+      "target1": 1771.12,
+      "sl": 1277.28,
       "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b91,456.61 with Accumulation structure.",
-      "change_pct": 3.71
+      "change_pct": 3.64
     }
   ],
-  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 05:31 AM",
+  "timestamp": "25 Nov 2026, 05:45 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25893.85,
-      "change_pct": 2.15,
+      "price": 25910.8,
+      "change_pct": 2.21,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84115.51,
-      "change_pct": 2.04,
+      "price": 84292.89,
+      "change_pct": 2.25,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 80.62,
-      "change_pct": -1.74,
+      "price": 80.61,
+      "change_pct": -1.76,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.46,
-      "change_pct": -0.49,
+      "price": 92.42,
+      "change_pct": -0.53,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 93,
-    "declines": 81,
+    "advances": 88,
+    "declines": 85,
     "total": 175
   }
 }
