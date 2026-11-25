@@ -1,60 +1,60 @@
 {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25550,
+  "stance": "DEFENSIVE CAUTION",
+  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
+  "nifty_support": 25600,
   "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $81.27.",
-    "Universe breadth shows 78 advancing vs 96 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,550 | Resistance cap at 26,000."
+    "US Markets closed down 0.50% with Brent Crude hovering around $81.85.",
+    "Universe breadth shows 75 advancing vs 100 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
   ],
   "top_setups": [
     {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5727.0,
+      "current_price": 5750.0,
       "trigger": 5607.19,
-      "target1": 6178.19,
-      "sl": 5402.15,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
-      "change_pct": 3.47
-    },
-    {
-      "symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
-      "current_price": 187.85,
-      "trigger": 187.37,
-      "target1": 205.46,
-      "sl": 175.17,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9187.37 with Accumulation structure.",
-      "change_pct": 2.03
+      "target1": 6216.02,
+      "sl": 5414.46,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b95,607.19 with Accumulation structure.",
+      "change_pct": 3.88
     },
     {
       "symbol": "APOLLOTYRE",
       "name": "Apollo Tyres Ltd",
-      "current_price": 437.75,
+      "current_price": 436.0,
       "trigger": 436.62,
-      "target1": 465.15,
-      "sl": 418.02,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9436.62 with Accumulation structure.",
-      "change_pct": 4.05
+      "target1": 462.26,
+      "sl": 417.09,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9436.62 with Accumulation structure.",
+      "change_pct": 3.64
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "name": "IDFC First Bank Ltd",
+      "current_price": 87.1,
+      "trigger": 88.36,
+      "target1": 101.33,
+      "sl": 76.85,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b988.36 with Accumulation structure.",
+      "change_pct": 1.99
     }
   ],
   "risk_warning": "Defensive alert on Oracle Financial Services, National Aluminium Co Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 09:31 AM",
+  "timestamp": "25 Nov 2026, 09:46 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25775.5,
-      "change_pct": 1.68,
+      "price": 25791.25,
+      "change_pct": 1.74,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83771.11,
-      "change_pct": 1.62,
+      "price": 83896.11,
+      "change_pct": 1.77,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 81.27,
-      "change_pct": -0.95,
+      "price": 81.85,
+      "change_pct": -0.24,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.27,
+      "price": 92.28,
       "change_pct": -0.69,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 78,
-    "declines": 96,
+    "advances": 75,
+    "declines": 100,
     "total": 175
   }
 }
