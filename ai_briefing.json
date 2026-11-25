@@ -1,60 +1,60 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25750,
-  "nifty_resistance": 26150,
+  "nifty_support": 25700,
+  "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.50% with Brent Crude hovering around $81.18.",
-    "Universe breadth shows 95 advancing vs 79 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,750 | Resistance cap at 26,150."
+    "US Markets closed down 0.50% with Brent Crude hovering around $81.01.",
+    "Universe breadth shows 96 advancing vs 74 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
     {
       "symbol": "LTF",
       "name": "L&T Finance Ltd",
-      "current_price": 290.09,
+      "current_price": 291.09,
       "trigger": 284.17,
-      "target1": 312.03,
-      "sl": 274.29,
+      "target1": 313.67,
+      "sl": 274.83,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b9284.17 with Accumulation structure.",
-      "change_pct": 5.87
+      "change_pct": 6.24
     },
     {
       "symbol": "POLICYBZR",
       "name": "PB Fintech Ltd",
-      "current_price": 1126.4,
+      "current_price": 1126.0,
       "trigger": 1123.64,
-      "target1": 1333.02,
-      "sl": 977.63,
+      "target1": 1332.43,
+      "sl": 977.37,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b91,123.64 with Accumulation structure.",
-      "change_pct": 3.42
+      "change_pct": 3.39
     },
     {
       "symbol": "MFSL",
       "name": "Max Financial Services",
-      "current_price": 1479.8,
+      "current_price": 1478.6,
       "trigger": 1456.61,
-      "target1": 1765.25,
-      "sl": 1274.27,
+      "target1": 1763.59,
+      "sl": 1273.41,
       "rationale": "High Technical Score (37.0/100), 0.0% to Buy Trigger \u20b91,456.61 with Accumulation structure.",
-      "change_pct": 3.35
+      "change_pct": 3.26
     }
   ],
   "risk_warning": "Defensive alert on Edelweiss Financial Services Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "25 Nov 2026, 06:16 AM",
+  "timestamp": "25 Nov 2026, 06:31 AM",
   "date_tag": "2026-11-25",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25945.7,
-      "change_pct": 2.35,
+      "price": 25902.7,
+      "change_pct": 2.18,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84393.05,
-      "change_pct": 2.37,
+      "price": 84484.98,
+      "change_pct": 2.49,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 81.18,
-      "change_pct": -1.06,
+      "price": 81.01,
+      "change_pct": -1.27,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.48,
-      "change_pct": -0.47,
+      "price": 92.51,
+      "change_pct": -0.43,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 95,
-    "declines": 79,
+    "advances": 96,
+    "declines": 74,
     "total": 175
   }
 }
