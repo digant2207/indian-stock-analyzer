@@ -1,60 +1,60 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25650,
-  "nifty_resistance": 26050,
+  "nifty_support": 25600,
+  "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $83.80.",
-    "Universe breadth shows 94 advancing vs 79 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,650 | Resistance cap at 26,050."
+    "US Markets closed down 0.25% with Brent Crude hovering around $84.10.",
+    "Universe breadth shows 83 advancing vs 91 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1288.6,
+      "current_price": 1279.0,
       "trigger": 1260.52,
-      "target1": 1413.15,
-      "sl": 1198.92,
+      "target1": 1395.38,
+      "sl": 1195.21,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 8.25
+      "change_pct": 7.45
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3832.7,
+      "current_price": 3829.7,
       "trigger": 3781.55,
-      "target1": 4240.08,
-      "sl": 3539.38,
+      "target1": 4235.48,
+      "sl": 3537.54,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,781.55 with Accumulation structure.",
-      "change_pct": 7.51
+      "change_pct": 7.42
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 865.05,
+      "current_price": 861.1,
       "trigger": 861.42,
-      "target1": 958.88,
-      "sl": 797.49,
+      "target1": 952.85,
+      "sl": 795.04,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9861.42 with Accumulation structure.",
-      "change_pct": 2.23
+      "change_pct": 1.76
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on PNB Gilts Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 08:16 AM",
+  "timestamp": "26 Nov 2026, 08:31 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25850.55,
-      "change_pct": 0.12,
-      "status": "up"
+      "price": 25788.65,
+      "change_pct": -0.12,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84062.73,
-      "change_pct": 0.15,
+      "price": 84119.85,
+      "change_pct": 0.22,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.8,
-      "change_pct": 0.14,
+      "price": 84.1,
+      "change_pct": 0.5,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.5,
-      "change_pct": -0.33,
+      "price": 92.48,
+      "change_pct": -0.35,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 94,
-    "declines": 79,
+    "advances": 83,
+    "declines": 91,
     "total": 175
   }
 }
