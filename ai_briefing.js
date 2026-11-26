@@ -4,8 +4,8 @@ window.AI_BRIEFING = {
   "nifty_support": 25700,
   "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $83.39.",
-    "Universe breadth shows 99 advancing vs 74 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $83.59.",
+    "Universe breadth shows 98 advancing vs 75 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
@@ -22,12 +22,12 @@ window.AI_BRIEFING = {
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1292.1,
+      "current_price": 1295.0,
       "trigger": 1260.52,
-      "target1": 1419.67,
-      "sl": 1200.25,
+      "target1": 1425.08,
+      "sl": 1201.34,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 8.55
+      "change_pct": 8.79
     },
     {
       "symbol": "HDFCBANK",
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on Bajaj Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 10:01 AM",
+  "timestamp": "26 Nov 2026, 10:16 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
@@ -53,8 +53,8 @@ window.AI_BRIEFING = {
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84291.86,
-      "change_pct": 0.42,
+      "price": 84328.59,
+      "change_pct": 0.46,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.39,
-      "change_pct": -0.35,
+      "price": 83.59,
+      "change_pct": -0.11,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.43,
-      "change_pct": -0.4,
+      "price": 92.44,
+      "change_pct": -0.39,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 99,
-    "declines": 74,
+    "advances": 98,
+    "declines": 75,
     "total": 175
   }
 };
