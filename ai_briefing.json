@@ -1,61 +1,61 @@
 {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25600,
-  "nifty_resistance": 26000,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 25650,
+  "nifty_resistance": 26050,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $84.32.",
-    "Universe breadth shows 94 advancing vs 76 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
+    "US Markets closed down 0.25% with Brent Crude hovering around $84.42.",
+    "Universe breadth shows 126 advancing vs 48 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,650 | Resistance cap at 26,050."
   ],
   "top_setups": [
     {
+      "symbol": "RELIANCE",
+      "name": "Reliance Industries Ltd",
+      "current_price": 1368.9,
+      "trigger": 1396.99,
+      "target1": 1447.46,
+      "sl": 1312.34,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b91,396.99 with Accumulation structure.",
+      "change_pct": -0.36
+    },
+    {
       "symbol": "HEROMOTOCO",
       "name": "Hero Motocorp Ltd",
-      "current_price": 5808.0,
+      "current_price": 5795.0,
       "trigger": 5780.26,
-      "target1": 6388.05,
-      "sl": 5390.36,
+      "target1": 6367.63,
+      "sl": 5382.71,
       "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b95,780.26 with Accumulation structure.",
-      "change_pct": 0.98
+      "change_pct": 0.76
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 846.2,
+      "current_price": 854.2,
       "trigger": 861.42,
-      "target1": 931.22,
-      "sl": 784.99,
+      "target1": 942.61,
+      "sl": 790.55,
       "rationale": "High Technical Score (34.0/100), 0.0% to Buy Trigger \u20b9861.42 with Accumulation structure.",
-      "change_pct": 0.0
-    },
-    {
-      "symbol": "APOLLOTYRE",
-      "name": "Apollo Tyres Ltd",
-      "current_price": 432.3,
-      "trigger": 436.62,
-      "target1": 456.38,
-      "sl": 414.96,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9436.62 with Accumulation structure.",
-      "change_pct": 2.76
+      "change_pct": 0.95
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Finance Ltd, PNB Gilts Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 03:46 AM",
+  "timestamp": "26 Nov 2026, 04:01 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25795.2,
-      "change_pct": -0.09,
-      "status": "down"
+      "price": 25832.15,
+      "change_pct": 0.05,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83938.28,
-      "change_pct": 1.82,
-      "status": "up"
+      "price": 83910.0,
+      "change_pct": -0.03,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.32,
-      "change_pct": 2.77,
+      "price": 84.42,
+      "change_pct": 2.89,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.49,
-      "change_pct": -0.34,
+      "price": 92.41,
+      "change_pct": -0.43,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 94,
-    "declines": 76,
+    "advances": 126,
+    "declines": 48,
     "total": 175
   }
 }
