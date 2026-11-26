@@ -4,57 +4,57 @@
   "nifty_support": 25750,
   "nifty_resistance": 26150,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $84.44.",
-    "Universe breadth shows 126 advancing vs 47 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $84.35.",
+    "Universe breadth shows 121 advancing vs 51 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,750 | Resistance cap at 26,150."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1262.7,
+      "current_price": 1258.45,
       "trigger": 1260.52,
-      "target1": 1365.63,
-      "sl": 1188.59,
+      "target1": 1357.99,
+      "sl": 1186.78,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 6.08
+      "change_pct": 5.72
+    },
+    {
+      "symbol": "PRESTIGE",
+      "name": "Prestige Estates Projects",
+      "current_price": 1755.4,
+      "trigger": 1707.51,
+      "target1": 1896.41,
+      "sl": 1653.87,
+      "rationale": "High Technical Score (40.0/100), 0.0% to Buy Trigger \u20b91,707.51 with Accumulation structure.",
+      "change_pct": 4.17
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3751.9,
+      "current_price": 3753.2,
       "trigger": 3781.55,
-      "target1": 4121.72,
-      "sl": 3485.63,
+      "target1": 4123.53,
+      "sl": 3486.57,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,781.55 with Accumulation structure.",
-      "change_pct": 5.24
-    },
-    {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero Motocorp Ltd",
-      "current_price": 5768.0,
-      "trigger": 5780.26,
-      "target1": 6325.78,
-      "sl": 5366.4,
-      "rationale": "High Technical Score (32.0/100), 0.0% to Buy Trigger \u20b95,780.26 with Accumulation structure.",
-      "change_pct": 0.29
+      "change_pct": 5.28
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 05:31 AM",
+  "timestamp": "26 Nov 2026, 05:46 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25937.65,
-      "change_pct": 0.46,
+      "price": 25942.45,
+      "change_pct": 0.48,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84425.3,
-      "change_pct": 0.58,
+      "price": 84443.04,
+      "change_pct": 0.6,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.44,
-      "change_pct": 0.91,
+      "price": 84.35,
+      "change_pct": 0.8,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.54,
-      "change_pct": -0.29,
+      "price": 92.64,
+      "change_pct": -0.18,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 126,
-    "declines": 47,
+    "advances": 121,
+    "declines": 51,
     "total": 175
   }
 }
