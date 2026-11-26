@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 25700,
-  "nifty_resistance": 26150,
+  "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $83.45.",
-    "Universe breadth shows 99 advancing vs 74 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,150."
+    "US Markets closed down 0.25% with Brent Crude hovering around $83.32.",
+    "Universe breadth shows 101 advancing vs 73 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3838.0,
+      "current_price": 3834.6,
       "trigger": 3781.55,
-      "target1": 4248.25,
-      "sl": 3542.62,
+      "target1": 4243.01,
+      "sl": 3540.55,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,781.55 with Accumulation structure.",
-      "change_pct": 7.66
+      "change_pct": 7.56
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1287.0,
+      "current_price": 1292.8,
       "trigger": 1260.52,
-      "target1": 1410.18,
-      "sl": 1198.31,
+      "target1": 1420.97,
+      "sl": 1200.52,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 8.12
+      "change_pct": 8.61
     },
     {
       "symbol": "HDFCBANK",
       "name": "HDFC Bank Ltd",
-      "current_price": 862.75,
+      "current_price": 861.45,
       "trigger": 861.42,
-      "target1": 955.36,
-      "sl": 796.07,
+      "target1": 953.38,
+      "sl": 795.26,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9861.42 with Accumulation structure.",
-      "change_pct": 1.96
+      "change_pct": 1.8
     }
   ],
-  "risk_warning": "Defensive alert on Bajaj Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Finance Ltd, Tata Communications due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 09:16 AM",
+  "timestamp": "26 Nov 2026, 09:31 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25927.5,
-      "change_pct": 0.42,
+      "price": 25904.9,
+      "change_pct": 0.33,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84106.85,
-      "change_pct": 0.2,
+      "price": 84386.09,
+      "change_pct": 0.53,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.45,
-      "change_pct": -0.27,
+      "price": 83.32,
+      "change_pct": -0.43,
       "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.42,
-      "change_pct": -0.42,
+      "price": 92.41,
+      "change_pct": -0.43,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 99,
-    "declines": 74,
+    "advances": 101,
+    "declines": 73,
     "total": 175
   }
 };
