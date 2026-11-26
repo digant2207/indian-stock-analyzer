@@ -4,7 +4,7 @@
   "nifty_support": 25700,
   "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $83.59.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $83.71.",
     "Universe breadth shows 98 advancing vs 75 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
@@ -42,7 +42,7 @@
   ],
   "risk_warning": "Defensive alert on Bajaj Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 10:16 AM",
+  "timestamp": "26 Nov 2026, 10:31 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
@@ -71,9 +71,9 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.59,
-      "change_pct": -0.11,
-      "status": "down"
+      "price": 83.71,
+      "change_pct": 0.04,
+      "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
