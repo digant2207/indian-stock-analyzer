@@ -2,59 +2,59 @@ window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 25700,
-  "nifty_resistance": 26150,
+  "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $83.88.",
-    "Universe breadth shows 112 advancing vs 62 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,150."
+    "US Markets closed down 0.25% with Brent Crude hovering around $83.90.",
+    "Universe breadth shows 107 advancing vs 66 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
     {
-      "symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "current_price": 1275.0,
-      "trigger": 1260.52,
-      "target1": 1388.02,
-      "sl": 1193.62,
-      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 7.11
-    },
-    {
       "symbol": "METROPOLIS",
       "name": "Metropolis Healthcare",
-      "current_price": 596.0,
+      "current_price": 599.45,
       "trigger": 591.14,
-      "target1": 631.73,
-      "sl": 570.27,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9591.14 with Accumulation structure.",
-      "change_pct": 5.9
+      "target1": 637.67,
+      "sl": 571.93,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9591.14 with Accumulation structure.",
+      "change_pct": 6.51
+    },
+    {
+      "symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "current_price": 1279.25,
+      "trigger": 1260.52,
+      "target1": 1395.84,
+      "sl": 1195.31,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
+      "change_pct": 7.47
     },
     {
       "symbol": "VMM",
       "name": "Vishal Mega Mart Ltd",
-      "current_price": 97.0,
+      "current_price": 97.01,
       "trigger": 98.02,
-      "target1": 104.92,
+      "target1": 104.93,
       "sl": 91.3,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b998.02 with Accumulation structure.",
-      "change_pct": 2.65
+      "change_pct": 2.66
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 07:01 AM",
+  "timestamp": "26 Nov 2026, 07:16 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25921.4,
-      "change_pct": 0.4,
+      "price": 25909.8,
+      "change_pct": 0.35,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84423.03,
-      "change_pct": 0.58,
+      "price": 84366.77,
+      "change_pct": 0.51,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.88,
-      "change_pct": 0.24,
+      "price": 83.9,
+      "change_pct": 0.26,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.46,
-      "change_pct": -0.37,
+      "price": 92.48,
+      "change_pct": -0.35,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 112,
-    "declines": 62,
+    "advances": 107,
+    "declines": 66,
     "total": 175
   }
 };
