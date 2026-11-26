@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25600,
-  "nifty_resistance": 26000,
+  "nifty_support": 25650,
+  "nifty_resistance": 26050,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $83.88.",
-    "Universe breadth shows 88 advancing vs 84 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
+    "US Markets closed down 0.25% with Brent Crude hovering around $83.86.",
+    "Universe breadth shows 96 advancing vs 78 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,650 | Resistance cap at 26,050."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1284.0,
+      "current_price": 1286.8,
       "trigger": 1260.52,
-      "target1": 1404.61,
-      "sl": 1197.16,
+      "target1": 1409.81,
+      "sl": 1198.24,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 7.87
+      "change_pct": 8.1
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3835.0,
+      "current_price": 3838.5,
       "trigger": 3781.55,
-      "target1": 4243.62,
-      "sl": 3540.79,
+      "target1": 4249.02,
+      "sl": 3542.93,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,781.55 with Accumulation structure.",
-      "change_pct": 7.57
+      "change_pct": 7.67
     },
     {
       "symbol": "METROPOLIS",
       "name": "Metropolis Healthcare",
-      "current_price": 579.85,
+      "current_price": 579.95,
       "trigger": 591.14,
-      "target1": 604.36,
-      "sl": 562.2,
+      "target1": 604.5,
+      "sl": 562.27,
       "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9591.14 with Accumulation structure.",
-      "change_pct": 2.3
+      "change_pct": 2.32
     }
   ],
   "risk_warning": "Defensive alert on Bajaj Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 08:46 AM",
+  "timestamp": "26 Nov 2026, 09:01 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25785.2,
-      "change_pct": -0.13,
-      "status": "down"
+      "price": 25847.15,
+      "change_pct": 0.11,
+      "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83877.23,
-      "change_pct": -0.07,
+      "price": 83887.59,
+      "change_pct": -0.06,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.88,
-      "change_pct": 0.24,
+      "price": 83.86,
+      "change_pct": 0.22,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.45,
-      "change_pct": -0.38,
+      "price": 92.44,
+      "change_pct": -0.4,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 88,
-    "declines": 84,
+    "advances": 96,
+    "declines": 78,
     "total": 175
   }
 };
