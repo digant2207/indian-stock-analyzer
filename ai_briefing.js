@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "BULLISH BIAS",
   "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
-  "nifty_support": 25700,
+  "nifty_support": 25650,
   "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $84.52.",
-    "Universe breadth shows 118 advancing vs 56 declining stocks across 175 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
+    "US Markets closed down 0.25% with Brent Crude hovering around $84.38.",
+    "Universe breadth shows 117 advancing vs 57 declining stocks across 175 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,650 | Resistance cap at 26,100."
   ],
   "top_setups": [
     {
+      "symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "current_price": 1236.0,
+      "trigger": 1260.52,
+      "target1": 1318.68,
+      "sl": 1176.47,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
+      "change_pct": 3.84
+    },
+    {
+      "symbol": "VMM",
+      "name": "Vishal Mega Mart Ltd",
+      "current_price": 97.0,
+      "trigger": 98.02,
+      "target1": 104.92,
+      "sl": 91.3,
+      "rationale": "High Technical Score (31.0/100), 0.0% to Buy Trigger \u20b998.02 with Accumulation structure.",
+      "change_pct": 2.65
+    },
+    {
       "symbol": "PRESTIGE",
       "name": "Prestige Estates Projects",
-      "current_price": 1754.7,
+      "current_price": 1752.0,
       "trigger": 1707.51,
-      "target1": 1895.25,
-      "sl": 1653.5,
+      "target1": 1890.8,
+      "sl": 1652.06,
       "rationale": "High Technical Score (44.0/100), 0.0% to Buy Trigger \u20b91,707.51 with Accumulation structure.",
-      "change_pct": 4.13
-    },
-    {
-      "symbol": "MCX",
-      "name": "Multi Commodity Exchange",
-      "current_price": 3787.5,
-      "trigger": 3781.55,
-      "target1": 4172.38,
-      "sl": 3510.39,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,781.55 with Accumulation structure.",
-      "change_pct": 6.24
-    },
-    {
-      "symbol": "METROPOLIS",
-      "name": "Metropolis Healthcare",
-      "current_price": 585.85,
-      "trigger": 591.14,
-      "target1": 615.25,
-      "sl": 564.68,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9591.14 with Accumulation structure.",
-      "change_pct": 4.1
+      "change_pct": 3.97
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 06:01 AM",
+  "timestamp": "26 Nov 2026, 06:16 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25905.9,
-      "change_pct": 0.34,
+      "price": 25879.4,
+      "change_pct": 0.23,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84412.08,
-      "change_pct": 0.56,
+      "price": 84306.93,
+      "change_pct": 0.44,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.52,
-      "change_pct": 1.0,
+      "price": 84.38,
+      "change_pct": 0.84,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
       "price": 92.56,
-      "change_pct": -0.26,
+      "change_pct": -0.27,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 118,
-    "declines": 56,
+    "advances": 117,
+    "declines": 57,
     "total": 175
   }
 };
