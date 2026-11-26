@@ -4,11 +4,21 @@
   "nifty_support": 25700,
   "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $84.72.",
-    "Universe breadth shows 98 advancing vs 75 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $84.54.",
+    "Universe breadth shows 99 advancing vs 75 declining stocks across 176 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
+    {
+      "symbol": "SHAILY",
+      "name": "Shaily Engineering Plastics Ltd",
+      "current_price": 3379.6,
+      "trigger": 3251.49,
+      "target1": 3763.28,
+      "sl": 3103.35,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,251.49 with Accumulation structure.",
+      "change_pct": 16.33
+    },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
@@ -28,21 +38,11 @@
       "sl": 1201.34,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
       "change_pct": 8.79
-    },
-    {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 862.0,
-      "trigger": 861.42,
-      "target1": 954.22,
-      "sl": 795.6,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9861.42 with Accumulation structure.",
-      "change_pct": 1.87
     }
   ],
   "risk_warning": "Defensive alert on Bajaj Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 01:03 PM",
+  "timestamp": "26 Nov 2026, 01:28 PM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.72,
-      "change_pct": 1.24,
+      "price": 84.54,
+      "change_pct": 1.03,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 98,
+    "advances": 99,
     "declines": 75,
-    "total": 175
+    "total": 176
   }
 }
