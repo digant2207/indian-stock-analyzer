@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25700,
   "nifty_resistance": 26100,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $83.90.",
-    "Universe breadth shows 107 advancing vs 66 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $83.69.",
+    "Universe breadth shows 103 advancing vs 71 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
   ],
   "top_setups": [
     {
       "symbol": "METROPOLIS",
       "name": "Metropolis Healthcare",
-      "current_price": 599.45,
+      "current_price": 602.85,
       "trigger": 591.14,
-      "target1": 637.67,
-      "sl": 571.93,
+      "target1": 643.64,
+      "sl": 573.48,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b9591.14 with Accumulation structure.",
-      "change_pct": 6.51
+      "change_pct": 7.12
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1279.25,
+      "current_price": 1280.8,
       "trigger": 1260.52,
-      "target1": 1395.84,
-      "sl": 1195.31,
+      "target1": 1398.7,
+      "sl": 1195.91,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 7.47
+      "change_pct": 7.6
     },
     {
       "symbol": "VMM",
       "name": "Vishal Mega Mart Ltd",
-      "current_price": 97.01,
+      "current_price": 96.82,
       "trigger": 98.02,
-      "target1": 104.93,
-      "sl": 91.3,
+      "target1": 104.67,
+      "sl": 91.17,
       "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b998.02 with Accumulation structure.",
-      "change_pct": 2.66
+      "change_pct": 2.46
     }
   ],
   "risk_warning": "Defensive alert on PNB Gilts Ltd, Bajaj Finance Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 07:16 AM",
+  "timestamp": "26 Nov 2026, 07:31 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25909.8,
-      "change_pct": 0.35,
+      "price": 25889.3,
+      "change_pct": 0.27,
       "status": "up"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84366.77,
-      "change_pct": 0.51,
+      "price": 84328.67,
+      "change_pct": 0.47,
       "status": "up"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 83.9,
-      "change_pct": 0.26,
+      "price": 83.69,
+      "change_pct": 0.01,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.48,
-      "change_pct": -0.35,
+      "price": 92.47,
+      "change_pct": -0.36,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 107,
-    "declines": 66,
+    "advances": 103,
+    "declines": 71,
     "total": 175
   }
 };
