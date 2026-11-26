@@ -4,58 +4,58 @@
   "nifty_support": 25600,
   "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $84.10.",
-    "Universe breadth shows 83 advancing vs 91 declining stocks across 175 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $83.88.",
+    "Universe breadth shows 88 advancing vs 84 declining stocks across 175 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1279.0,
+      "current_price": 1284.0,
       "trigger": 1260.52,
-      "target1": 1395.38,
-      "sl": 1195.21,
+      "target1": 1404.61,
+      "sl": 1197.16,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 7.45
+      "change_pct": 7.87
     },
     {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3829.7,
+      "current_price": 3835.0,
       "trigger": 3781.55,
-      "target1": 4235.48,
-      "sl": 3537.54,
+      "target1": 4243.62,
+      "sl": 3540.79,
       "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,781.55 with Accumulation structure.",
-      "change_pct": 7.42
+      "change_pct": 7.57
     },
     {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 861.1,
-      "trigger": 861.42,
-      "target1": 952.85,
-      "sl": 795.04,
-      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9861.42 with Accumulation structure.",
-      "change_pct": 1.76
+      "symbol": "METROPOLIS",
+      "name": "Metropolis Healthcare",
+      "current_price": 579.85,
+      "trigger": 591.14,
+      "target1": 604.36,
+      "sl": 562.2,
+      "rationale": "High Technical Score (42.0/100), 0.0% to Buy Trigger \u20b9591.14 with Accumulation structure.",
+      "change_pct": 2.3
     }
   ],
-  "risk_warning": "Defensive alert on PNB Gilts Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Bajaj Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "26 Nov 2026, 08:31 AM",
+  "timestamp": "26 Nov 2026, 08:46 AM",
   "date_tag": "2026-11-26",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25788.65,
-      "change_pct": -0.12,
+      "price": 25785.2,
+      "change_pct": -0.13,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84119.85,
-      "change_pct": 0.22,
-      "status": "up"
+      "price": 83877.23,
+      "change_pct": -0.07,
+      "status": "down"
     },
     "S&P 500": {
       "symbol": "^GSPC",
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.1,
-      "change_pct": 0.5,
+      "price": 83.88,
+      "change_pct": 0.24,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.48,
-      "change_pct": -0.35,
+      "price": 92.45,
+      "change_pct": -0.38,
       "status": "down"
     }
   },
   "market_breadth": {
-    "advances": 83,
-    "declines": 91,
+    "advances": 88,
+    "declines": 84,
     "total": 175
   }
 }
