@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25400,
   "nifty_resistance": 25800,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $85.82.",
-    "Universe breadth shows 107 advancing vs 71 declining stocks across 179 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $85.92.",
+    "Universe breadth shows 109 advancing vs 69 declining stocks across 179 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,400 | Resistance cap at 25,800."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1326.85,
+      "current_price": 1326.25,
       "trigger": 1301.6,
-      "target1": 1505.65,
-      "sl": 1198.11,
+      "target1": 1504.61,
+      "sl": 1197.83,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,301.60 with Accumulation structure.",
-      "change_pct": 2.46
+      "change_pct": 2.41
     },
     {
       "symbol": "HAL",
       "name": "Hindustan Aeronautics Ltd",
-      "current_price": 5075.0,
+      "current_price": 5074.0,
       "trigger": 5129.24,
-      "target1": 5494.09,
-      "sl": 4773.26,
+      "target1": 5492.57,
+      "sl": 4772.63,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b95,129.24 with Accumulation structure.",
-      "change_pct": 3.37
+      "change_pct": 3.35
     },
     {
       "symbol": "CDSL",
       "name": "Central Depository Services",
-      "current_price": 1452.9,
+      "current_price": 1453.0,
       "trigger": 1487.77,
-      "target1": 1583.08,
-      "sl": 1359.17,
+      "target1": 1583.21,
+      "sl": 1359.25,
       "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,487.77 with Accumulation structure.",
       "change_pct": 0.83
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Nov 2026, 09:45 AM",
+  "timestamp": "27 Nov 2026, 10:01 AM",
   "date_tag": "2026-11-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25593.85,
-      "change_pct": -1.12,
+      "price": 25607.2,
+      "change_pct": -1.07,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83404.8,
-      "change_pct": -1.1,
+      "price": 83306.42,
+      "change_pct": -1.21,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.82,
-      "change_pct": 2.56,
+      "price": 85.92,
+      "change_pct": 2.68,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.98,
-      "change_pct": 0.8,
+      "price": 92.99,
+      "change_pct": 0.82,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 107,
-    "declines": 71,
+    "advances": 109,
+    "declines": 69,
     "total": 179
   }
 };
