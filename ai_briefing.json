@@ -1,60 +1,60 @@
 {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25450,
-  "nifty_resistance": 25850,
+  "nifty_support": 25500,
+  "nifty_resistance": 25900,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $86.29.",
-    "Universe breadth shows 115 advancing vs 63 declining stocks across 179 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,450 | Resistance cap at 25,850."
+    "US Markets closed down 0.25% with Brent Crude hovering around $86.19.",
+    "Universe breadth shows 122 advancing vs 56 declining stocks across 179 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,900."
   ],
   "top_setups": [
     {
       "symbol": "SHAILY",
       "name": "Shaily Engineering Plastics Ltd",
-      "current_price": 3311.0,
+      "current_price": 3322.2,
       "trigger": 3251.49,
-      "target1": 3647.26,
-      "sl": 3068.89,
+      "target1": 3665.78,
+      "sl": 3074.82,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,251.49 with Accumulation structure.",
-      "change_pct": 13.97
+      "change_pct": 14.36
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1320.2,
+      "current_price": 1321.8,
       "trigger": 1260.52,
-      "target1": 1472.54,
-      "sl": 1210.52,
+      "target1": 1475.57,
+      "sl": 1211.08,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 10.91
+      "change_pct": 11.04
     },
     {
       "symbol": "HAL",
       "name": "Hindustan Aeronautics Ltd",
-      "current_price": 5097.3,
+      "current_price": 5114.0,
       "trigger": 5129.24,
-      "target1": 5528.26,
-      "sl": 4787.01,
+      "target1": 5554.33,
+      "sl": 4796.96,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b95,129.24 with Accumulation structure.",
-      "change_pct": 3.82
+      "change_pct": 4.16
     }
   ],
   "risk_warning": "Defensive alert on Poonawalla Fincorp, SBI Cards and Payment Services Ltd due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Nov 2026, 08:01 AM",
+  "timestamp": "27 Nov 2026, 08:16 AM",
   "date_tag": "2026-11-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25646.4,
-      "change_pct": -0.92,
+      "price": 25704.4,
+      "change_pct": -0.7,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83554.07,
-      "change_pct": -0.92,
+      "price": 83461.21,
+      "change_pct": -1.03,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 86.29,
-      "change_pct": 3.12,
+      "price": 86.19,
+      "change_pct": 3.0,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.85,
-      "change_pct": 0.66,
+      "price": 92.83,
+      "change_pct": 0.64,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 115,
-    "declines": 63,
+    "advances": 122,
+    "declines": 56,
     "total": 179
   }
 }
