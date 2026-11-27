@@ -4,57 +4,57 @@ window.AI_BRIEFING = {
   "nifty_support": 25650,
   "nifty_resistance": 26050,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $85.75.",
-    "Universe breadth shows 143 advancing vs 36 declining stocks across 179 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $85.74.",
+    "Universe breadth shows 133 advancing vs 44 declining stocks across 179 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,650 | Resistance cap at 26,050."
   ],
   "top_setups": [
     {
-      "symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "current_price": 1297.15,
-      "trigger": 1260.52,
-      "target1": 1429.1,
-      "sl": 1202.15,
-      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 8.97
-    },
-    {
       "symbol": "SHAILY",
       "name": "Shaily Engineering Plastics Ltd",
-      "current_price": 3305.4,
+      "current_price": 3365.0,
       "trigger": 3251.49,
-      "target1": 3638.07,
-      "sl": 3065.87,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b93,251.49 with Accumulation structure.",
-      "change_pct": 13.78
+      "target1": 3738.11,
+      "sl": 3096.36,
+      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,251.49 with Accumulation structure.",
+      "change_pct": 15.83
     },
     {
-      "symbol": "METROPOLIS",
-      "name": "Metropolis Healthcare",
-      "current_price": 583.0,
-      "trigger": 591.14,
-      "target1": 609.06,
-      "sl": 564.24,
-      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b9591.14 with Accumulation structure.",
-      "change_pct": 2.86
+      "symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "current_price": 1322.9,
+      "trigger": 1260.52,
+      "target1": 1477.66,
+      "sl": 1211.47,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
+      "change_pct": 11.14
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "name": "IDFC First Bank Ltd",
+      "current_price": 88.37,
+      "trigger": 88.36,
+      "target1": 101.86,
+      "sl": 78.65,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b988.36 with Accumulation structure.",
+      "change_pct": 1.91
     }
   ],
   "risk_warning": "Defensive alert on Happiest Minds Technologies Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Nov 2026, 04:16 AM",
+  "timestamp": "27 Nov 2026, 04:31 AM",
   "date_tag": "2026-11-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25863.15,
-      "change_pct": -0.08,
+      "price": 25846.55,
+      "change_pct": -0.15,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83980.48,
-      "change_pct": -0.41,
+      "price": 84132.99,
+      "change_pct": -0.23,
       "status": "down"
     },
     "S&P 500": {
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.75,
-      "change_pct": 2.47,
+      "price": 85.74,
+      "change_pct": 2.46,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.61,
-      "change_pct": 0.4,
+      "price": 92.67,
+      "change_pct": 0.47,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 143,
-    "declines": 36,
+    "advances": 133,
+    "declines": 44,
     "total": 179
   }
 };
