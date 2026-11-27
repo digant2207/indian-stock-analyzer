@@ -4,7 +4,7 @@ window.AI_BRIEFING = {
   "nifty_support": 25400,
   "nifty_resistance": 25800,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $85.78.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $85.54.",
     "Universe breadth shows 111 advancing vs 68 declining stocks across 179 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,400 | Resistance cap at 25,800."
   ],
@@ -42,7 +42,7 @@ window.AI_BRIEFING = {
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Nov 2026, 10:46 AM",
+  "timestamp": "27 Nov 2026, 11:01 AM",
   "date_tag": "2026-11-27",
   "global_cues": {
     "Nifty 50": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.78,
-      "change_pct": 2.51,
+      "price": 85.54,
+      "change_pct": 2.22,
       "status": "up"
     },
     "USD/INR": {
