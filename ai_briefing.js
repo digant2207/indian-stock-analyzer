@@ -1,55 +1,55 @@
 window.AI_BRIEFING = {
-  "stance": "DEFENSIVE CAUTION",
-  "stance_summary": "Subdued global sentiment or elevated crude prices warrant tighter stop losses and selective stock picking.",
-  "nifty_support": 25700,
-  "nifty_resistance": 26100,
+  "stance": "RANGEBOUND NEUTRAL",
+  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "nifty_support": 25650,
+  "nifty_resistance": 26050,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $85.86.",
-    "Universe breadth shows 89 advancing vs 90 declining stocks across 179 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,700 | Resistance cap at 26,100."
+    "US Markets closed down 0.25% with Brent Crude hovering around $85.70.",
+    "Universe breadth shows 124 advancing vs 54 declining stocks across 179 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,650 | Resistance cap at 26,050."
   ],
   "top_setups": [
     {
+      "symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "current_price": 1296.7,
+      "trigger": 1260.52,
+      "target1": 1428.26,
+      "sl": 1201.98,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
+      "change_pct": 8.93
+    },
+    {
       "symbol": "MCX",
       "name": "Multi Commodity Exchange",
-      "current_price": 3835.0,
-      "trigger": 3781.55,
-      "target1": 4243.62,
-      "sl": 3540.79,
-      "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,781.55 with Accumulation structure.",
-      "change_pct": 7.57
+      "current_price": 3856.5,
+      "trigger": 3872.73,
+      "target1": 4237.98,
+      "sl": 3581.83,
+      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b93,872.73 with Accumulation structure.",
+      "change_pct": 0.56
     },
     {
-      "symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
-      "current_price": 862.0,
-      "trigger": 861.42,
-      "target1": 954.22,
-      "sl": 795.6,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9861.42 with Accumulation structure.",
-      "change_pct": 1.87
-    },
-    {
-      "symbol": "VMM",
-      "name": "Vishal Mega Mart Ltd",
-      "current_price": 96.05,
-      "trigger": 98.02,
-      "target1": 103.03,
-      "sl": 91.03,
-      "rationale": "High Technical Score (35.0/100), 0.0% to Buy Trigger \u20b998.02 with Accumulation structure.",
-      "change_pct": 1.32
+      "symbol": "SHAILY",
+      "name": "Shaily Engineering Plastics Ltd",
+      "current_price": 3304.2,
+      "trigger": 3251.49,
+      "target1": 3636.11,
+      "sl": 3065.22,
+      "rationale": "High Technical Score (38.0/100), 0.0% to Buy Trigger \u20b93,251.49 with Accumulation structure.",
+      "change_pct": 13.74
     }
   ],
-  "risk_warning": "Defensive alert on Bajaj Finance Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
+  "risk_warning": "Defensive alert on Kokuyo Camlin Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Nov 2026, 03:31 AM",
+  "timestamp": "27 Nov 2026, 03:46 AM",
   "date_tag": "2026-11-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25884.5,
-      "change_pct": 0.25,
-      "status": "up"
+      "price": 25867.95,
+      "change_pct": -0.06,
+      "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
@@ -71,20 +71,20 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.86,
-      "change_pct": 2.61,
+      "price": 85.7,
+      "change_pct": 2.41,
       "status": "up"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.51,
-      "change_pct": 0.3,
+      "price": 92.57,
+      "change_pct": 0.36,
       "status": "up"
     }
   },
   "market_breadth": {
-    "advances": 89,
-    "declines": 90,
+    "advances": 124,
+    "declines": 54,
     "total": 179
   }
 };
