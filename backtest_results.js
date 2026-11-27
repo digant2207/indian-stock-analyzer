@@ -96,7 +96,7 @@ window.backtestData = {
       "symbol": "BBL.NS",
       "total_trades": 10,
       "win_rate": 20.0,
-      "avg_return": -4.17,
+      "avg_return": -4.18,
       "total_wins": 2,
       "total_losses": 8
     },
