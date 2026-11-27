@@ -4,57 +4,57 @@
   "nifty_support": 25600,
   "nifty_resistance": 26000,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $85.79.",
-    "Universe breadth shows 132 advancing vs 45 declining stocks across 179 scanned equities.",
+    "US Markets closed down 0.25% with Brent Crude hovering around $85.81.",
+    "Universe breadth shows 134 advancing vs 44 declining stocks across 179 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,600 | Resistance cap at 26,000."
   ],
   "top_setups": [
     {
       "symbol": "SHAILY",
       "name": "Shaily Engineering Plastics Ltd",
-      "current_price": 3359.5,
+      "current_price": 3340.1,
       "trigger": 3251.49,
-      "target1": 3728.69,
-      "sl": 3093.68,
+      "target1": 3695.74,
+      "sl": 3084.04,
       "rationale": "High Technical Score (50.0/100), 0.0% to Buy Trigger \u20b93,251.49 with Accumulation structure.",
-      "change_pct": 15.64
+      "change_pct": 14.97
     },
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1323.35,
+      "current_price": 1321.6,
       "trigger": 1260.52,
-      "target1": 1478.51,
-      "sl": 1211.63,
+      "target1": 1475.19,
+      "sl": 1211.01,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,260.52 with Accumulation structure.",
-      "change_pct": 11.17
+      "change_pct": 11.03
     },
     {
-      "symbol": "MAZDOCK",
-      "name": "Mazagon Dock Shipbuilders Ltd",
-      "current_price": 1912.8,
-      "trigger": 1931.15,
-      "target1": 2048.76,
-      "sl": 1814.91,
-      "rationale": "High Technical Score (24.0/100), 0.0% to Buy Trigger \u20b91,931.15 with Accumulation structure.",
-      "change_pct": 5.27
+      "symbol": "HAL",
+      "name": "Hindustan Aeronautics Ltd",
+      "current_price": 5137.7,
+      "trigger": 5129.24,
+      "target1": 5591.98,
+      "sl": 4810.62,
+      "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b95,129.24 with Accumulation structure.",
+      "change_pct": 4.65
     }
   ],
   "risk_warning": "Defensive alert on Happiest Minds Technologies Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Nov 2026, 05:01 AM",
+  "timestamp": "27 Nov 2026, 05:15 AM",
   "date_tag": "2026-11-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25783.65,
-      "change_pct": -0.39,
+      "price": 25797.4,
+      "change_pct": -0.34,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 84133.63,
-      "change_pct": -0.23,
+      "price": 83921.03,
+      "change_pct": -0.48,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.79,
-      "change_pct": 2.52,
+      "price": 85.81,
+      "change_pct": 2.55,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@
     }
   },
   "market_breadth": {
-    "advances": 132,
-    "declines": 45,
+    "advances": 134,
+    "declines": 44,
     "total": 179
   }
 }
