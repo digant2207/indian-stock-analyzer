@@ -1,60 +1,60 @@
 window.AI_BRIEFING = {
   "stance": "RANGEBOUND NEUTRAL",
   "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
-  "nifty_support": 25500,
+  "nifty_support": 25450,
   "nifty_resistance": 25900,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $85.98.",
-    "Universe breadth shows 117 advancing vs 62 declining stocks across 179 scanned equities.",
-    "Nifty 50 key pivot levels: Immediate Support at 25,500 | Resistance cap at 25,900."
+    "US Markets closed down 0.25% with Brent Crude hovering around $85.79.",
+    "Universe breadth shows 119 advancing vs 58 declining stocks across 179 scanned equities.",
+    "Nifty 50 key pivot levels: Immediate Support at 25,450 | Resistance cap at 25,900."
   ],
   "top_setups": [
     {
       "symbol": "ACE",
       "name": "Action Construction Equipment Ltd",
-      "current_price": 1323.4,
+      "current_price": 1325.7,
       "trigger": 1301.6,
-      "target1": 1499.69,
-      "sl": 1196.47,
+      "target1": 1503.66,
+      "sl": 1197.57,
       "rationale": "High Technical Score (43.0/100), 0.0% to Buy Trigger \u20b91,301.60 with Accumulation structure.",
-      "change_pct": 2.19
+      "change_pct": 2.37
     },
     {
       "symbol": "HAL",
       "name": "Hindustan Aeronautics Ltd",
-      "current_price": 5092.0,
+      "current_price": 5095.0,
       "trigger": 5129.24,
-      "target1": 5520.07,
-      "sl": 4783.79,
+      "target1": 5524.7,
+      "sl": 4785.62,
       "rationale": "High Technical Score (47.0/100), 0.0% to Buy Trigger \u20b95,129.24 with Accumulation structure.",
-      "change_pct": 3.72
+      "change_pct": 3.78
     },
     {
-      "symbol": "ANGELONE",
-      "name": "Angel One Ltd",
-      "current_price": 380.0,
-      "trigger": 379.91,
-      "target1": 424.22,
-      "sl": 348.16,
-      "rationale": "High Technical Score (46.0/100), 0.0% to Buy Trigger \u20b9379.91 with Accumulation structure.",
-      "change_pct": 6.15
+      "symbol": "CDSL",
+      "name": "Central Depository Services",
+      "current_price": 1463.4,
+      "trigger": 1487.77,
+      "target1": 1596.82,
+      "sl": 1367.34,
+      "rationale": "High Technical Score (39.0/100), 0.0% to Buy Trigger \u20b91,487.77 with Accumulation structure.",
+      "change_pct": 1.55
     }
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Nov 2026, 08:46 AM",
+  "timestamp": "27 Nov 2026, 09:01 AM",
   "date_tag": "2026-11-27",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
-      "price": 25680.5,
-      "change_pct": -0.79,
+      "price": 25672.25,
+      "change_pct": -0.82,
       "status": "down"
     },
     "Sensex": {
       "symbol": "^BSESN",
-      "price": 83541.2,
-      "change_pct": -0.93,
+      "price": 83601.17,
+      "change_pct": -0.86,
       "status": "down"
     },
     "S&P 500": {
@@ -71,8 +71,8 @@ window.AI_BRIEFING = {
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 85.98,
-      "change_pct": 2.75,
+      "price": 85.79,
+      "change_pct": 2.52,
       "status": "up"
     },
     "USD/INR": {
@@ -83,8 +83,8 @@ window.AI_BRIEFING = {
     }
   },
   "market_breadth": {
-    "advances": 117,
-    "declines": 62,
+    "advances": 119,
+    "declines": 58,
     "total": 179
   }
 };
