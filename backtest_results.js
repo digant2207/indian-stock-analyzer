@@ -1,8 +1,8 @@
 window.backtestData = {
   "strategy_name": "20-Day Range Breakout & Volume Expansion",
   "tested_symbols_count": 22,
-  "overall_win_rate": 25.2,
-  "overall_avg_return_per_trade": -2.58,
+  "overall_win_rate": 24.8,
+  "overall_avg_return_per_trade": 0.0,
   "symbol_details": [
     {
       "symbol": "ACE.NS",
@@ -95,10 +95,10 @@ window.backtestData = {
     {
       "symbol": "BBL.NS",
       "total_trades": 11,
-      "win_rate": 18.2,
-      "avg_return": -4.4,
-      "total_wins": 2,
-      "total_losses": 9
+      "win_rate": 9.1,
+      "avg_return": 0.0,
+      "total_wins": 1,
+      "total_losses": 10
     },
     {
       "symbol": "BHARATCOAL.NS",
