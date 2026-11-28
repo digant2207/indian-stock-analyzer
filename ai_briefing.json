@@ -1,10 +1,10 @@
 {
-  "stance": "RANGEBOUND NEUTRAL",
-  "stance_summary": "Mixed global cues point to rangebound consolidation; focus strictly on volume-backed individual breakouts.",
+  "stance": "BULLISH BIAS",
+  "stance_summary": "Positive global handover and favorable crude cues indicate opening strength and dip-buying momentum.",
   "nifty_support": 25400,
   "nifty_resistance": 25800,
   "executive_bullets": [
-    "US Markets closed down 0.25% with Brent Crude hovering around $84.74.",
+    "US Markets closed up 1.60% with Brent Crude hovering around $83.08.",
     "Universe breadth shows 111 advancing vs 68 declining stocks across 179 scanned equities.",
     "Nifty 50 key pivot levels: Immediate Support at 25,400 | Resistance cap at 25,800."
   ],
@@ -42,8 +42,8 @@
   ],
   "risk_warning": "Defensive alert on SBI Cards and Payment Services Ltd, Poonawalla Fincorp due to breakdown below support or elevated debt ratios.",
   "engine": "Institutional Quant Engine",
-  "timestamp": "27 Nov 2026, 01:49 PM",
-  "date_tag": "2026-11-27",
+  "timestamp": "28 Nov 2026, 10:42 AM",
+  "date_tag": "2026-11-28",
   "global_cues": {
     "Nifty 50": {
       "symbol": "^NSEI",
@@ -59,26 +59,26 @@
     },
     "S&P 500": {
       "symbol": "^GSPC",
-      "price": 7182.78,
-      "change_pct": -0.25,
-      "status": "down"
+      "price": 7297.49,
+      "change_pct": 1.6,
+      "status": "up"
     },
     "Nasdaq": {
       "symbol": "^IXIC",
-      "price": 23585.8,
-      "change_pct": -0.62,
-      "status": "down"
+      "price": 24129.5,
+      "change_pct": 2.31,
+      "status": "up"
     },
     "Brent Crude": {
       "symbol": "CL=F",
-      "price": 84.74,
-      "change_pct": 1.27,
-      "status": "up"
+      "price": 83.08,
+      "change_pct": -0.72,
+      "status": "down"
     },
     "USD/INR": {
       "symbol": "INR=X",
-      "price": 92.87,
-      "change_pct": 0.69,
+      "price": 92.99,
+      "change_pct": 0.58,
       "status": "up"
     }
   },
